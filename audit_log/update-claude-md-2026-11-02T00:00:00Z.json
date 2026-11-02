@@ -1,0 +1,16 @@
+{
+  "skill": "update-claude-md",
+  "timestamp": "2026-11-02T00:00:00Z",
+  "findings": [
+    { "section": "API integrations", "action": "updated", "detail": "Fixed Google env var: GOOGLE_SERVICE_ACCOUNT_KEY → GOOGLE_APPLICATION_CREDENTIALS; added GOOGLE_CLOUD_PROJECT and GSC_SERVICE_ACCOUNT_EMAIL" },
+    { "section": "API integrations", "action": "updated", "detail": "Fixed Porkbun env var: PORKBUN_SECRET_KEY → PORKBUN_SECRET_API_KEY" },
+    { "section": "Repo layout", "action": "no_change", "detail": "Most directories (data/, research/, template/, sites/, workers/) don't exist yet — expected at Phase 1; layout is aspirational" },
+    { "section": "Skill conventions", "action": "no_change", "detail": "Only rr-smoke-test exists; other skills planned for later phases" },
+    { "section": "SEO standards", "action": "no_change", "detail": "All 4 reference files exist and match descriptions" },
+    { "section": "Git conventions", "action": "no_change", "detail": "Current branch phase-1/rr-smoke-test follows convention" }
+  ],
+  "flags": [
+    "BUSINESS_EMAIL env var exists in .env but is not documented in CLAUDE.md — may be needed by a future skill (rr-deploy or contact forms)",
+    "human-tasks/ directory exists in repo but is not listed in the repo layout section"
+  ]
+}
