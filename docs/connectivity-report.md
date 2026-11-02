@@ -13,27 +13,27 @@ Date: 2026-11-02
 | 5 | Cloudflare domain availability check | **PARTIAL** | Registrar API token works (list domains returns empty as expected). The domain availability check endpoint (`/registrar/domains/check`) is not available — the Registrar API beta does not expose this route. Domain availability will need an alternative method. |
 | 6 | Deploy hello-world to `pages.dev` | **PASS** | Project created, 1 file uploaded, deployed to `4c5e2c26.rr-smoke-test.pages.dev`. Project cleaned up after test. Note: `--force` flag needed for `pages project create` to use legacy Pages (new wrangler delegates to Workers by default). |
 | 7 | Twilio available number search (469, 972) | **PASS** | 469 area code: numbers available (e.g., (469) 871-7459, (469) 689-4814). 972 area code: 0 numbers in initial search — may need broader search or different sub-area. |
-| 8 | Google Search Console — list properties | **FAIL** | Service account key file not found at `~/.config/rank-rent/gsc-service-account.json`. The `GOOGLE_APPLICATION_CREDENTIALS` env var had a malformed double-assignment (fixed during testing). Key file needs to be downloaded from Google Cloud Console. |
-| 9 | Google Site Verification — dry run | **FAIL** | Same root cause as test 8 — no service account key file. |
+| 8 | Google Search Console — list properties | **PASS** | Service account OAuth token acquired; list properties returned empty (expected — no sites added yet). Key file: `rank-rent-513504-9da2b33a7595.json`. |
+| 9 | Google Site Verification — dry run | **PASS** | Returned DNS TXT verification token for test domain. Claude can retrieve tokens; operator clicks Verify once per site. |
 | 10 | Bing Webmaster API — list sites | **PASS** | API key accepted, returned empty site list (expected — no sites added yet). |
 | 11 | DataForSEO MCP connectivity | **PASS** | Tests 1–4 all used the MCP `api_request` tool directly, confirming the DataForSEO MCP server is configured and working. |
 
 ## Summary
 
-- **8 of 11 tests passed** (including 1 partial)
+- **10 of 11 tests passed** (including 1 partial)
 - **DataForSEO spend**: ~$0.12 (balance went from $51.00 to $50.88)
 - **Nothing purchased**: no domains, no phone numbers
 
 ## Action items
 
-1. **Google service account key** — Download `gsc-service-account.json` from Google Cloud Console (project `rank-rent-513504`, service account `rank-rent-search@rank-rent-513504.iam.gserviceaccount.com`) and place it at `~/.config/rank-rent/gsc-service-account.json`. Then re-run tests 8 and 9.
-2. **Cloudflare domain availability** — The Registrar API beta doesn't support availability checks. Options:
+1. **Cloudflare domain availability** — The Registrar API beta doesn't support availability checks. Options:
    - Use the WHOIS API or a third-party checker (DataForSEO has domain analytics)
    - Use Porkbun API as the availability checker, Cloudflare for purchase
    - Check via `whois` CLI as a simple fallback
-3. **Twilio 972 area code** — No numbers found in initial search. Try searching without area code filter using `InRegion=TX` and `InLocality=Dallas`, or use `NearNumber` parameter.
-4. **Wrangler Pages** — Use `--force` flag on `pages project create` to avoid the Workers delegation issue, or migrate to the new Workers-based Pages flow.
+2. **Twilio 972 area code** — No numbers found in initial search. Try searching without area code filter using `InRegion=TX` and `InLocality=Dallas`, or use `NearNumber` parameter.
+3. **Wrangler Pages** — Use `--force` flag on `pages project create` to avoid the Workers delegation issue, or migrate to the new Workers-based Pages flow.
 
-## Env file fix applied
+## Env file fixes applied
 
-Fixed `~/.config/rank-rent/.env` line 19: removed duplicate `GOOGLE_APPLICATION_CREDENTIALS=` prefix from the value.
+- Fixed `GOOGLE_APPLICATION_CREDENTIALS` double-assignment (`VAR=VAR=value` → `VAR=value`)
+- Updated filename from `gsc-service-account.json` to `rank-rent-513504-9da2b33a7595.json`
