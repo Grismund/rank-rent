@@ -36,7 +36,7 @@ Skills live at `.claude/skills/rr-<name>/SKILL.md`. The `rr-` prefix is mandator
 | Phase | Skills |
 |-------|--------|
 | 1 | `rr-smoke-test` |
-| 2 | `rr-discover`, `rr-validate`, `rr-teardown`, `rr-shortlist` |
+| 2 | `rr-volume-scan`, ~~`rr-discover`~~ (deprecated), `rr-validate`, `rr-teardown`, `rr-shortlist` |
 | 3 | `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` |
 | 4 | `rr-domains`, `rr-phone`, `rr-site-build`, `rr-content`, `rr-seo-audit` |
 | 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` |

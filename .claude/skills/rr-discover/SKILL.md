@@ -1,5 +1,7 @@
 # rr-discover
 
+> **DEPRECATED:** Superseded by `rr-volume-scan` (city mode). This skill wrote candidates without volume data, causing artificial walk_away rates in rr-validate. Use `rr-volume-scan` with target cities instead.
+
 **Purpose:** Generate niche × town candidate pairs for a target metro region and write them to `data/candidates.csv`.
 
 ## Inputs

@@ -6,6 +6,10 @@ import {
   isLicensedTrade,
   parseCandidatesCsv,
   serializeCandidatesCsv,
+  extractNicheFromKeyword,
+  normalizeNiche,
+  isServiceKeyword,
+  clusterNiches,
 } from '../lib/candidates.js'
 
 describe('generateSlug', () => {
@@ -130,5 +134,230 @@ house-cleaning-mckinney,house cleaning,McKinney,DFW,house cleaning McKinney,hous
     const csv = serializeCandidatesCsv(rows)
     expect(csv.startsWith('slug,niche,')).toBe(true)
     expect(csv).toContain('test-slug')
+  })
+})
+
+describe('extractNicheFromKeyword', () => {
+  it('extracts service from keyword with city', () => {
+    expect(extractNicheFromKeyword('junk removal houston')).toBe('junk removal')
+  })
+
+  it('extracts service from keyword with city and state', () => {
+    expect(extractNicheFromKeyword('pressure washing dallas tx')).toBe('pressure washing')
+  })
+
+  it('extracts service from keyword with "near me"', () => {
+    expect(extractNicheFromKeyword('fence installation near me')).toBe('fence installation')
+  })
+
+  it('extracts service from keyword with "in city"', () => {
+    expect(extractNicheFromKeyword('tree removal in abilene')).toBe('tree removal')
+  })
+
+  it('handles multi-word city names', () => {
+    expect(extractNicheFromKeyword('deck staining fort worth tx')).toBe('deck staining')
+  })
+
+  it('returns the whole keyword when no city/location found', () => {
+    expect(extractNicheFromKeyword('concrete leveling')).toBe('concrete leveling')
+  })
+
+  it('strips "services" suffix', () => {
+    expect(extractNicheFromKeyword('cleaning services dallas')).toBe('cleaning')
+  })
+
+  it('strips "company" and "companies" suffixes', () => {
+    expect(extractNicheFromKeyword('roofing company near me')).toBe('roofing')
+    expect(extractNicheFromKeyword('roofing companies near me')).toBe('roofing')
+  })
+
+  it('strips "cost" and "prices" suffixes', () => {
+    expect(extractNicheFromKeyword('junk removal cost')).toBe('junk removal')
+    expect(extractNicheFromKeyword('pressure washing prices')).toBe('pressure washing')
+  })
+
+  it('handles explicit city parameter', () => {
+    expect(extractNicheFromKeyword('junk removal houston tx', 'houston')).toBe('junk removal')
+  })
+
+  it('lowercases the result', () => {
+    expect(extractNicheFromKeyword('Junk Removal Houston')).toBe('junk removal')
+  })
+
+  it('trims whitespace', () => {
+    expect(extractNicheFromKeyword('  junk removal  houston  ')).toBe('junk removal')
+  })
+})
+
+describe('normalizeNiche', () => {
+  it('returns canonical form for known synonyms', () => {
+    expect(normalizeNiche('concrete lifting')).toBe('concrete leveling')
+    expect(normalizeNiche('mudjacking')).toBe('concrete leveling')
+    expect(normalizeNiche('slab jacking')).toBe('concrete leveling')
+  })
+
+  it('collapses power washing to pressure washing', () => {
+    expect(normalizeNiche('power washing')).toBe('pressure washing')
+  })
+
+  it('collapses trash removal to junk removal', () => {
+    expect(normalizeNiche('trash removal')).toBe('junk removal')
+    expect(normalizeNiche('debris removal')).toBe('junk removal')
+    expect(normalizeNiche('rubbish removal')).toBe('junk removal')
+  })
+
+  it('collapses yard cleanup variants', () => {
+    expect(normalizeNiche('yard cleanup')).toBe('yard clean up')
+    expect(normalizeNiche('yard clean-up')).toBe('yard clean up')
+  })
+
+  it('returns the input when no synonym match', () => {
+    expect(normalizeNiche('fence installation')).toBe('fence installation')
+  })
+
+  it('is case-insensitive', () => {
+    expect(normalizeNiche('Power Washing')).toBe('pressure washing')
+  })
+
+  it('trims whitespace', () => {
+    expect(normalizeNiche('  junk removal  ')).toBe('junk removal')
+  })
+})
+
+describe('isServiceKeyword', () => {
+  it('returns true for home service keywords', () => {
+    expect(isServiceKeyword('junk removal')).toBe(true)
+    expect(isServiceKeyword('pressure washing houston')).toBe(true)
+    expect(isServiceKeyword('fence installation near me')).toBe(true)
+  })
+
+  it('returns false for medical noise', () => {
+    expect(isServiceKeyword('tattoo removal')).toBe(false)
+    expect(isServiceKeyword('laser hair removal near me')).toBe(false)
+    expect(isServiceKeyword('mole removal cost')).toBe(false)
+  })
+
+  it('returns false for software noise', () => {
+    expect(isServiceKeyword('malware removal')).toBe(false)
+    expect(isServiceKeyword('virus removal service')).toBe(false)
+  })
+
+  it('returns false for cosmetic noise', () => {
+    expect(isServiceKeyword('laser removal')).toBe(false)
+  })
+
+  it('is case-insensitive', () => {
+    expect(isServiceKeyword('Tattoo Removal')).toBe(false)
+    expect(isServiceKeyword('Junk Removal')).toBe(true)
+  })
+})
+
+describe('clusterNiches', () => {
+  it('groups keywords by normalized niche with correct stats', () => {
+    const keywords = [
+      { keyword: 'junk removal houston', search_volume: 1000, cpc: 12 },
+      { keyword: 'junk removal dallas', search_volume: 800, cpc: 14 },
+      { keyword: 'pressure washing houston', search_volume: 500, cpc: 10 },
+    ]
+    const clusters = clusterNiches(keywords, { minVolume: 0, minCpc: 0 })
+    expect(clusters).toHaveLength(2)
+    const junk = clusters.find((c) => c.niche === 'junk removal')
+    expect(junk).toBeDefined()
+    expect(junk.total_volume).toBe(1800)
+    expect(junk.avg_cpc).toBe(13)
+    expect(junk.keyword_count).toBe(2)
+    expect(junk.top_keywords).toHaveLength(2)
+  })
+
+  it('collapses synonyms via normalizeNiche', () => {
+    const keywords = [
+      { keyword: 'power washing houston', search_volume: 600, cpc: 11 },
+      { keyword: 'pressure washing dallas', search_volume: 400, cpc: 12 },
+    ]
+    const clusters = clusterNiches(keywords, { minVolume: 0, minCpc: 0 })
+    expect(clusters).toHaveLength(1)
+    expect(clusters[0].niche).toBe('pressure washing')
+    expect(clusters[0].total_volume).toBe(1000)
+  })
+
+  it('filters out noise via isServiceKeyword', () => {
+    const keywords = [
+      { keyword: 'tattoo removal houston', search_volume: 5000, cpc: 20 },
+      { keyword: 'junk removal houston', search_volume: 1000, cpc: 12 },
+    ]
+    const clusters = clusterNiches(keywords, { minVolume: 0, minCpc: 0 })
+    expect(clusters).toHaveLength(1)
+    expect(clusters[0].niche).toBe('junk removal')
+  })
+
+  it('filters out licensed trades via isLicensedTrade', () => {
+    const keywords = [
+      { keyword: 'plumbing houston', search_volume: 5000, cpc: 25 },
+      { keyword: 'junk removal houston', search_volume: 1000, cpc: 12 },
+    ]
+    const clusters = clusterNiches(keywords, { minVolume: 0, minCpc: 0 })
+    expect(clusters).toHaveLength(1)
+    expect(clusters[0].niche).toBe('junk removal')
+  })
+
+  it('returns clusters sorted by total_volume * avg_cpc descending', () => {
+    const keywords = [
+      { keyword: 'fence installation houston', search_volume: 300, cpc: 10 },
+      { keyword: 'junk removal houston', search_volume: 1000, cpc: 12 },
+      { keyword: 'pressure washing houston', search_volume: 500, cpc: 15 },
+    ]
+    const clusters = clusterNiches(keywords, { minVolume: 0, minCpc: 0 })
+    // junk: 1000*12=12000, pressure: 500*15=7500, fence: 300*10=3000
+    expect(clusters[0].niche).toBe('junk removal')
+    expect(clusters[1].niche).toBe('pressure washing')
+    expect(clusters[2].niche).toBe('fence installation')
+  })
+
+  it('respects minVolume option', () => {
+    const keywords = [
+      { keyword: 'junk removal houston', search_volume: 1000, cpc: 12 },
+      { keyword: 'fence installation houston', search_volume: 300, cpc: 10 },
+    ]
+    const clusters = clusterNiches(keywords, { minVolume: 500, minCpc: 0 })
+    expect(clusters).toHaveLength(1)
+    expect(clusters[0].niche).toBe('junk removal')
+  })
+
+  it('respects minCpc option', () => {
+    const keywords = [
+      { keyword: 'junk removal houston', search_volume: 1000, cpc: 12 },
+      { keyword: 'fence installation houston', search_volume: 500, cpc: 5 },
+    ]
+    const clusters = clusterNiches(keywords, { minVolume: 0, minCpc: 10 })
+    expect(clusters).toHaveLength(1)
+    expect(clusters[0].niche).toBe('junk removal')
+  })
+
+  it('uses defaults of minVolume=1000 and minCpc=10 when no options', () => {
+    const keywords = [
+      { keyword: 'junk removal houston', search_volume: 2000, cpc: 12 },
+      { keyword: 'fence installation houston', search_volume: 500, cpc: 15 },
+      { keyword: 'pressure washing houston', search_volume: 1500, cpc: 5 },
+    ]
+    const clusters = clusterNiches(keywords)
+    expect(clusters).toHaveLength(1)
+    expect(clusters[0].niche).toBe('junk removal')
+  })
+
+  it('returns empty array for empty input', () => {
+    expect(clusterNiches([])).toEqual([])
+  })
+
+  it('limits top_keywords to 5 entries sorted by volume', () => {
+    const cities = ['houston', 'dallas', 'austin', 'tucson', 'tulsa', 'odessa', 'midland', 'lubbock']
+    const keywords = cities.map((city, i) => ({
+      keyword: `junk removal ${city}`,
+      search_volume: (i + 1) * 100,
+      cpc: 12,
+    }))
+    const clusters = clusterNiches(keywords, { minVolume: 0, minCpc: 0 })
+    expect(clusters[0].top_keywords).toHaveLength(5)
+    // highest volume first — lubbock has 800
+    expect(clusters[0].top_keywords[0].keyword).toBe('junk removal lubbock')
   })
 })
