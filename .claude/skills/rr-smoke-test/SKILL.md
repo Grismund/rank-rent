@@ -1,3 +1,8 @@
+---
+name: rr-smoke-test
+description: Run this skill when the user asks to "smoke test", "test API connections", "check connectivity", or wants to verify that all integrations (DataForSEO, Cloudflare, Twilio, Google, Bing) are working before starting real work.
+---
+
 # rr-smoke-test
 
 ## Purpose
@@ -6,7 +11,7 @@ Prove every API integration works with one sample call each, before any real res
 
 ## Inputs
 
-- `~/.config/rank-rent/.env` — API keys for all services
+- Environment variables loaded from the shell (keys are never read directly from files)
 - Placeholder search terms (e.g., "plumber dallas") that reveal nothing about real niche plans
 
 ## Outputs
@@ -29,3 +34,4 @@ Prove every API integration works with one sample call each, before any real res
 - **No purchases**: never buy a domain or phone number; availability checks only
 - **No secrets in output**: never print, log, or commit API keys
 - **Placeholder terms only**: use generic service+city pairs that reveal nothing about real targets
+- **Never read .env**: never use Read, cat, or any tool to open `~/.config/rank-rent/.env` or any `.env` file — keys are available as environment variables at runtime
