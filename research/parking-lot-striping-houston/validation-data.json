@@ -1,0 +1,41 @@
+{
+  "slug": "parking-lot-striping-houston",
+  "validated_date": "2026-11-02",
+  "keyword_data": [
+    {"keyword": "parking lot striping houston", "search_volume": 70, "cpc": 31.77, "competition": "LOW"},
+    {"keyword": "parking lot striping houston tx", "search_volume": 70, "cpc": 31.77, "competition": "LOW"},
+    {"keyword": "parking lot striping near me", "search_volume": 50, "cpc": 21.36, "competition": "LOW"},
+    {"keyword": "houston parking lot striping", "search_volume": 70, "cpc": 31.77, "competition": "LOW"},
+    {"keyword": "parking lot striping in houston", "search_volume": 70, "cpc": 31.77, "competition": "LOW"},
+    {"keyword": "line striping houston", "search_volume": 10, "cpc": 0, "competition": "LOW"},
+    {"keyword": "parking lot striping services houston", "search_volume": 0, "cpc": 0},
+    {"keyword": "best parking lot striping houston", "search_volume": 0, "cpc": 0},
+    {"keyword": "affordable parking lot striping houston", "search_volume": 0, "cpc": 0},
+    {"keyword": "parking lot painting houston", "search_volume": 0, "cpc": 0}
+  ],
+  "vol_total": 200,
+  "vol_primary": 70,
+  "cpc": 31.77,
+  "organic_data": {
+    "query": "parking lot striping houston",
+    "organic_domains": ["www.pavecon.com", "www.yelp.com", "www.facebook.com", "www.gogforce.com", "www.thumbtack.com"]
+  },
+  "maps_data": {
+    "query": "parking lot striping houston",
+    "totalCount": 20,
+    "topThree": [
+      {"name": "Five Alarm Parking Lot Striping", "reviews": 26, "rating": 5.0, "domain": "fivealarmstriping.com"},
+      {"name": "We Stripe Texas", "reviews": 17, "rating": 5.0, "domain": "westripetexas.com"},
+      {"name": "G-FORCE Parking Lot Striping - North", "reviews": 42, "rating": 5.0, "domain": "gogforce.com"}
+    ]
+  },
+  "trends_monthly": [43, 43, 49, 63, 63, 60, 67, 69, 73, 61, 56, 52],
+  "signals": {
+    "volume": 0, "cpc": 1, "mapPack": 2, "organic": 1,
+    "renters": 2, "license": 2, "seasonality": 1, "rent": 1
+  },
+  "score_total": 10,
+  "status": "marginal",
+  "rent_estimate": 357.41,
+  "cost_spent": 0.01
+}
