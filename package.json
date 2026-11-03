@@ -1,0 +1,27 @@
+{
+  "name": "rank-rent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grismund/rank-rent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Grismund/rank-rent/issues"
+  },
+  "homepage": "https://github.com/Grismund/rank-rent#readme",
+  "devDependencies": {
+    "vitest": "^5.1.0"
+  }
+}
