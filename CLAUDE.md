@@ -68,10 +68,10 @@ All keys live in `~/.config/rank-rent/.env`. **Never commit, print, or log API k
 | DataForSEO | `DATAFORSEO_USERNAME`, `DATAFORSEO_PASSWORD` | Keyword volumes, SERP data, Maps, backlinks |
 | Cloudflare | `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` | Domain registration, DNS, Pages, Workers |
 | Twilio | `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN` | Local phone numbers, call routing |
-| Google | `GOOGLE_SERVICE_ACCOUNT_KEY` (path to JSON) | Search Console, Site Verification |
+| Google | `GOOGLE_APPLICATION_CREDENTIALS` (path to JSON), `GOOGLE_CLOUD_PROJECT`, `GSC_SERVICE_ACCOUNT_EMAIL` | Search Console, Site Verification |
 | Bing | `BING_WEBMASTER_API_KEY` | Webmaster Tools, IndexNow |
 | Resend | `RESEND_API_KEY` | Contact form emails |
-| Porkbun | `PORKBUN_API_KEY`, `PORKBUN_SECRET_KEY` | Backup registrar |
+| Porkbun | `PORKBUN_API_KEY`, `PORKBUN_SECRET_API_KEY` | Backup registrar |
 
 The DataForSEO MCP server is configured in Claude Code and provides direct tool access. Other integrations use REST APIs or CLIs from within skills.
 
