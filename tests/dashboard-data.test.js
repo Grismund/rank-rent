@@ -1,0 +1,259 @@
+import { describe, it, expect } from 'vitest'
+import {
+  buildFunnel,
+  enrichCandidates,
+  extractTeardownVerdict,
+  buildRegionSummary,
+  buildNicheSummary,
+  findCommonSources,
+  prioritizeLinkTargets,
+} from '../lib/dashboard-data.js'
+
+describe('buildFunnel', () => {
+  const candidates = [
+    { status: 'discovered', score_total: '' },
+    { status: 'walk_away', score_total: '5' },
+    { status: 'walk_away', score_total: '' },
+    { status: 'validated', score_total: '8' },
+    { status: 'validated', score_total: '11' },
+    { status: 'shortlisted', score_total: '11' },
+    { status: 'torn_down', score_total: '9' },
+  ]
+
+  it('counts total candidates', () => {
+    expect(buildFunnel(candidates).total).toBe(7)
+  })
+
+  it('counts validated as score_total >= 8 (includes validated, shortlisted, torn_down)', () => {
+    // validated(8), validated(11), shortlisted(11), torn_down(9) = 4
+    expect(buildFunnel(candidates).validated).toBe(4)
+  })
+
+  it('counts high_scorers as score_total >= 11 among validated+', () => {
+    // validated(11), shortlisted(11) = 2
+    expect(buildFunnel(candidates).highScorers).toBe(2)
+  })
+
+  it('counts torn_down status', () => {
+    expect(buildFunnel(candidates).tornDown).toBe(1)
+  })
+
+  it('counts shortlisted status', () => {
+    expect(buildFunnel(candidates).shortlisted).toBe(1)
+  })
+
+  it('returns all zeros for empty array', () => {
+    const funnel = buildFunnel([])
+    expect(funnel.total).toBe(0)
+    expect(funnel.validated).toBe(0)
+    expect(funnel.highScorers).toBe(0)
+    expect(funnel.tornDown).toBe(0)
+    expect(funnel.shortlisted).toBe(0)
+  })
+})
+
+describe('enrichCandidates', () => {
+  it('merges validation data onto matching candidate', () => {
+    const candidates = [
+      { slug: 'tree-removal-odessa', niche: 'tree removal', area: 'Odessa', score_total: '11' },
+    ]
+    const validationMap = {
+      'tree-removal-odessa': {
+        signals: { volume: 0, cpc: 2, mapPack: 1, organic: 1, renters: 2, license: 2, seasonality: 2, rent: 1 },
+        maps_data: { topThree: [{ reviews: 125, rating: 4.9 }], totalCount: 20 },
+        organic_domains: ['www.yelp.com', 'advancedtreeclinic.com'],
+        trends_monthly: [57, 50, 57, 71, 79, 80, 89, 88, 74, 74, 73, 57],
+      },
+    }
+    const result = enrichCandidates(candidates, validationMap, {}, {})
+    expect(result[0].validation).toBeDefined()
+    expect(result[0].validation.signals.cpc).toBe(2)
+    expect(result[0].validation.trends_monthly).toHaveLength(12)
+  })
+
+  it('leaves validation undefined for candidates without data', () => {
+    const candidates = [
+      { slug: 'house-cleaning-midland', score_total: '' },
+    ]
+    const result = enrichCandidates(candidates, {}, {}, {})
+    expect(result[0].validation).toBeUndefined()
+  })
+
+  it('merges teardown verdict onto matching candidate', () => {
+    const candidates = [
+      { slug: 'tree-removal-odessa', score_total: '11' },
+    ]
+    const teardownMap = { 'tree-removal-odessa': 'TOUGH' }
+    const result = enrichCandidates(candidates, {}, teardownMap, {})
+    expect(result[0].teardownVerdict).toBe('TOUGH')
+  })
+
+  it('merges backlink sources onto matching candidate', () => {
+    const candidates = [{ slug: 'tree-removal-odessa', score_total: '11' }]
+    const backlinkMap = {
+      'tree-removal-odessa': {
+        competitors: [{ domain: 'example.com', top_referring_domains: [] }],
+        common_sources: ['shared.com'],
+        link_building_targets: ['shared.com'],
+      },
+    }
+    const result = enrichCandidates(candidates, {}, {}, backlinkMap)
+    expect(result[0].backlinkSources).toBeDefined()
+    expect(result[0].backlinkSources.common_sources).toContain('shared.com')
+  })
+})
+
+describe('extractTeardownVerdict', () => {
+  it('extracts BEATABLE verdict from teardown markdown', () => {
+    const md = '# Teardown\n\n## Verdict: BEATABLE\n\nThe competitors are weak.'
+    expect(extractTeardownVerdict(md)).toBe('BEATABLE')
+  })
+
+  it('extracts TOUGH verdict', () => {
+    const md = '## Verdict: TOUGH\n\nSubstantial backlink gap.'
+    expect(extractTeardownVerdict(md)).toBe('TOUGH')
+  })
+
+  it('extracts SKIP verdict', () => {
+    const md = '## Verdict: SKIP\n\nAll strong.'
+    expect(extractTeardownVerdict(md)).toBe('SKIP')
+  })
+
+  it('returns null when no verdict found', () => {
+    expect(extractTeardownVerdict('# Some markdown\n\nNo verdict here.')).toBeNull()
+  })
+
+  it('returns null for empty string', () => {
+    expect(extractTeardownVerdict('')).toBeNull()
+  })
+})
+
+describe('buildRegionSummary', () => {
+  const candidates = [
+    { area: 'Midland', niche: 'tree removal', status: 'walk_away', score_total: '7' },
+    { area: 'Midland', niche: 'painting', status: 'walk_away', score_total: '6' },
+    { area: 'Odessa', niche: 'tree removal', status: 'shortlisted', score_total: '11' },
+    { area: 'Odessa', niche: 'landscaping', status: 'validated', score_total: '8' },
+    { area: 'Big Spring', niche: 'tree removal', status: 'walk_away', score_total: '6' },
+  ]
+
+  it('groups candidates by area', () => {
+    const summary = buildRegionSummary(candidates)
+    expect(Object.keys(summary)).toHaveLength(3)
+    expect(summary['Midland'].count).toBe(2)
+    expect(summary['Odessa'].count).toBe(2)
+    expect(summary['Big Spring'].count).toBe(1)
+  })
+
+  it('counts viable candidates (score >= 8) per area', () => {
+    const summary = buildRegionSummary(candidates)
+    expect(summary['Odessa'].viable).toBe(2)
+    expect(summary['Midland'].viable).toBe(0)
+  })
+
+  it('tracks best score per area', () => {
+    const summary = buildRegionSummary(candidates)
+    expect(summary['Odessa'].bestScore).toBe(11)
+    expect(summary['Midland'].bestScore).toBe(7)
+  })
+
+  it('returns empty object for empty array', () => {
+    expect(buildRegionSummary([])).toEqual({})
+  })
+})
+
+describe('buildNicheSummary', () => {
+  const candidates = [
+    { niche: 'tree removal', area: 'Midland', status: 'walk_away', score_total: '7' },
+    { niche: 'tree removal', area: 'Odessa', status: 'shortlisted', score_total: '11' },
+    { niche: 'landscaping', area: 'Odessa', status: 'validated', score_total: '8' },
+  ]
+
+  it('groups candidates by niche', () => {
+    const summary = buildNicheSummary(candidates)
+    expect(Object.keys(summary)).toHaveLength(2)
+    expect(summary['tree removal'].count).toBe(2)
+    expect(summary['landscaping'].count).toBe(1)
+  })
+
+  it('counts viable candidates per niche', () => {
+    const summary = buildNicheSummary(candidates)
+    expect(summary['tree removal'].viable).toBe(1)
+    expect(summary['landscaping'].viable).toBe(1)
+  })
+
+  it('tracks best score per niche', () => {
+    const summary = buildNicheSummary(candidates)
+    expect(summary['tree removal'].bestScore).toBe(11)
+  })
+})
+
+describe('findCommonSources', () => {
+  it('returns domains appearing in 2+ competitor profiles', () => {
+    const competitors = [
+      { domain: 'a.com', top_referring_domains: [{ domain: 'shared.com' }, { domain: 'only-a.com' }] },
+      { domain: 'b.com', top_referring_domains: [{ domain: 'shared.com' }, { domain: 'only-b.com' }] },
+      { domain: 'c.com', top_referring_domains: [{ domain: 'shared.com' }, { domain: 'shared2.com' }] },
+    ]
+    // shared.com appears in all 3, shared2.com only in 1
+    const common = findCommonSources(competitors)
+    expect(common).toContain('shared.com')
+    expect(common).not.toContain('only-a.com')
+    expect(common).not.toContain('shared2.com')
+  })
+
+  it('returns empty array when no common sources', () => {
+    const competitors = [
+      { domain: 'a.com', top_referring_domains: [{ domain: 'x.com' }] },
+      { domain: 'b.com', top_referring_domains: [{ domain: 'y.com' }] },
+    ]
+    expect(findCommonSources(competitors)).toEqual([])
+  })
+
+  it('returns empty array for empty input', () => {
+    expect(findCommonSources([])).toEqual([])
+  })
+})
+
+describe('prioritizeLinkTargets', () => {
+  it('puts common sources first, sorted by rank descending', () => {
+    const competitors = [
+      {
+        domain: 'a.com',
+        top_referring_domains: [
+          { domain: 'common.com', rank: 300 },
+          { domain: 'unique-a.com', rank: 500 },
+        ],
+      },
+      {
+        domain: 'b.com',
+        top_referring_domains: [
+          { domain: 'common.com', rank: 300 },
+          { domain: 'unique-b.com', rank: 100 },
+        ],
+      },
+    ]
+    const commonSources = ['common.com']
+    const targets = prioritizeLinkTargets(competitors, commonSources)
+    // common sources first
+    expect(targets[0].domain).toBe('common.com')
+    expect(targets[0].isCommon).toBe(true)
+    // then unique by rank desc
+    expect(targets[1].domain).toBe('unique-a.com')
+    expect(targets[2].domain).toBe('unique-b.com')
+  })
+
+  it('deduplicates domains across competitors', () => {
+    const competitors = [
+      { domain: 'a.com', top_referring_domains: [{ domain: 'dup.com', rank: 100 }] },
+      { domain: 'b.com', top_referring_domains: [{ domain: 'dup.com', rank: 100 }] },
+    ]
+    const targets = prioritizeLinkTargets(competitors, ['dup.com'])
+    const dupEntries = targets.filter((t) => t.domain === 'dup.com')
+    expect(dupEntries).toHaveLength(1)
+  })
+
+  it('returns empty array for no competitors', () => {
+    expect(prioritizeLinkTargets([], [])).toEqual([])
+  })
+})

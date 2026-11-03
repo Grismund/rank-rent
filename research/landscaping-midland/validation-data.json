@@ -1,0 +1,60 @@
+{
+  "slug": "landscaping-midland",
+  "scored_at": "2026-11-02",
+  "keyword_data": {
+    "vol_total": 80,
+    "vol_primary": 20,
+    "cpc": 1.78
+  },
+  "maps_data": {
+    "topThree": [
+      {
+        "reviews": 37,
+        "rating": 5
+      },
+      {
+        "reviews": 73,
+        "rating": 4.9
+      },
+      {
+        "reviews": 83,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "organic_domains": [
+    "www.yourgreenpal.com",
+    "m3landscapes.com",
+    "www.yelp.com",
+    "www.facebook.com",
+    "www.yelp.com"
+  ],
+  "trends_monthly": [
+    41,
+    34,
+    40,
+    50,
+    72,
+    90,
+    88,
+    97,
+    67,
+    62,
+    57,
+    46
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 1,
+    "organic": 1,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "total_score": 7,
+  "status": "walk_away",
+  "rent_estimate": 8.010000000000002
+}

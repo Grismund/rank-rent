@@ -1,0 +1,41 @@
+{
+  "slug": "interior-painting-midland",
+  "scored_at": "2026-11-02",
+  "keyword_data": {
+    "vol_total": 20,
+    "vol_primary": 0,
+    "cpc": 0.14
+  },
+  "maps_data": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "organic_domains": [],
+  "trends_monthly": [
+    53,
+    55,
+    57,
+    69,
+    72,
+    91,
+    77,
+    90,
+    79,
+    68,
+    62,
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "total_score": 5,
+  "status": "walk_away",
+  "rent_estimate": 0.15750000000000003
+}

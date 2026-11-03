@@ -1,0 +1,47 @@
+{
+  "slug": "painting-odessa",
+  "scored_at": "2026-11-02",
+  "keyword_data": {
+    "vol_total": 40,
+    "vol_primary": 0,
+    "cpc": 2.27
+  },
+  "maps_data": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "organic_domains": [
+    "www.instagram.com",
+    "www.angi.com",
+    "nextdoor.com",
+    "kiddyskingdom.com",
+    "www.sherwin-williams.com"
+  ],
+  "trends_monthly": [
+    30,
+    30,
+    36,
+    51,
+    44,
+    57,
+    64,
+    81,
+    45,
+    35,
+    32,
+    23
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 1,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "total_score": 6,
+  "status": "walk_away",
+  "rent_estimate": 5.107500000000001
+}

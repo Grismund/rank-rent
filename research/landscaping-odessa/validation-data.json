@@ -1,0 +1,60 @@
+{
+  "slug": "landscaping-odessa",
+  "scored_at": "2026-11-02",
+  "keyword_data": {
+    "vol_total": 440,
+    "vol_primary": 140,
+    "cpc": 5.52
+  },
+  "maps_data": {
+    "topThree": [
+      {
+        "reviews": 45,
+        "rating": 5
+      },
+      {
+        "reviews": 15,
+        "rating": 4.7
+      },
+      {
+        "reviews": 11,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "organic_domains": [
+    "www.lonestarlltx.com",
+    "www.yelp.com",
+    "btlodessa.com",
+    "www.facebook.com",
+    "www.desertrock.com"
+  ],
+  "trends_monthly": [
+    41,
+    34,
+    40,
+    50,
+    72,
+    90,
+    88,
+    97,
+    67,
+    62,
+    57,
+    46
+  ],
+  "signals": {
+    "volume": 1,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "total_score": 8,
+  "status": "marginal",
+  "rent_estimate": 136.62
+}

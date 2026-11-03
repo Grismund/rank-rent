@@ -1,0 +1,60 @@
+{
+  "slug": "fence-installation-midland",
+  "scored_at": "2026-11-02",
+  "keyword_data": {
+    "vol_total": 30,
+    "vol_primary": 0,
+    "cpc": 0
+  },
+  "maps_data": {
+    "topThree": [
+      {
+        "reviews": 52,
+        "rating": 4.9
+      },
+      {
+        "reviews": 10,
+        "rating": 5
+      },
+      {
+        "reviews": 42,
+        "rating": 4.8
+      }
+    ],
+    "totalCount": 20
+  },
+  "organic_domains": [
+    "fencecompanymidlandtexas.com",
+    "www.facebook.com",
+    "www.yelp.com",
+    "www.yelp.com",
+    "fencerentalcompany.com"
+  ],
+  "trends_monthly": [
+    53,
+    47,
+    50,
+    71,
+    84,
+    95,
+    98,
+    94,
+    92,
+    75,
+    78,
+    65
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 1,
+    "organic": 1,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "total_score": 7,
+  "status": "walk_away",
+  "rent_estimate": 0
+}

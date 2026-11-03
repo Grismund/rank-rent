@@ -54,9 +54,9 @@ About two hours, done once. Claude can't create accounts or enter payment detail
 - [x] `npm i -g wrangler`, then `wrangler login`.
 - [x] Create `~/.config/rank-rent/.env` with the keys above.
 - [x] Add `.env` and `.json` keys to the repo's `.gitignore`.
-- [ ] Clone the repo and open Claude Code in it.
+- [x] Clone the repo and open Claude Code in it.
 - [x] Add the DataForSEO MCP server to Claude Code: `claude mcp add dataforseo -e DATAFORSEO_USERNAME=… -e DATAFORSEO_PASSWORD=… -- npx -y dataforseo-mcp-server`
-- [ ] Tell me when it's done. I'll write the smoke-test script for Phase 1.
+- [x] Tell me when it's done. I'll write the smoke-test script for Phase 1.
 
 ## Phase 1 — Claude's connectivity smoke tests
 

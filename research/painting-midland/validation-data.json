@@ -1,0 +1,60 @@
+{
+  "slug": "painting-midland",
+  "scored_at": "2026-11-02",
+  "keyword_data": {
+    "vol_total": 20,
+    "vol_primary": 0,
+    "cpc": 3.18
+  },
+  "maps_data": {
+    "topThree": [
+      {
+        "reviews": 28,
+        "rating": 4.5
+      },
+      {
+        "reviews": 110,
+        "rating": 4.2
+      },
+      {
+        "reviews": 64,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "organic_domains": [
+    "www.thestudiomtx.com",
+    "visitmidland.com",
+    "www.yelp.com",
+    "paletteclubmidland.com",
+    "www.facebook.com"
+  ],
+  "trends_monthly": [
+    30,
+    30,
+    36,
+    51,
+    44,
+    57,
+    64,
+    81,
+    45,
+    35,
+    32,
+    23
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 1,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "total_score": 6,
+  "status": "walk_away",
+  "rent_estimate": 3.5775000000000006
+}

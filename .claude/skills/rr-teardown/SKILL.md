@@ -43,6 +43,53 @@ For each competitor URL:
   ```
 - Extract: total backlinks, referring domains, domain rank
 
+### 4b. Pull referring domain data
+
+For each competitor domain, fetch detailed backlink source information:
+
+- API: `POST /v3/backlinks/referring_domains/live`
+- Payload:
+  ```json
+  [{
+    "target": "competitor-domain.com",
+    "backlinks_status_type": "live",
+    "order_by": ["rank,desc"],
+    "limit": 50
+  }]
+  ```
+- Extract per referring domain: domain name, rank, backlinks count, first_seen date, backlink types
+
+After fetching all competitors, compute:
+- **Common sources**: domains that refer to 2+ competitors (high-priority outreach targets)
+- **Link building targets**: all referring domains sorted by priority (common sources first, then by rank)
+
+Write `research/<slug>/backlink-sources.json`:
+```json
+{
+  "slug": "<slug>",
+  "analyzed_at": "YYYY-MM-DD",
+  "competitors": [
+    {
+      "domain": "competitor.com",
+      "summary": { "backlinks": 154, "referring_domains": 99, "rank": 66 },
+      "top_referring_domains": [
+        {
+          "domain": "referrer.com",
+          "rank": 450,
+          "backlinks": 3,
+          "first_seen": "2023-05-12",
+          "backlink_types": { "anchor": 2, "image": 1 }
+        }
+      ]
+    }
+  ],
+  "common_sources": ["domains appearing in 2+ competitor profiles"],
+  "link_building_targets": ["prioritized list for outreach"]
+}
+```
+
+Cost: ~$0.02 per competitor × 50 referring domains. For 3 competitors this adds ~$0.06 per teardown.
+
 ### 5. On-page audit
 
 For each competitor URL, fetch the page via **WebFetch** and check:
@@ -104,6 +151,7 @@ Verdict criteria:
 |------|-------------|
 | `data/candidates.csv` | Updated status and teardown_date |
 | `research/<slug>/teardown.md` | Competitor audit report with verdict |
+| `research/<slug>/backlink-sources.json` | Referring domain details for link building strategy |
 
 ## Tools
 

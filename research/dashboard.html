@@ -1,0 +1,2197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rank &amp; Rent — Phase 2 Research Dashboard</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.5; padding: 24px; max-width: 1400px; margin: 0 auto; }
+h1 { font-size: 24px; margin-bottom: 4px; }
+h2 { font-size: 18px; margin: 24px 0 12px; border-bottom: 2px solid #e2e8f0; padding-bottom: 4px; }
+h3 { font-size: 15px; margin: 16px 0 8px; }
+.card { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 6px 10px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+th { background: #f1f5f9; cursor: pointer; user-select: none; position: sticky; top: 0; }
+th:hover { background: #e2e8f0; }
+tr:hover { background: #f8fafc; }
+.subtitle { color: #64748b; font-size: 14px; margin-bottom: 16px; }
+.tab-bar { display: flex; gap: 0; margin-bottom: 0; border-bottom: 2px solid #e2e8f0; }
+.tab { padding: 8px 20px; cursor: pointer; font-size: 14px; font-weight: 500; border: none; background: none; color: #64748b; border-bottom: 2px solid transparent; margin-bottom: -2px; }
+.tab.active { color: #1e293b; border-bottom-color: #3b82f6; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+.sort-arrow { font-size: 10px; margin-left: 4px; }
+</style>
+</head>
+<body>
+
+<h1>Rank &amp; Rent — Research Dashboard</h1>
+<p class="subtitle">Phase 2 Pipeline Results &bull; Generated 2026-11-03 &bull; 75 candidates evaluated</p>
+
+<p style="margin-bottom:16px;font-size:13px">📋 Shortlist memos: <a href="shortlist-2026-11-02.md" style="color:#3b82f6">shortlist-2026-11-02.md</a></p>
+
+<div class="tab-bar">
+  <button class="tab active" onclick="showTab('funnel')">Pipeline Funnel</button>
+  <button class="tab" onclick="showTab('candidates')">Candidates</button>
+  <button class="tab" onclick="showTab('regions')">Regions &amp; Niches</button>
+</div>
+
+<div id="tab-funnel" class="tab-content active">
+  <div class="card" style="margin-top:16px">
+    <h3>Pipeline Funnel</h3>
+    <div style="margin-top:12px">
+    <div style="margin-bottom:6px;display:flex;align-items:center;gap:8px">
+      <div style="width:140px;font-size:13px;text-align:right;color:#555">Total</div>
+      <div style="flex:1;background:#f3f4f6;border-radius:4px;height:28px;position:relative">
+        <div style="width:100%;background:#6b7280;height:100%;border-radius:4px;transition:width 0.3s"></div>
+        <span style="position:absolute;left:8px;top:5px;font-size:13px;font-weight:bold;color:#fff">75</span>
+      </div>
+    </div>
+    <div style="margin-bottom:6px;display:flex;align-items:center;gap:8px">
+      <div style="width:140px;font-size:13px;text-align:right;color:#555">Validated (8+)</div>
+      <div style="flex:1;background:#f3f4f6;border-radius:4px;height:28px;position:relative">
+        <div style="width:2.666666666666667%;background:#eab308;height:100%;border-radius:4px;transition:width 0.3s"></div>
+        <span style="position:absolute;left:8px;top:5px;font-size:13px;font-weight:bold;color:#333">2</span>
+      </div>
+    </div>
+    <div style="margin-bottom:6px;display:flex;align-items:center;gap:8px">
+      <div style="width:140px;font-size:13px;text-align:right;color:#555">High Scorers (11+)</div>
+      <div style="flex:1;background:#f3f4f6;border-radius:4px;height:28px;position:relative">
+        <div style="width:2%;background:#3b82f6;height:100%;border-radius:4px;transition:width 0.3s"></div>
+        <span style="position:absolute;left:8px;top:5px;font-size:13px;font-weight:bold;color:#333">1</span>
+      </div>
+    </div>
+    <div style="margin-bottom:6px;display:flex;align-items:center;gap:8px">
+      <div style="width:140px;font-size:13px;text-align:right;color:#555">Torn Down</div>
+      <div style="flex:1;background:#f3f4f6;border-radius:4px;height:28px;position:relative">
+        <div style="width:2%;background:#8b5cf6;height:100%;border-radius:4px;transition:width 0.3s"></div>
+        <span style="position:absolute;left:8px;top:5px;font-size:13px;font-weight:bold;color:#333">0</span>
+      </div>
+    </div>
+    <div style="margin-bottom:6px;display:flex;align-items:center;gap:8px">
+      <div style="width:140px;font-size:13px;text-align:right;color:#555">Shortlisted</div>
+      <div style="flex:1;background:#f3f4f6;border-radius:4px;height:28px;position:relative">
+        <div style="width:2%;background:#22c55e;height:100%;border-radius:4px;transition:width 0.3s"></div>
+        <span style="position:absolute;left:8px;top:5px;font-size:13px;font-weight:bold;color:#333">1</span>
+      </div>
+    </div></div>
+  </div>
+</div>
+
+<div id="tab-candidates" class="tab-content">
+  <div class="card" style="margin-top:16px;overflow-x:auto">
+    <h3>All Candidates</h3>
+    <p style="font-size:12px;color:#64748b;margin-bottom:8px">Click column headers to sort. Click a row with validation data to expand score details.</p>
+    <table id="candidates-table">
+      <thead>
+        <tr>
+          <th data-col="0">Slug</th>
+          <th data-col="1">Niche</th>
+          <th data-col="2">Area</th>
+          <th data-col="3" data-type="num">Vol Total</th>
+          <th data-col="4" data-type="num">Vol Primary</th>
+          <th data-col="5" data-type="num">CPC</th>
+          <th data-col="6" data-type="num">Rent Est.</th>
+          <th data-col="7" data-type="num">Score</th>
+          <th data-col="8">Status</th>
+          <th data-col="9">Verdict</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>house-cleaning-midland</td>
+      <td>house cleaning</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>house-cleaning-odessa</td>
+      <td>house cleaning</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>house-cleaning-big-spring</td>
+      <td>house cleaning</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>carpet-cleaning-midland</td>
+      <td>carpet cleaning</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>carpet-cleaning-odessa</td>
+      <td>carpet cleaning</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>carpet-cleaning-big-spring</td>
+      <td>carpet cleaning</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>window-cleaning-midland</td>
+      <td>window cleaning</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>window-cleaning-odessa</td>
+      <td>window cleaning</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>window-cleaning-big-spring</td>
+      <td>window cleaning</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>pressure-washing-midland</td>
+      <td>pressure washing</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>pressure-washing-odessa</td>
+      <td>pressure washing</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>pressure-washing-big-spring</td>
+      <td>pressure washing</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>gutter-cleaning-midland</td>
+      <td>gutter cleaning</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>gutter-cleaning-odessa</td>
+      <td>gutter cleaning</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>gutter-cleaning-big-spring</td>
+      <td>gutter cleaning</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>lawn-care-midland</td>
+      <td>lawn care</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>lawn-care-odessa</td>
+      <td>lawn care</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>lawn-care-big-spring</td>
+      <td>lawn care</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>lawn-mowing-midland</td>
+      <td>lawn mowing</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>lawn-mowing-odessa</td>
+      <td>lawn mowing</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>lawn-mowing-big-spring</td>
+      <td>lawn mowing</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>tree-trimming-midland</td>
+      <td>tree trimming</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>tree-trimming-odessa</td>
+      <td>tree trimming</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>tree-trimming-big-spring</td>
+      <td>tree trimming</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(24)">
+      <td>tree-removal-midland</td>
+      <td>tree removal</td>
+      <td>Midland</td>
+      <td data-sort="30">30</td>
+      <td data-sort="10">10</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="7">7</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-24" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,31.53846153846154 16.363636363636363,38 32.72727272727273,31.53846153846154 49.09090909090909,18.615384615384617 65.45454545454545,11.23076923076923 81.81818181818181,10.307692307692307 98.18181818181819,2 114.54545454545455,2.923076923076927 130.9090909090909,15.846153846153847 147.27272727272728,15.846153846153847 163.63636363636363,16.76923076923077 180,31.53846153846154" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>216 reviews (4.9★)</li><li>165 reviews (4.8★)</li><li>19 reviews (5★)</li></ul>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#dcfce7;cursor:pointer" onclick="toggleDetail(25)">
+      <td>tree-removal-odessa</td>
+      <td>tree removal</td>
+      <td>Odessa</td>
+      <td data-sort="70">70</td>
+      <td data-sort="10">10</td>
+      <td data-sort="101.26">$101.26</td>
+      <td data-sort="398.71">$399</td>
+      <td data-sort="11">11</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#22c55e;color:#fff;font-size:11px">shortlisted</span></td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#eab308;color:#fff;font-weight:bold;font-size:12px">TOUGH</span></td>
+    </tr>
+      <tr class="detail-row" id="detail-25" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="64" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="96" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="128" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="224" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="22" text-anchor="middle" font-size="9" fill="#333">1</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,31.53846153846154 16.363636363636363,38 32.72727272727273,31.53846153846154 49.09090909090909,18.615384615384617 65.45454545454545,11.23076923076923 81.81818181818181,10.307692307692307 98.18181818181819,2 114.54545454545455,2.923076923076927 130.9090909090909,15.846153846153847 147.27272727272728,15.846153846153847 163.63636363636363,16.76923076923077 180,31.53846153846154" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>125 reviews (4.9★)</li><li>185 reviews (4.9★)</li><li>49 reviews (4.8★)</li></ul>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>www.yelp.com</li><li>advancedtreeclinic.com</li><li>www.homeadvisor.com</li><li>nextdoor.com</li><li>www.facebook.com</li></ul>
+            </div>
+          </div>
+          <div style="margin-top:12px"><strong>Teardown Verdict:</strong> <span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#eab308;color:#fff;font-weight:bold;font-size:12px">TOUGH</span></div>
+          
+  <div style="margin-top:16px;border-top:1px solid #e5e7eb;padding-top:12px">
+    <h4 style="margin:0 0 8px">Backlink Sources</h4>
+    
+      <div style="margin-bottom:12px">
+        <h5 style="margin:0 0 4px">advancedtreeclinic.com
+          <span style="font-weight:normal;color:#666;font-size:12px">(99 ref. domains, rank 66)</span>
+        </h5>
+        <table style="width:100%;font-size:12px;border-collapse:collapse">
+          <thead><tr style="background:#e5e7eb"><th style="text-align:left;padding:4px">Domain</th><th style="text-align:left;padding:4px">Rank</th><th style="text-align:left;padding:4px">Backlinks</th><th style="text-align:left;padding:4px">First Seen</th></tr></thead>
+          <tbody>
+        <tr>
+          <td style="font-size:12px">dirttrades.com</td>
+          <td style="font-size:12px">23</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-02</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">homeblue.com</td>
+          <td style="font-size:12px">3</td>
+          <td style="font-size:12px">2</td>
+          <td style="font-size:12px">2021-10-19</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">websquemolan.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-11-02</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">lpraudit.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">3</td>
+          <td style="font-size:12px">2026-10-17</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">bureatag.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-15</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">shanzytechs.site</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-14</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">onlyhealthydeals.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-11</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">seonix.agency</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">2</td>
+          <td style="font-size:12px">2026-10-11</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">findtreeservice.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-08</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">kernelpanicpodcast.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">2</td>
+          <td style="font-size:12px">2026-09-26</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">onvaxs.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-09-26</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">sahammurah.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-09-24</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">cvillico.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-09-21</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">five.co.in</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-09-18</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">dupurgeniefr.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-09-11</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">mediaboooster.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-09-02</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">techbumppy.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-09-01</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">clifflisting.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">2</td>
+          <td style="font-size:12px">2026-08-27</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">thedocmag.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-08-23</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">quotesblom.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-08-23</td>
+        </tr></tbody>
+        </table>
+      </div>
+      <div style="margin-bottom:12px">
+        <h5 style="margin:0 0 4px">westtexastree.com
+          <span style="font-weight:normal;color:#666;font-size:12px">(90 ref. domains, rank 45)</span>
+        </h5>
+        <table style="width:100%;font-size:12px;border-collapse:collapse">
+          <thead><tr style="background:#e5e7eb"><th style="text-align:left;padding:4px">Domain</th><th style="text-align:left;padding:4px">Rank</th><th style="text-align:left;padding:4px">Backlinks</th><th style="text-align:left;padding:4px">First Seen</th></tr></thead>
+          <tbody>
+        <tr>
+          <td style="font-size:12px">z1biz.com</td>
+          <td style="font-size:12px">23</td>
+          <td style="font-size:12px">2</td>
+          <td style="font-size:12px">2025-11-10</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">stumpgrinding-hub.com</td>
+          <td style="font-size:12px">7</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2025-10-16</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">websquemolan.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-29</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">lpraudit.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-17</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">bureatag.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-15</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">thcradar.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-15</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">dbike-us.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-17</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">sahammurah.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-13</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">techbumppy.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-13</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">clifflisting.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">2</td>
+          <td style="font-size:12px">2026-10-12</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">seonix.agency</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">2</td>
+          <td style="font-size:12px">2026-10-12</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">onvaxs.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-09-26</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">cvillico.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-09-25</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">kernelpanicpodcast.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">2</td>
+          <td style="font-size:12px">2026-09-25</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">findlocalexperts.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">2</td>
+          <td style="font-size:12px">2026-09-23</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">dupurgeniefr.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-03</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">archive-hu.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-07</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">thedocmag.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-06</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">bestnz-poker-casinoslot.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-09</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">onlyhealthydeals.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-11</td>
+        </tr></tbody>
+        </table>
+      </div>
+      <div style="margin-bottom:12px">
+        <h5 style="margin:0 0 4px">etlmidland.com
+          <span style="font-weight:normal;color:#666;font-size:12px">(104 ref. domains, rank 135)</span>
+        </h5>
+        <table style="width:100%;font-size:12px;border-collapse:collapse">
+          <thead><tr style="background:#e5e7eb"><th style="text-align:left;padding:4px">Domain</th><th style="text-align:left;padding:4px">Rank</th><th style="text-align:left;padding:4px">Backlinks</th><th style="text-align:left;padding:4px">First Seen</th></tr></thead>
+          <tbody>
+        <tr>
+          <td style="font-size:12px">ecogardenclub.com</td>
+          <td style="font-size:12px">116</td>
+          <td style="font-size:12px">5</td>
+          <td style="font-size:12px">2025-12-29</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">raisedgardenbedzone.com</td>
+          <td style="font-size:12px">23</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-06</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">storeboard.com</td>
+          <td style="font-size:12px">23</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-07-26</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">completegardening.com</td>
+          <td style="font-size:12px">23</td>
+          <td style="font-size:12px">8</td>
+          <td style="font-size:12px">2026-07-14</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">bestofmidlandtx.com</td>
+          <td style="font-size:12px">7</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-19</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">snowlawn.net</td>
+          <td style="font-size:12px">7</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-13</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">websquemolan.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-30</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">thcradar.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-24</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">dbike-us.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-21</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">lpraudit.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">4</td>
+          <td style="font-size:12px">2026-10-15</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">shanzytechs.site</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-15</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">sahammurah.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-13</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">bureatag.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-12</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">onlyhealthydeals.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-11</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">archive-hu.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-11</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">clifflisting.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">2</td>
+          <td style="font-size:12px">2026-10-10</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">bestnz-poker-casinoslot.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-06</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">dirttrades.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-02</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">dupurgeniefr.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-10-01</td>
+        </tr>
+        <tr>
+          <td style="font-size:12px">thedocmag.com</td>
+          <td style="font-size:12px">—</td>
+          <td style="font-size:12px">1</td>
+          <td style="font-size:12px">2026-09-29</td>
+        </tr></tbody>
+        </table>
+      </div>
+    <div style="margin-top:8px"><strong>Common Sources</strong> (link to 2+ competitors): <span style="color:#22c55e;font-weight:bold">dirttrades.com, websquemolan.com, lpraudit.com, bureatag.com, shanzytechs.site, onlyhealthydeals.com, seonix.agency, kernelpanicpodcast.com, onvaxs.com, sahammurah.com, cvillico.com, five.co.in, dupurgeniefr.com, mediaboooster.com, techbumppy.com, clifflisting.com, thedocmag.com, quotesblom.com, theforbestimes.com, betwinnermirror.com, betulcrime.com, homesforsaleoldgreenwichct.com, hostprinter.com, bazerdaily.com, ggmap.us.com, thcradar.com, dbike-us.com, findlocalexperts.com, archive-hu.com, bestnz-poker-casinoslot.com, fashionclothingnews.com</span></div>
+    <div style="margin-top:8px"><strong>Link Building Targets:</strong> dirttrades.com, websquemolan.com, lpraudit.com, bureatag.com, shanzytechs.site, onlyhealthydeals.com, seonix.agency, kernelpanicpodcast.com, onvaxs.com, sahammurah.com, cvillico.com, five.co.in, dupurgeniefr.com, mediaboooster.com, techbumppy.com, clifflisting.com, thedocmag.com, quotesblom.com, theforbestimes.com, betwinnermirror.com, betulcrime.com, homesforsaleoldgreenwichct.com, hostprinter.com, bazerdaily.com, ggmap.us.com, thcradar.com, dbike-us.com, findlocalexperts.com, archive-hu.com, bestnz-poker-casinoslot.com, fashionclothingnews.com, ecogardenclub.com, z1biz.com, raisedgardenbedzone.com, storeboard.com, completegardening.com, stumpgrinding-hub.com, bestofmidlandtx.com, snowlawn.net, homeblue.com, findtreeservice.com, facturmfg.com, piperic.com, limbtrimmer.com, homeservicelookup.com, bestprosintown.com, anchorurl.cloud</div>
+  </div>
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(26)">
+      <td>tree-removal-big-spring</td>
+      <td>tree removal</td>
+      <td>Big Spring</td>
+      <td data-sort="10">10</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="6">6</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-26" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,31.53846153846154 16.363636363636363,38 32.72727272727273,31.53846153846154 49.09090909090909,18.615384615384617 65.45454545454545,11.23076923076923 81.81818181818181,10.307692307692307 98.18181818181819,2 114.54545454545455,2.923076923076927 130.9090909090909,15.846153846153847 147.27272727272728,15.846153846153847 163.63636363636363,16.76923076923077 180,31.53846153846154" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(27)">
+      <td>landscaping-midland</td>
+      <td>landscaping</td>
+      <td>Midland</td>
+      <td data-sort="80">80</td>
+      <td data-sort="20">20</td>
+      <td data-sort="1.78">$1.78</td>
+      <td data-sort="8.01">$8</td>
+      <td data-sort="7">7</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-27" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="96" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="128" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,34 16.363636363636363,38 32.72727272727273,34.57142857142857 49.09090909090909,28.857142857142858 65.45454545454545,16.28571428571429 81.81818181818181,6 98.18181818181819,7.142857142857146 114.54545454545455,2 130.9090909090909,19.142857142857142 147.27272727272728,22 163.63636363636363,24.857142857142858 180,31.142857142857146" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>37 reviews (5★)</li><li>73 reviews (4.9★)</li><li>83 reviews (5★)</li></ul>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>www.yourgreenpal.com</li><li>m3landscapes.com</li><li>www.yelp.com</li><li>www.facebook.com</li><li>www.yelp.com</li></ul>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fef9c3;cursor:pointer" onclick="toggleDetail(28)">
+      <td>landscaping-odessa</td>
+      <td>landscaping</td>
+      <td>Odessa</td>
+      <td data-sort="440">440</td>
+      <td data-sort="140">140</td>
+      <td data-sort="5.52">$5.52</td>
+      <td data-sort="136.62">$137</td>
+      <td data-sort="8">8</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#eab308;color:#fff;font-size:11px">validated</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-28" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,34 16.363636363636363,38 32.72727272727273,34.57142857142857 49.09090909090909,28.857142857142858 65.45454545454545,16.28571428571429 81.81818181818181,6 98.18181818181819,7.142857142857146 114.54545454545455,2 130.9090909090909,19.142857142857142 147.27272727272728,22 163.63636363636363,24.857142857142858 180,31.142857142857146" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>45 reviews (5★)</li><li>15 reviews (4.7★)</li><li>11 reviews (5★)</li></ul>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>www.lonestarlltx.com</li><li>www.yelp.com</li><li>btlodessa.com</li><li>www.facebook.com</li><li>www.desertrock.com</li></ul>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(29)">
+      <td>landscaping-big-spring</td>
+      <td>landscaping</td>
+      <td>Big Spring</td>
+      <td data-sort="20">20</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="5">5</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-29" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,34 16.363636363636363,38 32.72727272727273,34.57142857142857 49.09090909090909,28.857142857142858 65.45454545454545,16.28571428571429 81.81818181818181,6 98.18181818181819,7.142857142857146 114.54545454545455,2 130.9090909090909,19.142857142857142 147.27272727272728,22 163.63636363636363,24.857142857142858 180,31.142857142857146" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(30)">
+      <td>fence-installation-midland</td>
+      <td>fence installation</td>
+      <td>Midland</td>
+      <td data-sort="30">30</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="7">7</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-30" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="96" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="128" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,33.76470588235294 16.363636363636363,38 32.72727272727273,35.88235294117647 49.09090909090909,21.058823529411764 65.45454545454545,11.882352941176471 81.81818181818181,4.117647058823529 98.18181818181819,2 114.54545454545455,4.82352941176471 130.9090909090909,6.235294117647058 147.27272727272728,18.235294117647058 163.63636363636363,16.117647058823533 180,25.294117647058822" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>52 reviews (4.9★)</li><li>10 reviews (5★)</li><li>42 reviews (4.8★)</li></ul>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>fencecompanymidlandtexas.com</li><li>www.facebook.com</li><li>www.yelp.com</li><li>www.yelp.com</li><li>fencerentalcompany.com</li></ul>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(31)">
+      <td>fence-installation-odessa</td>
+      <td>fence installation</td>
+      <td>Odessa</td>
+      <td data-sort="20">20</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="7">7</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-31" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="96" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="128" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,33.76470588235294 16.363636363636363,38 32.72727272727273,35.88235294117647 49.09090909090909,21.058823529411764 65.45454545454545,11.882352941176471 81.81818181818181,4.117647058823529 98.18181818181819,2 114.54545454545455,4.82352941176471 130.9090909090909,6.235294117647058 147.27272727272728,18.235294117647058 163.63636363636363,16.117647058823533 180,25.294117647058822" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>8 reviews (4.6★)</li><li>10 reviews (5★)</li><li>98 reviews (4.7★)</li></ul>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>www.texasselectfencing.com</li><li>www.yelp.com</li><li>www.allstate-fence.com</li><li>www.odessa-fence.com</li><li>www.angi.com</li></ul>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(32)">
+      <td>fence-installation-big-spring</td>
+      <td>fence installation</td>
+      <td>Big Spring</td>
+      <td data-sort="10">10</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="5">5</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-32" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,33.76470588235294 16.363636363636363,38 32.72727272727273,35.88235294117647 49.09090909090909,21.058823529411764 65.45454545454545,11.882352941176471 81.81818181818181,4.117647058823529 98.18181818181819,2 114.54545454545455,4.82352941176471 130.9090909090909,6.235294117647058 147.27272727272728,18.235294117647058 163.63636363636363,16.117647058823533 180,25.294117647058822" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>fence-repair-midland</td>
+      <td>fence repair</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>fence-repair-odessa</td>
+      <td>fence repair</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>fence-repair-big-spring</td>
+      <td>fence repair</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(36)">
+      <td>deck-building-midland</td>
+      <td>deck building</td>
+      <td>Midland</td>
+      <td data-sort="10">10</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="5">5</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-36" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,37.21739130434783 16.363636363636363,36.434782608695656 32.72727272727273,35.65217391304348 49.09090909090909,26.26086956521739 65.45454545454545,20 81.81818181818181,6.695652173913043 98.18181818181819,6.695652173913043 114.54545454545455,2 130.9090909090909,16.08695652173913 147.27272727272728,27.826086956521742 163.63636363636363,32.52173913043478 180,38" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(37)">
+      <td>deck-building-odessa</td>
+      <td>deck building</td>
+      <td>Odessa</td>
+      <td data-sort="10">10</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="5">5</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-37" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,37.21739130434783 16.363636363636363,36.434782608695656 32.72727272727273,35.65217391304348 49.09090909090909,26.26086956521739 65.45454545454545,20 81.81818181818181,6.695652173913043 98.18181818181819,6.695652173913043 114.54545454545455,2 130.9090909090909,16.08695652173913 147.27272727272728,27.826086956521742 163.63636363636363,32.52173913043478 180,38" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(38)">
+      <td>deck-building-big-spring</td>
+      <td>deck building</td>
+      <td>Big Spring</td>
+      <td data-sort="10">10</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="5">5</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-38" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,37.21739130434783 16.363636363636363,36.434782608695656 32.72727272727273,35.65217391304348 49.09090909090909,26.26086956521739 65.45454545454545,20 81.81818181818181,6.695652173913043 98.18181818181819,6.695652173913043 114.54545454545455,2 130.9090909090909,16.08695652173913 147.27272727272728,27.826086956521742 163.63636363636363,32.52173913043478 180,38" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>deck-staining-midland</td>
+      <td>deck staining</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>deck-staining-odessa</td>
+      <td>deck staining</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>deck-staining-big-spring</td>
+      <td>deck staining</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>driveway-sealing-midland</td>
+      <td>driveway sealing</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>driveway-sealing-odessa</td>
+      <td>driveway sealing</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>driveway-sealing-big-spring</td>
+      <td>driveway sealing</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>junk-removal-midland</td>
+      <td>junk removal</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>junk-removal-odessa</td>
+      <td>junk removal</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>junk-removal-big-spring</td>
+      <td>junk removal</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>appliance-repair-midland</td>
+      <td>appliance repair</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>appliance-repair-odessa</td>
+      <td>appliance repair</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>appliance-repair-big-spring</td>
+      <td>appliance repair</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>garage-door-repair-midland</td>
+      <td>garage door repair</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>garage-door-repair-odessa</td>
+      <td>garage door repair</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>garage-door-repair-big-spring</td>
+      <td>garage door repair</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>handyman-midland</td>
+      <td>handyman</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>handyman-odessa</td>
+      <td>handyman</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>handyman-big-spring</td>
+      <td>handyman</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(57)">
+      <td>painting-midland</td>
+      <td>painting</td>
+      <td>Midland</td>
+      <td data-sort="20">20</td>
+      <td data-sort="0">0</td>
+      <td data-sort="3.18">$3.18</td>
+      <td data-sort="3.58">$4</td>
+      <td data-sort="6">6</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-57" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,33.6551724137931 16.363636363636363,33.6551724137931 32.72727272727273,29.93103448275862 49.09090909090909,20.620689655172413 65.45454545454545,24.96551724137931 81.81818181818181,16.896551724137932 98.18181818181819,12.551724137931036 114.54545454545455,2 130.9090909090909,24.344827586206897 147.27272727272728,30.551724137931032 163.63636363636363,32.41379310344828 180,38" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>28 reviews (4.5★)</li><li>110 reviews (4.2★)</li><li>64 reviews (5★)</li></ul>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>www.thestudiomtx.com</li><li>visitmidland.com</li><li>www.yelp.com</li><li>paletteclubmidland.com</li><li>www.facebook.com</li></ul>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(58)">
+      <td>painting-odessa</td>
+      <td>painting</td>
+      <td>Odessa</td>
+      <td data-sort="40">40</td>
+      <td data-sort="0">0</td>
+      <td data-sort="2.27">$2.27</td>
+      <td data-sort="5.11">$5</td>
+      <td data-sort="6">6</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-58" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,33.6551724137931 16.363636363636363,33.6551724137931 32.72727272727273,29.93103448275862 49.09090909090909,20.620689655172413 65.45454545454545,24.96551724137931 81.81818181818181,16.896551724137932 98.18181818181819,12.551724137931036 114.54545454545455,2 130.9090909090909,24.344827586206897 147.27272727272728,30.551724137931032 163.63636363636363,32.41379310344828 180,38" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <ul style="margin:0;padding-left:16px;font-size:13px"><li>www.instagram.com</li><li>www.angi.com</li><li>nextdoor.com</li><li>kiddyskingdom.com</li><li>www.sherwin-williams.com</li></ul>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(59)">
+      <td>painting-big-spring</td>
+      <td>painting</td>
+      <td>Big Spring</td>
+      <td data-sort="10">10</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="5">5</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-59" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,33.6551724137931 16.363636363636363,33.6551724137931 32.72727272727273,29.93103448275862 49.09090909090909,20.620689655172413 65.45454545454545,24.96551724137931 81.81818181818181,16.896551724137932 98.18181818181819,12.551724137931036 114.54545454545455,2 130.9090909090909,24.344827586206897 147.27272727272728,30.551724137931032 163.63636363636363,32.41379310344828 180,38" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(60)">
+      <td>interior-painting-midland</td>
+      <td>interior painting</td>
+      <td>Midland</td>
+      <td data-sort="20">20</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0.14">$0.14</td>
+      <td data-sort="0.16">$0</td>
+      <td data-sort="5">5</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-60" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,35.36585365853659 16.363636363636363,33.609756097560975 32.72727272727273,31.853658536585364 49.09090909090909,21.317073170731707 65.45454545454545,18.68292682926829 81.81818181818181,2 98.18181818181819,14.292682926829269 114.54545454545455,2.878048780487802 130.9090909090909,12.53658536585366 147.27272727272728,22.195121951219512 163.63636363636363,27.463414634146343 180,38" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(61)">
+      <td>interior-painting-odessa</td>
+      <td>interior painting</td>
+      <td>Odessa</td>
+      <td data-sort="20">20</td>
+      <td data-sort="10">10</td>
+      <td data-sort="15.82">$15.82</td>
+      <td data-sort="17.8">$18</td>
+      <td data-sort="6">6</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-61" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,35.36585365853659 16.363636363636363,33.609756097560975 32.72727272727273,31.853658536585364 49.09090909090909,21.317073170731707 65.45454545454545,18.68292682926829 81.81818181818181,2 98.18181818181819,14.292682926829269 114.54545454545455,2.878048780487802 130.9090909090909,12.53658536585366 147.27272727272728,22.195121951219512 163.63636363636363,27.463414634146343 180,38" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(62)">
+      <td>interior-painting-big-spring</td>
+      <td>interior painting</td>
+      <td>Big Spring</td>
+      <td data-sort="10">10</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="5">5</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-62" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,35.36585365853659 16.363636363636363,33.609756097560975 32.72727272727273,31.853658536585364 49.09090909090909,21.317073170731707 65.45454545454545,18.68292682926829 81.81818181818181,2 98.18181818181819,14.292682926829269 114.54545454545455,2.878048780487802 130.9090909090909,12.53658536585366 147.27272727272728,22.195121951219512 163.63636363636363,27.463414634146343 180,38" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(63)">
+      <td>exterior-painting-midland</td>
+      <td>exterior painting</td>
+      <td>Midland</td>
+      <td data-sort="10">10</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="5">5</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-63" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,32.638297872340424 16.363636363636363,34.93617021276596 32.72727272727273,38 49.09090909090909,28.04255319148936 65.45454545454545,20.382978723404257 81.81818181818181,2 98.18181818181819,5.829787234042556 114.54545454545455,7.361702127659573 130.9090909090909,10.425531914893618 147.27272727272728,16.5531914893617 163.63636363636363,19.617021276595747 180,31.872340425531917" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(64)">
+      <td>exterior-painting-odessa</td>
+      <td>exterior painting</td>
+      <td>Odessa</td>
+      <td data-sort="10">10</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="5">5</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-64" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,32.638297872340424 16.363636363636363,34.93617021276596 32.72727272727273,38 49.09090909090909,28.04255319148936 65.45454545454545,20.382978723404257 81.81818181818181,2 98.18181818181819,5.829787234042556 114.54545454545455,7.361702127659573 130.9090909090909,10.425531914893618 147.27272727272728,16.5531914893617 163.63636363636363,19.617021276595747 180,31.872340425531917" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(65)">
+      <td>exterior-painting-big-spring</td>
+      <td>exterior painting</td>
+      <td>Big Spring</td>
+      <td data-sort="10">10</td>
+      <td data-sort="0">0</td>
+      <td data-sort="0">$0.00</td>
+      <td data-sort="0">$0</td>
+      <td data-sort="5">5</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      <tr class="detail-row" id="detail-65" style="display:none">
+        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+          <div style="display:flex;gap:24px;flex-wrap:wrap">
+            <div>
+              <h4 style="margin:0 0 8px">Score Breakdown</h4>
+              <svg width="256" height="70" viewBox="0 0 256 70"><rect x="0" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="14" y="64" text-anchor="middle" font-size="9" fill="#666">Vol</text><text x="14" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="32" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="46" y="64" text-anchor="middle" font-size="9" fill="#666">CPC</text><text x="46" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="64" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="78" y="64" text-anchor="middle" font-size="9" fill="#666">Map</text><text x="78" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="96" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="110" y="64" text-anchor="middle" font-size="9" fill="#666">Org</text><text x="110" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="128" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="142" y="64" text-anchor="middle" font-size="9" fill="#666">Rent</text><text x="142" y="47" text-anchor="middle" font-size="9" fill="#333">0</text><rect x="160" y="0" width="28" height="50" fill="#22c55e" rx="2"/><text x="174" y="64" text-anchor="middle" font-size="9" fill="#666">Lic</text><text x="174" y="-3" text-anchor="middle" font-size="9" fill="#333">2</text><rect x="192" y="25" width="28" height="25" fill="#eab308" rx="2"/><text x="206" y="64" text-anchor="middle" font-size="9" fill="#666">Seas</text><text x="206" y="22" text-anchor="middle" font-size="9" fill="#333">1</text><rect x="224" y="50" width="28" height="2" fill="#ef4444" rx="2"/><text x="238" y="64" text-anchor="middle" font-size="9" fill="#666">RentP</text><text x="238" y="47" text-anchor="middle" font-size="9" fill="#333">0</text></svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Monthly Trends</h4>
+              <svg width="180" height="40" viewBox="0 0 180 40" style="vertical-align:middle">
+    <polyline points="0,32.638297872340424 16.363636363636363,34.93617021276596 32.72727272727273,38 49.09090909090909,28.04255319148936 65.45454545454545,20.382978723404257 81.81818181818181,2 98.18181818181819,5.829787234042556 114.54545454545455,7.361702127659573 130.9090909090909,10.425531914893618 147.27272727272728,16.5531914893617 163.63636363636363,19.617021276595747 180,31.872340425531917" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
+              <span style="color:#999;font-size:13px">No map pack data</span>
+            </div>
+            <div>
+              <h4 style="margin:0 0 8px">Organic Domains</h4>
+              <span style="color:#999;font-size:13px">None</span>
+            </div>
+          </div>
+          
+          
+        </td>
+      </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>pest-control-midland</td>
+      <td>pest control</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>pest-control-odessa</td>
+      <td>pest control</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>pest-control-big-spring</td>
+      <td>pest control</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>mosquito-control-midland</td>
+      <td>mosquito control</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>mosquito-control-odessa</td>
+      <td>mosquito control</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>mosquito-control-big-spring</td>
+      <td>mosquito control</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>pool-cleaning-midland</td>
+      <td>pool cleaning</td>
+      <td>Midland</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>pool-cleaning-odessa</td>
+      <td>pool cleaning</td>
+      <td>Odessa</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+    <tr style="background:#fee2e2;cursor:default" >
+      <td>pool-cleaning-big-spring</td>
+      <td>pool cleaning</td>
+      <td>Big Spring</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="0">—</td>
+      <td data-sort="">—</td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
+      <td></td>
+    </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div id="tab-regions" class="tab-content">
+  <div class="grid" style="margin-top:16px">
+    <div class="card">
+      <h3>By Area</h3>
+      <table>
+        <thead><tr><th>Area</th><th>Candidates</th><th>Viable (8+)</th><th>Best Score</th></tr></thead>
+        <tbody>
+    <tr>
+      <td><strong>Midland</strong></td>
+      <td>25</td>
+      <td>0</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td><strong>Odessa</strong></td>
+      <td>25</td>
+      <td>2</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td><strong>Big Spring</strong></td>
+      <td>25</td>
+      <td>0</td>
+      <td>6</td>
+    </tr></tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>By Niche</h3>
+      <table>
+        <thead><tr><th>Niche</th><th>Candidates</th><th>Viable (8+)</th><th>Best Score</th></tr></thead>
+        <tbody>
+    <tr>
+      <td><strong>tree removal</strong></td>
+      <td>3</td>
+      <td>1</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td><strong>landscaping</strong></td>
+      <td>3</td>
+      <td>1</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td><strong>fence installation</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td><strong>painting</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td><strong>interior painting</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td><strong>deck building</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><strong>exterior painting</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><strong>house cleaning</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>carpet cleaning</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>window cleaning</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>pressure washing</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>gutter cleaning</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>lawn care</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>lawn mowing</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>tree trimming</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>fence repair</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>deck staining</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>driveway sealing</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>junk removal</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>appliance repair</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>garage door repair</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>handyman</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>pest control</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>mosquito control</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><strong>pool cleaning</strong></td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+// Tab switching
+function showTab(name) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  document.querySelector('[onclick="showTab(\'' + name + '\')"]').classList.add('active');
+}
+
+// Detail row toggle
+function toggleDetail(idx) {
+  const row = document.getElementById('detail-' + idx);
+  if (row) row.style.display = row.style.display === 'none' ? 'table-row' : 'none';
+}
+
+// Sortable table
+(function() {
+  const table = document.getElementById('candidates-table');
+  if (!table) return;
+  const headers = table.querySelectorAll('th[data-col]');
+  let sortCol = -1, sortAsc = true;
+
+  headers.forEach(th => {
+    th.addEventListener('click', function() {
+      const col = parseInt(this.dataset.col);
+      const isNum = this.dataset.type === 'num';
+      if (sortCol === col) { sortAsc = !sortAsc; } else { sortCol = col; sortAsc = true; }
+
+      // Collect row pairs (data row + optional detail row)
+      const tbody = table.querySelector('tbody');
+      const allRows = Array.from(tbody.querySelectorAll('tr'));
+      const pairs = [];
+      for (let i = 0; i < allRows.length; i++) {
+        if (allRows[i].classList.contains('detail-row')) continue;
+        const detail = allRows[i + 1] && allRows[i + 1].classList.contains('detail-row') ? allRows[i + 1] : null;
+        pairs.push({ main: allRows[i], detail });
+      }
+
+      pairs.sort((a, b) => {
+        const cellA = a.main.children[col];
+        const cellB = b.main.children[col];
+        let valA = cellA.dataset.sort !== undefined ? cellA.dataset.sort : cellA.textContent.trim();
+        let valB = cellB.dataset.sort !== undefined ? cellB.dataset.sort : cellB.textContent.trim();
+        if (isNum) { valA = parseFloat(valA) || 0; valB = parseFloat(valB) || 0; }
+        if (valA < valB) return sortAsc ? -1 : 1;
+        if (valA > valB) return sortAsc ? 1 : -1;
+        return 0;
+      });
+
+      // Re-append in sorted order
+      pairs.forEach(p => { tbody.appendChild(p.main); if (p.detail) tbody.appendChild(p.detail); });
+
+      // Update arrow indicators
+      headers.forEach(h => { const arrow = h.querySelector('.sort-arrow'); if (arrow) arrow.remove(); });
+      this.insertAdjacentHTML('beforeend', '<span class="sort-arrow">' + (sortAsc ? '▲' : '▼') + '</span>');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
