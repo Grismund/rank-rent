@@ -1,0 +1,196 @@
+{
+  "volumes": {
+    "bathtub refinishing tulsa": {
+      "search_volume": 30,
+      "cpc": 10.98
+    },
+    "bathtub refinishing tulsa ok": {
+      "search_volume": 30,
+      "cpc": 10.98
+    },
+    "bathtub refinishing near me": {
+      "search_volume": 10,
+      "cpc": 5.86
+    },
+    "bathtub refinishing services tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best bathtub refinishing tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tulsa bathtub refinishing": {
+      "search_volume": 30,
+      "cpc": 10.98
+    },
+    "affordable bathtub refinishing tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "bathtub refinishing in tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "bathtub refinishing near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "bathtub refinishing tulsa",
+      "topDomains": [
+        "www.reddit.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "bathtub refinishing tulsa ok",
+      "topDomains": [
+        "refinishtulsa.com",
+        "google.com",
+        "google.com",
+        "www.miraclemethod.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "bathtub refinishing tulsa",
+    "topThree": [
+      {
+        "name": "Roundtop Refinishing",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Surface Renew Inc | Tulsa Bathtub Refinishing",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Miracle Method of Tulsa Southeast",
+        "reviews": 0,
+        "rating": 4.3
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    53,
+    46,
+    56,
+    57,
+    74,
+    82,
+    77,
+    86,
+    66,
+    57,
+    54,
+    71
+  ],
+  "organic_raw": [
+    {
+      "keyword": "bathtub refinishing tulsa",
+      "items_types": []
+    },
+    {
+      "keyword": "bathtub refinishing tulsa ok",
+      "items_types": []
+    },
+    {
+      "keyword": "bathtub refinishing tulsa",
+      "items_types": [
+        "local_pack",
+        "organic"
+      ]
+    },
+    {
+      "keyword": "bathtub refinishing tulsa ok",
+      "items_types": [
+        "local_pack",
+        "organic"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "bathtub refinishing tulsa",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    53,
+    46,
+    56,
+    57,
+    74,
+    82,
+    77,
+    86,
+    66,
+    57,
+    54,
+    71
+  ],
+  "trends_weekly": [
+    65,
+    58,
+    45,
+    45,
+    48,
+    41,
+    41,
+    45,
+    56,
+    61,
+    54,
+    53,
+    56,
+    57,
+    49,
+    64,
+    60,
+    57,
+    70,
+    71,
+    66,
+    87,
+    88,
+    100,
+    81,
+    72,
+    69,
+    85,
+    85,
+    66,
+    71,
+    90,
+    85,
+    97,
+    71,
+    68,
+    63,
+    65,
+    60,
+    72,
+    45,
+    67,
+    61,
+    56,
+    56,
+    50,
+    62,
+    52,
+    50,
+    68,
+    73,
+    68,
+    73
+  ]
+}

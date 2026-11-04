@@ -1,0 +1,199 @@
+{
+  "volumes": {
+    "dumpster rental houston": {
+      "search_volume": 880,
+      "cpc": 11.19
+    },
+    "dumpster rental houston tx": {
+      "search_volume": 880,
+      "cpc": 11.19
+    },
+    "dumpster rental near me": {
+      "search_volume": 480,
+      "cpc": 11.29
+    },
+    "dumpster rental services houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best dumpster rental houston": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "houston dumpster rental": {
+      "search_volume": 880,
+      "cpc": 11.19
+    },
+    "affordable dumpster rental houston": {
+      "search_volume": 10,
+      "cpc": 7.85
+    },
+    "dumpster rental in houston": {
+      "search_volume": 880,
+      "cpc": 11.19
+    }
+  },
+  "organic": [
+    {
+      "keyword": "dumpster rental houston",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.instagram.com",
+        "www.angi.com"
+      ]
+    },
+    {
+      "keyword": "dumpster rental houston tx",
+      "topDomains": [
+        "www.zters.com",
+        "google.com",
+        "google.com",
+        "frontierwaste.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "dumpster rental houston",
+    "topThree": [
+      {
+        "name": "Holden Dumpster Rental",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Dumpster Rental Houston Titans",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Houston 24/7 Dumpster Services",
+        "reviews": 0,
+        "rating": 0
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    45,
+    38,
+    39,
+    54,
+    65,
+    76,
+    81,
+    79,
+    81,
+    81,
+    67,
+    65
+  ],
+  "organic_raw": [
+    {
+      "keyword": "dumpster rental houston",
+      "items_types": []
+    },
+    {
+      "keyword": "dumpster rental houston tx",
+      "items_types": []
+    },
+    {
+      "keyword": "dumpster rental houston",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "people_also_search",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "dumpster rental houston tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_search",
+        "people_also_ask",
+        "discussions_and_forums",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "dumpster rental houston",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    45,
+    38,
+    39,
+    54,
+    65,
+    76,
+    81,
+    79,
+    81,
+    81,
+    67,
+    65
+  ],
+  "trends_weekly": [
+    45,
+    46,
+    46,
+    42,
+    38,
+    39,
+    37,
+    35,
+    40,
+    43,
+    39,
+    39,
+    36,
+    46,
+    52,
+    53,
+    58,
+    59,
+    66,
+    65,
+    59,
+    70,
+    74,
+    72,
+    75,
+    69,
+    89,
+    76,
+    73,
+    82,
+    91,
+    72,
+    90,
+    82,
+    71,
+    80,
+    76,
+    92,
+    80,
+    78,
+    76,
+    78,
+    100,
+    71,
+    62,
+    70,
+    81,
+    62,
+    62,
+    68,
+    72,
+    65,
+    56
+  ]
+}

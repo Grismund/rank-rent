@@ -1,0 +1,197 @@
+{
+  "volumes": {
+    "junk removal oklahoma city": {
+      "search_volume": 320,
+      "cpc": 10.28
+    },
+    "junk removal oklahoma city ok": {
+      "search_volume": 320,
+      "cpc": 10.28
+    },
+    "junk removal near me": {
+      "search_volume": 110,
+      "cpc": 5.8
+    },
+    "junk removal services oklahoma city": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "best junk removal oklahoma city": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "oklahoma city junk removal": {
+      "search_volume": 320,
+      "cpc": 10.28
+    },
+    "affordable junk removal oklahoma city": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "junk removal in oklahoma city": {
+      "search_volume": 320,
+      "cpc": 10.28
+    }
+  },
+  "organic": [
+    {
+      "keyword": "junk removal near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "junk removal oklahoma city",
+      "topDomains": [
+        "www.1800gotjunk.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "junk removal oklahoma city ok",
+      "topDomains": [
+        "goloadup.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.facebook.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "junk removal oklahoma city",
+    "topThree": [
+      {
+        "name": "Junk King Oklahoma City",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "On Call Junk Haul",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "1-800-GOT-JUNK? Oklahoma City",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "organic_raw": [
+    {
+      "keyword": "junk removal oklahoma city",
+      "items_types": []
+    },
+    {
+      "keyword": "junk removal oklahoma city ok",
+      "items_types": []
+    },
+    {
+      "keyword": "junk removal oklahoma city",
+      "items_types": [
+        "local_pack",
+        "organic"
+      ]
+    },
+    {
+      "keyword": "junk removal oklahoma city ok",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "junk removal oklahoma city",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "trends_weekly": [
+    52,
+    50,
+    52,
+    49,
+    53,
+    48,
+    46,
+    46,
+    57,
+    60,
+    58,
+    60,
+    63,
+    66,
+    61,
+    73,
+    86,
+    77,
+    76,
+    66,
+    70,
+    68,
+    73,
+    84,
+    76,
+    71,
+    72,
+    68,
+    70,
+    72,
+    70,
+    85,
+    100,
+    87,
+    71,
+    71,
+    74,
+    74,
+    67,
+    70,
+    67,
+    67,
+    64,
+    59,
+    52,
+    57,
+    63,
+    52,
+    52,
+    52,
+    55,
+    58,
+    63
+  ]
+}

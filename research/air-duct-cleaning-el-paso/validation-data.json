@@ -1,0 +1,201 @@
+{
+  "volumes": {
+    "air duct cleaning el paso": {
+      "search_volume": 140,
+      "cpc": 17.23
+    },
+    "air duct cleaning el paso tx": {
+      "search_volume": 140,
+      "cpc": 17.23
+    },
+    "air duct cleaning near me": {
+      "search_volume": 50,
+      "cpc": 12.55
+    },
+    "air duct cleaning services el paso": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best air duct cleaning el paso": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "el paso air duct cleaning": {
+      "search_volume": 140,
+      "cpc": 17.23
+    },
+    "affordable air duct cleaning el paso": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "air duct cleaning in el paso": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "air duct cleaning near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "air duct cleaning el paso",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "air duct cleaning el paso tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "air duct cleaning el paso",
+    "topThree": [
+      {
+        "name": "Air Vent Pros",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Mechanical Technologies",
+        "reviews": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "gas Wellness shop",
+        "reviews": 0,
+        "rating": 0
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    26,
+    24,
+    29,
+    35,
+    53,
+    74,
+    70,
+    79,
+    89,
+    61,
+    32,
+    32
+  ],
+  "organic_raw": [
+    {
+      "keyword": "air duct cleaning el paso",
+      "items_types": []
+    },
+    {
+      "keyword": "air duct cleaning el paso tx",
+      "items_types": []
+    },
+    {
+      "keyword": "air duct cleaning el paso",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "people_also_ask"
+      ]
+    },
+    {
+      "keyword": "air duct cleaning el paso tx",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "air duct cleaning el paso",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    26,
+    24,
+    29,
+    35,
+    53,
+    74,
+    70,
+    79,
+    89,
+    61,
+    32,
+    32
+  ],
+  "trends_weekly": [
+    26,
+    28,
+    27,
+    24,
+    26,
+    24,
+    23,
+    22,
+    25,
+    27,
+    23,
+    25,
+    42,
+    36,
+    34,
+    27,
+    43,
+    33,
+    35,
+    31,
+    59,
+    85,
+    82,
+    87,
+    100,
+    60,
+    43,
+    45,
+    87,
+    80,
+    67,
+    76,
+    79,
+    74,
+    85,
+    86,
+    90,
+    88,
+    93,
+    87,
+    90,
+    63,
+    46,
+    43,
+    32,
+    34,
+    36,
+    28,
+    30,
+    29,
+    32,
+    33,
+    34
+  ]
+}

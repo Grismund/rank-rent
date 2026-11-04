@@ -37,5 +37,75 @@
   },
   "total_score": 5,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "deck building midland",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "j-rfencing.com",
+        "www.houzz.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "deck building midland tx",
+      "topDomains": [
+        "google.com",
+        "www.yelp.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "deck building midland",
+      "items_types": [
+        "ai_overview",
+        "organic",
+        "local_pack"
+      ]
+    },
+    {
+      "keyword": "deck building midland tx",
+      "items_types": [
+        "organic",
+        "local_pack",
+        "ai_overview",
+        "people_also_ask",
+        "images",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "deck building midland",
+    "topThree": [
+      {
+        "name": "Tumbleweed General Contractors",
+        "reviews": 0,
+        "rating": 0
+      },
+      {
+        "name": "J.Prieto Construction,Llc",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "SOL Building Contractors",
+        "reviews": 0,
+        "rating": 4.5
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "deck building midland",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

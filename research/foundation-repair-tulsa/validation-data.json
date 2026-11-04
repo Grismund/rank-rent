@@ -1,0 +1,182 @@
+{
+  "volumes": {
+    "foundation repair tulsa": {
+      "search_volume": 170,
+      "cpc": 66.38
+    },
+    "foundation repair tulsa ok": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "foundation repair near me": {
+      "search_volume": 30,
+      "cpc": 88.85
+    },
+    "foundation repair services tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best foundation repair tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tulsa foundation repair": {
+      "search_volume": 170,
+      "cpc": 66.38
+    },
+    "affordable foundation repair tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "foundation repair in tulsa": {
+      "search_volume": 170,
+      "cpc": 66.38
+    }
+  },
+  "organic": [
+    {
+      "keyword": "foundation repair near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "foundation repair tulsa",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "tulsa foundation repair",
+      "topDomains": []
+    }
+  ],
+  "maps": {
+    "keyword": "foundation repair tulsa",
+    "topThree": [
+      {
+        "name": "Queen Foundation Repair",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "HOME FOUNDATION REPAIR DOMINGUEZ LLC",
+        "reviews": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "OK Elite Foundation Repair",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    38,
+    32,
+    35,
+    61,
+    60,
+    81,
+    70,
+    67,
+    54,
+    56,
+    47,
+    44
+  ],
+  "organic_raw": [
+    {
+      "keyword": "foundation repair tulsa",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "people_also_search",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "tulsa foundation repair",
+      "items_types": []
+    }
+  ],
+  "maps_raw": {
+    "keyword": "foundation repair tulsa",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    38,
+    32,
+    35,
+    61,
+    60,
+    81,
+    70,
+    67,
+    54,
+    56,
+    47,
+    44
+  ],
+  "trends_weekly": [
+    46,
+    37,
+    42,
+    27,
+    36,
+    29,
+    35,
+    25,
+    34,
+    31,
+    35,
+    32,
+    40,
+    43,
+    54,
+    46,
+    62,
+    100,
+    59,
+    49,
+    60,
+    73,
+    92,
+    86,
+    84,
+    67,
+    74,
+    79,
+    76,
+    64,
+    62,
+    68,
+    71,
+    67,
+    60,
+    54,
+    52,
+    55,
+    56,
+    53,
+    55,
+    51,
+    54,
+    62,
+    52,
+    44,
+    52,
+    41,
+    44,
+    38,
+    46,
+    41,
+    50
+  ]
+}

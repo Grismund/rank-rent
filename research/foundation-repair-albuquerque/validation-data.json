@@ -1,0 +1,197 @@
+{
+  "volumes": {
+    "foundation repair albuquerque": {
+      "search_volume": 70,
+      "cpc": 19.88
+    },
+    "foundation repair albuquerque nm": {
+      "search_volume": 70,
+      "cpc": 19.88
+    },
+    "foundation repair near me": {
+      "search_volume": 140,
+      "cpc": 2.27
+    },
+    "foundation repair services albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best foundation repair albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "albuquerque foundation repair": {
+      "search_volume": 70,
+      "cpc": 19.88
+    },
+    "affordable foundation repair albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "foundation repair in albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "foundation repair near me",
+      "topDomains": [
+        "google.com",
+        "www.myfoundationrepairs.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "foundation repair albuquerque",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.groundworks.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "foundation repair albuquerque",
+    "topThree": [
+      {
+        "name": "Groundworks Foundation Repair Albuquerque",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Ram Jack of New Mexico, Inc.",
+        "reviews": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Albuquerque Foundation Repair",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    38,
+    32,
+    35,
+    61,
+    60,
+    81,
+    70,
+    67,
+    54,
+    56,
+    47,
+    44
+  ],
+  "organic_raw": [
+    {
+      "keyword": "foundation repair near me",
+      "items_types": []
+    },
+    {
+      "keyword": "foundation repair albuquerque",
+      "items_types": []
+    },
+    {
+      "keyword": "foundation repair near me",
+      "items_types": [
+        "ai_overview",
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "foundation repair albuquerque",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "discussions_and_forums",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "foundation repair albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    38,
+    32,
+    35,
+    61,
+    60,
+    81,
+    70,
+    67,
+    54,
+    56,
+    47,
+    44
+  ],
+  "trends_weekly": [
+    46,
+    37,
+    42,
+    27,
+    36,
+    29,
+    35,
+    25,
+    34,
+    31,
+    35,
+    32,
+    40,
+    43,
+    54,
+    46,
+    62,
+    100,
+    59,
+    49,
+    60,
+    73,
+    92,
+    86,
+    84,
+    67,
+    74,
+    79,
+    76,
+    64,
+    62,
+    68,
+    71,
+    67,
+    60,
+    54,
+    52,
+    55,
+    56,
+    53,
+    55,
+    51,
+    54,
+    62,
+    52,
+    44,
+    52,
+    41,
+    44,
+    38,
+    46,
+    41,
+    50
+  ]
+}

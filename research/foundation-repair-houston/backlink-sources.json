@@ -1,0 +1,686 @@
+{
+  "slug": "foundation-repair-houston",
+  "analyzed_at": "2026-11-04",
+  "competitors": [
+    {
+      "domain": "texaspfs.com",
+      "summary": {
+        "backlinks": 168,
+        "referring_domains": 86,
+        "rank": 115
+      },
+      "top_referring_domains": [
+        {
+          "domain": "prosource.app",
+          "rank": 66,
+          "backlinks": 33,
+          "first_seen": "2026-09-25 07:03:12 +00:00"
+        },
+        {
+          "domain": "concretelistings.com",
+          "rank": 57,
+          "backlinks": 5,
+          "first_seen": "2026-09-25 05:50:04 +00:00"
+        },
+        {
+          "domain": "concreteworks.io",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-07-14 23:23:04 +00:00"
+        },
+        {
+          "domain": "slablocal.com",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2026-05-01 01:22:14 +00:00"
+        },
+        {
+          "domain": "cleverlabs.co",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2024-06-05 07:31:13 +00:00"
+        },
+        {
+          "domain": "growyoursitetraffic.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-02 03:23:04 +00:00"
+        },
+        {
+          "domain": "dlmpropertygroup.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-31 05:14:47 +00:00"
+        },
+        {
+          "domain": "websquemolan.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-30 06:57:58 +00:00"
+        },
+        {
+          "domain": "katyguide.com",
+          "rank": 0,
+          "backlinks": 4,
+          "first_seen": "2026-10-28 00:13:17 +00:00"
+        },
+        {
+          "domain": "findlocalexperts.com",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-26 14:40:37 +00:00"
+        },
+        {
+          "domain": "thcradar.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-22 22:31:02 +00:00"
+        },
+        {
+          "domain": "dbike-us.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-17 06:50:12 +00:00"
+        },
+        {
+          "domain": "screenshots.wiki",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-16 14:06:18 +00:00"
+        },
+        {
+          "domain": "shortenurls.eu",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-15 14:16:50 +00:00"
+        },
+        {
+          "domain": "techbumppy.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-14 12:19:39 +00:00"
+        },
+        {
+          "domain": "bureatag.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-13 09:25:37 +00:00"
+        },
+        {
+          "domain": "seonix.agency",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-12 13:12:09 +00:00"
+        },
+        {
+          "domain": "archive-hu.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-12 09:17:57 +00:00"
+        },
+        {
+          "domain": "rank-seo-now.shop",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-12 08:14:15 +00:00"
+        },
+        {
+          "domain": "clifflisting.com",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-10 15:23:21 +00:00"
+        },
+        {
+          "domain": "bestnz-poker-casinoslot.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-09 12:10:35 +00:00"
+        },
+        {
+          "domain": "sahammurah.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-08 19:43:53 +00:00"
+        },
+        {
+          "domain": "js-help.net",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-08 14:50:48 +00:00"
+        },
+        {
+          "domain": "thedocmag.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-05 02:29:25 +00:00"
+        },
+        {
+          "domain": "dupurgeniefr.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-02 21:17:13 +00:00"
+        },
+        {
+          "domain": "foundationselect.com",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-09-27 14:08:57 +00:00"
+        },
+        {
+          "domain": "cvillico.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-25 15:26:31 +00:00"
+        },
+        {
+          "domain": "onvaxs.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-25 04:14:46 +00:00"
+        },
+        {
+          "domain": "jobsapp.info",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-23 14:49:59 +00:00"
+        },
+        {
+          "domain": "kernelpanicpodcast.com",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-09-22 19:36:47 +00:00"
+        },
+        {
+          "domain": "quero.party",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-03 13:59:53 +00:00"
+        },
+        {
+          "domain": "uncledspizza.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-29 16:04:23 +00:00"
+        },
+        {
+          "domain": "fashionclothingnews.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-29 15:30:43 +00:00"
+        },
+        {
+          "domain": "quotesblom.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-28 12:03:20 +00:00"
+        },
+        {
+          "domain": "bye.fyi",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-08-26 02:55:24 +00:00"
+        },
+        {
+          "domain": "theforbestimes.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-20 22:01:20 +00:00"
+        },
+        {
+          "domain": "betwinnermirror.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-17 04:31:50 +00:00"
+        },
+        {
+          "domain": "homesforsaleoldgreenwichct.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-14 09:48:37 +00:00"
+        },
+        {
+          "domain": "betulcrime.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-12 19:43:26 +00:00"
+        },
+        {
+          "domain": "foundationscout.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-09 22:21:42 +00:00"
+        },
+        {
+          "domain": "ggmap.us.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-05 19:20:40 +00:00"
+        },
+        {
+          "domain": "texasfoundationcompass.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-03 13:14:36 +00:00"
+        },
+        {
+          "domain": "porch.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-07-26 04:32:49 +00:00"
+        },
+        {
+          "domain": "anchorurl.cloud",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-07-22 06:00:19 +00:00"
+        },
+        {
+          "domain": "buzzshrink.website",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-07-21 17:22:13 +00:00"
+        },
+        {
+          "domain": "websiterace.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-06-10 18:53:00 +00:00"
+        },
+        {
+          "domain": "read.org.in",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-05-07 14:58:27 +00:00"
+        },
+        {
+          "domain": "wallpapers.pro",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-04-30 21:30:53 +00:00"
+        },
+        {
+          "domain": "sergechel.info",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-04-13 05:05:47 +00:00"
+        },
+        {
+          "domain": "seomuda.id",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-03-23 12:09:03 +00:00"
+        }
+      ]
+    },
+    {
+      "domain": "twobrosfoundationrepair.com",
+      "summary": {
+        "backlinks": 4720,
+        "referring_domains": 597,
+        "rank": 207
+      },
+      "top_referring_domains": [
+        {
+          "domain": "pinterest.com",
+          "rank": 153,
+          "backlinks": 1,
+          "first_seen": "2026-08-22 13:54:36 +00:00"
+        },
+        {
+          "domain": "kcdefensecounsel.com",
+          "rank": 81,
+          "backlinks": 5,
+          "first_seen": "2025-04-15 04:41:24 +00:00"
+        },
+        {
+          "domain": "concreteworks.io",
+          "rank": 79,
+          "backlinks": 2,
+          "first_seen": "2026-07-15 03:21:50 +00:00"
+        },
+        {
+          "domain": "abnewswire.com",
+          "rank": 75,
+          "backlinks": 32,
+          "first_seen": "2026-07-25 18:38:11 +00:00"
+        },
+        {
+          "domain": "prosource.app",
+          "rank": 64,
+          "backlinks": 41,
+          "first_seen": "2026-09-25 04:33:19 +00:00"
+        },
+        {
+          "domain": "concretelistings.com",
+          "rank": 63,
+          "backlinks": 7,
+          "first_seen": "2026-09-25 05:50:04 +00:00"
+        },
+        {
+          "domain": "constructionstudios.com",
+          "rank": 59,
+          "backlinks": 1,
+          "first_seen": "2024-04-06 16:26:11 +00:00"
+        },
+        {
+          "domain": "dealport.com",
+          "rank": 51,
+          "backlinks": 2,
+          "first_seen": "2026-10-03 17:50:14 +00:00"
+        },
+        {
+          "domain": "hookedhome.com",
+          "rank": 51,
+          "backlinks": 2,
+          "first_seen": "2026-09-25 04:20:33 +00:00"
+        },
+        {
+          "domain": "dwellect.com",
+          "rank": 51,
+          "backlinks": 2,
+          "first_seen": "2026-01-08 00:46:20 +00:00"
+        },
+        {
+          "domain": "foryoubest.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2023-02-27 22:26:13 +00:00"
+        },
+        {
+          "domain": "newconstructionexpert.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2023-02-20 00:19:03 +00:00"
+        },
+        {
+          "domain": "homebriefings.com",
+          "rank": 39,
+          "backlinks": 2,
+          "first_seen": "2025-07-11 04:34:06 +00:00"
+        },
+        {
+          "domain": "quickhomeexperts.com",
+          "rank": 35,
+          "backlinks": 2,
+          "first_seen": "2026-09-28 09:30:05 +00:00"
+        },
+        {
+          "domain": "oldhousetonewhome.net",
+          "rank": 35,
+          "backlinks": 2,
+          "first_seen": "2025-10-09 04:56:41 +00:00"
+        },
+        {
+          "domain": "zeenews.co.uk",
+          "rank": 35,
+          "backlinks": 2,
+          "first_seen": "2023-05-01 07:51:19 +00:00"
+        },
+        {
+          "domain": "fieldofgreenshouston.com",
+          "rank": 23,
+          "backlinks": 1,
+          "first_seen": "2026-04-23 05:05:24 +00:00"
+        },
+        {
+          "domain": "heettiffany.com",
+          "rank": 23,
+          "backlinks": 1,
+          "first_seen": "2026-04-13 08:07:50 +00:00"
+        },
+        {
+          "domain": "reddi-form.com",
+          "rank": 23,
+          "backlinks": 1,
+          "first_seen": "2026-03-23 12:46:41 +00:00"
+        },
+        {
+          "domain": "westerncommunity.net",
+          "rank": 23,
+          "backlinks": 1,
+          "first_seen": "2026-02-28 00:02:54 +00:00"
+        },
+        {
+          "domain": "adamslarocca.com",
+          "rank": 23,
+          "backlinks": 1,
+          "first_seen": "2026-02-27 00:31:36 +00:00"
+        },
+        {
+          "domain": "supercleanrestorationpb.com",
+          "rank": 23,
+          "backlinks": 1,
+          "first_seen": "2026-01-15 10:52:42 +00:00"
+        },
+        {
+          "domain": "bunity.com",
+          "rank": 23,
+          "backlinks": 2,
+          "first_seen": "2025-08-09 15:06:48 +00:00"
+        },
+        {
+          "domain": "findthehomepros.com",
+          "rank": 16,
+          "backlinks": 2,
+          "first_seen": "2024-10-29 01:59:55 +00:00"
+        },
+        {
+          "domain": "kdshomebuyers.net",
+          "rank": 15,
+          "backlinks": 9,
+          "first_seen": "2026-04-15 01:13:01 +00:00"
+        },
+        {
+          "domain": "enthrallinggumption.com",
+          "rank": 14,
+          "backlinks": 2,
+          "first_seen": "2026-03-15 01:32:43 +00:00"
+        },
+        {
+          "domain": "upngomoving.com",
+          "rank": 10,
+          "backlinks": 2,
+          "first_seen": "2025-11-12 13:54:55 +00:00"
+        },
+        {
+          "domain": "therapidhomedirect.com",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2026-09-26 12:04:45 +00:00"
+        },
+        {
+          "domain": "storeboard.com",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2026-07-15 05:53:54 +00:00"
+        },
+        {
+          "domain": "agendacoverlife.com",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2026-05-23 02:01:09 +00:00"
+        },
+        {
+          "domain": "slablocal.com",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2026-05-01 01:57:37 +00:00"
+        },
+        {
+          "domain": "crawllocal.com",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2026-05-01 01:36:29 +00:00"
+        },
+        {
+          "domain": "lorddecor.com",
+          "rank": 7,
+          "backlinks": 2,
+          "first_seen": "2025-11-06 07:46:44 +00:00"
+        },
+        {
+          "domain": "richmanmagazine.com",
+          "rank": 7,
+          "backlinks": 4,
+          "first_seen": "2025-10-20 15:43:23 +00:00"
+        },
+        {
+          "domain": "cleverlabs.co",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2024-06-05 07:11:40 +00:00"
+        },
+        {
+          "domain": "ouedkniss.co.uk",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2023-05-01 07:54:59 +00:00"
+        },
+        {
+          "domain": "hoappm.com",
+          "rank": 3,
+          "backlinks": 2,
+          "first_seen": "2026-05-30 21:59:59 +00:00"
+        },
+        {
+          "domain": "signalnewscolumbiamo.com",
+          "rank": 0,
+          "backlinks": 4,
+          "first_seen": "2026-11-04 03:06:20 +00:00"
+        },
+        {
+          "domain": "signalnewstucson.com",
+          "rank": 0,
+          "backlinks": 6,
+          "first_seen": "2026-11-04 01:26:49 +00:00"
+        },
+        {
+          "domain": "teethgrinder.co.uk",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-11-03 04:46:26 +00:00"
+        },
+        {
+          "domain": "signalnewsoklahomacity.com",
+          "rank": 0,
+          "backlinks": 10,
+          "first_seen": "2026-11-03 03:19:57 +00:00"
+        },
+        {
+          "domain": "smarttalksuccess.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-02 17:47:00 +00:00"
+        },
+        {
+          "domain": "growyoursitetraffic.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-02 02:55:07 +00:00"
+        },
+        {
+          "domain": "signalnewscolumbusms.com",
+          "rank": 0,
+          "backlinks": 14,
+          "first_seen": "2026-11-01 09:48:10 +00:00"
+        },
+        {
+          "domain": "moviecastingcall.org",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-11-01 08:35:58 +00:00"
+        },
+        {
+          "domain": "signalnewstampa.com",
+          "rank": 0,
+          "backlinks": 20,
+          "first_seen": "2026-11-01 05:02:17 +00:00"
+        },
+        {
+          "domain": "signalnewssiouxcity.com",
+          "rank": 0,
+          "backlinks": 14,
+          "first_seen": "2026-11-01 00:02:39 +00:00"
+        },
+        {
+          "domain": "signalnewsclarksburg.com",
+          "rank": 0,
+          "backlinks": 14,
+          "first_seen": "2026-10-31 23:42:52 +00:00"
+        },
+        {
+          "domain": "cosmeticsurgeryinsider.com",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-31 21:15:01 +00:00"
+        },
+        {
+          "domain": "ribbon.co",
+          "rank": 0,
+          "backlinks": 20,
+          "first_seen": "2026-10-31 19:31:39 +00:00"
+        }
+      ]
+    }
+  ],
+  "common_sources": [
+    "prosource.app",
+    "concretelistings.com",
+    "concreteworks.io",
+    "slablocal.com",
+    "cleverlabs.co",
+    "growyoursitetraffic.shop"
+  ],
+  "link_building_targets": [
+    "prosource.app",
+    "concretelistings.com",
+    "concreteworks.io",
+    "slablocal.com",
+    "cleverlabs.co",
+    "growyoursitetraffic.shop",
+    "dlmpropertygroup.com",
+    "websquemolan.com",
+    "katyguide.com",
+    "findlocalexperts.com",
+    "thcradar.com",
+    "dbike-us.com",
+    "screenshots.wiki",
+    "shortenurls.eu",
+    "techbumppy.com",
+    "bureatag.com",
+    "seonix.agency",
+    "archive-hu.com",
+    "rank-seo-now.shop",
+    "clifflisting.com",
+    "bestnz-poker-casinoslot.com",
+    "sahammurah.com",
+    "js-help.net",
+    "thedocmag.com",
+    "dupurgeniefr.com",
+    "foundationselect.com",
+    "cvillico.com",
+    "onvaxs.com",
+    "jobsapp.info",
+    "kernelpanicpodcast.com",
+    "quero.party",
+    "uncledspizza.com",
+    "fashionclothingnews.com",
+    "quotesblom.com",
+    "bye.fyi",
+    "theforbestimes.com",
+    "betwinnermirror.com",
+    "homesforsaleoldgreenwichct.com",
+    "betulcrime.com",
+    "foundationscout.com",
+    "ggmap.us.com",
+    "texasfoundationcompass.com",
+    "porch.com",
+    "anchorurl.cloud",
+    "buzzshrink.website",
+    "websiterace.com",
+    "read.org.in",
+    "wallpapers.pro",
+    "sergechel.info",
+    "seomuda.id"
+  ]
+}

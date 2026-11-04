@@ -37,5 +37,71 @@
   },
   "total_score": 5,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "landscaping big spring",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "landscaping big spring tx",
+      "topDomains": [
+        "m.yelp.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "landscaping big spring",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "landscaping big spring tx",
+      "items_types": [
+        "local_pack",
+        "organic"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "landscaping big spring",
+    "topThree": [
+      {
+        "name": "Johansen Landscape & Nursery",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Garden guy lawn care and landscaping",
+        "reviews": 0,
+        "rating": 4
+      },
+      {
+        "name": "Elite Landscaping and construction.",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "landscaping big spring",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

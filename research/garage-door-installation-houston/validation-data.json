@@ -1,0 +1,203 @@
+{
+  "volumes": {
+    "garage door installation houston": {
+      "search_volume": 70,
+      "cpc": 115.64
+    },
+    "garage door installation houston tx": {
+      "search_volume": 50,
+      "cpc": 55.1
+    },
+    "garage door installation near me": {
+      "search_volume": 390,
+      "cpc": 54.82
+    },
+    "garage door installation services houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best garage door installation houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "houston garage door installation": {
+      "search_volume": 70,
+      "cpc": 115.64
+    },
+    "affordable garage door installation houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "garage door installation in houston": {
+      "search_volume": 50,
+      "cpc": 55.1
+    }
+  },
+  "organic": [
+    {
+      "keyword": "garage door installation near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.angi.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "garage door installation houston",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "garage door installation houston",
+    "topThree": [
+      {
+        "name": "WeFix Garage Door Repair",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Aura Garage Door Repair Houston",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Pioneer Garage Door Repair of Houston",
+        "reviews": 0,
+        "rating": 4.9
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    26,
+    25,
+    28,
+    36,
+    58,
+    76,
+    72,
+    85,
+    92,
+    73,
+    35,
+    37
+  ],
+  "organic_raw": [
+    {
+      "keyword": "garage door installation near me",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "people_also_ask",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "garage door installation houston",
+      "items_types": []
+    },
+    {
+      "keyword": "garage door installation near me",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "images",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "garage door installation houston",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "garage door installation houston",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    26,
+    25,
+    28,
+    36,
+    58,
+    76,
+    72,
+    85,
+    92,
+    73,
+    35,
+    37
+  ],
+  "trends_weekly": [
+    24,
+    26,
+    28,
+    26,
+    27,
+    25,
+    25,
+    24,
+    23,
+    27,
+    24,
+    22,
+    37,
+    36,
+    29,
+    28,
+    46,
+    39,
+    38,
+    35,
+    61,
+    96,
+    93,
+    97,
+    92,
+    63,
+    37,
+    41,
+    89,
+    88,
+    69,
+    84,
+    87,
+    70,
+    97,
+    93,
+    92,
+    100,
+    95,
+    81,
+    89,
+    83,
+    60,
+    58,
+    41,
+    35,
+    41,
+    27,
+    30,
+    29,
+    33,
+    41,
+    45
+  ]
+}

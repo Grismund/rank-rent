@@ -1,0 +1,188 @@
+{
+  "volumes": {
+    "air duct cleaning oklahoma city": {
+      "search_volume": 170,
+      "cpc": 30.41
+    },
+    "air duct cleaning oklahoma city ok": {
+      "search_volume": 170,
+      "cpc": 30.41
+    },
+    "air duct cleaning near me": {
+      "search_volume": 70,
+      "cpc": 29.18
+    },
+    "air duct cleaning services oklahoma city": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best air duct cleaning oklahoma city": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "oklahoma city air duct cleaning": {
+      "search_volume": 170,
+      "cpc": 30.41
+    },
+    "affordable air duct cleaning oklahoma city": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "air duct cleaning in oklahoma city": {
+      "search_volume": 170,
+      "cpc": 30.41
+    }
+  },
+  "organic": [
+    {
+      "keyword": "air duct cleaning near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "air duct cleaning oklahoma city",
+      "topDomains": [
+        "google.com",
+        "www.bbb.org",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "air duct cleaning oklahoma city ok",
+      "topDomains": []
+    }
+  ],
+  "maps": {
+    "keyword": "air duct cleaning oklahoma city",
+    "topThree": [
+      {
+        "name": "Duct Squads",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Duct Squads",
+        "reviews": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Oklahoma Hood Cleaning - Kitchen Exhaust Cleaners LLC",
+        "reviews": 0,
+        "rating": 4.9
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    26,
+    24,
+    29,
+    35,
+    53,
+    74,
+    70,
+    79,
+    89,
+    61,
+    32,
+    32
+  ],
+  "organic_raw": [
+    {
+      "keyword": "air duct cleaning oklahoma city",
+      "items_types": []
+    },
+    {
+      "keyword": "air duct cleaning oklahoma city ok",
+      "items_types": []
+    },
+    {
+      "keyword": "air duct cleaning oklahoma city",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "air duct cleaning oklahoma city ok",
+      "items_types": []
+    }
+  ],
+  "maps_raw": {
+    "keyword": "air duct cleaning oklahoma city",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    26,
+    24,
+    29,
+    35,
+    53,
+    74,
+    70,
+    79,
+    89,
+    61,
+    32,
+    32
+  ],
+  "trends_weekly": [
+    26,
+    28,
+    27,
+    24,
+    26,
+    24,
+    23,
+    22,
+    25,
+    27,
+    23,
+    25,
+    42,
+    36,
+    34,
+    27,
+    43,
+    33,
+    35,
+    31,
+    59,
+    85,
+    82,
+    87,
+    100,
+    60,
+    43,
+    45,
+    87,
+    80,
+    67,
+    76,
+    79,
+    74,
+    85,
+    86,
+    90,
+    88,
+    93,
+    87,
+    90,
+    63,
+    46,
+    43,
+    32,
+    34,
+    36,
+    28,
+    30,
+    29,
+    32,
+    33,
+    34
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "volumes": {
+    "tree service abilene": {
+      "search_volume": 140,
+      "cpc": 13.42
+    },
+    "tree service abilene tx": {
+      "search_volume": 140,
+      "cpc": 13.42
+    },
+    "tree service near me": {
+      "search_volume": 70,
+      "cpc": 48.73
+    },
+    "tree service services abilene": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best tree service abilene": {
+      "search_volume": 30,
+      "cpc": 14.13
+    },
+    "abilene tree service": {
+      "search_volume": 140,
+      "cpc": 13.42
+    },
+    "affordable tree service abilene": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tree service in abilene": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "tree service abilene",
+      "topDomains": [
+        "www.texastreeremovalandtrimming.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.mapquest.com"
+      ]
+    },
+    {
+      "keyword": "tree service abilene tx",
+      "topDomains": [
+        "google.com",
+        "www.facebook.com",
+        "m.yelp.com",
+        "google.com",
+        "www.facebook.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "tree service abilene",
+    "topThree": [
+      {
+        "name": "Thornton's Tree Service",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "A Cutt Above Tree Service",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Snappy's Tree Trimming & Removal Service",
+        "reviews": 0,
+        "rating": 4.9
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    41,
+    37,
+    41,
+    49,
+    60,
+    66,
+    68,
+    84,
+    63,
+    58,
+    49,
+    45
+  ],
+  "organic_raw": [
+    {
+      "keyword": "tree service abilene",
+      "items_types": []
+    },
+    {
+      "keyword": "tree service abilene tx",
+      "items_types": []
+    },
+    {
+      "keyword": "tree service abilene",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "video",
+        "short_videos",
+        "people_also_ask",
+        "discussions_and_forums",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "tree service abilene tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "short_videos"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "tree service abilene",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    41,
+    37,
+    41,
+    49,
+    60,
+    66,
+    68,
+    84,
+    63,
+    58,
+    49,
+    45
+  ],
+  "trends_weekly": [
+    44,
+    43,
+    43,
+    35,
+    37,
+    40,
+    39,
+    34,
+    35,
+    39,
+    36,
+    42,
+    47,
+    45,
+    47,
+    47,
+    56,
+    51,
+    61,
+    60,
+    61,
+    58,
+    62,
+    68,
+    64,
+    63,
+    74,
+    73,
+    65,
+    69,
+    66,
+    88,
+    100,
+    86,
+    63,
+    73,
+    61,
+    69,
+    56,
+    54,
+    60,
+    60,
+    55,
+    57,
+    50,
+    49,
+    54,
+    45,
+    47,
+    44,
+    44,
+    45,
+    46
+  ]
+}

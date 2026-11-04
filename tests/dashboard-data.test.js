@@ -79,6 +79,89 @@ describe('enrichCandidates', () => {
     expect(result[0].validation).toBeUndefined()
   })
 
+  it('normalizes batch-format validation: constructs signals from CSV score fields', () => {
+    const candidates = [{
+      slug: 'junk-removal-houston',
+      score_vol: '0', score_cpc: '2', score_map: '2', score_organic: '1',
+      score_renters: '2', score_license: '2', score_season: '2', score_rent: '2',
+    }]
+    const validationMap = {
+      'junk-removal-houston': {
+        trends: [51, 50, 60, 73, 70, 75, 70, 86, 71, 64, 55, 57],
+        maps: { topThree: [{ name: 'Junk Co', reviews: 10, rating: 4.9 }], totalCount: 20 },
+        organic: [
+          { keyword: 'junk removal houston', topDomains: ['google.com', 'yelp.com'] },
+          { keyword: 'houston junk removal', topDomains: ['google.com', 'angi.com'] },
+        ],
+      },
+    }
+    const result = enrichCandidates(candidates, validationMap, {}, {})
+    const v = result[0].validation
+    expect(v.signals).toEqual({
+      volume: 0, cpc: 2, mapPack: 2, organic: 1,
+      renters: 2, license: 2, seasonality: 2, rent: 2,
+    })
+  })
+
+  it('normalizes batch-format validation: falls back trends to v.trends', () => {
+    const candidates = [{ slug: 'test-slug', score_vol: '1', score_cpc: '1', score_map: '1', score_organic: '1', score_renters: '1', score_license: '1', score_season: '1', score_rent: '1' }]
+    const validationMap = {
+      'test-slug': {
+        trends: [10, 20, 30, 40, 50, 60, 70, 80, 90, 80, 70, 60],
+      },
+    }
+    const result = enrichCandidates(candidates, validationMap, {}, {})
+    expect(result[0].validation.trends_monthly).toEqual([10, 20, 30, 40, 50, 60, 70, 80, 90, 80, 70, 60])
+  })
+
+  it('normalizes batch-format validation: falls back maps_data to v.maps', () => {
+    const candidates = [{ slug: 'test-slug', score_vol: '1', score_cpc: '1', score_map: '1', score_organic: '1', score_renters: '1', score_license: '1', score_season: '1', score_rent: '1' }]
+    const validationMap = {
+      'test-slug': {
+        maps: { topThree: [{ name: 'Biz', reviews: 5, rating: 4.8 }], totalCount: 10 },
+      },
+    }
+    const result = enrichCandidates(candidates, validationMap, {}, {})
+    expect(result[0].validation.maps_data).toEqual({ topThree: [{ name: 'Biz', reviews: 5, rating: 4.8 }], totalCount: 10 })
+  })
+
+  it('normalizes batch-format validation: flattens and dedupes organic domains', () => {
+    const candidates = [{ slug: 'test-slug', score_vol: '1', score_cpc: '1', score_map: '1', score_organic: '1', score_renters: '1', score_license: '1', score_season: '1', score_rent: '1' }]
+    const validationMap = {
+      'test-slug': {
+        organic: [
+          { keyword: 'kw1', topDomains: ['google.com', 'yelp.com', 'angi.com'] },
+          { keyword: 'kw2', topDomains: ['google.com', 'thumbtack.com'] },
+        ],
+      },
+    }
+    const result = enrichCandidates(candidates, validationMap, {}, {})
+    expect(result[0].validation.organic_domains).toEqual(['google.com', 'yelp.com', 'angi.com', 'thumbtack.com'])
+  })
+
+  it('preserves interactive-format validation data unchanged', () => {
+    const candidates = [{
+      slug: 'spray-foam-houston',
+      score_vol: '0', score_cpc: '2', score_map: '1', score_organic: '0',
+      score_renters: '2', score_license: '2', score_season: '2', score_rent: '2',
+    }]
+    const signals = { volume: 0, cpc: 2, mapPack: 1, organic: 0, renters: 2, license: 2, seasonality: 2, rent: 2 }
+    const validationMap = {
+      'spray-foam-houston': {
+        signals,
+        trends_monthly: [87, 83, 87, 87, 83, 87, 83, 91, 85, 82, 82, 87],
+        maps_data: { topThree: [{ name: 'Biz', reviews: 8, rating: 5 }], totalCount: 20 },
+        organic_domains: ['www.31w.com', 'www.thumbtack.com'],
+      },
+    }
+    const result = enrichCandidates(candidates, validationMap, {}, {})
+    const v = result[0].validation
+    expect(v.signals).toBe(signals)
+    expect(v.trends_monthly).toEqual([87, 83, 87, 87, 83, 87, 83, 91, 85, 82, 82, 87])
+    expect(v.maps_data.topThree).toHaveLength(1)
+    expect(v.organic_domains).toEqual(['www.31w.com', 'www.thumbtack.com'])
+  })
+
   it('merges teardown verdict onto matching candidate', () => {
     const candidates = [
       { slug: 'tree-removal-odessa', score_total: '11' },

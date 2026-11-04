@@ -37,5 +37,74 @@
   },
   "total_score": 5,
   "status": "walk_away",
-  "rent_estimate": 0.15750000000000003
+  "rent_estimate": 0.15750000000000003,
+  "organic": [
+    {
+      "keyword": "interior painting midland",
+      "topDomains": [
+        "www.houzz.com",
+        "yanacekpainting.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "interior painting midland tx",
+      "topDomains": [
+        "google.com",
+        "www.homeadvisor.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "interior painting midland",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "popular_products",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "interior painting midland tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "interior painting midland",
+    "topThree": [
+      {
+        "name": "That 1 Painter Midland - Odessa",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Premier Painting",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Pro Team Painters",
+        "reviews": 0,
+        "rating": 4.9
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "interior painting midland",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

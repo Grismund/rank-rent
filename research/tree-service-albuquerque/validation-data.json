@@ -1,0 +1,194 @@
+{
+  "volumes": {
+    "tree service albuquerque": {
+      "search_volume": 210,
+      "cpc": 21.15
+    },
+    "tree service albuquerque nm": {
+      "search_volume": 210,
+      "cpc": 21.15
+    },
+    "tree service near me": {
+      "search_volume": 70,
+      "cpc": 18.19
+    },
+    "tree service services albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best tree service albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "albuquerque tree service": {
+      "search_volume": 210,
+      "cpc": 21.15
+    },
+    "affordable tree service albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tree service in albuquerque": {
+      "search_volume": 210,
+      "cpc": 21.15
+    }
+  },
+  "organic": [
+    {
+      "keyword": "tree service albuquerque",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "tree service albuquerque nm",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "abqtreeservices.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "tree service albuquerque",
+    "topThree": [
+      {
+        "name": "A-1 Tree and Hauling Services",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Urgent Tree Removal & Trimming",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Hector's Tree Care",
+        "reviews": 0,
+        "rating": 4.9
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    41,
+    37,
+    41,
+    49,
+    60,
+    66,
+    68,
+    84,
+    63,
+    58,
+    49,
+    45
+  ],
+  "organic_raw": [
+    {
+      "keyword": "tree service albuquerque",
+      "items_types": []
+    },
+    {
+      "keyword": "tree service albuquerque nm",
+      "items_types": []
+    },
+    {
+      "keyword": "tree service albuquerque",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "tree service albuquerque nm",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "tree service albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    41,
+    37,
+    41,
+    49,
+    60,
+    66,
+    68,
+    84,
+    63,
+    58,
+    49,
+    45
+  ],
+  "trends_weekly": [
+    44,
+    43,
+    43,
+    35,
+    37,
+    40,
+    39,
+    34,
+    35,
+    39,
+    36,
+    42,
+    47,
+    45,
+    47,
+    47,
+    56,
+    51,
+    61,
+    60,
+    61,
+    58,
+    62,
+    68,
+    64,
+    63,
+    74,
+    73,
+    65,
+    69,
+    66,
+    88,
+    100,
+    86,
+    63,
+    73,
+    61,
+    69,
+    56,
+    54,
+    60,
+    60,
+    55,
+    57,
+    50,
+    49,
+    54,
+    45,
+    47,
+    44,
+    44,
+    45,
+    46
+  ]
+}

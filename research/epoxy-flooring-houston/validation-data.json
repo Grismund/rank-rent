@@ -1,0 +1,198 @@
+{
+  "volumes": {
+    "epoxy flooring houston": {
+      "search_volume": 90,
+      "cpc": 7.17
+    },
+    "epoxy flooring houston tx": {
+      "search_volume": 90,
+      "cpc": 18.9
+    },
+    "epoxy flooring near me": {
+      "search_volume": 260,
+      "cpc": 16.86
+    },
+    "epoxy flooring services houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best epoxy flooring houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "houston epoxy flooring": {
+      "search_volume": 90,
+      "cpc": 7.17
+    },
+    "affordable epoxy flooring houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "epoxy flooring in houston": {
+      "search_volume": 10,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "epoxy flooring near me",
+      "topDomains": [
+        "google.com",
+        "www.spfsconcrete.com",
+        "www.yelp.com",
+        "google.com",
+        "www.yelp.com"
+      ]
+    },
+    {
+      "keyword": "epoxy flooring houston",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "certapro.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "epoxy flooring houston",
+    "topThree": [
+      {
+        "name": "Heights Epoxy Flooring",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Sendero Epoxy Coatings",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Mr Monster Services",
+        "reviews": 0,
+        "rating": 4.8
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    62,
+    78,
+    87,
+    84,
+    85,
+    92,
+    93,
+    94,
+    82,
+    87,
+    76,
+    80
+  ],
+  "organic_raw": [
+    {
+      "keyword": "epoxy flooring near me",
+      "items_types": []
+    },
+    {
+      "keyword": "epoxy flooring houston",
+      "items_types": []
+    },
+    {
+      "keyword": "epoxy flooring near me",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "epoxy flooring houston",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "people_also_search",
+        "paid",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "epoxy flooring houston",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    62,
+    78,
+    87,
+    84,
+    85,
+    92,
+    93,
+    94,
+    82,
+    87,
+    76,
+    80
+  ],
+  "trends_weekly": [
+    57,
+    62,
+    67,
+    63,
+    75,
+    69,
+    84,
+    80,
+    83,
+    95,
+    92,
+    90,
+    72,
+    91,
+    85,
+    84,
+    84,
+    75,
+    90,
+    79,
+    85,
+    87,
+    94,
+    96,
+    90,
+    83,
+    96,
+    100,
+    95,
+    87,
+    91,
+    99,
+    99,
+    98,
+    78,
+    89,
+    76,
+    90,
+    77,
+    80,
+    79,
+    83,
+    94,
+    90,
+    69,
+    83,
+    83,
+    70,
+    77,
+    69,
+    80,
+    77,
+    94
+  ]
+}

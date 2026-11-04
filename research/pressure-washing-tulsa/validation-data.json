@@ -1,0 +1,197 @@
+{
+  "volumes": {
+    "pressure washing tulsa": {
+      "search_volume": 90,
+      "cpc": 2.78
+    },
+    "pressure washing tulsa ok": {
+      "search_volume": 90,
+      "cpc": 2.78
+    },
+    "pressure washing near me": {
+      "search_volume": 50,
+      "cpc": 1.03
+    },
+    "pressure washing services tulsa": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "best pressure washing tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tulsa pressure washing": {
+      "search_volume": 90,
+      "cpc": 2.78
+    },
+    "affordable pressure washing tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "pressure washing in tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "pressure washing tulsa",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "www.facebook.com",
+        "www.tulsawash.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "pressure washing tulsa ok",
+      "topDomains": [
+        "imperialpressure.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.rollingsudspowerwashing.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "pressure washing tulsa",
+    "topThree": [
+      {
+        "name": "Excellent Exterior Maintenance",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Oklahoma ProWash Window Cleaning and Pressure Washing",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "ALL HANDS MOBILE SERVICES",
+        "reviews": 0,
+        "rating": 4.2
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    30,
+    28,
+    36,
+    41,
+    50,
+    63,
+    67,
+    81,
+    48,
+    42,
+    37,
+    36
+  ],
+  "organic_raw": [
+    {
+      "keyword": "pressure washing tulsa",
+      "items_types": []
+    },
+    {
+      "keyword": "pressure washing tulsa ok",
+      "items_types": []
+    },
+    {
+      "keyword": "pressure washing tulsa",
+      "items_types": [
+        "local_services",
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "pressure washing tulsa ok",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "pressure washing tulsa",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    30,
+    28,
+    36,
+    41,
+    50,
+    63,
+    67,
+    81,
+    48,
+    42,
+    37,
+    36
+  ],
+  "trends_weekly": [
+    30,
+    30,
+    30,
+    28,
+    30,
+    28,
+    28,
+    27,
+    28,
+    33,
+    30,
+    34,
+    46,
+    36,
+    37,
+    40,
+    44,
+    47,
+    50,
+    46,
+    51,
+    53,
+    59,
+    64,
+    66,
+    59,
+    65,
+    63,
+    85,
+    64,
+    55,
+    87,
+    100,
+    78,
+    58,
+    50,
+    50,
+    52,
+    44,
+    42,
+    45,
+    41,
+    40,
+    41,
+    37,
+    39,
+    42,
+    32,
+    36,
+    36,
+    32,
+    37,
+    37
+  ]
+}

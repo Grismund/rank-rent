@@ -43,5 +43,76 @@
   },
   "total_score": 6,
   "status": "walk_away",
-  "rent_estimate": 5.107500000000001
+  "rent_estimate": 5.107500000000001,
+  "organic": [
+    {
+      "keyword": "painting odessa",
+      "topDomains": [
+        "google.com",
+        "www.lowes.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "painting odessa tx",
+      "topDomains": [
+        "google.com",
+        "www.instagram.com",
+        "www.paintersmidlandtx.com",
+        "www.facebook.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "painting odessa",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "perspectives",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "painting odessa tx",
+      "items_types": [
+        "ai_overview",
+        "organic",
+        "images",
+        "related_searches",
+        "knowledge_graph",
+        "google_reviews"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "painting odessa",
+    "topThree": [
+      {
+        "name": "Cheers To Paint Studio",
+        "reviews": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Out West Restoration",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Barron Paint & Equipment",
+        "reviews": 0,
+        "rating": 4.5
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "painting odessa",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

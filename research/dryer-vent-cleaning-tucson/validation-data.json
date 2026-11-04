@@ -1,0 +1,210 @@
+{
+  "volumes": {
+    "dryer vent cleaning tucson": {
+      "search_volume": 140,
+      "cpc": 18.32
+    },
+    "dryer vent cleaning tucson az": {
+      "search_volume": 140,
+      "cpc": 18.32
+    },
+    "dryer vent cleaning near me": {
+      "search_volume": 20,
+      "cpc": 16.37
+    },
+    "dryer vent cleaning services tucson": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best dryer vent cleaning tucson": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tucson dryer vent cleaning": {
+      "search_volume": 140,
+      "cpc": 18.32
+    },
+    "affordable dryer vent cleaning tucson": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "dryer vent cleaning in tucson": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "dryer vent cleaning near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "dryer vent cleaning tucson",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "dryer vent cleaning tucson az",
+      "topDomains": [
+        "www.greenhomesolutions.com",
+        "google.com",
+        "www.bbb.org",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "dryer vent cleaning tucson",
+    "topThree": [
+      {
+        "name": "Mercer Air Duct Cleaning & Dryer Vent Cleaning Services",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Dryer Vent Cleaning Of Tucson",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Bender Air Duct Cleaning & Dryer Vent Cleaning Services",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    45,
+    47,
+    53,
+    48,
+    62,
+    85,
+    79,
+    86,
+    86,
+    73,
+    44,
+    45
+  ],
+  "organic_raw": [
+    {
+      "keyword": "dryer vent cleaning tucson",
+      "items_types": [
+        "ai_overview",
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "paid",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "dryer vent cleaning tucson az",
+      "items_types": []
+    },
+    {
+      "keyword": "dryer vent cleaning tucson",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "images",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "dryer vent cleaning tucson az",
+      "items_types": [
+        "ai_overview",
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "discussions_and_forums",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "dryer vent cleaning tucson",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    45,
+    47,
+    53,
+    48,
+    62,
+    85,
+    79,
+    86,
+    86,
+    73,
+    44,
+    45
+  ],
+  "trends_weekly": [
+    44,
+    47,
+    46,
+    42,
+    53,
+    44,
+    45,
+    44,
+    51,
+    56,
+    47,
+    48,
+    61,
+    56,
+    53,
+    38,
+    52,
+    40,
+    43,
+    43,
+    67,
+    94,
+    100,
+    100,
+    95,
+    73,
+    57,
+    57,
+    98,
+    88,
+    71,
+    86,
+    90,
+    74,
+    93,
+    95,
+    89,
+    82,
+    84,
+    82,
+    87,
+    78,
+    63,
+    63,
+    48,
+    44,
+    46,
+    37,
+    43,
+    42,
+    44,
+    47,
+    46
+  ]
+}

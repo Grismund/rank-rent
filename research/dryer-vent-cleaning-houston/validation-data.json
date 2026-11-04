@@ -1,0 +1,199 @@
+{
+  "volumes": {
+    "dryer vent cleaning houston": {
+      "search_volume": 590,
+      "cpc": 17.45
+    },
+    "dryer vent cleaning houston tx": {
+      "search_volume": 590,
+      "cpc": 17.45
+    },
+    "dryer vent cleaning near me": {
+      "search_volume": 1600,
+      "cpc": 32.83
+    },
+    "dryer vent cleaning services houston": {
+      "search_volume": 70,
+      "cpc": 18.94
+    },
+    "best dryer vent cleaning houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "houston dryer vent cleaning": {
+      "search_volume": 590,
+      "cpc": 17.45
+    },
+    "affordable dryer vent cleaning houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "dryer vent cleaning in houston": {
+      "search_volume": 590,
+      "cpc": 17.45
+    }
+  },
+  "organic": [
+    {
+      "keyword": "dryer vent cleaning near me",
+      "topDomains": [
+        "www.yelp.com",
+        "www.coit.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "dryer vent cleaning houston",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "dryer vent cleaning houston",
+    "topThree": [
+      {
+        "name": "Refresh air duct cleaning",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Top Dryer Vent Cleaning Inc",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "FreshHome Air Duct Clean",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    45,
+    47,
+    53,
+    48,
+    62,
+    85,
+    79,
+    86,
+    86,
+    73,
+    44,
+    45
+  ],
+  "organic_raw": [
+    {
+      "keyword": "dryer vent cleaning near me",
+      "items_types": []
+    },
+    {
+      "keyword": "dryer vent cleaning houston",
+      "items_types": []
+    },
+    {
+      "keyword": "dryer vent cleaning near me",
+      "items_types": [
+        "ai_overview",
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "people_also_search",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "dryer vent cleaning houston",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "people_also_search",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "dryer vent cleaning houston",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    45,
+    47,
+    53,
+    48,
+    62,
+    85,
+    79,
+    86,
+    86,
+    73,
+    44,
+    45
+  ],
+  "trends_weekly": [
+    44,
+    47,
+    46,
+    42,
+    53,
+    44,
+    45,
+    44,
+    51,
+    56,
+    47,
+    48,
+    61,
+    56,
+    53,
+    38,
+    52,
+    40,
+    43,
+    43,
+    67,
+    94,
+    100,
+    100,
+    95,
+    73,
+    57,
+    57,
+    98,
+    88,
+    71,
+    86,
+    90,
+    74,
+    93,
+    95,
+    89,
+    82,
+    84,
+    82,
+    87,
+    78,
+    63,
+    63,
+    48,
+    44,
+    46,
+    37,
+    43,
+    42,
+    44,
+    47,
+    46
+  ]
+}

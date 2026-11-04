@@ -37,5 +37,64 @@
   },
   "total_score": 5,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "painting big spring",
+      "topDomains": []
+    },
+    {
+      "keyword": "painting big spring tx",
+      "topDomains": [
+        "m.yelp.com",
+        "google.com",
+        "google.com",
+        "www.carwise.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "painting big spring",
+      "items_types": []
+    },
+    {
+      "keyword": "painting big spring tx",
+      "items_types": [
+        "ai_overview",
+        "organic",
+        "related_searches",
+        "knowledge_graph",
+        "google_reviews"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "painting big spring",
+    "topThree": [
+      {
+        "name": "The Big Spring Sunset Painting Studio",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Paint & Safety Store",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Brushworks Studio Gallery",
+        "reviews": 0,
+        "rating": 3
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "painting big spring",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

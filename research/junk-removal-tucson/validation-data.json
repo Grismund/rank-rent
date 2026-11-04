@@ -1,0 +1,194 @@
+{
+  "volumes": {
+    "junk removal tucson": {
+      "search_volume": 880,
+      "cpc": 10.45
+    },
+    "junk removal tucson az": {
+      "search_volume": 880,
+      "cpc": 10.45
+    },
+    "junk removal near me": {
+      "search_volume": 110,
+      "cpc": 24.17
+    },
+    "junk removal services tucson": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "best junk removal tucson": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "tucson junk removal": {
+      "search_volume": 880,
+      "cpc": 10.45
+    },
+    "affordable junk removal tucson": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "junk removal in tucson": {
+      "search_volume": 880,
+      "cpc": 10.45
+    }
+  },
+  "organic": [
+    {
+      "keyword": "junk removal tucson",
+      "topDomains": [
+        "alvaradodeliveryservice.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "junk removal tucson az",
+      "topDomains": [
+        "www.tidy.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "junk removal tucson",
+    "topThree": [
+      {
+        "name": "Speedway Junk Removal",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "ClearViewsJunkRemoval",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Junk King Tucson",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "organic_raw": [
+    {
+      "keyword": "junk removal tucson",
+      "items_types": []
+    },
+    {
+      "keyword": "junk removal tucson az",
+      "items_types": []
+    },
+    {
+      "keyword": "junk removal tucson",
+      "items_types": [
+        "local_pack",
+        "organic"
+      ]
+    },
+    {
+      "keyword": "junk removal tucson az",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "discussions_and_forums",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "junk removal tucson",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "trends_weekly": [
+    52,
+    50,
+    52,
+    49,
+    53,
+    48,
+    46,
+    46,
+    57,
+    60,
+    58,
+    60,
+    63,
+    66,
+    61,
+    73,
+    86,
+    77,
+    76,
+    66,
+    70,
+    68,
+    73,
+    84,
+    76,
+    71,
+    72,
+    68,
+    70,
+    72,
+    70,
+    85,
+    100,
+    87,
+    71,
+    71,
+    74,
+    74,
+    67,
+    70,
+    67,
+    67,
+    64,
+    59,
+    52,
+    57,
+    63,
+    52,
+    52,
+    52,
+    55,
+    58,
+    63
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "slug": "junk-removal-houston",
+  "analyzed_at": "2026-11-04",
+  "competitors": [
+    {
+      "domain": "sunnytrashhauling.com",
+      "summary": {
+        "backlinks": 162,
+        "referring_domains": 113,
+        "rank": 128
+      },
+      "top_referring_domains": [
+        {
+          "domain": "storeboard.com",
+          "rank": 99,
+          "backlinks": 4,
+          "first_seen": "2026-08-07 04:47:12 +00:00"
+        },
+        {
+          "domain": "sunnymoving.com",
+          "rank": 61,
+          "backlinks": 3,
+          "first_seen": "2023-10-03 12:42:22 +00:00"
+        },
+        {
+          "domain": "disasterrestorepros.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-09-25 11:55:09 +00:00"
+        },
+        {
+          "domain": "cralto.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-01 21:37:50 +00:00"
+        },
+        {
+          "domain": "growyoursitetraffic.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-01 18:35:04 +00:00"
+        },
+        {
+          "domain": "mertio.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-01 16:13:33 +00:00"
+        },
+        {
+          "domain": "cinto.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-01 10:21:12 +00:00"
+        },
+        {
+          "domain": "websquemolan.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-31 20:57:56 +00:00"
+        },
+        {
+          "domain": "zumvu.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-31 09:13:50 +00:00"
+        },
+        {
+          "domain": "brinto.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-30 22:39:50 +00:00"
+        },
+        {
+          "domain": "dlmpropertygroup.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-30 05:15:53 +00:00"
+        },
+        {
+          "domain": "shortenurls.eu",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-27 22:00:35 +00:00"
+        },
+        {
+          "domain": "findlocalexperts.com",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-26 17:26:48 +00:00"
+        },
+        {
+          "domain": "789taya.online",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-25 04:12:59 +00:00"
+        },
+        {
+          "domain": "poker-manila.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-23 14:30:10 +00:00"
+        },
+        {
+          "domain": "dbike-us.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-22 14:31:36 +00:00"
+        },
+        {
+          "domain": "sisusan88ax.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-22 02:08:13 +00:00"
+        },
+        {
+          "domain": "florta.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-20 07:15:57 +00:00"
+        },
+        {
+          "domain": "thcradar.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-18 23:47:14 +00:00"
+        },
+        {
+          "domain": "clinto.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-18 15:55:45 +00:00"
+        },
+        {
+          "domain": "techbumppy.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-18 05:52:13 +00:00"
+        },
+        {
+          "domain": "lpraudit.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-18 00:19:53 +00:00"
+        },
+        {
+          "domain": "bureatag.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-16 14:09:29 +00:00"
+        },
+        {
+          "domain": "seorankkeywordly.site",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-14 13:27:28 +00:00"
+        },
+        {
+          "domain": "totoonepick.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-13 23:15:22 +00:00"
+        },
+        {
+          "domain": "clifflisting.com",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-13 09:41:29 +00:00"
+        },
+        {
+          "domain": "bomcaminho.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-13 01:44:31 +00:00"
+        },
+        {
+          "domain": "rank-seo-now.shop",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-12 11:30:26 +00:00"
+        },
+        {
+          "domain": "seonix.agency",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-12 03:32:42 +00:00"
+        },
+        {
+          "domain": "minvio.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-09 23:28:08 +00:00"
+        },
+        {
+          "domain": "archive-hu.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-09 02:58:13 +00:00"
+        },
+        {
+          "domain": "sahammurah.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-08 18:05:40 +00:00"
+        },
+        {
+          "domain": "bestnz-poker-casinoslot.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-08 15:27:14 +00:00"
+        },
+        {
+          "domain": "juvex.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-06 03:33:13 +00:00"
+        },
+        {
+          "domain": "dupurgeniefr.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-02 10:40:56 +00:00"
+        },
+        {
+          "domain": "thedocmag.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-01 08:46:30 +00:00"
+        },
+        {
+          "domain": "seocodeminty.site",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-29 18:50:30 +00:00"
+        },
+        {
+          "domain": "burpio.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-29 12:00:21 +00:00"
+        },
+        {
+          "domain": "elitesmm.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-29 06:36:53 +00:00"
+        },
+        {
+          "domain": "browardmac.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-29 05:23:48 +00:00"
+        },
+        {
+          "domain": "top5casino.online",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-27 08:38:50 +00:00"
+        },
+        {
+          "domain": "onvaxs.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-26 04:46:43 +00:00"
+        },
+        {
+          "domain": "kernelpanicpodcast.com",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-09-25 12:40:04 +00:00"
+        },
+        {
+          "domain": "cvillico.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-24 08:46:42 +00:00"
+        },
+        {
+          "domain": "bramo.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-24 01:57:37 +00:00"
+        },
+        {
+          "domain": "ninko.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-21 14:35:13 +00:00"
+        },
+        {
+          "domain": "realwinningonlinecasino.online",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-20 05:50:31 +00:00"
+        },
+        {
+          "domain": "dealmate.ai",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-19 10:59:11 +00:00"
+        },
+        {
+          "domain": "bestonlinecasinomexico.online",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-10 14:11:48 +00:00"
+        },
+        {
+          "domain": "fashionclothingnews.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-31 17:33:56 +00:00"
+        }
+      ]
+    }
+  ],
+  "common_sources": [],
+  "link_building_targets": [
+    "storeboard.com",
+    "sunnymoving.com",
+    "disasterrestorepros.com",
+    "cralto.shop",
+    "growyoursitetraffic.shop",
+    "mertio.shop",
+    "cinto.shop",
+    "websquemolan.com",
+    "zumvu.com",
+    "brinto.shop",
+    "dlmpropertygroup.com",
+    "shortenurls.eu",
+    "findlocalexperts.com",
+    "789taya.online",
+    "poker-manila.com",
+    "dbike-us.com",
+    "sisusan88ax.shop",
+    "florta.shop",
+    "thcradar.com",
+    "clinto.shop",
+    "techbumppy.com",
+    "lpraudit.com",
+    "bureatag.com",
+    "seorankkeywordly.site",
+    "totoonepick.com",
+    "clifflisting.com",
+    "bomcaminho.com",
+    "rank-seo-now.shop",
+    "seonix.agency",
+    "minvio.shop",
+    "archive-hu.com",
+    "sahammurah.com",
+    "bestnz-poker-casinoslot.com",
+    "juvex.shop",
+    "dupurgeniefr.com",
+    "thedocmag.com",
+    "seocodeminty.site",
+    "burpio.shop",
+    "elitesmm.shop",
+    "browardmac.shop",
+    "top5casino.online",
+    "onvaxs.com",
+    "kernelpanicpodcast.com",
+    "cvillico.com",
+    "bramo.shop",
+    "ninko.shop",
+    "realwinningonlinecasino.online",
+    "dealmate.ai",
+    "bestonlinecasinomexico.online",
+    "fashionclothingnews.com"
+  ]
+}

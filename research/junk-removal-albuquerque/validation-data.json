@@ -1,0 +1,202 @@
+{
+  "volumes": {
+    "junk removal albuquerque": {
+      "search_volume": 480,
+      "cpc": 11.32
+    },
+    "junk removal albuquerque nm": {
+      "search_volume": 480,
+      "cpc": 11.32
+    },
+    "junk removal near me": {
+      "search_volume": 110,
+      "cpc": 5.96
+    },
+    "junk removal services albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best junk removal albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "albuquerque junk removal": {
+      "search_volume": 30,
+      "cpc": 8.69
+    },
+    "affordable junk removal albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "junk removal in albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "junk removal near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "junk removal albuquerque",
+      "topDomains": [
+        "www.yelp.com",
+        "google.com",
+        "google.com",
+        "www.tidy.com",
+        "haulitallservices.com"
+      ]
+    },
+    {
+      "keyword": "junk removal albuquerque nm",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.cabq.gov",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "junk removal albuquerque",
+    "topThree": [
+      {
+        "name": "Junk King Albuquerque",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "A1 Services Junk Removal & Light Demolition",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "1-800-GOT-JUNK? Albuquerque",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "organic_raw": [
+    {
+      "keyword": "junk removal albuquerque",
+      "items_types": []
+    },
+    {
+      "keyword": "junk removal albuquerque nm",
+      "items_types": []
+    },
+    {
+      "keyword": "junk removal albuquerque",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "people_also_search",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "junk removal albuquerque nm",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "people_also_search",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "junk removal albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "trends_weekly": [
+    52,
+    50,
+    52,
+    49,
+    53,
+    48,
+    46,
+    46,
+    57,
+    60,
+    58,
+    60,
+    63,
+    66,
+    61,
+    73,
+    86,
+    77,
+    76,
+    66,
+    70,
+    68,
+    73,
+    84,
+    76,
+    71,
+    72,
+    68,
+    70,
+    72,
+    70,
+    85,
+    100,
+    87,
+    71,
+    71,
+    74,
+    74,
+    67,
+    70,
+    67,
+    67,
+    64,
+    59,
+    52,
+    57,
+    63,
+    52,
+    52,
+    52,
+    55,
+    58,
+    63
+  ]
+}

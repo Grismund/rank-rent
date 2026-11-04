@@ -37,5 +37,72 @@
   },
   "total_score": 5,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "exterior painting big spring",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.bigeasypainters.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "exterior painting big spring tx",
+      "topDomains": [
+        "www.namesandnumbers.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "exterior painting big spring",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "images"
+      ]
+    },
+    {
+      "keyword": "exterior painting big spring tx",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "exterior painting big spring",
+    "topThree": [
+      {
+        "name": "The Big Spring Sunset Painting Studio",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Jnj handyman Services",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "CDUBBS REMODELING",
+        "reviews": 0,
+        "rating": 3.4
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "exterior painting big spring",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

@@ -37,5 +37,62 @@
   },
   "total_score": 5,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "deck building big spring",
+      "topDomains": []
+    },
+    {
+      "keyword": "deck building big spring tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "deck building big spring",
+      "items_types": []
+    },
+    {
+      "keyword": "deck building big spring tx",
+      "items_types": [
+        "ai_overview",
+        "organic",
+        "local_pack"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "deck building big spring",
+    "topThree": [
+      {
+        "name": "RW Fence and Fab LLC.",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Precise Construction and Remodeling LLC",
+        "reviews": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "B & M Fence Co.",
+        "reviews": 0,
+        "rating": 4.6
+      }
+    ],
+    "totalCount": 18
+  },
+  "maps_raw": {
+    "keyword": "deck building big spring",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

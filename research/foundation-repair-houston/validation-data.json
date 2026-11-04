@@ -1,0 +1,198 @@
+{
+  "volumes": {
+    "foundation repair houston": {
+      "search_volume": 720,
+      "cpc": 65.41
+    },
+    "foundation repair houston tx": {
+      "search_volume": 720,
+      "cpc": 65.41
+    },
+    "foundation repair near me": {
+      "search_volume": 320,
+      "cpc": 74.93
+    },
+    "foundation repair services houston": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "best foundation repair houston": {
+      "search_volume": 40,
+      "cpc": 43.85
+    },
+    "houston foundation repair": {
+      "search_volume": 140,
+      "cpc": 21.58
+    },
+    "affordable foundation repair houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "foundation repair in houston": {
+      "search_volume": 720,
+      "cpc": 65.41
+    }
+  },
+  "organic": [
+    {
+      "keyword": "foundation repair houston",
+      "topDomains": [
+        "google.com",
+        "www.bbb.org",
+        "texaspfs.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "foundation repair houston tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "www.homeadvisor.com",
+        "google.com",
+        "www.twobrosfoundationrepair.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "foundation repair houston",
+    "topThree": [
+      {
+        "name": "Two Brothers Foundation Repair",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "All Texas Foundation Repair",
+        "reviews": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Olshan Foundation Repair",
+        "reviews": 0,
+        "rating": 4.9
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    38,
+    32,
+    35,
+    61,
+    60,
+    81,
+    70,
+    67,
+    54,
+    56,
+    47,
+    44
+  ],
+  "organic_raw": [
+    {
+      "keyword": "foundation repair houston",
+      "items_types": []
+    },
+    {
+      "keyword": "foundation repair houston tx",
+      "items_types": []
+    },
+    {
+      "keyword": "foundation repair houston",
+      "items_types": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "discussions_and_forums",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "foundation repair houston tx",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "foundation repair houston",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    38,
+    32,
+    35,
+    61,
+    60,
+    81,
+    70,
+    67,
+    54,
+    56,
+    47,
+    44
+  ],
+  "trends_weekly": [
+    46,
+    37,
+    42,
+    27,
+    36,
+    29,
+    35,
+    25,
+    34,
+    31,
+    35,
+    32,
+    40,
+    43,
+    54,
+    46,
+    62,
+    100,
+    59,
+    49,
+    60,
+    73,
+    92,
+    86,
+    84,
+    67,
+    74,
+    79,
+    76,
+    64,
+    62,
+    68,
+    71,
+    67,
+    60,
+    54,
+    52,
+    55,
+    56,
+    53,
+    55,
+    51,
+    54,
+    62,
+    52,
+    44,
+    52,
+    41,
+    44,
+    38,
+    46,
+    41,
+    50
+  ]
+}

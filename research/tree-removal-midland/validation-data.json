@@ -50,5 +50,73 @@
   },
   "total_score": 7,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "tree removal midland",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "www.facebook.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "tree removal midland tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.yelp.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "tree removal midland",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "tree removal midland tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "tree removal midland",
+    "topThree": [
+      {
+        "name": "Jo Jo’s Bee Lawn & Tree Service",
+        "reviews": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Midland Tree Service",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Slade's Tree and Landscaping",
+        "reviews": 0,
+        "rating": 4.6
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "tree removal midland",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

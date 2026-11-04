@@ -1,0 +1,202 @@
+{
+  "volumes": {
+    "gutter installation tulsa": {
+      "search_volume": 30,
+      "cpc": 38.34
+    },
+    "gutter installation tulsa ok": {
+      "search_volume": 30,
+      "cpc": 38.34
+    },
+    "gutter installation near me": {
+      "search_volume": 10,
+      "cpc": 48.43
+    },
+    "gutter installation services tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best gutter installation tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tulsa gutter installation": {
+      "search_volume": 30,
+      "cpc": 38.34
+    },
+    "affordable gutter installation tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "gutter installation in tulsa": {
+      "search_volume": 10,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "gutter installation near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "gutter installation tulsa",
+      "topDomains": [
+        "google.com",
+        "www.bbb.org",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "gutter installation tulsa ok",
+      "topDomains": [
+        "www.reddit.com",
+        "google.com",
+        "www.homeadvisor.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "gutter installation tulsa",
+    "topThree": [
+      {
+        "name": "Tulsa Seamless Gutters",
+        "reviews": 0,
+        "rating": 4
+      },
+      {
+        "name": "Wilco Guttering Company",
+        "reviews": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Rain Guard of Tulsa Inc",
+        "reviews": 0,
+        "rating": 4.7
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    42,
+    38,
+    37,
+    44,
+    52,
+    60,
+    69,
+    68,
+    76,
+    68,
+    52,
+    59
+  ],
+  "organic_raw": [
+    {
+      "keyword": "gutter installation tulsa",
+      "items_types": []
+    },
+    {
+      "keyword": "gutter installation tulsa ok",
+      "items_types": []
+    },
+    {
+      "keyword": "gutter installation tulsa",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "discussions_and_forums",
+        "people_also_search",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "gutter installation tulsa ok",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "gutter installation tulsa",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    42,
+    38,
+    37,
+    44,
+    52,
+    60,
+    69,
+    68,
+    76,
+    68,
+    52,
+    59
+  ],
+  "trends_weekly": [
+    44,
+    43,
+    46,
+    35,
+    37,
+    34,
+    40,
+    40,
+    41,
+    38,
+    36,
+    37,
+    38,
+    39,
+    45,
+    40,
+    50,
+    44,
+    58,
+    47,
+    53,
+    49,
+    57,
+    51,
+    54,
+    65,
+    73,
+    54,
+    64,
+    87,
+    70,
+    82,
+    72,
+    52,
+    65,
+    76,
+    60,
+    72,
+    100,
+    72,
+    92,
+    61,
+    69,
+    50,
+    49,
+    50,
+    67,
+    47,
+    47,
+    47,
+    67,
+    58,
+    65
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "volumes": {
+    "bathtub refinishing houston": {
+      "search_volume": 50,
+      "cpc": 17.29
+    },
+    "bathtub refinishing houston tx": {
+      "search_volume": 50,
+      "cpc": 17.29
+    },
+    "bathtub refinishing near me": {
+      "search_volume": 70,
+      "cpc": 16.11
+    },
+    "bathtub refinishing services houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best bathtub refinishing houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "houston bathtub refinishing": {
+      "search_volume": 50,
+      "cpc": 17.29
+    },
+    "affordable bathtub refinishing houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "bathtub refinishing in houston": {
+      "search_volume": 50,
+      "cpc": 17.29
+    }
+  },
+  "organic": [
+    {
+      "keyword": "bathtub refinishing near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "newrefinishing.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "bathtub refinishing houston",
+      "topDomains": []
+    }
+  ],
+  "maps": {
+    "keyword": "bathtub refinishing houston",
+    "topThree": [
+      {
+        "name": "Houston Bathtub Refinishing Pros",
+        "reviews": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "Kitchen & Bath Restoration Houston",
+        "reviews": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Fantastic Restoration",
+        "reviews": 0,
+        "rating": 4.9
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    53,
+    46,
+    56,
+    57,
+    74,
+    82,
+    77,
+    86,
+    66,
+    57,
+    54,
+    71
+  ],
+  "organic_raw": [
+    {
+      "keyword": "bathtub refinishing near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "bathtub refinishing houston",
+      "items_types": []
+    }
+  ],
+  "maps_raw": {
+    "keyword": "bathtub refinishing houston",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    53,
+    46,
+    56,
+    57,
+    74,
+    82,
+    77,
+    86,
+    66,
+    57,
+    54,
+    71
+  ],
+  "trends_weekly": [
+    65,
+    58,
+    45,
+    45,
+    48,
+    41,
+    41,
+    45,
+    56,
+    61,
+    54,
+    53,
+    56,
+    57,
+    49,
+    64,
+    60,
+    57,
+    70,
+    71,
+    66,
+    87,
+    88,
+    100,
+    81,
+    72,
+    69,
+    85,
+    85,
+    66,
+    71,
+    90,
+    85,
+    97,
+    71,
+    68,
+    63,
+    65,
+    60,
+    72,
+    45,
+    67,
+    61,
+    56,
+    56,
+    50,
+    62,
+    52,
+    50,
+    68,
+    73,
+    68,
+    73
+  ]
+}

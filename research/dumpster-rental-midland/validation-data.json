@@ -1,0 +1,195 @@
+{
+  "volumes": {
+    "dumpster rental midland": {
+      "search_volume": 10,
+      "cpc": 31.92
+    },
+    "dumpster rental midland tx": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "dumpster rental near me": {
+      "search_volume": 20,
+      "cpc": 18.55
+    },
+    "dumpster rental services midland": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best dumpster rental midland": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "midland dumpster rental": {
+      "search_volume": 10,
+      "cpc": 31.92
+    },
+    "affordable dumpster rental midland": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "dumpster rental in midland": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "dumpster rental near me",
+      "topDomains": [
+        "google.com",
+        "discountdumpsterco.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "dumpster rental midland",
+      "topDomains": [
+        "www.redboxplus.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.facebook.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "dumpster rental midland",
+    "topThree": [
+      {
+        "name": "Dumpster Rentals Midland",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Midland Dumpster Rental",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Midland Roll Off Dumpster Rentals",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    45,
+    38,
+    39,
+    54,
+    65,
+    76,
+    81,
+    79,
+    81,
+    81,
+    67,
+    65
+  ],
+  "organic_raw": [
+    {
+      "keyword": "dumpster rental near me",
+      "items_types": []
+    },
+    {
+      "keyword": "dumpster rental midland",
+      "items_types": []
+    },
+    {
+      "keyword": "dumpster rental near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "dumpster rental midland",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "dumpster rental midland",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    45,
+    38,
+    39,
+    54,
+    65,
+    76,
+    81,
+    79,
+    81,
+    81,
+    67,
+    65
+  ],
+  "trends_weekly": [
+    45,
+    46,
+    46,
+    42,
+    38,
+    39,
+    37,
+    35,
+    40,
+    43,
+    39,
+    39,
+    36,
+    46,
+    52,
+    53,
+    58,
+    59,
+    66,
+    65,
+    59,
+    70,
+    74,
+    72,
+    75,
+    69,
+    89,
+    76,
+    73,
+    82,
+    91,
+    72,
+    90,
+    82,
+    71,
+    80,
+    76,
+    92,
+    80,
+    78,
+    76,
+    78,
+    100,
+    71,
+    62,
+    70,
+    81,
+    62,
+    62,
+    68,
+    72,
+    65,
+    56
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "volumes": {
+    "concrete leveling houston": {
+      "search_volume": 40,
+      "cpc": 53.9
+    },
+    "concrete leveling houston tx": {
+      "search_volume": 40,
+      "cpc": 53.9
+    },
+    "concrete leveling near me": {
+      "search_volume": 50,
+      "cpc": 30.74
+    },
+    "concrete leveling services houston": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "best concrete leveling houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "houston concrete leveling": {
+      "search_volume": 40,
+      "cpc": 53.9
+    },
+    "affordable concrete leveling houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "concrete leveling in houston": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "concrete leveling near me",
+      "topDomains": [
+        "liftedconcretehouston.com",
+        "google.com",
+        "google.com",
+        "leveltechlifting.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "concrete leveling houston",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "concrete leveling houston",
+    "topThree": [
+      {
+        "name": "Pro Concrete Leveling of Houston LLC",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Cincos Concrete Houston",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "The Concrete Guys C and G Pros",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    53,
+    53,
+    50,
+    80,
+    86,
+    80,
+    81,
+    85,
+    85,
+    86,
+    74,
+    66
+  ],
+  "organic_raw": [
+    {
+      "keyword": "concrete leveling near me",
+      "items_types": []
+    },
+    {
+      "keyword": "concrete leveling houston",
+      "items_types": []
+    },
+    {
+      "keyword": "concrete leveling near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "people_also_search",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "concrete leveling houston",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "concrete leveling houston",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    53,
+    53,
+    50,
+    80,
+    86,
+    80,
+    81,
+    85,
+    85,
+    86,
+    74,
+    66
+  ],
+  "trends_weekly": [
+    66,
+    47,
+    58,
+    39,
+    55,
+    42,
+    68,
+    34,
+    64,
+    46,
+    61,
+    39,
+    52,
+    58,
+    89,
+    75,
+    85,
+    94,
+    95,
+    78,
+    93,
+    76,
+    82,
+    79,
+    83,
+    68,
+    89,
+    73,
+    91,
+    76,
+    84,
+    76,
+    96,
+    74,
+    94,
+    73,
+    87,
+    83,
+    94,
+    89,
+    85,
+    73,
+    87,
+    100,
+    82,
+    69,
+    80,
+    72,
+    69,
+    60,
+    80,
+    58,
+    65
+  ]
+}

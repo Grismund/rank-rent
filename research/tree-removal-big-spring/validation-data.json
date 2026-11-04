@@ -37,5 +37,63 @@
   },
   "total_score": 6,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "tree removal big spring",
+      "topDomains": []
+    },
+    {
+      "keyword": "tree removal big spring tx",
+      "topDomains": [
+        "google.com",
+        "www.facebook.com",
+        "google.com",
+        "treetrimmersoftexas.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "tree removal big spring",
+      "items_types": []
+    },
+    {
+      "keyword": "tree removal big spring tx",
+      "items_types": [
+        "ai_overview",
+        "organic",
+        "knowledge_graph",
+        "google_reviews"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "tree removal big spring",
+    "topThree": [
+      {
+        "name": "Lion In The Tree Trimming Services",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "JS Lawn Service",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Johansen Landscape & Nursery",
+        "reviews": 0,
+        "rating": 4.9
+      }
+    ],
+    "totalCount": 4
+  },
+  "maps_raw": {
+    "keyword": "tree removal big spring",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

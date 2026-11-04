@@ -56,5 +56,72 @@
   },
   "total_score": 8,
   "status": "marginal",
-  "rent_estimate": 136.62
+  "rent_estimate": 136.62,
+  "organic": [
+    {
+      "keyword": "landscaping odessa",
+      "topDomains": [
+        "google.com",
+        "www.angi.com",
+        "google.com",
+        "www.namesandnumbers.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "landscaping odessa tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.yelp.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "landscaping odessa",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "landscaping odessa tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "landscaping odessa",
+    "topThree": [
+      {
+        "name": "Bigger Things Landscaping",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Lone Star Landscapes & Lawns LLC",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Shades of Green Tree service & landscaping",
+        "reviews": 0,
+        "rating": 4.8
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "landscaping odessa",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

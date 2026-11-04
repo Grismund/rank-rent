@@ -1,0 +1,203 @@
+{
+  "volumes": {
+    "dryer vent cleaning albuquerque": {
+      "search_volume": 140,
+      "cpc": 9.21
+    },
+    "dryer vent cleaning albuquerque nm": {
+      "search_volume": 140,
+      "cpc": 9.21
+    },
+    "dryer vent cleaning near me": {
+      "search_volume": 20,
+      "cpc": 14.5
+    },
+    "dryer vent cleaning services albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best dryer vent cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "albuquerque dryer vent cleaning": {
+      "search_volume": 140,
+      "cpc": 9.21
+    },
+    "affordable dryer vent cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "dryer vent cleaning in albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "dryer vent cleaning near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "dryer vent cleaning albuquerque",
+      "topDomains": [
+        "www.thumbtack.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "dryer vent cleaning albuquerque nm",
+      "topDomains": [
+        "google.com",
+        "www.yelp.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "dryer vent cleaning albuquerque",
+    "topThree": [
+      {
+        "name": "Dryer Vent Clean Pro",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Dryer Vent Superheroes of Albuquerque",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "The Duct Guys LLC",
+        "reviews": 0,
+        "rating": 4.8
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    45,
+    47,
+    53,
+    48,
+    62,
+    85,
+    79,
+    86,
+    86,
+    73,
+    44,
+    45
+  ],
+  "organic_raw": [
+    {
+      "keyword": "dryer vent cleaning albuquerque",
+      "items_types": []
+    },
+    {
+      "keyword": "dryer vent cleaning albuquerque nm",
+      "items_types": []
+    },
+    {
+      "keyword": "dryer vent cleaning albuquerque",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "discussions_and_forums",
+        "organic"
+      ]
+    },
+    {
+      "keyword": "dryer vent cleaning albuquerque nm",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "people_also_search",
+        "people_also_ask",
+        "discussions_and_forums",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "dryer vent cleaning albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    45,
+    47,
+    53,
+    48,
+    62,
+    85,
+    79,
+    86,
+    86,
+    73,
+    44,
+    45
+  ],
+  "trends_weekly": [
+    44,
+    47,
+    46,
+    42,
+    53,
+    44,
+    45,
+    44,
+    51,
+    56,
+    47,
+    48,
+    61,
+    56,
+    53,
+    38,
+    52,
+    40,
+    43,
+    43,
+    67,
+    94,
+    100,
+    100,
+    95,
+    73,
+    57,
+    57,
+    98,
+    88,
+    71,
+    86,
+    90,
+    74,
+    93,
+    95,
+    89,
+    82,
+    84,
+    82,
+    87,
+    78,
+    63,
+    63,
+    48,
+    44,
+    46,
+    37,
+    43,
+    42,
+    44,
+    47,
+    46
+  ]
+}

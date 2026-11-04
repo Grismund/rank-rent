@@ -1,0 +1,176 @@
+{
+  "volumes": {
+    "junk removal tulsa": {
+      "search_volume": 1600,
+      "cpc": 8.64
+    },
+    "junk removal tulsa ok": {
+      "search_volume": 1600,
+      "cpc": 8.64
+    },
+    "junk removal near me": {
+      "search_volume": 140,
+      "cpc": 15.94
+    },
+    "junk removal services tulsa": {
+      "search_volume": 10,
+      "cpc": 10.91
+    },
+    "best junk removal tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tulsa junk removal": {
+      "search_volume": 1600,
+      "cpc": 8.64
+    },
+    "affordable junk removal tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "junk removal in tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "junk removal tulsa",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "junk removal tulsa ok",
+      "topDomains": []
+    }
+  ],
+  "maps": {
+    "keyword": "junk removal tulsa",
+    "topThree": [
+      {
+        "name": "Haulaways Tulsa Junk Removal",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Junk King North Tulsa",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Tulsa Dumpster Rental",
+        "reviews": 0,
+        "rating": 3.7
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "organic_raw": [
+    {
+      "keyword": "junk removal tulsa",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "perspectives"
+      ]
+    },
+    {
+      "keyword": "junk removal tulsa ok",
+      "items_types": []
+    }
+  ],
+  "maps_raw": {
+    "keyword": "junk removal tulsa",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "trends_weekly": [
+    52,
+    50,
+    52,
+    49,
+    53,
+    48,
+    46,
+    46,
+    57,
+    60,
+    58,
+    60,
+    63,
+    66,
+    61,
+    73,
+    86,
+    77,
+    76,
+    66,
+    70,
+    68,
+    73,
+    84,
+    76,
+    71,
+    72,
+    68,
+    70,
+    72,
+    70,
+    85,
+    100,
+    87,
+    71,
+    71,
+    74,
+    74,
+    67,
+    70,
+    67,
+    67,
+    64,
+    59,
+    52,
+    57,
+    63,
+    52,
+    52,
+    52,
+    55,
+    58,
+    63
+  ]
+}

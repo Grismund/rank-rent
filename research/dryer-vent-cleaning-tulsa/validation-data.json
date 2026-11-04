@@ -1,0 +1,200 @@
+{
+  "volumes": {
+    "dryer vent cleaning tulsa": {
+      "search_volume": 70,
+      "cpc": 18.94
+    },
+    "dryer vent cleaning tulsa ok": {
+      "search_volume": 70,
+      "cpc": 18.94
+    },
+    "dryer vent cleaning near me": {
+      "search_volume": 20,
+      "cpc": 0
+    },
+    "dryer vent cleaning services tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best dryer vent cleaning tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tulsa dryer vent cleaning": {
+      "search_volume": 70,
+      "cpc": 18.94
+    },
+    "affordable dryer vent cleaning tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "dryer vent cleaning in tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "dryer vent cleaning near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "dryer vent cleaning tulsa",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "www.facebook.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "dryer vent cleaning tulsa ok",
+      "topDomains": [
+        "www.reddit.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "dryer vent cleaning tulsa",
+    "topThree": [
+      {
+        "name": "Twist and Turn Dryer Vent Cleaning",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "American Air Duct Cleaning Tulsa",
+        "reviews": 0,
+        "rating": 4.5
+      },
+      {
+        "name": "ASAP Heating & Air",
+        "reviews": 0,
+        "rating": 4.9
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    45,
+    47,
+    53,
+    48,
+    62,
+    85,
+    79,
+    86,
+    86,
+    73,
+    44,
+    45
+  ],
+  "organic_raw": [
+    {
+      "keyword": "dryer vent cleaning tulsa",
+      "items_types": []
+    },
+    {
+      "keyword": "dryer vent cleaning tulsa ok",
+      "items_types": []
+    },
+    {
+      "keyword": "dryer vent cleaning tulsa",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "dryer vent cleaning tulsa ok",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "dryer vent cleaning tulsa",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    45,
+    47,
+    53,
+    48,
+    62,
+    85,
+    79,
+    86,
+    86,
+    73,
+    44,
+    45
+  ],
+  "trends_weekly": [
+    44,
+    47,
+    46,
+    42,
+    53,
+    44,
+    45,
+    44,
+    51,
+    56,
+    47,
+    48,
+    61,
+    56,
+    53,
+    38,
+    52,
+    40,
+    43,
+    43,
+    67,
+    94,
+    100,
+    100,
+    95,
+    73,
+    57,
+    57,
+    98,
+    88,
+    71,
+    86,
+    90,
+    74,
+    93,
+    95,
+    89,
+    82,
+    84,
+    82,
+    87,
+    78,
+    63,
+    63,
+    48,
+    44,
+    46,
+    37,
+    43,
+    42,
+    44,
+    47,
+    46
+  ]
+}

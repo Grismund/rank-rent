@@ -56,5 +56,75 @@
   },
   "total_score": 7,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "fence installation odessa",
+      "topDomains": [
+        "google.com",
+        "www.yelp.com",
+        "google.com",
+        "google.com",
+        "www.yelp.com"
+      ]
+    },
+    {
+      "keyword": "fence installation odessa tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "www.odessafencecompany.net",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "fence installation odessa",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "fence installation odessa tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "paid",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "fence installation odessa",
+    "topThree": [
+      {
+        "name": "Odessa Fence",
+        "reviews": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "MGM Fence Company Odessa",
+        "reviews": 0,
+        "rating": 0
+      },
+      {
+        "name": "All-State Fence & Supply",
+        "reviews": 0,
+        "rating": 4.7
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "fence installation odessa",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

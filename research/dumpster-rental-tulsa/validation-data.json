@@ -1,0 +1,202 @@
+{
+  "volumes": {
+    "dumpster rental tulsa": {
+      "search_volume": 390,
+      "cpc": 7.98
+    },
+    "dumpster rental tulsa ok": {
+      "search_volume": 390,
+      "cpc": 7.98
+    },
+    "dumpster rental near me": {
+      "search_volume": 140,
+      "cpc": 5.66
+    },
+    "dumpster rental services tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best dumpster rental tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tulsa dumpster rental": {
+      "search_volume": 390,
+      "cpc": 7.98
+    },
+    "affordable dumpster rental tulsa": {
+      "search_volume": 10,
+      "cpc": 2.32
+    },
+    "dumpster rental in tulsa": {
+      "search_volume": 390,
+      "cpc": 7.98
+    }
+  },
+  "organic": [
+    {
+      "keyword": "dumpster rental near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "dumpster rental tulsa",
+      "topDomains": [
+        "google.com",
+        "atobhauling.com",
+        "www.facebook.com",
+        "www.thumbtack.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "dumpster rental tulsa ok",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "atobhauling.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "dumpster rental tulsa",
+    "topThree": [
+      {
+        "name": "Tracie Dumpster Rentals Tulsa",
+        "reviews": 0,
+        "rating": 4.3
+      },
+      {
+        "name": "Tulsa Dumpster Rental",
+        "reviews": 0,
+        "rating": 3.7
+      },
+      {
+        "name": "Tulsa Dumpster Rentals",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    45,
+    38,
+    39,
+    54,
+    65,
+    76,
+    81,
+    79,
+    81,
+    81,
+    67,
+    65
+  ],
+  "organic_raw": [
+    {
+      "keyword": "dumpster rental tulsa",
+      "items_types": []
+    },
+    {
+      "keyword": "dumpster rental tulsa ok",
+      "items_types": []
+    },
+    {
+      "keyword": "dumpster rental tulsa",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_search",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "dumpster rental tulsa ok",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_search",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "dumpster rental tulsa",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    45,
+    38,
+    39,
+    54,
+    65,
+    76,
+    81,
+    79,
+    81,
+    81,
+    67,
+    65
+  ],
+  "trends_weekly": [
+    45,
+    46,
+    46,
+    42,
+    38,
+    39,
+    37,
+    35,
+    40,
+    43,
+    39,
+    39,
+    36,
+    46,
+    52,
+    53,
+    58,
+    59,
+    66,
+    65,
+    59,
+    70,
+    74,
+    72,
+    75,
+    69,
+    89,
+    76,
+    73,
+    82,
+    91,
+    72,
+    90,
+    82,
+    71,
+    80,
+    76,
+    92,
+    80,
+    78,
+    76,
+    78,
+    100,
+    71,
+    62,
+    70,
+    81,
+    62,
+    62,
+    68,
+    72,
+    65,
+    56
+  ]
+}

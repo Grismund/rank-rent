@@ -1,0 +1,201 @@
+{
+  "volumes": {
+    "air duct cleaning albuquerque": {
+      "search_volume": 260,
+      "cpc": 19.51
+    },
+    "air duct cleaning albuquerque nm": {
+      "search_volume": 260,
+      "cpc": 19.51
+    },
+    "air duct cleaning near me": {
+      "search_volume": 50,
+      "cpc": 16.46
+    },
+    "air duct cleaning services albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best air duct cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "albuquerque air duct cleaning": {
+      "search_volume": 260,
+      "cpc": 19.51
+    },
+    "affordable air duct cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "air duct cleaning in albuquerque": {
+      "search_volume": 260,
+      "cpc": 19.51
+    }
+  },
+  "organic": [
+    {
+      "keyword": "air duct cleaning near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "air duct cleaning albuquerque",
+      "topDomains": [
+        "dryerventheroes.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "air duct cleaning albuquerque nm",
+      "topDomains": [
+        "google.com",
+        "www.yelp.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "air duct cleaning albuquerque",
+    "topThree": [
+      {
+        "name": "Duke City Air Care",
+        "reviews": 0,
+        "rating": 4
+      },
+      {
+        "name": "Hoover's Air Duct Cleaning, Inc",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Xtreme Clean, LLC",
+        "reviews": 0,
+        "rating": 4.2
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    26,
+    24,
+    29,
+    35,
+    53,
+    74,
+    70,
+    79,
+    89,
+    61,
+    32,
+    32
+  ],
+  "organic_raw": [
+    {
+      "keyword": "air duct cleaning albuquerque",
+      "items_types": []
+    },
+    {
+      "keyword": "air duct cleaning albuquerque nm",
+      "items_types": []
+    },
+    {
+      "keyword": "air duct cleaning albuquerque",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "air duct cleaning albuquerque nm",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "discussions_and_forums",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "air duct cleaning albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    26,
+    24,
+    29,
+    35,
+    53,
+    74,
+    70,
+    79,
+    89,
+    61,
+    32,
+    32
+  ],
+  "trends_weekly": [
+    26,
+    28,
+    27,
+    24,
+    26,
+    24,
+    23,
+    22,
+    25,
+    27,
+    23,
+    25,
+    42,
+    36,
+    34,
+    27,
+    43,
+    33,
+    35,
+    31,
+    59,
+    85,
+    82,
+    87,
+    100,
+    60,
+    43,
+    45,
+    87,
+    80,
+    67,
+    76,
+    79,
+    74,
+    85,
+    86,
+    90,
+    88,
+    93,
+    87,
+    90,
+    63,
+    46,
+    43,
+    32,
+    34,
+    36,
+    28,
+    30,
+    29,
+    32,
+    33,
+    34
+  ]
+}

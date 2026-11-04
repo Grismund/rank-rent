@@ -1,0 +1,197 @@
+{
+  "volumes": {
+    "tree service tucson": {
+      "search_volume": 320,
+      "cpc": 15.89
+    },
+    "tree service tucson az": {
+      "search_volume": 320,
+      "cpc": 15.89
+    },
+    "tree service near me": {
+      "search_volume": 90,
+      "cpc": 4.12
+    },
+    "tree service services tucson": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best tree service tucson": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tucson tree service": {
+      "search_volume": 320,
+      "cpc": 15.89
+    },
+    "affordable tree service tucson": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "tree service in tucson": {
+      "search_volume": 320,
+      "cpc": 15.89
+    }
+  },
+  "organic": [
+    {
+      "keyword": "tree service tucson",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "m.yelp.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "tree service tucson az",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "www.northstartreeservices.com",
+        "google.com",
+        "treeprosaz.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "tree service tucson",
+    "topThree": [
+      {
+        "name": "Tree Services Tucson AZ by Brijer Resources",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Nicholas Tree Removal Service",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Finest Tree Service",
+        "reviews": 0,
+        "rating": 4.9
+      }
+    ],
+    "totalCount": 21
+  },
+  "trends": [
+    41,
+    37,
+    41,
+    49,
+    60,
+    66,
+    68,
+    84,
+    63,
+    58,
+    49,
+    45
+  ],
+  "organic_raw": [
+    {
+      "keyword": "tree service tucson",
+      "items_types": []
+    },
+    {
+      "keyword": "tree service tucson az",
+      "items_types": []
+    },
+    {
+      "keyword": "tree service tucson",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "perspectives"
+      ]
+    },
+    {
+      "keyword": "tree service tucson az",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "tree service tucson",
+    "items_types": [
+      "maps_paid_item",
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    41,
+    37,
+    41,
+    49,
+    60,
+    66,
+    68,
+    84,
+    63,
+    58,
+    49,
+    45
+  ],
+  "trends_weekly": [
+    44,
+    43,
+    43,
+    35,
+    37,
+    40,
+    39,
+    34,
+    35,
+    39,
+    36,
+    42,
+    47,
+    45,
+    47,
+    47,
+    56,
+    51,
+    61,
+    60,
+    61,
+    58,
+    62,
+    68,
+    64,
+    63,
+    74,
+    73,
+    65,
+    69,
+    66,
+    88,
+    100,
+    86,
+    63,
+    73,
+    61,
+    69,
+    56,
+    54,
+    60,
+    60,
+    55,
+    57,
+    50,
+    49,
+    54,
+    45,
+    47,
+    44,
+    44,
+    45,
+    46
+  ]
+}

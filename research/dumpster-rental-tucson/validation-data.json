@@ -1,0 +1,198 @@
+{
+  "volumes": {
+    "dumpster rental tucson": {
+      "search_volume": 390,
+      "cpc": 9.63
+    },
+    "dumpster rental tucson az": {
+      "search_volume": 390,
+      "cpc": 9.63
+    },
+    "dumpster rental near me": {
+      "search_volume": 50,
+      "cpc": 12.5
+    },
+    "dumpster rental services tucson": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best dumpster rental tucson": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "tucson dumpster rental": {
+      "search_volume": 390,
+      "cpc": 9.63
+    },
+    "affordable dumpster rental tucson": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "dumpster rental in tucson": {
+      "search_volume": 390,
+      "cpc": 9.63
+    }
+  },
+  "organic": [
+    {
+      "keyword": "dumpster rental near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "dumpster rental tucson",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "trydownstream.com",
+        "www.facebook.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "dumpster rental tucson az",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.reddit.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "dumpster rental tucson",
+    "topThree": [
+      {
+        "name": "Tucson Dumpster Rental",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Roll Off Dumpster Rentals Tucson",
+        "reviews": 0,
+        "rating": 3
+      },
+      {
+        "name": "Macdonald Dumpster Rentals Tucson",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    45,
+    38,
+    39,
+    54,
+    65,
+    76,
+    81,
+    79,
+    81,
+    81,
+    67,
+    65
+  ],
+  "organic_raw": [
+    {
+      "keyword": "dumpster rental tucson",
+      "items_types": []
+    },
+    {
+      "keyword": "dumpster rental tucson az",
+      "items_types": []
+    },
+    {
+      "keyword": "dumpster rental tucson",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "dumpster rental tucson az",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "dumpster rental tucson",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    45,
+    38,
+    39,
+    54,
+    65,
+    76,
+    81,
+    79,
+    81,
+    81,
+    67,
+    65
+  ],
+  "trends_weekly": [
+    45,
+    46,
+    46,
+    42,
+    38,
+    39,
+    37,
+    35,
+    40,
+    43,
+    39,
+    39,
+    36,
+    46,
+    52,
+    53,
+    58,
+    59,
+    66,
+    65,
+    59,
+    70,
+    74,
+    72,
+    75,
+    69,
+    89,
+    76,
+    73,
+    82,
+    91,
+    72,
+    90,
+    82,
+    71,
+    80,
+    76,
+    92,
+    80,
+    78,
+    76,
+    78,
+    100,
+    71,
+    62,
+    70,
+    81,
+    62,
+    62,
+    68,
+    72,
+    65,
+    56
+  ]
+}

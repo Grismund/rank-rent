@@ -37,5 +37,70 @@
   },
   "total_score": 6,
   "status": "walk_away",
-  "rent_estimate": 17.797500000000003
+  "rent_estimate": 17.797500000000003,
+  "organic": [
+    {
+      "keyword": "interior painting odessa",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "interior painting odessa tx",
+      "topDomains": [
+        "google.com",
+        "www.bbb.org",
+        "www.facebook.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "interior painting odessa",
+      "items_types": [
+        "local_pack",
+        "organic"
+      ]
+    },
+    {
+      "keyword": "interior painting odessa tx",
+      "items_types": [
+        "local_pack",
+        "organic"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "interior painting odessa",
+    "topThree": [
+      {
+        "name": "Out West Restoration",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "FR Painting",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "That 1 Painter Midland - Odessa",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "interior painting odessa",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

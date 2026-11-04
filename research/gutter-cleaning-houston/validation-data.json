@@ -1,0 +1,197 @@
+{
+  "volumes": {
+    "gutter cleaning houston": {
+      "search_volume": 210,
+      "cpc": 19.78
+    },
+    "gutter cleaning houston tx": {
+      "search_volume": 40,
+      "cpc": 59.94
+    },
+    "gutter cleaning near me": {
+      "search_volume": 210,
+      "cpc": 28.01
+    },
+    "gutter cleaning services houston": {
+      "search_volume": 10,
+      "cpc": 6.22
+    },
+    "best gutter cleaning houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "houston gutter cleaning": {
+      "search_volume": 210,
+      "cpc": 19.78
+    },
+    "affordable gutter cleaning houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "gutter cleaning in houston": {
+      "search_volume": 210,
+      "cpc": 19.78
+    }
+  },
+  "organic": [
+    {
+      "keyword": "gutter cleaning houston",
+      "topDomains": [
+        "google.com",
+        "www.bestpickreports.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "gutter cleaning near me",
+      "topDomains": [
+        "houstonguttercleaninghq.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "gutter cleaning houston",
+    "topThree": [
+      {
+        "name": "Houston Elite Gutter Cleaning",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Houston Seamless Gutters",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Houstonian Services, Inc.",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    58,
+    40,
+    35,
+    43,
+    58,
+    76,
+    77,
+    88,
+    84,
+    72,
+    55,
+    63
+  ],
+  "organic_raw": [
+    {
+      "keyword": "gutter cleaning houston",
+      "items_types": []
+    },
+    {
+      "keyword": "gutter cleaning near me",
+      "items_types": []
+    },
+    {
+      "keyword": "gutter cleaning houston",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "gutter cleaning near me",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "people_also_search",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "gutter cleaning houston",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    58,
+    40,
+    35,
+    43,
+    58,
+    76,
+    77,
+    88,
+    84,
+    72,
+    55,
+    63
+  ],
+  "trends_weekly": [
+    56,
+    62,
+    64,
+    51,
+    44,
+    38,
+    40,
+    37,
+    41,
+    36,
+    33,
+    34,
+    37,
+    36,
+    40,
+    42,
+    51,
+    47,
+    57,
+    43,
+    63,
+    70,
+    76,
+    80,
+    79,
+    74,
+    70,
+    59,
+    82,
+    91,
+    76,
+    100,
+    95,
+    75,
+    80,
+    97,
+    79,
+    93,
+    84,
+    68,
+    89,
+    71,
+    73,
+    56,
+    52,
+    55,
+    67,
+    51,
+    50,
+    54,
+    63,
+    65,
+    71
+  ]
+}

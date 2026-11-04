@@ -37,5 +37,74 @@
   },
   "total_score": 5,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "fence installation big spring",
+      "topDomains": [
+        "www.yelp.com",
+        "google.com",
+        "google.com",
+        "lubbockfence.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "fence installation big spring tx",
+      "topDomains": [
+        "google.com",
+        "www.texasselectfencing.com",
+        "google.com",
+        "google.com",
+        "www.mapquest.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "fence installation big spring",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "fence installation big spring tx",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "fence installation big spring",
+    "topThree": [
+      {
+        "name": "B & M Fence Co.",
+        "reviews": 0,
+        "rating": 4.6
+      },
+      {
+        "name": "RW Fence and Fab LLC.",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Marquez Fence Co",
+        "reviews": 0,
+        "rating": 3
+      }
+    ],
+    "totalCount": 8
+  },
+  "maps_raw": {
+    "keyword": "fence installation big spring",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

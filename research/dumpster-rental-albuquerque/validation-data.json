@@ -1,0 +1,199 @@
+{
+  "volumes": {
+    "dumpster rental albuquerque": {
+      "search_volume": 480,
+      "cpc": 6.64
+    },
+    "dumpster rental albuquerque nm": {
+      "search_volume": 480,
+      "cpc": 6.64
+    },
+    "dumpster rental near me": {
+      "search_volume": 210,
+      "cpc": 6.29
+    },
+    "dumpster rental services albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best dumpster rental albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "albuquerque dumpster rental": {
+      "search_volume": 480,
+      "cpc": 6.64
+    },
+    "affordable dumpster rental albuquerque": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "dumpster rental in albuquerque": {
+      "search_volume": 480,
+      "cpc": 6.64
+    }
+  },
+  "organic": [
+    {
+      "keyword": "dumpster rental albuquerque",
+      "topDomains": [
+        "www.wm.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "dumpster rental albuquerque nm",
+      "topDomains": [
+        "affordabledumpsterrental.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "dumpster rental albuquerque",
+    "topThree": [
+      {
+        "name": "Albuquerque Dumpster Rental",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Rowland Dumpster Rentals Albuquerque",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Albuquerque Dumpster Rentals Solution",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    45,
+    38,
+    39,
+    54,
+    65,
+    76,
+    81,
+    79,
+    81,
+    81,
+    67,
+    65
+  ],
+  "organic_raw": [
+    {
+      "keyword": "dumpster rental albuquerque",
+      "items_types": []
+    },
+    {
+      "keyword": "dumpster rental albuquerque nm",
+      "items_types": []
+    },
+    {
+      "keyword": "dumpster rental albuquerque",
+      "items_types": [
+        "ai_overview",
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "people_also_search",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "dumpster rental albuquerque nm",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "images",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "dumpster rental albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    45,
+    38,
+    39,
+    54,
+    65,
+    76,
+    81,
+    79,
+    81,
+    81,
+    67,
+    65
+  ],
+  "trends_weekly": [
+    45,
+    46,
+    46,
+    42,
+    38,
+    39,
+    37,
+    35,
+    40,
+    43,
+    39,
+    39,
+    36,
+    46,
+    52,
+    53,
+    58,
+    59,
+    66,
+    65,
+    59,
+    70,
+    74,
+    72,
+    75,
+    69,
+    89,
+    76,
+    73,
+    82,
+    91,
+    72,
+    90,
+    82,
+    71,
+    80,
+    76,
+    92,
+    80,
+    78,
+    76,
+    78,
+    100,
+    71,
+    62,
+    70,
+    81,
+    62,
+    62,
+    68,
+    72,
+    65,
+    56
+  ]
+}

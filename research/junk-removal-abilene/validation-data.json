@@ -1,0 +1,199 @@
+{
+  "volumes": {
+    "junk removal abilene": {
+      "search_volume": 110,
+      "cpc": 8.27
+    },
+    "junk removal abilene tx": {
+      "search_volume": 110,
+      "cpc": 8.27
+    },
+    "junk removal near me": {
+      "search_volume": 10,
+      "cpc": 8.33
+    },
+    "junk removal services abilene": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best junk removal abilene": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "abilene junk removal": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "affordable junk removal abilene": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "junk removal in abilene": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "junk removal near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "junk removal abilene",
+      "topDomains": [
+        "google.com",
+        "www.facebook.com",
+        "www.yelp.com",
+        "www.facebook.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "junk removal abilene tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "www.facebook.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "junk removal abilene",
+    "topThree": [
+      {
+        "name": "Junk Removal Abilene",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "HOG-IT-AWAY Junk Removal & Demolition",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Abilene Dumpster Rental",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "organic_raw": [
+    {
+      "keyword": "junk removal abilene",
+      "items_types": []
+    },
+    {
+      "keyword": "junk removal abilene tx",
+      "items_types": []
+    },
+    {
+      "keyword": "junk removal abilene",
+      "items_types": [
+        "local_pack",
+        "organic"
+      ]
+    },
+    {
+      "keyword": "junk removal abilene tx",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "junk removal abilene",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "trends_weekly": [
+    52,
+    50,
+    52,
+    49,
+    53,
+    48,
+    46,
+    46,
+    57,
+    60,
+    58,
+    60,
+    63,
+    66,
+    61,
+    73,
+    86,
+    77,
+    76,
+    66,
+    70,
+    68,
+    73,
+    84,
+    76,
+    71,
+    72,
+    68,
+    70,
+    72,
+    70,
+    85,
+    100,
+    87,
+    71,
+    71,
+    74,
+    74,
+    67,
+    70,
+    67,
+    67,
+    64,
+    59,
+    52,
+    57,
+    63,
+    52,
+    52,
+    52,
+    55,
+    58,
+    63
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "volumes": {
+    "dryer vent cleaning oklahoma city": {
+      "search_volume": 50,
+      "cpc": 18.38
+    },
+    "dryer vent cleaning oklahoma city ok": {
+      "search_volume": 50,
+      "cpc": 18.38
+    },
+    "dryer vent cleaning near me": {
+      "search_volume": 20,
+      "cpc": 15.32
+    },
+    "dryer vent cleaning services oklahoma city": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "best dryer vent cleaning oklahoma city": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "oklahoma city dryer vent cleaning": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "affordable dryer vent cleaning oklahoma city": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "dryer vent cleaning in oklahoma city": {
+      "search_volume": 50,
+      "cpc": 18.38
+    }
+  },
+  "organic": [
+    {
+      "keyword": "dryer vent cleaning near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "dryer vent cleaning oklahoma city",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "ductsquads.com",
+        "google.com",
+        "proxokc.com"
+      ]
+    },
+    {
+      "keyword": "dryer vent cleaning oklahoma city ok",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "www.yelp.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "dryer vent cleaning oklahoma city",
+    "topThree": [
+      {
+        "name": "Duct Squads",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Duct Squads",
+        "reviews": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Oklahoma Duct Cleaning",
+        "reviews": 0,
+        "rating": 4.9
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    45,
+    47,
+    53,
+    48,
+    62,
+    85,
+    79,
+    86,
+    86,
+    73,
+    44,
+    45
+  ],
+  "organic_raw": [
+    {
+      "keyword": "dryer vent cleaning oklahoma city",
+      "items_types": []
+    },
+    {
+      "keyword": "dryer vent cleaning oklahoma city ok",
+      "items_types": []
+    },
+    {
+      "keyword": "dryer vent cleaning oklahoma city",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "dryer vent cleaning oklahoma city ok",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "people_also_search",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "dryer vent cleaning oklahoma city",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    45,
+    47,
+    53,
+    48,
+    62,
+    85,
+    79,
+    86,
+    86,
+    73,
+    44,
+    45
+  ],
+  "trends_weekly": [
+    44,
+    47,
+    46,
+    42,
+    53,
+    44,
+    45,
+    44,
+    51,
+    56,
+    47,
+    48,
+    61,
+    56,
+    53,
+    38,
+    52,
+    40,
+    43,
+    43,
+    67,
+    94,
+    100,
+    100,
+    95,
+    73,
+    57,
+    57,
+    98,
+    88,
+    71,
+    86,
+    90,
+    74,
+    93,
+    95,
+    89,
+    82,
+    84,
+    82,
+    87,
+    78,
+    63,
+    63,
+    48,
+    44,
+    46,
+    37,
+    43,
+    42,
+    44,
+    47,
+    46
+  ]
+}

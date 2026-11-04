@@ -37,5 +37,64 @@
   },
   "total_score": 5,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "deck building odessa",
+      "topDomains": []
+    },
+    {
+      "keyword": "deck building odessa tx",
+      "topDomains": [
+        "www.odessadeckbuilder.com",
+        "www.yelp.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "deck building odessa",
+      "items_types": []
+    },
+    {
+      "keyword": "deck building odessa tx",
+      "items_types": [
+        "ai_overview",
+        "organic",
+        "related_searches",
+        "knowledge_graph",
+        "google_reviews"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "deck building odessa",
+    "topThree": [
+      {
+        "name": "HIQ Outdoor Living Group",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Silver Ridge Pool Builders of Odessa",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Cabco construct llc",
+        "reviews": 0,
+        "rating": 0
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "deck building odessa",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

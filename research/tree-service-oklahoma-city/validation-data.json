@@ -1,0 +1,202 @@
+{
+  "volumes": {
+    "tree service oklahoma city": {
+      "search_volume": 170,
+      "cpc": 17.58
+    },
+    "tree service oklahoma city ok": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "tree service near me": {
+      "search_volume": 170,
+      "cpc": 10.93
+    },
+    "tree service services oklahoma city": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best tree service oklahoma city": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "oklahoma city tree service": {
+      "search_volume": 170,
+      "cpc": 17.58
+    },
+    "affordable tree service oklahoma city": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tree service in oklahoma city": {
+      "search_volume": 170,
+      "cpc": 17.58
+    }
+  },
+  "organic": [
+    {
+      "keyword": "tree service oklahoma city",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "foresttreeservice.net",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "oklahoma city tree service",
+      "topDomains": []
+    },
+    {
+      "keyword": "tree service near me",
+      "topDomains": [
+        "google.com",
+        "www.homeadvisor.com",
+        "google.com",
+        "www.arborshawneetreeservice.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "tree service oklahoma city",
+    "topThree": [
+      {
+        "name": "Oklahoma City Tree Service Experts",
+        "reviews": 0,
+        "rating": 4
+      },
+      {
+        "name": "Gosiak Tree Care",
+        "reviews": 0,
+        "rating": 4.7
+      },
+      {
+        "name": "Happy Trees OKC",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    41,
+    37,
+    41,
+    49,
+    60,
+    66,
+    68,
+    84,
+    63,
+    58,
+    49,
+    45
+  ],
+  "organic_raw": [
+    {
+      "keyword": "tree service oklahoma city",
+      "items_types": []
+    },
+    {
+      "keyword": "tree service near me",
+      "items_types": []
+    },
+    {
+      "keyword": "tree service oklahoma city",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "images",
+        "people_also_ask",
+        "paid",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "tree service near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "tree service oklahoma city",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    41,
+    37,
+    41,
+    49,
+    60,
+    66,
+    68,
+    84,
+    63,
+    58,
+    49,
+    45
+  ],
+  "trends_weekly": [
+    44,
+    43,
+    43,
+    35,
+    37,
+    40,
+    39,
+    34,
+    35,
+    39,
+    36,
+    42,
+    47,
+    45,
+    47,
+    47,
+    56,
+    51,
+    61,
+    60,
+    61,
+    58,
+    62,
+    68,
+    64,
+    63,
+    74,
+    73,
+    65,
+    69,
+    66,
+    88,
+    100,
+    86,
+    63,
+    73,
+    61,
+    69,
+    56,
+    54,
+    60,
+    60,
+    55,
+    57,
+    50,
+    49,
+    54,
+    45,
+    47,
+    44,
+    44,
+    45,
+    46
+  ]
+}

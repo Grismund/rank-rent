@@ -56,5 +56,72 @@
   },
   "total_score": 7,
   "status": "walk_away",
-  "rent_estimate": 8.010000000000002
+  "rent_estimate": 8.010000000000002,
+  "organic": [
+    {
+      "keyword": "landscaping midland",
+      "topDomains": [
+        "www.landscapingmidlandtx.com",
+        "google.com",
+        "google.com",
+        "www.facebook.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "landscaping midland tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "landscaping midland",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "landscaping midland tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "landscaping midland",
+    "topThree": [
+      {
+        "name": "El Jardin Fine Gardens-Lndscps",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Eternal Tree & Landscape Services",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Garden Tenders Landscaping",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "landscaping midland",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

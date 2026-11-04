@@ -1,0 +1,196 @@
+{
+  "volumes": {
+    "tree service tulsa": {
+      "search_volume": 170,
+      "cpc": 36.17
+    },
+    "tree service tulsa ok": {
+      "search_volume": 170,
+      "cpc": 36.17
+    },
+    "tree service near me": {
+      "search_volume": 90,
+      "cpc": 28.83
+    },
+    "tree service services tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best tree service tulsa": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "tulsa tree service": {
+      "search_volume": 170,
+      "cpc": 36.17
+    },
+    "affordable tree service tulsa": {
+      "search_volume": 10,
+      "cpc": 0
+    },
+    "tree service in tulsa": {
+      "search_volume": 170,
+      "cpc": 36.17
+    }
+  },
+  "organic": [
+    {
+      "keyword": "tree service tulsa",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "www.thumbtack.com",
+        "www.tulsatreedoc.com"
+      ]
+    },
+    {
+      "keyword": "tree service tulsa ok",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "tree service tulsa",
+    "topThree": [
+      {
+        "name": "TREES BY JAKE Tree Service Tulsa",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Atkins Tree Care",
+        "reviews": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Midtown Tree Service",
+        "reviews": 0,
+        "rating": 4.8
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    41,
+    37,
+    41,
+    49,
+    60,
+    66,
+    68,
+    84,
+    63,
+    58,
+    49,
+    45
+  ],
+  "organic_raw": [
+    {
+      "keyword": "tree service tulsa",
+      "items_types": []
+    },
+    {
+      "keyword": "tree service tulsa ok",
+      "items_types": []
+    },
+    {
+      "keyword": "tree service tulsa",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "tree service tulsa ok",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "tree service tulsa",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    41,
+    37,
+    41,
+    49,
+    60,
+    66,
+    68,
+    84,
+    63,
+    58,
+    49,
+    45
+  ],
+  "trends_weekly": [
+    44,
+    43,
+    43,
+    35,
+    37,
+    40,
+    39,
+    34,
+    35,
+    39,
+    36,
+    42,
+    47,
+    45,
+    47,
+    47,
+    56,
+    51,
+    61,
+    60,
+    61,
+    58,
+    62,
+    68,
+    64,
+    63,
+    74,
+    73,
+    65,
+    69,
+    66,
+    88,
+    100,
+    86,
+    63,
+    73,
+    61,
+    69,
+    56,
+    54,
+    60,
+    60,
+    55,
+    57,
+    50,
+    49,
+    54,
+    45,
+    47,
+    44,
+    44,
+    45,
+    46
+  ]
+}

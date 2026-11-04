@@ -1,0 +1,201 @@
+{
+  "volumes": {
+    "junk removal el paso": {
+      "search_volume": 480,
+      "cpc": 6.76
+    },
+    "junk removal el paso tx": {
+      "search_volume": 480,
+      "cpc": 6.76
+    },
+    "junk removal near me": {
+      "search_volume": 70,
+      "cpc": 7.24
+    },
+    "junk removal services el paso": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "best junk removal el paso": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "el paso junk removal": {
+      "search_volume": 480,
+      "cpc": 6.76
+    },
+    "affordable junk removal el paso": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "junk removal in el paso": {
+      "search_volume": 0,
+      "cpc": 0
+    }
+  },
+  "organic": [
+    {
+      "keyword": "junk removal near me",
+      "topDomains": []
+    },
+    {
+      "keyword": "junk removal el paso",
+      "topDomains": [
+        "google.com",
+        "thejunkbrothers.co",
+        "google.com",
+        "epdumpsterdaddy.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "junk removal el paso tx",
+      "topDomains": [
+        "www.elpasocleanupjunkremoval.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "junk removal el paso",
+    "topThree": [
+      {
+        "name": "The Junkluggers of El Paso",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Dumpster Daddy Junk Removal",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "El Paso Dumpster Rental",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "organic_raw": [
+    {
+      "keyword": "junk removal el paso",
+      "items_types": []
+    },
+    {
+      "keyword": "junk removal el paso tx",
+      "items_types": []
+    },
+    {
+      "keyword": "junk removal el paso",
+      "items_types": [
+        "local_services",
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "junk removal el paso tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "junk removal el paso",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "trends_weekly": [
+    52,
+    50,
+    52,
+    49,
+    53,
+    48,
+    46,
+    46,
+    57,
+    60,
+    58,
+    60,
+    63,
+    66,
+    61,
+    73,
+    86,
+    77,
+    76,
+    66,
+    70,
+    68,
+    73,
+    84,
+    76,
+    71,
+    72,
+    68,
+    70,
+    72,
+    70,
+    85,
+    100,
+    87,
+    71,
+    71,
+    74,
+    74,
+    67,
+    70,
+    67,
+    67,
+    64,
+    59,
+    52,
+    57,
+    63,
+    52,
+    52,
+    52,
+    55,
+    58,
+    63
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "slug": "dumpster-rental-houston",
+  "analyzed_at": "2026-11-04",
+  "competitors": [
+    {
+      "domain": "zters.com",
+      "summary": {
+        "backlinks": 20583,
+        "referring_domains": 910,
+        "rank": 238
+      },
+      "top_referring_domains": [
+        {
+          "domain": "intently.co",
+          "rank": 199,
+          "backlinks": 372,
+          "first_seen": "2024-12-21 15:42:48 +00:00"
+        },
+        {
+          "domain": "dumpster.co",
+          "rank": 158,
+          "backlinks": 14,
+          "first_seen": "2025-10-06 22:45:29 +00:00"
+        },
+        {
+          "domain": "runsignup.com",
+          "rank": 135,
+          "backlinks": 65,
+          "first_seen": "2022-02-09 12:55:48 +00:00"
+        },
+        {
+          "domain": "thewellplannedhome.com",
+          "rank": 89,
+          "backlinks": 14,
+          "first_seen": "2026-10-14 13:22:05 +00:00"
+        },
+        {
+          "domain": "marolloff.com",
+          "rank": 79,
+          "backlinks": 4,
+          "first_seen": "2026-10-12 10:05:10 +00:00"
+        },
+        {
+          "domain": "robuta.com",
+          "rank": 73,
+          "backlinks": 78,
+          "first_seen": "2026-06-25 01:10:07 +00:00"
+        },
+        {
+          "domain": "texasrestroomtrailer.com",
+          "rank": 51,
+          "backlinks": 2,
+          "first_seen": "2026-10-20 19:46:02 +00:00"
+        },
+        {
+          "domain": "nationalofficetrailer.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-09-20 23:52:09 +00:00"
+        },
+        {
+          "domain": "hookedhome.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-05-13 08:38:41 +00:00"
+        },
+        {
+          "domain": "deacondumpsters.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2024-07-11 20:34:52 +00:00"
+        },
+        {
+          "domain": "tasmaniantemporaryfenceequipmenthirerental.com.au",
+          "rank": 42,
+          "backlinks": 4,
+          "first_seen": "2024-09-29 12:35:28 +00:00"
+        },
+        {
+          "domain": "io-elements.com",
+          "rank": 38,
+          "backlinks": 2,
+          "first_seen": "2025-06-21 20:49:39 +00:00"
+        },
+        {
+          "domain": "radiookapi.net",
+          "rank": 28,
+          "backlinks": 4,
+          "first_seen": "2026-08-01 22:52:04 +00:00"
+        },
+        {
+          "domain": "zapdumpsterspeoria.com",
+          "rank": 25,
+          "backlinks": 7,
+          "first_seen": "2025-09-05 10:39:56 +00:00"
+        },
+        {
+          "domain": "quickhomeexperts.com",
+          "rank": 23,
+          "backlinks": 1,
+          "first_seen": "2026-09-28 09:38:18 +00:00"
+        },
+        {
+          "domain": "houstonsbest.com",
+          "rank": 23,
+          "backlinks": 1,
+          "first_seen": "2026-08-21 19:06:03 +00:00"
+        },
+        {
+          "domain": "thehometrotters.org",
+          "rank": 23,
+          "backlinks": 1,
+          "first_seen": "2026-04-30 12:15:31 +00:00"
+        },
+        {
+          "domain": "skip-hires.com",
+          "rank": 23,
+          "backlinks": 2,
+          "first_seen": "2025-06-30 12:08:30 +00:00"
+        },
+        {
+          "domain": "asapmarketplace.com",
+          "rank": 17,
+          "backlinks": 10,
+          "first_seen": "2025-09-03 10:10:52 +00:00"
+        },
+        {
+          "domain": "mapquest.com",
+          "rank": 16,
+          "backlinks": 6,
+          "first_seen": "2026-10-25 01:14:35 +00:00"
+        },
+        {
+          "domain": "growjo.com",
+          "rank": 16,
+          "backlinks": 11,
+          "first_seen": "2025-05-20 18:50:52 +00:00"
+        },
+        {
+          "domain": "arizonaeventnetwork.com",
+          "rank": 14,
+          "backlinks": 4,
+          "first_seen": "2026-09-28 14:45:16 +00:00"
+        },
+        {
+          "domain": "ghrnet.org",
+          "rank": 13,
+          "backlinks": 3,
+          "first_seen": "2026-08-16 14:29:30 +00:00"
+        },
+        {
+          "domain": "growthzoneapp.com",
+          "rank": 12,
+          "backlinks": 23,
+          "first_seen": "2025-10-20 03:35:46 +00:00"
+        },
+        {
+          "domain": "enthrallinggumption.com",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2026-08-16 07:38:57 +00:00"
+        },
+        {
+          "domain": "junkmasterzca.com",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2026-07-15 05:15:01 +00:00"
+        },
+        {
+          "domain": "southwestportapottyrentals.com",
+          "rank": 7,
+          "backlinks": 8,
+          "first_seen": "2026-02-25 18:35:06 +00:00"
+        },
+        {
+          "domain": "imagetou.com",
+          "rank": 7,
+          "backlinks": 3,
+          "first_seen": "2026-01-16 02:55:11 +00:00"
+        },
+        {
+          "domain": "constructionexec.com",
+          "rank": 7,
+          "backlinks": 3,
+          "first_seen": "2025-10-23 12:36:25 +00:00"
+        },
+        {
+          "domain": "comparable-companies.com",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2023-12-09 16:28:30 +00:00"
+        },
+        {
+          "domain": "philadelphiapadumpsterrental.org",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2022-11-24 16:23:34 +00:00"
+        },
+        {
+          "domain": "seacanfox.com",
+          "rank": 3,
+          "backlinks": 3,
+          "first_seen": "2025-09-24 03:25:21 +00:00"
+        },
+        {
+          "domain": "paramountstone.com",
+          "rank": 2,
+          "backlinks": 2,
+          "first_seen": "2026-05-20 15:04:28 +00:00"
+        },
+        {
+          "domain": "youradmarket.com",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-11-03 16:24:48 +00:00"
+        },
+        {
+          "domain": "douxprocess.directory",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-11-02 13:03:34 +00:00"
+        },
+        {
+          "domain": "websquemolan.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-02 06:36:28 +00:00"
+        },
+        {
+          "domain": "portlandloo.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-02 05:31:29 +00:00"
+        },
+        {
+          "domain": "onlinecasinogamesforrealmoneyusa.online",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-02 03:43:38 +00:00"
+        },
+        {
+          "domain": "growyoursitetraffic.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-01 16:36:31 +00:00"
+        },
+        {
+          "domain": "cartermanageus.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-01 11:57:58 +00:00"
+        },
+        {
+          "domain": "gamezon.net",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-01 05:49:46 +00:00"
+        },
+        {
+          "domain": "inentertainment.co.uk",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-31 00:16:41 +00:00"
+        },
+        {
+          "domain": "webrankingsolutionbacklinks.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-30 11:24:58 +00:00"
+        },
+        {
+          "domain": "peska.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-30 03:10:45 +00:00"
+        },
+        {
+          "domain": "aligow.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 22:26:37 +00:00"
+        },
+        {
+          "domain": "theglimpse.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 14:20:58 +00:00"
+        },
+        {
+          "domain": "zlutag.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 13:25:17 +00:00"
+        },
+        {
+          "domain": "worldtopbacklinks.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 11:45:49 +00:00"
+        },
+        {
+          "domain": "wowqualitybacklinks.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 10:44:33 +00:00"
+        },
+        {
+          "domain": "webbacklinkskbuy.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 04:43:25 +00:00"
+        }
+      ]
+    },
+    {
+      "domain": "frontierwaste.com",
+      "summary": {
+        "backlinks": 5153,
+        "referring_domains": 884,
+        "rank": 272
+      },
+      "top_referring_domains": [
+        {
+          "domain": "vmtx.us",
+          "rank": 181,
+          "backlinks": 59,
+          "first_seen": "2026-07-03 12:47:46 +00:00"
+        },
+        {
+          "domain": "mansfieldtexas.gov",
+          "rank": 165,
+          "backlinks": 41,
+          "first_seen": "2025-03-25 09:56:34 +00:00"
+        },
+        {
+          "domain": "dreevoo.com",
+          "rank": 155,
+          "backlinks": 24,
+          "first_seen": "2025-02-10 21:06:31 +00:00"
+        },
+        {
+          "domain": "civicplus.com",
+          "rank": 144,
+          "backlinks": 131,
+          "first_seen": "2022-04-16 23:29:09 +00:00"
+        },
+        {
+          "domain": "mansfieldemployeeportal.com",
+          "rank": 141,
+          "backlinks": 74,
+          "first_seen": "2025-12-05 17:40:44 +00:00"
+        },
+        {
+          "domain": "mineralwellstx.gov",
+          "rank": 138,
+          "backlinks": 15,
+          "first_seen": "2022-03-22 01:35:10 +00:00"
+        },
+        {
+          "domain": "servicewaste.com",
+          "rank": 132,
+          "backlinks": 3,
+          "first_seen": "2019-01-20 06:57:28 +00:00"
+        },
+        {
+          "domain": "cityofhowetx.gov",
+          "rank": 124,
+          "backlinks": 28,
+          "first_seen": "2025-05-04 02:10:10 +00:00"
+        },
+        {
+          "domain": "callupcontact.com",
+          "rank": 121,
+          "backlinks": 3,
+          "first_seen": "2025-02-04 11:55:07 +00:00"
+        },
+        {
+          "domain": "intently.co",
+          "rank": 115,
+          "backlinks": 37,
+          "first_seen": "2024-12-18 02:05:02 +00:00"
+        },
+        {
+          "domain": "olivernaturepark.com",
+          "rank": 111,
+          "backlinks": 38,
+          "first_seen": "2025-04-02 01:51:35 +00:00"
+        },
+        {
+          "domain": "qdexx.com",
+          "rank": 93,
+          "backlinks": 4,
+          "first_seen": "2024-10-18 05:14:21 +00:00"
+        },
+        {
+          "domain": "socialsocial.social",
+          "rank": 90,
+          "backlinks": 3,
+          "first_seen": "2025-10-02 23:07:08 +00:00"
+        },
+        {
+          "domain": "crazywaterfestival.org",
+          "rank": 90,
+          "backlinks": 6,
+          "first_seen": "2024-07-26 23:20:02 +00:00"
+        },
+        {
+          "domain": "storeboard.com",
+          "rank": 88,
+          "backlinks": 4,
+          "first_seen": "2025-02-14 15:26:13 +00:00"
+        },
+        {
+          "domain": "seagoville.us",
+          "rank": 86,
+          "backlinks": 32,
+          "first_seen": "2023-05-19 16:42:58 +00:00"
+        },
+        {
+          "domain": "salesale.sale",
+          "rank": 85,
+          "backlinks": 9,
+          "first_seen": "2024-06-19 20:39:55 +00:00"
+        },
+        {
+          "domain": "communityimpact.com",
+          "rank": 83,
+          "backlinks": 22,
+          "first_seen": "2025-07-09 09:58:45 +00:00"
+        },
+        {
+          "domain": "tomballchamber.org",
+          "rank": 83,
+          "backlinks": 4,
+          "first_seen": "2025-02-10 17:19:48 +00:00"
+        },
+        {
+          "domain": "balchspringstx.gov",
+          "rank": 82,
+          "backlinks": 36,
+          "first_seen": "2024-08-18 03:37:38 +00:00"
+        },
+        {
+          "domain": "ktb.org",
+          "rank": 80,
+          "backlinks": 4,
+          "first_seen": "2025-03-18 08:14:29 +00:00"
+        },
+        {
+          "domain": "united-local.com",
+          "rank": 79,
+          "backlinks": 4,
+          "first_seen": "2026-07-13 01:30:04 +00:00"
+        },
+        {
+          "domain": "cityofkennedale.com",
+          "rank": 76,
+          "backlinks": 78,
+          "first_seen": "2025-02-01 06:36:48 +00:00"
+        },
+        {
+          "domain": "getvibrato.com",
+          "rank": 76,
+          "backlinks": 13,
+          "first_seen": "2024-12-01 14:17:55 +00:00"
+        },
+        {
+          "domain": "aransaspass.org",
+          "rank": 70,
+          "backlinks": 9,
+          "first_seen": "2023-03-22 04:43:25 +00:00"
+        },
+        {
+          "domain": "bellmeadtx.gov",
+          "rank": 66,
+          "backlinks": 35,
+          "first_seen": "2023-08-27 11:46:03 +00:00"
+        },
+        {
+          "domain": "bobsruralgarbage.com",
+          "rank": 66,
+          "backlinks": 3,
+          "first_seen": "2020-07-11 14:29:01 +00:00"
+        },
+        {
+          "domain": "chipdatabase.net",
+          "rank": 65,
+          "backlinks": 2,
+          "first_seen": "2025-04-10 19:11:45 +00:00"
+        },
+        {
+          "domain": "weboworld.com",
+          "rank": 65,
+          "backlinks": 6,
+          "first_seen": "2025-02-08 21:30:01 +00:00"
+        },
+        {
+          "domain": "lorena.tx.us",
+          "rank": 63,
+          "backlinks": 2,
+          "first_seen": "2026-09-26 01:34:28 +00:00"
+        },
+        {
+          "domain": "mergr.com",
+          "rank": 61,
+          "backlinks": 27,
+          "first_seen": "2024-09-18 13:15:55 +00:00"
+        },
+        {
+          "domain": "handyhubb.com",
+          "rank": 57,
+          "backlinks": 3,
+          "first_seen": "2026-03-22 22:30:13 +00:00"
+        },
+        {
+          "domain": "caisa.org",
+          "rank": 57,
+          "backlinks": 9,
+          "first_seen": "2025-10-19 10:16:28 +00:00"
+        },
+        {
+          "domain": "conroe.org",
+          "rank": 57,
+          "backlinks": 2,
+          "first_seen": "2025-03-27 01:49:06 +00:00"
+        },
+        {
+          "domain": "chambervu.com",
+          "rank": 57,
+          "backlinks": 6,
+          "first_seen": "2024-07-02 07:55:02 +00:00"
+        },
+        {
+          "domain": "pick-kart.com",
+          "rank": 56,
+          "backlinks": 1,
+          "first_seen": "2025-09-03 10:39:47 +00:00"
+        },
+        {
+          "domain": "bunity.com",
+          "rank": 56,
+          "backlinks": 7,
+          "first_seen": "2025-02-11 20:08:42 +00:00"
+        },
+        {
+          "domain": "telegra.ph",
+          "rank": 55,
+          "backlinks": 2,
+          "first_seen": "2025-04-05 13:45:24 +00:00"
+        },
+        {
+          "domain": "chambermaster.com",
+          "rank": 54,
+          "backlinks": 7,
+          "first_seen": "2023-04-01 17:31:00 +00:00"
+        },
+        {
+          "domain": "antemove.com",
+          "rank": 53,
+          "backlinks": 2,
+          "first_seen": "2026-09-25 03:09:29 +00:00"
+        },
+        {
+          "domain": "flokii.com",
+          "rank": 53,
+          "backlinks": 5,
+          "first_seen": "2025-04-05 08:51:15 +00:00"
+        },
+        {
+          "domain": "mytippertruck.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-09-08 15:31:09 +00:00"
+        },
+        {
+          "domain": "fundz.net",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-08-11 06:36:51 +00:00"
+        },
+        {
+          "domain": "snowkido.org",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2024-07-14 08:39:01 +00:00"
+        },
+        {
+          "domain": "boston-cab.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2023-09-22 13:04:17 +00:00"
+        },
+        {
+          "domain": "hostingersite.com",
+          "rank": 50,
+          "backlinks": 3,
+          "first_seen": "2026-02-10 22:50:11 +00:00"
+        },
+        {
+          "domain": "fairoaksranchtx.org",
+          "rank": 49,
+          "backlinks": 25,
+          "first_seen": "2024-09-04 08:10:37 +00:00"
+        },
+        {
+          "domain": "blackbusinessdirect.ca",
+          "rank": 47,
+          "backlinks": 10,
+          "first_seen": "2026-10-18 03:49:00 +00:00"
+        },
+        {
+          "domain": "tomballtx.gov",
+          "rank": 46,
+          "backlinks": 7,
+          "first_seen": "2024-08-02 20:00:01 +00:00"
+        },
+        {
+          "domain": "conroejunkremoval.com",
+          "rank": 44,
+          "backlinks": 2,
+          "first_seen": "2026-10-26 08:04:42 +00:00"
+        }
+      ]
+    }
+  ],
+  "common_sources": [
+    "intently.co"
+  ],
+  "link_building_targets": [
+    "intently.co",
+    "dumpster.co",
+    "runsignup.com",
+    "thewellplannedhome.com",
+    "marolloff.com",
+    "robuta.com",
+    "texasrestroomtrailer.com",
+    "nationalofficetrailer.com",
+    "hookedhome.com",
+    "deacondumpsters.com",
+    "tasmaniantemporaryfenceequipmenthirerental.com.au",
+    "io-elements.com",
+    "radiookapi.net",
+    "zapdumpsterspeoria.com",
+    "quickhomeexperts.com",
+    "houstonsbest.com",
+    "thehometrotters.org",
+    "skip-hires.com",
+    "asapmarketplace.com",
+    "mapquest.com",
+    "growjo.com",
+    "arizonaeventnetwork.com",
+    "ghrnet.org",
+    "growthzoneapp.com",
+    "enthrallinggumption.com",
+    "junkmasterzca.com",
+    "southwestportapottyrentals.com",
+    "imagetou.com",
+    "constructionexec.com",
+    "comparable-companies.com",
+    "philadelphiapadumpsterrental.org",
+    "seacanfox.com",
+    "paramountstone.com",
+    "youradmarket.com",
+    "douxprocess.directory",
+    "websquemolan.com",
+    "portlandloo.com",
+    "onlinecasinogamesforrealmoneyusa.online",
+    "growyoursitetraffic.shop",
+    "cartermanageus.com",
+    "gamezon.net",
+    "inentertainment.co.uk",
+    "webrankingsolutionbacklinks.com",
+    "peska.shop",
+    "aligow.com",
+    "theglimpse.com",
+    "zlutag.com",
+    "worldtopbacklinks.com",
+    "wowqualitybacklinks.com",
+    "webbacklinkskbuy.com"
+  ]
+}

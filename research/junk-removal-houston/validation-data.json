@@ -1,0 +1,198 @@
+{
+  "volumes": {
+    "junk removal houston": {
+      "search_volume": 1300,
+      "cpc": 20.07
+    },
+    "junk removal houston tx": {
+      "search_volume": 210,
+      "cpc": 15.97
+    },
+    "junk removal near me": {
+      "search_volume": 880,
+      "cpc": 14.81
+    },
+    "junk removal services houston": {
+      "search_volume": 40,
+      "cpc": 19.44
+    },
+    "best junk removal houston": {
+      "search_volume": 20,
+      "cpc": 0
+    },
+    "houston junk removal": {
+      "search_volume": 1300,
+      "cpc": 20.07
+    },
+    "affordable junk removal houston": {
+      "search_volume": 0,
+      "cpc": 0
+    },
+    "junk removal in houston": {
+      "search_volume": 1300,
+      "cpc": 20.07
+    }
+  },
+  "organic": [
+    {
+      "keyword": "junk removal houston",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "sunnytrashhauling.com"
+      ]
+    },
+    {
+      "keyword": "houston junk removal",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "junk removal houston",
+    "topThree": [
+      {
+        "name": "DA JUNK LADIE",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Junk Busters",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Speedy Recycle Junk Removal",
+        "reviews": 0,
+        "rating": 5
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "organic_raw": [
+    {
+      "keyword": "junk removal houston",
+      "items_types": []
+    },
+    {
+      "keyword": "houston junk removal",
+      "items_types": []
+    },
+    {
+      "keyword": "junk removal houston",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "people_also_search",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "houston junk removal",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "junk removal houston",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_monthly": [
+    51,
+    50,
+    60,
+    73,
+    70,
+    75,
+    70,
+    86,
+    71,
+    64,
+    55,
+    57
+  ],
+  "trends_weekly": [
+    52,
+    50,
+    52,
+    49,
+    53,
+    48,
+    46,
+    46,
+    57,
+    60,
+    58,
+    60,
+    63,
+    66,
+    61,
+    73,
+    86,
+    77,
+    76,
+    66,
+    70,
+    68,
+    73,
+    84,
+    76,
+    71,
+    72,
+    68,
+    70,
+    72,
+    70,
+    85,
+    100,
+    87,
+    71,
+    71,
+    74,
+    74,
+    67,
+    70,
+    67,
+    67,
+    64,
+    59,
+    52,
+    57,
+    63,
+    52,
+    52,
+    52,
+    55,
+    58,
+    63
+  ]
+}

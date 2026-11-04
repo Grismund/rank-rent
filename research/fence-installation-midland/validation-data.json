@@ -56,5 +56,63 @@
   },
   "total_score": 7,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "fence installation midland",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "m.yelp.com"
+      ]
+    },
+    {
+      "keyword": "fence installation midland tx",
+      "topDomains": []
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "fence installation midland",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "fence installation midland tx",
+      "items_types": []
+    }
+  ],
+  "maps": {
+    "keyword": "fence installation midland",
+    "topThree": [
+      {
+        "name": "Freedom Fence and Services",
+        "reviews": 0,
+        "rating": 4.9
+      },
+      {
+        "name": "Triple T Fence LLC.",
+        "reviews": 0,
+        "rating": 4.8
+      },
+      {
+        "name": "Premier Fence",
+        "reviews": 0,
+        "rating": 3.2
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "fence installation midland",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

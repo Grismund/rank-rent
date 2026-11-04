@@ -37,5 +37,52 @@
   },
   "total_score": 5,
   "status": "walk_away",
-  "rent_estimate": 0
+  "rent_estimate": 0,
+  "organic": [
+    {
+      "keyword": "interior painting big spring",
+      "topDomains": []
+    },
+    {
+      "keyword": "interior painting big spring tx",
+      "topDomains": []
+    }
+  ],
+  "organic_raw": [
+    {
+      "keyword": "interior painting big spring",
+      "items_types": []
+    },
+    {
+      "keyword": "interior painting big spring tx",
+      "items_types": []
+    }
+  ],
+  "maps": {
+    "keyword": "interior painting big spring",
+    "topThree": [
+      {
+        "name": "The Big Spring Sunset Painting Studio",
+        "reviews": 0,
+        "rating": 5
+      },
+      {
+        "name": "Sherwin-Williams Paint Store",
+        "reviews": 0,
+        "rating": 4.4
+      },
+      {
+        "name": "Higginbotham Brothers",
+        "reviews": 0,
+        "rating": 4.3
+      }
+    ],
+    "totalCount": 20
+  },
+  "maps_raw": {
+    "keyword": "interior painting big spring",
+    "items_types": [
+      "maps_search"
+    ]
+  }
 }

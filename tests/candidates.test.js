@@ -3,6 +3,8 @@ import {
   generateSlug,
   generatePhrases,
   isDirectoryDomain,
+  isPlatformDomain,
+  isNicheCompetitor,
   isLicensedTrade,
   parseCandidatesCsv,
   serializeCandidatesCsv,
@@ -359,5 +361,40 @@ describe('clusterNiches', () => {
     expect(clusters[0].top_keywords).toHaveLength(5)
     // highest volume first — lubbock has 800
     expect(clusters[0].top_keywords[0].keyword).toBe('junk removal lubbock')
+  })
+})
+
+describe('isPlatformDomain', () => {
+  it('identifies google.com as a platform', () => {
+    expect(isPlatformDomain('google.com')).toBe(true)
+    expect(isPlatformDomain('www.google.com')).toBe(true)
+  })
+
+  it('identifies social media platforms', () => {
+    expect(isPlatformDomain('facebook.com')).toBe(true)
+    expect(isPlatformDomain('instagram.com')).toBe(true)
+    expect(isPlatformDomain('youtube.com')).toBe(true)
+  })
+
+  it('does not flag real business domains', () => {
+    expect(isPlatformDomain('localbiz.com')).toBe(false)
+    expect(isPlatformDomain('houstonplumbing.com')).toBe(false)
+  })
+})
+
+describe('isNicheCompetitor', () => {
+  it('returns false for directory domains', () => {
+    expect(isNicheCompetitor('yelp.com')).toBe(false)
+    expect(isNicheCompetitor('www.thumbtack.com')).toBe(false)
+  })
+
+  it('returns false for platform domains', () => {
+    expect(isNicheCompetitor('google.com')).toBe(false)
+    expect(isNicheCompetitor('facebook.com')).toBe(false)
+  })
+
+  it('returns true for actual business domains', () => {
+    expect(isNicheCompetitor('houstonplumbing.com')).toBe(true)
+    expect(isNicheCompetitor('texaspfs.com')).toBe(true)
   })
 })

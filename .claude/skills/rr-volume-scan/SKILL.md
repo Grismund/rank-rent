@@ -62,7 +62,7 @@ Skip this entire section in City mode.
 
 3. **Cost gate** — Print the top niches table and estimated Pass 2 cost:
    - Show: rank, niche, total_volume, avg_cpc, keyword_count, top keyword
-   - Estimated cost = `ceil(num_niches / 20) * num_cities * $0.09`
+   - Estimated cost = `ceil(total_keywords / 700) * $0.09`
    - **Wait for user approval before proceeding**
 
 4. **Update `DISCOVERED_NICHES`** in `lib/constants.js`
@@ -83,7 +83,7 @@ Skip this entire section in City mode.
 
 7. **Batch volume calls per city**
    - API: `POST /v3/keywords_data/google_ads/search_volume/live`
-   - Group up to 20 keywords per call to minimize cost
+   - Group up to 700 keywords per task (DataForSEO `search_volume/live` limit). A typical city-mode run (~600 keywords) fits in a single task
    - Body per call:
      ```json
      [{
@@ -93,7 +93,7 @@ Skip this entire section in City mode.
        "search_partners": false
      }]
      ```
-   - Cost: ~$0.09 per call
+   - Cost: ~$0.09 per task (up to 700 keywords each)
 
 8. **Filter local results**
    - For each niche × city pair, sum volume across all phrase variants
@@ -134,8 +134,8 @@ Skip this entire section in City mode.
 ## Guardrails
 
 - **Cost gate at Pass 1 → Pass 2 boundary** (Full mode): Show niche table + estimated cost, wait for approval
-- **Batch to minimize calls**: Group up to 20 keywords per API call
-- **Total budget**: ~$1.08 expected for Full mode ($0.45 Pass 1 + $0.63 Pass 2 for 7 cities); City mode is Pass 2 only
+- **Batch to minimize calls**: Group up to 700 keywords per API task
+- **Total budget**: ~$0.54 expected for Full mode ($0.45 Pass 1 + $0.09 Pass 2); City mode (~600 keywords) is ~$0.09 (single task)
 - **No purchases**: This skill never buys domains, phone numbers, or anything else
 - **Idempotent**: Existing slugs in candidates.csv are skipped
 - **Key security**: Never print, log, or commit API credentials
