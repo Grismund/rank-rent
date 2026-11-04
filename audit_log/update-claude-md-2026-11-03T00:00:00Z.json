@@ -1,0 +1,12 @@
+{
+  "skill": "update-claude-md",
+  "timestamp": "2026-11-03T00:00:00Z",
+  "findings": [
+    { "section": "Repo layout", "action": "added", "detail": "Added lib/, scripts/, tests/ directories between data/ and research/" },
+    { "section": "Repo layout", "action": "updated", "detail": "Fixed research/ structure: replaced niches/areas/candidate pattern with <niche>-<area>/, dashboard.html, shortlist-*.md" },
+    { "section": "Repo layout", "action": "updated", "detail": "Marked template/, sites/, workers/ with Phase 4/5 annotations" },
+    { "section": "Data model", "action": "updated", "detail": "Noted only candidates.csv exists; sites.csv, buyers.csv, links.csv defined for Phase 3+" },
+    { "section": "Testing", "action": "updated", "detail": "Added vitest mention and tests/ directory 1:1 correspondence with lib/" }
+  ],
+  "flags": []
+}

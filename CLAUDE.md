@@ -17,13 +17,16 @@ rank-rent/
     sites.csv                       domain, registrar, renewal, number, status, client
     buyers.csv                      renters per niche and area
     links.csv                       backlink targets and status
+  lib/                              shared business logic (scoring, candidates, trends, etc.)
+  scripts/                          operational scripts (dashboard, validation, teardown, etc.)
+  tests/                            vitest unit tests (1:1 with lib/)
   research/
-    niches/<niche>.md
-    areas/<town>.md
-    <candidate>/                    raw results, teardown
-  template/                         shared Astro site template
-  sites/<domain>/site.yaml          niche, towns, phone, page plan
-  workers/call-router/              tracking-number Cloudflare Worker
+    <niche>-<area>/                 validation data, teardown per candidate
+    dashboard.html                  generated research dashboard
+    shortlist-*.md                  generated shortlists
+  template/                         shared Astro site template (Phase 4)
+  sites/<domain>/site.yaml          niche, towns, phone, page plan (Phase 4)
+  workers/call-router/              tracking-number Cloudflare Worker (Phase 5)
   docs/                             connectivity report, workflow doc
 ```
 
@@ -52,7 +55,7 @@ Each SKILL.md should specify:
 
 ## Data model
 
-- **CSV** files in `data/` are the source of truth for candidates, sites, buyers, and links.
+- **CSV** files in `data/` are the source of truth for candidates, sites, buyers, and links. Currently only `candidates.csv` exists; `sites.csv`, `buyers.csv`, and `links.csv` are defined for Phase 3+.
 - **YAML** (`sites/<domain>/site.yaml`) holds per-site config: niche, towns served, phone number, and the page plan.
 - **Markdown** in `research/` holds research output (niche briefs, town fact sheets, teardowns, shortlists).
 - **Reference docs** in `reference/` hold shared scoring rubrics and content standards that skills import.
@@ -101,7 +104,7 @@ Skills must reference these files, not hardcode standards inline.
 
 ## Testing
 
-Business logic follows TDD (RED-GREEN-REFACTOR) per the global CLAUDE.md.
+Business logic follows TDD (RED-GREEN-REFACTOR) per the global CLAUDE.md. Unit tests use **vitest** (`npm test`). Test files live in `tests/` with 1:1 correspondence to `lib/` modules.
 
 **Integration testing** uses the Phase 1 connectivity report (`docs/connectivity-report.md`): one sample query per API, pass/fail per row, under $0.10 of DataForSEO credit, nothing purchased.
 
