@@ -216,11 +216,11 @@ function buildBacklinkSection(c) {
 
       return `
       <div style="margin-bottom:12px">
-        <h5 style="margin:0 0 4px">${esc(comp.domain)}
+        <h5 style="margin:0 0 4px">Referring Domains for <em>${esc(comp.domain)}</em>
           <span style="font-weight:normal;color:#666;font-size:12px">(${comp.summary?.referring_domains || '?'} ref. domains, rank ${comp.summary?.rank || '?'})</span>
         </h5>
         <table style="width:100%;font-size:12px;border-collapse:collapse">
-          <thead><tr style="background:#e5e7eb"><th style="text-align:left;padding:4px">Domain</th><th style="text-align:left;padding:4px">Rank</th><th style="text-align:left;padding:4px">Backlinks</th><th style="text-align:left;padding:4px">First Seen</th></tr></thead>
+          <thead><tr><th style="text-align:left;padding:4px">Domain</th><th style="text-align:left;padding:4px">Rank</th><th style="text-align:left;padding:4px">Backlinks</th><th style="text-align:left;padding:4px">First Seen</th></tr></thead>
           <tbody>${rows}</tbody>
         </table>
       </div>`
@@ -236,8 +236,8 @@ function buildBacklinkSection(c) {
     : ''
 
   return `
-  <div style="margin-top:16px;border-top:1px solid #e5e7eb;padding-top:12px">
-    <h4 style="margin:0 0 8px">Backlink Sources</h4>
+  <div class="backlink-section">
+    <h4>Backlink Sources</h4>
     ${competitorTables}
     ${commonHtml}
     ${targetsHtml}
@@ -310,8 +310,12 @@ h3 { font-size: 15px; margin: 16px 0 8px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
 table { width: 100%; border-collapse: collapse; font-size: 13px; }
 th, td { padding: 6px 10px; text-align: left; border-bottom: 1px solid #e2e8f0; }
-th { background: #f1f5f9; cursor: pointer; user-select: none; position: sticky; top: 0; }
-th:hover { background: #e2e8f0; }
+th { background: #f1f5f9; }
+#candidates-table > thead > tr > th { cursor: pointer; user-select: none; position: sticky; top: 0; z-index: 2; background: #f1f5f9; }
+#candidates-table > thead > tr > th:hover { background: #e2e8f0; }
+.backlink-section { margin-top:16px; border-top:1px solid #e5e7eb; padding-top:12px; border-left:3px solid #3b82f6; padding-left:12px; background:#f0f7ff; border-radius:0 6px 6px 0; }
+.backlink-section h4 { margin:0 0 8px; color:#1e40af; }
+.backlink-section table th { background:#cbd5e1; font-size:11px; font-style:italic; padding:3px 8px; }
 tr:hover { background: #f8fafc; }
 .subtitle { color: #64748b; font-size: 14px; margin-bottom: 16px; }
 .tab-bar { display: flex; gap: 0; margin-bottom: 0; border-bottom: 2px solid #e2e8f0; }
@@ -417,7 +421,7 @@ function toggleDetail(idx) {
 
       // Collect row pairs (data row + optional detail row)
       const tbody = table.querySelector('tbody');
-      const allRows = Array.from(tbody.querySelectorAll('tr'));
+      const allRows = Array.from(tbody.children);
       const pairs = [];
       for (let i = 0; i < allRows.length; i++) {
         if (allRows[i].classList.contains('detail-row')) continue;
