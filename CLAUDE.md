@@ -27,7 +27,7 @@ rank-rent/
   template/                         shared Astro site template (Phase 4)
   sites/<domain>/site.yaml          niche, towns, phone, page plan (Phase 4)
   workers/call-router/              tracking-number Cloudflare Worker (Phase 5)
-  docs/                             connectivity report, workflow doc
+  docs/                             connectivity report, master workflow (original planning doc, may be stale)
 ```
 
 ## Skill conventions
@@ -39,10 +39,12 @@ Skills live at `.claude/skills/rr-<name>/SKILL.md`. The `rr-` prefix is mandator
 | Phase | Skills |
 |-------|--------|
 | 1 | `rr-smoke-test` |
-| 2 | `rr-volume-scan`, ~~`rr-discover`~~ (deprecated), `rr-validate`, `rr-teardown`, `rr-shortlist` |
+| 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-shortlist` [^1] |
 | 3 | `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` |
 | 4 | `rr-domains`, `rr-phone`, `rr-site-build`, `rr-content`, `rr-seo-audit` |
 | 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` |
+
+[^1]: `rr-discover` is deprecated — `rr-volume-scan` replaced it with batch keyword volume lookups.
 
 ### Structure
 
@@ -52,6 +54,60 @@ Each SKILL.md should specify:
 - **Outputs** — files it writes or modifies
 - **Tools** — APIs or CLIs it calls
 - **Guardrails** — cost gates, approval requirements, forbidden actions
+
+## Workflow
+
+> **Current status:** Phase 2 skills built and tested. Volume scanning and validation run across southern cities. Shortlist generated for Permian Basin (`research/shortlist-2026-11-02.md`). Awaiting Gate 1 decision and/or expanded research into more cities.
+
+### Pipeline overview
+
+```
+  Volume Scan ──→ Validate ──→ Teardown ──→ Shortlist ──→ ◆ GATE 1
+  (discover)      (score 8)     (score 11+)   (memo)       (operator picks winners)
+       │               │             │             │
+       ▼               ▼             ▼             ▼
+  candidates.csv  validation-   teardown.md    shortlist-
+  status=          data.json    backlink-       YYYY-MM-DD.md
+  discovered                    sources.json
+
+  ◆ GATE 1 ──→ Niche Brief ──→ Local Facts ──→ Keywords ──→ Renters
+                    │               │              │            │
+                    ▼               ▼              ▼            ▼
+              niches/<n>.md    areas/<t>.md    site.yaml    buyers.csv
+
+  ──→ Domains ──→ Phone ──→ Site Build ──→ Content ──→ SEO Audit ──→ ◆ GATE 2
+       │            │           │             │            │
+       ▼            ▼           ▼             ▼            ▼
+   sites.csv    sites.csv   site files    page content  pass/fail
+
+  ◆ GATE 2 ──→ Deploy ──→ Index ──→ Links ──→ Weekly Review ──→ Pitch Prep ──→ Route
+                                                                                  │
+                                                                            ◆ GATE 3
+                                                                      (operator sells)
+```
+
+### Phase summary
+
+| Phase | Skills | Status | Produces |
+|-------|--------|--------|----------|
+| 1 | `rr-smoke-test` | DONE | `docs/connectivity-report.md` |
+| 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-shortlist` | DONE | `candidates.csv`, validation data, teardowns, shortlist memo |
+| 3 | `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` | NOT BUILT | Niche/town research, page plans, buyer lists |
+| 4 | `rr-domains`, `rr-phone`, `rr-site-build`, `rr-content`, `rr-seo-audit` | NOT BUILT | Registered domains, sites, content, audit reports |
+| 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` | NOT BUILT | Live sites, backlinks, review reports, pitch materials |
+
+### Gates
+
+- **Gate 1** — Which candidates to buy domains/numbers for (after shortlist)
+- **Gate 2** — Which sites to deploy (after SEO audit passes)
+- **Gate 3** — Who rents each site (operator makes sales calls)
+
+### Candidate status lifecycle
+
+```
+discovered → validated (score ≥8) → torn_down (score ≥11) → shortlisted
+                ↘ walk_away (score <8)    ↘ walk_away (SKIP verdict)
+```
 
 ## Data model
 
