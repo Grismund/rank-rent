@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest'
 import {
   buildFunnel,
   enrichCandidates,
+  enrichWithJobEconomics,
   extractTeardownVerdict,
   buildRegionSummary,
   buildNicheSummary,
@@ -268,6 +269,55 @@ describe('buildNicheSummary', () => {
   it('tracks best score per niche', () => {
     const summary = buildNicheSummary(candidates)
     expect(summary['tree removal'].bestScore).toBe(11)
+  })
+
+  it('includes avgJobRange when economics map provided', () => {
+    const economicsMap = new Map([
+      ['tree removal', { avgJobLow: 300, avgJobHigh: 1500, marginLow: 0.4, marginHigh: 0.6, notes: '' }],
+    ])
+    const summary = buildNicheSummary(candidates, economicsMap)
+    expect(summary['tree removal'].avgJobRange).toBe('$300–$1500')
+    expect(summary['landscaping'].avgJobRange).toBeUndefined()
+  })
+
+  it('works without economics map (backward compatible)', () => {
+    const summary = buildNicheSummary(candidates)
+    expect(summary['tree removal'].avgJobRange).toBeUndefined()
+  })
+})
+
+describe('enrichWithJobEconomics', () => {
+  const economicsMap = new Map([
+    ['tree removal', { avgJobLow: 300, avgJobHigh: 1500, marginLow: 0.4, marginHigh: 0.6, notes: '' }],
+    ['dryer vent cleaning', { avgJobLow: 104, avgJobHigh: 188, marginLow: 0.5, marginHigh: 0.7, notes: '' }],
+  ])
+
+  it('attaches job value fields when niche matches', () => {
+    const candidates = [
+      { niche: 'tree removal', slug: 'tree-removal-odessa' },
+    ]
+    const result = enrichWithJobEconomics(candidates, economicsMap)
+    expect(result[0].jobValueRange).toBe('$300–$1500')
+    expect(result[0].avgJobLow).toBe(300)
+    expect(result[0].avgJobHigh).toBe(1500)
+  })
+
+  it('leaves fields undefined when niche has no economics entry', () => {
+    const candidates = [
+      { niche: 'landscaping', slug: 'landscaping-odessa' },
+    ]
+    const result = enrichWithJobEconomics(candidates, economicsMap)
+    expect(result[0].jobValueRange).toBeUndefined()
+    expect(result[0].avgJobLow).toBeUndefined()
+    expect(result[0].avgJobHigh).toBeUndefined()
+  })
+
+  it('matches niches case-insensitively', () => {
+    const candidates = [
+      { niche: 'Tree Removal', slug: 'tree-removal-midland' },
+    ]
+    const result = enrichWithJobEconomics(candidates, economicsMap)
+    expect(result[0].jobValueRange).toBe('$300–$1500')
   })
 })
 

@@ -14,12 +14,14 @@ import { parseCandidatesCsv } from '../lib/candidates.js'
 import {
   buildFunnel,
   enrichCandidates,
+  enrichWithJobEconomics,
   extractTeardownVerdict,
   buildRegionSummary,
   buildNicheSummary,
   findCommonSources,
   prioritizeLinkTargets,
 } from '../lib/dashboard-data.js'
+import { parseNicheEconomics } from '../lib/niche-economics-parser.js'
 
 const ROOT = new URL('..', import.meta.url).pathname
 
@@ -63,12 +65,19 @@ const shortlists = readdirSync(researchDir)
   .filter((f) => f.startsWith('shortlist-') && f.endsWith('.md'))
   .map((f) => f)
 
+// Load niche economics
+const economicsPath = join(ROOT, 'reference', 'niche-economics.md')
+const economicsMap = existsSync(economicsPath)
+  ? parseNicheEconomics(readFileSync(economicsPath, 'utf8'))
+  : new Map()
+
 // ── Process data ───────────────────────────────────────────
 
 const funnel = buildFunnel(candidates)
-const enriched = enrichCandidates(candidates, validationMap, teardownMap, backlinkMap)
+let enriched = enrichCandidates(candidates, validationMap, teardownMap, backlinkMap)
+enriched = enrichWithJobEconomics(enriched, economicsMap)
 const regionSummary = buildRegionSummary(candidates)
-const nicheSummary = buildNicheSummary(candidates)
+const nicheSummary = buildNicheSummary(candidates, economicsMap)
 
 // ── HTML generation helpers ────────────────────────────────
 
@@ -152,7 +161,7 @@ function candidateRows() {
       const v = c.validation
       detailHtml = `
       <tr class="detail-row" id="detail-${idx}" style="display:none">
-        <td colspan="10" style="padding:16px;background:#f9fafb;border-top:none">
+        <td colspan="11" style="padding:16px;background:#f9fafb;border-top:none">
           <div style="display:flex;gap:24px;flex-wrap:wrap">
             <div>
               <h4 style="margin:0 0 8px">Score Breakdown</h4>
@@ -190,6 +199,7 @@ function candidateRows() {
       <td data-sort="${c.vol_primary || 0}">${c.vol_primary || '—'}</td>
       <td data-sort="${c.cpc || 0}">${c.cpc ? '$' + parseFloat(c.cpc).toFixed(2) : '—'}</td>
       <td data-sort="${c.rent_estimate || 0}">${c.rent_estimate ? '$' + parseFloat(c.rent_estimate).toFixed(0) : '—'}</td>
+      <td data-sort="${c.avgJobLow || 0}">${c.jobValueRange || '—'}</td>
       <td data-sort="${score}">${score || '—'}</td>
       <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:${statusColor(c.status)};color:#fff;font-size:11px">${esc(c.status)}</span></td>
       <td>${c.teardownVerdict ? verdictBadge(c.teardownVerdict) : ''}</td>
@@ -265,6 +275,7 @@ function nicheTable() {
       <td>${s.count}</td>
       <td>${s.viable}</td>
       <td>${s.bestScore}</td>
+      <td>${s.avgJobRange || '—'}</td>
     </tr>`).join('')
 }
 
@@ -360,9 +371,10 @@ ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">📋 Sho
           <th data-col="4" data-type="num">Vol Primary</th>
           <th data-col="5" data-type="num">CPC</th>
           <th data-col="6" data-type="num">Rent Est.</th>
-          <th data-col="7" data-type="num">Score</th>
-          <th data-col="8">Status</th>
-          <th data-col="9">Verdict</th>
+          <th data-col="7" data-type="num">Avg Job</th>
+          <th data-col="8" data-type="num">Score</th>
+          <th data-col="9">Status</th>
+          <th data-col="10">Verdict</th>
         </tr>
       </thead>
       <tbody>
@@ -384,7 +396,7 @@ ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">📋 Sho
     <div class="card">
       <h3>By Niche</h3>
       <table>
-        <thead><tr><th>Niche</th><th>Candidates</th><th>Viable (8+)</th><th>Best Score</th></tr></thead>
+        <thead><tr><th>Niche</th><th>Candidates</th><th>Viable (8+)</th><th>Best Score</th><th>Avg Job</th></tr></thead>
         <tbody>${nicheTable()}</tbody>
       </table>
     </div>
