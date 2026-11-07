@@ -7,9 +7,17 @@ import { readFileSync, writeFileSync, existsSync } from 'fs'
 import { parseCandidatesCsv, serializeCandidatesCsv } from '../lib/candidates.js'
 import { estimateRent } from '../lib/scoring.js'
 
+// --- CLI args ---
+const args = process.argv.slice(2)
+const filterSlugs = args.find(a => a.startsWith('--filter='))?.split('=')[1]?.split(',') || null
+const statusFilter = args.find(a => a.startsWith('--status='))?.split('=')[1] || 'torn_down'
+
 const csv = readFileSync('data/candidates.csv', 'utf8')
 const allCandidates = parseCandidatesCsv(csv)
-const tornDown = allCandidates.filter((c) => c.status === 'torn_down')
+let tornDown = allCandidates.filter((c) => c.status === statusFilter)
+if (filterSlugs) {
+  tornDown = tornDown.filter((c) => filterSlugs.includes(c.slug))
+}
 
 // Read verdicts and exclude SKIP
 const candidates = []

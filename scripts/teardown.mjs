@@ -5,35 +5,16 @@
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs'
 import { parseCandidatesCsv, serializeCandidatesCsv, isNicheCompetitor } from '../lib/candidates.js'
+import { createClient } from '../lib/dataforseo-client.js'
+
+// --- CLI args ---
+const args = process.argv.slice(2)
+const dryRun = args.includes('--dry-run')
+const filterSlugs = args.find(a => a.startsWith('--filter='))?.split('=')[1]?.split(',') || null
 
 // --- DataForSEO client ---
-function loadEnv() {
-  const envPath = `${process.env.HOME}/.config/rank-rent/.env`
-  const lines = readFileSync(envPath, 'utf8').split('\n')
-  const env = {}
-  for (const line of lines) {
-    const m = line.match(/^([^#=]+)=(.*)$/)
-    if (m) env[m[1].trim()] = m[2].trim().replace(/^["']|["']$/g, '')
-  }
-  return env
-}
-
-const env = loadEnv()
-const login = env.DATAFORSEO_LOGIN || env.DATAFORSEO_USERNAME
-const password = env.DATAFORSEO_PASSWORD
-const authHeader = 'Basic ' + Buffer.from(`${login}:${password}`).toString('base64')
-
-async function apiPost(path, data) {
-  const resp = await fetch(`https://api.dataforseo.com${path}`, {
-    method: 'POST',
-    headers: { Authorization: authHeader, 'Content-Type': 'application/json' },
-    body: JSON.stringify(data),
-  })
-  if (!resp.ok) throw new Error(`API ${resp.status}: ${await resp.text()}`)
-  return resp.json()
-}
-
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+const envContent = readFileSync(`${process.env.HOME}/.config/rank-rent/.env`, 'utf8')
+const { apiPost, sleep } = createClient.fromEnvContent(envContent)
 
 // --- Fetch page content (simple fetch, no browser) ---
 async function fetchPage(url) {
@@ -97,9 +78,12 @@ function analyzeOnPage(html, keyword, domain) {
 async function main() {
   const csv = readFileSync('data/candidates.csv', 'utf8')
   const allCandidates = parseCandidatesCsv(csv)
-  const qualifiers = allCandidates.filter(
+  let qualifiers = allCandidates.filter(
     (c) => c.status === 'validated' && Number(c.score_total) >= 11
   )
+  if (filterSlugs) {
+    qualifiers = qualifiers.filter((c) => filterSlugs.includes(c.slug))
+  }
 
   console.log(`Found ${qualifiers.length} candidates for teardown (score >= 11)\n`)
   if (qualifiers.length === 0) { console.log('Nothing to tear down.'); return }
@@ -136,6 +120,14 @@ async function main() {
     process.exit(1)
   }
 
+  if (dryRun) {
+    console.log('\n── Dry Run — Candidates ──')
+    for (const td of teardowns) {
+      console.log(`  ${td.candidate.slug} — ${td.competitors.length} competitors: ${td.competitors.join(', ')}`)
+    }
+    return
+  }
+
   const today = new Date().toISOString().split('T')[0]
 
   // --- Pull backlink data ---
@@ -157,6 +149,9 @@ async function main() {
         backlinks: summResult.backlinks || 0,
         referring_domains: summResult.referring_domains || 0,
         rank: summResult.rank || 0,
+        dofollow: summResult.dofollow || 0,
+        referring_domains_nofollow: summResult.referring_domains_nofollow || 0,
+        broken_backlinks: summResult.broken_backlinks || 0,
       }
       console.log(`${summary.backlinks} backlinks, ${summary.referring_domains} ref domains, rank ${summary.rank}`)
       await sleep(100)
@@ -175,6 +170,9 @@ async function main() {
         rank: r.rank || 0,
         backlinks: r.backlinks || 0,
         first_seen: r.first_seen || '',
+        backlink_types: r.backlink_types || null,
+        last_seen: r.last_seen || '',
+        is_broken: r.is_broken ?? false,
       }))
       console.log(`${topReferring.length} domains`)
       await sleep(100)

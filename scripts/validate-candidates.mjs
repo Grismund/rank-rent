@@ -6,63 +6,29 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs'
 import { parseCandidatesCsv, serializeCandidatesCsv } from '../lib/candidates.js'
 import { estimateValidationCost } from '../lib/cost-estimator.js'
-import {
-  scoreSearchVolume, scoreCPC, scoreMapPackWeakness, scoreOrganicWeakness,
-  scoreRenterAvailability, scoreLicenseBarrier, scoreSeasonality,
-  estimateRent, scoreRentPotential, totalScore,
-} from '../lib/scoring.js'
-import { DIRECTORY_DOMAINS } from '../lib/constants.js'
-import { extractOrganicDomains, extractMapsResults } from '../lib/serp-parsing.js'
+import { extractOrganicDomains, extractOrganicResults, extractMapsResults } from '../lib/serp-parsing.js'
 import { aggregateWeeklyToMonthly } from '../lib/trends.js'
+import { createClient, locationName } from '../lib/dataforseo-client.js'
+import { scoreCandidateFromRaw } from '../lib/score-candidate.js'
 
-// --- Config ---
-const AREA_STATE = {
-  'Oklahoma City': 'Oklahoma', Tulsa: 'Oklahoma',
-  Tucson: 'Arizona', Albuquerque: 'New Mexico',
-  Midland: 'Texas', Houston: 'Texas', Abilene: 'Texas',
-  'El Paso': 'Texas', Odessa: 'Texas', 'Big Spring': 'Texas',
-}
-
-function locationName(area) {
-  const state = AREA_STATE[area]
-  if (!state) throw new Error(`Unknown area: ${area}`)
-  return `${area},${state},United States`
-}
+// --- CLI args ---
+const args = process.argv.slice(2)
+const dryRun = args.includes('--dry-run')
+const filterSlugs = args.find(a => a.startsWith('--filter='))?.split('=')[1]?.split(',') || null
+const statusFilter = args.find(a => a.startsWith('--status='))?.split('=')[1] || 'discovered'
 
 // --- DataForSEO client ---
-function loadEnv() {
-  const envPath = `${process.env.HOME}/.config/rank-rent/.env`
-  const lines = readFileSync(envPath, 'utf8').split('\n')
-  const env = {}
-  for (const line of lines) {
-    const m = line.match(/^([^#=]+)=(.*)$/)
-    if (m) env[m[1].trim()] = m[2].trim().replace(/^["']|["']$/g, '')
-  }
-  return env
-}
-
-const env = loadEnv()
-const login = env.DATAFORSEO_LOGIN || env.DATAFORSEO_USERNAME
-const password = env.DATAFORSEO_PASSWORD
-const authHeader = 'Basic ' + Buffer.from(`${login}:${password}`).toString('base64')
-
-async function apiPost(path, data) {
-  const resp = await fetch(`https://api.dataforseo.com${path}`, {
-    method: 'POST',
-    headers: { Authorization: authHeader, 'Content-Type': 'application/json' },
-    body: JSON.stringify(data),
-  })
-  if (!resp.ok) throw new Error(`API ${resp.status}: ${await resp.text()}`)
-  return resp.json()
-}
-
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+const envContent = readFileSync(`${process.env.HOME}/.config/rank-rent/.env`, 'utf8')
+const { apiPost, sleep } = createClient.fromEnvContent(envContent)
 
 // --- Main ---
 async function main() {
   const csv = readFileSync('data/candidates.csv', 'utf8')
   const allCandidates = parseCandidatesCsv(csv)
-  const discovered = allCandidates.filter((c) => c.status === 'discovered')
+  let discovered = allCandidates.filter((c) => c.status === statusFilter)
+  if (filterSlugs) {
+    discovered = discovered.filter((c) => filterSlugs.includes(c.slug))
+  }
 
   console.log(`Found ${discovered.length} discovered candidates`)
   if (discovered.length === 0) { console.log('Nothing to validate.'); return }
@@ -77,6 +43,14 @@ async function main() {
   if (cost.total > 1) {
     console.error('\nCost exceeds $1 — aborting. Get user approval first.')
     process.exit(1)
+  }
+
+  if (dryRun) {
+    console.log('\n── Dry Run — Candidates ──')
+    for (const c of discovered) {
+      console.log(`  ${c.slug} — ${c.niche} in ${c.area}`)
+    }
+    return
   }
 
   // Per-candidate raw data store
@@ -106,7 +80,12 @@ async function main() {
     const locVolMap = new Map()
     if (resp.tasks?.[0]?.result) {
       for (const r of resp.tasks[0].result) {
-        locVolMap.set(r.keyword, { search_volume: r.search_volume || 0, cpc: r.cpc || 0 })
+        locVolMap.set(r.keyword, {
+          search_volume: r.search_volume || 0,
+          cpc: r.cpc || 0,
+          competition_index: r.competition_index ?? null,
+          monthly_searches: r.monthly_searches || null,
+        })
       }
     } else {
       console.warn(`  ⚠ No results for ${loc}:`, resp.tasks?.[0]?.status_message)
@@ -142,24 +121,45 @@ async function main() {
   console.log('\n── Step 2: Organic SERP ──')
   const orgTasks = []
   for (const c of discovered) {
-    for (const { phrase } of c._topPhrases.slice(0, 2)) {
-      orgTasks.push({ keyword: phrase, location_name: locationName(c.area), language_name: 'English', depth: 10, _slug: c.slug })
+    const topTwo = c._topPhrases.slice(0, 2)
+    for (let j = 0; j < topTwo.length; j++) {
+      orgTasks.push({
+        keyword: topTwo[j].phrase,
+        location_name: locationName(c.area),
+        language_name: 'English',
+        depth: 10,
+        _slug: c.slug,
+        // Primary phrase uses live/regular to capture paid items (for viability cache)
+        _isPrimary: topTwo[j].phrase === c.primary_phrase,
+      })
     }
   }
 
   // Live SERP endpoints: 1 task per request
   for (let i = 0; i < orgTasks.length; i++) {
-    const { _slug: slug, ...taskPayload } = orgTasks[i]
-    process.stdout.write(`  [${i + 1}/${orgTasks.length}] ${slug} [${orgTasks[i].keyword}]: `)
-    const resp = await apiPost('/v3/serp/google/organic/live/advanced', [taskPayload])
+    const { _slug: slug, _isPrimary: isPrimary, ...taskPayload } = orgTasks[i]
+    const endpoint = isPrimary
+      ? '/v3/serp/google/organic/live/regular'    // captures paid items too
+      : '/v3/serp/google/organic/live/advanced'
+    process.stdout.write(`  [${i + 1}/${orgTasks.length}] ${slug} [${orgTasks[i].keyword}]${isPrimary ? ' (regular)' : ''}: `)
+    const resp = await apiPost(endpoint, [taskPayload])
     const task = resp.tasks?.[0]
     const items = task?.result?.[0]?.items || []
     const domains = extractOrganicDomains(items, 5)
+    const organicResults = extractOrganicResults(items, 10)
     const itemTypes = [...new Set(items.map((it) => it.type))]
     console.log(`${domains.length} domains (${itemTypes.join(',')})`)
     if (!raw[slug].organic_raw) raw[slug].organic_raw = []
     raw[slug].organic_raw.push({ keyword: orgTasks[i].keyword, items_types: itemTypes })
     raw[slug].organic.push({ keyword: orgTasks[i].keyword, topDomains: domains })
+    // Save richer organic results for Phase 3+ (teardown URL discovery, content strategy)
+    if (!raw[slug].organic_results) raw[slug].organic_results = []
+    raw[slug].organic_results.push({ keyword: orgTasks[i].keyword, results: organicResults })
+    // For primary phrase: save all items for viability SERP cache
+    if (isPrimary) {
+      raw[slug].serp_items = items
+      raw[slug].cached_at = new Date().toISOString().split('T')[0]
+    }
     if (i < orgTasks.length - 1) await sleep(100)
   }
 
@@ -245,58 +245,8 @@ async function main() {
   const today = new Date().toISOString().split('T')[0]
 
   for (const c of discovered) {
-    c.vol_total = c._volTotal
-    c.vol_primary = c._volPrimary
-    c.cpc = c._cpc
-
-    // Maps
-    const mData = raw[c.slug].maps
-    const topThree = mData?.topThree || []
-    const renterCount = mData?.totalCount || 0
-    c.map_pack_weak = topThree.map((m) => `${m.reviews}r/${m.rating}`).join('|')
-    c.renter_count = renterCount
-
-    // Organic — unique domains across both SERP pulls
-    const orgDomains = []
-    for (const o of raw[c.slug].organic) {
-      for (const d of o.topDomains) {
-        if (!orgDomains.includes(d)) orgDomains.push(d)
-      }
-    }
-    c.organic_weak = orgDomains.slice(0, 5).join('|')
-
-    // Seasonality
-    const monthly = trendsByNiche.get(c.niche) || []
-    c.seasonality = monthly.join('|')
-
-    // Rent
-    const rentEst = estimateRent(c._volPrimary, c._cpc)
-    c.rent_estimate = Math.round(rentEst * 100) / 100
-
-    // 8 scores
-    const signals = {
-      volume: scoreSearchVolume(c._volPrimary),
-      cpc: scoreCPC(c._cpc),
-      mapPack: scoreMapPackWeakness(topThree),
-      organic: scoreOrganicWeakness(orgDomains.slice(0, 5), DIRECTORY_DOMAINS),
-      renters: scoreRenterAvailability(renterCount),
-      license: scoreLicenseBarrier(c.license_barrier),
-      seasonality: scoreSeasonality(monthly),
-      rent: scoreRentPotential(rentEst),
-    }
-    const { total, status } = totalScore(signals)
-
-    c.score_vol = signals.volume
-    c.score_cpc = signals.cpc
-    c.score_map = signals.mapPack
-    c.score_organic = signals.organic
-    c.score_renters = signals.renters
-    c.score_license = signals.license
-    c.score_season = signals.seasonality
-    c.score_rent = signals.rent
-    c.score_total = total
-    // validated if score ≥ 8, walk_away if < 8
-    c.status = total >= 8 ? 'validated' : 'walk_away'
+    const scored = scoreCandidateFromRaw(c, raw[c.slug])
+    Object.assign(c, scored)
     c.validated_date = today
 
     // Clean temp fields

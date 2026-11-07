@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { extractOrganicDomains, extractMapsResults } from '../lib/serp-parsing.js'
+import { extractOrganicDomains, extractOrganicResults, extractMapsResults } from '../lib/serp-parsing.js'
 
 describe('extractOrganicDomains', () => {
   it('extracts domains from organic items', () => {
@@ -42,6 +42,57 @@ describe('extractOrganicDomains', () => {
   })
 })
 
+describe('extractOrganicResults', () => {
+  it('extracts full result objects from organic items', () => {
+    const items = [
+      { type: 'organic', domain: 'example.com', url: 'https://example.com/page', title: 'Test', description: 'A test result', rank_absolute: 1 },
+      { type: 'organic', domain: 'other.com', url: 'https://other.com/', title: 'Other', description: 'Another', rank_absolute: 2 },
+    ]
+    const results = extractOrganicResults(items, 5)
+    expect(results).toHaveLength(2)
+    expect(results[0]).toEqual({
+      domain: 'example.com',
+      url: 'https://example.com/page',
+      title: 'Test',
+      description: 'A test result',
+      position: 1,
+    })
+  })
+
+  it('limits to maxCount results', () => {
+    const items = Array(10).fill(null).map((_, i) => ({
+      type: 'organic', domain: `site${i}.com`, url: `https://site${i}.com/`, title: `Site ${i}`, description: '', rank_absolute: i + 1,
+    }))
+    expect(extractOrganicResults(items, 3)).toHaveLength(3)
+  })
+
+  it('skips non-organic items', () => {
+    const items = [
+      { type: 'organic', domain: 'a.com', url: 'https://a.com/', title: 'A', description: '', rank_absolute: 1 },
+      { type: 'paid', domain: 'ad.com', url: 'https://ad.com/', title: 'Ad', description: '', rank_absolute: 2 },
+    ]
+    expect(extractOrganicResults(items, 5)).toHaveLength(1)
+  })
+
+  it('returns empty array for null input', () => {
+    expect(extractOrganicResults(null, 5)).toEqual([])
+  })
+
+  it('handles missing optional fields', () => {
+    const items = [
+      { type: 'organic', domain: 'example.com' },
+    ]
+    const results = extractOrganicResults(items, 5)
+    expect(results[0]).toEqual({
+      domain: 'example.com',
+      url: '',
+      title: '',
+      description: '',
+      position: 0,
+    })
+  })
+})
+
 describe('extractMapsResults', () => {
   it('extracts top three and total count from maps_search items', () => {
     const items = [
@@ -52,7 +103,7 @@ describe('extractMapsResults', () => {
     ]
     const result = extractMapsResults(items, 20)
     expect(result.topThree).toHaveLength(3)
-    expect(result.topThree[0]).toEqual({ name: 'Biz A', reviews: 100, rating: 4.5 })
+    expect(result.topThree[0]).toEqual({ name: 'Biz A', reviews: 100, rating: 4.5, domain: '', phone: '', address: '', category: '' })
     expect(result.totalCount).toBe(20)
   })
 
@@ -86,6 +137,30 @@ describe('extractMapsResults', () => {
     ]
     const result = extractMapsResults(items, 5)
     expect(result.topThree).toHaveLength(2)
-    expect(result.topThree[0]).toEqual({ name: 'No Rating Biz', reviews: 0, rating: 0 })
+    expect(result.topThree[0]).toEqual({ name: 'No Rating Biz', reviews: 0, rating: 0, domain: '', phone: '', address: '', category: '' })
+  })
+
+  it('extracts domain, phone, address, and category when present', () => {
+    const items = [
+      {
+        type: 'maps_search',
+        title: 'Pro Junk Removal',
+        rating: { value: 4.7, reviews_count: 85 },
+        domain: 'projunkremoval.com',
+        phone: '(555) 123-4567',
+        address: '123 Main St, Houston, TX',
+        category: 'Junk Removal Service',
+      },
+    ]
+    const result = extractMapsResults(items, 5)
+    expect(result.topThree[0]).toEqual({
+      name: 'Pro Junk Removal',
+      reviews: 85,
+      rating: 4.7,
+      domain: 'projunkremoval.com',
+      phone: '(555) 123-4567',
+      address: '123 Main St, Houston, TX',
+      category: 'Junk Removal Service',
+    })
   })
 })

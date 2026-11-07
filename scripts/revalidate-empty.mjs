@@ -6,57 +6,14 @@
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs'
 import { parseCandidatesCsv, serializeCandidatesCsv } from '../lib/candidates.js'
-import {
-  scoreSearchVolume, scoreCPC, scoreMapPackWeakness, scoreOrganicWeakness,
-  scoreRenterAvailability, scoreLicenseBarrier, scoreSeasonality,
-  estimateRent, scoreRentPotential, totalScore,
-} from '../lib/scoring.js'
-import { DIRECTORY_DOMAINS } from '../lib/constants.js'
 import { extractOrganicDomains, extractMapsResults } from '../lib/serp-parsing.js'
 import { aggregateWeeklyToMonthly } from '../lib/trends.js'
-
-// --- Config ---
-const AREA_STATE = {
-  'Oklahoma City': 'Oklahoma', Tulsa: 'Oklahoma',
-  Tucson: 'Arizona', Albuquerque: 'New Mexico',
-  Midland: 'Texas', Houston: 'Texas', Abilene: 'Texas',
-  'El Paso': 'Texas', Odessa: 'Texas', 'Big Spring': 'Texas',
-}
-
-function locationName(area) {
-  const state = AREA_STATE[area]
-  if (!state) throw new Error(`Unknown area: ${area}`)
-  return `${area},${state},United States`
-}
+import { createClient, locationName } from '../lib/dataforseo-client.js'
+import { scoreCandidateFromRaw } from '../lib/score-candidate.js'
 
 // --- DataForSEO client ---
-function loadEnv() {
-  const envPath = `${process.env.HOME}/.config/rank-rent/.env`
-  const lines = readFileSync(envPath, 'utf8').split('\n')
-  const env = {}
-  for (const line of lines) {
-    const m = line.match(/^([^#=]+)=(.*)$/)
-    if (m) env[m[1].trim()] = m[2].trim().replace(/^["']|["']$/g, '')
-  }
-  return env
-}
-
-const env = loadEnv()
-const login = env.DATAFORSEO_LOGIN || env.DATAFORSEO_USERNAME
-const password = env.DATAFORSEO_PASSWORD
-const authHeader = 'Basic ' + Buffer.from(`${login}:${password}`).toString('base64')
-
-async function apiPost(path, data) {
-  const resp = await fetch(`https://api.dataforseo.com${path}`, {
-    method: 'POST',
-    headers: { Authorization: authHeader, 'Content-Type': 'application/json' },
-    body: JSON.stringify(data),
-  })
-  if (!resp.ok) throw new Error(`API ${resp.status}: ${await resp.text()}`)
-  return resp.json()
-}
-
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+const envContent = readFileSync(`${process.env.HOME}/.config/rank-rent/.env`, 'utf8')
+const { apiPost, sleep } = createClient.fromEnvContent(envContent)
 
 // --- Main ---
 async function main() {
@@ -201,74 +158,14 @@ async function main() {
     if (!existsSync(rawPath)) continue
     const raw = JSON.parse(readFileSync(rawPath, 'utf8'))
 
-    // Recompute volumes
-    const phrases = (c.phrases || '').split('|').filter(Boolean)
-    let totalVol = 0, maxCpc = 0, primaryVol = 0
-    for (const p of phrases) {
-      const v = raw.volumes?.[p]
-      if (v) {
-        totalVol += v.search_volume
-        if (v.cpc > maxCpc) maxCpc = v.cpc
-        if (p === c.primary_phrase) primaryVol = v.search_volume
-      }
-    }
-
-    // Maps
-    const topThree = raw.maps?.topThree || []
-    const renterCount = raw.maps?.totalCount || 0
-
-    // Organic
-    const orgDomains = []
-    for (const o of (raw.organic || [])) {
-      for (const d of o.topDomains) {
-        if (!orgDomains.includes(d)) orgDomains.push(d)
-      }
-    }
-
-    // Seasonality — use monthly (aggregated)
-    const monthly = raw.trends || []
-
-    // Rent
-    const rentEst = estimateRent(primaryVol, maxCpc)
-
-    // Score
-    const signals = {
-      volume: scoreSearchVolume(primaryVol),
-      cpc: scoreCPC(maxCpc),
-      mapPack: scoreMapPackWeakness(topThree),
-      organic: scoreOrganicWeakness(orgDomains.slice(0, 5), DIRECTORY_DOMAINS),
-      renters: scoreRenterAvailability(renterCount),
-      license: scoreLicenseBarrier(c.license_barrier),
-      seasonality: scoreSeasonality(monthly),
-      rent: scoreRentPotential(rentEst),
-    }
-    const { total } = totalScore(signals)
-    const newStatus = total >= 8 ? 'validated' : 'walk_away'
-
+    const scored = scoreCandidateFromRaw(c, raw)
     const oldTotal = Number(c.score_total)
-    if (total !== oldTotal) {
-      console.log(`  ${c.slug}: ${oldTotal}→${total} (${c.status}→${newStatus})`)
+    if (scored.score_total !== oldTotal) {
+      console.log(`  ${c.slug}: ${oldTotal}→${scored.score_total} (${c.status}→${scored.status})`)
       changed++
     }
 
-    c.vol_total = totalVol
-    c.vol_primary = primaryVol
-    c.cpc = maxCpc
-    c.map_pack_weak = topThree.map((m) => `${m.reviews}r/${m.rating}`).join('|')
-    c.renter_count = renterCount
-    c.organic_weak = orgDomains.slice(0, 5).join('|')
-    c.seasonality = monthly.join('|')
-    c.rent_estimate = Math.round(rentEst * 100) / 100
-    c.score_vol = signals.volume
-    c.score_cpc = signals.cpc
-    c.score_map = signals.mapPack
-    c.score_organic = signals.organic
-    c.score_renters = signals.renters
-    c.score_license = signals.license
-    c.score_season = signals.seasonality
-    c.score_rent = signals.rent
-    c.score_total = total
-    c.status = newStatus
+    Object.assign(c, scored)
     c.validated_date = c.validated_date || today
   }
 

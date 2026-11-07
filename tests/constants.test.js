@@ -4,6 +4,7 @@ import {
   SERVICE_NOISE_KEYWORDS,
   DISCOVERED_NICHES,
   VOLUME_SCAN_DEFAULTS,
+  AREA_STATE,
 } from '../lib/constants.js'
 
 describe('DISCOVERY_SEED_GROUPS', () => {
@@ -119,6 +120,19 @@ describe('DISCOVERED_NICHES', () => {
     expect(names).toContain('dryer vent cleaning')
     expect(names).toContain('tree service')
     expect(names).toContain('pressure washing')
+  })
+})
+
+describe('AREA_STATE', () => {
+  it('maps all known cities to states', () => {
+    expect(AREA_STATE['Houston']).toBe('Texas')
+    expect(AREA_STATE['Oklahoma City']).toBe('Oklahoma')
+    expect(AREA_STATE['Tucson']).toBe('Arizona')
+    expect(AREA_STATE['Albuquerque']).toBe('New Mexico')
+  })
+
+  it('has 10 city entries', () => {
+    expect(Object.keys(AREA_STATE)).toHaveLength(10)
   })
 })
 

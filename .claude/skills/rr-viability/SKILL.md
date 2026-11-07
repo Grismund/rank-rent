@@ -2,6 +2,20 @@
 
 **Purpose:** Verify that unit economics and live SERP patterns support the rent estimate for torn-down candidates before shortlisting.
 
+## Quick Start
+
+```bash
+node scripts/viability.mjs                          # all torn-down candidates
+node scripts/viability.mjs --dry-run                # preview without API calls
+node scripts/viability.mjs --filter=slug1,slug2     # specific candidates only
+```
+
+The script handles everything: economics lookup, CPC inflation check, SERP analysis, break-even math, report writing, and CSV updates.
+
+## SERP Cache
+
+The script checks `research/<slug>/validation-data.json` for a `serp_items` field before making API calls. If present and < 30 days old, it uses cached data (zero cost). This field is populated by `validate-candidates.mjs` when using `live/regular` for the primary phrase.
+
 ## Inputs
 
 | Source | Description |
@@ -14,130 +28,35 @@
 
 ### 1. Load candidates
 
-- Read `data/candidates.csv` using `parseCandidatesCsv` from `lib/candidates.js`
-- Filter to `status=torn_down`
-- If no candidates remain, report and stop
+- Read `data/candidates.csv`, filter to `status=torn_down`
+- Apply `--filter` if specified
 
 ### 2. Cost gate
 
-- Estimate SERP API costs: ~$0.01 per candidate (one `serp/google/organic/live/regular` call each)
-- If total exceeds **$1**, show cost estimate and wait for approval
+- Check SERP cache per candidate (uses `validation-data.json` → `serp_items` if < 30 days old)
+- Estimate API cost: $0.01 per uncached candidate
+- If total exceeds **$1**, abort
 
 ### 3. For each candidate
 
-#### a. Look up job economics
+1. **Job economics** — `lookupJobEconomics(niche, econTable)` from parsed `niche-economics.md`
+2. **CPC inflation** — `flagInflatedCPC(localCpc, nationalCpc)`, adjust rent if flagged
+3. **SERP data** — load from cache or pull `serp/google/organic/live/regular` (depth 20)
+4. **SERP analysis** — `countPaidAds()`, `detectBaitAndSwitch()`, `assessOrganicFragmentation()`
+5. **Break-even** — `computeBreakEven(rent, avgJobMidpoint, marginMidpoint)` vs `vol_primary × 0.15`
+6. **Verdict** — `assessViability()`: viable/marginal → `status=viable`, fail → `status=walk_away`
 
-- Parse `reference/niche-economics.md` using `parseNicheEconomics` from `lib/niche-economics-parser.js`
-- Call `lookupJobEconomics(niche, table)` from `lib/viability.js`
-- If niche not found, flag for manual review and skip
-
-#### b. Check CPC inflation
-
-- Find national avg CPC from `DISCOVERED_NICHES` in `lib/constants.js`
-- Call `flagInflatedCPC(localCpc, nationalAvgCpc)` — flags if local > 2.5× national
-- If flagged, compute an adjusted rent estimate using the national CPC instead
-
-#### c. Pull live SERP
-
-- Call DataForSEO `serp/google/organic/live/regular` for the primary phrase
-  - Location: candidate's area
-  - Depth: 20 results
-  - This captures both paid and organic results
-
-#### d. Analyze SERP
-
-- `countPaidAds(serpItems)` — count paid placements
-- `detectBaitAndSwitch(paidItems)` — scan for low-ball price patterns ($49, $59, $79, $85, $89, $99)
-- `assessOrganicFragmentation(organicItems, PLATFORM_DOMAINS, DIRECTORY_DOMAINS)` — social vs dedicated vs directory
-
-#### e. Compute break-even
-
-- Use midpoint of job value range: `(avgJobLow + avgJobHigh) / 2`
-- Use midpoint of margin range: `(marginLow + marginHigh) / 2`
-- `computeBreakEven(rentEstimate, avgJobValue, marginPct)`
-- Estimated monthly leads: `vol_primary × 0.15`
-- `assessViability(breakEvenJobs, monthlyLeads)`
-
-#### f. Render verdict
-
-| Assessment | Action |
-|-----------|--------|
-| `viable` | Set `status=viable` |
-| `marginal` | Set `status=viable` with a caution flag in the report |
-| `fail` | Set `status=walk_away` |
-
-### 4. Write per-candidate report
-
-Write `research/<slug>/viability.md`:
-
-```markdown
-# Viability Report — {Niche} in {Area}
-
-**Date:** YYYY-MM-DD
-**Verdict:** {viable / marginal / walk_away}
-
-## Job Economics
-
-| Metric | Value |
-|--------|-------|
-| Avg job value | ${avgJobLow}–${avgJobHigh} |
-| Gross margin | {marginLow}–{marginHigh}% |
-| Source | {notes} |
-
-## CPC Analysis
-
-| Metric | Value |
-|--------|-------|
-| Local CPC | ${cpc} |
-| National avg CPC | ${nationalCpc} |
-| Inflation ratio | {ratio}× |
-| Inflated? | {yes/no} |
-
-{If inflated: adjusted rent estimate using national CPC}
-
-## SERP Analysis
-
-| Metric | Value |
-|--------|-------|
-| Paid ad count | {count} |
-| Bait-and-switch flags | {count} — {details if any} |
-| Social/platform results | {socialCount} |
-| Dedicated business sites | {dedicatedSiteCount} |
-| Directory results | {directoryCount} |
-
-## Break-Even Math
-
-| Metric | Value |
-|--------|-------|
-| Rent estimate | ${rentEstimate}/mo |
-| Net revenue per job | ${avgJob × margin} |
-| Jobs to break even | {breakEvenJobs}/mo |
-| Estimated monthly leads | {vol_primary × 0.15} |
-| Break-even ratio | {ratio}% of leads |
-| Assessment | {viable / marginal / fail} |
-```
-
-### 5. Update CSV
-
-- Set `status=viable` or `status=walk_away`
-- Set `viability_date` to today's date (YYYY-MM-DD)
-
-## Outputs
+### 4. Outputs
 
 | Path | Description |
 |------|-------------|
 | `data/candidates.csv` | Updated status and viability_date |
 | `research/<slug>/viability.md` | Per-candidate viability report |
-
-## Tools
-
-| Tool | Purpose | Est. cost |
-|------|---------|-----------|
-| DataForSEO `serp/google/organic/live/regular` | Live SERP data for paid/organic analysis | ~$0.01/call |
+| `research/<slug>/viability-serp.json` | Raw SERP data (when API called) |
 
 ## Guardrails
 
-- **Cost gate**: Estimate shown if batch exceeds $1
+- **Cost gate**: Estimate shown; aborts if batch exceeds $1
+- **SERP cache**: Reuses validation SERP data when available (< 30 days)
 - **No purchases**: Read-only analysis
-- **API choice**: Uses `live/regular` (cheaper than `live/advanced`)
 - **Key security**: Never print, log, or commit API keys

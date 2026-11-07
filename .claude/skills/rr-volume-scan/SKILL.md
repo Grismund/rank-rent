@@ -2,15 +2,26 @@
 
 **Purpose:** Discover high-value home service niches by querying national keyword volumes first, then checking local demand in target cities — inverting the usual "guess a niche, check volume" approach.
 
+## Quick Start (City Mode)
+
+```bash
+node scripts/volume-scan.mjs "Houston" "Tulsa"                    # scan cities
+node scripts/volume-scan.mjs "Abilene" --dry-run                  # preview without API calls
+node scripts/volume-scan.mjs "Houston" --filter=junk\ removal     # specific niches only
+node scripts/volume-scan.mjs "Midland" "Odessa" --region="Permian Basin"  # label region
+```
+
+City mode is fully automated via the script. Full mode (with seed expansion) stays AI-driven — it requires judgment about which niches to approve.
+
 ## Mode Detection
 
 Determine the mode from the user's message:
 
 | Signal | Mode | What runs |
 |--------|------|-----------|
-| User provides cities only (no "full scan", no seed groups) | **City** | Pass 2 only, using `DISCOVERED_NICHES` from `lib/constants.js` |
-| User says "full scan" or provides seed groups | **Full** | Pass 1 + Pass 2 |
-| Ambiguous | **City** (default) | Pass 2 only |
+| User provides cities only (no "full scan", no seed groups) | **City** | `node scripts/volume-scan.mjs` — fully automated |
+| User says "full scan" or provides seed groups | **Full** | Pass 1 (AI-driven) + Pass 2 |
+| Ambiguous | **City** (default) | `node scripts/volume-scan.mjs` |
 
 ## Inputs
 

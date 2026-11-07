@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest'
 import {
   estimateValidationCost,
   estimateTeardownCost,
+  estimateViabilityCost,
 } from '../lib/cost-estimator.js'
 
 describe('estimateValidationCost', () => {
@@ -67,5 +68,32 @@ describe('estimateTeardownCost', () => {
   it('handles single candidate', () => {
     // 1 × 4 × $0.02 = $0.08
     expect(estimateTeardownCost([{ slug: 'a' }])).toBeCloseTo(0.08)
+  })
+})
+
+describe('estimateViabilityCost', () => {
+  it('estimates $0.01 per candidate needing API call', () => {
+    const result = estimateViabilityCost(5, 2)
+    // 5 total, 2 cached = 3 need API calls × $0.01
+    expect(result.total).toBeCloseTo(0.03)
+    expect(result.apiCalls).toBe(3)
+    expect(result.cached).toBe(2)
+  })
+
+  it('returns zero when all are cached', () => {
+    const result = estimateViabilityCost(5, 5)
+    expect(result.total).toBe(0)
+    expect(result.apiCalls).toBe(0)
+  })
+
+  it('returns zero for zero candidates', () => {
+    const result = estimateViabilityCost(0, 0)
+    expect(result.total).toBe(0)
+  })
+
+  it('handles no cache hits', () => {
+    const result = estimateViabilityCost(10, 0)
+    expect(result.total).toBeCloseTo(0.10)
+    expect(result.apiCalls).toBe(10)
   })
 })
