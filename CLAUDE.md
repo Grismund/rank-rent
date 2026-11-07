@@ -12,6 +12,7 @@ rank-rent/
     seo-standards.md                page structure, headings, keyword alignment
     content-rules.md                word counts, local-fact minimums, banned claims
     naming-rules.md                 domain naming conventions
+    niche-economics.md              avg job values + margins per niche
   data/
     candidates.csv                  every niche × area scored
     sites.csv                       domain, registrar, renewal, number, status, client
@@ -39,12 +40,12 @@ Skills live at `.claude/skills/rr-<name>/SKILL.md`. The `rr-` prefix is mandator
 | Phase | Skills |
 |-------|--------|
 | 1 | `rr-smoke-test` |
-| 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-shortlist` [^1] |
+| 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-viability`, `rr-shortlist` [^1] |
 | 3 | `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` |
 | 4 | `rr-domains`, `rr-phone`, `rr-site-build`, `rr-content`, `rr-seo-audit` |
 | 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` |
 
-[^1]: `rr-discover` is deprecated — `rr-volume-scan` replaced it with batch keyword volume lookups.
+[^1]: `rr-discover` is deprecated — `rr-volume-scan` replaced it with batch keyword volume lookups. `rr-viability` was added between teardown and shortlist to check unit economics.
 
 ### Structure
 
@@ -62,13 +63,13 @@ Each SKILL.md should specify:
 ### Pipeline overview
 
 ```
-  Volume Scan ──→ Validate ──→ Teardown ──→ Shortlist ──→ ◆ GATE 1
-  (discover)      (score 8)     (score 11+)   (memo)       (operator picks winners)
-       │               │             │             │
-       ▼               ▼             ▼             ▼
-  candidates.csv  validation-   teardown.md    shortlist-
-  status=          data.json    backlink-       YYYY-MM-DD.md
-  discovered                    sources.json
+  Volume Scan ──→ Validate ──→ Teardown ──→ Viability ──→ Shortlist ──→ ◆ GATE 1
+  (discover)      (score 8)     (score 11+)  (economics)   (memo)       (operator picks winners)
+       │               │             │             │             │
+       ▼               ▼             ▼             ▼             ▼
+  candidates.csv  validation-   teardown.md  viability.md   shortlist-
+  status=          data.json    backlink-    status=         YYYY-MM-DD.md
+  discovered                    sources.json viable
 
   ◆ GATE 1 ──→ Niche Brief ──→ Local Facts ──→ Keywords ──→ Renters
                     │               │              │            │
@@ -91,7 +92,7 @@ Each SKILL.md should specify:
 | Phase | Skills | Status | Produces |
 |-------|--------|--------|----------|
 | 1 | `rr-smoke-test` | DONE | `docs/connectivity-report.md` |
-| 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-shortlist` | DONE | `candidates.csv`, validation data, teardowns, shortlist memo |
+| 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-viability`, `rr-shortlist` | DONE | `candidates.csv`, validation data, teardowns, viability reports, shortlist memo |
 | 3 | `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` | NOT BUILT | Niche/town research, page plans, buyer lists |
 | 4 | `rr-domains`, `rr-phone`, `rr-site-build`, `rr-content`, `rr-seo-audit` | NOT BUILT | Registered domains, sites, content, audit reports |
 | 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` | NOT BUILT | Live sites, backlinks, review reports, pitch materials |
@@ -105,8 +106,8 @@ Each SKILL.md should specify:
 ### Candidate status lifecycle
 
 ```
-discovered → validated (score ≥8) → torn_down (score ≥11) → shortlisted
-                ↘ walk_away (score <8)    ↘ walk_away (SKIP verdict)
+discovered → validated (score ≥8) → torn_down (score ≥11) → viable (economics pass) → shortlisted
+                ↘ walk_away (score <8)    ↘ walk_away (SKIP)       ↘ walk_away (economics fail)
 ```
 
 ## Data model

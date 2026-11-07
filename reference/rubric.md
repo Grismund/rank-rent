@@ -95,3 +95,7 @@ Estimated monthly rent based on lead value and volume.
 | 2 | Over $500/mo |
 
 Estimated rent = (monthly search volume × estimated CTR × lead conversion rate × lead value) ÷ markup factor. Use conservative estimates: 15% CTR, 10% conversion, lead value from CPC × 5–10.
+
+## Viability gate (post-teardown)
+
+Candidates passing teardown undergo a unit-economics check before shortlisting. This verifies that the niche's average job value and margins can support the estimated rent, and that CPC isn't artificially inflated by bait-and-switch operators. See `rr-viability` skill and `reference/niche-economics.md`.

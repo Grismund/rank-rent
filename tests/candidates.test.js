@@ -101,8 +101,8 @@ describe('isLicensedTrade', () => {
 })
 
 describe('parseCandidatesCsv / serializeCandidatesCsv', () => {
-  const csvString = `slug,niche,area,region,primary_phrase,phrases,population,license_barrier,franchise_dominated,vol_total,vol_primary,cpc,map_pack_weak,organic_weak,renter_count,seasonality,rent_estimate,score_vol,score_cpc,score_map,score_organic,score_renters,score_license,score_season,score_rent,score_total,status,validated_date,teardown_date
-house-cleaning-mckinney,house cleaning,McKinney,DFW,house cleaning McKinney,house cleaning McKinney|maid service McKinney,200000,none,false,,,,,,,,,,,,,,,,,,discovered,,`
+  const csvString = `slug,niche,area,region,primary_phrase,phrases,population,license_barrier,franchise_dominated,vol_total,vol_primary,cpc,map_pack_weak,organic_weak,renter_count,seasonality,rent_estimate,score_vol,score_cpc,score_map,score_organic,score_renters,score_license,score_season,score_rent,score_total,status,validated_date,teardown_date,viability_date
+house-cleaning-mckinney,house cleaning,McKinney,DFW,house cleaning McKinney,house cleaning McKinney|maid service McKinney,200000,none,false,,,,,,,,,,,,,,,,,,discovered,,,`
 
   it('parses CSV string into array of row objects', () => {
     const rows = parseCandidatesCsv(csvString)
@@ -126,13 +126,13 @@ house-cleaning-mckinney,house cleaning,McKinney,DFW,house cleaning McKinney,hous
   })
 
   it('handles empty CSV (header only)', () => {
-    const headerOnly = 'slug,niche,area,region,primary_phrase,phrases,population,license_barrier,franchise_dominated,vol_total,vol_primary,cpc,map_pack_weak,organic_weak,renter_count,seasonality,rent_estimate,score_vol,score_cpc,score_map,score_organic,score_renters,score_license,score_season,score_rent,score_total,status,validated_date,teardown_date'
+    const headerOnly = 'slug,niche,area,region,primary_phrase,phrases,population,license_barrier,franchise_dominated,vol_total,vol_primary,cpc,map_pack_weak,organic_weak,renter_count,seasonality,rent_estimate,score_vol,score_cpc,score_map,score_organic,score_renters,score_license,score_season,score_rent,score_total,status,validated_date,teardown_date,viability_date'
     const rows = parseCandidatesCsv(headerOnly)
     expect(rows).toHaveLength(0)
   })
 
   it('serializes with header row', () => {
-    const rows = [{ slug: 'test-slug', niche: 'test', area: 'Town', region: 'Region', primary_phrase: 'test Town', phrases: 'test Town|test near me', population: '50000', license_barrier: 'none', franchise_dominated: 'false', vol_total: '', vol_primary: '', cpc: '', map_pack_weak: '', organic_weak: '', renter_count: '', seasonality: '', rent_estimate: '', score_vol: '', score_cpc: '', score_map: '', score_organic: '', score_renters: '', score_license: '', score_season: '', score_rent: '', score_total: '', status: 'discovered', validated_date: '', teardown_date: '' }]
+    const rows = [{ slug: 'test-slug', niche: 'test', area: 'Town', region: 'Region', primary_phrase: 'test Town', phrases: 'test Town|test near me', population: '50000', license_barrier: 'none', franchise_dominated: 'false', vol_total: '', vol_primary: '', cpc: '', map_pack_weak: '', organic_weak: '', renter_count: '', seasonality: '', rent_estimate: '', score_vol: '', score_cpc: '', score_map: '', score_organic: '', score_renters: '', score_license: '', score_season: '', score_rent: '', score_total: '', status: 'discovered', validated_date: '', teardown_date: '', viability_date: '' }]
     const csv = serializeCandidatesCsv(rows)
     expect(csv.startsWith('slug,niche,')).toBe(true)
     expect(csv).toContain('test-slug')

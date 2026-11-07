@@ -6,14 +6,14 @@
 
 | Argument | Required | Default | Description |
 |----------|----------|---------|-------------|
-| Filter | No | `status=torn_down` | Which candidates to include in the shortlist |
+| Filter | No | `status=viable` | Which candidates to include in the shortlist |
 
 ## Procedure
 
 ### 1. Load candidates
 
 - Read `data/candidates.csv` using `parseCandidatesCsv` from `lib/candidates.js`
-- Filter to `status=torn_down`
+- Filter to `status=viable`
 - Exclude any with SKIP verdict (check `research/<slug>/teardown.md` for the verdict line)
 - If no candidates remain, report and stop
 
