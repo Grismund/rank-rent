@@ -11,7 +11,7 @@ node scripts/volume-scan.mjs "Houston" --filter=junk\ removal     # specific nic
 node scripts/volume-scan.mjs "Midland" "Odessa" --region="Permian Basin"  # label region
 ```
 
-City mode is fully automated via the script. Full mode (with seed expansion) stays AI-driven — it requires judgment about which niches to approve.
+Both modes are fully automated via scripts. Full mode uses `discover-niches.mjs` for seed expansion; city mode uses `volume-scan.mjs` for local volume checks.
 
 ## Mode Detection
 
@@ -20,7 +20,7 @@ Determine the mode from the user's message:
 | Signal | Mode | What runs |
 |--------|------|-----------|
 | User provides cities only (no "full scan", no seed groups) | **City** | `node scripts/volume-scan.mjs` — fully automated |
-| User says "full scan" or provides seed groups | **Full** | Pass 1 (AI-driven) + Pass 2 |
+| User says "full scan" or provides seed groups | **Full** | Pass 1 (`discover-niches.mjs`) + Pass 2 |
 | Ambiguous | **City** (default) | `node scripts/volume-scan.mjs` |
 
 ## Inputs
@@ -48,38 +48,36 @@ Parse inputs from the user's message. If target cities are missing, ask for them
 
 ### Pass 1 — National seed expansion (Full mode only)
 
-Skip this entire section in City mode.
+Skip this entire section in City mode. Pass 1 is fully automated via the `discover-niches.mjs` script.
 
-1. **Call `keywords_for_keywords/live`** for each seed group
-   - API: `POST /v3/keywords_data/google_ads/keywords_for_keywords/live`
-   - Body per call:
-     ```json
-     [{
-       "keywords": ["<seed1>", "<seed2>", ...],
-       "location_code": 2840,
-       "language_code": "en",
-       "sort_by": "search_volume",
-       "search_partners": false
-     }]
-     ```
-   - Cost: ~$0.09 per call, ~$0.45 total for 5 seed groups
-   - Use the DataForSEO MCP `api_request` tool
+```bash
+# Preview seed groups and estimated cost
+node scripts/discover-niches.mjs --dry-run
 
-2. **Cluster results with `clusterNiches()`**
-   - Collect all keyword results into a flat array of `{keyword, search_volume, cpc}` objects
-   - Call `clusterNiches(keywords)` from `lib/candidates.js`
-   - This handles filtering (noise, licensed trades), synonym normalization, grouping, stats, and sorting automatically
-   - Default thresholds (`minVolume: 1000`, `minCpc: 10`) match `VOLUME_SCAN_DEFAULTS`
+# Run full discovery (all 8 seed groups, ~$0.72)
+node scripts/discover-niches.mjs
 
-3. **Cost gate** — Print the top niches table and estimated Pass 2 cost:
-   - Show: rank, niche, total_volume, avg_cpc, keyword_count, top keyword
-   - Estimated cost = `ceil(total_keywords / 700) * $0.09`
-   - **Wait for user approval before proceeding**
+# Run specific seed groups only
+node scripts/discover-niches.mjs --groups=6,7
 
-4. **Update `DISCOVERED_NICHES`** in `lib/constants.js`
-   - Replace the array with the approved niche list: `{ niche, nat_vol: total_volume, avg_cpc }`
-   - Run `npx vitest run tests/constants.test.js` to verify the update passes existing tests
-   - Update the test's expected count if the number of niches changed
+# Adjust thresholds
+node scripts/discover-niches.mjs --min-vol=500 --min-cpc=8
+```
+
+The script:
+1. Queries `keywords_for_keywords/live` for each seed group (full results, no truncation)
+2. Clusters results via `clusterNiches()`, filters noise/licensed trades, normalizes synonyms
+3. Filters to genuine home-service niches via `classifyHomeService()`
+4. Removes niches already in `DISCOVERED_NICHES`
+5. Writes results to `data/discovered-niches-YYYY-MM-DD.json`
+
+**Approval gate:** Operator reviews the JSON output, then runs:
+```bash
+node scripts/discover-niches.mjs --apply
+```
+This updates `DISCOVERED_NICHES` in `lib/constants.js` and the test count in `tests/constants.test.js`.
+
+**Pipeline:** `lib/discover.js` exports the pure logic functions (`buildSeedRequests`, `processRawResults`, `discoverNewNiches`, `formatNicheTable`), tested in `tests/discover.test.js`.
 
 ### Pass 2 — Local volume check (both modes)
 
@@ -138,9 +136,12 @@ Skip this entire section in City mode.
 
 ## Tools
 
-- **DataForSEO MCP** — `api_request` for `keywords_for_keywords/live` (Pass 1) and `search_volume/live` (Pass 2)
-- **`lib/candidates.js`** — `clusterNiches`, `extractNicheFromKeyword`, `normalizeNiche`, `isServiceKeyword`, `generateSlug`, `parseCandidatesCsv`, `serializeCandidatesCsv`
-- **`lib/constants.js`** — `DISCOVERED_NICHES`, `DISCOVERY_SEED_GROUPS`, `VOLUME_SCAN_DEFAULTS`, `SERVICE_NOISE_KEYWORDS`, `LICENSED_TRADES`
+- **`scripts/discover-niches.mjs`** — Automated Pass 1 seed expansion script
+- **`scripts/volume-scan.mjs`** — Automated Pass 2 city-mode volume scanning
+- **`lib/discover.js`** — `buildSeedRequests`, `processRawResults`, `discoverNewNiches`, `formatNicheTable`
+- **`lib/candidates.js`** — `clusterNiches`, `classifyHomeService`, `extractNicheFromKeyword`, `normalizeNiche`, `isServiceKeyword`, `generateSlug`, `parseCandidatesCsv`, `serializeCandidatesCsv`
+- **`lib/constants.js`** — `DISCOVERED_NICHES`, `DISCOVERY_SEED_GROUPS`, `VOLUME_SCAN_DEFAULTS`, `HOME_SERVICE_SIGNALS`, `STANDALONE_SERVICE_WORDS`, `SERVICE_NOISE_KEYWORDS`, `LICENSED_TRADES`
+- **`lib/dataforseo-client.js`** — API client for direct DataForSEO REST calls
 
 ## Guardrails
 

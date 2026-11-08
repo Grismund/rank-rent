@@ -12,6 +12,8 @@ import {
   normalizeNiche,
   isServiceKeyword,
   clusterNiches,
+  filterNewNiches,
+  classifyHomeService,
 } from '../lib/candidates.js'
 
 describe('generateSlug', () => {
@@ -396,5 +398,100 @@ describe('isNicheCompetitor', () => {
   it('returns true for actual business domains', () => {
     expect(isNicheCompetitor('houstonplumbing.com')).toBe(true)
     expect(isNicheCompetitor('texaspfs.com')).toBe(true)
+  })
+})
+
+describe('classifyHomeService', () => {
+  it('returns true for known home services', () => {
+    expect(classifyHomeService('bathroom remodeling')).toBe(true)
+    expect(classifyHomeService('attic insulation')).toBe(true)
+    expect(classifyHomeService('driveway paving')).toBe(true)
+    expect(classifyHomeService('crawl space encapsulation')).toBe(true)
+    expect(classifyHomeService('window tinting')).toBe(true)
+    expect(classifyHomeService('paver sealing')).toBe(true)
+    expect(classifyHomeService('junk removal')).toBe(true)
+    expect(classifyHomeService('fence installation')).toBe(true)
+  })
+
+  it('returns false for medical terms', () => {
+    expect(classifyHomeService('colonoscopy')).toBe(false)
+    expect(classifyHomeService('hair loss treatment')).toBe(false)
+    expect(classifyHomeService('psoriasis treatment')).toBe(false)
+    expect(classifyHomeService('mammogram')).toBe(false)
+    expect(classifyHomeService('hormone therapy')).toBe(false)
+    expect(classifyHomeService('uti treatment')).toBe(false)
+  })
+
+  it('returns false for financial/generic terms', () => {
+    expect(classifyHomeService('currency converter')).toBe(false)
+    expect(classifyHomeService('gpa conversion')).toBe(false)
+    expect(classifyHomeService('xml to json converter')).toBe(false)
+  })
+
+  it('returns false for single generic words', () => {
+    expect(classifyHomeService('maintenance')).toBe(false)
+    expect(classifyHomeService('insulation')).toBe(false)
+    expect(classifyHomeService('screening')).toBe(false)
+    expect(classifyHomeService('treatment')).toBe(false)
+  })
+
+  it('returns true for standalone service words', () => {
+    expect(classifyHomeService('landscaping')).toBe(true)
+    expect(classifyHomeService('demolition')).toBe(true)
+    expect(classifyHomeService('handyman')).toBe(true)
+    expect(classifyHomeService('waterproofing')).toBe(true)
+    expect(classifyHomeService('painting')).toBe(true)
+  })
+
+  it('is case-insensitive', () => {
+    expect(classifyHomeService('Bathroom Remodeling')).toBe(true)
+    expect(classifyHomeService('DRIVEWAY PAVING')).toBe(true)
+    expect(classifyHomeService('Colonoscopy')).toBe(false)
+  })
+})
+
+describe('filterNewNiches', () => {
+  const existing = [
+    { niche: 'junk removal', nat_vol: 691300, avg_cpc: 14.08 },
+    { niche: 'pressure washing', nat_vol: 561000, avg_cpc: 11.32 },
+  ]
+
+  it('removes niches already in existing list', () => {
+    const clusters = [
+      { niche: 'junk removal', total_volume: 5000, avg_cpc: 12 },
+      { niche: 'deck staining', total_volume: 3000, avg_cpc: 15 },
+    ]
+    const result = filterNewNiches(clusters, existing)
+    expect(result).toHaveLength(1)
+    expect(result[0].niche).toBe('deck staining')
+  })
+
+  it('returns all clusters when none overlap', () => {
+    const clusters = [
+      { niche: 'fence installation', total_volume: 4000, avg_cpc: 14 },
+      { niche: 'deck staining', total_volume: 3000, avg_cpc: 15 },
+    ]
+    const result = filterNewNiches(clusters, existing)
+    expect(result).toHaveLength(2)
+  })
+
+  it('returns empty array when all already exist', () => {
+    const clusters = [
+      { niche: 'junk removal', total_volume: 5000, avg_cpc: 12 },
+      { niche: 'pressure washing', total_volume: 4000, avg_cpc: 11 },
+    ]
+    const result = filterNewNiches(clusters, existing)
+    expect(result).toHaveLength(0)
+  })
+
+  it('uses case-insensitive comparison', () => {
+    const clusters = [
+      { niche: 'Junk Removal', total_volume: 5000, avg_cpc: 12 },
+      { niche: 'PRESSURE WASHING', total_volume: 4000, avg_cpc: 11 },
+      { niche: 'deck staining', total_volume: 3000, avg_cpc: 15 },
+    ]
+    const result = filterNewNiches(clusters, existing)
+    expect(result).toHaveLength(1)
+    expect(result[0].niche).toBe('deck staining')
   })
 })
