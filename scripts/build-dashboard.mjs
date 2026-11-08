@@ -368,31 +368,33 @@ ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">📋 Sho
 </div>
 
 <div id="tab-candidates" class="tab-content">
-  <div class="card" style="margin-top:16px;overflow-x:auto">
+  <div class="card" style="margin-top:16px">
     <h3>All Candidates</h3>
     <p style="font-size:12px;color:#64748b;margin-bottom:8px">Click column headers to sort. Click a row with validation data to expand score details.</p>
     <label style="display:inline-flex;align-items:center;gap:6px;margin-bottom:8px;font-size:13px;cursor:pointer"><input type="checkbox" id="show-walkaway"> Show walk_away candidates</label>
-    <table id="candidates-table">
-      <thead>
-        <tr>
-          <th><input type="checkbox" id="select-all"></th>
-          <th data-col="1">Slug</th>
-          <th data-col="2">Niche</th>
-          <th data-col="3">Area</th>
-          <th data-col="4" data-type="num">Vol Total</th>
-          <th data-col="5" data-type="num">Vol Primary</th>
-          <th data-col="6" data-type="num">CPC</th>
-          <th data-col="7" data-type="num">Rent Est.</th>
-          <th data-col="8" data-type="num">Avg Job</th>
-          <th data-col="9" data-type="num">Score</th>
-          <th data-col="10">Status</th>
-          <th data-col="11">Verdict</th>
-        </tr>
-      </thead>
-      <tbody>
-        ${candidateRows()}
-      </tbody>
-    </table>
+    <div style="overflow:auto;max-height:80vh">
+      <table id="candidates-table">
+        <thead>
+          <tr>
+            <th><input type="checkbox" id="select-all"></th>
+            <th data-col="1">Slug</th>
+            <th data-col="2">Niche</th>
+            <th data-col="3">Area</th>
+            <th data-col="4" data-type="num">Vol Total</th>
+            <th data-col="5" data-type="num">Vol Primary</th>
+            <th data-col="6" data-type="num">CPC</th>
+            <th data-col="7" data-type="num">Rent Est.</th>
+            <th data-col="8" data-type="num">Avg Job</th>
+            <th data-col="9" data-type="num">Score</th>
+            <th data-col="10">Status</th>
+            <th data-col="11">Verdict</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${candidateRows()}
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 

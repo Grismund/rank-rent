@@ -87,37 +87,38 @@ tr:hover { background: #f8fafc; }
     <div style="margin-bottom:6px;display:flex;align-items:center;gap:8px">
       <div style="width:140px;font-size:13px;text-align:right;color:#555">Shortlisted</div>
       <div style="flex:1;background:#f3f4f6;border-radius:4px;height:28px;position:relative">
-        <div style="width:6.538461538461539%;background:#22c55e;height:100%;border-radius:4px;transition:width 0.3s"></div>
-        <span style="position:absolute;left:8px;top:5px;font-size:13px;font-weight:bold;color:#333">17</span>
+        <div style="width:5.384615384615385%;background:#22c55e;height:100%;border-radius:4px;transition:width 0.3s"></div>
+        <span style="position:absolute;left:8px;top:5px;font-size:13px;font-weight:bold;color:#333">14</span>
       </div>
     </div></div>
   </div>
 </div>
 
 <div id="tab-candidates" class="tab-content">
-  <div class="card" style="margin-top:16px;overflow-x:auto">
+  <div class="card" style="margin-top:16px">
     <h3>All Candidates</h3>
     <p style="font-size:12px;color:#64748b;margin-bottom:8px">Click column headers to sort. Click a row with validation data to expand score details.</p>
     <label style="display:inline-flex;align-items:center;gap:6px;margin-bottom:8px;font-size:13px;cursor:pointer"><input type="checkbox" id="show-walkaway"> Show walk_away candidates</label>
-    <table id="candidates-table">
-      <thead>
-        <tr>
-          <th><input type="checkbox" id="select-all"></th>
-          <th data-col="1">Slug</th>
-          <th data-col="2">Niche</th>
-          <th data-col="3">Area</th>
-          <th data-col="4" data-type="num">Vol Total</th>
-          <th data-col="5" data-type="num">Vol Primary</th>
-          <th data-col="6" data-type="num">CPC</th>
-          <th data-col="7" data-type="num">Rent Est.</th>
-          <th data-col="8" data-type="num">Avg Job</th>
-          <th data-col="9" data-type="num">Score</th>
-          <th data-col="10">Status</th>
-          <th data-col="11">Verdict</th>
-        </tr>
-      </thead>
-      <tbody>
-        
+    <div style="overflow:auto;max-height:80vh">
+      <table id="candidates-table">
+        <thead>
+          <tr>
+            <th><input type="checkbox" id="select-all"></th>
+            <th data-col="1">Slug</th>
+            <th data-col="2">Niche</th>
+            <th data-col="3">Area</th>
+            <th data-col="4" data-type="num">Vol Total</th>
+            <th data-col="5" data-type="num">Vol Primary</th>
+            <th data-col="6" data-type="num">CPC</th>
+            <th data-col="7" data-type="num">Rent Est.</th>
+            <th data-col="8" data-type="num">Avg Job</th>
+            <th data-col="9" data-type="num">Score</th>
+            <th data-col="10">Status</th>
+            <th data-col="11">Verdict</th>
+          </tr>
+        </thead>
+        <tbody>
+          
     <tr data-slug="house-cleaning-midland" data-status="walk_away" style="background:#fee2e2;cursor:default" >
       <td onclick="event.stopPropagation()"><input type="checkbox" class="row-select" data-slug="house-cleaning-midland"></td>
       <td>house-cleaning-midland</td>
@@ -2187,7 +2188,7 @@ tr:hover { background: #f8fafc; }
           
         </td>
       </tr>
-    <tr data-slug="foundation-repair-oklahoma-city" data-status="shortlisted" style="background:#dcfce7;cursor:pointer" onclick="toggleDetail(77)">
+    <tr data-slug="foundation-repair-oklahoma-city" data-status="walk_away" style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(77)">
       <td onclick="event.stopPropagation()"><input type="checkbox" class="row-select" data-slug="foundation-repair-oklahoma-city"></td>
       <td>foundation-repair-oklahoma-city</td>
       <td>foundation repair</td>
@@ -2198,10 +2199,10 @@ tr:hover { background: #f8fafc; }
       <td data-sort="1194.72">$1195</td>
       <td data-sort="4000">$4000–$8000</td>
       <td data-sort="12">12</td>
-      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#22c55e;color:#fff;font-size:11px">shortlisted</span></td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
       <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#22c55e;color:#fff;font-weight:bold;font-size:12px">BEATABLE</span></td>
     </tr>
-      <tr class="detail-row" data-slug="foundation-repair-oklahoma-city" data-status="shortlisted" id="detail-77" style="display:none">
+      <tr class="detail-row" data-slug="foundation-repair-oklahoma-city" data-status="walk_away" id="detail-77" style="display:none">
         <td colspan="12" style="padding:16px;background:#f9fafb;border-top:none">
           <div style="display:flex;gap:24px;flex-wrap:wrap">
             <div>
@@ -2362,7 +2363,7 @@ tr:hover { background: #f8fafc; }
   </div>
         </td>
       </tr>
-    <tr data-slug="foundation-repair-tulsa" data-status="shortlisted" style="background:#dcfce7;cursor:pointer" onclick="toggleDetail(78)">
+    <tr data-slug="foundation-repair-tulsa" data-status="walk_away" style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(78)">
       <td onclick="event.stopPropagation()"><input type="checkbox" class="row-select" data-slug="foundation-repair-tulsa"></td>
       <td>foundation-repair-tulsa</td>
       <td>foundation repair</td>
@@ -2373,10 +2374,10 @@ tr:hover { background: #f8fafc; }
       <td data-sort="849.63">$850</td>
       <td data-sort="4000">$4000–$8000</td>
       <td data-sort="11">11</td>
-      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#22c55e;color:#fff;font-size:11px">shortlisted</span></td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
       <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#22c55e;color:#fff;font-weight:bold;font-size:12px">BEATABLE</span></td>
     </tr>
-      <tr class="detail-row" data-slug="foundation-repair-tulsa" data-status="shortlisted" id="detail-78" style="display:none">
+      <tr class="detail-row" data-slug="foundation-repair-tulsa" data-status="walk_away" id="detail-78" style="display:none">
         <td colspan="12" style="padding:16px;background:#f9fafb;border-top:none">
           <div style="display:flex;gap:24px;flex-wrap:wrap">
             <div>
@@ -3984,7 +3985,7 @@ tr:hover { background: #f8fafc; }
   </div>
         </td>
       </tr>
-    <tr data-slug="foundation-repair-houston" data-status="shortlisted" style="background:#dcfce7;cursor:pointer" onclick="toggleDetail(101)">
+    <tr data-slug="foundation-repair-houston" data-status="walk_away" style="background:#fee2e2;cursor:pointer" onclick="toggleDetail(101)">
       <td onclick="event.stopPropagation()"><input type="checkbox" class="row-select" data-slug="foundation-repair-houston"></td>
       <td>foundation-repair-houston</td>
       <td>foundation repair</td>
@@ -3995,10 +3996,10 @@ tr:hover { background: #f8fafc; }
       <td data-sort="3034.67">$3035</td>
       <td data-sort="4000">$4000–$8000</td>
       <td data-sort="14">14</td>
-      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#22c55e;color:#fff;font-size:11px">shortlisted</span></td>
+      <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ef4444;color:#fff;font-size:11px">walk_away</span></td>
       <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#22c55e;color:#fff;font-weight:bold;font-size:12px">BEATABLE</span></td>
     </tr>
-      <tr class="detail-row" data-slug="foundation-repair-houston" data-status="shortlisted" id="detail-101" style="display:none">
+      <tr class="detail-row" data-slug="foundation-repair-houston" data-status="walk_away" id="detail-101" style="display:none">
         <td colspan="12" style="padding:16px;background:#f9fafb;border-top:none">
           <div style="display:flex;gap:24px;flex-wrap:wrap">
             <div>
@@ -14488,8 +14489,9 @@ tr:hover { background: #f8fafc; }
           
         </td>
       </tr>
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 
