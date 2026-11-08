@@ -160,8 +160,8 @@ function candidateRows() {
     if (c.validation) {
       const v = c.validation
       detailHtml = `
-      <tr class="detail-row" id="detail-${idx}" style="display:none">
-        <td colspan="11" style="padding:16px;background:#f9fafb;border-top:none">
+      <tr class="detail-row" data-slug="${esc(c.slug)}" data-status="${esc(c.status)}" id="detail-${idx}" style="display:none">
+        <td colspan="12" style="padding:16px;background:#f9fafb;border-top:none">
           <div style="display:flex;gap:24px;flex-wrap:wrap">
             <div>
               <h4 style="margin:0 0 8px">Score Breakdown</h4>
@@ -191,7 +191,8 @@ function candidateRows() {
     }
 
     return `
-    <tr style="background:${bg};cursor:${hasDetail ? 'pointer' : 'default'}" ${hasDetail ? `onclick="toggleDetail(${idx})"` : ''}>
+    <tr data-slug="${esc(c.slug)}" data-status="${esc(c.status)}" style="background:${bg};cursor:${hasDetail ? 'pointer' : 'default'}" ${hasDetail ? `onclick="toggleDetail(${idx})"` : ''}>
+      <td onclick="event.stopPropagation()"><input type="checkbox" class="row-select" data-slug="${esc(c.slug)}"></td>
       <td>${esc(c.slug)}</td>
       <td>${esc(c.niche)}</td>
       <td>${esc(c.area)}</td>
@@ -335,6 +336,15 @@ tr:hover { background: #f8fafc; }
 .tab-content { display: none; }
 .tab-content.active { display: block; }
 .sort-arrow { font-size: 10px; margin-left: 4px; }
+.hide-walkaway tr[data-status="walk_away"] { display: none; }
+#bulk-toolbar { position: fixed; bottom: 0; left: 0; right: 0; background: #1e293b; color: #fff; padding: 10px 24px; display: flex; align-items: center; gap: 12px; z-index: 100; font-size: 14px; box-shadow: 0 -2px 8px rgba(0,0,0,0.2); transform: translateY(100%); transition: transform 0.2s; }
+#bulk-toolbar.visible { transform: translateY(0); }
+#bulk-toolbar select { padding: 4px 8px; border-radius: 4px; border: 1px solid #475569; background: #334155; color: #fff; font-size: 13px; }
+#bulk-toolbar button { padding: 4px 14px; border-radius: 4px; border: none; cursor: pointer; font-size: 13px; font-weight: 600; }
+#bulk-apply { background: #3b82f6; color: #fff; }
+#bulk-apply:hover { background: #2563eb; }
+#bulk-clear { background: #475569; color: #fff; }
+#bulk-clear:hover { background: #64748b; }
 </style>
 </head>
 <body>
@@ -361,20 +371,22 @@ ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">📋 Sho
   <div class="card" style="margin-top:16px;overflow-x:auto">
     <h3>All Candidates</h3>
     <p style="font-size:12px;color:#64748b;margin-bottom:8px">Click column headers to sort. Click a row with validation data to expand score details.</p>
+    <label style="display:inline-flex;align-items:center;gap:6px;margin-bottom:8px;font-size:13px;cursor:pointer"><input type="checkbox" id="show-walkaway"> Show walk_away candidates</label>
     <table id="candidates-table">
       <thead>
         <tr>
-          <th data-col="0">Slug</th>
-          <th data-col="1">Niche</th>
-          <th data-col="2">Area</th>
-          <th data-col="3" data-type="num">Vol Total</th>
-          <th data-col="4" data-type="num">Vol Primary</th>
-          <th data-col="5" data-type="num">CPC</th>
-          <th data-col="6" data-type="num">Rent Est.</th>
-          <th data-col="7" data-type="num">Avg Job</th>
-          <th data-col="8" data-type="num">Score</th>
-          <th data-col="9">Status</th>
-          <th data-col="10">Verdict</th>
+          <th><input type="checkbox" id="select-all"></th>
+          <th data-col="1">Slug</th>
+          <th data-col="2">Niche</th>
+          <th data-col="3">Area</th>
+          <th data-col="4" data-type="num">Vol Total</th>
+          <th data-col="5" data-type="num">Vol Primary</th>
+          <th data-col="6" data-type="num">CPC</th>
+          <th data-col="7" data-type="num">Rent Est.</th>
+          <th data-col="8" data-type="num">Avg Job</th>
+          <th data-col="9" data-type="num">Score</th>
+          <th data-col="10">Status</th>
+          <th data-col="11">Verdict</th>
         </tr>
       </thead>
       <tbody>
@@ -403,6 +415,20 @@ ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">📋 Sho
   </div>
 </div>
 
+<div id="bulk-toolbar">
+  <span id="bulk-count">0 selected</span>
+  <select id="bulk-status">
+    <option value="discovered">discovered</option>
+    <option value="validated">validated</option>
+    <option value="torn_down">torn_down</option>
+    <option value="viable">viable</option>
+    <option value="shortlisted">shortlisted</option>
+    <option value="walk_away">walk_away</option>
+  </select>
+  <button id="bulk-apply">Apply</button>
+  <button id="bulk-clear">Clear</button>
+</div>
+
 <script>
 // Tab switching
 function showTab(name) {
@@ -417,6 +443,77 @@ function toggleDetail(idx) {
   const row = document.getElementById('detail-' + idx);
   if (row) row.style.display = row.style.display === 'none' ? 'table-row' : 'none';
 }
+
+// Walk_away toggle
+(function() {
+  const tbody = document.querySelector('#candidates-table tbody');
+  const toggle = document.getElementById('show-walkaway');
+  if (!tbody || !toggle) return;
+  tbody.classList.add('hide-walkaway');
+  toggle.addEventListener('change', function() {
+    if (this.checked) {
+      tbody.classList.remove('hide-walkaway');
+    } else {
+      tbody.classList.add('hide-walkaway');
+      // Uncheck any selected walk_away rows
+      tbody.querySelectorAll('tr[data-status="walk_away"] .row-select:checked').forEach(cb => { cb.checked = false; });
+      updateToolbar();
+    }
+  });
+})();
+
+// Checkbox / toolbar logic
+function getSelectedSlugs() {
+  return Array.from(document.querySelectorAll('.row-select:checked')).map(cb => cb.dataset.slug);
+}
+
+function updateToolbar() {
+  const selected = getSelectedSlugs();
+  const toolbar = document.getElementById('bulk-toolbar');
+  const count = document.getElementById('bulk-count');
+  count.textContent = selected.length + ' selected';
+  if (selected.length > 0) { toolbar.classList.add('visible'); } else { toolbar.classList.remove('visible'); }
+}
+
+// Select-all (visible rows only)
+document.getElementById('select-all').addEventListener('change', function() {
+  const checked = this.checked;
+  document.querySelectorAll('#candidates-table tbody tr:not(.detail-row)').forEach(tr => {
+    if (tr.offsetParent === null) return; // hidden (walk_away)
+    const cb = tr.querySelector('.row-select');
+    if (cb) cb.checked = checked;
+  });
+  updateToolbar();
+});
+
+// Per-row checkbox
+document.addEventListener('change', function(e) {
+  if (e.target.classList.contains('row-select')) updateToolbar();
+});
+
+// Apply button
+document.getElementById('bulk-apply').addEventListener('click', function() {
+  const slugs = getSelectedSlugs();
+  if (slugs.length === 0) return;
+  const status = document.getElementById('bulk-status').value;
+  if (!confirm('Set ' + slugs.length + ' candidate(s) to "' + status + '"?')) return;
+  const updates = slugs.map(slug => ({ slug, status }));
+  fetch('/api/status', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ updates }),
+  }).then(r => r.json()).then(data => {
+    if (data.ok) location.reload();
+    else alert('Error: ' + (data.error || 'unknown'));
+  }).catch(err => alert('Request failed: ' + err.message));
+});
+
+// Clear button
+document.getElementById('bulk-clear').addEventListener('click', function() {
+  document.querySelectorAll('.row-select:checked').forEach(cb => { cb.checked = false; });
+  document.getElementById('select-all').checked = false;
+  updateToolbar();
+});
 
 // Sortable table
 (function() {
@@ -452,7 +549,7 @@ function toggleDetail(idx) {
         return 0;
       });
 
-      // Re-append in sorted order
+      // Re-append in sorted order (DOM move preserves checkbox state)
       pairs.forEach(p => { tbody.appendChild(p.main); if (p.detail) tbody.appendChild(p.detail); });
 
       // Update arrow indicators

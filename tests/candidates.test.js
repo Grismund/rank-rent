@@ -15,6 +15,7 @@ import {
   filterNewNiches,
   classifyHomeService,
   extractCompetitorDomains,
+  updateCandidateStatuses,
 } from '../lib/candidates.js'
 
 describe('generateSlug', () => {
@@ -494,6 +495,51 @@ describe('filterNewNiches', () => {
     const result = filterNewNiches(clusters, existing)
     expect(result).toHaveLength(1)
     expect(result[0].niche).toBe('deck staining')
+  })
+})
+
+describe('updateCandidateStatuses', () => {
+  const makeRows = () => [
+    { slug: 'junk-removal-houston', niche: 'junk removal', area: 'Houston', status: 'discovered' },
+    { slug: 'pressure-washing-dallas', niche: 'pressure washing', area: 'Dallas', status: 'validated' },
+    { slug: 'fence-install-austin', niche: 'fence installation', area: 'Austin', status: 'torn_down' },
+  ]
+
+  it('returns rows unchanged when slugStatusPairs is empty', () => {
+    const rows = makeRows()
+    const result = updateCandidateStatuses(rows, [])
+    expect(result).toEqual(rows)
+  })
+
+  it('updates status for a single matching slug', () => {
+    const rows = makeRows()
+    const result = updateCandidateStatuses(rows, [{ slug: 'junk-removal-houston', status: 'walk_away' }])
+    expect(result[0].status).toBe('walk_away')
+    expect(result[1].status).toBe('validated')
+    expect(result[2].status).toBe('torn_down')
+  })
+
+  it('updates multiple slugs in one call', () => {
+    const rows = makeRows()
+    const result = updateCandidateStatuses(rows, [
+      { slug: 'junk-removal-houston', status: 'walk_away' },
+      { slug: 'fence-install-austin', status: 'shortlisted' },
+    ])
+    expect(result[0].status).toBe('walk_away')
+    expect(result[2].status).toBe('shortlisted')
+  })
+
+  it('ignores slugs not found in rows', () => {
+    const rows = makeRows()
+    const result = updateCandidateStatuses(rows, [{ slug: 'nonexistent-slug', status: 'walk_away' }])
+    expect(result).toEqual(rows)
+  })
+
+  it('does not mutate original row objects', () => {
+    const rows = makeRows()
+    const originalStatus = rows[0].status
+    updateCandidateStatuses(rows, [{ slug: 'junk-removal-houston', status: 'walk_away' }])
+    expect(rows[0].status).toBe(originalStatus)
   })
 })
 
