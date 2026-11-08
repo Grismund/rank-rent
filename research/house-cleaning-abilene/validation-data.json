@@ -1,0 +1,802 @@
+{
+  "volumes": {
+    "house cleaning abilene": {
+      "search_volume": 10,
+      "cpc": 1.06,
+      "competition_index": 71,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "house cleaning abilene tx": {
+      "search_volume": 260,
+      "cpc": 5.51,
+      "competition_index": 63,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 320
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 320
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 320
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+        }
+      ]
+    },
+    "house cleaning near me": {
+      "search_volume": 10,
+      "cpc": 10.18,
+      "competition_index": 65,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "house cleaning services abilene": {
+      "search_volume": 10,
+      "cpc": 17.28,
+      "competition_index": 90,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "best house cleaning abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "abilene house cleaning": {
+      "search_volume": 10,
+      "cpc": 1.06,
+      "competition_index": 71,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "affordable house cleaning abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "house cleaning in abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "house cleaning abilene tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "house cleaning abilene",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "house cleaning abilene",
+    "topThree": [
+      {
+        "name": "TnP Cleaning Solutions LLC",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "www.tnpcleaningsolutions.com",
+        "phone": "+1325-725-4386",
+        "address": "1326 S 14th St Ste E, Abilene, TX 79602",
+        "category": "House cleaning service"
+      },
+      {
+        "name": "Extreme Clean Team LLC",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "extremecleanteamllc.com",
+        "phone": "+1325-310-6989",
+        "address": "120 Grape St, Abilene, TX 79601",
+        "category": "House cleaning service"
+      },
+      {
+        "name": "Sudzees Cleaning Company of Abilene",
+        "reviews": 0,
+        "rating": 4.3,
+        "domain": "sudzeescleaning.com",
+        "phone": "+1325-386-8062",
+        "address": "",
+        "category": "House cleaning service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    40,
+    39,
+    43,
+    46,
+    53,
+    71,
+    64,
+    84,
+    56,
+    49,
+    45,
+    41,
+    40
+  ],
+  "organic_raw": [
+    {
+      "keyword": "house cleaning abilene tx",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "house cleaning abilene",
+      "items_types": [
+        "organic"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "house cleaning abilene tx",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESXgHEIkXXt9yZvBKwM0WZ8kSLFqps24eUPtSvbnnb4hImJ1vt5S00gESHk21LCVUed0LyK93aUGwlyHugEor1UebtM0I8O5EMHdJd8HtnOnYY6-ZAiqmTONrZq12Lktg",
+          "title": "House Cleaning & Maid Services Abilene, TX - TnP Cleaning",
+          "description": "Most Trusted House Cleaning Services in Abilene, Texas & surrounding areas! · 1326 S 14th Suite D Abilene, TX 79602 · (325) 725-4386 · 8:00am - 5:00pm Mon - Fri. Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbwHEIkXXDYZEPDWsrES1ZVNddOcD8VFncUp61WixDFeHK4qGXIBznkFnVt96dvHEtmi9nTgWYLIWx5HJsjGLKu5R-okwZlvFfnReHj0DwEgfrY4_XJolfqI0FH0rJ-Ikmk7VkmchFD1RKCiA_2oA2Q",
+          "title": "Abilene",
+          "description": "Big Country Maids is the top-quality cleaning service in Abilene, Taylor County, Texas. Call or Text (325) 241-2942. Call or Text Us (325) 241-2942 … 228 Jet ...",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgQEBxCJF1-1SMj2V6wrdCN9guSVUybJ3rMXL7XU6X58ooDyCcLn3NFunFDg0C--zumkYD7rjXEiZ0klJB6zPbKW6fvl0WXcCSEPJWp-iEOM5dcj39b5vb4HEIvDzKNJBbPd__Aqx678Bk-mysiMMs93nOb06-7lmXRVgwo6BsbsuXzo",
+          "title": "THE BEST 10 HOME CLEANING IN ABILENE, TX",
+          "description": "I found two cleaning services in Abilene, TX. Tracy's Touch Cleaning and Organization Service and Two Sisters Cleaning.",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESXAHEIkXXWdMdeUFKKXxXPUSl-jVCceMEW6ta-PUvl2bDFQHdr4YUHvMEeG_GjxkynNN8iU6kzbcwwxEs9hshb2OtLWDC8JPnvpa-l6exWG0VtKEXQAresAEQS0uo",
+          "title": "Cleaning Services in Abilene, TX: Neat & Clean Services",
+          "description": "House cleaning, maid service, office cleaning, move-out cleaning, Airbnb turnovers, and specialty cleaning in Abilene, TX and the Big Country.",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESagHEIkXXuB19UxZTfXC5uB5dXQjNHMzpn4RLv4o94J-ngmaahfZbNAtI-8E40TxpTlAH4o0E62rw0tI_AQPRmbOAWHSdGGX0tt_hIyhpzOmg938vuNY9OmqzS1lmdwMKGKRFZHriyzPkMmw",
+          "title": "Neat & Clean Services | Abilene TX",
+          "description": "Neat & Clean Services helps homeowners across Abilene and the Big Country make room for what matters. ... ✓ Residential Cleaning ✓ Commercial Cleaning ✓ ... Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF11BYx36WURTJtbvAqjNeJIAxqOrIHkG9CVqdw53bvYJ5iapAGAadqfqEpDzOkYhrIKxdx4cy_wjKem6yZlQngfriInctmUeL4kTftBg8RLDezeWypwty5yhg2LrZ8vG5Gj3hBzxXXkkzgfzcyRllySM9gVQTb26LiD9ThhpyrWAQ4lYZ3HZzHw",
+          "title": "House cleaner rec in Abilene",
+          "description": "Old School Cleaners. 325-518-6884, has been for the last 20+ years in Abilene and has a small team of people that can deep clean",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESXQHEIkXXOwI3Gakahx86KTFo9w2sVz_i2veq8HwLBiG1KcTkeUahL2taEG4vcHjZzjrJFk1Oj0NB5yUH4M4CaFQdDq8Dbad5s57qi3ftR2I1GAAIrjfrqRMGGmVGTA",
+          "title": "Extreme Clean | Extreme Team Clean - Home Cleaning In ...",
+          "description": "service near me in Abilene, TX, 120 Grape St Abilene TX 79601, USA (325) 310-6989 9:00am - 5:00pm Mon - Fri",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScAHEIkXX68znTi431MFrR3efaRpeKbnq7elGwC2Ag7dFKJ7xztCR1tdfHnNCHaCpo7K2i5cvkiIlIf5o4nnuZ7u8QpYI7DUoVLMsDJl17fCuP4Dy5zIm2ziXSOV2h-zzrFg0IYQukdqKm2O9Ut-QRc0",
+          "title": "How much does house cleaning cost in Abilene, TX?",
+          "description": "As of November 2026, the average starting cost of house cleaning services in Abilene, TX is $17.83 per hour. The weekly rate for house cleaning services in ... Read more",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdwHEIkXXhsiMqqpTkEFGbTOyXh_XwMvuJMsHmBtvQ-9Ncv_racP8rpXpXW7GFBOwFadAkisZnuQoLlz3p1E1t_FpmTyqOZA3yTrH53sbEjo6VnVoieyyO8JxiLIpYr8KrvbxxMQ_vl-brw55kxATYpKVUMLRQomg",
+          "title": "Same-Day Cleaning Services in Abilene, TX",
+          "description": "Find top rated same day cleaners near you in Abilene, TX. Professional, affordable, background-checked. Get your first 3-hour clean free with a membership.",
+          "position": 13
+        }
+      ]
+    },
+    {
+      "keyword": "house cleaning abilene",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF1zfW-Uj2cS_zbS0a1gc_7BBEq6_yUPQtoib2i_LCKTNYb6GM-LbOVaV3RLY-XPj__AUCI39ibHyApMwhcSYygyNRLMTkvtKmbnE6pIdq07filG_MA-AM0JUw9vqDUZUtdBjEv1Bu9kf1W2-Tye6iFzQVyQNjeuzW90tbOLiJ_XA",
+          "title": "Professional cleaning services in Abilene TX and ...",
+          "description": "Custom Cleaning Plans Serving Abilene and surrounding areas. 📱 TEXT TO BOOK 325.575.2189. We offer routine cleanings, deep cleans, move out ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScgHEIkXXn0oneHh8mNXW62jCqtg8eVTXZ5jTOfTeyAABV4BGKOs-i0RUpJKkFipUst6quTws6xgFE-SECHjH9R9LnHo2ugOvJJxayDl6wDow68GoCrvDrP-QnzXlcdRpazSRWGjy1OOAC-U4OzEPBrqLOg",
+          "title": "Deep Cleaning Services in Abilene, TX",
+          "description": "Find top rated deep cleaners near you in Abilene, TX. Professional, affordable, background-checked. Get your first 3-hour clean free with a membership.",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdgHEIkXXE4BKu8cMvodfXu_Q1yIXY5C3D7ZJA8Gp7j5Hqa_BiH2keiSYshrqB2CVIiFJ-lWlaVe709vs2jy6fjPj_wCDQefe5SgVdr8jWpcZRx7U52uRK7BnR1vuR9VVBbklvsdmAp8w5ADTF6C8O0SI1EHT4YU",
+          "title": "TOP 10 Move Out Cleaning Services in Abilene, TX",
+          "description": "We have 26 move out cleaning services in Abilene, TX! from $20/hr 2 years experience. Light house clean up, deep house cleaning, and offices.",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgwEBxCJF1-BhbUcX65wzHCq3a4tsc4w2dPs1K9QQUT8SXuALmuOBvWC_vw9B6CPyLH5xjZ_xrtbrE_nFmwQvCkW75YJvPGZC4-hc1l0u127eLs-li_5cybPYJtrcpHt8ebO47CQU0_aPkPvEnpWgz6aPvPCB9JxSLuAtyX7x2wcPt6U8ZA",
+          "title": "Who can recommend a professional cleaning service in ...",
+          "description": "Can anyone recommend someone that does professional cleaning we could hire? Don’t have an exact time frame yet but wanting to do it before we have ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESawHEIkXXrrTyxz79M6oQDKJNCLLSZeREHrY1eV_8Wib9Nqs_w7T-Yb9Xc_UhO5YwCwLltrSJKCgG73Ov3gIOTz7KM1uIMj7ETkTitLaAvH7erq1BRPoXAj9rK2Z-uRqiTcApcT3L5G5WUIIn",
+          "title": "Signature Cleaning Co. | Abilene TX",
+          "description": "Reliable, detailed residential & commercial cleaning with a personal touch. (325) 267-5884 … 📞 (325) 261-0395 Limited weekly availability.",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgAEBxCJF10hl81d9GhMf-HBUrMrOGptbmeZbksRurw_aVWTXrlVr_mzlUh5WHRJGQ1NlTVtsH262j3M6cDVAFH9ZRXCBa04LgdHyPwxSmmLE0AfvCUB5Jj9ML9Jg28ufmygCbsc-UGxwZiy4brhk6H-MNw5KCgkK91JI1BVXOg2krg",
+          "title": "Best Deep Cleaning Services in Abilene, TX",
+          "description": "Two Sisters Cleaning offers free consultations and will customize pricing based on your home's size and cleaning needs. Tracy's Touch Cleaning and Organization",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShQEBxCJF1yLVIlOeIfO0a0AccvVEgSDw94egDe3dyLptyTjLpsUlnKgMmhKzP9TPuFrGpqeHbvo2-Yk-45x9N9MpKSpFEUmc6SX2rxSR2dFdvXIMS9vLnuXSTH4aPxBZFYOZggTv0fRUU2irCANzx5kse_rNBYges_U2biuE_B-4I6ESKxw-",
+          "title": "What is the estimate for kitchen and living room cleaning ...",
+          "description": "Need estimate for general cleaning for kitchen and living room area to include entry area.",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdAHEIkXXPbLpiYINBDNJRqAVFm4NOfzHJQoEESrBXV0DwRC7sJjLmxKhyejfGjVrB0nksGdLQ4WeD0oEU0JXWPyqqLIxcc82goW4BAs2ZFXikD-9G4AGHdk5vBVz7QkdYqgKqxX9RTKenUvfo-Rh_cIC_DM6",
+          "title": "Move In/Out Cleaning In Abilene, TX",
+          "description": "TnP Cleaning Solutions provides affordable move cleaning services in Abilene, TX. call 325-230-6044 (M - F, 8:00 - 5:00). (325) 230-6044",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShQEBxCJF10EAfCtajqTOsRN2gSOOmoq9hDIjUK2M1FGHTt6h06qgHsZ3LzFKY9GPPg7_Lzn2Q0Uu8LQT5KifUVuKzRMxXtpGRWbJJRYvgvo-5WeGGtEtRgNthE4uDgYU9AllvvYlO7uNt2gP_l2wrnqXbMIIvSVtj3C39_x5QsyjYuXUfGyq",
+          "title": "House cleaning services available in Abilene",
+          "description": "Ready to schedule a service? Call (214) 448 4320 SCHEDULE A FREE ESTIMATE today! Spring cleaning is a great time to do a thorough cleaning of ... Read more",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Professional cleaning services in Abilene TX and ...",
+      "description": "Custom Cleaning Plans Serving Abilene and surrounding areas. 📱 TEXT TO BOOK 325.575.2189. We offer routine cleanings, deep cleans, move out ...",
+      "url": "https://google.com/goto?url=CAEShAEBxCJF1zfW-Uj2cS_zbS0a1gc_7BBEq6_yUPQtoib2i_LCKTNYb6GM-LbOVaV3RLY-XPj__AUCI39ibHyApMwhcSYygyNRLMTkvtKmbnE6pIdq07filG_MA-AM0JUw9vqDUZUtdBjEv1Bu9kf1W2-Tye6iFzQVyQNjeuzW90tbOLiJ_XA",
+      "breadcrumb": "3 weeks ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Deep Cleaning Services in Abilene, TX",
+      "description": "Find top rated deep cleaners near you in Abilene, TX. Professional, affordable, background-checked. Get your first 3-hour clean free with a membership.",
+      "url": "https://google.com/goto?url=CAEScgHEIkXXn0oneHh8mNXW62jCqtg8eVTXZ5jTOfTeyAABV4BGKOs-i0RUpJKkFipUst6quTws6xgFE-SECHjH9R9LnHo2ugOvJJxayDl6wDow68GoCrvDrP-QnzXlcdRpazSRWGjy1OOAC-U4OzEPBrqLOg",
+      "breadcrumb": "https://www.homeaglow.com › ... › Deep Cleaning"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "TOP 10 Move Out Cleaning Services in Abilene, TX",
+      "description": "We have 26 move out cleaning services in Abilene, TX! from $20/hr 2 years experience. Light house clean up, deep house cleaning, and offices.",
+      "url": "https://google.com/goto?url=CAESdgHEIkXXE4BKu8cMvodfXu_Q1yIXY5C3D7ZJA8Gp7j5Hqa_BiH2keiSYshrqB2CVIiFJ-lWlaVe709vs2jy6fjPj_wCDQefe5SgVdr8jWpcZRx7U52uRK7BnR1vuR9VVBbklvsdmAp8w5ADTF6C8O0SI1EHT4YU",
+      "breadcrumb": "https://www.care.com › ... › TX"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Who can recommend a professional cleaning service in ...",
+      "description": "Can anyone recommend someone that does professional cleaning we could hire? Don’t have an exact time frame yet but wanting to do it before we have ...",
+      "url": "https://google.com/goto?url=CAESgwEBxCJF1-BhbUcX65wzHCq3a4tsc4w2dPs1K9QQUT8SXuALmuOBvWC_vw9B6CPyLH5xjZ_xrtbrE_nFmwQvCkW75YJvPGZC4-hc1l0u127eLs-li_5cybPYJtrcpHt8ebO47CQU0_aPkPvEnpWgz6aPvPCB9JxSLuAtyX7x2wcPt6U8ZA",
+      "breadcrumb": "10+ comments  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Signature Cleaning Co. | Abilene TX",
+      "description": "Reliable, detailed residential & commercial cleaning with a personal touch. (325) 267-5884 … 📞 (325) 261-0395 Limited weekly availability.",
+      "url": "https://google.com/goto?url=CAESawHEIkXXrrTyxz79M6oQDKJNCLLSZeREHrY1eV_8Wib9Nqs_w7T-Yb9Xc_UhO5YwCwLltrSJKCgG73Ov3gIOTz7KM1uIMj7ETkTitLaAvH7erq1BRPoXAj9rK2Z-uRqiTcApcT3L5G5WUIIn",
+      "breadcrumb": "1K+ followers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Best Deep Cleaning Services in Abilene, TX",
+      "description": "Two Sisters Cleaning offers free consultations and will customize pricing based on your home's size and cleaning needs. Tracy's Touch Cleaning and Organization",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF10hl81d9GhMf-HBUrMrOGptbmeZbksRurw_aVWTXrlVr_mzlUh5WHRJGQ1NlTVtsH262j3M6cDVAFH9ZRXCBa04LgdHyPwxSmmLE0AfvCUB5Jj9ML9Jg28ufmygCbsc-UGxwZiy4brhk6H-MNw5KCgkK91JI1BVXOg2krg",
+      "breadcrumb": "https://www.yelp.com › questions › loc › deep-cleaning..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "What is the estimate for kitchen and living room cleaning ...",
+      "description": "Need estimate for general cleaning for kitchen and living room area to include entry area.",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF1yLVIlOeIfO0a0AccvVEgSDw94egDe3dyLptyTjLpsUlnKgMmhKzP9TPuFrGpqeHbvo2-Yk-45x9N9MpKSpFEUmc6SX2rxSR2dFdvXIMS9vLnuXSTH4aPxBZFYOZggTv0fRUU2irCANzx5kse_rNBYges_U2biuE_B-4I6ESKxw-",
+      "breadcrumb": "20+ comments  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Move In/Out Cleaning In Abilene, TX",
+      "description": "TnP Cleaning Solutions provides affordable move cleaning services in Abilene, TX. call 325-230-6044 (M - F, 8:00 - 5:00). (325) 230-6044",
+      "url": "https://google.com/goto?url=CAESdAHEIkXXPbLpiYINBDNJRqAVFm4NOfzHJQoEESrBXV0DwRC7sJjLmxKhyejfGjVrB0nksGdLQ4WeD0oEU0JXWPyqqLIxcc82goW4BAs2ZFXikD-9G4AGHdk5vBVz7QkdYqgKqxX9RTKenUvfo-Rh_cIC_DM6",
+      "breadcrumb": "https://tnpcleaningsolutions.com › move-cleaning-servi..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "House cleaning services available in Abilene",
+      "description": "Ready to schedule a service? Call (214) 448 4320 SCHEDULE A FREE ESTIMATE today! Spring cleaning is a great time to do a thorough cleaning of ... Read more",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF10EAfCtajqTOsRN2gSOOmoq9hDIjUK2M1FGHTt6h06qgHsZ3LzFKY9GPPg7_Lzn2Q0Uu8LQT5KifUVuKzRMxXtpGRWbJJRYvgvo-5WeGGtEtRgNthE4uDgYU9AllvvYlO7uNt2gP_l2wrnqXbMIIvSVtj3C39_x5QsyjYuXUfGyq",
+      "breadcrumb": "1 comment  ·  7 months ago"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "house cleaning abilene",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    41,
+    40,
+    41,
+    38,
+    40,
+    37,
+    38,
+    39,
+    41,
+    43,
+    40,
+    39,
+    49,
+    45,
+    44,
+    45,
+    50,
+    48,
+    52,
+    44,
+    55,
+    64,
+    71,
+    76,
+    71,
+    65,
+    68,
+    62,
+    63,
+    67,
+    61,
+    84,
+    100,
+    84,
+    66,
+    66,
+    53,
+    55,
+    49,
+    47,
+    52,
+    53,
+    50,
+    45,
+    43,
+    45,
+    50,
+    40,
+    40,
+    43,
+    38,
+    41,
+    43,
+    37
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

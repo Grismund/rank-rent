@@ -1,0 +1,795 @@
+{
+  "volumes": {
+    "asphalt paving houston": {
+      "search_volume": 140,
+      "cpc": 5.53,
+      "competition_index": 50,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+        }
+      ]
+    },
+    "asphalt paving houston tx": {
+      "search_volume": 140,
+      "cpc": 5.53,
+      "competition_index": 50,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+        }
+      ]
+    },
+    "asphalt paving near me": {
+      "search_volume": 50,
+      "cpc": 0,
+      "competition_index": 49,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 90
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "asphalt paving services houston": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "best asphalt paving houston": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "houston asphalt paving": {
+      "search_volume": 20,
+      "cpc": 13.14,
+      "competition_index": 38,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "affordable asphalt paving houston": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "asphalt paving in houston": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "asphalt paving houston",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "asphalt paving houston tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "asphalt paving houston",
+    "topThree": [
+      {
+        "name": "Pavement Services",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "pavementservice.com",
+        "phone": "+1713-661-9295",
+        "address": "6437 McGrew St, Houston, TX 77087",
+        "category": "Asphalt contractor"
+      },
+      {
+        "name": "Pinnacle Asphalt Paving & Striping",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "pinnacleasphaltpaving.com",
+        "phone": "+1346-615-4140",
+        "address": "6207 Queensloch Dr, Houston, TX 77096",
+        "category": "Paving contractor"
+      },
+      {
+        "name": "Sparkle Bright Inc",
+        "reviews": 0,
+        "rating": 3.7,
+        "domain": "www.sparklebright.com",
+        "phone": "+1713-862-9696",
+        "address": "1909 Washington Ave, Houston, TX 77007",
+        "category": "Asphalt contractor"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    49,
+    47,
+    52,
+    66,
+    66,
+    75,
+    84,
+    76,
+    80,
+    67,
+    56,
+    56,
+    59
+  ],
+  "organic_raw": [
+    {
+      "keyword": "asphalt paving houston",
+      "items_types": [
+        "organic"
+      ]
+    },
+    {
+      "keyword": "asphalt paving houston tx",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "paid"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "asphalt paving houston",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWQHEIkXX6oOuCgy42_RrMg81j3M4qleOuRH5DNxKBcLc6ig3tmcGNImQmTofiwybDU4-k_GxYgq-Yq2RlMqb5hEBaG6PHFCom6Z9-PRSxir5IRz13akk92Ni",
+          "title": "Asphalt Paving Houston: Reliable Contractors Since 1980",
+          "description": "Contact (713) 661-9295. Our experienced paving contractor team specializes in concrete and asphalt paving for commercial construction projects in Houston and ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShwEBxCJF15FTgThmGhvEZvn24eOXa74klfSeW_cEGD9JeUIAezrkyO_2VOQ-1tXdAG28pccuCe5-QE7xPQ6wt77a0yJmVLT7-y_CyvoL-wl2gu4tACseD0wq4KdjaTkRdyCZ1ct70_kV1xTW1Et7d_xp9cpMLR2sZNCZ5fkzVOb43kgzyZUgI3c",
+          "title": "Asphalt & Stamping Contractors for Harris County, TX",
+          "description": "Houston's All Pro Asphalt offers a variety of paving services to residential and commercial clients throughout Harris County. 14041 Chrisman Rd Houston, TX ...",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWAHEIkXXGA3UTeYQ5xrabHQkd_ub4N3n7fvh1ZsGWj3mQYIEfpCS3MmPAXCLHuPgPdUJkCvTXCqFrDBrwdrAsq1cJ7egx4Qonl8Nlr0q0wS_hP35AO7ZJ9s",
+          "title": "Concrete & Asphalt Paving | Texas Paving Experts",
+          "description": "As experienced Houston paving contractors, we specialize in concrete and asphalt removal and replacement, restoration, maintenance, and new paving services",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiwEBxCJF13ft_IwgxQSuQceW8zOsMQquzfd253cVwPinbcPxHN3CYwowsetG4EYNijGGbksdhjTFaYH0xtJM65KqQ2jJ5NR8u20kBxO8my676C_bgLQjkRzPwVQr-5NU9GdnY3dg2SB-5RBVErOd_ixdJQ1WMop6dvgT3oifAS7g7JSNiqPB-0JmOOKP",
+          "title": "Asphalt Paving Contractors in Houston, TX | Local Directory",
+          "description": "American Paving is a contractor based in Houston, Texas, offering asphalt paving services such as repair, milling, overlaying, sealcoating, and crack repair. Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXpmG3EZZ5tvFWzvI74qMrykZvJtJGl6SpyXn1zsTGn2r9csf8--9lnkyni7Z-sPYRy13P6Dk5bdlFbg3FJLGbG3vPV83L5EPzER5PO1KR9Z8krP3bU6mVcQC6a1lMB1T0szw9ST2FlSqCLuva2zwHgBIvLK8",
+          "title": "10 Best Asphalt driveway pros in Houston, TX",
+          "description": "Aug 29, 2026 — Completing asphalt paving in Houston can significantly enhance your home's curb appeal and marketability, especially in neighborhoods prone to ... Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAES2gEBxCJF10RcWzMLy4QDLDWIMrQal5JL5GzRpVhFcR1L-JRakuzF97tzgiumvAFFIK05bswpDL_5NoUaUn8Xj9Y73IrtJDz0Vz3A9f_y70RXEt90JvwRW_KYSkuAraMvaJgazWVSBMXHefZEHXpwrjQyJ4497s3ZsLePuh5maMYYHQAV27XqVNVDsHFIy_1Pqja1XkA8FuvCm90BrbJr33Hoip0RSFax7r9cg1JXFvwsrktWBCh4ehgtIcCdKIgaVxmIZJIEGRchFCavi3pb0l___osjwLR18QnUbA",
+          "title": "Asphalt Paving & Sealcoating of Houston",
+          "description": "Asphalt Paving & Sealcoating of Houston proudly offers only the highest quality paving, sealcoating, asphalt repair, resurfacing and parking lot striping ... Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESrgEBxCJF1z_Y4SGXyBOt6VnWBMKOlwjutVsXog5ERacOVC6dSburcIK-HojLGmoD7vN0L7ZLyHjMiqfMeUtCz_ksPzU5AMeXY1lmsXp5M-fIPjOgzrJnLAVfgltns02sS9QlVxAYgVCenpT3aWJknYRSyttL09fcLygp6_xQHqVITlP6BZW5ZkKO9iJZ0RGx5oOaLmqHF4S_BkG6sSK8nhv1vxTymdmBqxZt3TmAcu4",
+          "title": "Asphalt Parking Lot Maintenance Houston, Tx | American Paving",
+          "description": "American Paving is the leading Asphalt Parking lot maintenance contractor in Houston Texas. Call to schedule your FREE Consultation. 281-328-8296",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESegHEIkXXoIZDTGlNx_A0Dapr_bEVFAq0N2mFZVugNiJuSoSmoMmiKzA-gubV3r_odo9-AQpULP1yIIxezzOQeuHp5ya3_f3DWuNJIP2eLM-XXXfalw9W_LqCi7LD-SKaLGmTpw9m9ZzbOKU6wrgMaJdTJkGAdQB72fCQ",
+          "title": "Commercial Asphalt Paving Contractors in Houston",
+          "description": "Compare screened commercial asphalt paving contractors in Houston for installation, repairs, resurfacing, and sealcoating. Request up to three estimates, ...",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbQHEIkXXkY22-hEAKTCM8Y-HZgyec9plONdhjGjVOolAcvyduWxsDwJSUDETmXNvzs44Po84HYcADnq-ZIF6WvszdNgL6tAQY8xjmnyEFtA5djMTEKKSPeAhhwvTOxKYuJ-kQNYuPCsVqDtRAno",
+          "title": "JH Paving & Construction, Houston Asphalt Paving",
+          "description": "At JH Paving & Construction LLC, we specialize in high- quality residential driveway paving and commercial parking lot asphalt, repair, and sealcoating. Built ... Read more",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "asphalt paving houston tx",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScQHEIkXXMb47yLtuke5j_QqChX9jvP77tuKzRlBW2EpBCRqGQCSC2qBEzqVTjXlcO5fCsq0G_FwGKBqFCAr6vNrJAUbl4vNsm2R2PmtSy17e9xX5tmopLUZ225arbz-KvJyLJr0vv11afyV71rHn4iNQ&gsessionid=9L4w5td2NTe1ngNU84e1bXooIY6-zCwzxpdCkWtfcpUQxaOCIqD2UA",
+          "title": "Asphalt & Concrete Paving Services in Houston, TX",
+          "description": "Pave America is the leading group of paving contractors in Houston. We bring high-quality asphalt and concrete solutions to your business.",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfgHEIkXXsixbaDQg3DYnUeEjKm8s2m_Csmn7aG0ufcQLcRUPdHYanQiA2hYkIyMD2LxYv5-gqORSk_Gqvhqn-EOPP2PLUNFAQPOh_qPT8OkpQx7YZwwKpExp70BZ1wDOmxcgM_gw2U3Myx9pLsb1tOQFCAXfp5fDpedTGGj7EQ&gsessionid=9L4w5td2NTe1ngNU84e1bXooIY6-zCwzxpdCkWtfcpUQxaOCIqD2UA",
+          "title": "Asphalt And Paving Contractors Houston TX",
+          "description": "C&K Paving is a trusted Asphalt And Paving Contractors in Houston, TX for commercial paving, delivering high-quality services for diverse industries.",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShgEBxCJF16ko_DuFGLip2IZAg6L_qhpEt0gplUKpEuiAW7kjmNxjg1IiIiiXf04YyuCdmcfoHMUPZqG24vhiz5LL8Y5SBd6iuRPBaoRzwDyfRjaRp30WF3ZnKboxAMgrZJoAA9l8J0gfdLU-Mrh25yooWMOQgaLMY_SzUN5x1JZEf2sKNj7lzA&gsessionid=9L4w5td2NTe1ngNU84e1bXooIY6-zCwzxpdCkWtfcpUQxaOCIqD2UA",
+          "title": "Asphalt & Stamping Contractors for Harris County, TX",
+          "description": "Houston's All Pro Asphalt. Houston's All Pro Asphalt offers a variety of paving services to residential and commercial clients throughout Harris County. Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESVgHEIkXXUOx_fq28VHsnecejPfUwOHNDdE49mC6Wmaeh649YXz0RAXW7DEuawMV5sUo0flMHl7_nK9obYbJougHKbOZyIHJYLTj6gKOookdMRyCpTPJ9&gsessionid=9L4w5td2NTe1ngNU84e1bXooIY6-zCwzxpdCkWtfcpUQxaOCIqD2UA",
+          "title": "Home - Pelagic Paving | Houston Paving Company",
+          "description": "Asphalt paving costs in Houston typically range from $3-$7 per square foot for residential and $2.50-$5 per square foot for commercial projects. The final price ... Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESigEBxCJF11gOVC65Z_vz6lFBRZfvZp2t4rOrtjx_CVMkjjoJKFba7J1miJX8foD0TsEKC-Lp_9-9GG5prgZWzdZVeSUkQ6I_oU7Ry8qss2ddh3rRNSg75PHzuhwF0yPHskz3PLZUfu4gGPaag9qHqZaq-vLZ2w57q0Smy7QgPEMT7i10SZoHpdeXspw&gsessionid=9L4w5td2NTe1ngNU84e1bXooIY6-zCwzxpdCkWtfcpUQxaOCIqD2UA",
+          "title": "Asphalt Paving Contractors in Houston, TX | Local Directory",
+          "description": "American Paving is a contractor based in Houston, Texas, offering asphalt paving services such as repair, milling, overlaying, sealcoating, and crack repair. Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaAHEIkXXg_prv0Kfyb3cHpEJg_NI3OJe4KlKfW9wJV6MubvLU7bjeKXCJGIanZchBAI0VURV8BxfQ-zSvoYyLD38uM5tRH2F4F_rII66tsgE-M2L4vZ7J2JAEeQpH917RC9dIOJgQzAo&gsessionid=9L4w5td2NTe1ngNU84e1bXooIY6-zCwzxpdCkWtfcpUQxaOCIqD2UA",
+          "title": "Contact Us | American Paving Houston, TX 77011",
+          "description": "Need an estimate for paving services or sitework? Fill out our contact form and we will be happy to provide a FREE quote. Contact us today at 281-328-8296.",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXU0rucDmwx_ddOZ8j8s-YkXmxS19OCIu-Pn6T0GO53CgyMvGuG1SdJafdT7S-Sbj1sxQap0qlWTkQJP2y2kLQ0UqBonYHeGQSN9UfqcSHAdNd2rDYQUETrQhjyz1nJqvkRg9bgFN1Zzb3OQQJBzp1pQ21Jyw&gsessionid=9L4w5td2NTe1ngNU84e1bXooIY6-zCwzxpdCkWtfcpUQxaOCIqD2UA",
+          "title": "Commercial Asphalt Paving Contractors in Houston",
+          "description": "Compare screened commercial asphalt paving contractors in Houston for installation, repairs, resurfacing, and sealcoating. Request up to three estimates, ...",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZgHEIkXX0pkob1AKL1EU7TQ36rHJ9lTs7TjtVcVNb54AsMDS7d6hGlLOdlEKeCksQEaDbbZFb25bo2lBLlOs1hxoTwbMTUEtO802RKQTlMJGRcfMyZ7azw3PLHme5CtPpR4Zro7Gnw&gsessionid=9L4w5td2NTe1ngNU84e1bXooIY6-zCwzxpdCkWtfcpUQxaOCIqD2UA",
+          "title": "Pavement Services | Houston TX",
+          "description": "Call us today at 318-614-3139 for a free estimate on any Asphalt Paving, Asphalt Repairs, Concrete, Asphalt Seal Coating, Pavement Markings, and any other ... Read more",
+          "position": 12
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Asphalt Paving Houston: Reliable Contractors Since 1980",
+      "description": "Contact (713) 661-9295. Our experienced paving contractor team specializes in concrete and asphalt paving for commercial construction projects in Houston and ...",
+      "url": "https://google.com/goto?url=CAESWQHEIkXX6oOuCgy42_RrMg81j3M4qleOuRH5DNxKBcLc6ig3tmcGNImQmTofiwybDU4-k_GxYgq-Yq2RlMqb5hEBaG6PHFCom6Z9-PRSxir5IRz13akk92Ni",
+      "breadcrumb": "https://pavementservice.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Asphalt & Stamping Contractors for Harris County, TX",
+      "description": "Houston's All Pro Asphalt offers a variety of paving services to residential and commercial clients throughout Harris County. 14041 Chrisman Rd Houston, TX ...",
+      "url": "https://google.com/goto?url=CAEShwEBxCJF15FTgThmGhvEZvn24eOXa74klfSeW_cEGD9JeUIAezrkyO_2VOQ-1tXdAG28pccuCe5-QE7xPQ6wt77a0yJmVLT7-y_CyvoL-wl2gu4tACseD0wq4KdjaTkRdyCZ1ct70_kV1xTW1Et7d_xp9cpMLR2sZNCZ5fkzVOb43kgzyZUgI3c",
+      "breadcrumb": "https://www.diamondcertified.org › harris county"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Concrete & Asphalt Paving | Texas Paving Experts",
+      "description": "As experienced Houston paving contractors, we specialize in concrete and asphalt removal and replacement, restoration, maintenance, and new paving services",
+      "url": "https://google.com/goto?url=CAESWAHEIkXXGA3UTeYQ5xrabHQkd_ub4N3n7fvh1ZsGWj3mQYIEfpCS3MmPAXCLHuPgPdUJkCvTXCqFrDBrwdrAsq1cJ7egx4Qonl8Nlr0q0wS_hP35AO7ZJ9s",
+      "breadcrumb": "https://giordanopaving.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Asphalt Paving Contractors in Houston, TX | Local Directory",
+      "description": "American Paving is a contractor based in Houston, Texas, offering asphalt paving services such as repair, milling, overlaying, sealcoating, and crack repair. Read more",
+      "url": "https://google.com/goto?url=CAESiwEBxCJF13ft_IwgxQSuQceW8zOsMQquzfd253cVwPinbcPxHN3CYwowsetG4EYNijGGbksdhjTFaYH0xtJM65KqQ2jJ5NR8u20kBxO8my676C_bgLQjkRzPwVQr-5NU9GdnY3dg2SB-5RBVErOd_ixdJQ1WMop6dvgT3oifAS7g7JSNiqPB-0JmOOKP",
+      "breadcrumb": "https://www.thepavementdirectory.com › ... › Houston"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "10 Best Asphalt driveway pros in Houston, TX",
+      "description": "Aug 29, 2026 — Completing asphalt paving in Houston can significantly enhance your home's curb appeal and marketability, especially in neighborhoods prone to ... Read more",
+      "url": "https://google.com/goto?url=CAESeQHEIkXXpmG3EZZ5tvFWzvI74qMrykZvJtJGl6SpyXn1zsTGn2r9csf8--9lnkyni7Z-sPYRy13P6Dk5bdlFbg3FJLGbG3vPV83L5EPzER5PO1KR9Z8krP3bU6mVcQC6a1lMB1T0szw9ST2FlSqCLuva2zwHgBIvLK8",
+      "breadcrumb": "https://www.angi.com › ... › Paving › Driveway"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Asphalt Paving & Sealcoating of Houston",
+      "description": "Asphalt Paving & Sealcoating of Houston proudly offers only the highest quality paving, sealcoating, asphalt repair, resurfacing and parking lot striping ... Read more",
+      "url": "https://google.com/goto?url=CAES2gEBxCJF10RcWzMLy4QDLDWIMrQal5JL5GzRpVhFcR1L-JRakuzF97tzgiumvAFFIK05bswpDL_5NoUaUn8Xj9Y73IrtJDz0Vz3A9f_y70RXEt90JvwRW_KYSkuAraMvaJgazWVSBMXHefZEHXpwrjQyJ4497s3ZsLePuh5maMYYHQAV27XqVNVDsHFIy_1Pqja1XkA8FuvCm90BrbJr33Hoip0RSFax7r9cg1JXFvwsrktWBCh4ehgtIcCdKIgaVxmIZJIEGRchFCavi3pb0l___osjwLR18QnUbA",
+      "breadcrumb": "https://www.asphaltsealcoatingdirect.com › texas › asph..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Asphalt Parking Lot Maintenance Houston, Tx | American Paving",
+      "description": "American Paving is the leading Asphalt Parking lot maintenance contractor in Houston Texas. Call to schedule your FREE Consultation. 281-328-8296",
+      "url": "https://google.com/goto?url=CAESrgEBxCJF1z_Y4SGXyBOt6VnWBMKOlwjutVsXog5ERacOVC6dSburcIK-HojLGmoD7vN0L7ZLyHjMiqfMeUtCz_ksPzU5AMeXY1lmsXp5M-fIPjOgzrJnLAVfgltns02sS9QlVxAYgVCenpT3aWJknYRSyttL09fcLygp6_xQHqVITlP6BZW5ZkKO9iJZ0RGx5oOaLmqHF4S_BkG6sSK8nhv1vxTymdmBqxZt3TmAcu4",
+      "breadcrumb": "https://www.americanpavingtx.com › asphalt-parking-l..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Commercial Asphalt Paving Contractors in Houston",
+      "description": "Compare screened commercial asphalt paving contractors in Houston for installation, repairs, resurfacing, and sealcoating. Request up to three estimates, ...",
+      "url": "https://google.com/goto?url=CAESegHEIkXXoIZDTGlNx_A0Dapr_bEVFAq0N2mFZVugNiJuSoSmoMmiKzA-gubV3r_odo9-AQpULP1yIIxezzOQeuHp5ya3_f3DWuNJIP2eLM-XXXfalw9W_LqCi7LD-SKaLGmTpw9m9ZzbOKU6wrgMaJdTJkGAdQB72fCQ",
+      "breadcrumb": "https://trustpatrick.com › feeds › service › asphalt-pavin..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "JH Paving & Construction, Houston Asphalt Paving",
+      "description": "At JH Paving & Construction LLC, we specialize in high- quality residential driveway paving and commercial parking lot asphalt, repair, and sealcoating. Built ... Read more",
+      "url": "https://google.com/goto?url=CAESbQHEIkXXkY22-hEAKTCM8Y-HZgyec9plONdhjGjVOolAcvyduWxsDwJSUDETmXNvzs44Po84HYcADnq-ZIF6WvszdNgL6tAQY8xjmnyEFtA5djMTEKKSPeAhhwvTOxKYuJ-kQNYuPCsVqDtRAno",
+      "breadcrumb": "480+ followers"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "asphalt paving houston",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    52,
+    48,
+    52,
+    47,
+    47,
+    51,
+    48,
+    46,
+    42,
+    47,
+    53,
+    52,
+    56,
+    57,
+    63,
+    63,
+    82,
+    69,
+    67,
+    66,
+    68,
+    60,
+    79,
+    72,
+    83,
+    67,
+    96,
+    100,
+    95,
+    67,
+    64,
+    83,
+    79,
+    71,
+    69,
+    80,
+    75,
+    94,
+    72,
+    71,
+    81,
+    70,
+    56,
+    59,
+    53,
+    60,
+    63,
+    48,
+    50,
+    53,
+    59,
+    62,
+    62,
+    56
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

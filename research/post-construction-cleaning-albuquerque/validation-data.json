@@ -1,0 +1,620 @@
+{
+  "volumes": {
+    "post construction cleaning albuquerque": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "post construction cleaning albuquerque nm": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "post construction cleaning near me": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 0,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "post construction cleaning services albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best post construction cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "albuquerque post construction cleaning": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable post construction cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "post construction cleaning in albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "post construction cleaning albuquerque",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "post construction cleaning near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "post construction cleaning albuquerque",
+    "topThree": [
+      {
+        "name": "Quality Solutions Cleaning Service",
+        "reviews": 0,
+        "rating": 4.3,
+        "domain": "www.qualitysolutionsnm.com",
+        "phone": "+1505-226-5349",
+        "address": "500 Marquette Ave NW Ste 1200-A, Albuquerque, NM 87102",
+        "category": "Janitorial service"
+      },
+      {
+        "name": "Rockefeller's Cleaning & Restoration Company | Rockefeller's Construction, Inc.",
+        "reviews": 0,
+        "rating": 4.1,
+        "domain": "www.rockefellerscleaning.com",
+        "phone": "+1505-268-5585",
+        "address": "5514 Coal Ave SE, Albuquerque, NM 87108",
+        "category": "House cleaning service"
+      },
+      {
+        "name": "Molly Maid of Greater Albuquerque",
+        "reviews": 0,
+        "rating": 4.6,
+        "domain": "www.mollymaid.com",
+        "phone": "+1505-830-0181",
+        "address": "1024 1st St NW, Albuquerque, NM 87102",
+        "category": "House cleaning service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    45,
+    35,
+    58,
+    62,
+    61,
+    66,
+    67,
+    83,
+    63,
+    55,
+    59,
+    46,
+    48
+  ],
+  "organic_raw": [
+    {
+      "keyword": "post construction cleaning albuquerque",
+      "items_types": [
+        "organic"
+      ]
+    },
+    {
+      "keyword": "post construction cleaning near me",
+      "items_types": [
+        "ai_overview",
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "post construction cleaning albuquerque",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbQHEIkXXb5CqImT5JTG59ifPzV4s_MAyPEjMHqHBgdiqW4fw3foI2SDxGPL_xx_6tdJkugNqZ0ExaLIh7mAFe0NP2QImJhe72G59d5y9EeoeOB624MDwrSmtRLgKcqr2Yp7bnu-zeLwTZmv5TjU&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+          "title": "Contact Us",
+          "description": "expert cleaning, restoration, and construction services. 24/7/365 | 505.268.5585 Skip To Content 5514 Coal Ave SE, Albuquerque, NM 87108",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESwQEBxCJF1_MbP7hWtOXw7DZIEnCCqPoT6xl-OQnbFowNZSW27XYsarz5E58Ad6V3mA-Tp_bMR_UT22OyvSJmZRQ6emHfuNffG02asKuSlZDO1-FJBaBYlnxqwKBEKSoexzh1hTon5cpyE6hIjNObFYoEhEQjq39oHnWlDjQMrfQG0pqnu31pzqLzfIAqBkBtjLX3s_x2e-t3GLDmK1yjJ8TyL6BunTkrmWoAIGOwSeSHDRHeoJml3ciOWmtpM4HWbSsP&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+          "title": "Best Cleaning Services in Albuquerque, NM",
+          "description": "Oct 1, 2026 — Mujeres De Llaves Cleaning has a review specifically praising their post-construction cleanup and attention to detail after renovations. Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShQEBxCJF1556HTlBBhviErfs-Bza1C_OHmm4aouZKcAuIMhs3YKox3Xw5twc0mLX65HkZftV18kvsf4MAJSP1CwjKq9lC6XlKx-RU0k3-AmpKcXVGPACMUcA1qvlHMZGB8g5jwCHsojnVqi7NCcYiKinDW8Hkx7cmXZuQBZdJjRBsOJkm9Tv&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+          "title": "Post-construction cleaning service recommendations?",
+          "description": "Hi all. I am going to need a post-construction cleaning service to clean a house from top to bottom in about 2 weeks after a major remodel is completed. ...",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESoQEBxCJF1yhJp7zNrqcdjw6LysW74jyFAMxJ01MsYKLGuA8b5i-zqPpP9NROZDrDoP6JFchOlzuOoYuxDbYFl532fN21Hbt8tXIBVNyg9aCaiBRERCx2F6X5Bs6b6557tVpkSV-KvZZ9Vq4Dh-9NS7W-1_63uC43L4KAB3Ab-g3JDV2czhDOg5cnE8yHrzFFbrySrSjEBBnB8_PVruhWTn5DVA&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+          "title": "Commercial Cleaning Services in Bernalillo County, NM",
+          "description": "Post-Construction Cleanup : We'll handle the mess after renovations or new builds, ensuring your space is move-in ready.",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiQEBxCJF1yvdDkkzgN26uPI3D3tBvG-3ET5cX7K5MqSfyaMaaqDooc7lkr6zET3s86nvuv1YDABzcPxnpSzWqltqNiGPXdY6Srtj2exruYD8XTnpzRO847BqcmEQEOmie-NkGfpnQ8uK4EMln6MdJb856Bgmej49O-3kZ3GJ4YA5SSpOZrw5Ia_2Ag&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+          "title": "TOP 10 BEST Wall Cleaning in Albuquerque, NM",
+          "description": "Top 10 Best wall cleaning Near Albuquerque, New Mexico (Updated 2026) · SERVPRO of Northwest Albuquerque · Mujeres De Llaves Cleaning · Esperanza Cleaning Services. Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAES3gEBxCJF10lc-ffx3IjARndRyhBbx2cuiMhVwRJey-SmTmNTG1pltbumt0C7vj9y7TBa2NlAXGFb5wmCcaPtuHDtTK7C94yuOAn4n31APJsDrnlMptHZBk5-PTUZMjQJ_p-vWmGB6KpH1TKnKNpxtXUUbYahdF1174ZkxzvMxJgsewqS3Mdk-GFZJZM2V60_Kv_gZiP7IvAsVyhCTqcYQorDerohVfbB16uwBUGdedTHsTn1tLCWj0hYcWzXR5gXBOtSAbC6i-ghVlytNRsQ65xdIvZBOV9DfhTQ1APKT24&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+          "title": "Prestige Cleaning & Restoration services for Albuquerque ...",
+          "description": "Post construction cleaning services for homes and businesses ・ call 469-671-9975 for a free estimate today 😀 ・ sinks/faucets",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkgEBxCJF10M1S4rAVb5Ch5DD4F5En-YL2k084MyBcr5rN-C7le9BQhTLVnbG2uSjigKPVue9W0_EWhh3tNdfgmKskFQhUcsPeQE2rvWmYAmMmhXtWm7UbxFLIOVq0JRN8b4xp6UogvsAYb52RT3JxfnglQ28eQLSR6R7ZHH7C2c3dWBrhAB0m_7MErF8U5q7Z8d2Hg&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+          "title": "Post-Construction Cleanup in Albuquerque, NM near me",
+          "description": "Post-Construction Cleanup in Albuquerque, NM — Phoenix Water Pros removes dust, debris & construction residue for move-in-ready finish. emergency water removal. Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkQEBxCJF16wK7Bv5mDC9YgcQjISRkuVIB6RiUyHsjYOQD9-5qU0SseUYqSOTbQHPoFazdfJ_mNY19zSKYqkaB_b1ONZGzwkIM9qrlme20i7xy2ROqnFjfQZe4u6rV5Mb4AS48mEYzwD0yMAlk0uNASSeT-Vyhl8oZ3E8sIxgym-0o0_6XV2hIpIyCWrAG-mWsxM_&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+          "title": "TOP 10 BEST Post-Event Cleaning in Albuquerque, NM",
+          "description": "Top 10 Best Post-event Cleaning Near Albuquerque, New Mexico (Updated 2026) ; PM & P Management · 10.6 mi · Albuquerque, NM 87114 ; Agave Commercial Cleaning · 50.4 ... Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiAEBxCJF18JB0wvu8twegLHL57qP_kODVhqO2T7nl4eT6UgKOb5TNSTQkxru9w_zjGFnb2_YOiVK2IOZ4oG2rYAw8YtzeneZ5NhdR2-TWWSq7gJz6D2UD3reogwEPHc5X6oXU4ofdQKEv39pkyQHqIvCBnee2KiTKAjNprWNYONrpXXXo8gNoE8J&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+          "title": "About our services near Albuquerque, NM",
+          "description": "Call us for your residential and commercial cleanup, repair, and construction service needs. Here to Help ® 24/7. SERVPRO of Northwest ... Read more",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "post construction cleaning near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdgHEIkXXdkpDQ2v3K9BCULxI-7IdumX1yj2opVpruTZWNkO9wHXdxBwIcScbY4r3Gw1mzWcokYMOIlJ1-ifu-DHCbWxQbU4zRe7ChQOV3YQGzR05jWwvqlPLFTRTkSsAVqcP9hVGSMeRUweAiqStB7x-c6B3B58",
+          "title": "Post Construction Cleaning",
+          "description": "Looking for post construction cleaning services near Albuquerque NM? We work to provide a Construction Clean-Up that leads to a clean, polished, remodeled area. Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlgEBxCJF1-q_OLg2Z2iZJuhamaeeuJMvzSlnDT_MAw9ayDp9GlzL8OcbyuLKA4FJFZ1gW8TZd7FbJ2UIsTfB4qqicK9jom9Owi7DVWlz9dzBjKsmuiLbGdSUgJOcHnJCk3CfY3O2yX4W756NmrxnlmPR0MedfLUkYnD_CMUcsYZpRwKW7n6Ghbm0wKTs2-8aOC16Eht5I9o",
+          "title": "TOP 10 BEST Post Construction Cleaning in Flagstaff, AZ",
+          "description": "Top 10 Best Post Construction Cleaning Near Flagstaff, Arizona (Updated 2026) · Coronel start to finish · Once Upon A Home Services · The Clean Team AZ · AZ House ... Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXLFFDEsqYFAS1AHavvS_noMMXjcOCiCvyhN3bcSqQRdO12yhECMgSuFPKKKKI8GjN-7wlSU68p8loMgWf7Dan7p8Xi0xSwled7tUghsd2MAVrXtNSV0q28_E1PPu5l2mgMzn4hBgAotsXyk43UShxxyJU1j8",
+          "title": "Post Construction Cleaning",
+          "description": "We offer a wide range of post-construction cleaning services such as carpets, walls, windows and air ducts. Our team is equipped with the latest technology to ... Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgAEBxCJF15TdT_Yvq77Ns78pBhd_QFjwG3_xQW0cmoPGfqxTeZ_QuC7dMUhQAw17nDzX3P-fooaiFqrLwbK8_vPOsjU5XU0nyJyxSVs4fKMgiMgTV1oxwYs58EKRI7LKB_C_Nz5kdtque1ViP6cwOex8SpUK5bCP1CFklPU-4zPR_A",
+          "title": "Post Construction Cleaning",
+          "description": "Clearview Cleaning and Organizing specializes in post-construction cleaning services that ensure your newly renovated space is spotless and ready for use. Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmQEBxCJF16goZIPMv0uTGZISMIrucsdbLqI20VvqAzF3Yo87lHlx0egsQfDuteFY6BlBC2JAtxvw-LCWByf6AdLjnHontYsTgEJ9cHEEOF4i9wVtJ8VW0AktLJ4GuwgOyJ7IZ9bADx6Sz2wIvhrPKbjrNPopehyDHFAtBmZwjnriHIJAjI833IUt5NBn7cCDHkn2LY_itwXx_HM",
+          "title": "TOP 10 BEST Post Construction Cleaning in Fort Collins, CO",
+          "description": "Rocky Mountain Clean It All. It All is by far the best cleaning service around! Super efficient, flexible, and friendly.",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESegHEIkXXliZgrw0Ij2iLM_qfRvfO_GcucwJ2qTl-Vt5oDSnC3MuFDSNqDh0P_JFGeBDXHDRY4sylTmYxgSQb6LxA8piqE5b_nqLq2GVxppvPiCH49jvSWKOht73yKruewr3HVMTQdq64lon4EqewhysnLJ1-raqrfHfN",
+          "title": "Post Construction Cleaning Milwaukee | Renovation Cleanup",
+          "description": "Professional post-construction cleaning services in Milwaukee. 414-249-5001. Address: 3900 W Brown Deer Rd Ste A #190 Milwaukee, WI 53209",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfAHEIkXXO4IvSCj6Zv4nr73apZCOpp16PqMrlAiIioXlE5pe-3Ye535tzT30KJOXoB5jhruohJQmw_9zbFSUs_BDLJ3IBRdTQtkOIs5XiJjuvN_MTDOqjLYDKB7hV1nY703UYX1LPkeRVF0ehh_IqQLuCwR8EWxSlo02ysI",
+          "title": "Post-Construction Cleaning Services Chicago",
+          "description": "Our Post-Remodeling Cleaning Services Across Chicagoland · Remove and Dispose of Small Construction Debris · Wipe Down and Clean Window Sills · Clean Doors, ... Read more",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiAEBxCJF13jL6o45hU-haymfsp77RtbwBmnGNxTwbwHlZYwTMhatg34MrYs6AwiTgZF-4V8RgQxKiyjKpLkMQ00q29NCX4yCUtntJ0JkWYY8VQGOxdgYo49SZy6M08o3PLHbK8z7lAjjqjJTDirj__RLh9ExoxLmPWvW3VPGFMNYRqFdrC9dqJhS",
+          "title": "Post Construction Cleaning near Oklahoma City, OK",
+          "description": "(806) 400-2306 Oklahoma City, OK 73170 (405) 318-9588 3900 Darril Rd, Edmond, OK 73025 (405) 432-8705 Shawnee, OK 74801 (210) 771-4017",
+          "position": 13
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdQHEIkXXQ-LYbHSRf_u6_r2fKoxTgFKREGbFx9p9vWlFkg7-6X2qNZL48SW4_E2v1t5_RUobBPk7oeXHAxLgSjGQ4NWIvco6vsJudow61oyKOZM6sOfsjx7ROu15ICQUTt3QnS2QHhWQ7xeVGKaRbVhRRRMpcg",
+          "title": "Post-Construction Cleanup | Memphis and Nashville",
+          "description": "For effective post-construction cleanup in Memphis or Nashville, call the commercial cleaning experts at Fayette Janitorial for a no-obligation estimate.",
+          "position": 14
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Contact Us",
+      "description": "expert cleaning, restoration, and construction services. 24/7/365 | 505.268.5585 Skip To Content 5514 Coal Ave SE, Albuquerque, NM 87108",
+      "url": "https://google.com/goto?url=CAESbQHEIkXXb5CqImT5JTG59ifPzV4s_MAyPEjMHqHBgdiqW4fw3foI2SDxGPL_xx_6tdJkugNqZ0ExaLIh7mAFe0NP2QImJhe72G59d5y9EeoeOB624MDwrSmtRLgKcqr2Yp7bnu-zeLwTZmv5TjU&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+      "breadcrumb": "https://www.rockefellerscleaning.com › contact-us"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Best Cleaning Services in Albuquerque, NM",
+      "description": "Oct 1, 2026 — Mujeres De Llaves Cleaning has a review specifically praising their post-construction cleanup and attention to detail after renovations. Read more",
+      "url": "https://google.com/goto?url=CAESwQEBxCJF1_MbP7hWtOXw7DZIEnCCqPoT6xl-OQnbFowNZSW27XYsarz5E58Ad6V3mA-Tp_bMR_UT22OyvSJmZRQ6emHfuNffG02asKuSlZDO1-FJBaBYlnxqwKBEKSoexzh1hTon5cpyE6hIjNObFYoEhEQjq39oHnWlDjQMrfQG0pqnu31pzqLzfIAqBkBtjLX3s_x2e-t3GLDmK1yjJ8TyL6BunTkrmWoAIGOwSeSHDRHeoJml3ciOWmtpM4HWbSsP&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+      "breadcrumb": "https://www.yelp.com › loc › albuquerque-nm › finishe..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Post-construction cleaning service recommendations?",
+      "description": "Hi all. I am going to need a post-construction cleaning service to clean a house from top to bottom in about 2 weeks after a major remodel is completed. ...",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF1556HTlBBhviErfs-Bza1C_OHmm4aouZKcAuIMhs3YKox3Xw5twc0mLX65HkZftV18kvsf4MAJSP1CwjKq9lC6XlKx-RU0k3-AmpKcXVGPACMUcA1qvlHMZGB8g5jwCHsojnVqi7NCcYiKinDW8Hkx7cmXZuQBZdJjRBsOJkm9Tv&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+      "breadcrumb": "7 comments  ·  7 months ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Commercial Cleaning Services in Bernalillo County, NM",
+      "description": "Post-Construction Cleanup : We'll handle the mess after renovations or new builds, ensuring your space is move-in ready.",
+      "url": "https://google.com/goto?url=CAESoQEBxCJF1yhJp7zNrqcdjw6LysW74jyFAMxJ01MsYKLGuA8b5i-zqPpP9NROZDrDoP6JFchOlzuOoYuxDbYFl532fN21Hbt8tXIBVNyg9aCaiBRERCx2F6X5Bs6b6557tVpkSV-KvZZ9Vq4Dh-9NS7W-1_63uC43L4KAB3Ab-g3JDV2czhDOg5cnE8yHrzFFbrySrSjEBBnB8_PVruhWTn5DVA&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+      "breadcrumb": "https://www.servicemasterclean.com › areas-we-serve › b..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "TOP 10 BEST Wall Cleaning in Albuquerque, NM",
+      "description": "Top 10 Best wall cleaning Near Albuquerque, New Mexico (Updated 2026) · SERVPRO of Northwest Albuquerque · Mujeres De Llaves Cleaning · Esperanza Cleaning Services. Read more",
+      "url": "https://google.com/goto?url=CAESiQEBxCJF1yvdDkkzgN26uPI3D3tBvG-3ET5cX7K5MqSfyaMaaqDooc7lkr6zET3s86nvuv1YDABzcPxnpSzWqltqNiGPXdY6Srtj2exruYD8XTnpzRO847BqcmEQEOmie-NkGfpnQ8uK4EMln6MdJb856Bgmej49O-3kZ3GJ4YA5SSpOZrw5Ia_2Ag&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+      "breadcrumb": "https://m.yelp.com › Home Services › Wall Cleaning"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Prestige Cleaning & Restoration services for Albuquerque ...",
+      "description": "Post construction cleaning services for homes and businesses ・ call 469-671-9975 for a free estimate today 😀 ・ sinks/faucets",
+      "url": "https://google.com/goto?url=CAES3gEBxCJF10lc-ffx3IjARndRyhBbx2cuiMhVwRJey-SmTmNTG1pltbumt0C7vj9y7TBa2NlAXGFb5wmCcaPtuHDtTK7C94yuOAn4n31APJsDrnlMptHZBk5-PTUZMjQJ_p-vWmGB6KpH1TKnKNpxtXUUbYahdF1174ZkxzvMxJgsewqS3Mdk-GFZJZM2V60_Kv_gZiP7IvAsVyhCTqcYQorDerohVfbB16uwBUGdedTHsTn1tLCWj0hYcWzXR5gXBOtSAbC6i-ghVlytNRsQ65xdIvZBOV9DfhTQ1APKT24&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+      "breadcrumb": "1 reaction  ·  2 months ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Post-Construction Cleanup in Albuquerque, NM near me",
+      "description": "Post-Construction Cleanup in Albuquerque, NM — Phoenix Water Pros removes dust, debris & construction residue for move-in-ready finish. emergency water removal. Read more",
+      "url": "https://google.com/goto?url=CAESkgEBxCJF10M1S4rAVb5Ch5DD4F5En-YL2k084MyBcr5rN-C7le9BQhTLVnbG2uSjigKPVue9W0_EWhh3tNdfgmKskFQhUcsPeQE2rvWmYAmMmhXtWm7UbxFLIOVq0JRN8b4xp6UogvsAYb52RT3JxfnglQ28eQLSR6R7ZHH7C2c3dWBrhAB0m_7MErF8U5q7Z8d2Hg&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+      "breadcrumb": "https://albuquerque-nm.waterdamagerepairphoenix.us › ..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "TOP 10 BEST Post-Event Cleaning in Albuquerque, NM",
+      "description": "Top 10 Best Post-event Cleaning Near Albuquerque, New Mexico (Updated 2026) ; PM & P Management · 10.6 mi · Albuquerque, NM 87114 ; Agave Commercial Cleaning · 50.4 ... Read more",
+      "url": "https://google.com/goto?url=CAESkQEBxCJF16wK7Bv5mDC9YgcQjISRkuVIB6RiUyHsjYOQD9-5qU0SseUYqSOTbQHPoFazdfJ_mNY19zSKYqkaB_b1ONZGzwkIM9qrlme20i7xy2ROqnFjfQZe4u6rV5Mb4AS48mEYzwD0yMAlk0uNASSeT-Vyhl8oZ3E8sIxgym-0o0_6XV2hIpIyCWrAG-mWsxM_&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+      "breadcrumb": "https://www.yelp.com › Home Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "About our services near Albuquerque, NM",
+      "description": "Call us for your residential and commercial cleanup, repair, and construction service needs. Here to Help ® 24/7. SERVPRO of Northwest ... Read more",
+      "url": "https://google.com/goto?url=CAESiAEBxCJF18JB0wvu8twegLHL57qP_kODVhqO2T7nl4eT6UgKOb5TNSTQkxru9w_zjGFnb2_YOiVK2IOZ4oG2rYAw8YtzeneZ5NhdR2-TWWSq7gJz6D2UD3reogwEPHc5X6oXU4ofdQKEv39pkyQHqIvCBnee2KiTKAjNprWNYONrpXXXo8gNoE8J&gsessionid=AKeBoK6HcruLLoNsotydCp6OVtFVQ6pSVFJzeilvBJT5x1AnKXwzDQ",
+      "breadcrumb": "https://www.servpro.com › locations › about"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "post construction cleaning albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    43,
+    53,
+    44,
+    41,
+    42,
+    32,
+    39,
+    33,
+    35,
+    50,
+    45,
+    64,
+    72,
+    53,
+    67,
+    54,
+    72,
+    59,
+    59,
+    58,
+    73,
+    58,
+    56,
+    77,
+    70,
+    62,
+    75,
+    73,
+    62,
+    64,
+    60,
+    65,
+    95,
+    100,
+    72,
+    64,
+    55,
+    81,
+    52,
+    69,
+    56,
+    54,
+    45,
+    52,
+    56,
+    69,
+    60,
+    52,
+    58,
+    44,
+    38,
+    43,
+    51,
+    44
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

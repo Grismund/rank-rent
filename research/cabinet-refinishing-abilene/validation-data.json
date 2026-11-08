@@ -1,0 +1,386 @@
+{
+  "volumes": {
+    "cabinet refinishing abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "cabinet refinishing abilene tx": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "cabinet refinishing near me": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "cabinet refinishing services abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best cabinet refinishing abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "abilene cabinet refinishing": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable cabinet refinishing abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "cabinet refinishing in abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "cabinet refinishing near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "cabinet refinishing abilene",
+      "topDomains": []
+    }
+  ],
+  "maps": {
+    "keyword": "cabinet refinishing abilene",
+    "topThree": [
+      {
+        "name": "Metroplex Wall Solutions",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "metrohvac.xyz",
+        "phone": "+1325-215-8267",
+        "address": "202 Cypress St, Abilene, TX 79601",
+        "category": "Painting"
+      },
+      {
+        "name": "Barnard's Refinishing",
+        "reviews": 0,
+        "rating": 4.3,
+        "domain": "",
+        "phone": "+1325-676-2451",
+        "address": "1234 N 5th St, Abilene, TX 79601",
+        "category": "Furniture repair shop"
+      },
+      {
+        "name": "Abilene Floor and Shower Co.",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "www.abileneflooringandtileinstallation.com",
+        "phone": "+1325-669-3353",
+        "address": "",
+        "category": "Kitchen remodeler"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    24,
+    23,
+    32,
+    34,
+    51,
+    86,
+    60,
+    63,
+    63,
+    51,
+    36,
+    40,
+    56
+  ],
+  "organic_raw": [
+    {
+      "keyword": "cabinet refinishing near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "cabinet refinishing abilene",
+      "items_types": []
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "cabinet refinishing near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfgHEIkXXBE9lioWr9KmeFjMXD0zMhrsmLVoJkBmPhHQ5jM4oPNxMZ-JLDc-CXyEIdMsX_XO90OEgAtsXgxNA6pSuq8PCYyazQIGJSZXYk7mahD7VU8O2J4XAEGiXBCi01DOCGxNBYqHbJ00e20zVugnXiLDaXmdbHILEXFm5QA",
+          "title": "Cabinet Refinishing in Pine Valley | Paint Pros SD",
+          "description": "Sep 11, 2026 — Call (858) 400-6422 and we'll connect you with a Pine Valley painter who handles cabinet refinishing near you.",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdQHEIkXX2RgYM_fs7eJPrpObCrXYOdZG7CKOFol_vVs-lFvhRRLwQMcgJ47q_w4zVmDFHtfUq9WtfA8wO8b6xH02zcECtyifx65nuWXlPqyfSIsmmMmUHaNqkSwRkK_Cv3OoADpIpbYRDyvSlduNmuITGfzltw",
+          "title": "Local Cabinet Refacing and Refinishing Services",
+          "description": "See highly-rated professional cabinet refacers and refinishers for free. Council Bluffs, IA Enter your zip and get matched with up to 3 pros",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZwHEIkXXACa-LJsVATYTKWENnHoeuqQAQpG_O8Kxs4uPiNf0sMm2Bbo1dhzvzJd-1IbHSmKUD4YRYiKXuV48hyVOlaa7jQ5ypUUnHwUx4XwmbMcyoLXdFeLdR3qF907Vqg7d-3wlyb0",
+          "title": "Cabinet Refinishing Seattle: Washington Custom Painting ...",
+          "description": "With our Cabinet Refinishing Seattle service, we offer a broad range of options and styles for your needs. Call us today or visit our website for more info!",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkgEBxCJF1-iiW5CjYUu74dgNU7kOpEKmdUVIST1zXgYqdujMFdXFk9QBz_a6joYLyV9ipzuivSSeJ0zD3Syx8NqRe6f1SxiBB3fNtRSenr2siIInqI9T4ggPn6aBnCf5LWIcvy3pLXVsR4PDsyk4gwecMYK9MEQ7Oc-yzxyDhAHcQCwTwvjSjSZ2ILC-fyAMKc7sHw",
+          "title": "TOP 10 BEST Cabinet Refinishing in Grand Island, NE",
+          "description": "Tune-Up is your local kitchen remodeling experts specializing in cabinet refacing, 2004 N Webb Rd, Grand Island, NE 68803 (308) 384-0102",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgAEBxCJF1_B_2o2rHL6aqG7jvai5BYhbjNTUx3ZPwa0dWvP78jHEmcQUbl7YikrF5PjgLCqv9cX8zNAey0w9WbXg7NyLSvU_AnZENpJbRoUGigSRc9POZA5wPL33DTVsMiliMCVy3ld3nCHeJkipe2SkCUvozRza43yCFq4l7l3T8w",
+          "title": "Kitchen And Cabinet Refinishing | Tulsa, OK",
+          "description": "Revitalize your kitchen and cabinets with our refinishing service, bringing new life to your space through expert painting techniques that enhance durabili.",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF1zoZzS65Rlu6tz0f3K7aq65tZ60FfiTecs28YP9ByBoc-FXem443APKSBlDoQzyAvxGj3nboDIjEEuqaP_QLTBKcXeNEaukKyMtuTO9wxnPCbdx1vKXZ7krgw9Q2qbesADhj6JycWgVnswL0sFZli6n81467aQG_rwo8JiTZj8I",
+          "title": "Cabinet Painting in North Valley, NM",
+          "description": "Refinishing of Albuquerque offers a cabinet refinishing service. Give us a call at (505) 314-1997 or stop by our local showroom. Free, No-Obligation Price",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfwHEIkXXWeOq4lc2MS9w9Q5zYyTGLz6yUY_B9ujIGvWQyeejUaLIj7SIqCJrHzKF16zRR8uFU3--FP30-yB31DdgWfgZUPeIamGQUzEWKRLtY3MEEVlxkVWc9n28VoFgYMAFLRqdtanrredayUan1D5iwGLLa4UJNAX9PA9Ko9o",
+          "title": "Cabinet Refinishing near Kansas City, MO",
+          "description": "(816) 610- KC Cabinetry & Stone, LLC Cabinet Maker, Kitchen Remodel, Kitchen Cabinet Refacing (816) 809- Service Area",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfwHEIkXXRT-Ao_-T7Mk8NW4tT5onTPnEx0oXO6Fj5tfhOd85TfOvm2LFTymOaofQqzuCmClWI7Npq6g8NX_iLQ0pITJNUIeD-rvti9-GITWar5o_o5A8oZPo191ZytjQvDnSabhaSiewGveKE_0jaT4ulqXpy089YeU5hk3cRE8",
+          "title": "Cabinet Painting Lincoln, NE",
+          "description": "N-Hance of Southeast Nebraska offers an affordable, hassle-free solution with custom cabinet painting in Lincoln, NE. no drips, streaks, or brush marks.",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdwHEIkXX3R5r4HCVAQg-qc1LJElLNnlLmaLM5JZ-2iq3f8DdSHmdhWAcyg_fd-i4WsGIE9EEC6K0qzEEL-AW5vK2qq3qVmBlxc92igvgNU2GGHzeZm9zME0vLxrKAdsaWo5U3lSSQ2MyxrhEJc6Sjv9OvFqcDxVZ",
+          "title": "Cabinet Refinishing | Atlanta, GA",
+          "description": "Transform your kitchen without the hefty price tag of a full remodel. Atlanta Painting Company offers expert cabinet refinishing services that breathe new life ... Read more",
+          "position": 13
+        }
+      ]
+    },
+    {
+      "keyword": "cabinet refinishing abilene",
+      "results": []
+    }
+  ],
+  "serp_items": [],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "cabinet refinishing abilene",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    26,
+    26,
+    27,
+    20,
+    19,
+    19,
+    22,
+    22,
+    29,
+    27,
+    28,
+    28,
+    45,
+    31,
+    29,
+    32,
+    44,
+    44,
+    40,
+    31,
+    62,
+    80,
+    100,
+    83,
+    100,
+    59,
+    43,
+    62,
+    79,
+    60,
+    55,
+    59,
+    65,
+    61,
+    65,
+    78,
+    62,
+    62,
+    50,
+    57,
+    56,
+    50,
+    46,
+    47,
+    39,
+    42,
+    37,
+    27,
+    32,
+    30,
+    48,
+    50,
+    51,
+    60
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

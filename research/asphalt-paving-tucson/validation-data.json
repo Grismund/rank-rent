@@ -1,0 +1,740 @@
+{
+  "volumes": {
+    "asphalt paving tucson": {
+      "search_volume": 10,
+      "cpc": 20.89,
+      "competition_index": 54,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "asphalt paving tucson az": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 0,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "asphalt paving near me": {
+      "search_volume": 10,
+      "cpc": 17.11,
+      "competition_index": 100,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "asphalt paving services tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best asphalt paving tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "tucson asphalt paving": {
+      "search_volume": 10,
+      "cpc": 20.89,
+      "competition_index": 54,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "affordable asphalt paving tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "asphalt paving in tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "asphalt paving tucson",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "asphalt paving tucson az",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "asphalt paving tucson",
+    "topThree": [
+      {
+        "name": "Prestige Asphalt Tucson",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "prestigeasphalttucson.com",
+        "phone": "+1520-462-7505",
+        "address": "3131 S Dodge Blvd, Tucson, AZ 85713",
+        "category": "Asphalt contractor"
+      },
+      {
+        "name": "Apex Asphalt Tucson",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "apexasphalttucson.com",
+        "phone": "+1520-505-8909",
+        "address": "455 W Kelso St, Tucson, AZ 85705",
+        "category": "Paving contractor"
+      },
+      {
+        "name": "Sunrise Asphalt Co",
+        "reviews": 0,
+        "rating": 4.6,
+        "domain": "www.sunriseasphaltaz.com",
+        "phone": "+1520-733-0454",
+        "address": "1501 E Bernard Dr, Tucson, AZ 85714",
+        "category": "Paving contractor"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    49,
+    47,
+    52,
+    66,
+    66,
+    75,
+    84,
+    76,
+    80,
+    67,
+    56,
+    56,
+    59
+  ],
+  "organic_raw": [
+    {
+      "keyword": "asphalt paving tucson",
+      "items_types": [
+        "organic"
+      ]
+    },
+    {
+      "keyword": "asphalt paving tucson az",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "asphalt paving tucson",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaQHEIkXXQtKosAv_GamK4zBiSFf0qSahS6kxjrMP5seYnwWg6POjAM72vGAP7MEcGnuoF_gLtIAB6urFBlNhSXURwTA3qdHOuDYclhIXGBeD8zGaqTHLH0mciqJiUHHILXd0VodwrWvuTQ",
+          "title": "Tucson Asphalt - Updated November 2026 - 5 Reviews",
+          "description": "2680 E Valencia Rd Ste 196 Tucson, AZ 85706 Directions (520) 292-1125 Call Now Visit Website http://tucsonasphalt.com. Asphalt Paving in Tucson, AZ",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESngEBxCJF1zHMiOXj1kEvIKhp90U9UIXPVpByNQbzCwO7YBBu1GnvAh7kHpZFANTTm5zrE6pG_Tx0VfOlR9g3q1cc7a9w_6JlT_BLIi4z_C-ac6bUHfNRSL5YiXThC137couvoPgjyxlgdG6raHdCZjybtWQ7G5c4E8Xie8h1lngTM6IqaC_yEgitc3gNjCrbkBidsXh9A4u6H53XK74xzg",
+          "title": "Asphalt driveway tear out and pour referrals in Tucson, AZ?",
+          "description": "Tucson area guys, Good morning! I need some referrals for an asphalt driveway tear out and pour. I don’t have measurements or many particulars. It has ...",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZwHEIkXXXp9JXJaCTBLd5ZbhOD-NvwU2tPwXDR8Gf3_44EiYEstxWvp5wE-SKecEobssb033xdqsY-Qc0rR40D42nKtQ5WpUgD_gQcwx6buOfv0yW-5NBCcRozuWsDrRXs51ri9J2VI",
+          "title": "History",
+          "description": "CALL (520) 292-1125 Request. Precious owner Paul Polito started Tucson Asphalt out of his garage. purchased our very first paving machine. The company strictly ...",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShgEBxCJF13_F_0xPD9iWLVZrfdiEmfrWD9Cw1WpJn_Ol3wOy99iyp38xOfbnjmLp1ulfXuVVRVnCIi8mFtTGVrkrm0UIRwA3PnGnm3LGXxG1BcJrEWuYQfNUwxNROSg-_ligEn7olVTf4A_BWbGOSEHBmolBkdLVXT_B42EOUsntzrXRko1Z3g",
+          "title": "Top-Rated Asphalt Paving Installations Experts in Tucson, AZ",
+          "description": "Read real reviews and see ratings for Tucson, AZ asphalt paving installers for free! This list will help you pick the right pro asphalt paving installation ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiwEBxCJF10cjUP-rO3yDfNzPYEgZkZKdekhw0dCrjejytPjoTQruSFXeRMyzQ_zzVPfvNN49lXOT8HEM63Z0MDsJgkAx0_-jJoJgHvzkhVhGeF76F6oCjA9MWx4m2QcvsQ-QddDxADbqQYx5k6OmaVrFvxVneO1iY014mf_m9BkeKrYjlYAju5Fapyxi",
+          "title": "Tucson Asphalt Contractors, Inc. Information",
+          "description": "With more than 30 years of experience in the business, we know that laying down good, solid asphalt takes expertise, equipment & experience. Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdgHEIkXXrQFE1xGi-AozMOFHvSeMm45miFT5XH9ffi-L4AjZx3EEjTs522WTr0ISL0AsfIN9PqLKNhcbzCtO3T-D6nv3MJKL1kRXcmF3FuJxkU0-kmXEN-zn0dI5GBL_6AlEiUbFmLT3dnzlvucR4pUuLHIhoBM",
+          "title": "Asphalt Services in Tucson Arizona",
+          "description": "Contact 520-514-2779. Specializing in residential and commercial paving, Call us at 520-514-2779 or visit eaglerockexcavating.com to request a free estimate.",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESawHEIkXXtvF_8Om9ZJ9d-lFle7Es3YKa6Sb3_SVxteBb_psYhvDPf0Uz7JMfhoqGEhu1DhDq2pgyenaJJw_FGfE0ztDRrdPjpa9laM9J6Sbl8q8HR4uaUq1l6kci-DbRIpOc7zl9bBlpUlay",
+          "title": "Pacific Asphalt Company | Asphalt Contractor in Tucson , AZ",
+          "description": "Pacific Asphalt Company provides professional asphalt contractor services in Tucson , AZ. Call (520) 350-9214 for a free estimate. Licensed & Insured",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESawHEIkXX_JYsP0sKJB15jPlJFqph1KKJURG_QlnFwR9D01lGKqqWM2h0resiPg99ktfKBZx8YUevETjzb1m4QSTEJ0gd7nWV6Wpz4ftN4bNgvs7dqwcO2HsEF_uuwSTPg8_5m_XtBup4mgr1",
+          "title": "SARVER ASPHALT - Updated November 2026 - 14 Reviews",
+          "description": "Tucson, AZ 85718. Directions · (520) 260-7354. Call Now · From the Business. Specialties. Tucson's #1 family owned and operated asphalt paving company we ... Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkQEBxCJF190Qnes42NUuJE7PUGOeYajNE9brK4FhidyJ7OwP-h-Q2wW8l4Y6nrt1mZP4t7nJCphRC-Q4DHTrb9xkb6iNM4mDNGiYuBYu-19rAXrjaUrQLL4ycRRx3fL-qeLtb8JO15Vs6Pb6XMqSNjUtqWWOVdelDBrb-jesJ7j-uq_-os3_YhumS9M_0fMTmV4K",
+          "title": "Tucson Asphalt Contractors",
+          "description": "Leading in customer satisfaction for a multitude of asphalt services including fog and seal coating, grading, paving, patching, and concrete services. Read more",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "asphalt paving tucson az",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYAHEIkXXVB4CLzzcu0XPvv5fApuOSKkbXFSwfJ5S0tueJJwa-jh0ZFn8BBkW-ddMYB28NClfYTIhjk1BXznFPQWgbRPwlvi8TSbZBQlM0hzNjrQGZNiW6Z_iiUhXlTHP5A",
+          "title": "Services",
+          "description": "Tucson Asphalt is an excellent company. CALL (520) 292-1125 Request … street and pavement issues and needs, Contact 2680 East Valencia Road, #196 Tucson, AZ ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaQHEIkXXHFCpQjm8Y2aCgBbMXNxU4kz8N2LHiqzEL6jlIu3r_oC7MkmNbHddctSPO0Miyk8w8_PKtQaa35jcW-tWwwEt3qt28BJCZozKqFrC1jJuRZQupS1q38306erovSXZgONG6Dl67w",
+          "title": "Tucson Asphalt - Updated November 2026 - 5 Reviews",
+          "description": "2680 E Valencia Rd Ste 196 Tucson, AZ 85706 Directions (520) 292-1125 Call Now Visit Website http://tucsonasphalt.com. Asphalt Paving in Tucson, AZ",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbAHEIkXXZS8IGCGLrpKx363fDIeEnretp5sFOhWj7AeXFzrGDx502D8sEr-qwdhYwacgfSxTTTAzPgNY9HG2KXjZPgGt0gvjqTj8EYtzM5IeaAiHF0tEhJpPcAGMuOxRZYbY4LZ8_BLVAqrWkg",
+          "title": "OPS | Tucson, AZ",
+          "description": "Along with our company comes over 40 years of experience in the asphalt industry with 15 of those years serving Tucson and the surrounding areas. Click for the ... Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF14beRIL4PJ598MsNoRurS5FSV7jtPQor3k7FK00osdqmLqm5kgl4PnJlhEUOwbXYjn1AnSsH-jsLNsOsWAsQ4STApwB_QjPJ-1Vj7SduaqeLyfUGBPJvGkriPXxLoWFsaaod4DEEeWIp9KZPayGs2yQwakq2W1nVPbVNPPth2t9JzcTVAn2gCg",
+          "title": "Where to find asphalt millings in Tucson, AZ?",
+          "description": "ISO\nAsphalt Millings in Tucson AZ \nThanks",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdwHEIkXX0IkmE3AwmSJyIOG6633Uq4JO5NUdLjsi79UTSOo06VVF09p0psHMBZzfONaEQsR9_gp1x0S_2BrPpdolAJf8Ne8Nnacf8SA1lNajkErzxzvYiuRWk3OBTcqOnfgm6XG2X3ZUTg4mIa0x56bPw6wdbwSf",
+          "title": "Top-Rated Paving Services Experts in Tucson, AZ",
+          "description": "+6 more Serving Tucson, AZ. We specialize in comprehensive asphalt solutions, including sealcoating, crack filling, and professional striping.",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiwEBxCJF10mH9r72Hx3wrqW-orqWQ9qpNVhQhABjZFaGPCiDdGGUBjF1ecp_4GzNCHuu4HngZHEk_K4w3mFgO7vuGiVAC74axgI2PFrNbNfVL6pU5bQh6jjcs6oIlGG5CgiykyqIrUhPXWoq2Q6baDpLugLO4Pf18RPwfnEkKwAil_-39puHntpzD6Mw",
+          "title": "Tucson Asphalt Contractors, Inc. Information",
+          "description": "Tucson Asphalt Contractors, Inc. 2425 W. Curtis Rd, Tucson, Arizona 85705, US Phone +1 520-292-1125. Residential Paving,",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfAHEIkXXYvdlFXxs5YZ__4zckOIA4zbV8pomwuGjGKRXMxE8dE0TjFn6b-ChaNZGNtynaF9XFwdT0LBh5cc0pxZDatnD3-ozJsY5BtzcaD822MZsrvAWr0FNjK4RLqSLFRoojxrBEMwp1TSCqK54J1rKCpYYb_OyMovQvEY",
+          "title": "🦺🚧 tucson's #1 family owned and operated asphalt paving ...",
+          "description": "We are licensed, insured, and give FREE estimates. We specialize in Asphalt, Tar & Chip, Millings, Concrete, and Pavers. Below are a variety of ... Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkQEBxCJF1xCurMU61rnKaJmiS0QsD-74cx_YWO-XTgdYrFu_z2_NmzQc_tI-j1TnQdVGT-vHvxkNLWskZbZfgclpmjwzL4OvN5ovujaa-rpv8k0lY8nPJ2joVslxywOWPLFckPTxfpYIWPUAjssC1Qb4zRbGSoCd4j6cdCdYaeFLB5cWABxiqMQStfDiNx5pwsBp",
+          "title": "Tucson Asphalt Contractors",
+          "description": "Tucson, AZ 85706 5208737641 … asphalt services including fog and seal coating, grading, paving, patching, and concrete services. (602) 296-6200",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZwHEIkXXwU_qKQWJULkyvDz3Mvle7y9vUFww2e3Sre9GH83vmaecfdr1C9h1tVKvOOB2HOftYMmJACWZQNrXZE54cd4GccTU2SdSY4GyMqJmdcQ9JAoR4w0ILej98oZTqsfP6FZ6ZH8",
+          "title": "History",
+          "description": "Precious owner Paul Polito started Tucson Asphalt out of his garage. · The company grew to seven employees, and we purchased our very first paving machine. · In ... Read more",
+          "position": 12
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Tucson Asphalt - Updated November 2026 - 5 Reviews",
+      "description": "2680 E Valencia Rd Ste 196 Tucson, AZ 85706 Directions (520) 292-1125 Call Now Visit Website http://tucsonasphalt.com. Asphalt Paving in Tucson, AZ",
+      "url": "https://google.com/goto?url=CAESaQHEIkXXQtKosAv_GamK4zBiSFf0qSahS6kxjrMP5seYnwWg6POjAM72vGAP7MEcGnuoF_gLtIAB6urFBlNhSXURwTA3qdHOuDYclhIXGBeD8zGaqTHLH0mciqJiUHHILXd0VodwrWvuTQ",
+      "breadcrumb": "https://m.yelp.com › biz › tucson-asphalt-tucson"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Asphalt driveway tear out and pour referrals in Tucson, AZ?",
+      "description": "Tucson area guys, Good morning! I need some referrals for an asphalt driveway tear out and pour. I don’t have measurements or many particulars. It has ...",
+      "url": "https://google.com/goto?url=CAESngEBxCJF1zHMiOXj1kEvIKhp90U9UIXPVpByNQbzCwO7YBBu1GnvAh7kHpZFANTTm5zrE6pG_Tx0VfOlR9g3q1cc7a9w_6JlT_BLIi4z_C-ac6bUHfNRSL5YiXThC137couvoPgjyxlgdG6raHdCZjybtWQ7G5c4E8Xie8h1lngTM6IqaC_yEgitc3gNjCrbkBidsXh9A4u6H53XK74xzg",
+      "breadcrumb": "2 comments  ·  10 months ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "History",
+      "description": "CALL (520) 292-1125 Request. Precious owner Paul Polito started Tucson Asphalt out of his garage. purchased our very first paving machine. The company strictly ...",
+      "url": "https://google.com/goto?url=CAESZwHEIkXXXp9JXJaCTBLd5ZbhOD-NvwU2tPwXDR8Gf3_44EiYEstxWvp5wE-SKecEobssb033xdqsY-Qc0rR40D42nKtQ5WpUgD_gQcwx6buOfv0yW-5NBCcRozuWsDrRXs51ri9J2VI",
+      "breadcrumb": "https://tucsonasphalt.com › company › history"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Top-Rated Asphalt Paving Installations Experts in Tucson, AZ",
+      "description": "Read real reviews and see ratings for Tucson, AZ asphalt paving installers for free! This list will help you pick the right pro asphalt paving installation ...",
+      "url": "https://google.com/goto?url=CAEShgEBxCJF13_F_0xPD9iWLVZrfdiEmfrWD9Cw1WpJn_Ol3wOy99iyp38xOfbnjmLp1ulfXuVVRVnCIi8mFtTGVrkrm0UIRwA3PnGnm3LGXxG1BcJrEWuYQfNUwxNROSg-_ligEn7olVTf4A_BWbGOSEHBmolBkdLVXT_B42EOUsntzrXRko1Z3g",
+      "breadcrumb": "https://www.homeadvisor.com › AZ › Tucson"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Tucson Asphalt Contractors, Inc. Information",
+      "description": "With more than 30 years of experience in the business, we know that laying down good, solid asphalt takes expertise, equipment & experience. Read more",
+      "url": "https://google.com/goto?url=CAESiwEBxCJF10cjUP-rO3yDfNzPYEgZkZKdekhw0dCrjejytPjoTQruSFXeRMyzQ_zzVPfvNN49lXOT8HEM63Z0MDsJgkAx0_-jJoJgHvzkhVhGeF76F6oCjA9MWx4m2QcvsQ-QddDxADbqQYx5k6OmaVrFvxVneO1iY014mf_m9BkeKrYjlYAju5Fapyxi",
+      "breadcrumb": "https://rocketreach.co › tucson-asphalt-contractors-inc-p..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Asphalt Services in Tucson Arizona",
+      "description": "Contact 520-514-2779. Specializing in residential and commercial paving, Call us at 520-514-2779 or visit eaglerockexcavating.com to request a free estimate.",
+      "url": "https://google.com/goto?url=CAESdgHEIkXXrQFE1xGi-AozMOFHvSeMm45miFT5XH9ffi-L4AjZx3EEjTs522WTr0ISL0AsfIN9PqLKNhcbzCtO3T-D6nv3MJKL1kRXcmF3FuJxkU0-kmXEN-zn0dI5GBL_6AlEiUbFmLT3dnzlvucR4pUuLHIhoBM",
+      "breadcrumb": "https://eaglerockexcavating.com › Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Pacific Asphalt Company | Asphalt Contractor in Tucson , AZ",
+      "description": "Pacific Asphalt Company provides professional asphalt contractor services in Tucson , AZ. Call (520) 350-9214 for a free estimate. Licensed & Insured",
+      "url": "https://google.com/goto?url=CAESawHEIkXXtvF_8Om9ZJ9d-lFle7Es3YKa6Sb3_SVxteBb_psYhvDPf0Uz7JMfhoqGEhu1DhDq2pgyenaJJw_FGfE0ztDRrdPjpa9laM9J6Sbl8q8HR4uaUq1l6kci-DbRIpOc7zl9bBlpUlay",
+      "breadcrumb": "https://tucsonasphaltcontractor.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "SARVER ASPHALT - Updated November 2026 - 14 Reviews",
+      "description": "Tucson, AZ 85718. Directions · (520) 260-7354. Call Now · From the Business. Specialties. Tucson's #1 family owned and operated asphalt paving company we ... Read more",
+      "url": "https://google.com/goto?url=CAESawHEIkXX_JYsP0sKJB15jPlJFqph1KKJURG_QlnFwR9D01lGKqqWM2h0resiPg99ktfKBZx8YUevETjzb1m4QSTEJ0gd7nWV6Wpz4ftN4bNgvs7dqwcO2HsEF_uuwSTPg8_5m_XtBup4mgr1",
+      "breadcrumb": "https://m.yelp.com › biz › sarver-asphalt-tucson-2"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Tucson Asphalt Contractors",
+      "description": "Leading in customer satisfaction for a multitude of asphalt services including fog and seal coating, grading, paving, patching, and concrete services. Read more",
+      "url": "https://google.com/goto?url=CAESkQEBxCJF190Qnes42NUuJE7PUGOeYajNE9brK4FhidyJ7OwP-h-Q2wW8l4Y6nrt1mZP4t7nJCphRC-Q4DHTrb9xkb6iNM4mDNGiYuBYu-19rAXrjaUrQLL4ycRRx3fL-qeLtb8JO15Vs6Pb6XMqSNjUtqWWOVdelDBrb-jesJ7j-uq_-os3_YhumS9M_0fMTmV4K",
+      "breadcrumb": "https://www.azmultihousing.org › tucson-asphalt-contra..."
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "asphalt paving tucson",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    52,
+    48,
+    52,
+    47,
+    47,
+    51,
+    48,
+    46,
+    42,
+    47,
+    53,
+    52,
+    56,
+    57,
+    63,
+    63,
+    82,
+    69,
+    67,
+    66,
+    68,
+    60,
+    79,
+    72,
+    83,
+    67,
+    96,
+    100,
+    95,
+    67,
+    64,
+    83,
+    79,
+    71,
+    69,
+    80,
+    75,
+    94,
+    72,
+    71,
+    81,
+    70,
+    56,
+    59,
+    53,
+    60,
+    63,
+    48,
+    50,
+    53,
+    59,
+    62,
+    62,
+    56
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

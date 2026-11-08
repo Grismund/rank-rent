@@ -1,0 +1,520 @@
+{
+  "volumes": {
+    "asphalt paving odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "asphalt paving odessa tx": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "asphalt paving near me": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "asphalt paving services odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best asphalt paving odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "odessa asphalt paving": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable asphalt paving odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "asphalt paving in odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "asphalt paving odessa tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "asphalt paving near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "asphalt paving odessa",
+    "topThree": [
+      {
+        "name": "Paving Pro",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "",
+        "phone": "",
+        "address": "",
+        "category": ""
+      },
+      {
+        "name": "Danny's Asphalt Paving",
+        "reviews": 0,
+        "rating": 4.1,
+        "domain": "",
+        "phone": "",
+        "address": "",
+        "category": ""
+      },
+      {
+        "name": "Paving Pro",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "pavingprotx.com",
+        "phone": "+1432-770-2705",
+        "address": "3050 W 2nd St, Odessa, TX 79763",
+        "category": "Paving contractor"
+      }
+    ],
+    "totalCount": 21
+  },
+  "trends": [
+    49,
+    47,
+    52,
+    66,
+    66,
+    75,
+    84,
+    76,
+    80,
+    67,
+    56,
+    56,
+    59
+  ],
+  "organic_raw": [
+    {
+      "keyword": "asphalt paving odessa tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "asphalt paving near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "asphalt paving odessa tx",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESXQHEIkXXIMMkBaJEFUIFIwcmo2XWp5Si32dRa9y7TzWq1MCm-BeaS5b0AzuLeV0cTbz0Gs3tO6nsE5hzdT80Rryvb-F-Qjf5ZRAcY0YFwUxnx3QOgzWgpdp2O12G5A",
+          "title": "#1 Paving Services in Odessa, TX | Call Us at 432-242-4868",
+          "description": "Odessa Texas Asphalt is one of the most trusted paving companies in Odessa, TX with having years of experience in residential & commercial paving services.",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESVwHEIkXXZjJ7hd_b7NFLu3NWykZ13YMNXtQ0Tq7N2FyTVw7TFXV_V4dHJK592GCyLry7MGlNUhQKJgFWdBRCmLNyHMn-9mhTLGrqSRMmEHrJvXJ5cRWasg",
+          "title": "West Tex Paving: Asphalt Paving Contractors in Midland ...",
+          "description": "Local asphalt paving company and contractors in Midland & Odessa since 1975. Driveway paving, asphalt repair, sealcoating & parking lots.",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESVgHEIkXXBTcQ2DU2-7p5GMS9HtQ381VAe0CwoXu5V8Ox6uXG745j5UK9dWTmXT1w_JXPGFOKppE2f-WwbAkZvIZQZbHKqpeqIZlT2Q-jPjOZoqkuwG69",
+          "title": "Commercial Asphalt Paving | Midland-Odessa | Danny's",
+          "description": "At Danny's Asphalt Paving, we specialize in delivering asphalt and chip seal paving services on commercial, industrial, municipal, subdivision, and base work ... Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYwHEIkXXi1NhcQ79IPSumn76nCrHFOHODWoJuNmbOY99yPlp4cBVEnlhgzWOWN3wTx8ccDGpdhbm8r8JG2gh97bNaJ5NrRtQfdtuk-f7hwT6i7mbJVi3kYetbCgYTM95F0H3ug",
+          "title": "Danny's Asphalt Paving | Midland TX",
+          "description": "... paving begins. Danny's Asphalt Paving provides earthwork, grading, base preparation, and asphalt paving throughout Midland, Odessa, and the Permian Basin. Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESVQHEIkXXO3sFxo3sBI_9bXF33DHMJbUqsQJcerjSRdMxBoWQjLaPOcCmbf_JwE0ZY-lQddXMSyTYugCKX2n80iJvqzOP4Ic1PBzycmnKUJCH3gdjzOw",
+          "title": "Asphalt Paving Company in Odessa & Midland, TX",
+          "description": "Family owned asphalt paving in Odessa and Midland, TX: parking lots, driveways, sealcoating, repairs and caliche roads. Free quotes.",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESewHEIkXX6d1KJx9kGN9Pb1olNJq3nITfLk0GDBYxnMFAPRIFoc_SYBx8kWuHmNrSy9u_NQP5eWM6NC0ILnCfo5iut2ELI2fjQWJyKZ7rH42FtfKZSCWpuy8K43qVaYsBKty9cToYjqqtdHth89cVEpINvwkufKWbcetuLg",
+          "title": "Paving Contractors in Odessa, TX",
+          "description": "Paving Contractors in Odessa, TX · Williams Paving & Excavation Inc · A+ Paving · Advance Excavating & Paving LP · Asphalt Paving · Atkins Pavement & Maintenance. Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgAEBxCJF1_56ZSu12aeGeCmZsGQtiBENOc3VNIj_TSPUA1gtpsUF-AY1mE4pkYNi8Edq6T1fJcvSwcCIf_Tutiu32ne_o8SCjfkfzQFLOskaPiHOOWsujXtmZa8N97tnkZcPR-Iloozny2MTZ2Dkstkl00l3v0Y0ylgxtrPWTvyk4A",
+          "title": "TOP 10 BEST Asphalt in Odessa, TX - Updated 2026",
+          "description": "Top 10 Best Asphalt Near Odessa, Texas (Updated 2026) ; West Tex Paving · General Contractors. 1.0 mi · 2000 E 42nd St, Ste C-215 Odessa, TX 79762. (432) 878-8059. Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESUgHEIkXXs7yrb69JSnkuPeGCQ6LNrvAApFZI-KEgL07wkjjegthJE6z3NRpGDDDBc-uLrDRYZm9xa3l3IvcMQHYlelUl_az2TnqgKNpCRkaUUNQ",
+          "title": "Williams Paving & Excavation: Driveway Paving",
+          "description": "Williams Paving & Excavation is a family-owned business that takes pride in its over 50 years of experience serving Odessa, Midland, Texas and the greater ... Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfgHEIkXXhix9XGQgLGO8IPQZua1UN4Cxl1SvArHFLyaEi7Y9OmJ7MUkyDABuGPL2sWUq9co5PZfUOdq0mwCXFMSSIP9Aqpx0CMB7oRq7mgjo7QbNYoH9wraYaKhvc3G-lMLJoWytIHHUmi6_Bf7GOQ05XQ4RYkhZc0R5BsPOOQ",
+          "title": "Danny's Asphalt Paving",
+          "description": "2000 E 42nd St Ste C, Odessa, TX, 79762-5802. Danny's Asphalt Paving, located in Odessa, TX, offers a range of paving services for commercial, industrial ... Read more",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "asphalt paving near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESoQEBxCJF13x5HTNziCedGDZRbcdnM2gdzUaQImo8dVy7ZNFxpkFuGmiwMRoR6F_1UMpev1TZVeW_I7jGpDiXNZxqcFmZBAAIYBczHgpnb4PdNNJHLAHRgq83fQgBrWDH_hSbsFxtdt-ECbg_QsMrzmNk-gVOf4uCNOydfCHOhLqEImw53ZOPb6EDPIP0XcnRoG12CDx1Az6nDl7Gln4PPk9NiA",
+          "title": "Best 15 Paving & Driveway Contractors in Chickasha, OK",
+          "description": "Asphalt is a paving contractor serving the Norman, OK area. Services include Asphalt Paving, Chip Seal Paving, Commercial Paving, Average rating: 5 out of 5 ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdwHEIkXXkweM34-CENc68BhTUf7UM1KCfy0wCGsIAubymaMzaxE8ICWTp7LqVrchsHcC3YhF7GGEh2Y40FS1fc4ZgF2NpsURBNwwCERfdNXVGarJWNDvq6IGC5W3NANBOQGyP-cUMbsGxOIhHj4DCV356fgumxCd",
+          "title": "Commercial & Residential Asphalt Paving",
+          "description": "Call 405-476-9365. aving company serving Oklahoma and the surrounding areas. your FREE, no-obligation asphalt paving estimate! Oklahoma City, OK 73137",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjQEBxCJF1-NC2g9pRQbrE-OCcH4eiN9ppr0smA8tzoehRJC54NCL2CeLgXWeq7lLVKON3xo7Ll7LV5Cn8QQWt5W9Ax4c8ONoZCWzferZG006pNJVmZWKnUJfiN6MUMjMDCZA_mfLKTWuzmQpCB6W0j2Csw4eQBLcTBhO6NA2om8QKc9eBoNvy4_0G8nC_5c",
+          "title": "TOP 10 BEST Asphalt Paving in Natchitoches, LA",
+          "description": "Legacy Construction - Asphalt … 278 Hicks Rd, Natchitoches, LA 71457 (318) 572-0377. Danny Hargrove Concrete and Construction - Asphalt Paving near me. CENLA ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZwHEIkXXtFRZRgRJL-hnSycSlBHJdtjzDirX65R4EVadb_cIlXFfv4ZnrpQOtUIMNN4_Ipho5wOxzb9CoBU9DGok21eLzqN-cs-soGjBXJq4JpBATK_FK8HJTazWObXo9lqe0dWvuRE",
+          "title": "Aurora Asphalt & Paving | Asphalt Contractor in Aurora, CO",
+          "description": "Aurora Asphalt &amp; Paving provides professional asphalt contractor services in Aurora, CO. Call 970-251-1752 for a free estimate. touch within 24 hours.",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShgEBxCJF19d4vvkKMhGJ6bo5gnpqAxIMJDrZuFI_twwCvH-2D7ucrAwFf7nsqHFWWXX0t66zb1CnhCj1ziAl2-5QWosE2lPFfrVna8o0r3OY9VnMpiB_SIOz6FQTT5adoVlTlKNdkJgVIBfTeGYj2CA1Ikdn2P9u121sY4HM9aMBAhKYkhQgdA",
+          "title": "TOP 10 BEST Asphalt Paving in Tulsa, OK - Updated 2026",
+          "description": "Accuracy Underground - Asphalt Paving near me. Ave, Catoosa, OK 74116. Specializing in water, sewer and fiber installation. serve all of Northeast Oklahoma and ...",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF19yiyHP7RvqN2knAKf108MwvTJZv04aCOhIqNALhBaeijMCbWv1T3sNPzLp22Jf7EkTHVE5M52Cw4a5ZYNNLiuV3XD__AVim5TYrpUDCEgcB4Y368LLwU5xgmJA70GmTCCvNk8aQjzt1LwxGTt7DK-McgmU9mz3COndJXd1Vm0LMNf63Nwf9Vg",
+          "title": "Asphalt Paving Company in Daytona Beach, Florida",
+          "description": "Jul 24, 2026 — Family owned and operated asphalt repair and paving company servicing the Daytona Beach area. 1935 Gregory Rd Orlando, FL 32825 598",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF16iOgQr18rqluSNbZKKJwKOBB6ZguT-TFMP6ZhjfirVJ-8wFebh_f6Hs62ZPwBf7bDuFJdK3JIHGlQBgxtixNwJF45vz7mXY18oNrY33YsmYUaMC2P3ExFl6nYAQGZ-voLuWiy7AWs2S85TZYx9FBfmbj1FGoyCJEAU2wJuK26aNq53MdH-OYA",
+          "title": "TOP 10 BEST Paving Contractors near Chickasha, OK",
+          "description": "Paving is local to Grady County. asphalt paving Request a quote Free price estimates from local Masonry/Concrete Contractors",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESngEBxCJF16FJqvQbUs-edoB1uZolwbq-6F8j55nID12F-2M-gQMx2DSAwGrmqapbVy-iJ1UUEaMRvGeisLHQnAnVfNWY6nq1woVT86Az_Vlt5gg6QvwVCT-dwFelhoMxLGvV66Y7tjeNXgnjdBhnVoxhqx8kp5YSVH426zJ-D95xeH0kUFVVxnyZzluF5QZna9FUlnlcpdUpz0AzpXxirA",
+          "title": "Best 15 Paving & Driveway Contractors in Edmond, OK",
+          "description": "Trusted paving contractor proudly serving. We specialize in asphalt and concrete paving 6212 NW 30th St, Bethany, OK 73008 7701. Average rating: 5 out of 5 ...",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZgHEIkXXSkQdKgPTjIRugeIJM_uS1EsqK70-lultdzBA-6EmoE8p8q0MGB11B1jYCXKZknIumRr9wY6ZvBKUkgcFMRq4CsBxw48XBhV2CWJQdln3aumSMhWMtg0lk5g86pJJGiQpzw",
+          "title": "Driveway Services Near Shawnee, Oklahoma",
+          "description": "Find Driveway Services near Shawnee, Oklahoma. Connect with verified, experienced driveway pros. Asphalt, Concrete, Pavers, Gravel.",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "asphalt paving odessa",
+    "items_types": [
+      "maps_paid_item",
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    52,
+    48,
+    52,
+    47,
+    47,
+    51,
+    48,
+    46,
+    42,
+    47,
+    53,
+    52,
+    56,
+    57,
+    63,
+    63,
+    82,
+    69,
+    67,
+    66,
+    68,
+    60,
+    79,
+    72,
+    83,
+    67,
+    96,
+    100,
+    95,
+    67,
+    64,
+    83,
+    79,
+    71,
+    69,
+    80,
+    75,
+    94,
+    72,
+    71,
+    81,
+    70,
+    56,
+    59,
+    53,
+    60,
+    63,
+    48,
+    50,
+    53,
+    59,
+    62,
+    62,
+    56
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "volumes": {
+    "commercial cleaning midland": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "commercial cleaning midland tx": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "commercial cleaning near me": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 0,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "commercial cleaning services midland": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best commercial cleaning midland": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "midland commercial cleaning": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable commercial cleaning midland": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "commercial cleaning in midland": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "commercial cleaning near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "commercial cleaning midland",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "commercial cleaning midland",
+    "topThree": [
+      {
+        "name": "Accredible Services | Commercial & Residential Cleaning Services",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "cleaningservicemidlandtx.com",
+        "phone": "+1432-288-5416",
+        "address": "2109 W Texas Ave # G, Midland, TX 79701",
+        "category": "Janitorial service"
+      },
+      {
+        "name": "Aj reliable cleaning service and cleaning products",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "",
+        "phone": "+1432-553-1529",
+        "address": "100 E Wall St Unit 1635, Midland, TX 79701",
+        "category": "House cleaning service"
+      },
+      {
+        "name": "TCC- The Cleaning Company",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "thecleaningco.pro",
+        "phone": "+1432-599-4072",
+        "address": "3241 Franklin Ave C, Midland, TX 79701",
+        "category": "House cleaning service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    44,
+    34,
+    40,
+    46,
+    63,
+    65,
+    60,
+    69,
+    53,
+    48,
+    41,
+    37,
+    32
+  ],
+  "organic_raw": [
+    {
+      "keyword": "commercial cleaning near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "images",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "commercial cleaning midland",
+      "items_types": [
+        "organic"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "commercial cleaning near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESowEBxCJF15zbI0s8x80csRtoUb0vdjKgsfRpa2PxxdohPVBi1fg5wuvventyPZwoKYbOL1AtbRVqPzrnLIdFfCC1Zr61qtU_S5YoZb03AeorONY3W5GMhjxjQH6BJC05p3eCFZCp9ptPVx-q4kFZegNqSxOtpsxv0sf6VLqC6Qxc7t7TbgkYU4u_M3e6lwOoAWDHkDb8cyJf1xgyd9gASrg7S5Ie",
+          "title": "General Cleaning and Janitorial Services",
+          "description": "SERVPRO of Los Angeles provides expert residential and commercial cleaning, including carpets, upholstery, floors, and more. With advanced technology ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZQHEIkXXtg3ycyHDRt8f-spOfIPAcOo-3XAmhexhZjhUvtTt47BkxZRI4Q0NRpGT1rjOvjoMOmKj965DTYuChTAlycGR9VFtKixpz_3hInoLpq_u_FuHGUumw1_pQoGy6mAxzI2D",
+          "title": "The 10 Best Commercial Cleaning Services Near Me (2026)",
+          "description": "Homeowners agree: these commercial cleaning services are highly rated for knowledge, experience, communication, and more. Home Service Simple ... Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXOcszTVuLWJumYj2orjJHDBx5ueFGYLQFXFCHlZ9F_fnjIK_sytyD7f0M5a5bnZc2RNVdTlshdaizw3qHtFR5EZiIV0nFZrDUdzjSNr-O640PyQYmAYI7n_4SP77i1lujMmKnjvCJU01hACbvdY8RO2Z-LY4",
+          "title": "Commercial Cleaning Services In Memphis TN",
+          "description": "Our commercial cleaning services in Memphis, TN, provide thorough and effective cleaning of your office space. We spend the time needed to do the job right ... Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlAEBxCJF16XWd1cmYR10EPTe8yxFr2D3kQQ3doHSbN-WsF6IyQi3-7Jj4UZMUlDGkiJOZPFzpJx9eVtX7Zk6zWIVlSzSQeDWIvphbfJvkUuzm9Bci5g4uKTh9MpiHX5nrUDk72Jf6XNcdihyzMtG9cusIo1_6nOn3H3jEaBuR9Xy0du9AKuCsTsp5XUnxTL0yXGgzFks",
+          "title": "TOP 10 BEST Commercial Cleaning Service in Sherman, TX",
+          "description": "However, I found three nearby options that support requesting a quote for cleaning and organizing: Go & Glow Cleaning, Drip N Dry Cleaning Services, and Amber's ... Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlwEBxCJF14U2LiYWGGDmyt_xl_Nrhw10HXlmi_yqoGg1SXGNmUH6Y7zX33QIwEvGoAZqnP4EAIHHYn3VIWmuaA76mn9mD2-z5fsdyHP5obCkzSn6RzlZb2aNvVdHOD7RXKJETDo3ttyielyE3m9AUup3hZKjHQI48LVP6cpO2mAX9VbJHkyy-5PC2JyxkxD4D08lYWrIs8H2",
+          "title": "Commercial Cleaning Services in Santa Fe, NM",
+          "description": "At ServiceMaster Clean Team - Albuquerque, we pride ourselves on delivering exceptional commercial cleaning services in Santa Fe, NM, to maintain a clean, safe, ... Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbgHEIkXX7D7qex5nCpllz_9nVHDg2neUzJ9682FcuM6Cj5vfylOPjRjy96FsVWS6Li0Ydu0gAbShi1FlWw1LQ63z5_um9q9gaVBMmxm4eppduYRJFXXicSzBTbvhas_0WZQkbePKRcof1uInP4cZ",
+          "title": "Office Cleaning Service in Fort Worth TX",
+          "description": "Cowtown Maids offers professional commercial/office cleaning services in Fort Worth, Texas, and surrounding areas within greater Tarrant County.",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlwEBxCJF15wbTyMMJ-ipb_7L_wm1altQc7Ne3PVozspfbwQ-U4g8GtTTkAIwXbR6ueqZKdLJpQUGycNKx0Y-1shxRhUbatnTZp8xCpaWFsN-eMkv2wqpOc0GfVhThDOaAElGxe2auL0FLGTtD3SHQ_H0xSHed9a75iOXcUs4Bip7r2W48euwwRc5ilBO5d1YkIivxd1ZFNJv",
+          "title": "TOP 10 BEST Commercial Cleaning Services in Las Vegas ...",
+          "description": "Top 10 Best Commercial Cleaning Services Near Las Vegas, Nevada (Updated 2026) ; Revival Restoration & Floor Care · Tiling · Carpet Cleaning · Damage Restoration. Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYwHEIkXXxycCK58O4n-udM1eX-jUr9UAZ81F-EG6rOxbrqAUExtwKf6bFKnIb3ZO0FWKJeeWwe-ToykyVN5VwSUGSdaExfBr-FJfGoUurEAa59n0fx2pYWYNq0rIq8-IFMiCtg",
+          "title": "Commercial Cleaning Tucson",
+          "description": "For commercial cleaning Tucson, work with a company like ours that excels in cleaning, disinfecting, and sanitizing a variety of buildings.",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "commercial cleaning midland",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkAEBxCJF14CUe6fO1SMIsgnSYEjL35ZE6jWiuQrk0GFTr_5cBhXkENOI1vB6vDy5FVm2UuTeDQ0Ur-TNupEXo_pwBS55mEcxEcah33Q36o-a8a1nKXbo-DNKyR1auW_SEL4mfVJHuKwNUgvI0cynWsNeaBGyGoD-X93HwSp0MhaCfzV9J60zWtCcDLxUQb1LKHI",
+          "title": "Specialty Cleaning Services near Midland, TX",
+          "description": "SERVPRO offers expert cleaning for biohazards, HVAC, air ducts, graffiti, sewage, crime scenes, odor removal, and more. Call: (432) 620-0086",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF1wzfn5DblIQR0TS_bkNEzKzhKazhfCqqH_6Z6oN_vJexi45PAom4GAcmMbk0a5oI0ztC1NHxKP7VXHe26xWCVkh2xHTzA8V-VhLzW6C9hL5cqfSN7iDVlGXw6HN4GCL2wFwj40E1Pl7b7MnUOl47nN3oG-VVfePzFxVVMEuAq-s",
+          "title": "Commercial Cleaning Services near Midland, TX",
+          "description": "Commercial Cleaning Services near Midland, TX. (432) 231-0675 Midland, TX BBB Rating: A+ Service Area (432) 349- BBB (432) 279-0828 414 (806) 549-8954",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZgHEIkXXj8wcY94RtSdJJ80ngCNdoM0Kwowwk6qDDjAGOuSC3vRrSHG80tYixA2wAVqxjHX_5l1T7N-IgICKHtY1HsTGhHFhZzPfxiw2qjg_FWE6Xgb8h5cqX9UEpfI5rrJSJdsdJg",
+          "title": "Lucio Janitorial Services, LLC | Midland TX",
+          "description": "We offer daily, weekly, monthly and as needed janitorial services for Commercial Buildings, Oilfield Cleaning Service ・ contact us at 432-218-7950 ・ 410 ...",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbgHEIkXX8iN7qxVAHlCql2aWuk7woI1dNTrXYxtOkof_VsGmFM5cXtDUYlh5sY3tRtuEXtSHN2EpKRRNnzULzEmuYepDQutq5REkLi3I-JmEQDh6sxeYBercpksjNRochkZq-P6r9vRwHjsLX8c4",
+          "title": "Office Cleaning Midland, TX | Mina's Nice & Clean",
+          "description": "Jan 8, 2025 — We offer an array of services tailored to meet the unique needs of your business, including: Office and facility cleaning; Commercial kitchen ... Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShwEBxCJF19heLTorHObp7z5PVzBH42UkjdovpCo4CM86R0M2bBhbrIdGau3Tqhy2wexG6k7tGrv5jQj44y8sYodmZUTUSgThRU2pY2oPMSgc8QBCKuI034QtUbouL7jnVixYqn6xbeDXLjvC72w6gvWnvwH0z1t3GJfyd1n3T3555PWb7dVcIMw",
+          "title": "Oil & Gas Facility Cleaning in Midland, TX | WTCC",
+          "description": "West Texas Commercial Cleaning provides full-service janitorial support tailored to oil and gas environments. Whether you operate modular field offices, ... Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjQEBxCJF11AyjzqGNyv30qyaFRmmiuTz_GpeEHA74UL2q13SEaoP-Jk0BwF2DV7JNgmLremgdId6rmth4F4T3c5kXStrEOInJ2Iv52dIah1nKQMYdZQ3N061l0j1CzXWT8Rpwo-lCUj9nzMFxCWBwxlVKdfqi-kpQgrUtObS3rP7mZdnuax-T3Z4V2Nd3tM",
+          "title": "TOP 10 BEST Janitorial Services in Midland, TX",
+          "description": "3R Cleaning Service specializes in janitorial contracts, office cleaning, commercial kitchens, and property management cleaning for apartment complexes and ... Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdgHEIkXX9DYbmAOGvCnlge4ZxRqe3RqMZ3fLRSk2Uxf-JowW7UWjoLDZpSR9b2sNrSfqs5CfI0IHXK6IjJHHeeBGWgMefnwYLjnMufl_6sf0UihdNDVaCijVHI-sbxMK--IGuG6a0eYbHIug7jGpYaq1CMQghSc",
+          "title": "Professional Cleaning Company | Midland & Odessa, TX",
+          "description": "We provide commercial cleaning services in Midland, TX and the surrounding area. Before we clean, we'll personally inspect your property and calculate a price ... Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESigEBxCJF1679TIhlfkYfz2IsAltQRk_1XM2bPKtJzPlINvR9ynuKiXCWXMzUdiqpfwI3TmzcS9ay6RTvvqyKZ-ySOUsLLk8ez9Lb7Ad0Gy2lnNkFbdru6OQWlCYBjYuUir3UyqFZ7fszP2xiLhaBXil0cuCnU9f62jQP8XSakzQsDbS7FWbCW-gOf2g",
+          "title": "Commercial Cleaning Companies in Midland",
+          "description": "For commercial cleaning in Midland, you've got options like Jase Commercial Cleaning, Brooks Cleaning Services, and a Permian Basin company at (432)803-9158 ... Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZwHEIkXXp2kHA1tlbpMmEjthXxmUK5VLYi4p1mgnnlfOuN1e5DYMZ4FX2kKDNema7ZApOZk_j8bmiVlucO49S9ySCH2gDL7rR6DvgOXomrrlXmDl9eI1Cox_6JM2OZH7_01VWB1fdkI",
+          "title": "Tall City Commercial Cleaning Midland TX",
+          "description": "Tall City Commercial Cleaning Midland TX. This position is 5 nights per week in Midland from 5:30 - around 8pm so please only apply if you live in Midland. Read more",
+          "position": 12
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Specialty Cleaning Services near Midland, TX",
+      "description": "SERVPRO offers expert cleaning for biohazards, HVAC, air ducts, graffiti, sewage, crime scenes, odor removal, and more. Call: (432) 620-0086",
+      "url": "https://google.com/goto?url=CAESkAEBxCJF14CUe6fO1SMIsgnSYEjL35ZE6jWiuQrk0GFTr_5cBhXkENOI1vB6vDy5FVm2UuTeDQ0Ur-TNupEXo_pwBS55mEcxEcah33Q36o-a8a1nKXbo-DNKyR1auW_SEL4mfVJHuKwNUgvI0cynWsNeaBGyGoD-X93HwSp0MhaCfzV9J60zWtCcDLxUQb1LKHI",
+      "breadcrumb": "https://www.servpro.com › SERVPRO of Midland"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Commercial Cleaning Services near Midland, TX",
+      "description": "Commercial Cleaning Services near Midland, TX. (432) 231-0675 Midland, TX BBB Rating: A+ Service Area (432) 349- BBB (432) 279-0828 414 (806) 549-8954",
+      "url": "https://google.com/goto?url=CAEShAEBxCJF1wzfn5DblIQR0TS_bkNEzKzhKazhfCqqH_6Z6oN_vJexi45PAom4GAcmMbk0a5oI0ztC1NHxKP7VXHe26xWCVkh2xHTzA8V-VhLzW6C9hL5cqfSN7iDVlGXw6HN4GCL2wFwj40E1Pl7b7MnUOl47nN3oG-VVfePzFxVVMEuAq-s",
+      "breadcrumb": "https://www.bbb.org › midland › category › commercia..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Lucio Janitorial Services, LLC | Midland TX",
+      "description": "We offer daily, weekly, monthly and as needed janitorial services for Commercial Buildings, Oilfield Cleaning Service ・ contact us at 432-218-7950 ・ 410 ...",
+      "url": "https://google.com/goto?url=CAESZgHEIkXXj8wcY94RtSdJJ80ngCNdoM0Kwowwk6qDDjAGOuSC3vRrSHG80tYixA2wAVqxjHX_5l1T7N-IgICKHtY1HsTGhHFhZzPfxiw2qjg_FWE6Xgb8h5cqX9UEpfI5rrJSJdsdJg",
+      "breadcrumb": "260+ followers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Office Cleaning Midland, TX | Mina's Nice & Clean",
+      "description": "Jan 8, 2025 — We offer an array of services tailored to meet the unique needs of your business, including: Office and facility cleaning; Commercial kitchen ... Read more",
+      "url": "https://google.com/goto?url=CAESbgHEIkXX8iN7qxVAHlCql2aWuk7woI1dNTrXYxtOkof_VsGmFM5cXtDUYlh5sY3tRtuEXtSHN2EpKRRNnzULzEmuYepDQutq5REkLi3I-JmEQDh6sxeYBercpksjNRochkZq-P6r9vRwHjsLX8c4",
+      "breadcrumb": "https://www.minasniceandclean.com › office-cleaning"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Oil & Gas Facility Cleaning in Midland, TX | WTCC",
+      "description": "West Texas Commercial Cleaning provides full-service janitorial support tailored to oil and gas environments. Whether you operate modular field offices, ... Read more",
+      "url": "https://google.com/goto?url=CAEShwEBxCJF19heLTorHObp7z5PVzBH42UkjdovpCo4CM86R0M2bBhbrIdGau3Tqhy2wexG6k7tGrv5jQj44y8sYodmZUTUSgThRU2pY2oPMSgc8QBCKuI034QtUbouL7jnVixYqn6xbeDXLjvC72w6gvWnvwH0z1t3GJfyd1n3T3555PWb7dVcIMw",
+      "breadcrumb": "https://www.wtccleaning.com › oil-gas-facilities"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "TOP 10 BEST Janitorial Services in Midland, TX",
+      "description": "3R Cleaning Service specializes in janitorial contracts, office cleaning, commercial kitchens, and property management cleaning for apartment complexes and ... Read more",
+      "url": "https://google.com/goto?url=CAESjQEBxCJF11AyjzqGNyv30qyaFRmmiuTz_GpeEHA74UL2q13SEaoP-Jk0BwF2DV7JNgmLremgdId6rmth4F4T3c5kXStrEOInJ2Iv52dIah1nKQMYdZQ3N061l0j1CzXWT8Rpwo-lCUj9nzMFxCWBwxlVKdfqi-kpQgrUtObS3rP7mZdnuax-T3Z4V2Nd3tM",
+      "breadcrumb": "https://www.yelp.com › Home Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Professional Cleaning Company | Midland & Odessa, TX",
+      "description": "We provide commercial cleaning services in Midland, TX and the surrounding area. Before we clean, we'll personally inspect your property and calculate a price ... Read more",
+      "url": "https://google.com/goto?url=CAESdgHEIkXX9DYbmAOGvCnlge4ZxRqe3RqMZ3fLRSk2Uxf-JowW7UWjoLDZpSR9b2sNrSfqs5CfI0IHXK6IjJHHeeBGWgMefnwYLjnMufl_6sf0UihdNDVaCijVHI-sbxMK--IGuG6a0eYbHIug7jGpYaq1CMQghSc",
+      "breadcrumb": "https://www.aandlcleaningservices.com › commercial-cl..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Commercial Cleaning Companies in Midland",
+      "description": "For commercial cleaning in Midland, you've got options like Jase Commercial Cleaning, Brooks Cleaning Services, and a Permian Basin company at (432)803-9158 ... Read more",
+      "url": "https://google.com/goto?url=CAESigEBxCJF1679TIhlfkYfz2IsAltQRk_1XM2bPKtJzPlINvR9ynuKiXCWXMzUdiqpfwI3TmzcS9ay6RTvvqyKZ-ySOUsLLk8ez9Lb7Ad0Gy2lnNkFbdru6OQWlCYBjYuUir3UyqFZ7fszP2xiLhaBXil0cuCnU9f62jQP8XSakzQsDbS7FWbCW-gOf2g",
+      "breadcrumb": "https://www.facebook.com › fb-answers › commercial-..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Tall City Commercial Cleaning Midland TX",
+      "description": "Tall City Commercial Cleaning Midland TX. This position is 5 nights per week in Midland from 5:30 - around 8pm so please only apply if you live in Midland. Read more",
+      "url": "https://google.com/goto?url=CAESZwHEIkXXp2kHA1tlbpMmEjthXxmUK5VLYi4p1mgnnlfOuN1e5DYMZ4FX2kKDNema7ZApOZk_j8bmiVlucO49S9ySCH2gDL7rR6DvgOXomrrlXmDl9eI1Cox_6JM2OZH7_01VWB1fdkI",
+      "breadcrumb": "10+ followers"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "commercial cleaning midland",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    36,
+    44,
+    58,
+    45,
+    35,
+    33,
+    34,
+    33,
+    35,
+    38,
+    35,
+    43,
+    42,
+    42,
+    44,
+    46,
+    51,
+    57,
+    51,
+    48,
+    100,
+    59,
+    64,
+    66,
+    66,
+    63,
+    58,
+    63,
+    63,
+    59,
+    59,
+    70,
+    74,
+    74,
+    57,
+    56,
+    49,
+    56,
+    49,
+    47,
+    46,
+    51,
+    49,
+    46,
+    41,
+    43,
+    44,
+    37,
+    46,
+    32,
+    32,
+    39,
+    34,
+    30
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

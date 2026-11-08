@@ -1,0 +1,114 @@
+[
+  {
+    "niche": "carpet cleaning",
+    "total_volume": 195700,
+    "avg_cpc": 12.72,
+    "keyword_count": 3,
+    "top_keywords": [{"keyword": "carpet cleaning", "search_volume": 195700, "cpc": 12.72}],
+    "rationale": "Classic home service, huge volume, proven R&R niche"
+  },
+  {
+    "niche": "house cleaning",
+    "total_volume": 191500,
+    "avg_cpc": 11.39,
+    "keyword_count": 3,
+    "top_keywords": [{"keyword": "house cleaning", "search_volume": 191500, "cpc": 11.39}],
+    "rationale": "Massive volume residential cleaning service"
+  },
+  {
+    "niche": "bed bug treatment",
+    "total_volume": 201000,
+    "avg_cpc": 10.27,
+    "keyword_count": 2,
+    "top_keywords": [{"keyword": "bed bug treatment", "search_volume": 201000, "cpc": 10.27}],
+    "rationale": "High-volume pest control niche, urgent service"
+  },
+  {
+    "niche": "spray foam insulation",
+    "total_volume": 126200,
+    "avg_cpc": 13.00,
+    "keyword_count": 3,
+    "top_keywords": [{"keyword": "spray foam insulation", "search_volume": 126200, "cpc": 13.00}],
+    "rationale": "Distinct from attic insulation — specific service type with high volume"
+  },
+  {
+    "niche": "commercial cleaning",
+    "total_volume": 144700,
+    "avg_cpc": 14.72,
+    "keyword_count": 2,
+    "top_keywords": [{"keyword": "commercial cleaning", "search_volume": 144700, "cpc": 14.72}],
+    "rationale": "High volume B2B cleaning — R&R works for commercial services too"
+  },
+  {
+    "niche": "move out cleaning",
+    "total_volume": 44400,
+    "avg_cpc": 19.17,
+    "keyword_count": 2,
+    "top_keywords": [{"keyword": "move out cleaning", "search_volume": 44400, "cpc": 19.17}],
+    "rationale": "High-CPC niche cleaning specialty, distinct from general house cleaning"
+  },
+  {
+    "niche": "asphalt paving",
+    "total_volume": 36100,
+    "avg_cpc": 11.21,
+    "keyword_count": 2,
+    "top_keywords": [{"keyword": "asphalt paving", "search_volume": 36100, "cpc": 11.21}],
+    "rationale": "Broader than driveway paving — includes commercial lots, roads"
+  },
+  {
+    "niche": "cabinet refinishing",
+    "total_volume": 18330,
+    "avg_cpc": 11.70,
+    "keyword_count": 2,
+    "top_keywords": [{"keyword": "cabinet refinishing", "search_volume": 18330, "cpc": 11.70}],
+    "rationale": "Distinct home improvement service, not covered by kitchen remodeling"
+  },
+  {
+    "niche": "upholstery cleaning",
+    "total_volume": 18100,
+    "avg_cpc": 11.30,
+    "keyword_count": 2,
+    "top_keywords": [{"keyword": "upholstery cleaning", "search_volume": 18100, "cpc": 11.30}],
+    "rationale": "Distinct cleaning specialty"
+  },
+  {
+    "niche": "post construction cleaning",
+    "total_volume": 14800,
+    "avg_cpc": 12.11,
+    "keyword_count": 2,
+    "top_keywords": [{"keyword": "post construction cleaning", "search_volume": 14800, "cpc": 12.11}],
+    "rationale": "Specialized cleaning niche with steady demand from builders"
+  },
+  {
+    "niche": "mobile home leveling",
+    "total_volume": 4300,
+    "avg_cpc": 32.88,
+    "keyword_count": 1,
+    "top_keywords": [{"keyword": "mobile home leveling", "search_volume": 4300, "cpc": 32.88}],
+    "rationale": "Low volume but very high CPC — specialized service, less competition"
+  },
+  {
+    "niche": "hardwood flooring repair",
+    "total_volume": 1900,
+    "avg_cpc": 21.31,
+    "keyword_count": 1,
+    "top_keywords": [{"keyword": "hardwood flooring repair", "search_volume": 1900, "cpc": 21.31}],
+    "rationale": "Distinct from flooring installation — repair vs new install"
+  },
+  {
+    "niche": "countertop refinishing",
+    "total_volume": 1770,
+    "avg_cpc": 11.74,
+    "keyword_count": 1,
+    "top_keywords": [{"keyword": "countertop refinishing", "search_volume": 1770, "cpc": 11.74}],
+    "rationale": "Distinct surface refinishing niche"
+  },
+  {
+    "niche": "hot tub removal",
+    "total_volume": 1900,
+    "avg_cpc": 18.70,
+    "keyword_count": 1,
+    "top_keywords": [{"keyword": "hot tub removal", "search_volume": 1900, "cpc": 18.70}],
+    "rationale": "Niche removal service with good CPC"
+  }
+]

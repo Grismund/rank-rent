@@ -1,0 +1,638 @@
+{
+  "volumes": {
+    "countertop refinishing albuquerque": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "countertop refinishing albuquerque nm": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "countertop refinishing near me": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "countertop refinishing services albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best countertop refinishing albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "albuquerque countertop refinishing": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable countertop refinishing albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "countertop refinishing in albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "countertop refinishing albuquerque",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "countertop refinishing near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "countertop refinishing albuquerque",
+    "topThree": [
+      {
+        "name": "Sandia Marble",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "sandiamarble.com",
+        "phone": "+1505-843-7490",
+        "address": "1424 1st St NW, Albuquerque, NM 87102",
+        "category": "Bathroom remodeler"
+      },
+      {
+        "name": "Get A Grip Resurfacing",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "getagrip.com",
+        "phone": "+1505-268-0929",
+        "address": "8905 Adams St, Albuquerque, NM 87113",
+        "category": "Bathroom remodeler"
+      },
+      {
+        "name": "Superior Solid Surface",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "www.superiorsolidsurfacenm.com",
+        "phone": "+1505-459-4249",
+        "address": "2701 Karsten Ct SE, Albuquerque, NM 87102",
+        "category": "Countertop store"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    40,
+    36,
+    44,
+    48,
+    51,
+    86,
+    73,
+    59,
+    41,
+    36,
+    21,
+    25,
+    25
+  ],
+  "organic_raw": [
+    {
+      "keyword": "countertop refinishing albuquerque",
+      "items_types": [
+        "organic"
+      ]
+    },
+    {
+      "keyword": "countertop refinishing near me",
+      "items_types": [
+        "ai_overview",
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "countertop refinishing albuquerque",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkgEBxCJF14t9o9H5Ig18UsWjgCOhp-Ze31sNCEgEucDtvS0w9KK6JIsqEXTuUeacB1YmljYWai9SNZNFMHhGNxsNk7occZFLAMajNt-dpD4YpAqTyOnbLtu15pxDrQt1NQ-uCp-2xH2tCFzKMKa4kos1WRziVs5KFRRm38_oe2MpNOOQWAdxff5RwNSRDZ8aXiPA7g",
+          "title": "Countertop Installation in Albuquerque, NM",
+          "description": "Our professionals have an average of 13 years of experience serving Bernalillo County and have high customer satisfaction ratings. There's no need to figure out ... Read more",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESegHEIkXXyssxTn-O9QAB8dc57wVadPHzpX2AZgyTW4Z6FUBnLRkAE-LB96xzaUYyrE6CIBoRTNrd9_43z1WCQjmEUXQ6KlzhzE-0SkpH1Qcbrx21yYP5R_v6iK1Zjw4-4dloa_dW0UvuHrp0lyGByOmKbqN8aKgS4XVu",
+          "title": "D M EPOXY COAT COUNTERTOPS - Updated October 2026",
+          "description": "(505) 492-5611. Countertops with gloss and matte epoxy, Countertop Resurfacing",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfwHEIkXXrlTCSgMNDpRMvibTqaV2BzGghpnOrSA-qhug6wEla47GXW4S-C436xge-2gnQlMUTJx96f2mTH70cNbSbKxIrxUpKbuD_QsYBte_WmoCvEaHw1URBPI6Gtz4wFr3x03rtTq_a2T4cikxeKhrjBsEVbbyEOslnrf6OLY",
+          "title": "Granite countertop repairers near Albuquerque, NM",
+          "description": "Here is the definitive list of Albuquerque's granite countertop repairers as rated by the Albuquerque, NM community. Want to see who made the cut?",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESXAHEIkXXQGTr2uw5iReSdQrIqIlgDubn7hCSjz2XdbvsmHKoF77ROhxqu_cZLfnQ212R9a9PRBmbvdpN_FhPN8zFTcNH8U1ix4Jn8867yUVQs34pPTF0ONpQqTvA",
+          "title": "Padilla Granite: Kitchen Countertops Albuquerque, NM",
+          "description": "Padilla Granite is your go-to expert for custom countertops, cabinetry, and sinks in Albuquerque, NM. -quality installations of quartz, granite, and quartzite ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScQHEIkXXrdW9K2z6mnJihXjjDzrfGqRqbzL-XeX1i8GiG2PTEwhTpXsHwT0FvsQPO3mp4J1XVJSiPTY_79Ftf_ykhU1eBSP2nYjDMdIsjFJn4Pob9Aztepkx_uEZS7fZV61p-VTjCzF2VPGd3BC4gDfO",
+          "title": "Countertop professionals near Albuquerque, NM",
+          "description": "Here is the definitive list of Albuquerque's countertop services as rated by the Albuquerque, NM community. Want to see who made the cut?",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfQHEIkXX204sOEG270tMLNhF-jg809zXoK0XeDJHSkzcfgjevE-J0ztNWlY7xBiH6XowSBcacwCHATzhjb83OhBy9si2XWF2dmk_f69-K1oB4VS2CuPpXD1EPnvvKi8ecry_4nl-WPCpeG8ifIkSr91t7Q4UkHzyHgFgXR0v",
+          "title": "Cabinet Refacing Albuquerque, NM",
+          "description": "N-Hance of Albuquerque offers cabinet refacing. Countertops, backsplash, appliances—the options are endless! Call us today at (505) 314-1997 to request an ...",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkwEBxCJF17MBEgcEmoemvCNEbcqlcaO2bxbaqWnqRwdKL3G7OUaBmkjSCawzk3RLLQrqNU9oubPGFYsMFtY3_4WgcrLBl1Qaino5ME4oIxoS6sBNKlVgQ_OWUOJcJVQrlZcTMUKRmZYCOvOGfizky5pShuk4ATT-aXypRVpVWRsSXIo2Jsm6ohyicbz9QuDNXFwq9E0",
+          "title": "TOP 10 BEST Furniture Refinishing in Albuquerque, NM",
+          "description": "Furniture Medic by Bespoke Restoration · Western Furniture Repair Service · Bruno's Furniture Repair · R B Stripping & Refinishing · Bleacher's Refinishing · Get A ... Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYQHEIkXXKI7IzjAsi9dvRGH7mx1uoPedV3Ot00zkHClCj0xDoUJYDH6a6xhEhoZNUd4nfi3ABC0QDnKvJ258zYx0Sd93o4jn78NyfjOO8sp6DodhCAymmeadB8h-w6sDOWE",
+          "title": "Granite Connection | Countertops | Albuquerque, NM",
+          "description": "Countertop design, installation, and repair. (505) 304-4823 … we offer design, fabrication, and installation. 104 Mountain Park Pl NW Albuquerque , NM 87114",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESewHEIkXXBaF7uQkYELg62d7Hagl_P7EXInOnYbJOZY4JHDy4uEECyrJ4uwKAjPIr35aMgOHN5K9s5X09nrXKcBwhYnt0JapZR3JQkPOx7nDBzkCSyE3XInqgGHqUW2c3eMZeYznCVA0GLDMG81vQKgCS09vS38qnTSoe4g",
+          "title": "Top 8 Countertop Fabricators & Installers in Albuquerque ...",
+          "description": "Countertops Contractors presents an honest and independent ranking of countertop companies and countertop installers in Albuquerque, NM, for 2025-2026. Read more",
+          "position": 13
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfgHEIkXXT-vmCDDufict2c_UZ9cL0-vVDHOOVUbCj9rQL55lEnGeqSqaG1pcL1tCuL92zziGBd-SuCQ0CwuHQqv1LwPX8_poklqw5FqZR4Cf1_L9jJWGJGYZ_CFzW7GPsZATOdHOHBrryCJy9Aisja38NLPjbbvHhJHzDOHvqA",
+          "title": "Albuquerque Tile Refinishing Options and Local Contractors",
+          "description": "For Albuquerque tile refinishing, you can resurface existing tile for a fraction of replacement cost with a 5-year warranty, or hire local pros for Saltillo ... Read more",
+          "position": 14
+        }
+      ]
+    },
+    {
+      "keyword": "countertop refinishing near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScAHEIkXXqPkN0mpC9PzPl9bmnhooKTB8CMES4Pn5pzp0wiMRoeWmi7RGjBQI4lu_qA1PzpGL9RRdESyqocTzgj4rr0RUynBZMCDegFl6tkc5GNNiFRg5-UWKVvrdM5vudOxGg_EznHN6M6M365tw8Y8",
+          "title": "Hire the Best Local Countertop resurfacing pros Near Me ...",
+          "description": "Aug 3, 2026 — Find and hire the best local countertop resurfacing pros near you. The cost to install countertops is $3,105 on average. This project cost can ...",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXCGulVeY4ahKBKR3FsXNofFMvDFJtBv5xpqiS2ao3HKNSF2QXbUu3E8s1ifXUOCWvOreGvBfQAUWZHWqu4ai_11M-K6VBoVQkPHXyJrIMQL-e1VLPb7FjT9xAWIJa4RaKy6t7fUxA51tX-tmWgdi_RGWeXls",
+          "title": "Countertop Refinishing | Marion, Sumter, Lake, and ...",
+          "description": "Affordable countertop refinishing for kitchens, bathrooms, and vanities. Serving Marion, Sumter, Lake, and surrounding counties with lasting results.",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbAHEIkXXJlTIwp0Pwlbo-y0MArcJWwe7qDSuBpta4u7b2iimklhWUNHMOdV-Ea-dPW2P8rEil8Hip_0I64kcbMIv2TQDhM6hD63_3iqtRYCOWKoNb5-yW_AloItA25AOJ6al0cvt7UsIyTj6vw",
+          "title": "Hire the Best Local Countertop repair pros Near Me ...",
+          "description": "Aug 3, 2026 — Find and hire the best local countertop repair pros near you with real customer reviews on Angi. match with highly-rated local pros.",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdgHEIkXXW52BwbNN2rAFN3at8i3F_k-WrtCAnuIyaV8VS5KTorjjbVrIB451FkHQjUl75pnDprt4NsIgaKQKDCLLLSYKjEBy1vhWZ5TGHT7xj37bxPbQN3E78xx6mnDRVyJmPnqR7LW_LGk0pwyl1vsfPWpXtKI",
+          "title": "Midland Countertop Refinishing - New Finish",
+          "description": "We specialize in transforming countertops in both residential and commercial settings, infusing them with new vitality and style. Our kitchen refinishing ... Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXAi6aX5J-8C0cd9qm08YOM7o9o7JozMelMQFi0R_WIQdzbHwEiDUJSjcMpu1tpGDAZqSB6QJ5sX21SrXh9JSbQdXKceclxZpWbBU54Jgh6CtoS8dzjpaoho6BTYc1-Y4QI7RCUq1VqYk5F-L4RxD62f8J9vw",
+          "title": "Resurface Countertops - Boulder, CO",
+          "description": "Miracle Method can repair and refinish your laminate, tile and Corian® countertops. Contact us today for a free estimate.",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgQEBxCJF1-ONQ0FKv1OlpirUiKw_85KKZmu1G7r8ZcJC4TDHybsBn6NQp6ytrqIQzjd6n2sCoJIeEOCQZ490aQNmapoGgGbzbcx8EON0yIKtsi-O14J7QcPPXlyE2rOrLAzfiplNGFmZXn509IzIBhbWP_2PEfS4ycnwHW_P-sqNCkY",
+          "title": "Countertop Resurfacing Las Vegas",
+          "description": "We are the Las Vegas countertop resurfacing experts. Mon - Fri 9am - 5pm Sat-SundayClosed. Estimate 206.375.5157",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmQEBxCJF10--fjkHBbnu7qa_zA9sRKsj7eZTFOVjeFvyhxRrXfs0dBXyJghOGkPXOfBwMXW6tXN7oWBYBTb376qFLkOX-Imn2VwNWrlGStW5emZmkzJ1naliAEcM_lLpQI1RjSHd3yY7v9ECRPlXslIac7NM_vJmMufAGK9OLt79Q2W7zCxOIPSr2kKyqqMftdD1FzUfFfTZl5I",
+          "title": "TOP 10 BEST Countertop Refinishing in Colorado Springs ...",
+          "description": "Top 10 Best Countertop Refinishing Near Colorado Springs, Colorado (Updated 2026) · Forest Floor & Home Co · ElkStone Basements · RCJ Construction · Denver Hardwood ... Read more",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScQHEIkXXayNHpa52lHMAhrQQv2C4tLHI7KN_a5weRPFuLjz7oHqEGIs8AX7NiPEA2Xd8gqTYyyKcUM9k7SIGgGyDLFvkf_YdZDbNlEAIS4IBqqN3VKJ3aBNDPMzTWROvUZhOMHGxKTGgMbW_t9QxgZfR",
+          "title": "Fresno Countertop & Vanity Refinishing Service",
+          "description": "Update your bath & kitchen countertops with Reglaze it Now, Fresno's best refinishing service. Perfect for many surfaces, call now to book.",
+          "position": 13
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfwHEIkXX5I17w6kZWp8LtgMhUVEXHIvRQEbVx8AiJTh0JchcvdzGqm6BAkMep_uplNCbNcjEOxDB7DEdqYENs34iTkisCsMsiX3bK4HamL_PAGN6HzEVryeBIOk77B5N9lnWsxmwqnmo4jTjwQpwzLYYQiqlsk8b38yndEQV9SI",
+          "title": "Countertop & Surface Refinishing Memphis",
+          "description": "Miracle Method can repair and refinish your laminate, tile and Corian® countertops in place. We complete the transformation in just 2-3 days with no demolition ... Read more",
+          "position": 14
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Countertop Installation in Albuquerque, NM",
+      "description": "Our professionals have an average of 13 years of experience serving Bernalillo County and have high customer satisfaction ratings. There's no need to figure out ... Read more",
+      "url": "https://google.com/goto?url=CAESkgEBxCJF14t9o9H5Ig18UsWjgCOhp-Ze31sNCEgEucDtvS0w9KK6JIsqEXTuUeacB1YmljYWai9SNZNFMHhGNxsNk7occZFLAMajNt-dpD4YpAqTyOnbLtu15pxDrQt1NQ-uCp-2xH2tCFzKMKa4kos1WRziVs5KFRRm38_oe2MpNOOQWAdxff5RwNSRDZ8aXiPA7g",
+      "breadcrumb": "https://www.homedepot.com › ... › NM › Albuquerque"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "D M EPOXY COAT COUNTERTOPS - Updated October 2026",
+      "description": "(505) 492-5611. Countertops with gloss and matte epoxy, Countertop Resurfacing",
+      "url": "https://google.com/goto?url=CAESegHEIkXXyssxTn-O9QAB8dc57wVadPHzpX2AZgyTW4Z6FUBnLRkAE-LB96xzaUYyrE6CIBoRTNrd9_43z1WCQjmEUXQ6KlzhzE-0SkpH1Qcbrx21yYP5R_v6iK1Zjw4-4dloa_dW0UvuHrp0lyGByOmKbqN8aKgS4XVu",
+      "breadcrumb": "https://m.yelp.com › biz › d-m-epoxy-coat-countertops..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Granite countertop repairers near Albuquerque, NM",
+      "description": "Here is the definitive list of Albuquerque's granite countertop repairers as rated by the Albuquerque, NM community. Want to see who made the cut?",
+      "url": "https://google.com/goto?url=CAESfwHEIkXXrlTCSgMNDpRMvibTqaV2BzGghpnOrSA-qhug6wEla47GXW4S-C436xge-2gnQlMUTJx96f2mTH70cNbSbKxIrxUpKbuD_QsYBte_WmoCvEaHw1URBPI6Gtz4wFr3x03rtTq_a2T4cikxeKhrjBsEVbbyEOslnrf6OLY",
+      "breadcrumb": "https://www.thumbtack.com › NM › Albuquerque"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Padilla Granite: Kitchen Countertops Albuquerque, NM",
+      "description": "Padilla Granite is your go-to expert for custom countertops, cabinetry, and sinks in Albuquerque, NM. -quality installations of quartz, granite, and quartzite ...",
+      "url": "https://google.com/goto?url=CAESXAHEIkXXQGTr2uw5iReSdQrIqIlgDubn7hCSjz2XdbvsmHKoF77ROhxqu_cZLfnQ212R9a9PRBmbvdpN_FhPN8zFTcNH8U1ix4Jn8867yUVQs34pPTF0ONpQqTvA",
+      "breadcrumb": "https://www.padillagranite.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Countertop professionals near Albuquerque, NM",
+      "description": "Here is the definitive list of Albuquerque's countertop services as rated by the Albuquerque, NM community. Want to see who made the cut?",
+      "url": "https://google.com/goto?url=CAEScQHEIkXXrdW9K2z6mnJihXjjDzrfGqRqbzL-XeX1i8GiG2PTEwhTpXsHwT0FvsQPO3mp4J1XVJSiPTY_79Ftf_ykhU1eBSP2nYjDMdIsjFJn4Pob9Aztepkx_uEZS7fZV61p-VTjCzF2VPGd3BC4gDfO",
+      "breadcrumb": "https://www.thumbtack.com › NM › Albuquerque"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Cabinet Refacing Albuquerque, NM",
+      "description": "N-Hance of Albuquerque offers cabinet refacing. Countertops, backsplash, appliances—the options are endless! Call us today at (505) 314-1997 to request an ...",
+      "url": "https://google.com/goto?url=CAESfQHEIkXX204sOEG270tMLNhF-jg809zXoK0XeDJHSkzcfgjevE-J0ztNWlY7xBiH6XowSBcacwCHATzhjb83OhBy9si2XWF2dmk_f69-K1oB4VS2CuPpXD1EPnvvKi8ecry_4nl-WPCpeG8ifIkSr91t7Q4UkHzyHgFgXR0v",
+      "breadcrumb": "https://www.nhance.com › albuquerque › cabinet-refacin..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "TOP 10 BEST Furniture Refinishing in Albuquerque, NM",
+      "description": "Furniture Medic by Bespoke Restoration · Western Furniture Repair Service · Bruno's Furniture Repair · R B Stripping & Refinishing · Bleacher's Refinishing · Get A ... Read more",
+      "url": "https://google.com/goto?url=CAESkwEBxCJF17MBEgcEmoemvCNEbcqlcaO2bxbaqWnqRwdKL3G7OUaBmkjSCawzk3RLLQrqNU9oubPGFYsMFtY3_4WgcrLBl1Qaino5ME4oIxoS6sBNKlVgQ_OWUOJcJVQrlZcTMUKRmZYCOvOGfizky5pShuk4ATT-aXypRVpVWRsSXIo2Jsm6ohyicbz9QuDNXFwq9E0",
+      "breadcrumb": "https://www.yelp.com › Home Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Granite Connection | Countertops | Albuquerque, NM",
+      "description": "Countertop design, installation, and repair. (505) 304-4823 … we offer design, fabrication, and installation. 104 Mountain Park Pl NW Albuquerque , NM 87114",
+      "url": "https://google.com/goto?url=CAESYQHEIkXXKI7IzjAsi9dvRGH7mx1uoPedV3Ot00zkHClCj0xDoUJYDH6a6xhEhoZNUd4nfi3ABC0QDnKvJ258zYx0Sd93o4jn78NyfjOO8sp6DodhCAymmeadB8h-w6sDOWE",
+      "breadcrumb": "https://www.graniteconnectionnm.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Top 8 Countertop Fabricators & Installers in Albuquerque ...",
+      "description": "Countertops Contractors presents an honest and independent ranking of countertop companies and countertop installers in Albuquerque, NM, for 2025-2026. Read more",
+      "url": "https://google.com/goto?url=CAESewHEIkXXBaF7uQkYELg62d7Hagl_P7EXInOnYbJOZY4JHDy4uEECyrJ4uwKAjPIr35aMgOHN5K9s5X09nrXKcBwhYnt0JapZR3JQkPOx7nDBzkCSyE3XInqgGHqUW2c3eMZeYznCVA0GLDMG81vQKgCS09vS38qnTSoe4g",
+      "breadcrumb": "https://countertopscontractors.com › New Mexico"
+    },
+    {
+      "type": "organic",
+      "rank_group": 10,
+      "rank_absolute": 14,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Albuquerque Tile Refinishing Options and Local Contractors",
+      "description": "For Albuquerque tile refinishing, you can resurface existing tile for a fraction of replacement cost with a 5-year warranty, or hire local pros for Saltillo ... Read more",
+      "url": "https://google.com/goto?url=CAESfgHEIkXXT-vmCDDufict2c_UZ9cL0-vVDHOOVUbCj9rQL55lEnGeqSqaG1pcL1tCuL92zziGBd-SuCQ0CwuHQqv1LwPX8_poklqw5FqZR4Cf1_L9jJWGJGYZ_CFzW7GPsZATOdHOHBrryCJy9Aisja38NLPjbbvHhJHzDOHvqA",
+      "breadcrumb": "https://www.facebook.com › fb-answers › albuquerque-..."
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "countertop refinishing albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    42,
+    39,
+    40,
+    39,
+    38,
+    32,
+    38,
+    38,
+    37,
+    45,
+    30,
+    49,
+    53,
+    34,
+    48,
+    39,
+    70,
+    41,
+    45,
+    48,
+    49,
+    74,
+    100,
+    86,
+    89,
+    70,
+    82,
+    85,
+    92,
+    59,
+    49,
+    60,
+    71,
+    65,
+    41,
+    51,
+    34,
+    35,
+    44,
+    48,
+    43,
+    36,
+    28,
+    27,
+    16,
+    15,
+    30,
+    23,
+    24,
+    20,
+    31,
+    26,
+    20,
+    30
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

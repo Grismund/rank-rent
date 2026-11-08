@@ -1,0 +1,619 @@
+{
+  "volumes": {
+    "hot tub removal houston": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 0,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "hot tub removal houston tx": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "hot tub removal near me": {
+      "search_volume": 40,
+      "cpc": 0,
+      "competition_index": 37,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "hot tub removal services houston": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best hot tub removal houston": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "houston hot tub removal": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable hot tub removal houston": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "hot tub removal in houston": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "hot tub removal near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "hot tub removal houston",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "hot tub removal houston",
+    "topThree": [
+      {
+        "name": "Space City Spa Movers",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "houstonspacecityspamovers.com",
+        "phone": "+1832-362-2268",
+        "address": "6922 Moss Rose St, Houston, TX 77087",
+        "category": "Mover"
+      },
+      {
+        "name": "Speedy Recycle Junk Removal",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "speedyrecyclejunkremoval.net",
+        "phone": "+1832-960-2590",
+        "address": "",
+        "category": "Junk removal service"
+      },
+      {
+        "name": "Bongo Junko - Junk Removal Downtown Houston",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "www.bongojunko.com",
+        "phone": "+1832-510-9004",
+        "address": "2211 Live Oak St, Houston, TX 77003",
+        "category": "Waste management service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    38,
+    46,
+    44,
+    50,
+    72,
+    74,
+    66,
+    82,
+    79,
+    67,
+    60,
+    46,
+    42
+  ],
+  "organic_raw": [
+    {
+      "keyword": "hot tub removal near me",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "hot tub removal houston",
+      "items_types": [
+        "organic"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "hot tub removal near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlQEBxCJF19raY_eXm5aTarMkbi-ririWYOL6i_5dQLkpSQpFl3dfGHEGp5DAAua2OIApC76BbePFyCWu-5J2WAYg-lgLuPhTn53oGqfe1WzsSpQpFB-y8FpvMnwv1FjSRkYowr4Z8H_1t1AE5FeOLBc9x-jtENUqhEUV1zx9UraePOXK_9hc4qtiAlPqip2Hp6JjdMtclA",
+          "title": "TOP 10 BEST Hot Tub Pickup and Removal in Shreveport ...",
+          "description": "Top 10 Best Hot tub pickup and removal Near Shreveport, Louisiana (Updated 2026) ; J&A Haul Away · 6.7 mi · Shreveport, LA 71106. (318) 560-4020 ; Two Amigos Junk ... Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESrwEBxCJF10I7NG-ATGdfmaCMxdzjxsqN4C4Xqf8ENbI9fCX-BIGOu3QuZd8ESB89_Fn2Y39MOCUgyDqyPh45M0ga1piHO6d3GjBNKWqCbB8bQo84nKfIiWg_PotPJEUr66rk1pZHs7KRcucHal4pDRMkQzZRcsf0-ezNNcIGQEMX7fTb1SF8Qa8-DsIaCXPOx-LoZAqevo9dL8U6qclGlmOIRiC3EpBBOyoTIOK2dQX7",
+          "title": "Hot Tub Removal in New Orleans, LA ~ Instant Online Pricing",
+          "description": "Schedule a pickup today in New Orleans, LA. Text (678) 884-4738 Call (844) 239-7711 … in-home and curbside hot tub pickup and removal the New Orleans area. hot ...",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZAHEIkXX1u06NmjSvomIfCw2pqJhjtj8x_NVU8SsgfMtBtJpy2r7kJlIQj16R53v0ei-XGtMfhdlDTG2zVhh9hxCWwBRK1dCXJFuiUVMi2sAmtclJotzhSL_IoZNN7oqlrF0ULk",
+          "title": "Hot Tub Removal & Disposal in DFW - JunksAway",
+          "description": "Old hot tub or spa? JunksAway dismantles and hauls away hot tubs of any size across Dallas–Fort Worth. Call (972) 904-2323 for a free quote.",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjwEBxCJF16KRZXdc14BlMZeSgpmRo9DIOxshE3n4j6XqJBBkuX9hPxGd9PGiXRtXHjzQQ3_n_ENLCSrLkq3LANGvWuirXXrrdd8viyTtlUonMB6IectCO-cft6hr2-GMgq41IITVosYFQOawzPoq75EwmhQy__i7Z05_DNDC6NEAM8TirnREqgrCr74583yfzA",
+          "title": "TOP 10 BEST Hot Tub Removal in Oklahoma City, OK",
+          "description": "Hot Tub Removal Near Oklahoma City, 1901 W 33rd St, Ste A10 Edmond, OK 73112 (405) 900-8387",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESegHEIkXXlSHuE_SttLnWhBsxgjo1hpRs-wZik3yf6L8zpUvec4AcgrJya7XbQvLQ1FKIAZJAkanEVRmgipaO8ohflhuHX5LZqGo09Jgge0mpgli0ayZADLt0L6nzG-I2bXzaVOFHGtkSbt9PZ8UfJ9O6qg5pn5v0ox-V",
+          "title": "Hot Tub & Spa Removal Service",
+          "description": "The hot tub is indeed taking up more space in your home. Let us haul it away for you. Once we've taken it away from your house, we'll try out best to get it ... Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmwEBxCJF16bT0Jsmig4y16fnchMobytdTySwq8aNGhGpw9PZhi7JORh2_oEoYJd69XiLGOiM_BIecpsa-uLMwDdCjxKbarBGlsHf9XgNMe6kCwxpc56_tDxw3CRuwA8FrjMD7o2l1KJ6vVaYxNEmrZEVzmJTT_c762PDBt0JDTMGSuJFIGm_Y5czyWBfHPIBxxQvRJGnWeaqfWtuyA",
+          "title": "Top 10 Best Hot Tub Pickup And Removal Near Port St. ...",
+          "description": "Top 10 Best Hot Tub Pickup And Removal Near Port St. Lucie, Florida",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkAEBxCJF19MiNNkR1CArIGzj0FNXZMzQ1Nj3diZUQuJtdUc72THrEBPVN1FHma7bx5W2140vdnRROyEM6Wi5FKtojeneHe3FXf5vg5TWV8LKYh0Hnb_d1wiVf-B54N0tg0XWgCRKz8UHi8fYPy5i-Z2k3AO7yopf6ss4zHgLLUGzjH4-YmmOD4FJoArP6dK794M",
+          "title": "Hot Tub & Spa Removal in Baton Rouge, LA",
+          "description": "We disassemble and remove hot tubs, spas, and above-ground pools. Includes demolition, loading, hauling, and disposal. starting at $200/hr, dump fees included, ... Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiQEBxCJF1yPWfahxmLf0_kmuF3yskyFC2lhAyxVt925mhOytf5u0uCVkaBRwg-NuUVPWOGgis07JS1R_FczM7CzYgyQLsNrd0UCF1AydyqSGxhQn6LCpWCt-FLZKKySicTG0PUCIyrjsUQP2OCaZseEfVEcazBD2YC3y6lt2QsCCSjbLJWYNaAB73Q",
+          "title": "TOP 10 BEST Hot Tub Removal in Madison, WI",
+          "description": "Hot Tub Removal Near Madison, Wisconsin. Femrite Dr, Unit 4 Madison, WI 53718 (608) 405-8024 Free consultations",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiwEBxCJF1wehErNO2ysTNqER5MtORkYIxHMwXg3AjygTDd_nsxIwvnCFkVEMtR4bp8DeHvnhNoDWBTSkQLzIPksq0Wn5H62kcbd11hBltWJGrI3x88QUyHIX_hHIFAS7grMuGC0r0DY98NKTpQcW585V-f3IeIczt3vxWCgzE8uZkz0nsPbLto-a0nGl",
+          "title": "TOP 10 BEST Hot Tub Pickup and Removal in Memphis, TN",
+          "description": "Top 10 Best Hot tub pickup and removal Near Memphis, Tennessee (Updated 2026) · Roberts Moving · WasteAway Junk Removal · JunkBusters Mid-South · Golden Haul. Read more",
+          "position": 13
+        }
+      ]
+    },
+    {
+      "keyword": "hot tub removal houston",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaQHEIkXXqx-NWP6DMPvZ8WUE_VKCPOKtnPTZ-3MqJwoVm2EtxOTTzcz57P2PmkHFKu3KX_rfHAXAn_3n_7u0t2Xv8eAAwyhSONKVzn_5lva8WZVVoC028uYbRxJZaYa8tYgudU9JZI8S2w",
+          "title": "spa & hot moving, relocation & installation",
+          "description": "If you need to move a hot tub in Houston, call Aahhh Comfort Spas. We have been moving hot tubs for the families of Houston for over 25 years. Read more",
+          "position": 1
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShQEBxCJF1zgtNZA9HSdSaA8N0PkXFJ_W-FGO3awU4pmEWOY569C711gTu8_kSxJ_30QvFeIegqGCYm4Rx50Kxk9P7LOY-7p9bFVX_ZX5FbLa58gQph8sKSv_kOnOVsKpYoNTkl3IYNKTZL-nrwzgO9_71-OZh2UvQId_JeQeM2ubcnciQi7R",
+          "title": "Hot tub removal services in Nassau Bay, TX",
+          "description": "832-856-9586 JUNKX. Need an old hot tub, furniture, appliances, or junk removed? Call us for a free estimate at 708-998-5865! Our expert team ...",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScAHEIkXXj40F9o_JjRycAgDJJR_pUkdPKoBfk7_-mDjHgORz-0mF5Bvjoe0thltAJzgLI3SE5fZ1s5pJgM_ge0PN-08bCVm6HwU_Jkcw0bGcPv5zaVQOFgMqHFHo4OeBD6HOW1CIm9f0G8O-dBibLSA",
+          "title": "Hot tub movers near Houston, TX",
+          "description": "Here is the definitive list of Houston's hot tub movers as rated by the Houston, TX community. Want to see who made the cut?",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESqAEBxCJF1wGMzRxLN1Zl9zM_qaxNgxBbCiE2d1xJNsKHi9-FIs0kbuHjPCwvGYQZIG6HJDreqxlAJ4NNagtpeqcMupHXD4Gn6-B8v-Qy_3oKfDf1NMsKYh2naBsmL5CYr0ZXP5tItp26w-g641KA1vW0Z9pYlCkH-ld3d7mjIuKMrtKcwoOqTfqESSspOxeAdIJrXkM73hdef8xnFPZ3ne8GUJKmzCryT9I",
+          "title": "Hot Tub Removal in Katy, TX ~ Instant Online Pricing",
+          "description": "Get expert hot tub haul away help. Our pick up and removal services in Katy are backed by our team of Loaders who aren't just skilled; they're fully insured. Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfwHEIkXXCGD1gWi4S5tnzlc7CuJNrzTYmi4A75ouf1ffmsOwA5Iqf79QKRjkhFmhGXT_NKfk5UqiOYajbLgo_N_B22wKaLSx3h3FaV05zFcWwqf5-zJtwoTdi_tgYmbE3i6ZYec2VCmxxtHQ2EZM62372WI1c7LMOpdsGHquKXY",
+          "title": "That old hot tub in your backyard is costing you more than ...",
+          "description": "Public HOT TUB REMOVAL … ✅ Same-day & next-day service. Call or text: 469-996-1696",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfgHEIkXXIYa1KVd09mTE1FFsfPhmCbbbELzyOAPUFi1olkmZb3SHGDW928MSg5UVHV1K6v3l6h88P68GLjd1KDhWwuc3V6Wr1rqV2GZpLo_iRoLJBRWUzq0UiNUp7-vdbn3w-BBCM8kFAzfoYfJ1ntp3XbKq8nyY41iQkXVQDQ",
+          "title": "Who Removes Hot Tubs in Katy, TX?",
+          "description": "Nov 1, 2025 — Tex Mex Junk Removal is the area's expert for safe, efficient hot tub removal and disposal. Most residential hot tub removals in Katy run $350- ...",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaQHEIkXX778u9usJCIEUuixZtuLH3GJXYmVlZ3zvsYibVij8caf2NTvbudjsWY-u-Ucgn--qvjkAC-GV5nk2biWyRDXStuIq2i3UN1_De-vBUDGYVzFO1k6BjPbd00wsVx68M6vRvpaHuQ",
+          "title": "Hot tub delivery in Houston, TX",
+          "description": "Looking for hot tub delivery in Houston, TX? Book friendly movers for pickup, delivery, and on-demand placement—fast scheduling.",
+          "position": 13
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShgEBxCJF19L2IKl6dZ8Ts7tFiwQS2V2AMQc8N8kbB39tmZ54_NwO7rIp6MdebR8xKQibpGBaLwDDOjJbGD5K-HBHr0jR8NE70fNsdASnYYIoMneSMziWqVx2xgtYKboppmi9Gaays2FYjnu_qTgUQm_zlgoQ00bbW4aUs_CzHPc1oF_AZKVnkQ",
+          "title": "TOP 10 BEST Hot Tub Removal in Katy, TX - Updated 2026",
+          "description": "Top 10 Best Hot Tub Removal Near Katy, Texas (Updated 2026) ; Junk King Katy · Junk Removal & Hauling · Recycling Center. 5.3 mi · 6539 Pitts Rd, Katy, TX 77493. ( ... Read more",
+          "position": 14
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgAEBxCJF11H2sZi8azQ7KqIPz3NLkRQYsADkDVTsOTUKUNPacc2am4BpKgqsiN_7DxvCiAznLf4N44WL1JDbrnoymX73VHFaEl4sJawk9Sgua3swU2MQT_6y0cQgbycgig3qVB-86S-KHHWcfH2_7ORTCoZpqEzrDTZ6FKPOkgkNww",
+          "title": "Hot Tub Removal: How to Remove a Hot Tub",
+          "description": "Our hot tub removal service can cost anywhere from $200-$1200. This depending on the size and quality of the hot tub as well as the amount of demolition work ... Read more",
+          "position": 15
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "google.com",
+      "title": "spa & hot moving, relocation & installation",
+      "description": "If you need to move a hot tub in Houston, call Aahhh Comfort Spas. We have been moving hot tubs for the families of Houston for over 25 years. Read more",
+      "url": "https://google.com/goto?url=CAESaQHEIkXXqx-NWP6DMPvZ8WUE_VKCPOKtnPTZ-3MqJwoVm2EtxOTTzcz57P2PmkHFKu3KX_rfHAXAn_3n_7u0t2Xv8eAAwyhSONKVzn_5lva8WZVVoC028uYbRxJZaYa8tYgudU9JZI8S2w",
+      "breadcrumb": "https://aahhhcomfortspas.com › relocation"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Hot tub removal services in Nassau Bay, TX",
+      "description": "832-856-9586 JUNKX. Need an old hot tub, furniture, appliances, or junk removed? Call us for a free estimate at 708-998-5865! Our expert team ...",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF1zgtNZA9HSdSaA8N0PkXFJ_W-FGO3awU4pmEWOY569C711gTu8_kSxJ_30QvFeIegqGCYm4Rx50Kxk9P7LOY-7p9bFVX_ZX5FbLa58gQph8sKSv_kOnOVsKpYoNTkl3IYNKTZL-nrwzgO9_71-OZh2UvQId_JeQeM2ubcnciQi7R",
+      "breadcrumb": "1 week ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Hot tub movers near Houston, TX",
+      "description": "Here is the definitive list of Houston's hot tub movers as rated by the Houston, TX community. Want to see who made the cut?",
+      "url": "https://google.com/goto?url=CAEScAHEIkXXj40F9o_JjRycAgDJJR_pUkdPKoBfk7_-mDjHgORz-0mF5Bvjoe0thltAJzgLI3SE5fZ1s5pJgM_ge0PN-08bCVm6HwU_Jkcw0bGcPv5zaVQOFgMqHFHo4OeBD6HOW1CIm9f0G8O-dBibLSA",
+      "breadcrumb": "https://www.thumbtack.com › TX › Houston"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Hot Tub Removal in Katy, TX ~ Instant Online Pricing",
+      "description": "Get expert hot tub haul away help. Our pick up and removal services in Katy are backed by our team of Loaders who aren't just skilled; they're fully insured. Read more",
+      "url": "https://google.com/goto?url=CAESqAEBxCJF1wGMzRxLN1Zl9zM_qaxNgxBbCiE2d1xJNsKHi9-FIs0kbuHjPCwvGYQZIG6HJDreqxlAJ4NNagtpeqcMupHXD4Gn6-B8v-Qy_3oKfDf1NMsKYh2naBsmL5CYr0ZXP5tItp26w-g641KA1vW0Z9pYlCkH-ld3d7mjIuKMrtKcwoOqTfqESSspOxeAdIJrXkM73hdef8xnFPZ3ne8GUJKmzCryT9I",
+      "breadcrumb": "https://goloadup.com › katy › hot-tub-removal"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "That old hot tub in your backyard is costing you more than ...",
+      "description": "Public HOT TUB REMOVAL … ✅ Same-day & next-day service. Call or text: 469-996-1696",
+      "url": "https://google.com/goto?url=CAESfwHEIkXXCGD1gWi4S5tnzlc7CuJNrzTYmi4A75ouf1ffmsOwA5Iqf79QKRjkhFmhGXT_NKfk5UqiOYajbLgo_N_B22wKaLSx3h3FaV05zFcWwqf5-zJtwoTdi_tgYmbE3i6ZYec2VCmxxtHQ2EZM62372WI1c7LMOpdsGHquKXY",
+      "breadcrumb": "1 week ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Who Removes Hot Tubs in Katy, TX?",
+      "description": "Nov 1, 2025 — Tex Mex Junk Removal is the area's expert for safe, efficient hot tub removal and disposal. Most residential hot tub removals in Katy run $350- ...",
+      "url": "https://google.com/goto?url=CAESfgHEIkXXIYa1KVd09mTE1FFsfPhmCbbbELzyOAPUFi1olkmZb3SHGDW928MSg5UVHV1K6v3l6h88P68GLjd1KDhWwuc3V6Wr1rqV2GZpLo_iRoLJBRWUzq0UiNUp7-vdbn3w-BBCM8kFAzfoYfJ1ntp3XbKq8nyY41iQkXVQDQ",
+      "breadcrumb": "https://texmexjunk.com › our-blog › who-removes-hot-..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Hot tub delivery in Houston, TX",
+      "description": "Looking for hot tub delivery in Houston, TX? Book friendly movers for pickup, delivery, and on-demand placement—fast scheduling.",
+      "url": "https://google.com/goto?url=CAESaQHEIkXX778u9usJCIEUuixZtuLH3GJXYmVlZ3zvsYibVij8caf2NTvbudjsWY-u-Ucgn--qvjkAC-GV5nk2biWyRDXStuIq2i3UN1_De-vBUDGYVzFO1k6BjPbd00wsVx68M6vRvpaHuQ",
+      "breadcrumb": "https://lugg.com › Houston, TX"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 14,
+      "page": 1,
+      "domain": "google.com",
+      "title": "TOP 10 BEST Hot Tub Removal in Katy, TX - Updated 2026",
+      "description": "Top 10 Best Hot Tub Removal Near Katy, Texas (Updated 2026) ; Junk King Katy · Junk Removal & Hauling · Recycling Center. 5.3 mi · 6539 Pitts Rd, Katy, TX 77493. ( ... Read more",
+      "url": "https://google.com/goto?url=CAEShgEBxCJF19L2IKl6dZ8Ts7tFiwQS2V2AMQc8N8kbB39tmZ54_NwO7rIp6MdebR8xKQibpGBaLwDDOjJbGD5K-HBHr0jR8NE70fNsdASnYYIoMneSMziWqVx2xgtYKboppmi9Gaays2FYjnu_qTgUQm_zlgoQ00bbW4aUs_CzHPc1oF_AZKVnkQ",
+      "breadcrumb": "https://www.yelp.com › Local Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 15,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Hot Tub Removal: How to Remove a Hot Tub",
+      "description": "Our hot tub removal service can cost anywhere from $200-$1200. This depending on the size and quality of the hot tub as well as the amount of demolition work ... Read more",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF11H2sZi8azQ7KqIPz3NLkRQYsADkDVTsOTUKUNPacc2am4BpKgqsiN_7DxvCiAznLf4N44WL1JDbrnoymX73VHFaEl4sJawk9Sgua3swU2MQT_6y0cQgbycgig3qVB-86S-KHHWcfH2_7ORTCoZpqEzrDTZ6FKPOkgkNww",
+      "breadcrumb": "https://jmjunkremovers.com › hot-tub-removal-how-to-r..."
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "hot tub removal houston",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    46,
+    40,
+    37,
+    35,
+    34,
+    48,
+    47,
+    40,
+    48,
+    35,
+    49,
+    43,
+    48,
+    57,
+    43,
+    33,
+    65,
+    66,
+    68,
+    73,
+    69,
+    85,
+    85,
+    71,
+    80,
+    59,
+    69,
+    67,
+    51,
+    68,
+    73,
+    80,
+    98,
+    77,
+    72,
+    100,
+    74,
+    87,
+    56,
+    74,
+    68,
+    75,
+    55,
+    65,
+    59,
+    65,
+    78,
+    38,
+    57,
+    33,
+    54,
+    39,
+    41,
+    42
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

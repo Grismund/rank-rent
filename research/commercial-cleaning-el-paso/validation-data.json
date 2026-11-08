@@ -1,0 +1,673 @@
+{
+  "volumes": {
+    "commercial cleaning el paso": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 0,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 30
+        }
+      ]
+    },
+    "commercial cleaning el paso tx": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "commercial cleaning near me": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 27,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "commercial cleaning services el paso": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best commercial cleaning el paso": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "el paso commercial cleaning": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "affordable commercial cleaning el paso": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "commercial cleaning in el paso": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "commercial cleaning el paso",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "commercial cleaning el paso",
+    "topThree": [
+      {
+        "name": "Specialized Cleaning",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "specializedcleaningep.com",
+        "phone": "+1915-248-3148",
+        "address": "221 N Kansas St, El Paso, TX 79901",
+        "category": "Janitorial service"
+      },
+      {
+        "name": "Western Janitorial Service",
+        "reviews": 0,
+        "rating": 4.5,
+        "domain": "westernjanitorial.com",
+        "phone": "+1915-533-7107",
+        "address": "2124 Montana Ave, El Paso, TX 79903",
+        "category": "Janitorial service"
+      },
+      {
+        "name": "ServiceMaster Commercial Cleaning by Legacy",
+        "reviews": 0,
+        "rating": 4.9,
+        "domain": "www.servicemasterclean.com",
+        "phone": "+1915-701-2180",
+        "address": "1401 Montana Ave, El Paso, TX 79902",
+        "category": "Janitorial service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    44,
+    34,
+    40,
+    46,
+    63,
+    65,
+    60,
+    69,
+    53,
+    48,
+    41,
+    37,
+    32
+  ],
+  "organic_raw": [
+    {
+      "keyword": "commercial cleaning el paso",
+      "items_types": [
+        "organic"
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "images",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "commercial cleaning el paso",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESwQEBxCJF1-Dwk0aPKSySnZQNFUZFWI_tnrUrqRWdNFQZNhM4nUi76NyAyt-9AEcOxj2VYpEAUzgS_pNgHEvRaaZ3EYIETKDJhI7w14uJnGYSPLLSmy1YQwiV0M7TmYfrH7UGTB0MpkyprPcsDOrR0OZDqBU-pqAoubJtk3y_M2HfJ231mQzWa0yqgZ8zN170583q-5dpZzkLBOSE5JlZ6KEC0pmj6D7WJRJCe76rDPN9GJkdYcakyxFhMVdV-WtP8Y6I",
+          "title": "Shopping Center & Retail Cleaning Services | El Paso, TX",
+          "description": "Give ServiceMaster Commercial Cleaning by Legacy a call at (915) 701-2180 and see how our expert team can keep your El Paso retail space visitor-ready from the ... Read more",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESyAEBxCJF13MbuiZ-PtikFzYBkpfjf30ny1qOfIjzlOyvfDmQBJHw-zV5Ine106RKe5K3bxpuwUFlWkLW7Z5c1R8SWEHcYdpZg7ZQOhRtB4-XVKv8-4pHJ-4BnP93s68GbVucO5HtdHKaDyKRAEh_zV7By8mRUcWmtLiF7ez7bS6jiEI1v_xWcpb3jELFdSvkSTqW_b8GJjniATfrhdvqRsx7SUNiZnRZYslYZV9E7IN4O4vMiA6bwD2efvWDr_ekpHaSYXYmfl0vrg",
+          "title": "Helping El Paso businesses maintain clean, professional ...",
+          "description": "✓ Call us today at (915) 858-1942 to schedule your commercial cleaning. #CommercialCleaning #FloorCare #ElPasoBusiness # ... Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF16GDgjjLL8RN1fqThYF0yfVzUh175r_7hWGVZk7Ja4AZIOk_dZczgenPEPFrIrHAcTSnEGZwp4kN427KWkRQaG3fieGUn68UqCDMOGPj_LthYLjT8VAmHCFGtVyz83MK1nUHI2XcV1NFt8jBi9PJMLwFStPOf-g_dCGbpaurBxErHLS9oW9FWQ",
+          "title": "TOP 10 BEST Janitorial Services in El Paso, TX",
+          "description": "Clean Up Squad provides professional commercial cleaning and specialty cleaning services for businesses throughout El Paso, TX.",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlAEBxCJF15qqsniQ7Vu1sm6m3t-Il_557mmmyWAx7-PU3By3YVP1jDa4ox3NQ3Adf5u__ORFpHq7b_znsfweX8wUvxcl0diVYOCPz-C2hdd6jOb48j__31sXzXlSpXSqJgD5YnMpjZ5pSODT2mdoYreUHsfn4-nKca0PzBQqwJQTisxwJSclZaslLsls-6xL4K0P5fRj",
+          "title": "Specialty Cleaning Services - SERVPRO of West El Paso",
+          "description": "SERVPRO offers expert cleaning for biohazards, HVAC, air ducts, graffiti, sewage, crime scenes, odor removal, and more. (915) 234-2614 (915) 234-2614 Service ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfAHEIkXX1xcaaoQ2h_fo1EzBkhBpKaQWCI3OcbheX24QlmJW0701HHHOZTzNJw8Xh9j0dhgqDbsRfq1BFRm5BU8kFecpyMhGPdebHvewHXGU0wtRqSa0l75TryDXKwqeLoVzOxd73opLczxI2BbANplVX8iH_K8wAVWBYxM",
+          "title": "Commercial janitorial cleaning services - El Paso",
+          "description": "commercial janitorial company in the West Texas/El Paso area. We can help, we are located in El Paso Texas Totalcleaning-ep.com. Public to ...",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdgHEIkXXvPLKul7vfacu8KdlSg5E0pJCrh0D-nGdljADx4I3yo8dHUhPVJ1Qsg8Q1GCBkeGPLkCXRSgc5pz4oi3eTa6bgw7NVpZqHdF4-OY6HuApX0VeUASlqPyyWw7q0TucQNh-2f5m9pIbRFm-5q475-HPwqA",
+          "title": "I&S Cleaning Services - 5112 Mumm Ln, El Paso, Texas",
+          "description": "More info about I&S Cleaning Services ; 5112 Mumm Ln. El Paso, TX 79924. Directions ; (915) 309-2003. Call Now ; Visit Website. https://cesarg111.wixsite.com/ ... Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESnAEBxCJF13Hu4g3g8UKun7cjhrh_ngD35EnQ3ne69O21BErq-bQn4N8MMWuW5Xm-WZiWSfx2YNMcSUNVW9LAUoRYsGzmu5yQBkOvwf3cvHBQMXWQUiPNH8dnJYxXlKmLXXCSPWlaj63BDKrV2ClnDbD9tAcI53vift4F95CoCFmJrxS4q7zaRqpKQEk1Vr_OGay5N7gpSOgvLfSWFDU",
+          "title": "Industrial Warehouse Cleaning Services in El Paso, TX",
+          "description": "El Paso's #1 Cleaning Team – No Shortcuts. No Excuses. Corporate site. Commercial Cleaning Services for Warehouses in El Paso, TX. Call Us Now! 915-265-5075. Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESVgHEIkXXgOfpdPPjHyt6FX3j2xQGodT05XudkXQvUA1gNTgtLndQ_ZesAexcx7o5zxiBZZQ0SWS4bIzd4o1F5cyXsWI-Gh96Vzf-mfVGKiz2i9MVqUYw",
+          "title": "BZBee Cleaning Services: Cleaning services in El Paso",
+          "description": "Cleaning services in El Paso, TX. BZBee Cleaning provides quality and consitent office cleaning.services. Insured and bonded.",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESggEBxCJF192jZpOAsHyZzG-x2rPU2W-qaZPD_GT-F2IJAfmYWEGJq7cPLV75aQlLFnQ1Fv9UdyIs91dAyOa0HFnSzio2Wt1XovQgvtOEJcS6FHDhOrqf2r_SRo350cUk_lYeMw5U2_J8wQgZVmwww7BQ8hV0oIWVHz9zYyaTMrJyxaps",
+          "title": "THE BEST 10 OFFICE CLEANING IN EL PASO, TX",
+          "description": "Clean Up Squad provides professional commercial cleaning and specialty cleaning services for businesses throughout El Paso, TX. We help businesses maintain ... Read more",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZgHEIkXXIZdOabrwWicqdO9ooLw4swX19QkWiw6CfcXY2nQrfq2Nk2OtR3NTZtt0h4rxPqWMZOqYagGjRjjMbYoUY4RlLPAJe2CosqpzEiVCdGRNWxwOnjiRBraW3vNxKhkkJ_U7Sw",
+          "title": "The 10 Best Commercial Cleaning Services Near Me (2026)",
+          "description": "Top 10 commercial cleaning services near you Homeowners agree: these commercial cleaning services are highly rated for knowledge, experience, communication, ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZAHEIkXXZtDC_7_sPU866OD_bm4dpXymKmOXedLsH4bgYi7r0yg2nFqro8AIi_62J3k1A5MiOJG6g6YgAwMjhx4C-dZRe2kddEanToQ3jYcu-YiuD15MvQEGhUhM24CniJd33tk",
+          "title": "Commercial Cleaning Services in Oceanside, CA - JAN-PRO",
+          "description": "JAN-PRO provides commercial cleaning, janitorial services, and office cleaning for Oceanside, CA businesses. Call (858) 210-6413 for a free estimate.",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScgHEIkXXfUssvP9D3N--ZIkgHVIPEUqlLGTAmAn6f6po5x4adu0LleXDeRKBwFBSrj4siBnsRou7Mv_iD14hRaNm-norMJK7zxmrc8BvAEVxtKQYpDOyeH2zzDo-444dKQgQsUTgTYrPUGadztNYKQRmNA",
+          "title": "Commercial Cleaning Services Sedona, AZ",
+          "description": "Professional commercial cleaning services in Sedona, AZ. Call 1-800-664-6393 Executive Cleaning Services Trusted commercial cleaning since 1976.",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlQEBxCJF16VmMBlnk3GY78XU9coqEZHghHcxl01Ud7VKVNb9p7qMUIYGoWsEqkl6DBZaU4HNabCVP2blskEPZPaGca52c5tKvTRUuNrCSPRFlGhejGq8O3i4QEeBw3wSXag0UIh_7tV1w8fkAjj6WSo0uUYZqsDfYLuww-n39nNarypr3EFF4bUOSiJSPKwTEuKUHv1ilw",
+          "title": "TOP 10 BEST Commercial Cleaning Services in Kenner, LA",
+          "description": "Top 10 Best Commercial Cleaning Services Near Kenner, Louisiana (Updated 2026) ; HR Cleanings · 11.9 mi · New Orleans, LA 70130 ; Mimi's Cleaning · 15.3 mi · Gretna, ... Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESigEBxCJF17OnaH6pEpUGZy_jv71dVdauzXI_lyCX6H2BchhbkUOB7pBlex5y3oPsrceGCfLWzvpqKD2Sv72DTxGQgbnB8SWiEk1BG_l2bZNCkvb7vYKPcZ5C1j7A2od3Txc0i9VGTZ7Jldn_F5Ng5is14alfVl368i3Eg_PRGjyWWaHenT_D2BvUDCQ",
+          "title": "ServiceMaster Commercial Services Shawnee",
+          "description": "(405) 504-3659 Commercial Cleaning. Providing Customized Cleaning Plans in Shawnee and Surrounding Areas (405) 504-3659 Today's Hours: 9:00 AM - 5:00 PM",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESnAEBxCJF16E7MuYXAVIX4wsp-0UpnUK03O2clmGbtu0S5nn2EajYR-0c-iqykbYlDFGdhuDQdA1l9rxXCsCWGscY2g4VZ7nyxGmHQgPYwbPPvByakq59JrTek0xZNyPRwW2AnviV7esGFJVH-HP8QdpDYz7Ixe_D-jTcB56snmoC0gdmdzpNIElQXFRRloXkbKlR1GjGBLU4duOp1rI",
+          "title": "TOP 10 BEST Commercial Cleaning Services in Santa ...",
+          "description": "Top 10 Best Commercial Cleaning Services Near Santa Barbara, California (Updated 2026) ; Sparkle & Shine Cleaning. 5.0 (1 review). Home Cleaning. 79.9 mi ; Magic ... Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjQEBxCJF12D_s95R3i3zrY2QKd6ORY9TQlPJNAC0kqmbz8jaTg2mAhQXKdbbWk4MiPAFU8FTZl3JpLcdFbdRxkGMEwWJLn-tsFUX9e-yQ0jsla-vm3z3V9UcPQFVU0yfjwx7AoO5dQ04e1PeK_5m1vT6rGXt854fUuMpQz8-0WPRhcsp4wsRwXOUe0PYEfs",
+          "title": "Best Commercial Cleaning near Chalmette, LA - Yelp",
+          "description": "Best Commercial Cleaning near Chalmette, LA ; Kleencare Maid & Janitorial Services · 1.2 mi · Chalmette, LA 70043. (504) 418-3761 ; Clara Cleaning Services · 0.2 mi. Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYwHEIkXXVtyJrcsIQ374g8-hJTtEANDLkvhmxv4apDWJziH---w5a7zGToZrCfGaQzrMuqEkrcBz7icJOXxbfSB-XIMQZARGHtM0eMqBTe-Zt6yvqI5QitWyXV7xlRzdPSq-MA",
+          "title": "Janitorial Services in Pomona, Ca.",
+          "description": "Smart Janitorial provides Janitorial Service as part of our broader Commercial Cleaning, Office Cleaning, Day Porter Services, Facility Services, floor care, ...",
+          "position": 11
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Shopping Center & Retail Cleaning Services | El Paso, TX",
+      "description": "Give ServiceMaster Commercial Cleaning by Legacy a call at (915) 701-2180 and see how our expert team can keep your El Paso retail space visitor-ready from the ... Read more",
+      "url": "https://google.com/goto?url=CAESwQEBxCJF1-Dwk0aPKSySnZQNFUZFWI_tnrUrqRWdNFQZNhM4nUi76NyAyt-9AEcOxj2VYpEAUzgS_pNgHEvRaaZ3EYIETKDJhI7w14uJnGYSPLLSmy1YQwiV0M7TmYfrH7UGTB0MpkyprPcsDOrR0OZDqBU-pqAoubJtk3y_M2HfJ231mQzWa0yqgZ8zN170583q-5dpZzkLBOSE5JlZ6KEC0pmj6D7WJRJCe76rDPN9GJkdYcakyxFhMVdV-WtP8Y6I",
+      "breadcrumb": "https://www.servicemasterclean.com › industries-we-serve"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Helping El Paso businesses maintain clean, professional ...",
+      "description": "✓ Call us today at (915) 858-1942 to schedule your commercial cleaning. #CommercialCleaning #FloorCare #ElPasoBusiness # ... Read more",
+      "url": "https://google.com/goto?url=CAESyAEBxCJF13MbuiZ-PtikFzYBkpfjf30ny1qOfIjzlOyvfDmQBJHw-zV5Ine106RKe5K3bxpuwUFlWkLW7Z5c1R8SWEHcYdpZg7ZQOhRtB4-XVKv8-4pHJ-4BnP93s68GbVucO5HtdHKaDyKRAEh_zV7By8mRUcWmtLiF7ez7bS6jiEI1v_xWcpb3jELFdSvkSTqW_b8GJjniATfrhdvqRsx7SUNiZnRZYslYZV9E7IN4O4vMiA6bwD2efvWDr_ekpHaSYXYmfl0vrg",
+      "breadcrumb": "190+ reactions  ·  1 week ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "TOP 10 BEST Janitorial Services in El Paso, TX",
+      "description": "Clean Up Squad provides professional commercial cleaning and specialty cleaning services for businesses throughout El Paso, TX.",
+      "url": "https://google.com/goto?url=CAESjAEBxCJF16GDgjjLL8RN1fqThYF0yfVzUh175r_7hWGVZk7Ja4AZIOk_dZczgenPEPFrIrHAcTSnEGZwp4kN427KWkRQaG3fieGUn68UqCDMOGPj_LthYLjT8VAmHCFGtVyz83MK1nUHI2XcV1NFt8jBi9PJMLwFStPOf-g_dCGbpaurBxErHLS9oW9FWQ",
+      "breadcrumb": "https://www.yelp.com › Home Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Specialty Cleaning Services - SERVPRO of West El Paso",
+      "description": "SERVPRO offers expert cleaning for biohazards, HVAC, air ducts, graffiti, sewage, crime scenes, odor removal, and more. (915) 234-2614 (915) 234-2614 Service ...",
+      "url": "https://google.com/goto?url=CAESlAEBxCJF15qqsniQ7Vu1sm6m3t-Il_557mmmyWAx7-PU3By3YVP1jDa4ox3NQ3Adf5u__ORFpHq7b_znsfweX8wUvxcl0diVYOCPz-C2hdd6jOb48j__31sXzXlSpXSqJgD5YnMpjZ5pSODT2mdoYreUHsfn4-nKca0PzBQqwJQTisxwJSclZaslLsls-6xL4K0P5fRj",
+      "breadcrumb": "https://www.servpro.com › locations › services › specialty"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Commercial janitorial cleaning services - El Paso",
+      "description": "commercial janitorial company in the West Texas/El Paso area. We can help, we are located in El Paso Texas Totalcleaning-ep.com. Public to ...",
+      "url": "https://google.com/goto?url=CAESfAHEIkXX1xcaaoQ2h_fo1EzBkhBpKaQWCI3OcbheX24QlmJW0701HHHOZTzNJw8Xh9j0dhgqDbsRfq1BFRm5BU8kFecpyMhGPdebHvewHXGU0wtRqSa0l75TryDXKwqeLoVzOxd73opLczxI2BbANplVX8iH_K8wAVWBYxM",
+      "breadcrumb": "3 comments  ·  2 years ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "I&S Cleaning Services - 5112 Mumm Ln, El Paso, Texas",
+      "description": "More info about I&S Cleaning Services ; 5112 Mumm Ln. El Paso, TX 79924. Directions ; (915) 309-2003. Call Now ; Visit Website. https://cesarg111.wixsite.com/ ... Read more",
+      "url": "https://google.com/goto?url=CAESdgHEIkXXvPLKul7vfacu8KdlSg5E0pJCrh0D-nGdljADx4I3yo8dHUhPVJ1Qsg8Q1GCBkeGPLkCXRSgc5pz4oi3eTa6bgw7NVpZqHdF4-OY6HuApX0VeUASlqPyyWw7q0TucQNh-2f5m9pIbRFm-5q475-HPwqA",
+      "breadcrumb": "https://www.yelp.com › ... › Office Cleaning"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Industrial Warehouse Cleaning Services in El Paso, TX",
+      "description": "El Paso's #1 Cleaning Team – No Shortcuts. No Excuses. Corporate site. Commercial Cleaning Services for Warehouses in El Paso, TX. Call Us Now! 915-265-5075. Read more",
+      "url": "https://google.com/goto?url=CAESnAEBxCJF13Hu4g3g8UKun7cjhrh_ngD35EnQ3ne69O21BErq-bQn4N8MMWuW5Xm-WZiWSfx2YNMcSUNVW9LAUoRYsGzmu5yQBkOvwf3cvHBQMXWQUiPNH8dnJYxXlKmLXXCSPWlaj63BDKrV2ClnDbD9tAcI53vift4F95CoCFmJrxS4q7zaRqpKQEk1Vr_OGay5N7gpSOgvLfSWFDU",
+      "breadcrumb": "https://enviro-master.com › el-paso-texas › warehouse-c..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "BZBee Cleaning Services: Cleaning services in El Paso",
+      "description": "Cleaning services in El Paso, TX. BZBee Cleaning provides quality and consitent office cleaning.services. Insured and bonded.",
+      "url": "https://google.com/goto?url=CAESVgHEIkXXgOfpdPPjHyt6FX3j2xQGodT05XudkXQvUA1gNTgtLndQ_ZesAexcx7o5zxiBZZQ0SWS4bIzd4o1F5cyXsWI-Gh96Vzf-mfVGKiz2i9MVqUYw",
+      "breadcrumb": "https://bzbeecleaning.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "THE BEST 10 OFFICE CLEANING IN EL PASO, TX",
+      "description": "Clean Up Squad provides professional commercial cleaning and specialty cleaning services for businesses throughout El Paso, TX. We help businesses maintain ... Read more",
+      "url": "https://google.com/goto?url=CAESggEBxCJF192jZpOAsHyZzG-x2rPU2W-qaZPD_GT-F2IJAfmYWEGJq7cPLV75aQlLFnQ1Fv9UdyIs91dAyOa0HFnSzio2Wt1XovQgvtOEJcS6FHDhOrqf2r_SRo350cUk_lYeMw5U2_J8wQgZVmwww7BQ8hV0oIWVHz9zYyaTMrJyxaps",
+      "breadcrumb": "https://www.yelp.com › ... › Office Cleaning"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "commercial cleaning el paso",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    36,
+    44,
+    58,
+    45,
+    35,
+    33,
+    34,
+    33,
+    35,
+    38,
+    35,
+    43,
+    42,
+    42,
+    44,
+    46,
+    51,
+    57,
+    51,
+    48,
+    100,
+    59,
+    64,
+    66,
+    66,
+    63,
+    58,
+    63,
+    63,
+    59,
+    59,
+    70,
+    74,
+    74,
+    57,
+    56,
+    49,
+    56,
+    49,
+    47,
+    46,
+    51,
+    49,
+    46,
+    41,
+    43,
+    44,
+    37,
+    46,
+    32,
+    32,
+    39,
+    34,
+    30
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

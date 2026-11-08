@@ -4,7 +4,7 @@
 // Pulls backlink data via DataForSEO, audits competitor pages, writes reports
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs'
-import { parseCandidatesCsv, serializeCandidatesCsv, isNicheCompetitor } from '../lib/candidates.js'
+import { parseCandidatesCsv, serializeCandidatesCsv, extractCompetitorDomains } from '../lib/candidates.js'
 import { createClient } from '../lib/dataforseo-client.js'
 
 // --- CLI args ---
@@ -93,19 +93,9 @@ async function main() {
   for (const c of qualifiers) {
     const rawPath = `research/${c.slug}/validation-data.json`
     const raw = JSON.parse(readFileSync(rawPath, 'utf8'))
-    const allDomains = []
-    for (const o of (raw.organic || [])) {
-      for (const d of (o.topDomains || [])) {
-        // Strip www. for dedup
-        const clean = d.replace(/^www\./, '')
-        if (!allDomains.includes(clean) && isNicheCompetitor(d)) {
-          allDomains.push(clean)
-        }
-      }
-    }
     teardowns.push({
       candidate: c,
-      competitors: allDomains.slice(0, 4),
+      competitors: extractCompetitorDomains(raw),
       backlinks: [],
       onPage: [],
     })

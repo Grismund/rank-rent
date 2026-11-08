@@ -1,0 +1,697 @@
+{
+  "volumes": {
+    "commercial cleaning albuquerque": {
+      "search_volume": 10,
+      "cpc": 1.16,
+      "competition_index": 62,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "commercial cleaning albuquerque nm": {
+      "search_volume": 30,
+      "cpc": 7.3,
+      "competition_index": 47,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 30
+        }
+      ]
+    },
+    "commercial cleaning near me": {
+      "search_volume": 30,
+      "cpc": 15.39,
+      "competition_index": 8,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 90
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "commercial cleaning services albuquerque": {
+      "search_volume": 30,
+      "cpc": 7.3,
+      "competition_index": 47,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 30
+        }
+      ]
+    },
+    "best commercial cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "albuquerque commercial cleaning": {
+      "search_volume": 10,
+      "cpc": 1.16,
+      "competition_index": 62,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "affordable commercial cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "commercial cleaning in albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "commercial cleaning albuquerque nm",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "commercial cleaning albuquerque",
+    "topThree": [
+      {
+        "name": "Quality Solutions Cleaning Service",
+        "reviews": 0,
+        "rating": 4.3,
+        "domain": "www.qualitysolutionsnm.com",
+        "phone": "+1505-226-5349",
+        "address": "500 Marquette Ave NW Ste 1200-A, Albuquerque, NM 87102",
+        "category": "Janitorial service"
+      },
+      {
+        "name": "Emerald Commercial Cleaning",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "emeraldcommercialcleaning.com",
+        "phone": "+1505-200-1903",
+        "address": "4100 Menaul Blvd NE #2AA, Albuquerque, NM 87110",
+        "category": "Cleaners"
+      },
+      {
+        "name": "Zia Building Maintenance",
+        "reviews": 0,
+        "rating": 4.9,
+        "domain": "ziabuildingmaintenance.com",
+        "phone": "+1505-373-0975",
+        "address": "3306 4th St NW Ste C, Albuquerque, NM 87107",
+        "category": "Janitorial service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    44,
+    34,
+    40,
+    46,
+    63,
+    65,
+    60,
+    69,
+    53,
+    48,
+    41,
+    37,
+    32
+  ],
+  "organic_raw": [
+    {
+      "keyword": "commercial cleaning albuquerque nm",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_search",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "commercial cleaning albuquerque nm",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWAHEIkXXJx2ZyLM-7uLR0dOq04f4SLxptKCJ5tTWvneVqnz0odvhdzFetzqgTjS8PdY22kR3QCLOXcxxTyus_WY5cCM7qiEroJMFLD0insd1BK42eTVNQpM",
+          "title": "24 7 Commercial And Office Cleaning: About Us and Janitorial ...",
+          "description": "In Albuquerque and surrounding regions, we provide competitively priced commercial cleaning ... Albuquerque, NM,. 505 448-6173 info@24-7nmcleaning.com. Please ... Read more",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgQEBxCJF17nEGs8ck9Sp50HalrwcHEgJowRWA0iju3jBoVaoaNGIMrCvOUR01OGf-lCbPCzlrak4DEDIfAqmSVjP5sd0hbzsFcDcvl2CczckwyEr8JG2w7IWhwaWUn73aimzjuUSetnd5f53G01un1ruk8Hv7nq3zurz3rxJpQC6Ngw",
+          "title": "Commercial Cleaning Service | Albuquerque, NM",
+          "description": "Enviro-Master offers dependable commercial cleaning services in Albuquerque … 3750-C Hawkins St NE, Albuquerque, NM 87109 505-738-8807",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdgHEIkXX8ZQgnbVH4TfUqRTCGlLDQQDG4brg2kwrl-2FFEibm-M-u0AHciciPrVV1Nuq7AtgcC82mtQigNtmxTuRa_w7c8MXmlaxO9qJsXIF23ryzkP8NGHBFZ3v_0aODWEZtjC_kqXNWFB3Y6ppWFAfg8I0FMM",
+          "title": "Top 10 commercial cleaning services in Albuquerque, NM",
+          "description": "At Elite Cleaners NM, we are committed to delivering top-quality cleaning services in Albuquerque. Specializing in both residential and commercial cleaning, our ... Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESXAHEIkXX4IjcIDEdtZr3VLGA3_6WhjG5DoJkDaK4ji7ozDBrsas0U9W0knosgRQYf_ZT4W42kfvbKeEbmcnPMccQKhRxrUVoLuFY0eoVo9vJz1-S3NezKATaCCpe",
+          "title": "Albuquerque Cleaning Service & Janitorial Service",
+          "description": "Get Free Quote for top-rated commercial cleaning service in Albuquerque ! Quality Solutions ensures spotless, tailored janitorial services for your business.",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESegHEIkXXdx8oXl5phjjljtcnoLj8KImgRe7sLMDmS2vS59r8x1WR7UyW2xBrad0BPBoOiu0xhO-D2USzoVMRbYKbm4vMti-DOGH_BZ-LTq1JhMPcd2tIp0KWIkriNdIYhrP0-pmTwOyexK0xyq37vyu7kMuPkuP30XKp",
+          "title": "Janitorial Services",
+          "description": "The Pro's Commercial Cleaning, LLC offers a wide range of services. Whether you need daily cleaning or weekly floor maintenance, we've got you covered. Our ... Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiAEBxCJF16mufLQiGBjExM4lbs0eKBKBXxo_2rKQRKQTEib7RzcUS4nL14bKFo_LnP_sHKIR7DEmBZrfxIOx4sGr5EHWNwL_zMfcwJ_B0yG-ZUMd4RYtJjeBvA4z4SfrtilVufrOXdt6YphXC6aliDI7XuoQCmEZKEMbkAEhuJnZs0DxoRnEfGfG",
+          "title": "Best Commercial Cleaning Companies in Albuquerque, NM",
+          "description": "Commercial cleaning costs in Albuquerque typically range from $0.08–$0.18 per square foot per month for standard janitorial, depending on scope, frequency, and ... Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZAHEIkXXcMTxKxnIayS95Q_-pZMqBuboa_k0C-x9JvdlzAcEr_7aV4P5Mx5DDOIxO3IK0ExVqUfFHjwbRNPpNXCqDBuZff8F9riwQeKlGue1sxATVw45o9La4cQDJWEv7BlW7h0",
+          "title": "A&A Cleaning Services | Albuquerque NM",
+          "description": "Commercial & Office Cleaning. Serving Albuquerque & 📞 (505) 410-8729 | (505) 804-1599. We offer commercial and residential cleaning (505) 410-8729 … 📞 (505) ...",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmAEBxCJF148a3gY1r-WObgWgDfz4GbtGFXoEnEM3WtVuCULTnf8qzHCafT0bq3qqNRAwyloBFM3HR8JY-6y6cSbM9yyTBF6qcVH4cxvTpwUiROP1AhOMX9VtWH4j-2Szwp3Lf98cnMRU3RjHiak4Z6h8EtFQDbQD5kOV1PuR9iSl9E2Dl08JrBBrurfb4hC-W4xiDW0kZQZC5A",
+          "title": "General Cleaning and Janitorial Services",
+          "description": "SERVPRO of Albuquerque provides expert residential and commercial cleaning, including carpets, upholstery, floors, and more. With advanced technology ...",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESqAEBxCJF1wvi_ovaEbg5CSAQAnjMtvyPpuJxMhFEo6EhZAaNR3UW5Vjkw0zXEUYg6I2Jn4l_IUYH0MQbvbN3vmkFNrtc9Aj6bHvNNzg6ghV0MgRNpXRaG0bmwE4Z9pKbo7DhYQ_Gp16ND3mh3fS8Eccx_hnzTjVmFqqUJwBFnJbIuaex6rFFiynZkSpvI-IRnc8ioi90_kzpSdNsjm_XMjfTWvAkyasZBCo",
+          "title": "Janitorial Services in Albuquerque",
+          "description": "Ensure a clean, healthy, and productive workspace with our janitorial services in Albuquerque. Call (505) 421-4291 or request a free quote online! Comprehensive ... Read more",
+          "position": 13
+        }
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZgHEIkXX9sEjkKvoFXioTtGcHIrypplsCvHRB7Y17VC86es2oG1hbz7gyupSBZyZydQWTsirANBZP7EX1AoH4LrSqMDNHfo1_1D5OHsBYrTjm-MdDCLlc50T03omaZMS_eYgEgjdlg",
+          "title": "The 10 Best Commercial Cleaning Services Near Me (2026)",
+          "description": "Top 10 commercial cleaning services near you Homeowners agree: these commercial cleaning services are highly rated for knowledge, experience, communication, ...",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbgHEIkXXe6J9NgtaJhPdhYuURShaFOTyBmQy85nMmGMI3sOiNbS4LGI5EFkC5dQ5o3mURXzJzParUl-ePEnEDWMFhnKFTwGUq1h5b_Bbpt7ZG_VOj5dGwKKWkGL3yLkrtJPPIZ5RbZaeBGEPbbeY",
+          "title": "Cleaning Services in Denver, CO - Hello Clean",
+          "description": "Cleaning services in Denver for homes and businesses. House cleaning billed hourly per cleaner, no minimums; commercial on custom pricing. Insured crews.",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkQEBxCJF19v922sR3jSfJhJOFT0tL86TvYVJg7lc3eo7qm2JLpncAU8XjGEX5lMbUpFCxE_zgPtbDSjKlottdu8TvHpiRDB1ZWvOUkDSGXgKmawPMDsiLoaRZdHL-faTvN5I-a-cylalxYJbYuSy4BoB3NQYINWpQANjHxogFHpRIdRSNFnCZ02iuCHj027f8adE",
+          "title": "TOP 10 BEST Office Cleaning in North Las Vegas, NV",
+          "description": "Top 10 Best Office Cleaning in North Las Vegas, Nevada. Free price estimates from local Office Cleaning Companies. Diamonds Cleaning Services",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScgHEIkXXD2hmorlX4dsGOoSC2slWSl7yRgUQjJEaodhMJyKqPQjhD1H7IQYSPzB2QohbK6ftczxd0eim4v5CtsWyZ19c_2I0Pe_34HurL49EzptiIiXeulJyvEAkLjcQJWwFSse5A5fTRgCYoI_RTvI7Wg",
+          "title": "Commercial Cleaning Services Sedona, AZ",
+          "description": "Professional commercial cleaning services in Sedona, AZ. No Contracts Required Background Checked. Touch 1-800-664-6393 Offices",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjQEBxCJF10VCHS7HxR4uzY1zp4Nfvqsil0PvDu-QhJIjyw9IagFYllyFKy33-meUgvhrVcCjyivRXxveTBWiaVH3EPLydi-WoNB5uOaTjvDQPjfl57pi9RSZ86_QLaXRF_L9bf5uFLmMZHnnRxkRnPZly0rCKZyakEYaThG0dieL44ZtChCPoW0fqBRhiUI",
+          "title": "TOP 10 BEST Commercial Cleaning near Chalmette, LA",
+          "description": "Best Commercial Cleaning near Chalmette, LA ; Kleencare Maid & Janitorial Services · 1.2 mi · Chalmette, LA 70043. (504) 418-3761 ; Clara Cleaning Services · 0.2 mi. Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdQHEIkXXTKsd7PUu0h9Xa20qZdf0IoamNMECbnm071qVnoT1eYA515YYvSfEgKpuQnUeT6JEN6_tkHDbwcK0JGATycryKP6fPK0fKZA1qh612Eg-eerGmvChBNM0MOcNr9PtgBKokNxGgFf5K6K3YXzH9ZriBQ",
+          "title": "Commercial Cleaning in Chicago and Suburbs",
+          "description": "Office, medical and retail cleaning across Chicago and the suburbs. Flat-rate quotes, vetted and insured cleaners. Based in La Grange, Illinois.",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESagHEIkXXt-hFG6-xFXOR6M45sroiW3cAlh7GeTHsPDHGBGEMILjqM2zxdwgkxjw3REMP11JnxXb-J-VOoXi1J1sknK43--4CELpW38hW5ScjkUrcpgxx3P-_nnn9eoTno_mm_QyOI9Pon1o",
+          "title": "Bay Area Janitorial Services | Commercial Cleaning",
+          "description": "Shine Facility Services offers commercial cleaning & janitorial services to clients throughout the Bay Area. We utilize green cleaners to help you Shine.",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESnAEBxCJF1wMusEUoTCQGOdZ4LNBPDqauiSiK1Qc81e5ATAWCeu8J1WgKH-w5GxH1eXcD9rK_xh5pe5VGFrh69m2Vczl4VXTNSjzpWfxvNtNe9ku6QftE8McrlApXmOWKWi4dYZZb6OMWVLP95Y1poh-roEMCDvZG7BP4HBMi85JWSZVcrhDg5aDjQi6Bbc509KUEHD2UlBbNJlW3vTE",
+          "title": "TOP 10 BEST Commercial Cleaning Services in Santa ...",
+          "description": "Top 10 Best Commercial Cleaning Services Near Santa Barbara, California (Updated 2026) ; Sparkle & Shine Cleaning. 5.0 (1 review). Home Cleaning. 79.9 mi ; Magic ... Read more",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "commercial cleaning albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    36,
+    44,
+    58,
+    45,
+    35,
+    33,
+    34,
+    33,
+    35,
+    38,
+    35,
+    43,
+    42,
+    42,
+    44,
+    46,
+    51,
+    57,
+    51,
+    48,
+    100,
+    59,
+    64,
+    66,
+    66,
+    63,
+    58,
+    63,
+    63,
+    59,
+    59,
+    70,
+    74,
+    74,
+    57,
+    56,
+    49,
+    56,
+    49,
+    47,
+    46,
+    51,
+    49,
+    46,
+    41,
+    43,
+    44,
+    37,
+    46,
+    32,
+    32,
+    39,
+    34,
+    30
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

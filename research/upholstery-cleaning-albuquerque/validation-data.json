@@ -1,0 +1,862 @@
+{
+  "volumes": {
+    "upholstery cleaning albuquerque": {
+      "search_volume": 50,
+      "cpc": 16.74,
+      "competition_index": 95,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+        }
+      ]
+    },
+    "upholstery cleaning albuquerque nm": {
+      "search_volume": 50,
+      "cpc": 16.74,
+      "competition_index": 95,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+        }
+      ]
+    },
+    "upholstery cleaning near me": {
+      "search_volume": 10,
+      "cpc": 26.09,
+      "competition_index": 76,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+        }
+      ]
+    },
+    "upholstery cleaning services albuquerque": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "best upholstery cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "albuquerque upholstery cleaning": {
+      "search_volume": 50,
+      "cpc": 16.74,
+      "competition_index": 95,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+        }
+      ]
+    },
+    "affordable upholstery cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "upholstery cleaning in albuquerque": {
+      "search_volume": 50,
+      "cpc": 16.74,
+      "competition_index": 95,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+        }
+      ]
+    }
+  },
+  "organic": [
+    {
+      "keyword": "upholstery cleaning albuquerque",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "upholstery cleaning albuquerque nm",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "upholstery cleaning albuquerque",
+    "topThree": [
+      {
+        "name": "ThoroClean",
+        "reviews": 0,
+        "rating": 4.7,
+        "domain": "abqthoroclean.com",
+        "phone": "+1505-883-0437",
+        "address": "3206 Alta Monte Ave NE, Albuquerque, NM 87107",
+        "category": "Carpet cleaning service"
+      },
+      {
+        "name": "5 Stones Carpet Cleaning",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "5stonescarpetcleaning.com",
+        "phone": "+1505-506-5588",
+        "address": "2021 Meadow View Dr NW, Albuquerque, NM 87104",
+        "category": "Carpet cleaning service"
+      },
+      {
+        "name": "Xtreme Clean, LLC",
+        "reviews": 0,
+        "rating": 4.2,
+        "domain": "www.xtremecleannm.com",
+        "phone": "+1505-796-0505",
+        "address": "100 Trumbull Ave SE, Albuquerque, NM 87102",
+        "category": "Carpet cleaning service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    33,
+    29,
+    32,
+    37,
+    49,
+    78,
+    64,
+    82,
+    86,
+    72,
+    48,
+    50,
+    40
+  ],
+  "organic_raw": [
+    {
+      "keyword": "upholstery cleaning albuquerque",
+      "items_types": [
+        "organic"
+      ]
+    },
+    {
+      "keyword": "upholstery cleaning albuquerque nm",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "upholstery cleaning albuquerque",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiwEBxCJF1wk5OPnCKIO-mEN_dpHwagH51oO8azR0haUmI19YsH0st6Swl_q5gbhnYuLRgjyjiSYvm7C4NsoTV5nZ350uBYx2Zr7GmaGtLODjzMU8i4I9bB0u8vn1Wa7psfHrchyKq9YM_dHEjz3kdfBu-E39kgG7MSA-4vS-xHtZ-fOKla13bTxjqYiE",
+          "title": "Top 10 Best Couch cleaners in Albuquerque, NM",
+          "description": "Read real reviews and see ratings for Albuquerque, NM couch cleaners for free! Upholstery and Furniture Cleaning Service 4.7 (529)",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdQHEIkXXqcFOz7BqWfjE0yaDIUoMV87uUuJiEjv1XfKAJLbwqs83DnkZVKisoFXVa3gZcX8UErTEBluRhoT1Z6gNmmIfyz3vDfS365rLtKW9CCFBqK7hVz1DFnUrI2h0xQ8PoJkh4OXzQs5KWW0wbtqjgkDNvQ",
+          "title": "Carpet Cleaning Albuquerque, NM",
+          "description": "If you live in Albuquerque, NM or surrounding areas, you can hire us for these services: Carpet & Rug Cleaning · Upholstery Cleaning · Tile And Grout Cleaning Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESegHEIkXXk9WErAmQPPQgxRQpD0FiKpbnxYPRAdeprPFygZgk5dswDLX3lCP7STXz9ljxDU8k3ug7Ncl8lggxcIezNUL4BRChb7qcSYpj8rTX6o-WvQiXfvvVCWFKigYkEb2M_E2_QaNzxPf6Knrl6vUyvvLMygyxws2s",
+          "title": "Carpet Cleaning in Albuquerque, NM",
+          "description": "Book professional carpet cleaning services in Albuquerque, NM. Trusted providers, transparent pricing, and modern management tools.",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESywEBxCJF11wZYaSJ7fgRSL1LJ-r50y2sFmH6tEcMxlGKQDAd_qagbzXhGr529nVPuYZCosk-Sj6dadT1U8DcXxONu34NmriV3EO52u8RNdfGarZuesZZSiiGKGcJAYO0E_-1yEg-aFYbqYj34pS3b3GEqtwYxPQvY4ZSwG4b8QkJ3TpMLjEUwjVdit2jXBY62WJlN3oLaj3jkJq_EHiLCUcXEK86lMJmQfHNzdSF4zXYcQFQUo_K-3zeryoEdAiZ_0qfXZE4q7TyOTNvyQ",
+          "title": "Albuquerque upholstery cleaning services for homes with ...",
+          "description": "ThoroClean provides professional upholstery cleaning for Albuquerque-area homes, Call 505-883-0437 to schedule service. 📍 3206 Alta Monte Ave ...",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESagHEIkXXvaDMXkzzNwBxlBJl63_lhmR5Jes0-_2PudP1Sd8V4Jfgc0Cml-hckyo64N56cpMF0so139GW-ivkPKsUr68x1-SZ5HPKU9YNx6bfLUSbs8g9IVZ_H1Sy9JqY75YDEwQeivFrohU",
+          "title": "Chem-Dry of New Mexico",
+          "description": "(505) 883-1133. Serving Albuquerque City, We clean carpets, upholstery, tile & grout, and rugs. Hours Monday-Friday 7am-5pm, Saturday 9am-3pm, Closed",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXyXV_eYRvSFisXnQHZ3U64HXVqYdYfqwPlb9yxXQz9IRVoz66DGBpbo4csfBwoopH3PEwuYQT3xZhekPewSplPJ3HjBMbuqknn8u1LnpfTGLwQ0oyULWhSzO16wL3g388PcNLtcw86eV-QhunjVqgtA4sH78",
+          "title": "Carpet Cleaning Albuquerque, NM | Stain & Odor Removal",
+          "description": "We perform a wide range of cleaning services : carpet; upholstery; tile/grout and hard surfaces, area/oriental rugs; water extraction; stains and odor treatment ...",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiAEBxCJF13D3GlVDvz6lMFHX4UZVCFcA96KwDiayjevl6ojCCK6LC4Z427S_GbbKmIYHO4qMWVlNiCH81YwULYXVkv4mU-1h_2Gjuhtz3VPSkqmACLcR20_QHcuZvcKISxTFAVSbVCbTc-PuEJQO_El5mvipKudCWgBWejWQZRljjA61XvBpydRA",
+          "title": "THE BEST 10 CARPET CLEANING IN ALBUQUERQUE, NM",
+          "description": "Steamed Green specializes in premium carpet, tile and grout, and upholstery cleaning. These are the best upholstery cleaning in Albuquerque, NM: DanCare Carpet ...",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjQEBxCJF10Qe-cHy2E0VwYfJOYG7Km5L7ysk34JA5k6BZa_6gixMqz8T-QD27NlJ0o7YHShYLST-t5oP4cwYylrq9Nh554JSwbJl0-ahTZUWEg0C_zEHj83mZ2pk7o6J7P5yx97rXJ-6dhJiXjj_WsuwDuOjx-l3BEaTRKo2SjSNoT6eiDgizBg4GPdLIL8",
+          "title": "How Much Does Upholstery Cleaning Cost in Albuquerque?",
+          "description": "Sep 3, 2026 — Angi reports a national average of about $174 per piece, with most professional upholstery cleaning falling between $120 and $232 per piece.",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESywEBxCJF117W8iHl8QmZ_zvm5qU3tyT9ph-soaQqazvo-19ySrdm0aJveAvHXT9m3FKO9rHHes2Nc8ToSKoqRYYKc1HJ9nQvOXag0B4haqhxhNjYkFytAvH7wB8S1BoVkqu0xKOgT8xw8yWab_vIYfraDUhc9l_1wbnk9kwITw5At7bzStLI1eDnS5H_nBybX9cLv7EBsR5ft_vHNKAwREXJmIIYQpYym7z-91GoYaXhld26AIoXB5CaevnlKg4-aoCqaGz4tfa3gbngCQ",
+          "title": "Upholstery cleaning Albuquerque for kids and pets",
+          "description": "ThoroClean's professional upholstery cleaning services help remove accumulated soil, refresh fabric, and improve the appearance of furniture ... Read more",
+          "position": 13
+        }
+      ]
+    },
+    {
+      "keyword": "upholstery cleaning albuquerque nm",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmQEBxCJF15T402NgGYZGk68bMpfo2C_Qxh-58kDHlAW0m2Zvk8rauZSiK5ixZXu6n-kHHQVd-WwSlAlefo9IeqWcwmA9z8JWv4FlIIxbotzErjLmOUvUm0nzj_qZeMtKyCo6s2c31QprCQz9esrxlJCiADo53sKp1kPQ2bdj1LoJHTj7heILxYAZV01Qaz1W1m_jTwrMaYigKho",
+          "title": "Recommendations for Furniture Cleaner : r/Albuquerque",
+          "description": "Looking for recommendations for a professional carpet/upholstery cleaning service in or close to the East End. 2. 10. Looking for a cleaner · r ... Read more",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgwEBxCJF175oyMK9OFVEhQsSzljpEEqszqPGQgUnvxHpccQrhJc5Te62xGi2_OMDZWsQHjkISk1j4y3rZTB9jUtO_ZjXKjazbRsxogA64gSAIabfYHLKOe37a0Qlk6UUsSGvLBSzlDbjcv3zeVzBpS0s_nKeYjhPJT9BJ9jB915GTDMS5w",
+          "title": "10 Best Carpet cleaners in Albuquerque, NM - Nov 2026 ...",
+          "description": "I had an excellent experience with Suburban Carpet Cleaning. They were professional, on time, and extremely thorough. My carpets and rugs look brand new ... Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScgHEIkXX58xT0YbjIQrGEDhH3BYG_DTGQIL3u-Jvg_ehjbOzJyfLd3EdtscJP90rV-WQfSdXC_4yZ8cRWkC-fZsSqd0KH3asA7U81VTWmOR3Xb8-QqrZDn-xwCgyylbXHufCuudXPMUNB8zApnC3C2McHw",
+          "title": "KD CARPET CLEANING - Updated November 2026",
+          "description": "2615 Quincy St NE. Albuquerque, NM 87110. Midtown/University. Directions ; (505) 702-8457. Call Now ; Visit Website. https://abqcarpetclean.com ... Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXUuYZlLqKFXv8-dkWE6FuSQcyCGoPOKdGwyK87UxWAYKD9XvLu3NWwkWPdFY-SaSJy5WZtbp7Au5mzLN7fpM1leBvMlM-T2dspE_W20yrBoJI-5W2-S7sBA5ySPBh8Wya_1YcmBzQM__5ooT259Oyip5YwLY",
+          "title": "Carpet Cleaning Albuquerque, NM | Stain & Odor Removal",
+          "description": "Professional carpet cleaning in Albuquerque. We remove tough stains, pet odors, and dirt. Residential & commercial carpet care. Free quotes.",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWwHEIkXXx0cBZ2_St1CDhzVmUHMcPAqScs_hLJAvmAIaQkF3WdAzHAY8t_jGpCYqtOTdylyaiHLUfwERfnV1yGWLyMCtPlSO3qT-iOyTXl5LBAXRWtvRHVWrmmc",
+          "title": "| 505-884-4420",
+          "description": "Upholstery Cleaning · Fabric Upholstery Cleaning · Leather Upholstery Cleaning ... Our Location. 6115 Menaul Blvd Albuquerque, NM 87110. Located on the North ... Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESigEBxCJF16His5Djdl2T8hdM9Tl4M-27fvc3cfBRQudpUUQNfHFWZAasx47XKLFiAwVYR9QpBI6gE0_qXa1DYI0tipgzuJpYZ3ITJR5SfIL_nkRDsU_oqHfEVvTdp7OfwJ3Yng2MeZR6Jx6LjiC0R9Gz1N4bvHiSxitOMSnoWIr2qc8gBQjQij6h2VE",
+          "title": "Best Furniture Cleaning Services in Albuquerque, NM",
+          "description": "For urgent, reliable furniture cleaning in Albuquerque, three top-rated options stand out for punctuality. Royal Carpet Cleaning is praised in many reviews for ... Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESywEBxCJF1-h5suCNmhcHW_BtFBKhT2gPwB1bW_L-wCt2J1tsVdhsaMkGqCrm_HCKn8-o1sk6oOFJT000tcTgv0XrTzO5JAwd6Om70MUD95-qERSAVMHF67WwbD0l9wZ0Unme67G3vpU25qXM5sw6t8fIeKCXTv85ZXGNYhHVy3d7yZ-qD2nxnqEyz85ys8uACihF_EJ0iBAZ3TTOBk1Hlh5dW2koVMg2-kEd6IjlZK_ykixPw5u0QKjgzN3BuNtmZe1-JggtNQ4vdnm7Ew",
+          "title": "Albuquerque upholstery cleaning services for homes with ...",
+          "description": "Let the kids and pets keep enjoying the couch. Let ThoroClean handle the cleaning. Call 505-883-0437 to schedule service. 3206 Alta Monte Ave ... Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXWJySBW5beFWjD9ITcuYp_UGjwwdinboeOcYVC4dLDuAyawOkH-Xs043GgCoIeBTN0EZCCWXDcP-BLcd1BCT97RW96bwF4xWrDPArig58cOfyL9e7C8obhTMlCXxhWpac_u9_-I6aQitPB_98Erx8txos_JE",
+          "title": "Upholstery cleaners near Albuquerque, NM",
+          "description": "Here is the definitive list of Albuquerque's upholstery cleaning services as rated by the Albuquerque, NM community. Want to see who made the cut?",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESVAHEIkXX09xHakBWJpk9rKVCHFsXZvY7OsBVO5Ktq0GTqbuujEKlSXPCVsi56uw71DAuYmvleCdVqF8j_bczPb1SjXgy7vdLOOsgdkPhd4FsVj678Q",
+          "title": "Bear Carpet Inc.: Home - Carpet Cleaning Albuquerque NM",
+          "description": "Oriental Rug Cleaning · Tile Grout Cleaning · Upholstery Cleaning · Pet Urine and Odor Treatments · Duct Work · Commercial Carpet Cleaning · Carpet and ... Read more",
+          "position": 12
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Top 10 Best Couch cleaners in Albuquerque, NM",
+      "description": "Read real reviews and see ratings for Albuquerque, NM couch cleaners for free! Upholstery and Furniture Cleaning Service 4.7 (529)",
+      "url": "https://google.com/goto?url=CAESiwEBxCJF1wk5OPnCKIO-mEN_dpHwagH51oO8azR0haUmI19YsH0st6Swl_q5gbhnYuLRgjyjiSYvm7C4NsoTV5nZ350uBYx2Zr7GmaGtLODjzMU8i4I9bB0u8vn1Wa7psfHrchyKq9YM_dHEjz3kdfBu-E39kgG7MSA-4vS-xHtZ-fOKla13bTxjqYiE",
+      "breadcrumb": "https://www.angi.com › Home Interior › Home Cleaning"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Carpet Cleaning Albuquerque, NM",
+      "description": "If you live in Albuquerque, NM or surrounding areas, you can hire us for these services: Carpet & Rug Cleaning · Upholstery Cleaning · Tile And Grout Cleaning Read more",
+      "url": "https://google.com/goto?url=CAESdQHEIkXXqcFOz7BqWfjE0yaDIUoMV87uUuJiEjv1XfKAJLbwqs83DnkZVKisoFXVa3gZcX8UErTEBluRhoT1Z6gNmmIfyz3vDfS365rLtKW9CCFBqK7hVz1DFnUrI2h0xQ8PoJkh4OXzQs5KWW0wbtqjgkDNvQ",
+      "breadcrumb": "https://kleandry.webflow.io › service-areas › albuquerq..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Carpet Cleaning in Albuquerque, NM",
+      "description": "Book professional carpet cleaning services in Albuquerque, NM. Trusted providers, transparent pricing, and modern management tools.",
+      "url": "https://google.com/goto?url=CAESegHEIkXXk9WErAmQPPQgxRQpD0FiKpbnxYPRAdeprPFygZgk5dswDLX3lCP7STXz9ljxDU8k3ug7Ncl8lggxcIezNUL4BRChb7qcSYpj8rTX6o-WvQiXfvvVCWFKigYkEb2M_E2_QaNzxPf6Knrl6vUyvvLMygyxws2s",
+      "breadcrumb": "https://www.tidy.com › Locations › Albuquerque, NM"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Albuquerque upholstery cleaning services for homes with ...",
+      "description": "ThoroClean provides professional upholstery cleaning for Albuquerque-area homes, Call 505-883-0437 to schedule service. 📍 3206 Alta Monte Ave ...",
+      "url": "https://google.com/goto?url=CAESywEBxCJF11wZYaSJ7fgRSL1LJ-r50y2sFmH6tEcMxlGKQDAd_qagbzXhGr529nVPuYZCosk-Sj6dadT1U8DcXxONu34NmriV3EO52u8RNdfGarZuesZZSiiGKGcJAYO0E_-1yEg-aFYbqYj34pS3b3GEqtwYxPQvY4ZSwG4b8QkJ3TpMLjEUwjVdit2jXBY62WJlN3oLaj3jkJq_EHiLCUcXEK86lMJmQfHNzdSF4zXYcQFQUo_K-3zeryoEdAiZ_0qfXZE4q7TyOTNvyQ",
+      "breadcrumb": "1 month ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Chem-Dry of New Mexico",
+      "description": "(505) 883-1133. Serving Albuquerque City, We clean carpets, upholstery, tile & grout, and rugs. Hours Monday-Friday 7am-5pm, Saturday 9am-3pm, Closed",
+      "url": "https://google.com/goto?url=CAESagHEIkXXvaDMXkzzNwBxlBJl63_lhmR5Jes0-_2PudP1Sd8V4Jfgc0Cml-hckyo64N56cpMF0so139GW-ivkPKsUr68x1-SZ5HPKU9YNx6bfLUSbs8g9IVZ_H1Sy9JqY75YDEwQeivFrohU",
+      "breadcrumb": "https://www.chemdry.com › locations › newmexiconm"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Carpet Cleaning Albuquerque, NM | Stain & Odor Removal",
+      "description": "We perform a wide range of cleaning services : carpet; upholstery; tile/grout and hard surfaces, area/oriental rugs; water extraction; stains and odor treatment ...",
+      "url": "https://google.com/goto?url=CAESeQHEIkXXyXV_eYRvSFisXnQHZ3U64HXVqYdYfqwPlb9yxXQz9IRVoz66DGBpbo4csfBwoopH3PEwuYQT3xZhekPewSplPJ3HjBMbuqknn8u1LnpfTGLwQ0oyULWhSzO16wL3g388PcNLtcw86eV-QhunjVqgtA4sH78",
+      "breadcrumb": "https://bravocarpetcleaningabq.com › Our Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "THE BEST 10 CARPET CLEANING IN ALBUQUERQUE, NM",
+      "description": "Steamed Green specializes in premium carpet, tile and grout, and upholstery cleaning. These are the best upholstery cleaning in Albuquerque, NM: DanCare Carpet ...",
+      "url": "https://google.com/goto?url=CAESiAEBxCJF13D3GlVDvz6lMFHX4UZVCFcA96KwDiayjevl6ojCCK6LC4Z427S_GbbKmIYHO4qMWVlNiCH81YwULYXVkv4mU-1h_2Gjuhtz3VPSkqmACLcR20_QHcuZvcKISxTFAVSbVCbTc-PuEJQO_El5mvipKudCWgBWejWQZRljjA61XvBpydRA",
+      "breadcrumb": "https://www.yelp.com › Local Services › Carpet Cleaning"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "How Much Does Upholstery Cleaning Cost in Albuquerque?",
+      "description": "Sep 3, 2026 — Angi reports a national average of about $174 per piece, with most professional upholstery cleaning falling between $120 and $232 per piece.",
+      "url": "https://google.com/goto?url=CAESjQEBxCJF10Qe-cHy2E0VwYfJOYG7Km5L7ysk34JA5k6BZa_6gixMqz8T-QD27NlJ0o7YHShYLST-t5oP4cwYylrq9Nh554JSwbJl0-ahTZUWEg0C_zEHj83mZ2pk7o6J7P5yx97rXJ-6dhJiXjj_WsuwDuOjx-l3BEaTRKo2SjSNoT6eiDgizBg4GPdLIL8",
+      "breadcrumb": "https://abqthoroclean.com › Blog › Upholstery Cleaning"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Upholstery cleaning Albuquerque for kids and pets",
+      "description": "ThoroClean's professional upholstery cleaning services help remove accumulated soil, refresh fabric, and improve the appearance of furniture ... Read more",
+      "url": "https://google.com/goto?url=CAESywEBxCJF117W8iHl8QmZ_zvm5qU3tyT9ph-soaQqazvo-19ySrdm0aJveAvHXT9m3FKO9rHHes2Nc8ToSKoqRYYKc1HJ9nQvOXag0B4haqhxhNjYkFytAvH7wB8S1BoVkqu0xKOgT8xw8yWab_vIYfraDUhc9l_1wbnk9kwITw5At7bzStLI1eDnS5H_nBybX9cLv7EBsR5ft_vHNKAwREXJmIIYQpYym7z-91GoYaXhld26AIoXB5CaevnlKg4-aoCqaGz4tfa3gbngCQ",
+      "breadcrumb": "3 weeks ago"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "upholstery cleaning albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    30,
+    37,
+    32,
+    33,
+    35,
+    30,
+    26,
+    29,
+    32,
+    32,
+    28,
+    28,
+    40,
+    35,
+    35,
+    37,
+    40,
+    38,
+    44,
+    40,
+    49,
+    72,
+    79,
+    81,
+    96,
+    55,
+    47,
+    55,
+    74,
+    73,
+    70,
+    79,
+    87,
+    90,
+    71,
+    80,
+    83,
+    80,
+    100,
+    91,
+    87,
+    62,
+    64,
+    57,
+    43,
+    52,
+    54,
+    44,
+    45,
+    49,
+    51,
+    55,
+    45,
+    35
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

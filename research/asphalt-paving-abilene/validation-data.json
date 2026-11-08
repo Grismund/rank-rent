@@ -1,0 +1,513 @@
+{
+  "volumes": {
+    "asphalt paving abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "asphalt paving abilene tx": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 43,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "asphalt paving near me": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "asphalt paving services abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best asphalt paving abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "abilene asphalt paving": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable asphalt paving abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "asphalt paving in abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "asphalt paving abilene tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "asphalt paving near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "asphalt paving abilene",
+    "topThree": [
+      {
+        "name": "B & R Asphalt LLC",
+        "reviews": 0,
+        "rating": 4.9,
+        "domain": "bandrasphalt.com",
+        "phone": "+1325-513-6038",
+        "address": "3750 Woodridge Dr, Abilene, TX 79605",
+        "category": "Asphalt contractor"
+      },
+      {
+        "name": "County chipseal",
+        "reviews": 0,
+        "rating": 4.3,
+        "domain": "www.countychipseal.com",
+        "phone": "+1325-267-0022",
+        "address": "3301n N 3rd St, Abilene, TX 79603",
+        "category": "Asphalt contractor"
+      },
+      {
+        "name": "Precision Asphalt",
+        "reviews": 0,
+        "rating": 4.4,
+        "domain": "precisionasphaltabilene.com",
+        "phone": "+1325-475-4104",
+        "address": "249 Bird Blvd, Abilene, TX 79601",
+        "category": "Asphalt contractor"
+      }
+    ],
+    "totalCount": 17
+  },
+  "trends": [
+    49,
+    47,
+    52,
+    66,
+    66,
+    75,
+    84,
+    76,
+    80,
+    67,
+    56,
+    56,
+    59
+  ],
+  "organic_raw": [
+    {
+      "keyword": "asphalt paving abilene tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "asphalt paving near me",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "asphalt paving abilene tx",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZwHEIkXXqXRFrzAzSFDBTVcxLaCMCZhSeEa9lYuFsVK52axVF2C5Z0cgYofyJvNCW7dZOQ1qS46QDS6Zl313pFKHtx2liN2Xr3O2VSbn0nihSkEKzKGBuQ2tXIw7e_L1FlsOs0kRY0Y",
+          "title": "asphalt paving in Abilene, TX, Texas",
+          "description": "Precision Asphalt Abilene pairs national-grade asphalt paving standards with local Abilene, TX ownership, licensed, insured crews, quality materials, ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESegHEIkXX0RwzwAXmJ_vlENqAN1EsBIT7ik_P6PhF8nW-mUHsKkVOdnVy3mgkJy2YY6qCEMiEAaz4u6mEBxO6jFPS9QCxNNVEE8v3uYWudqFtSjoXbWzgdGYL6zVrNg-FKCXovj5iJipQ_Li3WCI8G7ADM5kj9yBZp7uk",
+          "title": "Paving Contractors near Abilene, TX",
+          "description": "BBB Directory of Paving Contractors near Abilene, TX. (325) 677-6276. Asphalt Asphalt, Paving Contractors, Driveway Installation (325) 677-6276 102 College Dr, ...",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScwHEIkXX1akz3TCjiwk4bP88Z2UVa43_8-tNvnzne1pal5MOseo_RPWyBUH3BYsTWXmy8hP-dCp7Y_D8D7jYFO2rfQczPGW8QBj1q0RPRWKBG4FnwKsnMeHJgi3aj_EdlHgLHhsNYBpIk4jXK8TTr9vHxXI",
+          "title": "Big Country Sealcoating & Asphalt",
+          "description": "We are your local parking lot paving solution in Abilene and surrounding areas. Paving & Asphalt. For a free estimate today call (325) 260-2500",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESugEBxCJF1xi0RAGcaul7xP7LvXktvj_2zp5AJOUqIvv4Md1QehcQIFkNV_TiJ5Wx3OxeSYpQFeh_0lMTsPJISXbq5UV3j8NsEdXSinKX-K1lI_hJOqesYk0Z9jltXwIjNpa-9z-f_hb_9pFOAhT6NWi9F8mDxMQycyK4yiiVz5SMAXZMShXsIwoC9iIM9QprizSF2F_R4bOS_PXX9H4a3DYvIBtKZCCklgTrNPRtEBDfWFpKICv0lSf6RPQ",
+          "title": "Are there contractors around Abilene, TX that can demo ...",
+          "description": "call them at (325) 603-5383. If you're interested in asphalt-only repair, Big Country Sealcoating & Asphalt is another option. 525 S Treadway Blvd Abilene, TX ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkAEBxCJF1z8fJq2DblOFGA6L3kQtgcK9vWRidi5AKjMhvRvtqB3-eqZ-eF5PZcloeJqMgxYa6x3C3dCFMoTP6yw2YpRwoaQvdOn6sbtPqC3_6QHXVxOWPU3AWtdarZ7HmN9tKcaKPXLvO6lvQCykHrMSmHhp8X-7am_pi3g7vb9ZcLfXIXyTFHYDK_65rzt0vbc",
+          "title": "Trusted Abilene Asphalt Paving Specialists",
+          "description": "Sep 15, 2026 — When it comes to asphalt paving in Abilene, Premier Property Worx, LLC stands out as a top choice. Their commitment to quality, professionalism, ... Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXoQ-2_kIqLMf-xOPhXWP6yvTauwySD27W0fZTgoHNzQS3Ba7skNJ32mro9SNefql2u70-S99um37hOP6VDKOXrO-PPPqaaHGhdC4qQbBRz7NmtYN1sC03VNYQAUzeqK-Fx-2sEmfSeNeKYZspMBDyN-9lFIY",
+          "title": "Asphalt Paving & Chip Sealing",
+          "description": "We have experience laying asphalt paving … the Abilene community. We have experience laying asphalt for commercial and residential clients. All of our work is ...",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF16ZJgdZ9Lr2hEy8SJx5r8F6xKSYTKkEvEPmPpUdtBkf3EmNPJVZX98a1MdHzrszj9Yi-FX7Wl0GyKgcgcf2YooH_3xtXcD-GtLXCRJFoQFwWW6FtroEXiK7j2LxqLwFFXKGrKnJ7-dxtLxD5pPQjwQ8yG_JWRafmsPeUGSGup8k-h83x4szxAA",
+          "title": "West Texas Asphalt | BBB Business Profile",
+          "description": "West Texas Asphalt — BBB Accredited since 12/22/2020. Phone: (325) 665-8921. Asphalt in Abilene, TX. See BBB rating, reviews, complaints, get a quote and ...",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaAHEIkXXAx4mFvg6qyvdff9D2vNbt-kmtL_9xid6EBswoUB7RIVxSKK1F3kGot3JbUIC9VdSjytXFQc1l92lwxNFvPV0qfVj2UoHjs_d1oyomCx-F98-mddCVTJ8IkIf85n4nb_yllBu",
+          "title": "Abilene, TX",
+          "description": "Excavation, Land Development & Asphalt Paving Contractors Serving the Abilene, TX Community. Welcome to Abilene's #1 source for dirt work and asphalt repair! Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZgHEIkXXRhAbKFecHcg83RtFPujgD8wU9kZAqv_OcGiVCFQ-cSiiISdNxCfDtoZuWf4TdtdrhTEA8Cr3bUFc1X399Z9aYmm09Ik8QUcYUawmX2L41d9K3-dRLFWSOPGdKSRGIH-jcA",
+          "title": "Blog - Precision Asphalt Abilene",
+          "description": "Your trusted asphalt paving in Abilene, TX. Free estimates, transparent pricing, fast local service. (325) 475-4104. 249 Bird Blvd Abilene, Texas 79601. Read more",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "asphalt paving near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlwEBxCJF1x3dIXy9_PMdIuGc578jgxgJ2P8bzPNxwEMbCcWFXS4ypSSki9QFRVChsU4SN3g_b5jOeEqFoi53wEeuBbgqRwIsvmN2xrr5Ouy1R3yJKk2MJWOgddzHwxTjlzRg93oyjfqqxIyLceNMmv8Svhe9A38QIZMP9vlA2ESirJ1gmKIAvxHeP-wZNcnxdgfhcq_edCY0",
+          "title": "Best Asphalt Contractors near Lake Dallas, TX 75065",
+          "description": "We specialize in modern home renovations that combine style, functionality, and long-lasting quality. From kitchens and bathrooms to full home upgrades, ... Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbgHEIkXXOirz3rYTfwj6j4jQVCNv2fwnRO7fH3vDL_kHrKPFvEwo4ThvgLbxVzEbqp5Zy3upRF7rYKGZ_zxEOdb4gXWPtUWrwRRn2Zj2vHpGv1gou6B6olGvgR0sU5gwBj31ZXQ0mZBrmUKbsQjf",
+          "title": "Elmore City, OK Asphalt Paving | #1 Reliable Pavers",
+          "description": "Oklahoma Asphalt Paving is a leading asphalt paving company serving Elmore City, OK, {OklaAsp(zipcode) Call 405-476-9365.",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESoQEBxCJF197951vD8cwsO0kx2wfu7D03KdpiEAbtYX5AjPXRNzpd0pbGgcvK3TxTTkGcJWDHf7EX6duORIoIVIvlnkcjfI-CRB3CJD4ZOGbjX5syayZmpNWFHtejX9HMGqDB4hI6b37quKuuAn7L0cB2Ga-nhsm43gYby7aIqKM9GfPY4uD3pVBWsfWdSb8OBL-wuyJYiR7S4KU8bm5QGb8KvQ",
+          "title": "Best 15 Paving & Driveway Contractors in Chickasha, OK",
+          "description": "Search 21 Chickasha paving & driveway contractors to find the best driveway and paving contractor for your project. See the top reviewed local driveway ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESagHEIkXXmzyrTpAK_8kXUqwwj7yBcvSjxRliNuey5UVsjOJ23ePKVIJkvg0tvv0VRpu1VMSChM_oIxsZUkXTaH0EiUachHM3SQnsf7_6VlPvjCWwmUAtrnXOEuN8lEbRQsEmGI1UZT9pr8s",
+          "title": "Shawnee, OK Asphalt Paving | #1 Reliable Pavers",
+          "description": "Oklahoma Asphalt Paving is a leading asphalt paving company serving Shawnee, OK, {OklaAsp(zipcode) Call 405-476-9365.",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESngEBxCJF1-_5bRHfUTqjNWKhlncwS7RQztmaJTiqOgaaCi3QqJPEQNuY1A-GIFcWe3HA-mKEH38mzsveBPiOELs2hjq1Qt3ojra9j6IED-CT5AwwFxQC3xJxDOvrDrGOrD3qxUboWrvuqwUOnF4Yc2QZVfwNXVE0gni1z-UzTlEGUTn7VIXoSn0VcSggR_XWdj9eN5kfv8xmAUT4Cpk_YQ",
+          "title": "Best 15 Paving & Driveway Contractors in Edmond, OK",
+          "description": "Paving & Driveway Contractors Near Edmond. Get Matched with Local Professionals. Answer a few questions and we'll put you in touch with pros who can help. Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbQHEIkXXDFv91LL_POj_IWMnSqLmnGfaueHUXorf7LF5Mk1wpNUmv4J0OuFqrJ6R_g0McK8_0aMFVk-FLad7rS9Iy1EhatEtXLsI7QAAG4K_ydNgQb3T3GwaLHvyKxTsTAa8FWis4irOBiO3cEE",
+          "title": "Stillwater, OK Asphalt Paving | #1 Reliable Pavers",
+          "description": "Oklahoma Asphalt Paving is a leading asphalt paving company serving Stillwater, OK, {OklaAsp(zipcode) Call 405-476-9365.",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF12iGRWqcnzEJ6PzBo7cj49m9iigZEpVjg71lv2XU8kDOtXQWfuVnZYFsc9Lq_Kk8JxCPQGTpsm25f4qWx1A7xkJhpjwteV_NLf09odPmzP6hfw5AMrM5Gjr_lVWgPC1awM00M7P_fUYst_Ww_wsgtCCz7eOc4ewMvNQGMSZpCZi362nwkdJ73w",
+          "title": "TOP 10 BEST Paving Contractors near Chickasha, OK",
+          "description": "FDZ Construction is a concrete contractor serving Oklahoma City and surrounding communities. We provide commercial and residential concrete construction, ... Read more",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESagHEIkXXw0bOIMHPTn605gXo0n9ILpbvZAZE0OSJSqrBo6X0Cc5ib8W2dctMSWXOBC2VGpH6nc0etJ3pTNv3i3Aw6ujYSJPfSnSw4I4avCPkwSBboXQsRcJx2n_ZrEZhKfc3Od7j9dhW7PE",
+          "title": "Perkins, OK Asphalt Paving | #1 Reliable Pavers",
+          "description": "Oklahoma Asphalt Paving is a leading asphalt paving company serving Perkins, OK, {OklaAsp(zipcode) Call 405-476-9365.",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "asphalt paving abilene",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    52,
+    48,
+    52,
+    47,
+    47,
+    51,
+    48,
+    46,
+    42,
+    47,
+    53,
+    52,
+    56,
+    57,
+    63,
+    63,
+    82,
+    69,
+    67,
+    66,
+    68,
+    60,
+    79,
+    72,
+    83,
+    67,
+    96,
+    100,
+    95,
+    67,
+    64,
+    83,
+    79,
+    71,
+    69,
+    80,
+    75,
+    94,
+    72,
+    71,
+    81,
+    70,
+    56,
+    59,
+    53,
+    60,
+    63,
+    48,
+    50,
+    53,
+    59,
+    62,
+    62,
+    56
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

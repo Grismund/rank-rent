@@ -14,6 +14,7 @@ import {
   clusterNiches,
   filterNewNiches,
   classifyHomeService,
+  extractCompetitorDomains,
 } from '../lib/candidates.js'
 
 describe('generateSlug', () => {
@@ -493,5 +494,85 @@ describe('filterNewNiches', () => {
     const result = filterNewNiches(clusters, existing)
     expect(result).toHaveLength(1)
     expect(result[0].niche).toBe('deck staining')
+  })
+})
+
+describe('extractCompetitorDomains', () => {
+  it('extracts domains from serp_items breadcrumbs', () => {
+    const data = {
+      serp_items: [
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://www.kleandry.com › service-area' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://bearcarpet.com' },
+      ],
+      organic: [{ keyword: 'test', topDomains: ['google.com'] }],
+    }
+    const result = extractCompetitorDomains(data)
+    expect(result).toContain('kleandry.com')
+    expect(result).toContain('bearcarpet.com')
+    expect(result).not.toContain('google.com')
+  })
+
+  it('filters out directory and platform domains', () => {
+    const data = {
+      serp_items: [
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://www.yelp.com › some-biz' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://realcompetitor.com' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://www.thumbtack.com › service' },
+      ],
+    }
+    const result = extractCompetitorDomains(data)
+    expect(result).toEqual(['realcompetitor.com'])
+  })
+
+  it('deduplicates domains (strips www)', () => {
+    const data = {
+      serp_items: [
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://www.acme.com › page1' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://acme.com › page2' },
+      ],
+    }
+    const result = extractCompetitorDomains(data)
+    expect(result).toEqual(['acme.com'])
+  })
+
+  it('returns at most 4 competitors', () => {
+    const data = {
+      serp_items: [
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://a.com' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://b.com' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://c.com' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://d.com' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://e.com' },
+      ],
+    }
+    expect(extractCompetitorDomains(data)).toHaveLength(4)
+  })
+
+  it('handles missing or malformed breadcrumbs', () => {
+    const data = {
+      serp_items: [
+        { type: 'organic', domain: 'google.com', breadcrumb: '310+ followers' },
+        { type: 'organic', domain: 'google.com' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://real.com' },
+      ],
+    }
+    const result = extractCompetitorDomains(data)
+    expect(result).toEqual(['real.com'])
+  })
+
+  it('returns empty array when no serp_items exist', () => {
+    expect(extractCompetitorDomains({})).toEqual([])
+    expect(extractCompetitorDomains({ serp_items: [] })).toEqual([])
+  })
+
+  it('falls back to topDomains when serp_items yields nothing', () => {
+    const data = {
+      serp_items: [],
+      organic: [
+        { keyword: 'test', topDomains: ['realsite.com', 'yelp.com'] },
+      ],
+    }
+    const result = extractCompetitorDomains(data)
+    expect(result).toEqual(['realsite.com'])
   })
 })

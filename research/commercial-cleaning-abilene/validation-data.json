@@ -1,0 +1,519 @@
+{
+  "volumes": {
+    "commercial cleaning abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "commercial cleaning abilene tx": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 0,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "commercial cleaning near me": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 9,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "commercial cleaning services abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best commercial cleaning abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "abilene commercial cleaning": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable commercial cleaning abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "commercial cleaning in abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "commercial cleaning abilene tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "commercial cleaning abilene",
+    "topThree": [
+      {
+        "name": "Extreme Clean Team LLC",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "extremecleanteamllc.com",
+        "phone": "+1325-310-6989",
+        "address": "120 Grape St, Abilene, TX 79601",
+        "category": "Janitorial service"
+      },
+      {
+        "name": "TnP Cleaning Solutions LLC",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "www.tnpcleaningsolutions.com",
+        "phone": "+1325-725-4386",
+        "address": "1326 S 14th St Ste E, Abilene, TX 79602",
+        "category": "House cleaning service"
+      },
+      {
+        "name": "Wiley's Property Services",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "wileyspropertyservices.com",
+        "phone": "+1325-603-3939",
+        "address": "1174 N 1st St, Abilene, TX 79601",
+        "category": "Window cleaning service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    44,
+    34,
+    40,
+    46,
+    63,
+    65,
+    60,
+    69,
+    53,
+    48,
+    41,
+    37,
+    32
+  ],
+  "organic_raw": [
+    {
+      "keyword": "commercial cleaning abilene tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "commercial cleaning abilene tx",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjgEBxCJF1wRLL2lR72k6rhCiMApHJ0Z5ByIgOV_YJx4I51wtNbhS0h5d0-TyMY_UgfRBkRh6SYwArc2GgcYOn_YXhKUEOuPiz4C9ESWvy1kNYPakwW4QDWU-EepYhSsaUYo64ldQgRohdS1FM4zQQHrdOxsdYGC7RYq1GC-Va-BJxoirJ3BZdTlLiLeOwMTA&gsessionid=zoOv0wxyty7t6o-_xmBnjWACY1ivSmv47TDBM40JKpXPmhN30URevg",
+          "title": "General Cleaning and Janitorial Services",
+          "description": "SERVPRO of Abilene provides expert residential and commercial cleaning, including carpets, upholstery, floors, and more. (325) 672-5661 Service Areas Abilene,  ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbwHEIkXXYTvTNGlB0NCi6yYOgCd2WfqnU5LkitFzANbhjHzVKbGqirZZMQmKMvyREey6AG0cSVd9sxLCO5n4stxCRm-p8Vq9kFpPx0DofUostM7BDrid5pddnzy70ofCDzHhMxrVb1wfW8o9vBMP5Q&gsessionid=zoOv0wxyty7t6o-_xmBnjWACY1ivSmv47TDBM40JKpXPmhN30URevg",
+          "title": "Abilene",
+          "description": "Big Country Maids is the top-quality cleaning service in Abilene, Taylor County, Texas. Call or Text (325) 241-2942. Call or Text Us (325) 241-2942 Send an ...",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESagHEIkXXrlHMV1ypjL-Z9PbrcMO2120IRHOw6Obs8LxjddJHwKzf-4hIbFxj1xTiQOVVOS3FyAB_whz1fG9Hu3skrwFtGIIrcnWVdb4qvXLoj2NPOAHD58LDJSxzyaiQW9YJBZUEPnH7Wys&gsessionid=zoOv0wxyty7t6o-_xmBnjWACY1ivSmv47TDBM40JKpXPmhN30URevg",
+          "title": "Neat & Clean Services | Abilene TX",
+          "description": "✓ Residential Cleaning ✓ Commercial Cleaning ✓ Deep Cleans ✓ Recurring Service We don't just clean. We transform. Message Neat & Clean Services ... Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESVAHEIkXXZVC41KeQ9D6nmhsVahaYZXpq3ExICDbte5tbA1yJ2fXAD6ubUhAtyXdcsuPWR3WitxVO1ZRn8qJ0H0r3nYoPnGNrRvFiJilNP13eETH2hQ&gsessionid=zoOv0wxyty7t6o-_xmBnjWACY1ivSmv47TDBM40JKpXPmhN30URevg",
+          "title": "Carpet & window cleaning services Abilene, TX - M&R ...",
+          "description": "Commercial Services provides professional, reliable cleaning services, including carpet and window cleaning, at (325) 676-0444, We offer a variety of ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlgEBxCJF17FcWY0_AkXZuCEhUSJkE5xs9bWGUdXe-E_F4-oxf23jek_nT2SO2axVtGuiwJsuR-5VV-OjKmZ_0ro3sTQWC4wqQw-6hFO05vZusWwAFIq0D7RzfgOzQbEnLbAX1jsDVaOatDMLXGKwgXClJCbzOGbyi1tjhjm77bS-GSdYcQzso1Ttjx4NiinsRpYN0rYMUCY&gsessionid=zoOv0wxyty7t6o-_xmBnjWACY1ivSmv47TDBM40JKpXPmhN30URevg",
+          "title": "TOP 10 BEST Commercial Cleaning Services in Abilene, TX",
+          "description": "Top 10 Best Commercial Cleaning Services Near Abilene, Texas (Updated 2026) · Tracy's Touch Cleaning and Organization Service · Selena's Signature Clean · Clean ... Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbgHEIkXXCdBxR5kVItym3OfcfGLsOHgijJeRpD8KLeMvM_x0g5AmMK9rRiF-_3ZjU2aqh5vVK5GDV-n0YfOYbmdgJHf2szC62J_AzlL2pEoIvXwgM39UucnPdSGgJK-g3uRfKTh6Zkits7t2K36O&gsessionid=zoOv0wxyty7t6o-_xmBnjWACY1ivSmv47TDBM40JKpXPmhN30URevg",
+          "title": "Commercial Janitorial Cleaning in Abilene, TX",
+          "description": "At REDLEE/SCS, INC, we take pride in providing commercial janitorial cleaning in Abilene, TX, Call: 888-761-4757 Contact Us Now!",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESXwHEIkXXN78RrXftuor1yUxv5JQDICDu56pRC7EVySaz7bSSVAwUpIOLMT8w8li4OZDhgCQmEj9_8P1r4IBQjTbP_X9j5mJAAU_yP6Mkcbj8U3nA7KD0nu7_vzsBVYcx&gsessionid=zoOv0wxyty7t6o-_xmBnjWACY1ivSmv47TDBM40JKpXPmhN30URevg",
+          "title": "Hard Hat Cleaning Company | Schedule Expert Cleaning Today",
+          "description": "We offer specialized cleaning for new builds, renovations, commercial spaces & post-construction projects. Reliable, thorough, and tailored to your needs.",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESXgHEIkXXx-RPJAR51wx0Ly6VU0Y7aNeUHeSKSqa8CLIQ5eqbs2MuS3lr4toZznKcM_0z75vzdktk-2WcoAfN72KTY-gWg8qPDOCdGtl1g21HmDaw72d4JcBQLbxnEmc&gsessionid=zoOv0wxyty7t6o-_xmBnjWACY1ivSmv47TDBM40JKpXPmhN30URevg",
+          "title": "House Cleaning & Maid Services Abilene, TX - TnP Cleaning",
+          "description": "TnP is a fully insured and fully bonded residential and commercial cleaning company servicing the Abilene, Texas area. Best House Cleaning. Green Cleaning. Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShgEBxCJF128X8WOGYIj6SLLZJtEKVCy0tA6I6hoh07HDtd30rgtvAnklPx30tiyDJ7egiluPU5hrCpkLGa-aVG2jHmwJIj9SYHNOgzw8Kgy0o3SxiQ5TZfHQdvSLvz9Jl0i0-wfgXrW9BdAgupCny1r3sj980isGM9MxKlKD19b7onsbFg0qUw&gsessionid=zoOv0wxyty7t6o-_xmBnjWACY1ivSmv47TDBM40JKpXPmhN30URevg",
+          "title": "Looking for a commercial cleaning company that is insured ...",
+          "description": "Looking for a commercial cleaning company that is insured and bonded in the Abilene area.\nPlease leave your company name and phone number so I can contact ...",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZgHEIkXXGqfJE0zH3MpfJcDgNpsG5EYEWs0i0KecfQvO0H6Ha-oHYEXIMYwzbTHgjrWTTYiD6lLK45cErV8NfK4iPdUJm2tPmSlu2_1sJ-Lwe5l9dI_UGBEk0eZ79ah_8CAJtpYzkQ",
+          "title": "The 10 Best Commercial Cleaning Services Near Me (2026)",
+          "description": "Top 10 commercial cleaning services near you Homeowners agree: these commercial cleaning services are highly rated for knowledge, experience, communication, ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlQEBxCJF1xz8dLS608rcrNUSRLiN-DAUbSjHx1NlZFMQy0FzmUNJnkrUrZTODMO_pkVj-JouyZk9Dm7s6qN94HcXICGvZqn-oUUhWp7gpzz-ycDSzIErXphSwkz-o7uvqa-r65QvnR0vA-GZGOoWof9pkLXLk1Y7MPDDLqopHP0VMm71yy4WREZdcy1rTOIFCI3mMGCMZQ",
+          "title": "TOP 10 BEST Commercial Cleaning Service in Sherman, TX",
+          "description": "However, I found three nearby options that support requesting a quote for cleaning and organizing: Go & Glow Cleaning, Drip N Dry Cleaning Services, and Amber's ... Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdwHEIkXX1F5qMi4cCUvIhKDt9xCg_ONrl41Q1EAlnJ3AuLFypIWgj6WBd24C9uTWKdSYopS34vQpS3hSueywKtfBy3_iECVREhfI1SzJiKGM9TBWABABPa2CeIOcalhFqcnBMbQf67PxxQLjbou3stRT4BbgQLpI",
+          "title": "Janitorial Services — Commercial Cleaning OKC",
+          "description": "Our world-class cleaning services have been serving schools, hospitals, retail stores, and other commercial locations in Oklahoma City, Edmond, Yukon, Moore, ...",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESigEBxCJF143LwBK897KO1KZQ-Vtj9jdbMU4lRzKrcAL3oqIl-vd7EnO5vTX4xNShumjoWers3fTx4Eh5C2by79DXa_jd5ZETHbqXkuSC9RtEVEieSdKEb3evtGGakQn6yKDOvjuh8PJl9MTaf-W0ArNHxHWjBXlOe5Cjp5Hmrfff4RT0qAHqEqhpoVw",
+          "title": "ServiceMaster Commercial Services Shawnee",
+          "description": "(405) 504-3659 Commercial Cleaning. Providing Customized Cleaning Plans in Shawnee and Surrounding Areas (405) 504-3659 Today's Hours: 9:00 AM - 5:00 PM",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmgEBxCJF11bfN0Nkh5u9Q5L5yITTT7__5lPpi6GHaJZuX6iM7VQppRMA8Fwt_wYd9cuSxrdsqmS6wZXzyqhxPFan4sbkfEMifgrL_xAh4hTMpxnGfnL8hiBqwVvZhDTHe5oqxVnAM7VkhcWOjNTY-HpqbwLnWFX-VqcOZKzq9X5B1dVXGFlMjUA6xUVlbbxBDvcO8wCqGvgXs2_U",
+          "title": "General Cleaning and Janitorial Services",
+          "description": "SERVPRO of Corpus Christi provides expert residential and commercial cleaning, including carpets, upholstery, floors, and more. With advanced technology ...",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmAEBxCJF13-LKtYLTEK6cdF8elTiNZxPaBOTB3L0mtOsYUJuN3rZiji1hRRBUxk3K1Zi9ZlNhdx0eGmK_SD7cyyKIYQK1J1Q4iDZFA8D-l1DUMYQpScZXQwB3tHt2llhZIQdTMWkQDMLQPWyWI3km0DXN_dSDCwz0bhxDZPQSPn10IVVVXf9qxVtyMdY1K2gnc-yCtjl3YPtbw",
+          "title": "Commercial Cleaning Services in Santa Fe, NM",
+          "description": "To learn more about our commercial cleaning services in Santa Fe, NM, call us at(505) 421-4291 orcontact us online to request a free quote!",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZwHEIkXXe8QqymXBgcYGcjI2Cz61t_eerXeL7pIYvo1chOxSXulBSNM0sbIq0LySDnAzfOIul4wKN9a2mE6jnQRrYQVEt2uFTFIhUbxiLMNnXR4BNM0nuFJPXY-7Q51v72Z9lAMl5Fs",
+          "title": "Commercial and Office Cleaning Services in Lafayette",
+          "description": "Call JAN-PRO Cleaning &amp; Louisiana for commercial, office, medical, and janitorial cleaning in Lafayette. Call (504) 434-3949 to request your free estimate! ...",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlQEBxCJF14fEpsevfg86dx1WUVC8kpxQwjtzAPRoiKWC8MelXeVav3clVW2WInnYyG08vUOZDmzcUgdqvOz2sGlPOqImpDPxVNpoLA-7CoBAbjTp-iwbtUVf6SHRyHmML1QMp2x9Yipw7un_oWOO9D3Ju-2ms4-K-pouHrnPIEN3R0bW68MtZeESEx-cZDK_sCVI78_kjA",
+          "title": "TOP 10 BEST Commercial Cleaning Services in Kenner, LA",
+          "description": "Top 10 Best Commercial Cleaning Services Near Kenner, Louisiana (Updated 2026) ; HR Cleanings · 11.9 mi · New Orleans, LA 70130 ; Mimi's Cleaning · 15.3 mi · Gretna, ... Read more",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmAEBxCJF18CIoDPSVHYoO_L9U3_pipBD2_C0n8O251xxi3_pIj759VZy0H8baFAGGWIKMlvniB_46REdmR2uFpmX6qnpHx-GQ3KyrsjNGUbRw3ct6hdNJn7P5MxMnX9B8c_zKkGvg-QW_docBL539U_IBHrN-6DxCocRxUhvNZgnpN_991QTLjr2XfMOhsfObPN3um42alKZxg",
+          "title": "TOP 10 BEST Commercial Cleaning Services in Las ... - Yelp",
+          "description": "Top 10 Best Commercial Cleaning Services Near Las Vegas, Nevada (Updated 2026) ; Revival Restoration & Floor Care · Tiling · Carpet Cleaning · Damage Restoration. Read more",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "commercial cleaning abilene",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    36,
+    44,
+    58,
+    45,
+    35,
+    33,
+    34,
+    33,
+    35,
+    38,
+    35,
+    43,
+    42,
+    42,
+    44,
+    46,
+    51,
+    57,
+    51,
+    48,
+    100,
+    59,
+    64,
+    66,
+    66,
+    63,
+    58,
+    63,
+    63,
+    59,
+    59,
+    70,
+    74,
+    74,
+    57,
+    56,
+    49,
+    56,
+    49,
+    47,
+    46,
+    51,
+    49,
+    46,
+    41,
+    43,
+    44,
+    37,
+    46,
+    32,
+    32,
+    39,
+    34,
+    30
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

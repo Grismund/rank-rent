@@ -1,0 +1,619 @@
+{
+  "volumes": {
+    "spray foam insulation midland": {
+      "search_volume": 20,
+      "cpc": 0,
+      "competition_index": 57,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+        }
+      ]
+    },
+    "spray foam insulation midland tx": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "spray foam insulation near me": {
+      "search_volume": 10,
+      "cpc": 6.68,
+      "competition_index": 55,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "spray foam insulation services midland": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best spray foam insulation midland": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "midland spray foam insulation": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable spray foam insulation midland": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "spray foam insulation in midland": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "spray foam insulation midland",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "spray foam insulation near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "spray foam insulation midland",
+    "topThree": [
+      {
+        "name": "Midland Spray Foam Pros",
+        "reviews": 0,
+        "rating": 0,
+        "domain": "www.midlandsprayfoampros.com",
+        "phone": "+1432-789-1984",
+        "address": "3000 N Garfield St Ste 488, Midland, TX 79705",
+        "category": "Insulation contractor"
+      },
+      {
+        "name": "Midland Spray Foam Insulation",
+        "reviews": 0,
+        "rating": 0,
+        "domain": "midlandsprayfoaminsulationtx.com",
+        "phone": "+1432-664-3571",
+        "address": "6201 S County Rd 1198, Midland, TX 79706",
+        "category": "Insulation contractor"
+      },
+      {
+        "name": "Midland Insulation",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "",
+        "phone": "+1432-203-2828",
+        "address": "1503 Douglas Ave, Midland, TX 79701",
+        "category": "Insulation contractor"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    87,
+    82,
+    86,
+    86,
+    83,
+    86,
+    83,
+    90,
+    85,
+    82,
+    82,
+    85,
+    89
+  ],
+  "organic_raw": [
+    {
+      "keyword": "spray foam insulation midland",
+      "items_types": [
+        "organic"
+      ]
+    },
+    {
+      "keyword": "spray foam insulation near me",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "spray foam insulation midland",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXsx7rkZOEA2rlKFYNf0UjIz3R_eVqdFlgzphgtoYbzZ_YUaNVnP7p9AV95ZwCkjGNYBf9Z996znO8XTIeqFxlGu7b0tGXpo-LpSFADIDF4kmUkJMXVI06NV83ILEFL6Jyv_15jqaCXb9fvm7GUKAEzjtNGuY",
+          "title": "Top 10 Best Insulation pros in Midland, TX",
+          "description": "UpgradeSpray Foam Insulation - Install Serving Midland, TX and surrounding areas In business since 2022. Serving Midland, TX and surrounding areas Free ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShQEBxCJF1x7xWY_zQbMytwW123fChPhaL2Vq4TFhYmYPH9t8jznG0LqXMtLtxaAw_UbafyP-NcurFVowlDzlQOFQjxW8aobsibxQJUlRPr3uLAuyFPJ3JUex7F3CHRR5I3dX1FoBoz6_JkJ4FlvC3mtBJH4v2T9jqj8N3BD9LnfgUGQpdatu",
+          "title": "Expert Commercial Insulation Midland TX",
+          "description": "Spray Foam Insulation. Open-cell and closed-cell spray foam for sealing penetrations, insulating irregular surfaces, and creating airtight assemblies in ... Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiAEBxCJF19_ip-2_4-_unBJOYxvomK6A-CzXj7iesHOrJcc4wSep3nZsvZNOiHEGTghRdUDBtuoR2p3Y-d6QO2EVEqiukx3SayzKVLkllXB67PT0LT8L3oLCNfjNFdZBg4aIEwNgD1iXiA17ie7X8SJXSWpA2b0pe5myHb28JGzQ2kCmwkDyoW-q",
+          "title": "Spray Foam Insulation Contractors near Midland, TX",
+          "description": "BBB Directory of Spray Foam Insulation Contractors near Midland, TX. (432) 337-8247 (432) 538-3098 … 863-3626 702 Woodrow Rd,",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiQEBxCJF1ze4ENd53BmZF5Lz4_mu9YUKCbNyN5Cfi_i7GV38Tj2DI59b1U1YxR5GVM9wYJzLKaEZ-29OLyPdZuJjqjzW3g0hNc_YLYlF6L-cZ4LX56KG6Kk7VY5BGgG_TaXdjQKd6SuZD5P9aB5qcOrGf0xMLObpvergU_B6I9yahys_S2txa8FynA",
+          "title": "Insulation Contractors in Midland, TX",
+          "description": "B & W Spray Foam Insulation from Midland, TX. Company specialized in: Insulation Contractors - Cold & Heat. Please call us for more information - (432) 268- ... Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgwEBxCJF10DYu6T5DmemHZXsva5Pjx9BhalHgmKpPjH7dyuE3_qTwmux9jQTezCKmAu2rx510NGxzggtBpnrYkXpCvJK1ptGM9hbJAm2HNswBvpyLhalfTyGdS_9qzRCN9db_CVM5ws1_CDsa3RqsYdmQBmCFZ4dBtHiCr0CGZBcI8EUCQ",
+          "title": "Are there any spray foam chemical providers in Midland ...",
+          "description": "I have a Spray Foam Company … 1 940-882-9476 Find Local Spray Foam Professionals Near you on the Foam Contractors Directory www.foamstars.com ...",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESnAEBxCJF19KLvZ4QH5qa0yBf3JiPsr-nHWF5SJXmPTB2dqYSiyQXDIsoddSatvKVpVHymOBDgzkFJeGJyQ0XOl2sdEbuZ39VS4lHnXKcKULLiRfdBnmYL6EVWTecOYJEIuu7JlaH9-M1XPsSRsoM4l7_5z1Fu8A1XTPlleP-Ed2k2pegoXwy_jOYyqTByiOBY8FJuAKp4PCnTCB-YmU",
+          "title": "Metal Building Insulation Contractor in Midland, TX",
+          "description": "Our team at Midland Spray Foam Insulation applies insulation material designed specifically to adhere to keeping wallets fatter!",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScAHEIkXXPbSP4ELvtX4mpn-QUXGru7xMp_eYX05wz3kVboruWJ65mBlEKJdk46qvXCS1KxaGsOYhzdyMQWbarJ6S6QgFoqW2m26mMI13Dp5cN6Wiw7GSivNUWI2u0ZoyTkRKa8tc_U-0iY4NROgGbjg",
+          "title": "MIDLAND",
+          "description": "We provide professional spray foam insulation services to many communities throughout west texas. EXPERIENCED PROFESSIONALS. High – Quality Insulation. Free ... Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgwEBxCJF1whpOxnt3SlD9HiwzoiLdsUCxcToXlEbRpQ9Hj7WWRtevetkSFoSexuWAYte84sLU-U4tBxXb7Ei3pOWuZd-4QI6R2tRqh49MUm_PMWTTyPu1SlHlHqXbM4X_DrSz6LWUbexISLmIHM7grhXjfvQwl6-uigm5ew5SdFImXElxg",
+          "title": "URETHANE USA INSULATION & COATINGS",
+          "description": "3203 Princeton Ave. Midland, TX 79701. Directions ; (432) 741-9427. Call Now ; Visit Website. http://permianbasinsprayfoam.com ... Read more",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfQHEIkXXwTXY5i7zlL2jB-id1iDyXXeLWQVU9IkbQpz7uMIHKFcKhsrwd0IDiSJ-EnrAykVHpxEITXpPpA7TZSQeR6U7VyagSqg68epacODWt9lrKHepY5-P9PguuXuKAsazot4cecC_LTjG2a_dVNY37MZCSulpUEiqYrX2",
+          "title": "Midland Insulation Co",
+          "description": "Midland Insulation Co, located in Midland, TX, specializes in insulation services for residential and commercial properties. Their offerings include spray ... Read more",
+          "position": 13
+        }
+      ]
+    },
+    {
+      "keyword": "spray foam insulation near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdwHEIkXXn5YY4R7c2xgiAZIC3DJcCIVDDkn4r7PdoVAS0ULZIJVCeC9uzO2MWv9BL_W9FZCFMmpQIP5J2qeJFfzbwMSZS6xyG648IXkpG2qcw4T46cEPTWy4OxxumyNsBtF-jX3OLDhDp8_iedq157boDTgUw_sI",
+          "title": "Local Spray Foam Insulation Services",
+          "description": "See highly-rated professional spray foam insulation pros for free. Read real local reviews and grades from neighbors so you can pick the right spray foam ...",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgQEBxCJF174E-ZFjAcDcDTyZwLrs4Fuxr-GBZ_Vzz1gD-mf-rPRMeFBQKNMatxiZkaru6Ux3VMYri_ThIcPTtEQf_zQDqAyVsod7SML5WKgbhDd3vrKnsZB0NX00-REBeqQdsjtnPYNdpjXhiFVciaBXF7LQkXjfZf1QuslcVIFRGNM",
+          "title": "Residential Spray Foam Insulation Oklahoma | Homes & ...",
+          "description": "Oklahoma's trusted spray foam insulation contractor. Woman-owned, minority-owned, BBB A+ rated. (580) 320-5620 · rockingradsprayfoam@gmail.com. Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmwEBxCJF15L_h4IP5ZfYBH59td9XvOMZLS1KPXo4K6VoQhuYLreiima2cRw1ERTVImXgnbQ8rU02Uau2A8z0e8A0LMyQhUHuh84q4Q_okqzP4f21tPDu6FadzfE_joGPkiTgsS5-_GZUwwZU1wUc4aBDggQS6R24svfMgrdSanVkFC4o8aQq4J9YILphwKkWzF9GpEaK_KkJDBx_CA",
+          "title": "TOP 10 BEST Spray Foam Insulation Installation in Benton ...",
+          "description": "Dr. Lee's Crawlspace Repair - Spray Foam Insulation Installation near me - Benton, Arkansas ... Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYwHEIkXX-Drz_yRSLlZBYh6Z5H8ufArqII3rtom2b2VgrzMLonLAZNqtT51wgMjZU5k-EGF9vD0H2o1YrbrpERH-6QiFfz7FhydOFAQUq_U8fIMUlrIVGZpDRmcWM1OBrcanZw",
+          "title": "Spray Foam Insulation Services | Burleson TX",
+          "description": "Professional spray foam insulation in Burleson TX. We insulate attics, metal buildings, shops, garages & crawl spaces. Call Your Phone Number Here! for a ...",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiQEBxCJF13iNqZrjoYZPqAMo_83D5k8E4vvEcug9ei77Q_ZB8QCRAkVcF4pP-IiRRgEXpYrvoOLVjZt5ik8FxYJcW2w6rcISSTZzr-SNCVOD2XsR0crKN3my3N_1OObsqOZaeOj8ZIfkegsOTVMoPmPNTZ---4jVEPDbJr0M7rJ7Q3ZIJhbgfL8YmQ",
+          "title": "Spray Foam Insulation Contractors near Guthrie, OK",
+          "description": "BBB Directory of Spray Foam Insulation Contractors near Guthrie, OK. Your guide to trusted BBB Ratings, customer reviews and BBB Accredited businesses.",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdgHEIkXX__3uGGXj327k09eZwd_bNimODsWvVKy04lTJpq_jiNPqj3vku1f-HfQQy5eRZmqMrij-xnf_2iM2eogy93x0CXk977dpSXpnUXl84bdnZ-jVPnJ_z5R4g0ocWi5PE-7kLokCLywdwuiOyrEFmPRqkJ8",
+          "title": "Insulation Company in Uniontown | OH | Injection Foam & ...",
+          "description": "Primary Home Improvements is Uniontown, OH' expert home insulation company, specializing in attic insulation, injection foam insulation, spray foam, ...",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiQEBxCJF18OdJcqjYQOawpw3onMTEyq9xZLz0Lox7-eEC1pwmEx7LY5J0pQm_Ye5RyPadzy0Ck7do3pBJMaaTnZUlMe6sn6WmKxL4Wnd_q8mSs6qddWQdi8ECwyB6JE7BQDpR6EOjsb0eXGuDBY2VxD205qAc_3T4Z2TrCill_viGbCCGcTgZm81xQ",
+          "title": "Spray Foam Insulation Contractors near Shawnee, OK",
+          "description": "BBB Directory of Spray Foam Insulation Contractors near Shawnee, OK. Your guide to trusted BBB Ratings, customer reviews and BBB Accredited businesses.",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESggEBxCJF14TPABt0h67k9t0eQwsR6pPfLTipWAKc_2eIyP9Q65yOxKQr2NUCC_zrLeTiLUCzimlBwz9MSmGtpE8dTmA0nQHKf1_nMRzXyHppqTo2MqULH8WOU8B0Gg0jDob7VAGPq4vI4OMTAvTqwj2qcpHmzZRmoKU1wNEx8p9ELhEG",
+          "title": "Expert Insulation Contractor in Myrtle Beach, SC",
+          "description": "EcoFoam Insulation & Coatings in Myrtle Beach, SC offers top-quality spray foam insulation services for residential and commercial properties.",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF1zGFLwaKXj-6NfuYqHxSjNMQT7LYOZULAaF0Fwu30q0MmNC9bAK0EKF-r4eeCXbgcJECpidKTLrppt9GKQS90Zl43rETTBh_TK2KOW3PCAXq3JFdgbbbpYxps2bGSHafhWtzVYYPy7UYN0bgovZlIKK22asiuJUhX0sbbTKuCGQ7W3_j_bYLNg",
+          "title": "Spray Foam Insulation Contractors near Shreveport, LA",
+          "description": "BBB Directory of Spray Foam Insulation Contractors near Shreveport, LA. Your guide to trusted BBB Ratings, customer reviews and BBB Accredited businesses.",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Top 10 Best Insulation pros in Midland, TX",
+      "description": "UpgradeSpray Foam Insulation - Install Serving Midland, TX and surrounding areas In business since 2022. Serving Midland, TX and surrounding areas Free ...",
+      "url": "https://google.com/goto?url=CAESeQHEIkXXsx7rkZOEA2rlKFYNf0UjIz3R_eVqdFlgzphgtoYbzZ_YUaNVnP7p9AV95ZwCkjGNYBf9Z996znO8XTIeqFxlGu7b0tGXpo-LpSFADIDF4kmUkJMXVI06NV83ILEFL6Jyv_15jqaCXb9fvm7GUKAEzjtNGuY",
+      "breadcrumb": "https://www.angi.com › HVAC › Insulation"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Expert Commercial Insulation Midland TX",
+      "description": "Spray Foam Insulation. Open-cell and closed-cell spray foam for sealing penetrations, insulating irregular surfaces, and creating airtight assemblies in ... Read more",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF1x7xWY_zQbMytwW123fChPhaL2Vq4TFhYmYPH9t8jznG0LqXMtLtxaAw_UbafyP-NcurFVowlDzlQOFQjxW8aobsibxQJUlRPr3uLAuyFPJ3JUex7F3CHRR5I3dX1FoBoz6_JkJ4FlvC3mtBJH4v2T9jqj8N3BD9LnfgUGQpdatu",
+      "breadcrumb": "https://www.midlandinsulationcompany.com › commer..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Spray Foam Insulation Contractors near Midland, TX",
+      "description": "BBB Directory of Spray Foam Insulation Contractors near Midland, TX. (432) 337-8247 (432) 538-3098 … 863-3626 702 Woodrow Rd,",
+      "url": "https://google.com/goto?url=CAESiAEBxCJF19_ip-2_4-_unBJOYxvomK6A-CzXj7iesHOrJcc4wSep3nZsvZNOiHEGTghRdUDBtuoR2p3Y-d6QO2EVEqiukx3SayzKVLkllXB67PT0LT8L3oLCNfjNFdZBg4aIEwNgD1iXiA17ie7X8SJXSWpA2b0pe5myHb28JGzQ2kCmwkDyoW-q",
+      "breadcrumb": "https://www.bbb.org › midland › category › spray-foa..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Insulation Contractors in Midland, TX",
+      "description": "B & W Spray Foam Insulation from Midland, TX. Company specialized in: Insulation Contractors - Cold & Heat. Please call us for more information - (432) 268- ... Read more",
+      "url": "https://google.com/goto?url=CAESiQEBxCJF1ze4ENd53BmZF5Lz4_mu9YUKCbNyN5Cfi_i7GV38Tj2DI59b1U1YxR5GVM9wYJzLKaEZ-29OLyPdZuJjqjzW3g0hNc_YLYlF6L-cZ4LX56KG6Kk7VY5BGgG_TaXdjQKd6SuZD5P9aB5qcOrGf0xMLObpvergU_B6I9yahys_S2txa8FynA",
+      "breadcrumb": "https://www.namesandnumbers.com › Midland, TX"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Are there any spray foam chemical providers in Midland ...",
+      "description": "I have a Spray Foam Company … 1 940-882-9476 Find Local Spray Foam Professionals Near you on the Foam Contractors Directory www.foamstars.com ...",
+      "url": "https://google.com/goto?url=CAESgwEBxCJF10DYu6T5DmemHZXsva5Pjx9BhalHgmKpPjH7dyuE3_qTwmux9jQTezCKmAu2rx510NGxzggtBpnrYkXpCvJK1ptGM9hbJAm2HNswBvpyLhalfTyGdS_9qzRCN9db_CVM5ws1_CDsa3RqsYdmQBmCFZ4dBtHiCr0CGZBcI8EUCQ",
+      "breadcrumb": "3 comments  ·  4 years ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Metal Building Insulation Contractor in Midland, TX",
+      "description": "Our team at Midland Spray Foam Insulation applies insulation material designed specifically to adhere to keeping wallets fatter!",
+      "url": "https://google.com/goto?url=CAESnAEBxCJF19KLvZ4QH5qa0yBf3JiPsr-nHWF5SJXmPTB2dqYSiyQXDIsoddSatvKVpVHymOBDgzkFJeGJyQ0XOl2sdEbuZ39VS4lHnXKcKULLiRfdBnmYL6EVWTecOYJEIuu7JlaH9-M1XPsSRsoM4l7_5z1Fu8A1XTPlleP-Ed2k2pegoXwy_jOYyqTByiOBY8FJuAKp4PCnTCB-YmU",
+      "breadcrumb": "https://www.midlandsprayfoaminsulationtx.com › metal..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "MIDLAND",
+      "description": "We provide professional spray foam insulation services to many communities throughout west texas. EXPERIENCED PROFESSIONALS. High – Quality Insulation. Free ... Read more",
+      "url": "https://google.com/goto?url=CAEScAHEIkXXPbSP4ELvtX4mpn-QUXGru7xMp_eYX05wz3kVboruWJ65mBlEKJdk46qvXCS1KxaGsOYhzdyMQWbarJ6S6QgFoqW2m26mMI13Dp5cN6Wiw7GSivNUWI2u0ZoyTkRKa8tc_U-0iY4NROgGbjg",
+      "breadcrumb": "https://performancesprayfoamofwesttexas.com › midland"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "URETHANE USA INSULATION & COATINGS",
+      "description": "3203 Princeton Ave. Midland, TX 79701. Directions ; (432) 741-9427. Call Now ; Visit Website. http://permianbasinsprayfoam.com ... Read more",
+      "url": "https://google.com/goto?url=CAESgwEBxCJF1whpOxnt3SlD9HiwzoiLdsUCxcToXlEbRpQ9Hj7WWRtevetkSFoSexuWAYte84sLU-U4tBxXb7Ei3pOWuZd-4QI6R2tRqh49MUm_PMWTTyPu1SlHlHqXbM4X_DrSz6LWUbexISLmIHM7grhXjfvQwl6-uigm5ew5SdFImXElxg",
+      "breadcrumb": "https://www.yelp.com › ... › Insulation Installation"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Midland Insulation Co",
+      "description": "Midland Insulation Co, located in Midland, TX, specializes in insulation services for residential and commercial properties. Their offerings include spray ... Read more",
+      "url": "https://google.com/goto?url=CAESfQHEIkXXwTXY5i7zlL2jB-id1iDyXXeLWQVU9IkbQpz7uMIHKFcKhsrwd0IDiSJ-EnrAykVHpxEITXpPpA7TZSQeR6U7VyagSqg68epacODWt9lrKHepY5-P9PguuXuKAsazot4cecC_LTjG2a_dVNY37MZCSulpUEiqYrX2",
+      "breadcrumb": "https://www.mapquest.com › ... › Midland › 79705"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "spray foam insulation midland",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    86,
+    91,
+    91,
+    74,
+    94,
+    82,
+    92,
+    68,
+    85,
+    78,
+    78,
+    89,
+    100,
+    86,
+    88,
+    80,
+    91,
+    82,
+    82,
+    79,
+    81,
+    89,
+    94,
+    88,
+    88,
+    72,
+    74,
+    80,
+    95,
+    80,
+    84,
+    83,
+    94,
+    96,
+    87,
+    82,
+    87,
+    89,
+    81,
+    72,
+    87,
+    86,
+    85,
+    81,
+    91,
+    72,
+    88,
+    76,
+    81,
+    79,
+    89,
+    91,
+    87,
+    90
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

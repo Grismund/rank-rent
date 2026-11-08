@@ -1,0 +1,868 @@
+{
+  "volumes": {
+    "house cleaning el paso": {
+      "search_volume": 880,
+      "cpc": 8.03,
+      "competition_index": 75,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1300
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 880
+        }
+      ]
+    },
+    "house cleaning el paso tx": {
+      "search_volume": 10,
+      "cpc": 0.3,
+      "competition_index": 67,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "house cleaning near me": {
+      "search_volume": 50,
+      "cpc": 19.57,
+      "competition_index": 37,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 90
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 30
+        }
+      ]
+    },
+    "house cleaning services el paso": {
+      "search_volume": 880,
+      "cpc": 8.03,
+      "competition_index": 75,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1300
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 880
+        }
+      ]
+    },
+    "best house cleaning el paso": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "el paso house cleaning": {
+      "search_volume": 880,
+      "cpc": 8.03,
+      "competition_index": 75,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1300
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 880
+        }
+      ]
+    },
+    "affordable house cleaning el paso": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "house cleaning in el paso": {
+      "search_volume": 880,
+      "cpc": 8.03,
+      "competition_index": 75,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1300
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 880
+        }
+      ]
+    }
+  },
+  "organic": [
+    {
+      "keyword": "house cleaning el paso",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "house cleaning services el paso",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "house cleaning el paso",
+    "topThree": [
+      {
+        "name": "Oh Boy Cleaning Services",
+        "reviews": 0,
+        "rating": 4.7,
+        "domain": "ohboycleaning.com",
+        "phone": "+1915-233-6269",
+        "address": "",
+        "category": "House cleaning service"
+      },
+      {
+        "name": "Top Tier Home Cleaning - West El Paso",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "toptierscrub.com",
+        "phone": "+1915-600-6074",
+        "address": "7001 Westwind Dr #141, El Paso, TX 79912",
+        "category": "House cleaning service"
+      },
+      {
+        "name": "Maid Mi Dia",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "maidmidia.com",
+        "phone": "+1915-302-9093",
+        "address": "5736 Trowbridge Dr, El Paso, TX 79925",
+        "category": "House cleaning service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    40,
+    39,
+    43,
+    46,
+    53,
+    71,
+    64,
+    84,
+    56,
+    49,
+    45,
+    41,
+    40
+  ],
+  "organic_raw": [
+    {
+      "keyword": "house cleaning el paso",
+      "items_types": [
+        "organic",
+        "paid"
+      ]
+    },
+    {
+      "keyword": "house cleaning services el paso",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "house cleaning el paso",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESagHEIkXXLHSDaAAlVs4cyVQIX3DW43mnWpo2m6J08mudNVvSvkuy1GoCDuTkUJk0v_fGMpHw4F_nP8UNaPBNm2DE-XubD3u5bT7066Tae8EX8dqTWreBvOUoU8ZSzGC4eXtIydjB2_7WuiI",
+          "title": "Find THE BEST Cleaning Lady Near Me in El Paso, TX",
+          "description": "Nov 7, 2026 - Find 101 affordable cleaning ladies in El Paso, TX (Starting at $17.16/hr). Search local listings by rates, reviews, experience, ...",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScgHEIkXXaar4T0AI4idAE_lqeJ46prdKXUIAO8IOJ239U1K1yIP1eoouGkFjQ8heA8ZfdLjFrz0ke0nM8PMv9P_7BAYNQPWJzhRtTPfu0lkwrlG1p26_2XNj2bcEwc3PI8TIjaHWh7uIIyhDmbuAMpdhSg",
+          "title": "One Time House Cleaning Services in El Paso",
+          "description": "How much are cleaning services in El Paso? One Time Cleaning Services in El Paso start at $35 an hour. No need to call around asking for estimates; easily ... Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlwEBxCJF1_CrNHapmD7xJVO35ARQkEPFhNNCjTDdKJ1YteWp9wWxWNRN2MNxLUmLZQI-Uhvp6-n2A0Hex-XOBomVp3T_m_2vPYlM_13JjM29ah48PSNLY6dY7ECh_uZiOesRPW5JSf56cwI1NmEqJWkh2X6LdI0wXd8yf2FCx0LQ8cNJIAtLyAekPjlfIPg6Ga8jMZfEn6f1",
+          "title": "Does anyone know a good cleaning service? : r/ElPaso",
+          "description": "Good evening, i am looking for a house cleaner or cleaning service in el paso. Anyone know any good house cleaners in the area? If so could you refer ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbAHEIkXXyQuE1nU9WJAtrYkZ0p-NoXDnP_52L0ZZ0EEek175uyPSFhsoGWrKksDqdAcrdodSfnpGLVbESM2stqwketUrAMO4uZwFVJSV8UdiqG5iFzey0ojx47juwyGMGYguQqojOtcbaHc25g",
+          "title": "Top Tier Home Cleaning - El Paso",
+          "description": "Top Tier Home Cleaning - El Paso. 575 followers · 35 talking about this. Home Cleaning Service In El Paso | 300+ 5-Star Reviews on Google | 3000+ Houses...",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShQEBxCJF18u6miZNe125pPTb_I2fn8IpnP0vt0kjV3tkf9m5CMDykNIe1YICDVRFKVoUwY8zqqa9TmT3uRqqvIdfoRUL2zokGA6C8vXeygyHHpSjdHp9_lYjiRqV4v5mOaGLkqYmJjflniXL7hkuCJa-Mnzd6WkYsU0qgB4r1kJnj5t_iIHs",
+          "title": "House cleaning services in El Paso for empty house",
+          "description": "Hi, my Mother is moving out in October and I am helping her look for a cleaner once the house is empty. Can you help?",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESXAHEIkXXCz_ypEgM4HnDGo5eowNZ7yCXGIGzJZjZjDshjhcCroqGjUpCti1SxTleSA90RsW2daKBjeRRsA4BXvjtAwF12U961Vx2Nd5ZG7unz5amox9pPQz8QY18",
+          "title": "EP DISINFECTING BROS LLC - Disinfecting, Sanitation",
+          "description": "We provide home disinfecting services, move in/move out services, light carpet and rug cleaning and much more. Learn more. BUSINESSES. We know how hard ... Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaQHEIkXXFYgJ9yigYWD4DPx86cG_6gT6ZEeWs_jsIwaNl3O4JrSz73tkVRXsWfvVpJkxHfQcfGMl9rE5E8l68SLBSSRexUbbqLGDIPYdQORKI9pVpUCTvbtr9i7J62xSA5jyGULS9EvldA",
+          "title": "Find THE BEST Housekeepers Near Me in El Paso, TX",
+          "description": "Find trusted housekeepers in El Paso, TX. Compare rates, reviews, experience, and services to hire the right cleaning help for your home.",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESnQEBxCJF11ZrIDLtHcLkVl8T0ZeiAdUq2leiffXvYaXKgXNo41fCKRquxsUc2dHfThFQMmvjpms_3PkYn-pid57v-_XIvKu-R1XoD6xQWSXHI8McKGT78SXaOt_q77rdfVJr15ftrP96SnVsdWYgQzo06hDKyTCS6MIc0868SZAl02O8g3UCH7UZWdSi4ACzlXek4H8eHFKV_WrQXGzT",
+          "title": "Can anyone recommend a reliable house cleaning service ...",
+          "description": "Looking for recommendations for a residential cleaning service in Northeast El Paso. I'm looking for someone reliable for what would ... Read more",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "house cleaning services el paso",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaQHEIkXX58KIIVFBSPFnB2HNZ6UjuR4m2lRnP9VlZcb4qcwfy3XxlFN4un0aqA3QIJARx8ep9fbp5xvRKYdCf9Y9oHCPnvnMIItaPGk-Vl6Psyfpe6Qoyz8QtY79x96xUol2vO5tNBNr7g",
+          "title": "Residential Deep Cleaning Checklist Services | TCS in El ...",
+          "description": "Discover our residential deep cleaning checklist services in El Paso, TX. Ensure your space shines with our residential deep cleaning checklist.",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlwEBxCJF12DMdY4ta3cGmyJMU-xKjJneThSuj3R4YA_ssUNm1oNEI23cZE5KqDJuRIW4eTYsbAOo5RU2PayjCGLH_zJ9LY52vbZR7aOWhW2VrxkXZ5RU12KFnyvaiMAzzOhZDr--LQAiANt5dMgU5iyU0gXHWNvPDZzvEfDsw7Z82L2vvKyN6TZALEmfKrXondjKkinu4NKy",
+          "title": "Does anyone know a good cleaning service? : r/ElPaso",
+          "description": "Good evening, i am looking for a house cleaner or cleaning service in el paso. Anyone know any good house cleaners in the area? If so could you refer ...",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaQHEIkXX3N4T1XbcedSwpQ2eI6dNGi-h2WZ_cls2FVHZb_-ZZHNB-s9hzbqoYjINhFCa-AN0p6Fh5B0tzPv7w3Dlc2B8Gss1UwFrGqDe_Fga3s73Kn0UAK9UAhgUrJYrGzq-86M9wKGTUA",
+          "title": "Find THE BEST Housekeepers Near Me in El Paso, TX",
+          "description": "Compare 284 housekeepers in El Paso offering cleaning, organization, laundry, and home maintenance services. Compare rates and reviews to find the best fit. ​. Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShQEBxCJF1-YNLEpaeA5UiuEnArP3kE-PwbMS79CfN1S5AK0cw-k5zbnBAEb72px5IT6w10vhd0H5GpE_WDWUmKr3tAjh_3Cm2d-HdzTC_Wvy5L2hdqHrPJeNKE7I3XDSYrXWA816rkFH4oK7dn3HKcfDNGzfdq-bUuDVrkCncC0tilCELlAw",
+          "title": "What are reliable home cleaners in El Paso, Texas?",
+          "description": "We are a new cleaning company here in El Paso. Phone number: 915-224-2393. We work in all areas of El Paso. Reliable, Honest, and ready to work!",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZwHEIkXXbSULlzKUnsrHzDOWFHzU0D-kifwbkrxxH70Jp3s2-0SN3XTRhJMEe8XMgjTbEQ43L7ht_oxpHlhfPj7BY998DpHElyvd1yd25BqA1ikI5Dzqgz-lm8CGRcdCVKYkZ2isWLA",
+          "title": "El Paso's Top Residential Cleaning and Maid Service ...",
+          "description": "Mi Dia LLC 20,000 local homes cleaned 500+ online reviews Background Checked & Insured Female-Owned El Paso. Maid Mi Dia works around your schedule ...",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShQEBxCJF1zITgcP5kPigZZ91bNQN2uoN4AG612eiv2BkCLTE1sXw-5j5-uAEq1Ly8gGmm7alpEpVy5P9NvJzoxcErrmmeZDXi4aBMdk5sp44xGlObECvLAh5toRO95tNSIJTbLaoQi_7WlXTGNuzNu4UqFLgYQkh-fQfJDD9DXpRxcdDR1Xy",
+          "title": "El Paso, TX professional home cleaning services",
+          "description": "We are a new cleaning company here in El Paso. We offer only premium deep cleaning, 📞 (502) 777-9486 , sweeping, mopping, vacuuming, carpet/ ...",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESnQEBxCJF11LttDV-TpNftKSnz9DlexTapbCe6oD70W9sZPeVwaldEFFXOJsv-3S_wtjggX31I0-AcBiMAFj-VRo7ZAWbHn812Ifx-akS34EddBsv8Cni0Pizq4UHPmTYAgZE47DnNaUt_mQ0xgfDDweJVv9wgnm5l6Txm_UO-4_UIp8yl5HZEMx2MqyExH1RBB8FcyTxqOEllxxDG2v2",
+          "title": "Can anyone recommend a reliable house cleaning service ...",
+          "description": "Looking for recommendations for a residential cleaning service in Northeast El Paso. I'm looking for someone reliable for what would ... Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaQHEIkXXzhn3spfo-TdRAtiInK00_Gg7ukmc6qy2C4hMyH8HBcISltb75w-GJKwboKgIHU_uCoBytghJMuA4-uQTw1sxP-rxF7bavi7RvTwHlb_9nNMeYuNMYTdUS9OYHtQox9dL63SVHQ",
+          "title": "Top 10 Housekeeping in El Paso, TX",
+          "description": "Find 26 affordable housekeeping options in El Paso, TX. Browse by rates, reviews, experience, and more. The average posted rate is $17.00/hr as of November ...",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlQEBxCJF17cRoyOhpSVB5GZYwJbygQyTf7yMxT5Wm_QiCrP2X4I2MVS5SBpWsodRi5COFHMEA9TujENYApc2obGw_XzkzfigejbNw8nnmtxeeKqo7tGjmj6725JrcOoxCokXynoLGIKqzUDs0xtcDR-JdCqbJrL68BunR3oMYtqee_hx6iGABu-vDezqS3bPsOv1nMl2MQ",
+          "title": "Specialty Cleaning Services near El Paso, TX",
+          "description": "Depend on SERVPRO for safe, thorough, 24/7 service. SERVPRO offers both residential and commercial services handled by certified technicians in El Paso, TX.",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Find THE BEST Cleaning Lady Near Me in El Paso, TX",
+      "description": "Nov 7, 2026 - Find 101 affordable cleaning ladies in El Paso, TX (Starting at $17.16/hr). Search local listings by rates, reviews, experience, ...",
+      "url": "https://google.com/goto?url=CAESagHEIkXXLHSDaAAlVs4cyVQIX3DW43mnWpo2m6J08mudNVvSvkuy1GoCDuTkUJk0v_fGMpHw4F_nP8UNaPBNm2DE-XubD3u5bT7066Tae8EX8dqTWreBvOUoU8ZSzGC4eXtIydjB2_7WuiI",
+      "breadcrumb": "https://www.care.com › Cleaning Ladies"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "One Time House Cleaning Services in El Paso",
+      "description": "How much are cleaning services in El Paso? One Time Cleaning Services in El Paso start at $35 an hour. No need to call around asking for estimates; easily ... Read more",
+      "url": "https://google.com/goto?url=CAEScgHEIkXXaar4T0AI4idAE_lqeJ46prdKXUIAO8IOJ239U1K1yIP1eoouGkFjQ8heA8ZfdLjFrz0ke0nM8PMv9P_7BAYNQPWJzhRtTPfu0lkwrlG1p26_2XNj2bcEwc3PI8TIjaHWh7uIIyhDmbuAMpdhSg",
+      "breadcrumb": "https://www.taskrabbit.com › locations › one-time"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Does anyone know a good cleaning service? : r/ElPaso",
+      "description": "Good evening, i am looking for a house cleaner or cleaning service in el paso. Anyone know any good house cleaners in the area? If so could you refer ...",
+      "url": "https://google.com/goto?url=CAESlwEBxCJF1_CrNHapmD7xJVO35ARQkEPFhNNCjTDdKJ1YteWp9wWxWNRN2MNxLUmLZQI-Uhvp6-n2A0Hex-XOBomVp3T_m_2vPYlM_13JjM29ah48PSNLY6dY7ECh_uZiOesRPW5JSf56cwI1NmEqJWkh2X6LdI0wXd8yf2FCx0LQ8cNJIAtLyAekPjlfIPg6Ga8jMZfEn6f1",
+      "breadcrumb": "4 comments  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Top Tier Home Cleaning - El Paso",
+      "description": "Top Tier Home Cleaning - El Paso. 575 followers · 35 talking about this. Home Cleaning Service In El Paso | 300+ 5-Star Reviews on Google | 3000+ Houses...",
+      "url": "https://google.com/goto?url=CAESbAHEIkXXyQuE1nU9WJAtrYkZ0p-NoXDnP_52L0ZZ0EEek175uyPSFhsoGWrKksDqdAcrdodSfnpGLVbESM2stqwketUrAMO4uZwFVJSV8UdiqG5iFzey0ojx47juwyGMGYguQqojOtcbaHc25g",
+      "breadcrumb": "570+ followers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "House cleaning services in El Paso for empty house",
+      "description": "Hi, my Mother is moving out in October and I am helping her look for a cleaner once the house is empty. Can you help?",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF18u6miZNe125pPTb_I2fn8IpnP0vt0kjV3tkf9m5CMDykNIe1YICDVRFKVoUwY8zqqa9TmT3uRqqvIdfoRUL2zokGA6C8vXeygyHHpSjdHp9_lYjiRqV4v5mOaGLkqYmJjflniXL7hkuCJa-Mnzd6WkYsU0qgB4r1kJnj5t_iIHs",
+      "breadcrumb": "20+ comments  ·  3 weeks ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "EP DISINFECTING BROS LLC - Disinfecting, Sanitation",
+      "description": "We provide home disinfecting services, move in/move out services, light carpet and rug cleaning and much more. Learn more. BUSINESSES. We know how hard ... Read more",
+      "url": "https://google.com/goto?url=CAESXAHEIkXXCz_ypEgM4HnDGo5eowNZ7yCXGIGzJZjZjDshjhcCroqGjUpCti1SxTleSA90RsW2daKBjeRRsA4BXvjtAwF12U961Vx2Nd5ZG7unz5amox9pPQz8QY18",
+      "breadcrumb": "https://epdisinfectingbros.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Find THE BEST Housekeepers Near Me in El Paso, TX",
+      "description": "Find trusted housekeepers in El Paso, TX. Compare rates, reviews, experience, and services to hire the right cleaning help for your home.",
+      "url": "https://google.com/goto?url=CAESaQHEIkXXFYgJ9yigYWD4DPx86cG_6gT6ZEeWs_jsIwaNl3O4JrSz73tkVRXsWfvVpJkxHfQcfGMl9rE5E8l68SLBSSRexUbbqLGDIPYdQORKI9pVpUCTvbtr9i7J62xSA5jyGULS9EvldA",
+      "breadcrumb": "https://www.care.com › Housekeepers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Can anyone recommend a reliable house cleaning service ...",
+      "description": "Looking for recommendations for a residential cleaning service in Northeast El Paso. I'm looking for someone reliable for what would ... Read more",
+      "url": "https://google.com/goto?url=CAESnQEBxCJF11ZrIDLtHcLkVl8T0ZeiAdUq2leiffXvYaXKgXNo41fCKRquxsUc2dHfThFQMmvjpms_3PkYn-pid57v-_XIvKu-R1XoD6xQWSXHI8McKGT78SXaOt_q77rdfVJr15ftrP96SnVsdWYgQzo06hDKyTCS6MIc0868SZAl02O8g3UCH7UZWdSi4ACzlXek4H8eHFKV_WrQXGzT",
+      "breadcrumb": "1 comment  ·  5 months ago"
+    },
+    {
+      "type": "paid",
+      "rank_group": 1,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "$59 First Time 6-Hour Cleaning | $0 First Time 3-Hour Cleaning",
+      "description": "Homeaglow Top-Rated Cleaning Services Near You. Same Day Availability 7 Days A Week! Make Your Home Sparkly Clean. Get Your First Clean Free With ForeverClean Membership. Upfront Pricing.",
+      "url": "https://google.com/goto?url=CAESVwHEIkXX_Vw_MtLw6-8q67immOqniCeJEE-Q76B37RIgvw5aIQvCcQEQuga4k4GD_d1tZhlEX3rRqE6BF6COTxF1IYqFN_LbEimIa9KqtO-vztq_yQgwow",
+      "breadcrumb": "https://try.homeaglow.com › 1st-clean-free › homeaglow"
+    },
+    {
+      "type": "paid",
+      "rank_group": 2,
+      "rank_absolute": 14,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Residential Deep Cleaning Checklist Services | TCS in El Paso, TX",
+      "description": "Use our residential deep cleaning checklist to get every room spotless in your El Paso home—schedule your TCS service today.",
+      "url": "https://google.com/goto?url=CAESaQHEIkXXz2f5t3PHZiLsNWEd5XYsQIpr-VwkUzhFwWxKiDpGWVNvAzZThS3RqeSv4Sqm4EmEEUpJPAEKiYj2pvoycd_tIoqr1h0CRCcv_AWLvsgDD2Ovl8aHz-O57LzJHqgsL801nHviMw",
+      "breadcrumb": "https://www.totalcleaning-ep.com"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "house cleaning el paso",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    41,
+    40,
+    41,
+    38,
+    40,
+    37,
+    38,
+    39,
+    41,
+    43,
+    40,
+    39,
+    49,
+    45,
+    44,
+    45,
+    50,
+    48,
+    52,
+    44,
+    55,
+    64,
+    71,
+    76,
+    71,
+    65,
+    68,
+    62,
+    63,
+    67,
+    61,
+    84,
+    100,
+    84,
+    66,
+    66,
+    53,
+    55,
+    49,
+    47,
+    52,
+    53,
+    50,
+    45,
+    43,
+    45,
+    50,
+    40,
+    40,
+    43,
+    38,
+    41,
+    43,
+    37
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

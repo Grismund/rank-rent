@@ -1,0 +1,577 @@
+{
+  "volumes": {
+    "hardwood flooring repair tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "hardwood flooring repair tucson az": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "hardwood flooring repair near me": {
+      "search_volume": 10,
+      "cpc": 1.1,
+      "competition_index": 100,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "hardwood flooring repair services tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best hardwood flooring repair tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "tucson hardwood flooring repair": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable hardwood flooring repair tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "hardwood flooring repair in tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "hardwood flooring repair near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "hardwood flooring repair tucson",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "hardwood flooring repair tucson",
+    "topThree": [
+      {
+        "name": "Complete Flooring Tucson",
+        "reviews": 0,
+        "rating": 4.6,
+        "domain": "www.tucsonflooringstore.com",
+        "phone": "+1520-219-2549",
+        "address": "3821 W Costco Dr #105, Tucson, AZ 85741",
+        "category": "Flooring store"
+      },
+      {
+        "name": "Tucson Hardwood Floors, L.L.C.",
+        "reviews": 0,
+        "rating": 4.7,
+        "domain": "tucsonhardwoodfloors.com",
+        "phone": "+1520-790-9226",
+        "address": "",
+        "category": "Wood floor installation service"
+      },
+      {
+        "name": "Miguel the Floor Guy",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "",
+        "phone": "+1520-400-8627",
+        "address": "2750 N Haskell Dr, Tucson, AZ 85716",
+        "category": "Building materials store"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    21,
+    25,
+    14,
+    22,
+    41,
+    77,
+    66,
+    43,
+    38,
+    31,
+    7,
+    17,
+    11
+  ],
+  "organic_raw": [
+    {
+      "keyword": "hardwood flooring repair near me",
+      "items_types": [
+        "local_services",
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "hardwood flooring repair tucson",
+      "items_types": [
+        "organic"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "hardwood flooring repair near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESawHEIkXXcNRmBBuEeaM1m2Vj1LiDzEziQvv5tUeKTKEqqU2HLMdyXlM6reO-PyWMQWjeencZypv5VHw-oN7pQnyCcJbyNjM6Zw2c1qw6UBJQ6MlJS_uNVeaPIZBzRGDCza8Nx5Bksg8QfKfr&gsessionid=tjduDSPRMHvjx-CtQyjLPJoOIRKjAcGkAnUz4oiGuPAqaQ_0LZB-9A",
+          "title": "Our Services | Hardwood Refinishing Experts in Tucson AZ",
+          "description": "Our expert team can combine a refinishing process with some hardwood floor repairs and make the damage disappear.",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdwHEIkXXY0Qtjn80kN2S7CmMRsdJGt1SNk5JI-gAPTdIooFI7wxRJH2MjL-i01tCnv7VDHXFD0o7TYIAGEzwaDkMgncOf5WGjpg-YYStaOwrxIeiUw6O3OCoJAsctfp_wUa1Q-eQL2xb4L1dfknqdDY5YwzYVIHT&gsessionid=tjduDSPRMHvjx-CtQyjLPJoOIRKjAcGkAnUz4oiGuPAqaQ_0LZB-9A",
+          "title": "Local Hardwood Floor Repairs",
+          "description": "See highly-rated professional hardwood floor repair pros for free. Read real local reviews and grades from neighbors so you can pick the right hardwood ...",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESewHEIkXXc-xom5BnV6z0MdvlZ30bQrpgbCp97MydkV9iCS5dpMAMOmC0pGpa1JWhD6rc-Z7wsQBCDJHcLm5tzJ9rwckGo6coRHj-LJEnXt8porHnXCEUkzQdCWhbNZNyX_vv87LlpZMcFJG_mYqizkuSlsssHqBEuYrYCw&gsessionid=tjduDSPRMHvjx-CtQyjLPJoOIRKjAcGkAnUz4oiGuPAqaQ_0LZB-9A",
+          "title": "Hardwood Flooring Services - Kansas City",
+          "description": "We've been installing, refinishing, and repairing hardwood floors throughout Kansas City since 2013.",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYQHEIkXXTLXRPpWihOzgrSwouXDOTuZQonEbPNMsyz8JXOSsd5v2NQx8G_ixk7JGycuiF8cxfpC5lnCdbz4Axt2yeYJP5UNrSz5vNORg07AFt_-nrKqiKKqqWNZgHtOY0o8&gsessionid=tjduDSPRMHvjx-CtQyjLPJoOIRKjAcGkAnUz4oiGuPAqaQ_0LZB-9A",
+          "title": "Fantastic Hardwood Floors",
+          "description": "Floor Repair Hardwood Floor Refinishing. We specialize in crafting exquisite hardwood floors. Our team arrives ready to work with the right tools, quality ...",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbQHEIkXX4t0WZjbuSItyjE_riaPHe0FnfiCYzToIybHIbrbr283iAWC2mQjSAwugSj_pBMjuv8GiIEhLflNWOQuzbECNyvf7iujMObGygIq3xqplyOGJ_Et_PTPVDPOurndnP5drtHsjBKngTFE&gsessionid=tjduDSPRMHvjx-CtQyjLPJoOIRKjAcGkAnUz4oiGuPAqaQ_0LZB-9A",
+          "title": "Get a Free Quote — Hardwood Floor Installation & ...",
+          "description": "Professional hardwood floor services in San Francisco, including installation, refinishing, sanding, and repairs. We repair floor squeaks, level concrete slabs ...",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShwEBxCJF1xqFeREsfzsyozj2dHbGpG7w7Vn1btDrHZz3ojiYIkwQ52HbsRZX3TjF5ADA42HJ0q0CNw6wn3WMIdqXGPWcnvEjJjc_t8K996syCh_hXN_osQpUCLiDZW8GG89qtg__l6pg1ksNpSnssC-GDZyTQ8mykIlwe_ic5kEhfihxiFWwAgo&gsessionid=tjduDSPRMHvjx-CtQyjLPJoOIRKjAcGkAnUz4oiGuPAqaQ_0LZB-9A",
+          "title": "TOP 10 BEST Floor Repair in Carlsbad, CA - Updated 2026",
+          "description": "Near You: Top 10 Best Floor Repair in Carlsbad, California ; Handy Craftsman · (236 reviews). Handyman · Carpenters · Electricians ; Alejandro Can Fix It · (51 ... Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlQEBxCJF10sUrbGFk0uRPtqNS-gWttql2QgBXOWa5UOK3UlYbq8AkmVs-5KdyXVzLUnP298UVRoFuUwqfN-GYp8kXLVL1p3VYy6J_aGy3yB7D2-4W8iKYmYZE73G7zZYPI9qalQAcZ9Vxrf411T06HpeikOiBkNOM0lHzFtzdNXulDmtMkJCwem4LDD6ZyJTOmP7zdx5Lg&gsessionid=tjduDSPRMHvjx-CtQyjLPJoOIRKjAcGkAnUz4oiGuPAqaQ_0LZB-9A",
+          "title": "Top Options for Hardwood Floor Repair in Orange County ...",
+          "description": "Top 10 Best Hardwood Floor Repair Near Orange County, California (Updated 2026) ; JACE Hardwood Flooring · (144 reviews) · Refinishing Services ; OC Hardwood and ... Read more",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbwHEIkXXXxdJcC5zpFPu0wMVJ0waB_uI7V74tnL6CegMT3n8JYtz0Q1RI10AYPL5q0VJUjtsl_OoujlIYVrIfjLldGLDkVc7E9I6r_UowPpyX2Qjeq-rWMLJAbHxOraoxDK1R9DHpaqSaqMZhTL3qw&gsessionid=tjduDSPRMHvjx-CtQyjLPJoOIRKjAcGkAnUz4oiGuPAqaQ_0LZB-9A",
+          "title": "Floor Repair in Glendale, CA",
+          "description": "Glendale Elite Hardwood Flooring offers floor repair in Glendale, CA. 818-654-4401 Contractor's License #951083 Insured & Bonded Floor Repair in Glendale, CA",
+          "position": 13
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjQEBxCJF1_XLeiXW8-55z0bcLTQ8v50TTEo9H1SUy-tzMN_nNooa6t2ojrzNvw7wJYbWqiC5DrlcB_JWUytsm4IEwZgmESQzD84DpzwYpmOZyj6hBj7EPbslzNpi8TbScgLe8da8yNNcB1ngsD0BkYsSHvfJ_hvDNBFuxMrIGLEjvBKRl2ETq8dUQr5igR8&gsessionid=tjduDSPRMHvjx-CtQyjLPJoOIRKjAcGkAnUz4oiGuPAqaQ_0LZB-9A",
+          "title": "TOP 10 BEST Wood Floor Repair in San Diego, CA",
+          "description": "Geary Floors is a family owned and operated hardwood flooring company with two generations of experience in San Diego. We specialize in every aspect of the ... Read more",
+          "position": 14
+        }
+      ]
+    },
+    {
+      "keyword": "hardwood flooring repair tucson",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESXQHEIkXX5CoaRp9i_Q_dxSHdHlbHIjK1AknkH0Dowr33IdvyQ8hsP2Se1Y11ClbQuCETlrBcgjnkSo2sIHLad48cN-ekG2FLL7o9YPsxvJKzP3WJYb1eSN5ME7Q8bQ",
+          "title": "Flooring Direct: Flooring Selection & Installation in Tucson, AZ",
+          "description": "Find the right surfaces for your home remodel. At Flooring Direct, we connect you with premium carpet, hardwood, luxury vinyl, and tile with professional ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbwHEIkXX19rJza2h5UvQ3CQCairaufzgdYEGzWkWNbBS8yi9JPUKuQM7oqPKaw1tNVkhpvNGUu2QU-Cwqm0wFPVFRekKWgKeJJCJ-JtSvJuORjWduh-3XYR13yuu73Fl3prgtRU2LgqoiHrcQU8gVw",
+          "title": "The 10 Best Hardwood Floor Companies in Tucson, AZ 2026",
+          "description": "Here is the definitive list of Tucson's hardwood floor companies as rated by the Tucson, AZ community. Want to see who made the cut?",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjQEBxCJF14sIMgW9fQvp6zyaetTb-i9VxWaGw09G6QsllnfjtBx47QbZopOQJhXGB2_Z2I5dbZhHdwTFRzOh6KpLSI7V8kg9xx7dGYMtERbfebiYDQE7eZ-Gc7iNzpyUpxLi-o-aB9J7tqStVFD45W6NFyOBJ3V3UuizF3LEkhCQ8M9swkFiHPSzZ23timI",
+          "title": "Best Hardwood Floor Installation Services in Tucson, AZ",
+          "description": "For urgent hardwood floor repairs in Tucson, Arizona Floor Fashions specifically states they usually begin work within 72hrs with in-stock materials and ... Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkAEBxCJF1zpAk_fAXUh9y7HxIk8ruI7ByEa9JKPCfEP2qPvifY1o4xVYsCQRali5B9_TMpgPdX4C9KkaifHK9PqUi78cLnUfFhePCWO30mci6RAvOcoHfI46FbyOVUv6qSIBXbj8XX6V1dSF0p-7RKSz3aqRmaqtvTiZu88RPP74h8igLRWWhGy2CMAgCwGppVI",
+          "title": "Engineered wood flooring in Tucson",
+          "description": "Ours is Harris Wood brand; we got it online from a wholesaler but for a local flooring company I'd recommend checking out Apollo Flooring. They ... Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZwHEIkXXaRGYrBd4PSCwoVcxj_GHvjVKdDxzZJe42IeoCjxCWl1I8SpwM5IrDZO-6EcJBQcWUbMHrbcD3ZGgCmoDfsj5IYvisiXvNW8RR240iF7-qbXKUpITlC6I0rV786JM5S9Nyps",
+          "title": "Hardwood Flooring | Tucson",
+          "description": "We offer innovative & unique materials including Castle Combe, American Guild, DuChateau & ECOfusion hardwood flooring.",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF11vDNKfBd651MRw9g9KEJwB7VPnZGgleLiIIwYMKilwOPEDC_I1DC6f1z0FLSRJbLQmAh8HvyIeshyqxgioCQbIMNN8-_VwgL7_TlapFaVC8yz6ZAkqtIiPf4J74Fzc3t9S4yVmkKdv3FeNd650dL3ipmcZ8P_gJUJQBy8MyI6bg49_qCDiShg",
+          "title": "TOP 10 BEST Wood Flooring Stores in Tucson, AZ",
+          "description": "Top 10 Best Wood Flooring Stores Near Tucson, Arizona (Updated 2026) · Boyd's Custom Painting · Fuentes Flooring & Design · Senor Tile · Majestic Developments. Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdQHEIkXXFSfdXWIzxh1fdH5Te0c3kxAOle4XxuHeQES1GK0wvd8wavkBaBy1Up4TVphzoNI7ofbNLxu8jVue4-YW9fBNw8YoJ3l1nFW84aA399BqYUaoqcFDZFNJ2hh7vvBg6d6boYeezrD3eljJK3ConF2NwQ",
+          "title": "AZ Floor Haven | Tucson AZ",
+          "description": "Tucson, we're back! We're back at AZ Floor Haven! From hardwood to LVP to refinishing, we've got your flooring needs covered. Reach out today or ... Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWQHEIkXXanx4SDs7HoTw2icq-4ep0jPWTfk264YTiF79S_Arwf5w9a9sPGa_AWp6vJ1FvnQ1PjWpj4bWYL0Z-W--5MgKtJK_mcNuRkrhITDbo40eN8iqGogQ",
+          "title": "Cimaco Floor Service Inc.",
+          "description": "With over 20 years of experience in Tucson, we specialize in concrete staining and refinishing along with expert sanding and refinishing of hardwood floors. Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaQHEIkXXs-RqET-Q2MiWqSdKICHOwRKyRfEaqvDFeYKJNsmBJKjz1jv2hMS7lU443n87ItR1Erwwhv82UY4-pq_0JIiYJeE95trPWlUDiGNPF0mwQBhT5tHF25BvDI0yq5uWByA1irKUcQ",
+          "title": "hardwood floors Tucson AZ www.tucsonazflooring.com",
+          "description": "• Hardwood Flooring Installation and repair - Nail, Glue, Floating applications. • Cork Flooring Installation and repair - Glue-down floating applications. Read more",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESewHEIkXXgPViZ9FqFO_xTwP6MHG9hzjqaXWLS5NIK9mbu1N6_ZII-OOIIvw008K0NWrokcyy93wLphSpPLEI592A0Qo6gdlyMyJ6MRxp8nAHBet5GPrgTj8i66sqo-uXRj_O_y5o-4qLiBxKb5sGLWZzUNHNR2np0NSMiQ",
+          "title": "The 10 Best Hardwood Floor Installers in Tucson, AZ 2026",
+          "description": "Here is the definitive list of Tucson's hardwood floor installers as rated by the Tucson, AZ community. Want to see who made the cut?",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Flooring Direct: Flooring Selection & Installation in Tucson, AZ",
+      "description": "Find the right surfaces for your home remodel. At Flooring Direct, we connect you with premium carpet, hardwood, luxury vinyl, and tile with professional ...",
+      "url": "https://google.com/goto?url=CAESXQHEIkXX5CoaRp9i_Q_dxSHdHlbHIjK1AknkH0Dowr33IdvyQ8hsP2Se1Y11ClbQuCETlrBcgjnkSo2sIHLad48cN-ekG2FLL7o9YPsxvJKzP3WJYb1eSN5ME7Q8bQ",
+      "breadcrumb": "https://www.aaflooringdirect.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "The 10 Best Hardwood Floor Companies in Tucson, AZ 2026",
+      "description": "Here is the definitive list of Tucson's hardwood floor companies as rated by the Tucson, AZ community. Want to see who made the cut?",
+      "url": "https://google.com/goto?url=CAESbwHEIkXX19rJza2h5UvQ3CQCairaufzgdYEGzWkWNbBS8yi9JPUKuQM7oqPKaw1tNVkhpvNGUu2QU-Cwqm0wFPVFRekKWgKeJJCJ-JtSvJuORjWduh-3XYR13yuu73Fl3prgtRU2LgqoiHrcQU8gVw",
+      "breadcrumb": "https://www.thumbtack.com › AZ › Tucson"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Best Hardwood Floor Installation Services in Tucson, AZ",
+      "description": "For urgent hardwood floor repairs in Tucson, Arizona Floor Fashions specifically states they usually begin work within 72hrs with in-stock materials and ... Read more",
+      "url": "https://google.com/goto?url=CAESjQEBxCJF14sIMgW9fQvp6zyaetTb-i9VxWaGw09G6QsllnfjtBx47QbZopOQJhXGB2_Z2I5dbZhHdwTFRzOh6KpLSI7V8kg9xx7dGYMtERbfebiYDQE7eZ-Gc7iNzpyUpxLi-o-aB9J7tqStVFD45W6NFyOBJ3V3UuizF3LEkhCQ8M9swkFiHPSzZ23timI",
+      "breadcrumb": "https://www.yelp.com › questions › loc › hardwood-flo..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Engineered wood flooring in Tucson",
+      "description": "Ours is Harris Wood brand; we got it online from a wholesaler but for a local flooring company I'd recommend checking out Apollo Flooring. They ... Read more",
+      "url": "https://google.com/goto?url=CAESkAEBxCJF1zpAk_fAXUh9y7HxIk8ruI7ByEa9JKPCfEP2qPvifY1o4xVYsCQRali5B9_TMpgPdX4C9KkaifHK9PqUi78cLnUfFhePCWO30mci6RAvOcoHfI46FbyOVUv6qSIBXbj8XX6V1dSF0p-7RKSz3aqRmaqtvTiZu88RPP74h8igLRWWhGy2CMAgCwGppVI",
+      "breadcrumb": "6 comments  ·  2 years ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Hardwood Flooring | Tucson",
+      "description": "We offer innovative & unique materials including Castle Combe, American Guild, DuChateau & ECOfusion hardwood flooring.",
+      "url": "https://google.com/goto?url=CAESZwHEIkXXaRGYrBd4PSCwoVcxj_GHvjVKdDxzZJe42IeoCjxCWl1I8SpwM5IrDZO-6EcJBQcWUbMHrbcD3ZGgCmoDfsj5IYvisiXvNW8RR240iF7-qbXKUpITlC6I0rV786JM5S9Nyps",
+      "breadcrumb": "https://originatenbm.com › Products"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "TOP 10 BEST Wood Flooring Stores in Tucson, AZ",
+      "description": "Top 10 Best Wood Flooring Stores Near Tucson, Arizona (Updated 2026) · Boyd's Custom Painting · Fuentes Flooring & Design · Senor Tile · Majestic Developments. Read more",
+      "url": "https://google.com/goto?url=CAESjAEBxCJF11vDNKfBd651MRw9g9KEJwB7VPnZGgleLiIIwYMKilwOPEDC_I1DC6f1z0FLSRJbLQmAh8HvyIeshyqxgioCQbIMNN8-_VwgL7_TlapFaVC8yz6ZAkqtIiPf4J74Fzc3t9S4yVmkKdv3FeNd650dL3ipmcZ8P_gJUJQBy8MyI6bg49_qCDiShg",
+      "breadcrumb": "https://www.yelp.com › Home Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "AZ Floor Haven | Tucson AZ",
+      "description": "Tucson, we're back! We're back at AZ Floor Haven! From hardwood to LVP to refinishing, we've got your flooring needs covered. Reach out today or ... Read more",
+      "url": "https://google.com/goto?url=CAESdQHEIkXXFSfdXWIzxh1fdH5Te0c3kxAOle4XxuHeQES1GK0wvd8wavkBaBy1Up4TVphzoNI7ofbNLxu8jVue4-YW9fBNw8YoJ3l1nFW84aA399BqYUaoqcFDZFNJ2hh7vvBg6d6boYeezrD3eljJK3ConF2NwQ",
+      "breadcrumb": "20+ followers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Cimaco Floor Service Inc.",
+      "description": "With over 20 years of experience in Tucson, we specialize in concrete staining and refinishing along with expert sanding and refinishing of hardwood floors. Read more",
+      "url": "https://google.com/goto?url=CAESWQHEIkXXanx4SDs7HoTw2icq-4ep0jPWTfk264YTiF79S_Arwf5w9a9sPGa_AWp6vJ1FvnQ1PjWpj4bWYL0Z-W--5MgKtJK_mcNuRkrhITDbo40eN8iqGogQ",
+      "breadcrumb": "https://www.cimacofloors.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "hardwood floors Tucson AZ www.tucsonazflooring.com",
+      "description": "• Hardwood Flooring Installation and repair - Nail, Glue, Floating applications. • Cork Flooring Installation and repair - Glue-down floating applications. Read more",
+      "url": "https://google.com/goto?url=CAESaQHEIkXXs-RqET-Q2MiWqSdKICHOwRKyRfEaqvDFeYKJNsmBJKjz1jv2hMS7lU443n87ItR1Erwwhv82UY4-pq_0JIiYJeE95trPWlUDiGNPF0mwQBhT5tHF25BvDI0yq5uWByA1irKUcQ",
+      "breadcrumb": "http://www.tucsonazflooring.com › services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 10,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "The 10 Best Hardwood Floor Installers in Tucson, AZ 2026",
+      "description": "Here is the definitive list of Tucson's hardwood floor installers as rated by the Tucson, AZ community. Want to see who made the cut?",
+      "url": "https://google.com/goto?url=CAESewHEIkXXgPViZ9FqFO_xTwP6MHG9hzjqaXWLS5NIK9mbu1N6_ZII-OOIIvw008K0NWrokcyy93wLphSpPLEI592A0Qo6gdlyMyJ6MRxp8nAHBet5GPrgTj8i66sqo-uXRj_O_y5o-4qLiBxKb5sGLWZzUNHNR2np0NSMiQ",
+      "breadcrumb": "https://www.thumbtack.com › AZ › Tucson"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "hardwood flooring repair tucson",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    42,
+    27,
+    0,
+    0,
+    38,
+    26,
+    24,
+    26,
+    25,
+    0,
+    24,
+    0,
+    33,
+    23,
+    40,
+    24,
+    0,
+    38,
+    0,
+    36,
+    53,
+    77,
+    100,
+    87,
+    69,
+    53,
+    54,
+    57,
+    90,
+    75,
+    55,
+    37,
+    55,
+    52,
+    27,
+    35,
+    31,
+    50,
+    34,
+    34,
+    63,
+    30,
+    28,
+    0,
+    0,
+    27,
+    0,
+    0,
+    28,
+    0,
+    24,
+    17,
+    21,
+    0
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

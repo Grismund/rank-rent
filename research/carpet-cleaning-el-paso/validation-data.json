@@ -1,0 +1,875 @@
+{
+  "volumes": {
+    "carpet cleaning el paso": {
+      "search_volume": 720,
+      "cpc": 5.57,
+      "competition_index": 63,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 720
+        }
+      ]
+    },
+    "carpet cleaning el paso tx": {
+      "search_volume": 210,
+      "cpc": 3.7,
+      "competition_index": 69,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 140
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+        }
+      ]
+    },
+    "carpet cleaning near me": {
+      "search_volume": 140,
+      "cpc": 5.33,
+      "competition_index": 88,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 90
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+        }
+      ]
+    },
+    "carpet cleaning services el paso": {
+      "search_volume": 10,
+      "cpc": 6.7,
+      "competition_index": 81,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+        }
+      ]
+    },
+    "best carpet cleaning el paso": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "el paso carpet cleaning": {
+      "search_volume": 720,
+      "cpc": 5.57,
+      "competition_index": 63,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 720
+        }
+      ]
+    },
+    "affordable carpet cleaning el paso": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "carpet cleaning in el paso": {
+      "search_volume": 720,
+      "cpc": 5.57,
+      "competition_index": 63,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 720
+        }
+      ]
+    }
+  },
+  "organic": [
+    {
+      "keyword": "carpet cleaning el paso",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "el paso carpet cleaning",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "carpet cleaning el paso",
+    "topThree": [
+      {
+        "name": "Stanley Steemer",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "www.stanleysteemer.com",
+        "phone": "+1915-591-2905",
+        "address": "1826 Myrtle Ave, El Paso, TX 79901",
+        "category": "Carpet cleaning service"
+      },
+      {
+        "name": "Redline Carpet Cleaning Specialists & 24 Hour Water Extraction",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "www.carpetcleaningcompanyelpaso.com",
+        "phone": "+1915-637-9221",
+        "address": "8409 Lockheed Dr #15, El Paso, TX 79925",
+        "category": "Carpet cleaning service"
+      },
+      {
+        "name": "Advantage Carpet Cleaning",
+        "reviews": 0,
+        "rating": 4.4,
+        "domain": "advantagecarpetcleaningep.net",
+        "phone": "+1915-351-0196",
+        "address": "1020 Yandell Dr, El Paso, TX 79902",
+        "category": "Carpet cleaning service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    46,
+    41,
+    46,
+    50,
+    59,
+    84,
+    75,
+    93,
+    76,
+    63,
+    48,
+    47,
+    43
+  ],
+  "organic_raw": [
+    {
+      "keyword": "carpet cleaning el paso",
+      "items_types": [
+        "organic",
+        "paid"
+      ]
+    },
+    {
+      "keyword": "el paso carpet cleaning",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "carpet cleaning el paso",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbgHEIkXX4YNpHQ7X9F6xXfIcEYXsfVX43iiDwnzT8XvrB5UzwQRTBfSbqmCSo9Hf7T5ELVAebwgWshi4GqEn7sduCKOzqHAN2MHasFewkIgj-n511jE7BS9oMx-k7cD2xmo-HMvZsrufQIsTvxCM",
+          "title": "The 10 Best Carpet Cleaning Services in El Paso, TX (2026)",
+          "description": "Carpet cleaning costs $40 to $90+ per room or $0.25 to $0.50 per square foot. Carpet cleaning services charge $200 to $700+ for whole-house projects, carpet ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlwEBxCJF15Q11YhWC26GQ9clxQmUFj6Kl1EYLQSRox7NJpCkskTvU-C4rlW7_AJv6YuHAEc6UyPBvMdXrylGSCo_MVQvwGUiE0WN3OhIr671EcdELl7uu8Kc_aUi3HKla6cZ_69NfPO_g2-bHkRRljeYTdVVhpsckRaY6MrWOBfrT4zO1qVLByR0dcD_-q9KcTmxfZ5NPTOR",
+          "title": "Suggestions fo a good carpet cleaning Co. : r/ElPaso",
+          "description": "I'm relatively new to ELP and I don't know many people here since I work from home. Does anybody have a good recommendation for a local Carpet ... Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWQHEIkXX6P6lkAbtKpjjEm4Wzg8BrgbDWxTqToDONjC9q45DaKXob6TL-4SjpmH9NIMPM_W3jc5R2Crl4tjQcgssAl3ECMvsK28njNOJN_G3Xuh-dUNNwdlP",
+          "title": "Carpet Magic: Standard and Premium Carpet Cleaning in El ...",
+          "description": "We provide 5-days-a-week carpet, upholstery, tile and air duct cleaning services (Tues-Sat). In addition, we answer our phones 24-hours-a-day-7 days a week",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScQHEIkXXWkr82ET2K4cytAczxGHvgilE2qUV0o16IpLUP9OeSJ5AEJC7HC7CuNqLZ-uCYlElautQBFpM-wTWR9lYjLZKcS2tkbYCkny2y9DsnISK34mDyJSLI-5ouGrLaEzQuHWsHfJHxB8g0QFM-FcG",
+          "title": "Carpet Cleaning in El Paso - Find Local Carpet Cleaners",
+          "description": "Find carpet cleaners near El Paso, TX today. between $0.15 and $0.20 per square foot, high as $0.40-$0.50 per square foot.",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbgHEIkXXYLsquAE6Tx-vZliwhiw1cwX8vKhxCiroRDNPVqre0tSUZW5_jiGTnwlxVMax34cmzgwDK1-9LNW_nOF8NfjpykiSj9Gt-iTuJ03AlTJn8OdG1_0OaUFA8JXKe6lANW2LqJ2YucHjlGlS",
+          "title": "Xtreme Carpet Cleaning | El Paso TX",
+          "description": "El Paso, TX 79936. certified, licensed & insured. CALL 915-595-0581. CALL DAY OR NIGHT 915-595-0581. CARPET, TILE, SOFAS, MATTRESS CLEANINGS. RESIDENTIAL OR ...",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeAHEIkXXJzDUglj6s-T2crfPi8OMFtzMG0Lod6xW6BFvotGpGwyrWXPiw8cWDEzOwpjvfRMk6lzSc2ENd-Ffb9helaW3y5EVjP6DFXOAOE6oZadvg9CEbXXp0G79rwfNtR_Q6y5MqYCgnZkCS_1PKmy2fO1XIclDuQ",
+          "title": "Professional Carpet Cleaning in El Paso TX",
+          "description": "Intrepid Carpet Cleaners offers carpet cleaning starting at $149 for 3 rooms. Pricing varies by room size and condition. Call (915) 831-9014 for a free ...",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdgHEIkXXFEeTNG4qoqb0vSG9vGPMCNVR_Ig9HO1dPM8he8fHrOpZ6LlXZH8MMeo2tfb0Wzm0bI_larHgIJYeg9zGPBOYsCstJy8TEw8Re1IWn7tKx59LYfLiSzHbjTkBgHuoyBG3LETEhC3Le-ucz8Ydr-2k_DE",
+          "title": "Carpet Cleaning in El Paso, TX",
+          "description": "Book professional carpet cleaning services in El Paso, TX. Trusted providers, transparent pricing, and modern management tools.",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlQEBxCJF1x8S90l-E13nFmSbyycEbbsTBlMo-8_TrBI8ztUBLbvXRkVIJE0-wZ6fv54Di8FTr6fskbk21LI9wXsgysxh8b8RTMEg23qaxesu3NVDfT2-OLP6pzynBbHm-XKQgInlqUIABXvQekbRhxWN9kqxTvIYdgm8UtvRy_47CW39Gs-1n5mTlKFg3N0cgCW1iFtXVg",
+          "title": "El Paso, TX Steam Cleaning | Carpet & Upholstery",
+          "description": "Make your next cleaning appointment today! Use our convenient Online Scheduler or call us at 915-320-3434. We hope to hear from you soon! Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShwEBxCJF1_aNd71hxMRFq-nq0ts-ii2EU9HOPobJo_IGS34Yd4d0PrBi98JgVAMeqDpxzwO7fgjzOPvtdCLYoHiVZL-8H7JwRSzv-WPqhZlmN30_sDTbbY83eUEa77_vAykCV0V5thr6umcqqJZ_n1bEM31weeog81c0GmaXVfATVbJ2MWRcU_c",
+          "title": "TOP 10 BEST Carpet Repair in El Paso, TX - (2026 Guide)",
+          "description": "Carpet Experts · Carpet Cleaning · Damage Restoration · Air Duct Cleaning. 4.1 mi · El Paso, TX 79925. (915) 740-9610 ; Js Carpet Solution · Carpet Cleaning. 8.0 mi. Read more",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "el paso carpet cleaning",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWwHEIkXX3jNvCIpLjUFWxV3Vzi7MxxaqipGBps49vp99q3G8kOAL_pKzOd6vR45ytXC-vUNXeKj7Jv-1OohFs2rSY4WPioF4_XxVbiHNBgnC-FbL9PI-_pOfIlA",
+          "title": "Steam Wizard: Carpet Cleaning, Upholstery & More - El Paso",
+          "description": "Steam Wizard provides top-notch carpet cleaning, upholstery and other floor cleaning services in El Paso. Fast drying full deep clean with 45+ years of ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWgHEIkXXZNkWgPrUNu8BJD5ay5Eyd_txFX4Zoh_Gp44PpS4r8cCuxbLKHvbfzPNvKp3W5PhN5NkRZPD5O0EEneSGbI6GuiQM2zdD_jSvf6Od0NAcGVzeGmm1cw",
+          "title": "El Paso Carpet Care - Carpet Cleaning, Upholstery Cleaning",
+          "description": "$159 Whole House Carpet Cleaned and deodorized up to 5 rooms! 3 rooms for $99! El Paso Carpet Care 915-279-1411. We can help with carpets, upholstery, area ...",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF1zdTFfn6YDcEykgg95H9BWRKIwooG5puzI5VnhNdXdZW0-JNt9xjO2RoHIqlqNAWTKQwGu0XBp7QVvqyxxO64EfE_8MebNVif31XfAVAgVE6vlXKoUn1-P9RW00PKvPmGR_pbNtuybvV2M5C7ItsPbBbdfBMNXiTxKR9m11xet4",
+          "title": "THE BEST 10 CARPET CLEANING IN EL PASO, TX",
+          "description": "Carpet Experts is the best carpet cleaning company in El Paso. most services in El Paso, TX typically take between 2 to 4 hours,",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdQHEIkXXVOh_WczTxg-7KE8lbXFBrKPDB19XWn9xGuRvOxYxDNnSK4AGm-zUIv50vTJkjQ6LNy0vBloOhPx4w-MChvSYankrciMgePa7tCS2UaCIkiORfM294S086IC3OucpuilFwfhrTEgjQW-DFI6pzVZZqA",
+          "title": "Stanley Steemer in El Paso, TX",
+          "description": "Jan 13, 2023 — Serving El Paso, TX homes and businesses, we clean carpets, air ducts, upholstery, tile, rugs, and provide 24/7 water damage restoration.",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaQHEIkXXnhliBrVMlEEpDBxEDZHK_AooYXAah71-zSc8IaFuJKGjxHcloPzCV6UcnEqwGZJFXYBXQifGN8DedCDAIP3MNnXOl-3FVOpR-6j91GYmhhKqA_yjHjPxL7RORGuHBdlJhlCU6Q",
+          "title": "Redline Carpet Cleaning - El Paso",
+          "description": "Redline Carpet Cleaning has been providing homes and businesses with the best carpet, tile, and 24-hour water extraction services for over 20 years.",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESewHEIkXXkocogHAwwRX9qHCignNdlCUIXGjpEOCl0_ax4OCc2Kz9uSIta8Mfqa3hF2XLTNaaFSgtAEp-QX_5ftpOfVWlJieB8V4eEnqqvb4OlBaqdLrmI0QFqgyUKLh6fsYyxzt5rbJgEgbllQQVEiIEWdt2Pbz382Pnrw",
+          "title": "Carpet Cleaning in El Paso, TX | 1-Hour Dry Time",
+          "description": "For El Paso carpet cleaning you can trust, call Oxi Fresh! Removes dirt, odor, and set-in stains with a fast, one-hour dry time. Book online. and many more.",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZgHEIkXXboObfeT2n8UR3rsWwERYxr-XgOZwvPS0tmmpzhlpB0fUzpVnHV3aVcAZo0K03TRvIaLyA43B6eb65AbjyUYGD7I_x1DepTPgS4yzMMZ852xDE8pJD7K3BXJc_874wMOfMA",
+          "title": "DEEP CLEAN Carpet Cleaners | El Paso TX",
+          "description": "Carpet Cleaning -Upholstery Cleaning -Tile & Grout Cleaning -Strip & Wax -Air. El Paso, TX, United States, 79932 El Paso, TX (915) 867-8776 deepcleanelp@gmail. ...",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZAHEIkXXmPe-6XyICnmRUav2Vu6jMzVM4ssB5ov6goNuSnMc8xux6XpAJL2cpP3SnVGOUlxvXljWrKv2WldsxahrKMcVIISGibG4QYDaH9NFh_23pacpMOcAHW_vTpkQ1Ai_P7k",
+          "title": "Carpet Cleaning El Paso TX | Intrepid Carpet Cleaners | (915 ...",
+          "description": "Intrepid Carpet Cleaners offers professional carpet cleaning, upholstery cleaning, tile & grout, pet odor removal, and water extraction in El Paso, TX.",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESVwHEIkXXa1cj7B0eiXU_22zSI_6sd0-LvOOxLKqqZgMF11cRnqUJSU87l2JP8TKSAScOdTaJ_I-CtTlUNLrvTMzEj-LWGfmi74YjB6ZOnoO6WwwIosoSWw",
+          "title": "Carpet Cleaning El Paso, TX | FiberCare Carpet & Upholstery",
+          "description": "Trusted carpet cleaning El Paso homeowners rely on since 1995. We also clean upholstery, rugs, tile & grout. Call for a free in-home estimate today!",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "The 10 Best Carpet Cleaning Services in El Paso, TX (2026)",
+      "description": "Carpet cleaning costs $40 to $90+ per room or $0.25 to $0.50 per square foot. Carpet cleaning services charge $200 to $700+ for whole-house projects, carpet ...",
+      "url": "https://google.com/goto?url=CAESbgHEIkXX4YNpHQ7X9F6xXfIcEYXsfVX43iiDwnzT8XvrB5UzwQRTBfSbqmCSo9Hf7T5ELVAebwgWshi4GqEn7sduCKOzqHAN2MHasFewkIgj-n511jE7BS9oMx-k7cD2xmo-HMvZsrufQIsTvxCM",
+      "breadcrumb": "https://homeguide.com › TX › El Paso"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Suggestions fo a good carpet cleaning Co. : r/ElPaso",
+      "description": "I'm relatively new to ELP and I don't know many people here since I work from home. Does anybody have a good recommendation for a local Carpet ... Read more",
+      "url": "https://google.com/goto?url=CAESlwEBxCJF15Q11YhWC26GQ9clxQmUFj6Kl1EYLQSRox7NJpCkskTvU-C4rlW7_AJv6YuHAEc6UyPBvMdXrylGSCo_MVQvwGUiE0WN3OhIr671EcdELl7uu8Kc_aUi3HKla6cZ_69NfPO_g2-bHkRRljeYTdVVhpsckRaY6MrWOBfrT4zO1qVLByR0dcD_-q9KcTmxfZ5NPTOR",
+      "breadcrumb": "2 comments  ·  2 years ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Carpet Magic: Standard and Premium Carpet Cleaning in El ...",
+      "description": "We provide 5-days-a-week carpet, upholstery, tile and air duct cleaning services (Tues-Sat). In addition, we answer our phones 24-hours-a-day-7 days a week",
+      "url": "https://google.com/goto?url=CAESWQHEIkXX6P6lkAbtKpjjEm4Wzg8BrgbDWxTqToDONjC9q45DaKXob6TL-4SjpmH9NIMPM_W3jc5R2Crl4tjQcgssAl3ECMvsK28njNOJN_G3Xuh-dUNNwdlP",
+      "breadcrumb": "http://www.carpet-magic.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Carpet Cleaning in El Paso - Find Local Carpet Cleaners",
+      "description": "Find carpet cleaners near El Paso, TX today. between $0.15 and $0.20 per square foot, high as $0.40-$0.50 per square foot.",
+      "url": "https://google.com/goto?url=CAEScQHEIkXXWkr82ET2K4cytAczxGHvgilE2qUV0o16IpLUP9OeSJ5AEJC7HC7CuNqLZ-uCYlElautQBFpM-wTWR9lYjLZKcS2tkbYCkny2y9DsnISK34mDyJSLI-5ouGrLaEzQuHWsHfJHxB8g0QFM-FcG",
+      "breadcrumb": "https://www.thumbtack.com › TX › El Paso"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Xtreme Carpet Cleaning | El Paso TX",
+      "description": "El Paso, TX 79936. certified, licensed & insured. CALL 915-595-0581. CALL DAY OR NIGHT 915-595-0581. CARPET, TILE, SOFAS, MATTRESS CLEANINGS. RESIDENTIAL OR ...",
+      "url": "https://google.com/goto?url=CAESbgHEIkXXYLsquAE6Tx-vZliwhiw1cwX8vKhxCiroRDNPVqre0tSUZW5_jiGTnwlxVMax34cmzgwDK1-9LNW_nOF8NfjpykiSj9Gt-iTuJ03AlTJn8OdG1_0OaUFA8JXKe6lANW2LqJ2YucHjlGlS",
+      "breadcrumb": "1K+ followers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Professional Carpet Cleaning in El Paso TX",
+      "description": "Intrepid Carpet Cleaners offers carpet cleaning starting at $149 for 3 rooms. Pricing varies by room size and condition. Call (915) 831-9014 for a free ...",
+      "url": "https://google.com/goto?url=CAESeAHEIkXXJzDUglj6s-T2crfPi8OMFtzMG0Lod6xW6BFvotGpGwyrWXPiw8cWDEzOwpjvfRMk6lzSc2ENd-Ffb9helaW3y5EVjP6DFXOAOE6oZadvg9CEbXXp0G79rwfNtR_Q6y5MqYCgnZkCS_1PKmy2fO1XIclDuQ",
+      "breadcrumb": "https://www.intrepidcarpetcleaners.com › carpet_cleaning"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Carpet Cleaning in El Paso, TX",
+      "description": "Book professional carpet cleaning services in El Paso, TX. Trusted providers, transparent pricing, and modern management tools.",
+      "url": "https://google.com/goto?url=CAESdgHEIkXXFEeTNG4qoqb0vSG9vGPMCNVR_Ig9HO1dPM8he8fHrOpZ6LlXZH8MMeo2tfb0Wzm0bI_larHgIJYeg9zGPBOYsCstJy8TEw8Re1IWn7tKx59LYfLiSzHbjTkBgHuoyBG3LETEhC3Le-ucz8Ydr-2k_DE",
+      "breadcrumb": "https://www.tidy.com › Locations › El Paso, TX"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "El Paso, TX Steam Cleaning | Carpet & Upholstery",
+      "description": "Make your next cleaning appointment today! Use our convenient Online Scheduler or call us at 915-320-3434. We hope to hear from you soon! Read more",
+      "url": "https://google.com/goto?url=CAESlQEBxCJF1x8S90l-E13nFmSbyycEbbsTBlMo-8_TrBI8ztUBLbvXRkVIJE0-wZ6fv54Di8FTr6fskbk21LI9wXsgysxh8b8RTMEg23qaxesu3NVDfT2-OLP6pzynBbHm-XKQgInlqUIABXvQekbRhxWN9kqxTvIYdgm8UtvRy_47CW39Gs-1n5mTlKFg3N0cgCW1iFtXVg",
+      "breadcrumb": "https://www.oxifresh.com › Locations › TX › El Paso"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "TOP 10 BEST Carpet Repair in El Paso, TX - (2026 Guide)",
+      "description": "Carpet Experts · Carpet Cleaning · Damage Restoration · Air Duct Cleaning. 4.1 mi · El Paso, TX 79925. (915) 740-9610 ; Js Carpet Solution · Carpet Cleaning. 8.0 mi. Read more",
+      "url": "https://google.com/goto?url=CAEShwEBxCJF1_aNd71hxMRFq-nq0ts-ii2EU9HOPobJo_IGS34Yd4d0PrBi98JgVAMeqDpxzwO7fgjzOPvtdCLYoHiVZL-8H7JwRSzv-WPqhZlmN30_sDTbbY83eUEa77_vAykCV0V5thr6umcqqJZ_n1bEM31weeog81c0GmaXVfATVbJ2MWRcU_c",
+      "breadcrumb": "https://www.yelp.com › Home Services"
+    },
+    {
+      "type": "paid",
+      "rank_group": 1,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Steam Wizard Carpet Cleaning | Serving El Paso Since 1981",
+      "description": "Carpet cleaning service · 1820 Dale Douglas Drive · Open 24 hours",
+      "url": "https://google.com/goto?url=CAESWwHEIkXXUm7zDqiROf72XOUEkD-O6TtllRRfsMI8gIiwLWoscTXZNO7ooGcjc8hylnmNnQec1aiNrFnYqhUSEK67YyvGjzC4QZgf69T2-GbN1lNTljOmo9b1gQc",
+      "breadcrumb": "http://www.steamwizardep.com"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "carpet cleaning el paso",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    48,
+    48,
+    50,
+    42,
+    41,
+    43,
+    39,
+    40,
+    43,
+    44,
+    42,
+    49,
+    47,
+    48,
+    44,
+    46,
+    62,
+    48,
+    54,
+    49,
+    63,
+    79,
+    83,
+    90,
+    93,
+    68,
+    69,
+    68,
+    82,
+    79,
+    75,
+    94,
+    100,
+    96,
+    80,
+    82,
+    78,
+    68,
+    74,
+    76,
+    75,
+    64,
+    52,
+    48,
+    44,
+    48,
+    51,
+    47,
+    48,
+    46,
+    45,
+    50,
+    49,
+    36
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

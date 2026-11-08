@@ -1,0 +1,607 @@
+{
+  "volumes": {
+    "hot tub removal tucson": {
+      "search_volume": 10,
+      "cpc": 10.11,
+      "competition_index": 70,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "hot tub removal tucson az": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "hot tub removal near me": {
+      "search_volume": 10,
+      "cpc": 6.75,
+      "competition_index": 81,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "hot tub removal services tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best hot tub removal tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "tucson hot tub removal": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable hot tub removal tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "hot tub removal in tucson": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "hot tub removal tucson",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "hot tub removal near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "hot tub removal tucson",
+    "topThree": [
+      {
+        "name": "Speedway Junk Removal",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "speedwayjunkremoval.com",
+        "phone": "+1520-276-2394",
+        "address": "4570 N 1st Ave #120, Tucson, AZ 85718",
+        "category": "Junk removal service"
+      },
+      {
+        "name": "Tucson Hot Tubs",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "www.tucsontubs.com",
+        "phone": "+1520-303-7727",
+        "address": "2704 E 22nd St, Tucson, AZ 85713",
+        "category": "Hot tub store"
+      },
+      {
+        "name": "Junk King Tucson",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "www.junk-king.com",
+        "phone": "+1520-276-7756",
+        "address": "3219 E 45th St, Tucson, AZ 85713",
+        "category": "Junk removal service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    38,
+    46,
+    44,
+    50,
+    72,
+    74,
+    66,
+    82,
+    79,
+    67,
+    60,
+    46,
+    42
+  ],
+  "organic_raw": [
+    {
+      "keyword": "hot tub removal tucson",
+      "items_types": [
+        "organic",
+        "paid"
+      ]
+    },
+    {
+      "keyword": "hot tub removal near me",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "people_also_ask",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "hot tub removal tucson",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbwHEIkXXoHr2Xg-cLX_TdYskYzrDK_cBD38K1yweDr_9mQiLtAa2F_KV6Pw3OZmys3Qwin359ZQMKdbHzEyRnoXOyodfCM-yCtv953NS0c88KdQmTdiSZntM5ASEMSAc4DgM0Bx-s6AbrOevnQWzAw",
+          "title": "Hot tub movers near Tucson, AZ",
+          "description": "Here is the definitive list of Tucson's hot tub movers as rated by the Tucson, AZ community. Want to see who made the cut?",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYQHEIkXXoHcQW15uKS0RMoMFTwUJtXDNiEdkmwSJEIKUG8NvnWS2qv5idBjrkPbG3bZ0UOzkVhBBK0cVUM_CKTQj1juF8nRTPStQfRrhmxNFIvaTQ_ywtwsmlokLFKcG9-E",
+          "title": "Services",
+          "description": "(520) 303-SPAS Contact. Tucson Hot Tubs repairs, moves, delivers, hauls-out, and installs, Please call 520-303-7727 or stop by our showroom. 2704 E 22nd ...",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWAHEIkXX8GT85RioOM7v1s9vxHRDH5PXscK4FSGSiqEt7r8ptFxRH1d_U9-Cv23EQUl_jddPS5nIWes-Q0179QUQGMldNVImBDG-UysV_tFXWH6aw2eYy0I",
+          "title": "Welcome To Tucson Hot Tubs!",
+          "description": "(520) 303-SPAS. Tucson Hot Tubs' repair service is available for any hot tub we've sold. call us or fill out the form below. We will respond promptly, find and ...",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF14ADzLU3T8oH0Xavuby7WVwWuG0qUce3v1GT_V2SVbCFPG7Hn2X259fsYMiZbzA5rCLpUKvUcvKD__cFy1z-LP2tgqUHyWY-QoXfh-5RepkAM0MF0Zh5yDYDbxVSeopEuEBIyxXMUteiFTuqEJdWJIwOrfovegIsz9JVskczuvQ",
+          "title": "Jacuzzi movers in Tucson needed",
+          "description": "The Spa Doctor offers professional hot tub moving, delivery of new tubs, and placement/setup. Whether you're moving to a new house or relocating ... Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbAHEIkXXXZ9q7LYve5bWDW_THEIAv4iAfHz3Ov0jRnZvKWwStSUtIngOj-RwsvpSYpNVqP7eWgz8umZlRLE3KMrnNNZb2y-3HIUg0GCSvn8TBqZeoLC9WQ3iaWXYU8AzYGckwUyJktaeV3NNMQ",
+          "title": "Hot Tub Moving Tucson AZ | Fast, Professional Service",
+          "description": "Hot tub moving in Tucson: disconnect, drain, transport, and reset on the new pad. Call (520) 304-9013. Same-day available Licensed & insured 5-star reviews",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEStAEBxCJF1z9iLAAWS-TUUdEEbJ5ltPedlTOIR8OaC7HA2P8ytWYduQuHDJRQ8yBDlwg3f4mFK3gvIzz0TvPdaGXT3fPOnql2why3uvyCNLKDrR-NZ31E1Q4_w1083RncO4SmZ77oq-TXwmShjOFMozatxDWXx7fgz7MVXrPf3yf5k_O4ZatQE0rLdqlEGayBSVaNK4b3gYAup-uyRbElBWKeX9KwPVng69NFNocRAL25fQeyyuQ",
+          "title": "Above Ground Pool Disposal in Tucson, AZ",
+          "description": "(844) 239-7711. Hot tub removal and disposal services. Prices start at $129, but the total cost will depend on your pool's size and where you are in Tucson. We ...",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESoAEBxCJF17vUIO57xggreQOnen0kuXOEKXXWEtQATIX7xfyJ2PwHsioj7LCHup7SyWI7kV9qK_2dJ7iJgbYgBWtYGcGFVl_6SgmLRBq0E-na_DAkDDKdR7lDaVUHZ-Qos__HdtyVsOaSyGFXCrHgTrPmUZtC9BDOUtDKDVKU5tKxjob5T_QVb86ZUAaKqZb5wEnV1mgwveMzOwZcUL3Pig7q",
+          "title": "tucson services \"\"hot tub\"\"",
+          "description": "FREE JACUZZI / HOT TUB / SPA REMOVAL. 8/9. Valley Wide. FREE JACUZZI / HOT TUB / SPA REMOVAL. 7/16. Hot tub Spa removal Junk Trash Debris haul away 1. Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbAHEIkXXUWeF8_Q6Mq6fdGX6laNpNB2OqXKDvnvviGH_XjNZjdjNWabDrQdf5tnYlFN5M8SS6f0l3RftRuWCk5RR6sqsSAQUg-TTTp8AgxZ7LqV8MN1iZVEMQXb-eTENLiBILALk5ydDEyxvRg",
+          "title": "Tucson Hot Tubs - Updated October 2026 - 42 Reviews",
+          "description": "TUCSON HOT TUBS, 2704 E 22nd St, Tucson, AZ 85713, 61 Photos, (520) 303-7727, Mon - Closed, Tue - 10:00 am - 5:00 pm, Wed - 10:00 am - 5:00 pm, ...",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "hot tub removal near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdgHEIkXXzlokdokX9cT03zczFR75PN7IekmD1yBi1dUtzkOtz2svUOjoMg9CkZjX-0vp3Oe1VUPLYnzXixgGS_XEwV_6I-KfF6g14aRAqlEQeoG0gZtvATdMvyQf9QiH-65CHf_fuGfszkoe7z5lhVEkM9B5YiE&gsessionid=FHRv7uCtABBVgqA3Gc6GqfeG_QV_--EhD40M7kr04WH8pzegUW1pSA",
+          "title": "Hot Tub Removal in Tucson, AZ – Hefty Hauling Service",
+          "description": "Hot Tub Removal in Tucson, AZ by Hefty Hauling offers fast, affordable service. Safe dismantling, hauling, and disposal of old hot tubs and spas. Same‐day or ...",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfgHEIkXXd4yb0JkJocaPKN3wBDxTcoTyhCFhSl8VIRM2zOzrUtGUpr4Nx_JdMU0uMJa2c3hVSeBDncGNdldGTO52uvMVKfybO4jfbn0fJ7JZVR01WnrN3E7mFvVCxJcy3nVMK4pdUiOz4QFl0EMYppvWF0JXuj36dDsup2mtsQ&gsessionid=FHRv7uCtABBVgqA3Gc6GqfeG_QV_--EhD40M7kr04WH8pzegUW1pSA",
+          "title": "Hot Tub Removal South Tucson, AZ",
+          "description": "Hot Tub Removal South Tucson, AZ fast service for broken spas, clean yards, and stress-free pickup today.",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfAHEIkXXYREtP2i7RKjcX08ZN4Fio7Lvf4NJF8BV1r66vTWuGfOFHbDohGn84dAkkqrZ9GLGqmrFjSROh_06exVfm5bg30v2aQAW6Kan84NSQSpwVV-xvmK_pE6N3KsuUx1-TIFqkFtDxnNIS5PY2aDq3pW8WAAWfA9ECfU&gsessionid=FHRv7uCtABBVgqA3Gc6GqfeG_QV_--EhD40M7kr04WH8pzegUW1pSA",
+          "title": "Tucson Hot Tub Removal Services",
+          "description": "Get a Free Tucson Hot Tub Removal Estimate. We serve the great Tucson area. Call Now for a free estimate 520-346-4376...",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkgEBxCJF1zMt_3yYmt1meSgoRuCpY44FrrkAw0EqZdp0nEqzSlyFWMC11Br5zfBgVqL8EeQfpa0XwRKYHsRyp1Ox-yReHC3FGyNh1TtqQh4SXpFzj34uTwP77B3mF00DA_JMdueYU7UM_fq-cKQ_ZmaRPGR3vDzvb8or9Ocg9pxkrOKiCvhsACKAT2Y5579W21itag&gsessionid=FHRv7uCtABBVgqA3Gc6GqfeG_QV_--EhD40M7kr04WH8pzegUW1pSA",
+          "title": "TOP 10 BEST Hot Tub Removal in Lake Havasu City, AZ",
+          "description": "Enjoy competitive pricing and free estimates with Toadally Done Move Out Solutions, your full-service moving company for both local and out of state moves. Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScQHEIkXXhW6O0RT5EZbNJS50-fRdKnrPQ-Jn0-3fNbjMTxVCsnJndMg0QDa4t41tTXipmCy1i2IiKKJzTeUKPBgq7hU7zltsoUC5nvTIIiB2KEyUzotwJQg-9UPQbmEs-361iPKRwAxeo-5CMtI5zHKk&gsessionid=FHRv7uCtABBVgqA3Gc6GqfeG_QV_--EhD40M7kr04WH8pzegUW1pSA",
+          "title": "Hot Tub Removal Monroe",
+          "description": "Junk Collectors provides reliable Hot Tub Removal Monroe. Dismantling, hauling, and cleanup included. Free Quotes | Discounts Available (732) 201-9364. Call or ...",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESigEBxCJF12zV_DKTb_arJX4yka6bVFV4eUT7HUDuTpnjQbzPLhBsGGFpZANYRYmImgVCoG_biiQ8pX6YwzEXC69IMPiFqdOz2dLuPXNX0N-b5jqK9AL2tDS9horgLm-DUJGURPAL_kQdeGvnsEfW5_uh5HxsfcDw-0qD1IlsXEekWN07AI9B7k1QcMI&gsessionid=FHRv7uCtABBVgqA3Gc6GqfeG_QV_--EhD40M7kr04WH8pzegUW1pSA",
+          "title": "TOP 10 BEST Hot Tub Removal in Whittier, CA",
+          "description": "Spa Removers 5.0 (94 reviews) 130 S La Fayette Park Pl, (714) 631-5301 (562) 565- Orellana's Clean Ups & Hauling",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdQHEIkXXNizM82g6QeYjjj_74gmwQqk1CoEUEKKzmcEO9gVU5nBu34BWlEOTBhdI2U8FQZXeW-1liuOmyHBHTOe9Jd9Mvq0cu5j4gyJicz-9VUKryiTYBBTUoeN1_R_oa5XMiXcSmQQL_63e7lb5QMKbT446Ng&gsessionid=FHRv7uCtABBVgqA3Gc6GqfeG_QV_--EhD40M7kr04WH8pzegUW1pSA",
+          "title": "Hot Tub Haul Rio Rancho",
+          "description": "Contact us for reliable hot tub removal. Rio Rancho Junk Hauling offers fast, efficient hauling services for your old hot tubs. Get a free quote today!",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlwEBxCJF1z-UnUm3q1PzScnM9yy7DbTmIkD37HXOvf67zi2K2eNaiejTwsNdK6UVphTbRaFHBXE6CiPBMLnwBuv5gI2VfdGQc2zfafNIIsdOFCn1aAASbiQHFWO7AK2nlNBu9RhhWQge0U9kUVz5vVRpQj26nwQ5r8PrfkAoKMW3R5cLJlD-037Kd1fpCFXHT0ouk1cVI9ms&gsessionid=FHRv7uCtABBVgqA3Gc6GqfeG_QV_--EhD40M7kr04WH8pzegUW1pSA",
+          "title": "TOP 10 BEST Hot Tub Pickup and Removal in Rapid City, SD",
+          "description": "Rapid Junk Removal - Hot Tub Pickup And Removal (605) 484-2249. Hot Tub Pickup And Removal near (605) 389-7722 (605) 430-9694",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Hot tub movers near Tucson, AZ",
+      "description": "Here is the definitive list of Tucson's hot tub movers as rated by the Tucson, AZ community. Want to see who made the cut?",
+      "url": "https://google.com/goto?url=CAESbwHEIkXXoHr2Xg-cLX_TdYskYzrDK_cBD38K1yweDr_9mQiLtAa2F_KV6Pw3OZmys3Qwin359ZQMKdbHzEyRnoXOyodfCM-yCtv953NS0c88KdQmTdiSZntM5ASEMSAc4DgM0Bx-s6AbrOevnQWzAw",
+      "breadcrumb": "https://www.thumbtack.com › AZ › Tucson"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Services",
+      "description": "(520) 303-SPAS Contact. Tucson Hot Tubs repairs, moves, delivers, hauls-out, and installs, Please call 520-303-7727 or stop by our showroom. 2704 E 22nd ...",
+      "url": "https://google.com/goto?url=CAESYQHEIkXXoHcQW15uKS0RMoMFTwUJtXDNiEdkmwSJEIKUG8NvnWS2qv5idBjrkPbG3bZ0UOzkVhBBK0cVUM_CKTQj1juF8nRTPStQfRrhmxNFIvaTQ_ywtwsmlokLFKcG9-E",
+      "breadcrumb": "https://www.tucsontubs.com › services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Welcome To Tucson Hot Tubs!",
+      "description": "(520) 303-SPAS. Tucson Hot Tubs' repair service is available for any hot tub we've sold. call us or fill out the form below. We will respond promptly, find and ...",
+      "url": "https://google.com/goto?url=CAESWAHEIkXX8GT85RioOM7v1s9vxHRDH5PXscK4FSGSiqEt7r8ptFxRH1d_U9-Cv23EQUl_jddPS5nIWes-Q0179QUQGMldNVImBDG-UysV_tFXWH6aw2eYy0I",
+      "breadcrumb": "https://www.tucsontubs.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Jacuzzi movers in Tucson needed",
+      "description": "The Spa Doctor offers professional hot tub moving, delivery of new tubs, and placement/setup. Whether you're moving to a new house or relocating ... Read more",
+      "url": "https://google.com/goto?url=CAEShAEBxCJF14ADzLU3T8oH0Xavuby7WVwWuG0qUce3v1GT_V2SVbCFPG7Hn2X259fsYMiZbzA5rCLpUKvUcvKD__cFy1z-LP2tgqUHyWY-QoXfh-5RepkAM0MF0Zh5yDYDbxVSeopEuEBIyxXMUteiFTuqEJdWJIwOrfovegIsz9JVskczuvQ",
+      "breadcrumb": "1 comment  ·  11 months ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Hot Tub Moving Tucson AZ | Fast, Professional Service",
+      "description": "Hot tub moving in Tucson: disconnect, drain, transport, and reset on the new pad. Call (520) 304-9013. Same-day available Licensed & insured 5-star reviews",
+      "url": "https://google.com/goto?url=CAESbAHEIkXXXZ9q7LYve5bWDW_THEIAv4iAfHz3Ov0jRnZvKWwStSUtIngOj-RwsvpSYpNVqP7eWgz8umZlRLE3KMrnNNZb2y-3HIUg0GCSvn8TBqZeoLC9WQ3iaWXYU8AzYGckwUyJktaeV3NNMQ",
+      "breadcrumb": "https://fetchmoves.com › Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Above Ground Pool Disposal in Tucson, AZ",
+      "description": "(844) 239-7711. Hot tub removal and disposal services. Prices start at $129, but the total cost will depend on your pool's size and where you are in Tucson. We ...",
+      "url": "https://google.com/goto?url=CAEStAEBxCJF1z9iLAAWS-TUUdEEbJ5ltPedlTOIR8OaC7HA2P8ytWYduQuHDJRQ8yBDlwg3f4mFK3gvIzz0TvPdaGXT3fPOnql2why3uvyCNLKDrR-NZ31E1Q4_w1083RncO4SmZ77oq-TXwmShjOFMozatxDWXx7fgz7MVXrPf3yf5k_O4ZatQE0rLdqlEGayBSVaNK4b3gYAup-uyRbElBWKeX9KwPVng69NFNocRAL25fQeyyuQ",
+      "breadcrumb": "https://goloadup.com › tucson › above-ground-pool-re..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "tucson services \"\"hot tub\"\"",
+      "description": "FREE JACUZZI / HOT TUB / SPA REMOVAL. 8/9. Valley Wide. FREE JACUZZI / HOT TUB / SPA REMOVAL. 7/16. Hot tub Spa removal Junk Trash Debris haul away 1. Read more",
+      "url": "https://google.com/goto?url=CAESoAEBxCJF17vUIO57xggreQOnen0kuXOEKXXWEtQATIX7xfyJ2PwHsioj7LCHup7SyWI7kV9qK_2dJ7iJgbYgBWtYGcGFVl_6SgmLRBq0E-na_DAkDDKdR7lDaVUHZ-Qos__HdtyVsOaSyGFXCrHgTrPmUZtC9BDOUtDKDVKU5tKxjob5T_QVb86ZUAaKqZb5wEnV1mgwveMzOwZcUL3Pig7q",
+      "breadcrumb": "https://www.craigslist.org › craigslist: tucson › services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Tucson Hot Tubs - Updated October 2026 - 42 Reviews",
+      "description": "TUCSON HOT TUBS, 2704 E 22nd St, Tucson, AZ 85713, 61 Photos, (520) 303-7727, Mon - Closed, Tue - 10:00 am - 5:00 pm, Wed - 10:00 am - 5:00 pm, ...",
+      "url": "https://google.com/goto?url=CAESbAHEIkXXUWeF8_Q6Mq6fdGX6laNpNB2OqXKDvnvviGH_XjNZjdjNWabDrQdf5tnYlFN5M8SS6f0l3RftRuWCk5RR6sqsSAQUg-TTTp8AgxZ7LqV8MN1iZVEMQXb-eTENLiBILALk5ydDEyxvRg",
+      "breadcrumb": "https://www.yelp.com › ... › Hot Tub & Pool"
+    },
+    {
+      "type": "paid",
+      "rank_group": 1,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Professional Hot Tub Removal - Full-Service Hot Tub Removal",
+      "description": "You won't have to lift a finger. We'll do all the heavy lifting and we'll sweep up after! Locally owned...",
+      "url": "https://google.com/goto?url=CAESewHEIkXXeVqDEZetKssnAVOZNkFj-8nU0EFx0dAsZmumSjrR9Ob7bn-11o0vs4a0As1enDxXIrbBXGgzy9op1B87DZiWK21Rs2nrIzyP0EL-I4A0oQ9NGKV9drBl11M4H8RAQBQm_HfiyZSd5xlo94fPHu7AqEU9D2kVqw",
+      "breadcrumb": "https://www.1800gotjunk.com › hot-tub › removal"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "hot tub removal tucson",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    46,
+    40,
+    37,
+    35,
+    34,
+    48,
+    47,
+    40,
+    48,
+    35,
+    49,
+    43,
+    48,
+    57,
+    43,
+    33,
+    65,
+    66,
+    68,
+    73,
+    69,
+    85,
+    85,
+    71,
+    80,
+    59,
+    69,
+    67,
+    51,
+    68,
+    73,
+    80,
+    98,
+    77,
+    72,
+    100,
+    74,
+    87,
+    56,
+    74,
+    68,
+    75,
+    55,
+    65,
+    59,
+    65,
+    78,
+    38,
+    57,
+    33,
+    54,
+    39,
+    41,
+    42
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

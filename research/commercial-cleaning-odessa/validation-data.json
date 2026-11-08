@@ -1,0 +1,614 @@
+{
+  "volumes": {
+    "commercial cleaning odessa": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 33,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "commercial cleaning odessa tx": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "commercial cleaning near me": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 0,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "commercial cleaning services odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best commercial cleaning odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "odessa commercial cleaning": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable commercial cleaning odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "commercial cleaning in odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "commercial cleaning odessa",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "commercial cleaning odessa",
+    "topThree": [
+      {
+        "name": "West Texas Commercial Cleaning LLC",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "www.wtccleaning.com",
+        "phone": "+1432-552-9520",
+        "address": "808 Tower Dr #9, Odessa, TX 79761",
+        "category": "Janitorial service"
+      },
+      {
+        "name": "S&T Janitorial Service",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "www.stjanitorial.com",
+        "phone": "+1432-777-2903",
+        "address": "22 Estates Dr, Odessa, TX 79765",
+        "category": "Janitorial service"
+      },
+      {
+        "name": "Tx Gold'n Brooms",
+        "reviews": 0,
+        "rating": 4.9,
+        "domain": "txgoldnbrooms.com",
+        "phone": "+1432-703-4691",
+        "address": "875 Central Dr, Odessa, TX 79761",
+        "category": "Janitorial service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    44,
+    34,
+    40,
+    46,
+    63,
+    65,
+    60,
+    69,
+    53,
+    48,
+    41,
+    37,
+    32
+  ],
+  "organic_raw": [
+    {
+      "keyword": "commercial cleaning odessa",
+      "items_types": [
+        "organic"
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "people_also_search",
+        "images",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "commercial cleaning odessa",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESqgEBxCJF1zL1tpOvNuF_dHZfRkJ1VVN_mHmRC_NcfPSfzsT169sjyz5cvMRlkGhPBJ1yrAyFIldl6yKwJropS6JbsDnV6de026qO3Cj_VHnwPoMAz8Ytc3LP-VY5vNxdMupwkcZX91HUbVBOpTyRh8mODjNYQM1dLHnLXCgU17-r1G-PzljOrw6IVFPnAFtX-Ygy05g7brn0digYhf_oiHWImmAw9TxQqAEYxg",
+          "title": "Commercial & Office Cleaning Services | Midland & Odessa, TX",
+          "description": "We offer commercial & office cleaning services and disinfection in Midland and Odessa, TX. Contact us today at (432) 550-4999.",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESewHEIkXXhM9q7_p-tYvx5rUWirXVnj0c427aVR1EBgyQwT0FHLu2UIKDrLlvsYI0J9AgsQylRSngDNgavjEkEu7kbGmepUxD4K6bvgqlJ89mwjpiYve5Hx-9EmPYFReg4ZuIvcbAmIJNYILBCXRr17iqpZOril5gBBycbg",
+          "title": "West Texas Commercial Cleaning - Updated October 2026",
+          "description": "808 Tower Dr. Ste 9. Odessa, TX 79761. Directions ; (432) 552-9520. Call Now ; Visit Website. http://wtxcommercialcleaning.com. Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESnwEBxCJF10-UxnDDX4uw4xlsgd8Ls35HdrPsI-FHwDVnO0s5C9RMoYYQQjy-XiLzvKKtzePdTz-g_3SzSet7wadFIhSfU-GT_JJhEqNLsLzriES834s6rm7Wg4dfe_V3As3DBfWdecD04uP09L-Q6VRakjxQ33tI0gBYx2yL_3tE33mZZ6HgWBiBMtybYjwCnoCgT512SgoQ4EEJShN_INM",
+          "title": "Innovative Commercial Cleaning LLC",
+          "description": "2817 JBS Parkway Odessa, TX 79765-8111. 432-274-4133. Janitorial Services, Equipment & Supplies. Member Directory | Calendar of Events | Member Account ... Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYwHEIkXXdt62ouwFWKJuLmKI96Y3R_OSM2cRF7_hUpM4wNhcwHa8gao2jmwyW4Ljbu6LGq72wjbPvMcg6PbTBsLjyKboEJyqfwV7LfQGj5GJ5LHaTR8yhbnkS5RZrfoeeNv5HQ",
+          "title": "Bradley Janitorial Services: Odessa, TX Cleaning Experts",
+          "description": "Bradley Janitorial Services proudly serves the commercial sector in Odessa, TX, we offer top-tier office cleaning, building maintenance, carpet cleaning, and ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESggEBxCJF11Hz8rCqiAY3Kcjn4nwOLWHyJJA7OW3lLPdxmqwFZbSAKoAmYKYiSLOoynjk5Q3cNgZBjqZx8Y-NxZywfOjTKmxoLJ2oBf1XR_tmE9FbBPteals8dMVd8v4VLhDIBkE_D4vkw0lwNjAY5s0LHd-hOSpu6lEWG0xRLEjcEe1c",
+          "title": "THE BEST 10 OFFICE CLEANING IN ODESSA, TX",
+          "description": "Heaven's Best Carpet Cleaning · Midland, TX 79705 ; Innovative Commercial Cleaning · Odessa, TX 79765 ; SM Star Services · Odessa, TX 79761. (432) 282-9853 ; Jillie's ... Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF1_N4Utr47A8qoXHRIYCIhTvv3usXyRu88tdOqJCEC-gEd6kc0-obyVeDDPcJAjLS_8a1aAH_PUPR3ZybCY7Z0JOIgKmlpwAPV5bXF_bMFz1m9K4noIXIXFSm0L5ZYCr0bPnIsuT-55K-RiIW7v8bZ8Dzukmpzl27E4uCkORFhkg",
+          "title": "Office Janitorial Services Odessa Tx",
+          "description": "Permian Cleaning Services provides reliable, insured, and detail-focused commercial office cleaning throughout Odessa, Midland, and surrounding areas.",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjwEBxCJF10H29w4tP3p6HdCy8x9wNEU7HR36u-YQBeP2wjhBfALxNWdDLrM9ateSOyCDAEP9FU2JYX-wvy9U_nijwIUk_5cLygITKaGf8vXqG3b3LayM4Sp2Qxm4hjeKVqZgH02rQDqyATwpiqVTNmV-eGsRMG6U4q8SdvnKy-quODqojF9kWuCY2SzAvEakpQ",
+          "title": "Specialty Cleaning Services near Odessa, TX",
+          "description": "SERVPRO offers expert cleaning for biohazards, HVAC, air ducts, graffiti, sewage, crime scenes, odor removal, and more. Call: (432) 363-0005. SERVPRO of Odessa ...",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdAHEIkXXDXJmpI-HoL1kO7CroK8nAUwYLQhddPzNshtLVhG28tCIXrolIUg8b3yDkj3PK41OH92tQy8BsWuL9SXnF8uS05jcbhQyeYHA8R7soOXLgI22Hep8yVcnoE0f8baVgeAT8iOdGCqxvwI-nN5ApRgL",
+          "title": "Commercial cleaners near Odessa, TX",
+          "description": "Commercial cleaners typically charge between $25 and $90 per hour. But remember to keep these cost factors in mind: the number of windows, bathrooms, breakroom ... Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESpwEBxCJF139QH1P1Em7x_drCcEv6lv20m7pKdCKD-Y32E4ZoouwLyINshJ0c8Z2gvY5rIgsSQyilHEeut1yQe7dHqSwhxuprG9IPGM_zZpXL3aFPiugDhzu8GSdFwGTyOIGoWZEcsdtbEBQT_WiwVyDOoXdTuYEeOdKg3RpC6Kz7J5BQKoBYByHgEuEVPlzXAxePwGe-cTJFLDY3t9hal3vAYzEMA9mVnQ",
+          "title": "Innovative Commercial Cleaning LLC",
+          "description": "700 N Grant Ave # 200. Odessa, Texas 79761. Mon - Thurs: 8AM – 5PM Friday: 8AM – 12PM Saturday/Sunday: Closed. © Odessa Chamber of Commerce | Site by CC-Assist. Read more",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "commercial cleaning near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWQHEIkXX0kYup1chR7BJiOWNwmlBJAHhSS_TO4GvxAcBIum74EyKUfOKzX221YMoiV58F6lUhEMiE-d-68XNs1PznaRFk_Sn8U15suKYm5jF1omcRuUMJR_K",
+          "title": "Best Commercial Cleaning & Janitorial Services in Odessa ...",
+          "description": "West Texas Commercial Cleaning is the #1 option for cleaning services in Odessa, TX. For more information or 24/7 service, call today 432-552-9520.",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESggEBxCJF13AsR5vR945VLzSFspoN8MTBriDZ1GshlOA3K-CnjYQYHUHT9tX-EcrE8hCvS3FvQnSjcj39kDWjgyBm0FhPvRM7QmoUD-2fRdUQB2yhsDbXazuIPFdtISgOzGrZED0Oxybx3D1rMHgLQQd9ggM2UO1uMY6B9hk_j9KU-tpj",
+          "title": "THE BEST 10 OFFICE CLEANING IN ODESSA, TX",
+          "description": "Heaven's Best Carpet Cleaning · Midland, TX 79705 ; Innovative Commercial Cleaning · Odessa, TX 79765 ; SM Star Services · Odessa, TX 79761. (432) 282-9853 ; Jillie's ... Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZAHEIkXXC54EpgkPBpC-lFBNsUAHOQBNXPMIEyMlwSfnXd_4le9Kmq_ed49O6n5T-Mi0p1UZ9GwxGp_tXoAWwQO0womK71wt_KB5rphpvQLTBqpmnE1yiu6w0K5GZ_6JIiN5hgk",
+          "title": "Commercial Cleaning Services in Odessa, TX",
+          "description": "S&T Janitorial — family-owned commercial cleaning in Odessa, TX since 2006. 80 active accounts. HQ at 22 Estates Dr. Medical, oilfield, university-adjacent, ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWAHEIkXXqJ-0aDp6NCepBdkS5h_TzVWYrrAsVfSSktruUbi4D45nHEuE1JT8uALgKx-NEuBe_e3OVesWZsaP-sLjZ55KnKq4ata2d_xdR5iCSAH5Fl-Dwek",
+          "title": "Sunbelt Cleaning: Commercial Cleaning in Odessa, TX",
+          "description": "Professional commercial cleaning in Odessa, TX. Reliable janitorial and office cleaning services. Get your free estimate today!",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgQEBxCJF16xFRCXJphdp8TM4tfD3qtjd1iSLkfgKFXLRNIwWE_6QHAL0i_Ze_yWD8jkt8KMLsngs_MfU9RMwYCggGtCRpu7l62aQrZSRbPPmnHQJnOgroKmX9A31XH4wBV0pHEJz7aOKVjnmi5FGjCthfgvOezOt9Mj_2Jk8TtsaNUQ",
+          "title": "3 Best Commercial Cleaning Services in Odessa, TX",
+          "description": "Their comprehensive services range from office cleaning to specialised janitorial tasks such as window and carpet cleaning, all the way to property maintenance. Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScgHEIkXXNPeeolJRVqAkmJ-RTomqOJGbcz89PuQtHK6LtW8d_sxFaI9XkY4K38lfeKXZ9PsI1LfCVUZy_cNokwf8uuDGpEwkFheAs31pP61DxkWfQ_KbNc4ywVDa8OiFFaKkKq4oTVu8WetoXDi0yL2C0A",
+          "title": "West Texas Commercial Cleaning LLC | Odessa TX",
+          "description": "WTCC is a commercial cleaning company. We specialize in cleaning offices, businesses, and man camps. Our number one goal is complete customer satisfaction. Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESawHEIkXXEqPjX-msY5MIXukehWivEUJzU1DWY55MToJ9qwCokWxCdiehul3jY4cQTRofADIVMDocX_26-hG-kZ5u3U8X7FvcADtbOLe8sT1rcWv50OcOblsuG24svXBZApdkBFt-KBJuCgLT",
+          "title": "Cleaning Service Company in Odessa TX",
+          "description": "Golden Grove Cleaning provides top house cleaning, deep clean & maid service in Odessa, TX (79761). Call (432) 218-1700 today for a free quote!",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfgHEIkXXDxMS3VZ5N-Hr8YY8tEXJzgGvtIfnbsP0eLeHsvFC9IcGZk6I1wTjzBL0R-Uf_YpIQXWRus4U_LYOxzwKnpMp2yK31ZXwlM4GtsBv43UPmUVTyD3Zu4uLa-fPLStmHnVHWOkRUzbwY92VV2-jPfVxBmO4Zb7lFJ9C7Q",
+          "title": "Janitorial Service | Odessa, TX",
+          "description": "We embrace top technology to meet new demands for cleanliness and agile services. Our professionals lighten your workload with our commercial cleaning services. Read more",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Commercial & Office Cleaning Services | Midland & Odessa, TX",
+      "description": "We offer commercial & office cleaning services and disinfection in Midland and Odessa, TX. Contact us today at (432) 550-4999.",
+      "url": "https://google.com/goto?url=CAESqgEBxCJF1zL1tpOvNuF_dHZfRkJ1VVN_mHmRC_NcfPSfzsT169sjyz5cvMRlkGhPBJ1yrAyFIldl6yKwJropS6JbsDnV6de026qO3Cj_VHnwPoMAz8Ytc3LP-VY5vNxdMupwkcZX91HUbVBOpTyRh8mODjNYQM1dLHnLXCgU17-r1G-PzljOrw6IVFPnAFtX-Ygy05g7brn0digYhf_oiHWImmAw9TxQqAEYxg",
+      "breadcrumb": "https://a1pluscleaningservices.com › Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "West Texas Commercial Cleaning - Updated October 2026",
+      "description": "808 Tower Dr. Ste 9. Odessa, TX 79761. Directions ; (432) 552-9520. Call Now ; Visit Website. http://wtxcommercialcleaning.com. Read more",
+      "url": "https://google.com/goto?url=CAESewHEIkXXhM9q7_p-tYvx5rUWirXVnj0c427aVR1EBgyQwT0FHLu2UIKDrLlvsYI0J9AgsQylRSngDNgavjEkEu7kbGmepUxD4K6bvgqlJ89mwjpiYve5Hx-9EmPYFReg4ZuIvcbAmIJNYILBCXRr17iqpZOril5gBBycbg",
+      "breadcrumb": "https://m.yelp.com › biz › west-texas-commercial-cleani..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Innovative Commercial Cleaning LLC",
+      "description": "2817 JBS Parkway Odessa, TX 79765-8111. 432-274-4133. Janitorial Services, Equipment & Supplies. Member Directory | Calendar of Events | Member Account ... Read more",
+      "url": "https://google.com/goto?url=CAESnwEBxCJF10-UxnDDX4uw4xlsgd8Ls35HdrPsI-FHwDVnO0s5C9RMoYYQQjy-XiLzvKKtzePdTz-g_3SzSet7wadFIhSfU-GT_JJhEqNLsLzriES834s6rm7Wg4dfe_V3As3DBfWdecD04uP09L-Q6VRakjxQ33tI0gBYx2yL_3tE33mZZ6HgWBiBMtybYjwCnoCgT512SgoQ4EEJShN_INM",
+      "breadcrumb": "http://cca.odessachamber.com › innovative-commercial-c..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Bradley Janitorial Services: Odessa, TX Cleaning Experts",
+      "description": "Bradley Janitorial Services proudly serves the commercial sector in Odessa, TX, we offer top-tier office cleaning, building maintenance, carpet cleaning, and ...",
+      "url": "https://google.com/goto?url=CAESYwHEIkXXdt62ouwFWKJuLmKI96Y3R_OSM2cRF7_hUpM4wNhcwHa8gao2jmwyW4Ljbu6LGq72wjbPvMcg6PbTBsLjyKboEJyqfwV7LfQGj5GJ5LHaTR8yhbnkS5RZrfoeeNv5HQ",
+      "breadcrumb": "https://bradleyjanitorialservices.net"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "THE BEST 10 OFFICE CLEANING IN ODESSA, TX",
+      "description": "Heaven's Best Carpet Cleaning · Midland, TX 79705 ; Innovative Commercial Cleaning · Odessa, TX 79765 ; SM Star Services · Odessa, TX 79761. (432) 282-9853 ; Jillie's ... Read more",
+      "url": "https://google.com/goto?url=CAESggEBxCJF11Hz8rCqiAY3Kcjn4nwOLWHyJJA7OW3lLPdxmqwFZbSAKoAmYKYiSLOoynjk5Q3cNgZBjqZx8Y-NxZywfOjTKmxoLJ2oBf1XR_tmE9FbBPteals8dMVd8v4VLhDIBkE_D4vkw0lwNjAY5s0LHd-hOSpu6lEWG0xRLEjcEe1c",
+      "breadcrumb": "https://www.yelp.com › ... › Office Cleaning"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Office Janitorial Services Odessa Tx",
+      "description": "Permian Cleaning Services provides reliable, insured, and detail-focused commercial office cleaning throughout Odessa, Midland, and surrounding areas.",
+      "url": "https://google.com/goto?url=CAEShAEBxCJF1_N4Utr47A8qoXHRIYCIhTvv3usXyRu88tdOqJCEC-gEd6kc0-obyVeDDPcJAjLS_8a1aAH_PUPR3ZybCY7Z0JOIgKmlpwAPV5bXF_bMFz1m9K4noIXIXFSm0L5ZYCr0bPnIsuT-55K-RiIW7v8bZ8Dzukmpzl27E4uCkORFhkg",
+      "breadcrumb": "https://www.instagram.com › popular › office-janitorial..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Specialty Cleaning Services near Odessa, TX",
+      "description": "SERVPRO offers expert cleaning for biohazards, HVAC, air ducts, graffiti, sewage, crime scenes, odor removal, and more. Call: (432) 363-0005. SERVPRO of Odessa ...",
+      "url": "https://google.com/goto?url=CAESjwEBxCJF10H29w4tP3p6HdCy8x9wNEU7HR36u-YQBeP2wjhBfALxNWdDLrM9ateSOyCDAEP9FU2JYX-wvy9U_nijwIUk_5cLygITKaGf8vXqG3b3LayM4Sp2Qxm4hjeKVqZgH02rQDqyATwpiqVTNmV-eGsRMG6U4q8SdvnKy-quODqojF9kWuCY2SzAvEakpQ",
+      "breadcrumb": "https://www.servpro.com › SERVPRO of Odessa"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Commercial cleaners near Odessa, TX",
+      "description": "Commercial cleaners typically charge between $25 and $90 per hour. But remember to keep these cost factors in mind: the number of windows, bathrooms, breakroom ... Read more",
+      "url": "https://google.com/goto?url=CAESdAHEIkXXDXJmpI-HoL1kO7CroK8nAUwYLQhddPzNshtLVhG28tCIXrolIUg8b3yDkj3PK41OH92tQy8BsWuL9SXnF8uS05jcbhQyeYHA8R7soOXLgI22Hep8yVcnoE0f8baVgeAT8iOdGCqxvwI-nN5ApRgL",
+      "breadcrumb": "https://www.thumbtack.com › TX › Odessa"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Innovative Commercial Cleaning LLC",
+      "description": "700 N Grant Ave # 200. Odessa, Texas 79761. Mon - Thurs: 8AM – 5PM Friday: 8AM – 12PM Saturday/Sunday: Closed. © Odessa Chamber of Commerce | Site by CC-Assist. Read more",
+      "url": "https://google.com/goto?url=CAESpwEBxCJF139QH1P1Em7x_drCcEv6lv20m7pKdCKD-Y32E4ZoouwLyINshJ0c8Z2gvY5rIgsSQyilHEeut1yQe7dHqSwhxuprG9IPGM_zZpXL3aFPiugDhzu8GSdFwGTyOIGoWZEcsdtbEBQT_WiwVyDOoXdTuYEeOdKg3RpC6Kz7J5BQKoBYByHgEuEVPlzXAxePwGe-cTJFLDY3t9hal3vAYzEMA9mVnQ",
+      "breadcrumb": "https://cca.odessachamber.com › innovative-commercial-..."
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "commercial cleaning odessa",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    36,
+    44,
+    58,
+    45,
+    35,
+    33,
+    34,
+    33,
+    35,
+    38,
+    35,
+    43,
+    42,
+    42,
+    44,
+    46,
+    51,
+    57,
+    51,
+    48,
+    100,
+    59,
+    64,
+    66,
+    66,
+    63,
+    58,
+    63,
+    63,
+    59,
+    59,
+    70,
+    74,
+    74,
+    57,
+    56,
+    49,
+    56,
+    49,
+    47,
+    46,
+    51,
+    49,
+    46,
+    41,
+    43,
+    44,
+    37,
+    46,
+    32,
+    32,
+    39,
+    34,
+    30
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

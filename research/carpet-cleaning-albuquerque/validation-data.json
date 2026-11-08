@@ -1,0 +1,984 @@
+{
+  "volumes": {
+    "carpet cleaning albuquerque": {
+      "search_volume": 590,
+      "cpc": 8.43,
+      "competition_index": 93,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 480
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 880
+        }
+      ]
+    },
+    "carpet cleaning albuquerque nm": {
+      "search_volume": 260,
+      "cpc": 5.86,
+      "competition_index": 82,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 320
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 320
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+        }
+      ]
+    },
+    "carpet cleaning near me": {
+      "search_volume": 140,
+      "cpc": 15.09,
+      "competition_index": 91,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 140
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 140
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+        }
+      ]
+    },
+    "carpet cleaning services albuquerque": {
+      "search_volume": 10,
+      "cpc": 42.65,
+      "competition_index": 55,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "best carpet cleaning albuquerque": {
+      "search_volume": 20,
+      "cpc": 10.66,
+      "competition_index": 89,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 30
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+        }
+      ]
+    },
+    "albuquerque carpet cleaning": {
+      "search_volume": 590,
+      "cpc": 8.43,
+      "competition_index": 93,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 480
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 880
+        }
+      ]
+    },
+    "affordable carpet cleaning albuquerque": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 0
+        }
+      ]
+    },
+    "carpet cleaning in albuquerque": {
+      "search_volume": 590,
+      "cpc": 8.43,
+      "competition_index": 93,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 480
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 880
+        }
+      ]
+    }
+  },
+  "organic": [
+    {
+      "keyword": "carpet cleaning albuquerque",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "albuquerque carpet cleaning",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "carpet cleaning albuquerque",
+    "topThree": [
+      {
+        "name": "ThoroClean",
+        "reviews": 0,
+        "rating": 4.7,
+        "domain": "abqthoroclean.com",
+        "phone": "+1505-883-0437",
+        "address": "3206 Alta Monte Ave NE, Albuquerque, NM 87107",
+        "category": "Carpet cleaning service"
+      },
+      {
+        "name": "5 Stones Carpet Cleaning",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "5stonescarpetcleaning.com",
+        "phone": "+1505-506-5588",
+        "address": "2021 Meadow View Dr NW, Albuquerque, NM 87104",
+        "category": "Carpet cleaning service"
+      },
+      {
+        "name": "KD Carpet Cleaning",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "abqcarpetclean.com",
+        "phone": "+1505-702-8457",
+        "address": "2615 Quincy St NE, Albuquerque, NM 87110",
+        "category": "Carpet cleaning service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    46,
+    41,
+    46,
+    50,
+    59,
+    84,
+    75,
+    93,
+    76,
+    63,
+    48,
+    47,
+    43
+  ],
+  "organic_raw": [
+    {
+      "keyword": "carpet cleaning albuquerque",
+      "items_types": [
+        "organic"
+      ]
+    },
+    {
+      "keyword": "albuquerque carpet cleaning",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "carpet cleaning albuquerque",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScQHEIkXX_PVxGyPsmlSINfIaXF6eU_L3kRWgvSU74MZlRanwjTTi5_mUlKgjVf2kV688ZIfp-Drh7Dtybiw9ODSvi4ONkmZ511t0AKrOHtuuY6CV-ou5bysI3U3xXIgaTrerqrvJiFvwFUQca8mJSLCA",
+          "title": "KD CARPET CLEANING - Updated November 2026",
+          "description": "2615 Quincy St NE Albuquerque, NM 87110 (505) 702-8457 Call Now Visit Website https://abqcarpetclean.com",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbQHEIkXXl1LWDmLW8chMX_tYk0U87wH195ZSeyY79Ez3WjCsq0Khk6o1Z7pvtQ0k_GWLiGZr4d0RuHS_sXlmQtRgLHvSljO7GvO8y20y4OF1VHvvGcDbsDlEP6Cg4ro-HKS8YYuC_sllc6mQ70Y",
+          "title": "Carpet Shampooing & Tile Cleaning in Albuquerque | Klean Dry",
+          "description": "Klean Dry's carpet cleaning service uses high-powered, cutting-edge equipment to introduce a deeper and faster clean than any other carpet cleaning company. Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYwHEIkXXFWYmBQB22VttHriLGhMYn7GzZMtFyZIBfKCKALdv28t0BqObf493zkeXNSTvHWMbV5gV0tWBktBIt12DW53vAjblwZtfNc2Ic-r2dqk-cdvE1bX9Jq4npghgeFwy1Q",
+          "title": "KD Carpet Cleaning | Albuquerque NM",
+          "description": "At KD Carpet Cleaning, we provide: Professional deep carpet cleaning Pet- and family-conscious cleaning solutions Fast drying times ✨ A cleaner, ... Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShgEBxCJF11Dsa3-37x7mMsm8sXQPeh2fCE_Gps7tUDAfSFloQhJt3T3GY1JJIJXxwGF4aD93oiMy01nB1foUNT6ycY-CWaD5SDvun6W3W4a9KhhLGWLLbgYeVPyKwDOb_hYI0pZUcM7IhB0QhmtyGDz2-DcIf6fdIoAl6BB1mo3p0BEljuiH4w",
+          "title": "Best Carpet Cleaning Services in Albuquerque, NM",
+          "description": "Best Way Carpet Care and Encanto Carpet & Tile Cleaning are both described as affordable and respectful, with reviewers noting their prices beat competitors. Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESUwHEIkXXT1b0uicR3gtcZJfknuc8p8xoM6Y1sMofCW6pOEuqjt4W90tmdzwsInxS9esn8lPvKjcBXXwj8poi-A-gjzFloUjIHvZJV9dzZteWeDob",
+          "title": "Bear Carpet Inc.: Home - Carpet Cleaning Albuquerque NM",
+          "description": "505-888-1166 ALBUQUERQUE'S LEADING. Safe for Kids & Pets Over 100+ 5-Star Google Rating. We'll make it right or YOUR job is FREE!",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESuAEBxCJF19T5BYFUhZG5kGQgISSqkiE6kEmNJ8EHORk3b2FbDGbKLcO0itGNj8kZ6KhTcVqjYlQE_UiJLkwMlk3ibPW3g5cqw1W89B9Gz3Hjr0NGZ8lKTeEZHD6NrM2v_ifuP8HTE9kG6XI5JAI3zLsDNY26jWh_hojHYqbfexpQJYxH0dsQ4iX5C1VLlhzERxIB45ytuto-4-MFX0OJBJTdUQRIvVGo1LGHd2mBlLFar0POXGY6nLJL",
+          "title": "Albuquerque Commercial Carpet Cleaning",
+          "description": "Contact us at (505) 421-4291 or online to schedule a consultation and discover how we can keep your carpets looking their best. Commercial Specialty Cleaning. Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWAHEIkXXTvUbTxzEmuGr_uj62TZ1kQ2x3UPN5hTIrgbUnz6uv4Hs4KxQaM9jOW2na25zAWexd1pRrorWGh13s6GWuBZiGgGgRFs0AOYJ6lRAhZYXdfCJ5ZQ",
+          "title": "One World Rug Care: Albuquerque Rug Cleaning, Repair ...",
+          "description": "Professional area rug cleaning, repair, padding, pet odor control, and fiber protection in Albuquerque, NM. (505) 821-0302 Get a Free Estimate Online estimate ...",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZAHEIkXXJR165CuRhye9zv4WHEMQPNmHJ_i4wRo_emaglnBvva8K2UPyPCdH9qRuS6vNfdGierxN67Y0jEFZzLJ50Fghcm3YIRxDGYMjfICey1MFp0lG5ZiQwRLC236FIuuwTOw",
+          "title": "Avalanche Carpet Cleaning",
+          "description": "Avalanche Carpet Cleaning has been cleaning homes in Albuquerque for over a decade. us at (505) 897-4408. Serving Albuquerque and Surrounding Areas Business ...",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXOAlWCVqUsGVJ_QdQxmZ8aY_-03FcrIhZkQwg1ZnDglcGbAaYNCTyWUARdAUBWTKoGRlh4Qmc3I1sRSoTo2Jfcf75Dm5q2UkySuRTWtgJprcDzIS7RgPOfSlaWQbZJ4d5XOownMqh_5UaEpU-dp6thEO3vsM",
+          "title": "Carpet Cleaning in Albuquerque, NM",
+          "description": "Book professional carpet cleaning services in Albuquerque, NM. Trusted providers, transparent pricing, and modern management tools.",
+          "position": 13
+        }
+      ]
+    },
+    {
+      "keyword": "albuquerque carpet cleaning",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdAHEIkXXpWa8t2nudV2rCnDa2bPqSLHZMO0QLLt4liHn0iMglNbDqDcHZ3Y9ZPmvUrql35RkHKvJmUJXEP_YcSp_LMhE-m4jjO71_0r3PRq7Gp49hqogggv9v6SW3CjweFrjkA-an41ofS59QqLfJS3HPXfe",
+          "title": "Carpet Cleaning Albuquerque, NM",
+          "description": "We Offer The Best Cleaning Services In Albuquerque, NM · Carpet & Rug Cleaning · Upholstery Cleaning · Tile And Grout Cleaning · Bleach Spot Repair · Water ... Read more",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShgEBxCJF10RNfwRbyPt34ocFaCahAsBTv-JREfRZ7_4c6hYTQk9hwO5cJUmUUYgv3cWI2rZe_G2qPacY6FeotqOqoGRFzDKoVG4n8n_OvQyZiBlTf8Wj4YroDi1ymLdU--Uik90U_fplIMX2mbYexwsUjyo3mDA9EgGH9IeTJjqhiAJg7Zx6bQ",
+          "title": "Best Carpet Cleaning Services in Albuquerque, NM",
+          "description": "Best Way Carpet Care and Encanto Carpet & Tile Cleaning are both described as affordable and respectful, with reviewers noting their prices beat competitors. Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXsK_IXZw4ohYUTwWn9mVDNXkjda6bq9wmFIuiRt_7de46k_cGM1bibr9Awyt1TDEDNtDQBKfxRLSE5y2_GQMHvv6CM8Ey7r6jFlWx-kOhq-vjFkMoznyOoY3xAqoUvwjOaNWfAiG_7KC2zAS-BBTTv4OtLUw",
+          "title": "Carpet Cleaning in Albuquerque, NM",
+          "description": "Book professional carpet cleaning services in Albuquerque, NM. Trusted providers, transparent pricing, and modern management tools.",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWgHEIkXXGwV5qWLieOKoAPehd_WXJ8koaY-znyKuLme3ykLzQz-WPFkjV8-BKo_H5xUWSU4svKs1NK--NHp9IPtd-Xl5ySGoG6cG6F2YLqoU6ZUCKmyPyEDB3w",
+          "title": "| 505-884-4420",
+          "description": "A clean you can trust; a care you deserve! Providing services from carpet cleaning, floor refinishing, and COVID-19 disinfecting, SaniCare is happy to serve ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkQEBxCJF18h-QavGev7ifLdTYoddHtGWdrFp5FHnJ5Es9jnmsNu9ZICc_ghkuHTKuuT_UyxfaaWEaVXyO_kkgnajF3ZAmbuhOEhudB-Xv2S3vAnxKlWmWUXp3RYMtr15kfFK5q0SO9p228rCYxcskKpIlO9B8wE-wmPoUjMvpzMsLGxtRUWytWEHYvwZ7kfTG8yC",
+          "title": "Carpet cleaning recommendations? : r/Albuquerque",
+          "description": "I've used ChemDry for years. Only took about an hour, total. Did 1300 sq ft of carpet and 300 or so sq. Friendly staff too. Good luck! Bravo … ...",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESXwHEIkXXIgDgny8Uw9ZVRCKifKfg-GDy-cbKFo4MrsgPLQ8Y3aRCkKIIGfI0fb4XFoFPdKwYOr-CBNxMGGxgGl5d5Nieb_MdYqOy4Gy-riLtzfesD3M4Aprp5MoK990N",
+          "title": "Albuquerque carpet cleaning - Professional Services by Royal",
+          "description": "Royal Carpet Cleaning (505) 280-5216. We can professionally clean your Carpet, Upholstery, Tile and Grout, and Air Ducts Owner Operated Staff! Serving All Of  ...",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESiwEBxCJF15DKd18Sqst9mIJ0jzVi0fc_gCLo2cGdQoBo_X1YdyIYVF1Oefkc3azohg3f4hdRhro5ghe4VYvTtGPo6mKQD7w84TneyBRiILW6b_0FWFEeUGJrlZFZRG9zzXYBDpDoYVplExKqWufl-HZIOdcQns92Ipvyo0mFlv3Biyn6DOFnGKfJIF-9",
+          "title": "Carpet Cleaning Services in Albuquerque NM",
+          "description": "For carpet cleaning in Albuquerque NM, locals recommend family-owned companies like Albuquerque Carpet Care and Prestige Carpet Care, plus affordable...",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgwEBxCJF1zX1P9UEfzj33PpuwvC5v5bErkYzbypbKPht4O7Qn1TGLW_kwsIruJz4KIsqD6JGO66HHbxpFuR5YPE99rAd-WGNVjt5xW3G6GLmiZCJ6iqfketVHe18r0TZ4r-86dAE7QNU3j44CEBNWaUfbBePLdJkVXfkBSRRblME-rrj1g",
+          "title": "Suburban Carpet Cleaners LLC | Albuquerque NM",
+          "description": "Proudly delivering expert carpet, flooring, and cleaning services (505) 850-0854 Follow in Albuquerque, NM.",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXX8FNpStJxdbQLzA7lQ6FnHqx3zInJ7Rzc1PEDwe3LiKS1lbggaqx-HOik1O1zkHdcSYKaqkoyTeHEmrA_Ga7s5wOQJ4SzPeBKXqk4-QvzEQ4KuM6usQ9bGVu1FR3APUCwnFyogHFmG8NJDH--58qtLs38YSw",
+          "title": "Albuquerque Carpet Cleaning | +1 505-585-4099",
+          "description": "Everyone at Power Clean Carpet Cleaning is eager to share their knowledge and experience. We are excited to see a job well done and a carpet regain its beauty. Read more",
+          "position": 12
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "KD CARPET CLEANING - Updated November 2026",
+      "description": "2615 Quincy St NE Albuquerque, NM 87110 (505) 702-8457 Call Now Visit Website https://abqcarpetclean.com",
+      "url": "https://google.com/goto?url=CAEScQHEIkXX_PVxGyPsmlSINfIaXF6eU_L3kRWgvSU74MZlRanwjTTi5_mUlKgjVf2kV688ZIfp-Drh7Dtybiw9ODSvi4ONkmZ511t0AKrOHtuuY6CV-ou5bysI3U3xXIgaTrerqrvJiFvwFUQca8mJSLCA",
+      "breadcrumb": "https://m.yelp.com › kd-carpet-cleaning-albuquerque"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Carpet Shampooing & Tile Cleaning in Albuquerque | Klean Dry",
+      "description": "Klean Dry's carpet cleaning service uses high-powered, cutting-edge equipment to introduce a deeper and faster clean than any other carpet cleaning company. Read more",
+      "url": "https://google.com/goto?url=CAESbQHEIkXXl1LWDmLW8chMX_tYk0U87wH195ZSeyY79Ez3WjCsq0Khk6o1Z7pvtQ0k_GWLiGZr4d0RuHS_sXlmQtRgLHvSljO7GvO8y20y4OF1VHvvGcDbsDlEP6Cg4ro-HKS8YYuC_sllc6mQ70Y",
+      "breadcrumb": "https://www.kleandry.com › service-area › albuquerque"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "KD Carpet Cleaning | Albuquerque NM",
+      "description": "At KD Carpet Cleaning, we provide: Professional deep carpet cleaning Pet- and family-conscious cleaning solutions Fast drying times ✨ A cleaner, ... Read more",
+      "url": "https://google.com/goto?url=CAESYwHEIkXXFWYmBQB22VttHriLGhMYn7GzZMtFyZIBfKCKALdv28t0BqObf493zkeXNSTvHWMbV5gV0tWBktBIt12DW53vAjblwZtfNc2Ic-r2dqk-cdvE1bX9Jq4npghgeFwy1Q",
+      "breadcrumb": "310+ followers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Best Carpet Cleaning Services in Albuquerque, NM",
+      "description": "Best Way Carpet Care and Encanto Carpet & Tile Cleaning are both described as affordable and respectful, with reviewers noting their prices beat competitors. Read more",
+      "url": "https://google.com/goto?url=CAEShgEBxCJF11Dsa3-37x7mMsm8sXQPeh2fCE_Gps7tUDAfSFloQhJt3T3GY1JJIJXxwGF4aD93oiMy01nB1foUNT6ycY-CWaD5SDvun6W3W4a9KhhLGWLLbgYeVPyKwDOb_hYI0pZUcM7IhB0QhmtyGDz2-DcIf6fdIoAl6BB1mo3p0BEljuiH4w",
+      "breadcrumb": "https://www.yelp.com › questions › loc › carpet-cleanin..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Bear Carpet Inc.: Home - Carpet Cleaning Albuquerque NM",
+      "description": "505-888-1166 ALBUQUERQUE'S LEADING. Safe for Kids & Pets Over 100+ 5-Star Google Rating. We'll make it right or YOUR job is FREE!",
+      "url": "https://google.com/goto?url=CAESUwHEIkXXT1b0uicR3gtcZJfknuc8p8xoM6Y1sMofCW6pOEuqjt4W90tmdzwsInxS9esn8lPvKjcBXXwj8poi-A-gjzFloUjIHvZJV9dzZteWeDob",
+      "breadcrumb": "https://bearcarpet.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Albuquerque Commercial Carpet Cleaning",
+      "description": "Contact us at (505) 421-4291 or online to schedule a consultation and discover how we can keep your carpets looking their best. Commercial Specialty Cleaning. Read more",
+      "url": "https://google.com/goto?url=CAESuAEBxCJF19T5BYFUhZG5kGQgISSqkiE6kEmNJ8EHORk3b2FbDGbKLcO0itGNj8kZ6KhTcVqjYlQE_UiJLkwMlk3ibPW3g5cqw1W89B9Gz3Hjr0NGZ8lKTeEZHD6NrM2v_ifuP8HTE9kG6XI5JAI3zLsDNY26jWh_hojHYqbfexpQJYxH0dsQ4iX5C1VLlhzERxIB45ytuto-4-MFX0OJBJTdUQRIvVGo1LGHd2mBlLFar0POXGY6nLJL",
+      "breadcrumb": "https://www.servicemasterclean.com › carpet"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "One World Rug Care: Albuquerque Rug Cleaning, Repair ...",
+      "description": "Professional area rug cleaning, repair, padding, pet odor control, and fiber protection in Albuquerque, NM. (505) 821-0302 Get a Free Estimate Online estimate ...",
+      "url": "https://google.com/goto?url=CAESWAHEIkXXTvUbTxzEmuGr_uj62TZ1kQ2x3UPN5hTIrgbUnz6uv4Hs4KxQaM9jOW2na25zAWexd1pRrorWGh13s6GWuBZiGgGgRFs0AOYJ6lRAhZYXdfCJ5ZQ",
+      "breadcrumb": "https://oneworldrugcare.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Avalanche Carpet Cleaning",
+      "description": "Avalanche Carpet Cleaning has been cleaning homes in Albuquerque for over a decade. us at (505) 897-4408. Serving Albuquerque and Surrounding Areas Business ...",
+      "url": "https://google.com/goto?url=CAESZAHEIkXXJR165CuRhye9zv4WHEMQPNmHJ_i4wRo_emaglnBvva8K2UPyPCdH9qRuS6vNfdGierxN67Y0jEFZzLJ50Fghcm3YIRxDGYMjfICey1MFp0lG5ZiQwRLC236FIuuwTOw",
+      "breadcrumb": "https://www.avalanchecarpetcleaning.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Carpet Cleaning in Albuquerque, NM",
+      "description": "Book professional carpet cleaning services in Albuquerque, NM. Trusted providers, transparent pricing, and modern management tools.",
+      "url": "https://google.com/goto?url=CAESeQHEIkXXOAlWCVqUsGVJ_QdQxmZ8aY_-03FcrIhZkQwg1ZnDglcGbAaYNCTyWUARdAUBWTKoGRlh4Qmc3I1sRSoTo2Jfcf75Dm5q2UkySuRTWtgJprcDzIS7RgPOfSlaWQbZJ4d5XOownMqh_5UaEpU-dp6thEO3vsM",
+      "breadcrumb": "https://www.tidy.com › Locations › Albuquerque, NM"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "carpet cleaning albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    48,
+    48,
+    50,
+    42,
+    41,
+    43,
+    39,
+    40,
+    43,
+    44,
+    42,
+    49,
+    47,
+    48,
+    44,
+    46,
+    62,
+    48,
+    54,
+    49,
+    63,
+    79,
+    83,
+    90,
+    93,
+    68,
+    69,
+    68,
+    82,
+    79,
+    75,
+    94,
+    100,
+    96,
+    80,
+    82,
+    78,
+    68,
+    74,
+    76,
+    75,
+    64,
+    52,
+    48,
+    44,
+    48,
+    51,
+    47,
+    48,
+    46,
+    45,
+    50,
+    49,
+    36
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

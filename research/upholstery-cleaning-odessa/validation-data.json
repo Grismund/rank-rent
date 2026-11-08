@@ -1,0 +1,519 @@
+{
+  "volumes": {
+    "upholstery cleaning odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "upholstery cleaning odessa tx": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 0,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "upholstery cleaning near me": {
+      "search_volume": 10,
+      "cpc": 43.4,
+      "competition_index": 50,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "upholstery cleaning services odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best upholstery cleaning odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "odessa upholstery cleaning": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable upholstery cleaning odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "upholstery cleaning in odessa": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "upholstery cleaning odessa tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "upholstery cleaning near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "upholstery cleaning odessa",
+    "topThree": [
+      {
+        "name": "Advance Cleaning",
+        "reviews": 0,
+        "rating": 4.9,
+        "domain": "www.myadvancecleaning.com",
+        "phone": "+1432-550-8325",
+        "address": "6120 N Dixie Blvd, Odessa, TX 79762",
+        "category": "Carpet cleaning service"
+      },
+      {
+        "name": "Carpet Tech of Odessa, TX",
+        "reviews": 0,
+        "rating": 4.9,
+        "domain": "www.carpettech.com",
+        "phone": "+1432-201-8993",
+        "address": "3510 Andrews Hwy, Odessa, TX 79762",
+        "category": "Carpet cleaning service"
+      },
+      {
+        "name": "Elite Carpet Cleaning",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "www.elitecarpetcleaningtx.com",
+        "phone": "+1432-425-1910",
+        "address": "",
+        "category": "Carpet cleaning service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    33,
+    29,
+    32,
+    37,
+    49,
+    78,
+    64,
+    82,
+    86,
+    72,
+    48,
+    50,
+    40
+  ],
+  "organic_raw": [
+    {
+      "keyword": "upholstery cleaning odessa tx",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "upholstery cleaning near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "upholstery cleaning odessa tx",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWAHEIkXXdxe5IbTUMzbGqFAFf0w4E8jnoJ9yHNWXNJi662qVr2m4Ay31BUOEPuwqCaHmhyqPodcAzSxIxdtTgUlMfahOd3sXm7mibtM0FxRg8laz1S6So2c",
+          "title": "Best Carpet Care: Odessa, TX: Commercial Carpet Cleaning ...",
+          "description": "Upholstery Cleaning. Contact Us (432) 638-8411. Our team of experts offers a variety of high-quality services from upholstery cleaning to stain removal.",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfgHEIkXX3AN-eZGJaOpAuOFjMvT5c_3CvL41Uted-cgTqKcUs5_ZwuZiQ6a4jpBGCHeK5RcHCpbT7yp9os88e87HpslrOxgN3E1aPxhJ7fqeRIANVx9xI2vV6suEfSQjGizsuH3VzpeQNriRIQfABlDml8VJnum61sOb8dEggw",
+          "title": "Top 10 Best Carpet cleaners in Odessa, TX",
+          "description": "Read real reviews and see ratings for Odessa, TX carpet cleaners for free! This list will help you pick the right carpet cleaners in Odessa, TX.",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShQEBxCJF16ApyfZB1IAsGXULo8xLjCe9C8TYj-wM1WxH3CSt8o-I2FKe4vMji_UPjS-SbjFxttzXeWem91d6va2r6C11gCbcoXxHayKe76P-We-ddOv0OYqLzi8xPTsWRRzBocWJMA5g85zi0aw9gMJGKDBtSIn0BrvYtud6pnbb583jlHmj",
+          "title": "Best Furniture Cleaning Services in Odessa, TX",
+          "description": "Heaven's Best Carpet Cleaning Midland offers pickup and return service for items like rugs, with same-day turnaround reported in at least one case.",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbAHEIkXXoNPGSc1uHhr0DiHT-fqOqx0M54GXqzh56TlvZhNLV7nzrMyIfnfUJFVsGhS9WdaQPWXFmw0dyMa1TUYq4td002es_7jXFBN2_2LxxiF34lKFWxnBOkkP0pfSMMSv_lZ5n0xU7zECgg",
+          "title": "Advance Cleaning Inc. | Odessa TX",
+          "description": "cleaning carpet, upholstery, air ducts and oriental rug cleaning and repairs. 432-550-8325 … 6120 N. Dixie Blvd, Odessa, TX, s! 432-550-8325",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZwHEIkXXKx7vohfDUYbPAYWvcmtfnBYu62A-exFYMHJ6US-bV2N7VdrXcpcQHYbC8fZnGDlVCEgaFrBIQ3LtZhwaNmreO6pxxczYtVmJaLW_1xGrwZpTvFE3Osz8I4P8QC4GUvY6f2s",
+          "title": "Get a Free Quote | Elite Carpet Cleaning Midland & Odessa TX",
+          "description": "Request a free quote for carpet cleaning, air duct cleaning, or upholstery cleaning in Midland and Odessa. Fast local response. Call (432) 425-1910 or fill ...",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfQHEIkXXDALhW5m-_EI3e6CP6s8kcGZ4uO21oMUgVcC0jAmsg0S7o4VPegGml5UvxHXt7jHQ9g2bCeY31ZpFJlmmHsUrfL2ylyBFzcNCtAmpiFtC1XuhSWTtmLHon8LFBbCxBGq7KdZFGPRx7s8lsB2YOFGozvEECu5PqfEQ",
+          "title": "Carpet Cleaning - Odessa - Advance Cleaning",
+          "description": "Upholstery Cleaning. Odessa, TX Residential. Call us at (432) 550-8325 to get a free quote, 6120 N. Dixie Odessa, TX 79762 (432) 362-6864. Upholstery Cleaning ...",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYwHEIkXXn0ncPnVFYJ6NugGjk6IZyRmYoI0wTqixRqZIl1lDND-fFI0Ai-eMLlKP2FB1sd5x39yMT9ZGtVRH5rRy94tgRbLjT02YFBPLsCClCJP6aUx5aW1sG7BR42gAucwE5g",
+          "title": "CarpetMax | Odessa TX",
+          "description": "Looking for upholstery cleaning near Odessa or Midland? CarpetMax cleans deep with hot water extraction that rinses away dirt without sticky residue. We use ... Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbgHEIkXXZeaKB7KQ3tq5j3zjvc0Io3CqcQOyOLRdQ2_qEOE9ZwGLWsCosGNQzefNxO1p6Dapi2jCdS61Bo146DzWo9WgjbAZzs9ati68Qv_28f2QuR96IWtB0lGcGfEpgdU3wILVyCGOXR6Bz9Ao",
+          "title": "Odessa Upholstery",
+          "description": "ODESSA UPHOLSTERY - Fast Response Times - 2505 N Dixie Blvd, Odessa, TX 79761, 1 Photos, +14323329386.",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShgEBxCJF1xNT32iEBtRNuiLBNNyaOFvNkpCZj06LoRQqAKKq6vQqb4IIzmRz99nu1By-EJnqmGs5FoDNmMWIPD-76SZt41x6iqXOWxHgjYatuA7hKTl34P5H7YmZlFlXS65WS-Rpd0Scn-1YP78K0Ahf9BaJdMlBTNBC5xWPsfcBmA6NyLPhlA",
+          "title": "Marble Floor Polishing Odessa, TX",
+          "description": "Learn about our unique Low-Moisture Cleaning Process. Upholstery Cleaning. Professional furniture cleaning from the best upholstery cleaners. Read more",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "upholstery cleaning near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmQEBxCJF1x462Bt-Gwe_GW7fNbUNSM4vcUSM1a3OQIZ2EMOcgTHR8bWply6UITv1g-ONzjpjuCmii1NQHebOQaTI994Ok4oCeTD1ZRqzHbRWB8wQFrC1YHjGvISJAm3v3tH4Rr4QkeyumXbdY-DrybPj7iB-ho00sYVGLuuIgfhVpiXUQ2Oky0CoyM_By-5qxV-BYiIpdgp1xXc",
+          "title": "Best Upholstery Cleaning near Uptown, Albuquerque, NM",
+          "description": "Best Upholstery Cleaning near Uptown, Albuquerque, NM ; Royal Carpet Cleaning · Carpet Cleaning · Air Duct Cleaning. 3.0 mi · Albuquerque, NM 87109. (505) 280-5216. Read more",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESggEBxCJF13ceHBzp-X1SrJ2Q7hD24orL3HDXTzOArURZ_H9vCuPT5OBda0v_bi4gU2GjKKos6BV_Okmn1jgSBDXKc3cd3_p3jIxYErFfrqpAaqSpjatafLjuxwYKLqwlb1p6jwcqjObJwp1W84DZMWJTSV0adE1tgMYCBfLodTtbxMFD",
+          "title": "Upholstery Cleaning Services",
+          "description": "We specialize in professional furniture upholstery cleaning, removing dirt, stains and allergens. Open 24 Hours, 7 Days a Week",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjQEBxCJF113KYx5XJ4WV9DhK7X0-E4eAqXePv_RmXtLI2NqVjuSbfoj1xFh_ksJTgAcGgmoswbPV3FQ6dPIXZaywMNsjC0DMJHNNGHhOXzVLqJ-4tU9laqwRn-GGBHeoWC-gsVkVIbehNXxw-JYl6CtL0WkobvTXF1HILueek_ej-0VrWJJt5HAFnXUsli0",
+          "title": "TOP 10 BEST Upholstery Cleaning in Lincoln, NE",
+          "description": "Top 10 Best Upholstery Cleaning Near Lincoln, Nebraska (Updated 2026) · Heaven's Best Carpet Cleaning · Royal Carpet & Upholstery Cleaning · Pro Care Cleaning. Read more",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF11wAFC-G1fZ_sHde4VhzDTje_MexVHogwaFUMMb8ncr_PRLo2V1fPiDKxbOoU4gaalNqi9ZTh4xBfQKuxRXyUtTXADfJUalTVTrsoUX05z1Y3m4LTSUfnZNmIrFdp7pt39ZLxo9TFHAVhWcCkDgNxMaPHCdZoJJcHv4S1vIabdYNIEUzEHJh6g",
+          "title": "Upholstery Cleaning West Des Moines",
+          "description": "Our upholstery cleaning services have been trusted solutions in the area for years, addressing everything from routine cleanings to intensive restoration work. Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF1xxkW-CrPv5MVPrluqqscAuRPWnqlOJAs017ZLFZE7MWjypVP4fsFaoV8Y1_uAC91upNllV5gyYLJzvclEUjJn_t65TDCYO68jr_fL8FwQi3XY90qy18LKrwy7subBqA25vev4Xybh6oQhn6GMkfWA3xKTnumazrqGA1rS2HEL28yZ7IPtG5HA",
+          "title": "TOP 10 BEST Upholstery Cleaning in Tucson, AZ",
+          "description": "Top 10 Best Upholstery Cleaning Near Tucson, Arizona (Updated 2026) ; Tucson Rug Cleaning. 5.0 (1 review) ; Platinum Elite Steam Cleaning. 5.0 (21 reviews) ; Voda ... Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdwHEIkXX7OtNkv-O0SymL3yQj3HxsdZIJN86zFzRuyTGXYoo6TBMwtltZRgIf5lRffFSnmZ7We2W3vWtf7vgeTfTO-zBJmoyHK_VNXrHqVVv4oqqNzDBUNDhETEcPnTWTOi9DX4af4amyU5Ld-iFVfluoY1LMtLK",
+          "title": "Upholstery & Furniture Cleaning Services in Detroit, MI",
+          "description": "Home and office upholstery cleaning service in Detroit, MI. 313-887-1304. Hours: Mon-Sun 8:00am - 8:00pm , Warren, MI 48092. Call us at 313-887-1304",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESegHEIkXX077Pas4BjE8qKEXGEiPjDwdOnTns7Ja8fi037U1_pMbB70-JhNPFOK_k6sW-feAb5DCtT_gYWvvbX8EK3FKZjk72iCGc9Lqe3mmE8G94VDFZ_qdwSJ2LPYpuFzbSBngDyqeXZzzQvV83OEvRP8pgHPYdlkpW",
+          "title": "Upholstery Cleaning Towson MD | 150% Money-Back ...",
+          "description": "Upholstery cleaning Towson MD for apartments, rentals, and family homes. Free Quote and our 150% money-back guarantee. Call (410) 666-6600",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmgEBxCJF1xalwZnfZn2aFSO07f8SkwRO6VFrj7svntcrxola55pqO64Nd1sC7jDmr0cHhh6e_XzrM5mkMX5KbqDHoQJc_vFzw8MlPmYmDjDWvYiqq_2b67PXf06F5j4DbsgcWNlyuHAZLj54PIsvQOJWPIWPT9Kt9Cvfl2AzBlBTsFrIsTCWKbkjo3Vv7V6JN8Ca3ylvU5Te83YT",
+          "title": "Upholstery Cleaning in Oakland, CA",
+          "description": "Remove years of dirt and revitalize your furniture with an upholstery cleaning from Oxi Fresh in Oakland, CA. Book online or call for a quote!",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjwEBxCJF19q6cpIORUqENbqvxI-btUuiDG6_zQe9nHs2EvEw-y1UWlCHTKc3lf3KMgDMHkGDfib1DyUpF54tFtDeOR8CA9pMZVclDIulx8Q0yv-vL0Ausw7Xt7_vAYDqhYryfG8poWg6vP7_sbt-5DJ5tJ7fjW0mZ04qu241kK8exLDTSWAS2LmryBBGogsjbw",
+          "title": "Top-Rated Carpet and Upholstery Cleaning Services ...",
+          "description": "Get matched with top carpet and upholstery cleaning pros in Alexandria, LA · Enter your zip and get matched with up to 3 pros · Matching on HomeAdvisor · Top-Rated ... Read more",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "upholstery cleaning odessa",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    30,
+    37,
+    32,
+    33,
+    35,
+    30,
+    26,
+    29,
+    32,
+    32,
+    28,
+    28,
+    40,
+    35,
+    35,
+    37,
+    40,
+    38,
+    44,
+    40,
+    49,
+    72,
+    79,
+    81,
+    96,
+    55,
+    47,
+    55,
+    74,
+    73,
+    70,
+    79,
+    87,
+    90,
+    71,
+    80,
+    83,
+    80,
+    100,
+    91,
+    87,
+    62,
+    64,
+    57,
+    43,
+    52,
+    54,
+    44,
+    45,
+    49,
+    51,
+    55,
+    45,
+    35
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

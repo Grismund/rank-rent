@@ -1,0 +1,601 @@
+{
+  "volumes": {
+    "bed bug treatment albuquerque": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 43,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "bed bug treatment albuquerque nm": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "bed bug treatment near me": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": 61,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "bed bug treatment services albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best bed bug treatment albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "albuquerque bed bug treatment": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable bed bug treatment albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "bed bug treatment in albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "bed bug treatment albuquerque",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "bed bug treatment near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "bed bug treatment albuquerque",
+    "topThree": [
+      {
+        "name": "Orkin",
+        "reviews": 0,
+        "rating": 4.7,
+        "domain": "www.orkin.com",
+        "phone": "+1575-518-7016",
+        "address": "3220 Candelaria Rd NE, Albuquerque, NM 87107",
+        "category": "Pest control service"
+      },
+      {
+        "name": "Bulwark Exterminating",
+        "reviews": 0,
+        "rating": 4.9,
+        "domain": "bulwarkpestcontrol.com",
+        "phone": "+1505-218-6595",
+        "address": "228 Candelaria Rd NW, Albuquerque, NM 87107",
+        "category": "Pest control service"
+      },
+      {
+        "name": "Preventive Pest Control - Albuquerque",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "www.preventivepestcontrol.com",
+        "phone": "+1505-792-8380",
+        "address": "5130 2nd St NW, Albuquerque, NM 87107",
+        "category": "Pest control service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    54,
+    48,
+    51,
+    56,
+    73,
+    75,
+    78,
+    90,
+    87,
+    77,
+    60,
+    54,
+    50
+  ],
+  "organic_raw": [
+    {
+      "keyword": "bed bug treatment albuquerque",
+      "items_types": [
+        "organic"
+      ]
+    },
+    {
+      "keyword": "bed bug treatment near me",
+      "items_types": [
+        "local_pack",
+        "people_also_ask",
+        "organic",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "bed bug treatment albuquerque",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYQHEIkXXrknrrrfi2KYtJPZmU56KW337ALhQGBt26YVJyEjTdsyoHOgF3EJSQ7RRnXCCXNxWeLVcWP4l_BuS0smpq-r-qPbmQAazlYlTOT7T2UI4hQjdwhfdzBsInJAHyRw",
+          "title": "Pest Control Albuquerque, New Mexico",
+          "description": "Keep pests away with HomeTeam Pest Defense pest control in Albuquerque, offering exterminator service for year-round defense. Call today to get started!",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgQEBxCJF10vTn28_UTTob9udbpRYInnMBLRdqS-bEalvoUNlJWE0B_zGaUQ0QvTasbzy7jtJ1xqC3ZMyq4PRiZ9tw19wVNwulG0_7PoUHNGpwD_1wP1u5PZvqw9zTWOxtoWx5paSb646L9sNi_90u3Tqskf0oHpTchfB5FFXi5e740Y",
+          "title": "Pest, Rodent & Termite Control in Albuquerque, NM",
+          "description": "Albuquerque services include: Call (505) 856-9565 to get started 7921 Lorraine Ct Ne Albuquerque, NM 87113 … re looking for bed bug control",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfQHEIkXXYhIA3QszW2VWolD8X3es8FPqKiApx8Ed5sW-DZDNsQQShZ7pxWSzI3IhPvP73BcP_4xngqA0QTE1UY4D6HS6XamJNHWSgDPaGkPHID2SOQsoVD8HLOq_2Y1edk3oaMXe2lPnnxefaZYHDQfYK9gTVJAptVH1JMWo",
+          "title": "SOUTHWEST BED BUG RESOURCES",
+          "description": "Albuquerque, NM 87123 Directions (505) 832-7942 Call Now Visit Website http://www.swbedbug.com. Top-Rated Termite Treatment in Albuquerque, New Mexico Trusted  ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWQHEIkXXQQ8VMWPPRAcsbLCJUJFxx_-6hZ-_istNU3xXZxO4gvEYBrkgd5mImnEAuy3LRtbxMtsjOgdtHspijc2xhQpy73TijfKQ6UYsR1avQ7ZRRhbA5237",
+          "title": "Affordable Pest Control in Albuquerque | The Bug Guy NM",
+          "description": "The Bug Guy NM offers fast, effective, and affordable pest control services in Albuquerque. Bedbugs can make your bed a living nightmare.",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlAEBxCJF19ojsnRKZPZIjDnpjMQz-6agCQr2BT6vnqaT2ESTltFvopnjv7kz1_jScWsXAt_0nXKFvQ3DyEdyWyBu4HUa-85gUC5yYmzWSq4MSopYucXtaR18rvCCzVeQIdLsO2NnoCSWmDEA5ZXnrQ3WcZ6xyirwKaqCSdElVYAJGxkK39D6sBPtzn0CqW9oS3ytUhvm",
+          "title": "Bed Bugs Contact",
+          "description": "Bed Bugs Contact ; Name: Nicholas D. Pederson ; Position: Urban Biology Division Manager ; Department: Urban Biology Division ; Phone: 505-452-5300. Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShQEBxCJF1x8N-ZD3iK6A5G5KxD-f1FjK7X126bJxVAUefAQjo_2E8PJ_-3RLyi3VT58qSJMUvVIKIo7fCRDfvTCpsVr8AVUE3QTmBfI_ZcK_3Xg3oYxdp_L3iGMQftxMnzDMbZv2s49BfDYuyNk_onFuIY-2289ixbvegRkNDCcojmeKOqMU",
+          "title": "The 10 Best Pest Control in Albuquerque, NM of 2026",
+          "description": "Apr 2, 2025 — Bulwark and Orkin are our top picks. Expect to pay between $150 and $500 for a one-time service. However, fixing an extreme bedbug, rodent or ...",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkQEBxCJF16I1P0eDKoRHgIR46OVj9dmyU5l4RNjilqZTj53US0S2_ovxS7IddjXYjP73QbvSvHY7pMak7O08rotfa99hJuOmFp9gna1zcSsaC_oT1njkUGIE_1epGXtpyz8-D1Gqpz1hyIMmngJgX1orn3kCNEvPlKh2YgsQo81v8Un1krVJetmHsMKzFrQKFu34",
+          "title": "Got Bed Bugs? - PremierX Pest Control",
+          "description": "Need Service? Call: 505-217-9261. IN 24 HOURS CALL 505-217-9261 AND REQUEST AN APPOINTMENT. Certified in the State of New Mexico",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfgHEIkXX9VVmUO05AbaYTstm8Nm_B0__Oo7tYYPpvXiOjAtStjn6EyT8EHO5gGhVoCXGrlp7DgmNP_ck5ZaifIMrwqCyqa2cvHN6up6G4YH_Of0WzaFYl35f532aWUo1Q5gYV0j5weieBRSnmUZFYkM-kOXhi0IU0Pbfruc5ZA",
+          "title": "Bed Bug Exterminator in Albuquerque, NM - Costs 08 / 2026",
+          "description": "Typical Range: $84 - $822. Bed Bug Exterminator jobs in Albuquerque cost between $269 and $392. A full bed bug removal generally costs between $84 add $822. ...",
+          "position": 13
+        }
+      ]
+    },
+    {
+      "keyword": "bed bug treatment near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdgHEIkXXB3K8Sw02x4Tt0dqSzFcrbgV07LBZDbeKkCUulLodFCaTPQU-xfCOInlsYhUTpS5ANLO-so9zb3-eZFrPasenLWIosNn4A9gPG2j7151si8lVMHP4AQhaC6KLx356m9eAl5tSNlWhye4nlfeWHyIA2AQ",
+          "title": "Bed Bug Extermination in Albuquerque, NM",
+          "description": "Ant & Rodent Pest Control Albuquerque offers comprehensive bed bug extermination services to help you reclaim your home and sleep soundly. We understand the ... Read more",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZwHEIkXXwl7OnJhTrJFPVp3VnuOuxbKNg53InXlG8UJ9pkwhHvyyMmm6bWTR9L7WXyq2kF1ghITlQYchrVjHKfBCvmvHwdWhqqDZ01DSSDIla8tz493-xX7_RRDLC5MWFmNWb4fBRpk",
+          "title": "Bed Bug Treatments",
+          "description": "For experienced bed bug exterminators in Denver, Boulder & NoCo, choose EnviroPest. We get rid of bed bugs completely. Request a free estimate today!",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESawHEIkXXpmXJf1jmTf6LoVeh8NNVEMXCG64F8DwEAQdnHkU-KzhR4HzQc5rxPAMyafiBIh6mzb_D1RqwIrOvxMHHvN2znT2HJR7SRa5V0hvkWR5k6Yq29fEBgdO85je5t6XeCBmhYxDrTRmo",
+          "title": "Mesa Bed Bug Treatment | Heat & Spray Experts",
+          "description": "Looking for bed bug treatment in Mesa, AZ? We offer safe, fast, same-day heat & spray extermination backed by warranty. Serving all Mesa neighborhoods.",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScQHEIkXXpR6NHA6aeD0hxTKP1TC8rgeyPbMOxeRqhYkrOanORjemrgL9rujPHLQfA1izNHXk1iRhAsaEozP4eAi-uXkhlwdz9o4X-n55yODw3LWbWbHS3P8gcEoZrW5A71DJXoMEidY4L2-dWx1zu1SD",
+          "title": "Top Bed Bug Treatment Companies in Tucson, AZ - Pest Crews",
+          "description": "Top Bed Bug Treatment Companies in Tucson, Arizona Ranked ; ACTION Termite & Pest Control. 3860 S Palo Verde Rd Suite 312, Tucson, AZ 85714 · 359 Reviews ; Desert ... Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShQEBxCJF11ssmg_s5YO1Isx4lcYmxQkwsTGQbOZ0f3NqKPYk7vbcOkBDrPFKymbNkSzGe0YvKrXXdFmk0vaWsEzYExrwNUw5HdyAPkHNMlIP5WEz5k5LVoHGuqreBPx_SGyS368c9s0wPdUcFJqWwhv-ltyWPBechoIsPwWBbmN6PQ2ycr3y",
+          "title": "Oklahoma City bed bug control & treatment - Exterminators",
+          "description": "Get reliable Bed Bug control in Oklahoma City. Call today! (855) 485-6300 Locations. Call our 24-hour line for help (844) 692-1543 … the greater Oklahoma City ...",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESaQHEIkXXV2Jhrnk4hNBDtKdJCMFrp3afBJWf8HA2RgJJHUaQiFQL2zpZ2MqS99bkFCCclEbqYiMFEMvDg1GBEDebz1QdvYOu-reuAxy-pFJlVsbJpT7P9gdho6lx8RCxVtb2cVkLvecdsg",
+          "title": "The 10 Best Bed Bug Exterminators in San Diego, CA (2026)",
+          "description": "Bed bug extermination costs $1,000 to $2,200 on average or $200 to $400 per room for standard pesticide applications. Higher costs of up to $4,000 to $6,000 ... Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWAHEIkXXHjkYV0LZf4QysHkVlwyRFxYH6Q4h2JPeeHNYRY2sAA1xxxFOqgOUfaA2GsC6XQn3bClrgKSEsd8ydVnOeGIO5-SAWV5c8OUTj4G9LECNCNX4M5k",
+          "title": "Bed Bugs Phoenix | Phoenix Bed Bug Removal & Pest Control",
+          "description": "Budget Bed Bug is the BEST Bed Bug Pest Control and Bed Bug Removal Experts in the Phoenix, AZ Metro Area. A+ Rated Call for Same Day Help!",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESgQEBxCJF1xpGa9HsGcyZkKuvRP-c3AKyXN_7elY9sz2B2T8czB6O3lQdFNfM4ArI4Hxm3lYBOQ4EySmz8iXHiBl7jiYlske_cFsQl_T80XajF3TMzpiHIWAKmIxS-4h_fEPx3M4Z7dmOJJIGkfOVOrfj1ZxLBuEWBQHC_VFFNKhMn50",
+          "title": "Las Vegas bed bug control & treatment - Exterminators",
+          "description": "Call our 24-hour line for help (844) 692-1543. Contact Customer Service or call 855-485-6300. of a bed bug infestation. Call now to schedule a free inspection ...",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESWgHEIkXXu5aOqrEHoOAoUl1FqCA6wu4zlmTwPabMjKD0lVjuiyXw9Wl8IrRsj0RThQDqLTCxMZTTXoZABOhBknrAy25TEx3ZZu7kP_DmaYeAKGJYiwDrVaTfjw",
+          "title": "Mesa Bed Bug Exterminator - 100% Guaranteed Bed Bug ...",
+          "description": "There are two ways you can get rid of bed bugs – through a heat treatment or a chemical/pesticide treatment. Both of these treatment options are 100% effective. Read more",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Pest Control Albuquerque, New Mexico",
+      "description": "Keep pests away with HomeTeam Pest Defense pest control in Albuquerque, offering exterminator service for year-round defense. Call today to get started!",
+      "url": "https://google.com/goto?url=CAESYQHEIkXXrknrrrfi2KYtJPZmU56KW337ALhQGBt26YVJyEjTdsyoHOgF3EJSQ7RRnXCCXNxWeLVcWP4l_BuS0smpq-r-qPbmQAazlYlTOT7T2UI4hQjdwhfdzBsInJAHyRw",
+      "breadcrumb": "https://pestdefense.com › albuquerque"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Pest, Rodent & Termite Control in Albuquerque, NM",
+      "description": "Albuquerque services include: Call (505) 856-9565 to get started 7921 Lorraine Ct Ne Albuquerque, NM 87113 … re looking for bed bug control",
+      "url": "https://google.com/goto?url=CAESgQEBxCJF10vTn28_UTTob9udbpRYInnMBLRdqS-bEalvoUNlJWE0B_zGaUQ0QvTasbzy7jtJ1xqC3ZMyq4PRiZ9tw19wVNwulG0_7PoUHNGpwD_1wP1u5PZvqw9zTWOxtoWx5paSb646L9sNi_90u3Tqskf0oHpTchfB5FFXi5e740Y",
+      "breadcrumb": "https://locations.trulynolen.com › ... › Albuquerque"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "SOUTHWEST BED BUG RESOURCES",
+      "description": "Albuquerque, NM 87123 Directions (505) 832-7942 Call Now Visit Website http://www.swbedbug.com. Top-Rated Termite Treatment in Albuquerque, New Mexico Trusted  ...",
+      "url": "https://google.com/goto?url=CAESfQHEIkXXYhIA3QszW2VWolD8X3es8FPqKiApx8Ed5sW-DZDNsQQShZ7pxWSzI3IhPvP73BcP_4xngqA0QTE1UY4D6HS6XamJNHWSgDPaGkPHID2SOQsoVD8HLOq_2Y1edk3oaMXe2lPnnxefaZYHDQfYK9gTVJAptVH1JMWo",
+      "breadcrumb": "https://m.yelp.com › biz › southwest-bed-bug-resources..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Affordable Pest Control in Albuquerque | The Bug Guy NM",
+      "description": "The Bug Guy NM offers fast, effective, and affordable pest control services in Albuquerque. Bedbugs can make your bed a living nightmare.",
+      "url": "https://google.com/goto?url=CAESWQHEIkXXQQ8VMWPPRAcsbLCJUJFxx_-6hZ-_istNU3xXZxO4gvEYBrkgd5mImnEAuy3LRtbxMtsjOgdtHspijc2xhQpy73TijfKQ6UYsR1avQ7ZRRhbA5237",
+      "breadcrumb": "https://www.thebugguynm.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Bed Bugs Contact",
+      "description": "Bed Bugs Contact ; Name: Nicholas D. Pederson ; Position: Urban Biology Division Manager ; Department: Urban Biology Division ; Phone: 505-452-5300. Read more",
+      "url": "https://google.com/goto?url=CAESlAEBxCJF19ojsnRKZPZIjDnpjMQz-6agCQr2BT6vnqaT2ESTltFvopnjv7kz1_jScWsXAt_0nXKFvQ3DyEdyWyBu4HUa-85gUC5yYmzWSq4MSopYucXtaR18rvCCzVeQIdLsO2NnoCSWmDEA5ZXnrQ3WcZ6xyirwKaqCSdElVYAJGxkK39D6sBPtzn0CqW9oS3ytUhvm",
+      "breadcrumb": "https://www.cabq.gov › pest-management › contact"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "The 10 Best Pest Control in Albuquerque, NM of 2026",
+      "description": "Apr 2, 2025 — Bulwark and Orkin are our top picks. Expect to pay between $150 and $500 for a one-time service. However, fixing an extreme bedbug, rodent or ...",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF1x8N-ZD3iK6A5G5KxD-f1FjK7X126bJxVAUefAQjo_2E8PJ_-3RLyi3VT58qSJMUvVIKIo7fCRDfvTCpsVr8AVUE3QTmBfI_ZcK_3Xg3oYxdp_L3iGMQftxMnzDMbZv2s49BfDYuyNk_onFuIY-2289ixbvegRkNDCcojmeKOqMU",
+      "breadcrumb": "https://www.consumeraffairs.com › ... › Best Pest Control"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Got Bed Bugs? - PremierX Pest Control",
+      "description": "Need Service? Call: 505-217-9261. IN 24 HOURS CALL 505-217-9261 AND REQUEST AN APPOINTMENT. Certified in the State of New Mexico",
+      "url": "https://google.com/goto?url=CAESkQEBxCJF16I1P0eDKoRHgIR46OVj9dmyU5l4RNjilqZTj53US0S2_ovxS7IddjXYjP73QbvSvHY7pMak7O08rotfa99hJuOmFp9gna1zcSsaC_oT1njkUGIE_1epGXtpyz8-D1Gqpz1hyIMmngJgX1orn3kCNEvPlKh2YgsQo81v8Un1krVJetmHsMKzFrQKFu34",
+      "breadcrumb": "http://www.premierxpestcontrol.com › bed-bug-control-..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Bed Bug Exterminator in Albuquerque, NM - Costs 08 / 2026",
+      "description": "Typical Range: $84 - $822. Bed Bug Exterminator jobs in Albuquerque cost between $269 and $392. A full bed bug removal generally costs between $84 add $822. ...",
+      "url": "https://google.com/goto?url=CAESfgHEIkXX9VVmUO05AbaYTstm8Nm_B0__Oo7tYYPpvXiOjAtStjn6EyT8EHO5gGhVoCXGrlp7DgmNP_ck5ZaifIMrwqCyqa2cvHN6up6G4YH_Of0WzaFYl35f532aWUo1Q5gYV0j5weieBRSnmUZFYkM-kOXhi0IU0Pbfruc5ZA",
+      "breadcrumb": "https://www.homeyou.com › ... › NM"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "bed bug treatment albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    53,
+    53,
+    60,
+    57,
+    49,
+    49,
+    48,
+    48,
+    48,
+    52,
+    55,
+    51,
+    45,
+    49,
+    49,
+    54,
+    73,
+    73,
+    79,
+    73,
+    72,
+    70,
+    80,
+    73,
+    72,
+    76,
+    77,
+    70,
+    78,
+    80,
+    84,
+    85,
+    93,
+    100,
+    83,
+    86,
+    74,
+    91,
+    95,
+    82,
+    80,
+    77,
+    71,
+    74,
+    63,
+    64,
+    58,
+    56,
+    52,
+    56,
+    54,
+    55,
+    50,
+    49
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

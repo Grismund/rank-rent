@@ -1,0 +1,513 @@
+{
+  "volumes": {
+    "upholstery cleaning abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "upholstery cleaning abilene tx": {
+      "search_volume": 10,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "upholstery cleaning near me": {
+      "search_volume": 10,
+      "cpc": 2.44,
+      "competition_index": 86,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        }
+      ]
+    },
+    "upholstery cleaning services abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "best upholstery cleaning abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "abilene upholstery cleaning": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "affordable upholstery cleaning abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "upholstery cleaning in abilene": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    }
+  },
+  "organic": [
+    {
+      "keyword": "upholstery cleaning abilene tx",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "upholstery cleaning near me",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "upholstery cleaning abilene",
+    "topThree": [
+      {
+        "name": "Abilene Carpet Cleaning",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "mattgray82.wixsite.com",
+        "phone": "+1325-283-0270",
+        "address": "2018 S 19th St, Abilene, TX 79602",
+        "category": "Carpet cleaning service"
+      },
+      {
+        "name": "Laser clean of Abilene",
+        "reviews": 0,
+        "rating": 5,
+        "domain": "lasercleanofabilene.com",
+        "phone": "+1325-238-9621",
+        "address": "1549 S 1st St, Abilene, TX 79602",
+        "category": "Blast cleaning service"
+      },
+      {
+        "name": "Serenity Professional Cleaning",
+        "reviews": 0,
+        "rating": 4.9,
+        "domain": "serenityprofessional.com",
+        "phone": "+1325-280-4842",
+        "address": "",
+        "category": "Carpet cleaning service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    33,
+    29,
+    32,
+    37,
+    49,
+    78,
+    64,
+    82,
+    86,
+    72,
+    48,
+    50,
+    40
+  ],
+  "organic_raw": [
+    {
+      "keyword": "upholstery cleaning abilene tx",
+      "items_types": [
+        "local_pack",
+        "ai_overview",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "keyword": "upholstery cleaning near me",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "upholstery cleaning abilene tx",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZgHEIkXXhQMEOc_fuWRuTJmDFdbKTB2Z4Dkp9AlLJqOvhvJy3nNMmqATNWe4jcv-egAZQqBx1qzABz8boTPkR9Rx3TDBaWTGmsuPztQOeuYvp7bNV97Um9n_yb-CyWX4y653b9sSyQ",
+          "title": "Big Country Carpet Cleaning & Restoration",
+          "description": "(325) 269 4130. We clean carpets, upholstery, air ducts, dryer vents, tile & grout and offer, Contact us for an estimate today",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF12h3rMh0UIRm-7zVyRIHvMpROWJJOROuObH_YqrBDygVzM7nVVf6FlLiabE6bijZ-CEz-ezidisvfEWCs8xsVupzNS3JyJeUTL2d2kwZYrWtm_h9IOm-sgjnSjIDes3KsMPfWTZt4XFhxllkDNqLFgatwEEifdKyjz8m_Fkavco",
+          "title": "Who cleans carpets in Abilene, Texas?",
+          "description": "Mark Sims Carpet Doctor. Call Paul Barnett at 325-261-2413. We are. We provide quality carpet cleaning at an affordable price. ($139.95 for two ...",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdwHEIkXXKI2PE73jj7zsrEWkAouQNEz1cZ8dwUBfbrDKxowY8tXZJzlyyDC-29MLn01uz6v2nGP-odltE6YdF8K_pNdjymJ5cDRhbmulbOOUe5quM428pnTbABnYxf0uGlo7DA98GmwEvbDpjQ3uhtU5mCgC7WXx",
+          "title": "Quality Carpet + Restoration - Abilene, Texas",
+          "description": "QUALITY CARPET + RESTORATION, 4290 S Treadaway Blvd, Abilene, TX 79602, 4 Photos, (325) 280-7638, Mon - 8:30 am - 5:30 pm, Tue - 8:30 am - 5:30 pm, ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScQHEIkXXACCN4nwBirNJ4FBThf_dzl54wEQgLIniCf7B1xiAjVY-2_28neEytdqXhJga5uSwmK7VKTtNMSNNpb6FxzpCiMPn8Ljcm2XBC5qEIhMOyUldUJ1jQbXL3qXhGz28NlUTl2ABopmrqyqvvqfk",
+          "title": "Magic Carpet Cleaning - Abilene, Texas",
+          "description": "Magic Carpet Cleaning Ste 16 Abilene, TX 79605 Directions (325) 268-0023. Upholstery Cleaning in Abilene,",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmAEBxCJF19umFIg3qtaoo6ZU9kNHPb84ujfmGm0uV5D3D_dHPhm9PP_QARfhyMglB1xzvdJbblIz-x47rMR-Vn9movR7s-NmZQVZ6WyiCBivtx1_-uaOzJCXxhEXJsrUGGxBRNSHyoXM-EX5uojXLmhegTiQfAGylRc2B5KXVeGXBMg1XfONZeCuFQt-L786GcEUL1lx1ien_A",
+          "title": "Rug Bug Carpet Cleaning And Upholstery Cleaning",
+          "description": "Photos. Yelp. 873 Santos St, Abilene, TX, 79605. Rug Bug Carpet Cleaning And Upholstery Cleaning is a professional cleaning service based in Abilene, TX. Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESigEBxCJF18ELINj0RyWvT9AVp6Zu3nw8BeDccYIh0SOYBWfJOkbeU3eJMzetSqgSB-vOtbagItYvrYCq9EheW1pbkAOtyZakHcokKhAzofc3zZ6MXOJnZ2D-uLIcMyvDNyrugk7AY2gRzK8Ama-IGOIp9I2yaX6-YHfSChBeZW95giqFSVAHZAH5srk",
+          "title": "Best Furniture Reupholstery Services in Abilene, TX",
+          "description": "Find the best Furniture Reupholstery Services in Abilene, TX. R & R Upholstery, Alan's Upholstery, or Extreme Upholstery—hold recognized industry ...",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESagHEIkXX78C50ox9_GRsE33isaBaymugDvCVdqv2sxzLtG7y1In6CqYl5CN_UGhzR8Vn0Cd0HjAGqANsWGT3DPfWkglrR5pFWfZ8JhwH8A3nP5gQ_ATtJA-fYe1tCZyr96C-FAxKcwlYyM0",
+          "title": "Tile & Grout Cleaning Service in Abilene, TX",
+          "description": "Call (325) 261-2413 for your free quote ! We provide carpet cleaning, tile and grout cleaning, upholstery cleaning, Abilene, TX. Call (325) 261-2413 for your ...",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShgEBxCJF18rhcriWU9U_xzWzpDHb80kTGQX_dD34kcpKSfoxJ177i3-8dUmiUKKXi9tWVG3odWcWaBt0usBaq2fPqmWyEENiSFQHd5s8xTEkx7-9jG6yg5pRf5qrsqBTVwfFgVG4HcjUCIcxszdEZ0ib1x8VAHCnMyv5o4mrEspJqs5rQA7Q2g",
+          "title": "Knight Carpet Cleaning & Repairs | Abilene TX",
+          "description": "Abilene, TX, Upholstery Cleaning · Carpet Cleaning Services (325) 669-9149 … us a call 325 669 9149. Give us a call @325-669-9149",
+          "position": 12
+        }
+      ]
+    },
+    {
+      "keyword": "upholstery cleaning near me",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXFRDWMki2wh6DEpTN3Nm8bj8VNMFYurIlXOlxNs6E7hpCyN1q5ApOXXHgdrnjkUYmZvKavVIG0uzdY7sowU593RGPAKQbKR2p4yg5AgnK5E4kfPBubIsG_rc9JpGzN2gMxeb-1_0mio3Cagi2cpfFbcItshk",
+          "title": "Upholstery & Furniture Cleaning Services in Fort Worth, TX",
+          "description": "Home and office upholstery cleaning service in Fort Worth, TX. Office Chairs, Boat upholstery and RV. Contact us at 817-886-0826 to arrange an appointment for ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkgEBxCJF1-CjmQDh8Mk78gONGGFMm2naStcJX5gUQRnDQm5AjE69SCs5D9ccKZk2GMT-10kTzb9wbIXFbzD-UgX83y8IKFuXiFgxqx6VWahVGePgKJBhSSuDuTWrrHUSK-x4-hZL9JNjq6dlTMVaChrgVBkXG-SBrkGePt0joI3QBNkL9TPKk_1V8kRoyfKp0liDSw",
+          "title": "Find Carpet and upholstery cleaning pros in Oklahoma City",
+          "description": "The Oklahoma City, OK homeowners' guide to carpet and upholstery cleaning services. From average costs to expert advice, get all the answers you need to get ... Read more",
+          "position": 6
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESewHEIkXXWpa70wvEZNlqp4JQgEW6H2BazTQmCk6yXL3dx0gNIhjl5IAPfCnbQzkuU6Jp91BO5kwlFFFiLT1I9FeLvCyZDGS1398NF8gUarAK3BTk6smDVC4x-ODI_sT9h7ZK7Pak9ZVHCB2NYUXKr6dN4lU4JtVzCkYZjA",
+          "title": "Cheap Upholstery Cleaning - Furniture Cleaners",
+          "description": "Upholstery Cleaning offer professional services to both residential and commercial clients in Arlington, TX areas. 817-330-4527‬. Open 7 Days A Week … 817-330- ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjwEBxCJF1xK7c8rQylP54-S-KtDlwbsr1DblP96WE6my4rsVgvz2O_sLsnU5IjOW7qW8cydzNDQnABjqfwDJxAJnXW1BnwkGt3Omq4oGg2OoH9nVQHjX-Z9uuNNZ59X221ey8t_LMSuDu4lWqLXC2D2qYjQwTUDRJpW6NjTKIU9ZOOnVh2fsWO7BSKnIhZJBGQ",
+          "title": "Top-Rated Carpet and Upholstery Cleaning Services ...",
+          "description": "Get matched with top carpet and upholstery cleaning pros in Alexandria, LA · Enter your zip and get matched with up to 3 pros · Matching on HomeAdvisor · Top-Rated ... Read more",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmQEBxCJF10pj_Njd1xeeqxBAZDDQtd6S0ECm417EJME3KByO2YTJAu_8s89LU3Il5rK56Oc3W4J8Rm4OZyOaHylBsW2bdvHKReyV4NY2Qf2JiFXX5acd-sUuABbvgCWdfTBECMth7wufQxE7hfBrtxWpEf9ipUBDnTmGEFsFpubyWXpAeHNOZ6nwTHl-CK2b6rpVz5i-lv03sG8",
+          "title": "Best Upholstery Cleaning near Uptown, Albuquerque, NM",
+          "description": "Best Upholstery Cleaning near Uptown, Albuquerque, NM ; Royal Carpet Cleaning · Carpet Cleaning · Air Duct Cleaning. 3.0 mi · Albuquerque, NM 87109. (505) 280-5216. Read more",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESdwHEIkXXNnBkRr2D4Ku3TxEJccj1EirOtuFMJp2YeodiSXZCET18N8wA2XtfVVToiVJrZXjawE0tBWdfBqNgUw9LcPK-tXyuezgGVQqDgeSCLh4b1SPc4V1AgARljsMLTWzmlTJQGEXs47g2irbVPk6FtkWc989D",
+          "title": "Upholstery & Furniture Cleaning Services in Detroit, MI",
+          "description": "Home and office upholstery cleaning service in Detroit, MI. 313-887-1304. Hours: Mon-Sun 8:00am - 8:00pm , Warren, MI 48092. Call us at 313-887-1304",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESegHEIkXXh8MIpcaomAGAbGDpHISpxv59_1dr3OqY1o2dy_xQIHUBRcmAtNI2IKAy4jve05WF3F-kKaJQm7CIWm6bZvznD7yA9AsJ9cwvr1eKYV0HUgTV1t5QEnf8Z9g8ZnH3Ae3r2DVs6PQz32m390w6FIgazhYBoSR1",
+          "title": "Upholstery Cleaning Towson MD | 150% Money-Back ...",
+          "description": "Upholstery cleaning Towson MD for apartments, rentals, and family homes. Free Quote and our 150% money-back guarantee. Call (410) 666-6600",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESjAEBxCJF19f3RZwO-rcS-AN-KBQa5sbUgUbipIg1lOrjk4jH3EiFZpSE75ywoTFvUnnXLEq1EcppTnfQs5GdObbn3hZkWCDV43x6D6HuBnUfpkqiEgqKA7T8GFZDENW_mc1qu827H-y0nJ0ifGn1ng-pqeMZ8vU5hvmFqEjHD7C_3ZKWtBKECPfAx6Irdw",
+          "title": "TOP 10 BEST Upholstery Cleaning in Tucson, AZ",
+          "description": "Top 10 Best Upholstery Cleaning Near Tucson, Arizona (Updated 2026) ; Tucson Rug Cleaning. 5.0 (1 review) ; Carpet Savers. 5.0 (6 reviews) ; Voda Cleaning & ... Read more",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESkwEBxCJF1_DlUT7GNXIvMRJFnqnaX3cpZTGmK8A5IjORiaU5XTuuk9GDhaCan8xPaCQjhndXawI7JUr4wy_MDToaYSYHZHKBFv3XLFlAvf_0lro52W5N6n4oHL2-f4SO8P8WIia85I5ivZ70tOFM9PXMkkc4DUOBSIZuEDXfM3Mg762X4K0Tx0_gOr5bhXqjgjCcnBE",
+          "title": "Carpet and Upholstery Cleaning in Shreveport, LA",
+          "description": "Are you looking for a professional & reliable carpet & upholstery cleaning company? PuroClean of Shreveport got you covered. Contact us today.",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "maps_raw": {
+    "keyword": "upholstery cleaning abilene",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    30,
+    37,
+    32,
+    33,
+    35,
+    30,
+    26,
+    29,
+    32,
+    32,
+    28,
+    28,
+    40,
+    35,
+    35,
+    37,
+    40,
+    38,
+    44,
+    40,
+    49,
+    72,
+    79,
+    81,
+    96,
+    55,
+    47,
+    55,
+    74,
+    73,
+    70,
+    79,
+    87,
+    90,
+    71,
+    80,
+    83,
+    80,
+    100,
+    91,
+    87,
+    62,
+    64,
+    57,
+    43,
+    52,
+    54,
+    44,
+    45,
+    49,
+    51,
+    55,
+    45,
+    35
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

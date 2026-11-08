@@ -24,3 +24,6 @@ Average job values and gross margins per niche. Used by `rr-viability` to verify
 | epoxy flooring | $1,600–$3,500 | 40–50% | Very low COGS ($0.30–$1/sq ft material) |
 | basement waterproofing | $3,000–$10,000 | 20–30% | High-urgency purchase; avg ~$5,200 |
 | land clearing | $1,500–$6,000 | 30–45% | Per acre; equipment-heavy |
+| carpet cleaning | $125–$300 | 50–65% | Per room $50–$75; whole house $175–$300; low COGS |
+| house cleaning | $120–$250 | 40–55% | Recurring revenue; avg $150/visit; 2–4 hr jobs |
+| commercial cleaning | $500–$2,000 | 30–45% | Contract-based; recurring monthly; $0.05–$0.20/sq ft |

@@ -1,0 +1,839 @@
+{
+  "volumes": {
+    "house cleaning albuquerque": {
+      "search_volume": 880,
+      "cpc": 12.01,
+      "competition_index": 99,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+        }
+      ]
+    },
+    "house cleaning albuquerque nm": {
+      "search_volume": 880,
+      "cpc": 12.01,
+      "competition_index": 99,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+        }
+      ]
+    },
+    "house cleaning near me": {
+      "search_volume": 110,
+      "cpc": 16.53,
+      "competition_index": 71,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 90
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 320
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+        }
+      ]
+    },
+    "house cleaning services albuquerque": {
+      "search_volume": 880,
+      "cpc": 12.01,
+      "competition_index": 99,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+        }
+      ]
+    },
+    "best house cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "albuquerque house cleaning": {
+      "search_volume": 880,
+      "cpc": 12.01,
+      "competition_index": 99,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+        }
+      ]
+    },
+    "affordable house cleaning albuquerque": {
+      "search_volume": 0,
+      "cpc": 0,
+      "competition_index": null,
+      "monthly_searches": null
+    },
+    "house cleaning in albuquerque": {
+      "search_volume": 880,
+      "cpc": 12.01,
+      "competition_index": 99,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1000
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+        }
+      ]
+    }
+  },
+  "organic": [
+    {
+      "keyword": "house cleaning albuquerque",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    },
+    {
+      "keyword": "house cleaning albuquerque nm",
+      "topDomains": [
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com",
+        "google.com"
+      ]
+    }
+  ],
+  "maps": {
+    "keyword": "house cleaning albuquerque",
+    "topThree": [
+      {
+        "name": "Molly Maid of Greater Albuquerque",
+        "reviews": 0,
+        "rating": 4.6,
+        "domain": "www.mollymaid.com",
+        "phone": "+1505-830-0181",
+        "address": "1024 1st St NW, Albuquerque, NM 87102",
+        "category": "House cleaning service"
+      },
+      {
+        "name": "The Cleaning Authority - Albuquerque",
+        "reviews": 0,
+        "rating": 4.8,
+        "domain": "www.thecleaningauthority.com",
+        "phone": "+1505-273-2875",
+        "address": "2815 Broadbent Pkwy NE Ste C, Albuquerque, NM 87107",
+        "category": "House cleaning service"
+      },
+      {
+        "name": "505 Clean Queens",
+        "reviews": 0,
+        "rating": 4.9,
+        "domain": "www.505cleanqueens.com",
+        "phone": "+1505-657-5880",
+        "address": "2225 Beryl Ct NW, Albuquerque, NM 87104",
+        "category": "House cleaning service"
+      }
+    ],
+    "totalCount": 20
+  },
+  "trends": [
+    40,
+    39,
+    43,
+    46,
+    53,
+    71,
+    64,
+    84,
+    56,
+    49,
+    45,
+    41,
+    40
+  ],
+  "organic_raw": [
+    {
+      "keyword": "house cleaning albuquerque",
+      "items_types": [
+        "organic"
+      ]
+    },
+    {
+      "keyword": "house cleaning albuquerque nm",
+      "items_types": [
+        "local_pack",
+        "organic",
+        "discussions_and_forums",
+        "people_also_ask",
+        "related_searches"
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "keyword": "house cleaning albuquerque",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESmQEBxCJF11pAgJg90Az5CUWOvQ74ITbY4xnPLO4U5MrLF2YaTf7NhdFy-Wcl5RF_i0yqVxWRj4wAWEsxyteNrlTw_gV25tjV6Z3bLBnRTY1V77UvO7grJkm0P3J7v8zaFiLaCULwGXpw5KZzvoBee4lSxq0kWfFN2wV1r_ClyLgFJKZ7t-UwmuaXQpTbel3JvvvMPQr_3R2JZe4",
+          "title": "House cleaning service recommendations? : r/Albuquerque",
+          "description": "Hi! I would love to get recommendations for a house cleaning service. Ideally small business or independent cleaners (as long as they’re insured and ...",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEScQHEIkXX_W7DAojuYNbNUSWIXds79yHnEy7tW_-sq6NH0y6yObL0lZnUkqCjLLA7AawLPCuRHZBC6NVbHOEe4-_aqluy0UxiXDuUo0ZAjhvq51QDg_RYZ8mExh4oIqPtQZSIpaPo8dYcnXbw8Ih2AnUj",
+          "title": "Top 10 house cleaning services in Albuquerque, NM",
+          "description": "A standard house cleaning costs $90 to $180 on average, and a deep cleaning costs $230 to $600. cleanup costs $1,000 to $4,000 on average,",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESfwHEIkXX07TC3v2pAf9UcyMY68ts6gSoGEu0R763tcb6nDVbA_a1mqBBstyHOUeYUsNrjrLuPKPVBxtvUD9bXxLPGGuBPWhTjjNsV0DnIIXrSVW8eM2fpsGw8x0L6Jqoq0IALJVM1w1GyLZKQHI-BuXssePh7g1K_f3msInEq2U",
+          "title": "House cleaning services in Albuquerque, NM",
+          "description": "green sweep is Albuquerque's most-trusted eco-friendly house cleaning company. Reliable recurring care, deep cleans, and move-in/out services.",
+          "position": 8
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF18M9fb5QTONBNDLDnJs5-Z0NaHzkirlzdTSQx8jm-gmzMpkFULI1PuAqrkp8MeMPznemVpyX8wFobobhD1ZcnZKp0-QmcBJBP2RFPSp27WhCodNgH8X46wiT9ezpjr3hMJJ5VSocbMzmZBZzusse6goagVUqrdj2uz14R7ixPk0",
+          "title": "The Cleaning Authority - Albuquerque",
+          "description": "THE CLEANING AUTHORITY - ALBUQUERQUE, 2815 Broadbent Pkwy NE, Ste C, Albuquerque, NM 87107, 2 Photos, (505) 273-2875, Mon - 8:00 am - 5:00 pm, ...",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESlQEBxCJF1_608BaccXR7_jWcEeRyO3FpznbiQpgs3sBSvBSnaKR7OwGX4XEo0aaTX8xtaL1AeaFF2GGXFQosZWAInRYUcWp1DQMGfj9plBnwavii6AXxRw2qUuHWkNotQJOsAK9G5SRFja7d3KecHDbkB51ZwcH74xaa84BvHzhdA6xYyljcsEcHvLRtPVtL1dXgkPOoAA",
+          "title": "albuquerque House Cleaning Rates - CleanSpace",
+          "description": "May 26, 2026 — Hourly rates in the Albuquerque area typically range from $35 to $60 per hour per cleaner. If a company sends a team of two cleaners, the ... Read more",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESewHEIkXXqicsb2_F_yTamqilGDP7NNiABLwkhVcSXRmcKe5BSxqOUAMdH70hA6XRs1xRu1TnZT-WBPJu93-O3zRg8E6FGQqtwNsSHiZ-dJMbV-_-OTW9_2kQrj7Ai8qzG_FXtEtrELipEwNpLZzJ-ToBrudkLzveQgAaPg",
+          "title": "TOP 10 Move Out Cleaning Services in Albuquerque, NM",
+          "description": "We have 84 move out cleaning services in Albuquerque, NM! The average posted rate is $22.00/hr as of November 2026",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESxAEBxCJF19elQHA4e5dg5M9OriapZF1kIqdqDkrW94hxonRbk1l1RS4V_EmuuWRbkRibapyNU4EMm7WhcynD3Elx2_AhLIDfoPI6nVAafwHWLCyu5bwJ5LLT_nRoxRo0AoQrlQ5UwlGZoGoxb7piyPGVfZkswVzYXYlzhBYd5QYkUeXPkn_rv04rC30uPwZrj5uqFIwpK__fXI-rSq2VF-pC8MKgk4ZuQhvyeaXtZ4pzvKte6bG2_uQLyXBtYlDhZx78wrX-",
+          "title": "Quality Cleaning at $20/hr depending on amount of work to ...",
+          "description": "reliable and experienced housekeeper here in Albuquerque, New Mexico. Quality Cleaning at $20/hr depending on amount of work to be done. Offering Thorough  ...",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESZAHEIkXXSBSdhLaUBSK4j6HwYs2Ux2qq9Y6xODwPK-mK4B4orf8ckOHRUsCsV2yt09ShFOkZOMA_KZDvNRgT7lyO9XyDqKVLwDvO0WCBN8iCmzzQOfKFdw7UWAa76bx66MlDB0E",
+          "title": "Book Now",
+          "description": "Here at 505 Clean Queens, the three primary cleaning services that we offer are the Move Clean, the Deep Clean, and the Maintenance (Recurring) Clean. The Green ... Read more",
+          "position": 13
+        }
+      ]
+    },
+    {
+      "keyword": "house cleaning albuquerque nm",
+      "results": [
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESggEBxCJF14bDcrFSZepr_klpogoT5hP-eOlXaswetv9TZU90Y37JInpHH_rcr9xpReUlYPOvSZJu3MoUOG2GEksPvA6ATaGXB2ugqsuOY3d1IDqDFVY4oTWSJUsyBEp6LUH5UbvfR9cONHavVOJRpeFmy8F1QalW1QvdNvMdsiexoxr6",
+          "title": "10 Best House cleaners in Albuquerque, NM - Nov 2026 ...",
+          "description": "Read verified reviews and see ratings for Albuquerque, NM house cleaners for free! This list will help you pick the right house cleaners in Albuquerque, NM.",
+          "position": 4
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeAHEIkXXsDk1Ai5WfYWBYakwVsqMaa0UG6y9u5Bth0pbsSbpSLcbbFqJgCjokrAmywJtvp5ra01i12NcCO2IeivZkt1B1ibo8K4ww-0FR70SMfK-LkMFvL35e3OxgDrtIQrgJSZYsNSVuIn7wgCFgYiQu2pgXFdJGA",
+          "title": "Deep Cleaning Service in Albuquerque, NM",
+          "description": "Book a one-time deep clean or schedule them quarterly — starting at $55, with transparent pricing and no subscriptions.",
+          "position": 5
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESeQHEIkXXR2FbGx_aT_dl0t4CJ_TrR5BRqh0JsEYUcP8DZkQxp0pbmQPJZFP3EUBY6s2HOWhk2go__GT6zs2iSAgE_AyuUTk2DgyFesxcVEqovd_ItKg_5qXxcEOHAok1GzEDc3N34VljhYW9LBui1VmJt8UITSfWtts",
+          "title": "House Cleaning Services in Albuquerque, NM",
+          "description": "Book trusted house cleaning services &amp; maid service in Albuquerque, NM. Rated 4.5/5. Same-day availability, transparent pricing. Starting at $55, with ...",
+          "position": 7
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYwHEIkXX0IVE84C2bkFG6BPbfyXcuDp4WzquJoUlrG2FvTGfpgw8358Qc_OS8sB75COevAnut0tJQGL2-HA-k-dT-fZBjCamb4eIMi3WWV0rAC2TgT2Rs-6MbYPykzAFlnSF9g",
+          "title": "Adove Cleaning Services, LLC | Albuquerque, NM",
+          "description": "Discover quality cleaning services for homes and offices. Free quotes available. Call now at (505) 391-4477 to book a cleaning appointment.",
+          "position": 9
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF1zx-5Xeyq0RGy7jbs47nj4uZT86-viNYQnN-tospjl0We161GF9HEfVZFl_4lG9rZ4YsBu4EHguyWwVXV0a4pNfWvZxx16yJW14O36JZEyb8pdTjEH-XCmq5-hv0xjfyAHbTODeKVdA18Ve9mU4FU5jLM3T14bQ5cJu71gAfY04",
+          "title": "The Cleaning Authority - Albuquerque",
+          "description": "THE CLEANING AUTHORITY - ALBUQUERQUE, 2815 Broadbent Pkwy NE, Ste C, Albuquerque, NM 87107, 2 Photos, (505) 273-2875, Mon - 8:00 am - 5:00 pm, ...",
+          "position": 10
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESYgHEIkXXfwPVnqHDs_UzGOO4KIR2p_mFOjjlIQ0hHII_PawXLIQ3b3Uf0xF_Jr3b0haW66Eaj1ZdFnlGa0IWAsN3FxIVSZVM8n8gfcW_anoSDl7FiStVbiRLCI9sRja1-Gf3",
+          "title": "Cleaning Services in Albuquerque & New Mexico",
+          "description": "Albuquerque's most-awarded home cleaning service. We help busy New Mexicans reclaim their weekends with a clean they can count on. (505) 404-3071 ... Read more",
+          "position": 11
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESbgHEIkXXy-e7xlKtymZHH1X4OVZjjxkP86ovLs2dbkRSOdqxybNbIZ0q-zPWQZuzOyfqy6pBvzgQtRNlNOacRQQeGsErzFildCPZZojE3Rr4IX5v1buVXLrjuHJbPk1zGy7UaJDVKqPgVG6i3Iso",
+          "title": "Find THE BEST Cleaning Lady Near Me in Albuquerque, NM",
+          "description": "Find 159 affordable cleaning ladies in Albuquerque, NM (Starting at $20.50/hr). Reliable home helper for cleaning, gardening & organizing. Detail-oriented, ...",
+          "position": 12
+        },
+        {
+          "domain": "google.com",
+          "url": "https://google.com/goto?url=CAESxAEBxCJF1868D1SSwKYBmCxtNfCS4wX0NsdtREsAJIqFyZXnKd9DSsDUl7Y2ltztQdneGei_cJTeStWaw2u2K098NgquodORFU9_Iw6bUuDJN6-TI74wehIJPZvxvjNZWHyAwwPxsgoYBZ84hK_gCy5oxi5ZQZ_INnSW3xjxpzeOh2cg9uZy3m0p5fatOILWJB_tLAVdw0gV5wACIUgnBT4tPeIRD4-Z_tU8A_FpL3xV6Prxjy6kzGMZXBLoiJelMMm9ty4T",
+          "title": "Quality Cleaning at $20/hr depending on amount of work to ...",
+          "description": "Hello, my name is Leslie and I am a reliable and experienced housekeeper here in Albuquerque, New Mexico. I take pride in providing thorough and efficient ...",
+          "position": 13
+        }
+      ]
+    }
+  ],
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "House cleaning service recommendations? : r/Albuquerque",
+      "description": "Hi! I would love to get recommendations for a house cleaning service. Ideally small business or independent cleaners (as long as they’re insured and ...",
+      "url": "https://google.com/goto?url=CAESmQEBxCJF11pAgJg90Az5CUWOvQ74ITbY4xnPLO4U5MrLF2YaTf7NhdFy-Wcl5RF_i0yqVxWRj4wAWEsxyteNrlTw_gV25tjV6Z3bLBnRTY1V77UvO7grJkm0P3J7v8zaFiLaCULwGXpw5KZzvoBee4lSxq0kWfFN2wV1r_ClyLgFJKZ7t-UwmuaXQpTbel3JvvvMPQr_3R2JZe4",
+      "breadcrumb": "8 comments  ·  5 years ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Top 10 house cleaning services in Albuquerque, NM",
+      "description": "A standard house cleaning costs $90 to $180 on average, and a deep cleaning costs $230 to $600. cleanup costs $1,000 to $4,000 on average,",
+      "url": "https://google.com/goto?url=CAEScQHEIkXX_W7DAojuYNbNUSWIXds79yHnEy7tW_-sq6NH0y6yObL0lZnUkqCjLLA7AawLPCuRHZBC6NVbHOEe4-_aqluy0UxiXDuUo0ZAjhvq51QDg_RYZ8mExh4oIqPtQZSIpaPo8dYcnXbw8Ih2AnUj",
+      "breadcrumb": "https://homeguide.com › NM › Albuquerque"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "House cleaning services in Albuquerque, NM",
+      "description": "green sweep is Albuquerque's most-trusted eco-friendly house cleaning company. Reliable recurring care, deep cleans, and move-in/out services.",
+      "url": "https://google.com/goto?url=CAESfwHEIkXX07TC3v2pAf9UcyMY68ts6gSoGEu0R763tcb6nDVbA_a1mqBBstyHOUeYUsNrjrLuPKPVBxtvUD9bXxLPGGuBPWhTjjNsV0DnIIXrSVW8eM2fpsGw8x0L6Jqoq0IALJVM1w1GyLZKQHI-BuXssePh7g1K_f3msInEq2U",
+      "breadcrumb": "https://greensweepnm.com › cleaning-services-compan..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "The Cleaning Authority - Albuquerque",
+      "description": "THE CLEANING AUTHORITY - ALBUQUERQUE, 2815 Broadbent Pkwy NE, Ste C, Albuquerque, NM 87107, 2 Photos, (505) 273-2875, Mon - 8:00 am - 5:00 pm, ...",
+      "url": "https://google.com/goto?url=CAEShAEBxCJF18M9fb5QTONBNDLDnJs5-Z0NaHzkirlzdTSQx8jm-gmzMpkFULI1PuAqrkp8MeMPznemVpyX8wFobobhD1ZcnZKp0-QmcBJBP2RFPSp27WhCodNgH8X46wiT9ezpjr3hMJJ5VSocbMzmZBZzusse6goagVUqrdj2uz14R7ixPk0",
+      "breadcrumb": "https://www.yelp.com › ... › Home Cleaning"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "albuquerque House Cleaning Rates - CleanSpace",
+      "description": "May 26, 2026 — Hourly rates in the Albuquerque area typically range from $35 to $60 per hour per cleaner. If a company sends a team of two cleaners, the ... Read more",
+      "url": "https://google.com/goto?url=CAESlQEBxCJF1_608BaccXR7_jWcEeRyO3FpznbiQpgs3sBSvBSnaKR7OwGX4XEo0aaTX8xtaL1AeaFF2GGXFQosZWAInRYUcWp1DQMGfj9plBnwavii6AXxRw2qUuHWkNotQJOsAK9G5SRFja7d3KecHDbkB51ZwcH74xaa84BvHzhdA6xYyljcsEcHvLRtPVtL1dXgkPOoAA",
+      "breadcrumb": "https://cleanspace.com › Resources › Cleaners"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "TOP 10 Move Out Cleaning Services in Albuquerque, NM",
+      "description": "We have 84 move out cleaning services in Albuquerque, NM! The average posted rate is $22.00/hr as of November 2026",
+      "url": "https://google.com/goto?url=CAESewHEIkXXqicsb2_F_yTamqilGDP7NNiABLwkhVcSXRmcKe5BSxqOUAMdH70hA6XRs1xRu1TnZT-WBPJu93-O3zRg8E6FGQqtwNsSHiZ-dJMbV-_-OTW9_2kQrj7Ai8qzG_FXtEtrELipEwNpLZzJ-ToBrudkLzveQgAaPg",
+      "breadcrumb": "https://www.care.com › ... › NM"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Quality Cleaning at $20/hr depending on amount of work to ...",
+      "description": "reliable and experienced housekeeper here in Albuquerque, New Mexico. Quality Cleaning at $20/hr depending on amount of work to be done. Offering Thorough  ...",
+      "url": "https://google.com/goto?url=CAESxAEBxCJF19elQHA4e5dg5M9OriapZF1kIqdqDkrW94hxonRbk1l1RS4V_EmuuWRbkRibapyNU4EMm7WhcynD3Elx2_AhLIDfoPI6nVAafwHWLCyu5bwJ5LLT_nRoxRo0AoQrlQ5UwlGZoGoxb7piyPGVfZkswVzYXYlzhBYd5QYkUeXPkn_rv04rC30uPwZrj5uqFIwpK__fXI-rSq2VF-pC8MKgk4ZuQhvyeaXtZ4pzvKte6bG2_uQLyXBtYlDhZx78wrX-",
+      "breadcrumb": "https://housekeeper.com › ... › Albuquerque"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Book Now",
+      "description": "Here at 505 Clean Queens, the three primary cleaning services that we offer are the Move Clean, the Deep Clean, and the Maintenance (Recurring) Clean. The Green ... Read more",
+      "url": "https://google.com/goto?url=CAESZAHEIkXXSBSdhLaUBSK4j6HwYs2Ux2qq9Y6xODwPK-mK4B4orf8ckOHRUsCsV2yt09ShFOkZOMA_KZDvNRgT7lyO9XyDqKVLwDvO0WCBN8iCmzzQOfKFdw7UWAa76bx66MlDB0E",
+      "breadcrumb": "https://www.505cleanqueens.com › book-now"
+    }
+  ],
+  "cached_at": "2026-11-08",
+  "maps_raw": {
+    "keyword": "house cleaning albuquerque",
+    "items_types": [
+      "maps_search"
+    ]
+  },
+  "trends_raw": [
+    41,
+    40,
+    41,
+    38,
+    40,
+    37,
+    38,
+    39,
+    41,
+    43,
+    40,
+    39,
+    49,
+    45,
+    44,
+    45,
+    50,
+    48,
+    52,
+    44,
+    55,
+    64,
+    71,
+    76,
+    71,
+    65,
+    68,
+    62,
+    63,
+    67,
+    61,
+    84,
+    100,
+    84,
+    66,
+    66,
+    53,
+    55,
+    49,
+    47,
+    52,
+    53,
+    50,
+    45,
+    43,
+    45,
+    50,
+    40,
+    40,
+    43,
+    38,
+    41,
+    43,
+    37
+  ],
+  "trends_dates": [
+    "2025-11-02",
+    "2025-11-09",
+    "2025-11-16",
+    "2025-11-23",
+    "2025-11-30",
+    "2025-12-07",
+    "2025-12-14",
+    "2025-12-21",
+    "2025-12-28",
+    "2026-01-04",
+    "2026-01-11",
+    "2026-01-18",
+    "2026-01-25",
+    "2026-02-01",
+    "2026-02-08",
+    "2026-02-15",
+    "2026-02-22",
+    "2026-03-01",
+    "2026-03-08",
+    "2026-03-15",
+    "2026-03-22",
+    "2026-03-29",
+    "2026-04-05",
+    "2026-04-12",
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25",
+    "2026-11-01",
+    "2026-11-08"
+  ]
+}

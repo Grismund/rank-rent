@@ -156,7 +156,7 @@ describe('LICENSED_TRADES', () => {
 
 describe('DISCOVERED_NICHES', () => {
   it('has exactly 35 entries', () => {
-    expect(DISCOVERED_NICHES).toHaveLength(35)
+    expect(DISCOVERED_NICHES).toHaveLength(49)
   })
 
   it('each entry has niche (string), nat_vol (number > 0), avg_cpc (number > 0)', () => {
