@@ -16,6 +16,7 @@ rank-rent/
   data/
     candidates.csv                  every niche × area scored
     counties.csv                    109 high-growth US counties (8%+ pop growth since 2020)
+    cities.csv                      59 high-growth US cities (population growth leaders)
     sites.csv                       domain, registrar, renewal, number, status, client
     buyers.csv                      renters per niche and area
     links.csv                       backlink targets and status
@@ -59,7 +60,7 @@ Each SKILL.md should specify:
 
 ## Workflow
 
-> **Current status:** Phase 2 skills built and tested. Volume scanning and validation run across southern cities. County-level scanning added (`scripts/county-scan.mjs`) targeting 109 high-growth US counties. Shortlist generated for Permian Basin (`research/shortlist-2026-11-02.md`). Awaiting Gate 1 decision and/or expanded research.
+> **Current status:** Phase 2 skills built and tested. Volume scanning and validation run across southern cities. County-level scanning added (`scripts/county-scan.mjs`) targeting 109 high-growth US counties. City-level scanning added (`scripts/city-scan.mjs`) targeting 59 high-growth US cities. Shortlist generated for Permian Basin (`research/shortlist-2026-11-02.md`). Awaiting Gate 1 decision and/or expanded research.
 
 ### Pipeline overview
 
@@ -113,8 +114,9 @@ discovered → validated (score ≥8) → torn_down (score ≥11) → viable (ec
 
 ## Data model
 
-- **CSV** files in `data/` are the source of truth for candidates, sites, buyers, and links. Currently `candidates.csv` and `counties.csv` exist; `sites.csv`, `buyers.csv`, and `links.csv` are defined for Phase 3+.
+- **CSV** files in `data/` are the source of truth for candidates, sites, buyers, and links. Currently `candidates.csv`, `counties.csv`, and `cities.csv` exist; `sites.csv`, `buyers.csv`, and `links.csv` are defined for Phase 3+.
 - **`counties.csv`** holds 109 high-growth US counties (8%+ population growth since 2020) used by `scripts/county-scan.mjs` for county-level volume scanning. Columns: `county, state, pop_2026, pop_2020, growth_pct`.
+- **`cities.csv`** holds 59 high-growth US cities used by `scripts/city-scan.mjs` for city-level volume scanning. Columns: `city, state, pop_2026, pop_2020, growth_pct`.
 - **YAML** (`sites/<domain>/site.yaml`) holds per-site config: niche, towns served, phone number, and the page plan.
 - **Markdown** in `research/` holds research output (niche briefs, town fact sheets, teardowns, shortlists).
 - **Reference docs** in `reference/` hold shared scoring rubrics and content standards that skills import.
