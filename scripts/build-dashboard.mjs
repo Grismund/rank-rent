@@ -161,7 +161,7 @@ function candidateRows() {
       const v = c.validation
       detailHtml = `
       <tr class="detail-row" data-slug="${esc(c.slug)}" data-status="${esc(c.status)}" id="detail-${idx}" style="display:none">
-        <td colspan="12" style="padding:16px;background:#f9fafb;border-top:none">
+        <td colspan="13" style="padding:16px;background:#f9fafb;border-top:none">
           <div style="display:flex;gap:24px;flex-wrap:wrap">
             <div>
               <h4 style="margin:0 0 8px">Score Breakdown</h4>
@@ -202,6 +202,7 @@ function candidateRows() {
       <td data-sort="${c.rent_estimate || 0}">${c.rent_estimate ? '$' + parseFloat(c.rent_estimate).toFixed(0) : '—'}</td>
       <td data-sort="${c.avgJobLow || 0}">${c.jobValueRange || '—'}</td>
       <td data-sort="${score}">${score || '—'}</td>
+      <td data-sort="${c.score_organic != null && c.score_organic !== '' ? c.score_organic : ''}">${c.score_organic != null && c.score_organic !== '' ? `<span style="color:${String(c.score_organic) === '2' ? '#22c55e' : String(c.score_organic) === '1' ? '#eab308' : '#ef4444'};font-weight:bold">${c.score_organic}</span>` : '—'}</td>
       <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:${statusColor(c.status)};color:#fff;font-size:11px">${esc(c.status)}</span></td>
       <td>${c.teardownVerdict ? verdictBadge(c.teardownVerdict) : ''}</td>
     </tr>${detailHtml}`
@@ -386,8 +387,9 @@ ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">📋 Sho
             <th data-col="7" data-type="num">Rent Est.</th>
             <th data-col="8" data-type="num">Avg Job</th>
             <th data-col="9" data-type="num">Score</th>
-            <th data-col="10">Status</th>
-            <th data-col="11">Verdict</th>
+            <th data-col="10" data-type="num">Org</th>
+            <th data-col="11">Status</th>
+            <th data-col="12">Verdict</th>
           </tr>
         </thead>
         <tbody>
