@@ -1,0 +1,1935 @@
+{
+  "slug": "epoxy-flooring-orlando",
+  "analyzed_at": "2026-11-09",
+  "competitors": [
+    {
+      "domain": "apexflooringllc.com",
+      "summary": {
+        "backlinks": 1628,
+        "referring_domains": 285,
+        "rank": 239,
+        "dofollow": 0,
+        "referring_domains_nofollow": 164,
+        "broken_backlinks": 1
+      },
+      "top_referring_domains": [
+        {
+          "domain": "viesearch.com",
+          "rank": 166,
+          "backlinks": 272,
+          "first_seen": "2024-05-14 01:12:33 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "chicagoindesignusergroup.com",
+          "rank": 130,
+          "backlinks": 30,
+          "first_seen": "2024-09-30 01:14:26 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "newdevelopmentsolutions.com",
+          "rank": 130,
+          "backlinks": 40,
+          "first_seen": "2024-07-15 13:27:13 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "soundinsidebroadway.com",
+          "rank": 127,
+          "backlinks": 43,
+          "first_seen": "2024-07-19 20:28:29 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "fernkloof.com",
+          "rank": 122,
+          "backlinks": 36,
+          "first_seen": "2024-07-31 18:05:47 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "mydrupal.com",
+          "rank": 117,
+          "backlinks": 28,
+          "first_seen": "2024-08-24 07:43:30 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "brownbook.net",
+          "rank": 107,
+          "backlinks": 4,
+          "first_seen": "2026-06-13 05:32:54 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "jasminedirectory.com",
+          "rank": 106,
+          "backlinks": 24,
+          "first_seen": "2023-08-09 21:28:37 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "settidesign.com",
+          "rank": 105,
+          "backlinks": 36,
+          "first_seen": "2024-08-05 12:25:04 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "janeparkersmith.com",
+          "rank": 104,
+          "backlinks": 26,
+          "first_seen": "2024-07-03 03:25:55 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "nuttytodesign.com",
+          "rank": 100,
+          "backlinks": 25,
+          "first_seen": "2024-07-22 10:36:48 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "ringmybiz.com",
+          "rank": 97,
+          "backlinks": 66,
+          "first_seen": "2026-08-08 18:23:46 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "occacc.biz",
+          "rank": 97,
+          "backlinks": 26,
+          "first_seen": "2024-07-20 05:49:01 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "a-zbusinessfinder.com",
+          "rank": 96,
+          "backlinks": 3,
+          "first_seen": "2026-04-10 10:21:38 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "eaglenestnm.us",
+          "rank": 94,
+          "backlinks": 31,
+          "first_seen": "2024-06-30 06:23:04 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "onbet99-vn.com",
+          "rank": 93,
+          "backlinks": 22,
+          "first_seen": "2024-06-21 20:55:09 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "storeboard.com",
+          "rank": 88,
+          "backlinks": 8,
+          "first_seen": "2026-06-13 05:29:55 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "plankafloor.com",
+          "rank": 79,
+          "backlinks": 2,
+          "first_seen": "2026-10-05 19:51:39 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "dnacustompainting.com",
+          "rank": 79,
+          "backlinks": 2,
+          "first_seen": "2025-07-15 20:37:47 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "b2blistings.org",
+          "rank": 70,
+          "backlinks": 17,
+          "first_seen": "2024-05-15 12:07:32 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "leakdirectory.org",
+          "rank": 51,
+          "backlinks": 2,
+          "first_seen": "2026-10-29 07:22:45 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "findepoxypro.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-08-11 11:49:00 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "united-local.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-07-08 18:58:40 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "reservecasinohotel.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2025-01-14 19:26:00 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "bunity.com",
+          "rank": 51,
+          "backlinks": 2,
+          "first_seen": "2024-09-27 21:02:05 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "ontoplist.com",
+          "rank": 51,
+          "backlinks": 2,
+          "first_seen": "2024-05-30 23:04:57 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "swfloridaepoxy.com",
+          "rank": 34,
+          "backlinks": 3,
+          "first_seen": "2026-11-02 20:22:02 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "townplanner.com",
+          "rank": 32,
+          "backlinks": 5,
+          "first_seen": "2024-08-11 03:41:07 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "seemless.link",
+          "rank": 23,
+          "backlinks": 2,
+          "first_seen": "2026-07-25 20:14:14 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "leadstal.com",
+          "rank": 23,
+          "backlinks": 2,
+          "first_seen": "2026-06-29 12:46:46 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "submissionwebdirectory.com",
+          "rank": 23,
+          "backlinks": 2,
+          "first_seen": "2025-12-25 14:34:08 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "acompio.us",
+          "rank": 22,
+          "backlinks": 3,
+          "first_seen": "2026-03-19 20:29:32 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "intently.co",
+          "rank": 20,
+          "backlinks": 6,
+          "first_seen": "2025-01-05 00:54:25 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "coatedlocal.com",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2026-05-01 01:20:42 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "imagetou.com",
+          "rank": 7,
+          "backlinks": 2,
+          "first_seen": "2025-11-09 01:13:31 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "sylexsoftware.xyz",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-05 16:04:07 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "dapoxetine.cyou",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-05 09:41:29 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "gameeffect.xyz",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-05 06:08:51 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "theinfinityblackcard.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-04 08:41:34 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "luxurygaragebuilders.fyi",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-31 00:22:50 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "websquemolan.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-30 06:12:15 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "buzzshrink.website",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 07:26:59 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "findlocalexperts.com",
+          "rank": 0,
+          "backlinks": 4,
+          "first_seen": "2026-10-26 15:16:43 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "thcradar.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-19 10:19:20 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "dbike-us.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-17 23:33:33 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "lpraudit.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-17 22:28:31 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "bureatag.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-14 17:43:02 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "shanzytechs.site",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-13 20:24:53 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "seonix.agency",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-12 10:25:47 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "rank-seo-now.shop",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-11 21:40:39 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        }
+      ]
+    },
+    {
+      "domain": "garageexperts.com",
+      "summary": {
+        "backlinks": 10385,
+        "referring_domains": 1622,
+        "rank": 287,
+        "dofollow": 0,
+        "referring_domains_nofollow": 498,
+        "broken_backlinks": 455
+      },
+      "top_referring_domains": [
+        {
+          "domain": "juliensjournal.com",
+          "rank": 211,
+          "backlinks": 573,
+          "first_seen": "2026-09-19 03:52:57 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "birdeye.com",
+          "rank": 195,
+          "backlinks": 60,
+          "first_seen": "2025-10-18 05:32:42 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "coatedlocal.com",
+          "rank": 191,
+          "backlinks": 94,
+          "first_seen": "2026-05-01 00:43:32 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "epoxyflooringquotes.com",
+          "rank": 170,
+          "backlinks": 19,
+          "first_seen": "2026-07-31 18:37:16 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "mylocalservices.com",
+          "rank": 155,
+          "backlinks": 163,
+          "first_seen": "2022-07-21 14:28:07 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "findepoxypro.com",
+          "rank": 144,
+          "backlinks": 10,
+          "first_seen": "2026-08-11 11:09:05 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "ibegin.com",
+          "rank": 140,
+          "backlinks": 14,
+          "first_seen": "2024-06-11 03:37:46 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "wefranch.com",
+          "rank": 124,
+          "backlinks": 6,
+          "first_seen": "2024-10-11 19:01:35 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "loserve.com",
+          "rank": 122,
+          "backlinks": 52,
+          "first_seen": "2022-01-27 16:15:47 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "garageexpertsfranchise.com",
+          "rank": 116,
+          "backlinks": 2127,
+          "first_seen": "2024-06-04 14:30:55 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "imagetou.com",
+          "rank": 108,
+          "backlinks": 34,
+          "first_seen": "2025-11-29 09:06:33 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "2findlocal.com",
+          "rank": 108,
+          "backlinks": 102,
+          "first_seen": "2023-01-19 20:07:28 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "plankafloor.com",
+          "rank": 107,
+          "backlinks": 4,
+          "first_seen": "2026-10-05 19:45:59 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "united-local.com",
+          "rank": 102,
+          "backlinks": 5,
+          "first_seen": "2026-07-14 08:28:25 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "contractorsjunction.com",
+          "rank": 89,
+          "backlinks": 23,
+          "first_seen": "2025-03-10 23:53:35 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "bluesombrero.com",
+          "rank": 85,
+          "backlinks": 61,
+          "first_seen": "2025-05-21 17:41:27 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "garagedoorlocator.com",
+          "rank": 79,
+          "backlinks": 6,
+          "first_seen": "2026-09-10 09:07:17 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "mapquest.com",
+          "rank": 79,
+          "backlinks": 25,
+          "first_seen": "2025-12-29 18:56:04 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "pdqs.mobi",
+          "rank": 79,
+          "backlinks": 12,
+          "first_seen": "2025-11-19 09:09:09 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "homepros.com",
+          "rank": 76,
+          "backlinks": 8,
+          "first_seen": "2025-11-08 02:44:21 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "growthzoneapp.com",
+          "rank": 72,
+          "backlinks": 98,
+          "first_seen": "2022-12-21 09:37:58 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "custom-kitchen-cabinets.com",
+          "rank": 70,
+          "backlinks": 4,
+          "first_seen": "2025-09-05 08:53:11 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "n49.com",
+          "rank": 70,
+          "backlinks": 144,
+          "first_seen": "2021-12-03 22:40:59 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "augustarealtors.com",
+          "rank": 69,
+          "backlinks": 3,
+          "first_seen": "2026-10-08 20:50:41 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "intently.co",
+          "rank": 67,
+          "backlinks": 14,
+          "first_seen": "2025-01-02 09:00:34 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "fallatlantahomeshow.com",
+          "rank": 66,
+          "backlinks": 3,
+          "first_seen": "2026-09-18 08:52:54 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "citylifestyle.com",
+          "rank": 66,
+          "backlinks": 6,
+          "first_seen": "2025-03-25 14:54:48 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "chandlerbarrerak2ja.web.app",
+          "rank": 60,
+          "backlinks": 37,
+          "first_seen": "2024-03-07 07:42:48 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "interiola.com",
+          "rank": 57,
+          "backlinks": 7,
+          "first_seen": "2025-04-21 01:24:56 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "storyoftheseason.net",
+          "rank": 52,
+          "backlinks": 44,
+          "first_seen": "2025-10-12 07:53:58 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "nwabuilders.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-11-03 21:24:12 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "leakdirectory.org",
+          "rank": 51,
+          "backlinks": 2,
+          "first_seen": "2026-10-29 07:30:27 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "pinterest.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-09-22 14:45:45 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "frandeals.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-08-28 09:46:07 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "peekwire.com",
+          "rank": 51,
+          "backlinks": 5,
+          "first_seen": "2026-08-14 07:28:47 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "franchisecensus.com",
+          "rank": 51,
+          "backlinks": 4,
+          "first_seen": "2026-07-24 16:23:48 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "concreteworks.io",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-07-14 17:00:28 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "onlytopic.com",
+          "rank": 51,
+          "backlinks": 2,
+          "first_seen": "2026-04-14 00:18:43 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "franchisepanda.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-03-12 20:17:21 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "total.reviews",
+          "rank": 51,
+          "backlinks": 2,
+          "first_seen": "2026-03-09 17:11:28 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "happyfromhome.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-02-20 15:09:15 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "topsdecorativeconcrete.com",
+          "rank": 51,
+          "backlinks": 4,
+          "first_seen": "2025-09-27 06:54:18 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "ghazalixiaochenv2decor.web.app",
+          "rank": 51,
+          "backlinks": 10,
+          "first_seen": "2025-06-13 15:31:25 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "abettergaragedoorinc.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2023-06-30 15:01:09 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "homeblue.com",
+          "rank": 51,
+          "backlinks": 4,
+          "first_seen": "2021-10-23 02:45:47 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "architecturelab.net",
+          "rank": 48,
+          "backlinks": 2,
+          "first_seen": "2024-01-26 07:14:12 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "garagefloorepoxydaikio.blogspot.com",
+          "rank": 48,
+          "backlinks": 52,
+          "first_seen": "2023-10-17 23:19:48 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "thepicturesscanner.blogspot.com",
+          "rank": 46,
+          "backlinks": 31,
+          "first_seen": "2023-11-12 14:22:27 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "homeadvisor.com",
+          "rank": 46,
+          "backlinks": 49,
+          "first_seen": "2023-03-17 17:36:07 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "perfectgaragefloors.com",
+          "rank": 45,
+          "backlinks": 26,
+          "first_seen": "2026-01-21 17:30:52 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        }
+      ]
+    },
+    {
+      "domain": "dreamcretecc.com",
+      "summary": {
+        "backlinks": 3786,
+        "referring_domains": 459,
+        "rank": 227,
+        "dofollow": 0,
+        "referring_domains_nofollow": 165,
+        "broken_backlinks": 6
+      },
+      "top_referring_domains": [
+        {
+          "domain": "seooptimizationdirectory.com",
+          "rank": 193,
+          "backlinks": 2073,
+          "first_seen": "2021-09-27 04:14:04 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "directory9.biz",
+          "rank": 140,
+          "backlinks": 640,
+          "first_seen": "2026-04-12 18:56:46 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "poolstoremarketing.com",
+          "rank": 131,
+          "backlinks": 17,
+          "first_seen": "2021-10-08 19:19:42 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "directory5.org",
+          "rank": 120,
+          "backlinks": 322,
+          "first_seen": "2021-04-14 01:45:02 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "uscounties.com",
+          "rank": 79,
+          "backlinks": 4,
+          "first_seen": "2022-02-08 11:06:50 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "concretelistings.com",
+          "rank": 67,
+          "backlinks": 6,
+          "first_seen": "2026-09-25 05:16:04 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "concretecontractorkansascity.com",
+          "rank": 60,
+          "backlinks": 4,
+          "first_seen": "2024-09-23 03:22:55 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "downtobid.com",
+          "rank": 58,
+          "backlinks": 36,
+          "first_seen": "2025-11-12 15:09:17 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "plankafloor.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-10-05 19:49:31 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "findepoxypro.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-08-11 11:33:53 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "epoxyflooringquotes.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-07-31 20:33:26 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "concreteworks.io",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-07-14 18:00:32 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "surfatlanta.com",
+          "rank": 51,
+          "backlinks": 2,
+          "first_seen": "2026-06-27 17:12:07 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "clientsbee.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2026-01-09 23:51:12 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "earthyconcreteartisans.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2024-05-08 04:49:17 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "callupcontact.com",
+          "rank": 51,
+          "backlinks": 1,
+          "first_seen": "2024-03-25 04:30:08 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "prolink-directory.com",
+          "rank": 45,
+          "backlinks": 51,
+          "first_seen": "2026-04-11 07:08:00 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "marketersmedia.com",
+          "rank": 32,
+          "backlinks": 7,
+          "first_seen": "2023-10-17 10:22:34 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "pinterest.com",
+          "rank": 25,
+          "backlinks": 1,
+          "first_seen": "2025-12-24 13:21:42 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "openshopsusa.com",
+          "rank": 23,
+          "backlinks": 1,
+          "first_seen": "2025-05-06 13:56:51 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "selectsurfacesoln.com",
+          "rank": 22,
+          "backlinks": 4,
+          "first_seen": "2019-03-26 07:15:15 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "imagetou.com",
+          "rank": 16,
+          "backlinks": 3,
+          "first_seen": "2025-11-24 10:51:02 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "unique-listing.com",
+          "rank": 12,
+          "backlinks": 24,
+          "first_seen": "2026-04-22 00:59:20 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "smallcrete.rocks",
+          "rank": 7,
+          "backlinks": 1,
+          "first_seen": "2026-04-12 20:00:36 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "visitorsonyourwebsite.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-08 16:51:21 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "keywordrankchecker.online",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-08 08:44:15 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "traffictracking.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-07 17:22:07 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "contextuallinkbuilding.online",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-07 12:12:59 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "seochecker.website",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-07 12:04:16 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "backlinkdachecker.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-07 08:45:03 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "creativedecoratingideas.org",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-07 08:15:54 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "sitetrafficdata.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-07 06:29:51 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "beacons.ai",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-07 04:03:24 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "sylexsoftware.xyz",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-05 03:27:46 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "dapoxetine.cyou",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-05 02:15:43 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "lordsserial.xyz",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-05 01:54:39 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "gameeffect.xyz",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-04 23:47:28 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "startuptosucceed.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-04 07:32:29 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "top-seo-service-high-rated.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-04 07:01:21 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "fed-sub.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-01 01:52:42 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "webrankingsolutionbacklinks.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-30 11:23:07 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "websquemolan.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 19:58:35 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "worldtopbacklinks.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 13:27:29 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "wowqualitybacklinks.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 09:47:57 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "kitchencabinetandcountertoprenovationnewsletter.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 09:17:20 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "webbacklinkskbuy.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 06:16:27 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "on-demand-seo-backlinks.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 01:41:22 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "eleganthomerevamp.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-28 20:56:50 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "pavingfind.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-28 20:47:46 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "thehouseproudbestpractices.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-28 19:35:54 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        }
+      ]
+    },
+    {
+      "domain": "coatedlocal.com",
+      "summary": {
+        "backlinks": 139,
+        "referring_domains": 118,
+        "rank": 273,
+        "dofollow": 0,
+        "referring_domains_nofollow": 4,
+        "broken_backlinks": 0
+      },
+      "top_referring_domains": [
+        {
+          "domain": "localpro.dev",
+          "rank": 273,
+          "backlinks": 3,
+          "first_seen": "2026-05-01 00:39:30 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "perfectgaragefloors.com",
+          "rank": 10,
+          "backlinks": 12,
+          "first_seen": "2026-07-14 09:14:38 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "seoboostup.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-09 01:28:42 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "seooverhaul.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-08 17:11:28 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "bulkbacklinkanalyzer.website",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-08 14:10:52 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "sitetrafficdata.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-07 09:52:35 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "sylexsoftware.xyz",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-05 18:06:20 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "gameeffect.xyz",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-05 13:20:46 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "dapoxetine.cyou",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-05 09:26:14 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "lordsserial.xyz",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-05 07:41:39 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "urls-shortener.eu",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-11-02 09:23:08 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "websquemolan.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-29 01:59:03 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "precision-concretecoating.com",
+          "rank": 0,
+          "backlinks": 7,
+          "first_seen": "2026-10-24 14:36:03 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "dbike-us.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-22 15:12:58 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "bureatag.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-15 15:04:46 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "thcradar.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-15 13:35:52 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "shanzytechs.site",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-14 15:27:28 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "garageliving.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-14 00:14:25 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "slots-online-machine.online",
+          "rank": 0,
+          "backlinks": 63,
+          "first_seen": "2026-10-12 07:35:34 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "seonix.agency",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-12 03:04:44 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "onlyhealthydeals.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-11 11:09:24 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "rank-seo-now.shop",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-10-11 10:53:32 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "forvi.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-09 22:12:54 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "bestwebs123.site",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-07 03:35:02 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "matrivo.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-05 19:34:54 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "lemvi.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-10-05 07:34:23 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "connectedcannabis.shop",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-27 03:11:27 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "bestonlinecasinogamescanada.online",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-26 20:43:22 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "onvaxs.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-26 06:12:59 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "sahammurah.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-23 18:08:34 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "kernelpanicpodcast.com",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-09-23 12:22:13 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "cvillico.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-21 10:54:14 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "bitproperty.online",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-19 18:50:57 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "dupurgeniefr.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-11 14:13:21 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "mediaboooster.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-02 08:27:53 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "techbumppy.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-09-01 15:52:09 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "cmocheatsheets.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-29 23:24:16 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "fittyfoody.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-29 12:06:49 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "forbesstories.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-29 11:45:17 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "fashionclothingnews.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-28 18:29:15 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "clifflisting.com",
+          "rank": 0,
+          "backlinks": 2,
+          "first_seen": "2026-08-27 09:34:48 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "bestnz-poker-casinoslot.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-24 21:31:49 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "uncledspizza.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-24 17:40:15 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "theforbestimes.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-24 06:43:51 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "archive-hu.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-24 06:24:20 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "thedocmag.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-23 21:33:17 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "quotesblom.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-23 11:40:44 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "ufabettererm4.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-22 05:14:31 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "betulcrime.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-17 03:09:20 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        },
+        {
+          "domain": "betwinnermirror.com",
+          "rank": 0,
+          "backlinks": 1,
+          "first_seen": "2026-08-15 18:15:36 +00:00",
+          "backlink_types": null,
+          "last_seen": "",
+          "is_broken": false
+        }
+      ]
+    }
+  ],
+  "common_sources": [
+    "epoxyflooringquotes.com",
+    "plankafloor.com",
+    "leakdirectory.org",
+    "findepoxypro.com",
+    "united-local.com",
+    "pinterest.com",
+    "concreteworks.io",
+    "perfectgaragefloors.com",
+    "intently.co",
+    "coatedlocal.com",
+    "imagetou.com",
+    "sylexsoftware.xyz",
+    "dapoxetine.cyou",
+    "gameeffect.xyz",
+    "websquemolan.com",
+    "thcradar.com",
+    "dbike-us.com",
+    "bureatag.com",
+    "shanzytechs.site",
+    "seonix.agency",
+    "rank-seo-now.shop",
+    "sitetrafficdata.shop",
+    "lordsserial.xyz"
+  ],
+  "link_building_targets": [
+    "epoxyflooringquotes.com",
+    "plankafloor.com",
+    "leakdirectory.org",
+    "findepoxypro.com",
+    "united-local.com",
+    "pinterest.com",
+    "concreteworks.io",
+    "perfectgaragefloors.com",
+    "intently.co",
+    "coatedlocal.com",
+    "imagetou.com",
+    "sylexsoftware.xyz",
+    "dapoxetine.cyou",
+    "gameeffect.xyz",
+    "websquemolan.com",
+    "thcradar.com",
+    "dbike-us.com",
+    "bureatag.com",
+    "shanzytechs.site",
+    "seonix.agency",
+    "rank-seo-now.shop",
+    "sitetrafficdata.shop",
+    "lordsserial.xyz",
+    "viesearch.com",
+    "chicagoindesignusergroup.com",
+    "newdevelopmentsolutions.com",
+    "soundinsidebroadway.com",
+    "fernkloof.com",
+    "mydrupal.com",
+    "brownbook.net",
+    "jasminedirectory.com",
+    "settidesign.com",
+    "janeparkersmith.com",
+    "nuttytodesign.com",
+    "ringmybiz.com",
+    "occacc.biz",
+    "a-zbusinessfinder.com",
+    "eaglenestnm.us",
+    "onbet99-vn.com",
+    "storeboard.com",
+    "dnacustompainting.com",
+    "b2blistings.org",
+    "reservecasinohotel.com",
+    "bunity.com",
+    "ontoplist.com",
+    "swfloridaepoxy.com",
+    "townplanner.com",
+    "seemless.link",
+    "leadstal.com",
+    "submissionwebdirectory.com"
+  ]
+}

@@ -35,6 +35,18 @@ const server = createServer((req, res) => {
     return
   }
 
+  if (req.method === 'POST' && req.url === '/api/rebuild') {
+    try {
+      execSync('node scripts/build-dashboard.mjs', { cwd: ROOT, stdio: 'pipe' })
+      res.writeHead(200, { 'Content-Type': 'application/json' })
+      res.end(JSON.stringify({ ok: true }))
+    } catch (err) {
+      res.writeHead(500, { 'Content-Type': 'application/json' })
+      res.end(JSON.stringify({ error: err.message }))
+    }
+    return
+  }
+
   if (req.method === 'POST' && req.url === '/api/status') {
     let body = ''
     req.on('data', (chunk) => { body += chunk })

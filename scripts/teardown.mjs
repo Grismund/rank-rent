@@ -4,13 +4,14 @@
 // Pulls backlink data via DataForSEO, audits competitor pages, writes reports
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs'
-import { parseCandidatesCsv, serializeCandidatesCsv, extractCompetitorDomains } from '../lib/candidates.js'
+import { parseCandidatesCsv, serializeCandidatesCsv, extractCompetitorDomains, isNicheCompetitor } from '../lib/candidates.js'
 import { createClient } from '../lib/dataforseo-client.js'
 
 // --- CLI args ---
 const args = process.argv.slice(2)
 const dryRun = args.includes('--dry-run')
 const filterSlugs = args.find(a => a.startsWith('--filter='))?.split('=')[1]?.split(',') || null
+const minScore = Number(args.find(a => a.startsWith('--min-score='))?.split('=')[1] || 11)
 
 // --- DataForSEO client ---
 const envContent = readFileSync(`${process.env.HOME}/.config/rank-rent/.env`, 'utf8')
@@ -79,13 +80,13 @@ async function main() {
   const csv = readFileSync('data/candidates.csv', 'utf8')
   const allCandidates = parseCandidatesCsv(csv)
   let qualifiers = allCandidates.filter(
-    (c) => c.status === 'validated' && Number(c.score_total) >= 11
+    (c) => c.status === 'validated' && Number(c.score_total) >= minScore
   )
   if (filterSlugs) {
     qualifiers = qualifiers.filter((c) => filterSlugs.includes(c.slug))
   }
 
-  console.log(`Found ${qualifiers.length} candidates for teardown (score >= 11)\n`)
+  console.log(`Found ${qualifiers.length} candidates for teardown (score >= ${minScore})\n`)
   if (qualifiers.length === 0) { console.log('Nothing to tear down.'); return }
 
   // Build competitor list per candidate
@@ -101,10 +102,47 @@ async function main() {
     })
   }
 
+  // Fetch organic SERP for candidates with no competitors from validation data
+  const needSerp = teardowns.filter(td => td.competitors.length === 0)
+  if (needSerp.length > 0) {
+    console.log(`${needSerp.length} candidate(s) have no competitors from validation — fetching organic SERP...\n`)
+
+    // Process one at a time to avoid batching issues with Google's encrypted redirects
+    for (const td of needSerp) {
+      const resp = await apiPost('/v3/serp/google/organic/live/advanced', [{
+        keyword: td.candidate.primary_phrase,
+        location_name: `${td.candidate.region.split(' (')[0]},United States`,
+        language_name: 'English',
+        device: 'desktop',
+        os: 'windows',
+        depth: 20,
+      }])
+      const items = resp.tasks?.[0]?.result?.[0]?.items || []
+      for (const item of items) {
+        if (item.type === 'organic') {
+          let domain = (item.domain || '').replace(/^www\./, '')
+          // Skip Google redirect domains — try breadcrumb instead
+          if (domain === 'google.com' && item.breadcrumb) {
+            const bcMatch = item.breadcrumb.match(/^https?:\/\/([^\/\s›]+)/)
+            if (bcMatch) domain = bcMatch[1].replace(/^www\./, '')
+          }
+          if (domain && domain !== 'google.com' && isNicheCompetitor(domain) && !td.competitors.includes(domain)) {
+            td.competitors.push(domain)
+          }
+        }
+      }
+      td.competitors = td.competitors.slice(0, 4)
+      console.log(`  ${td.candidate.slug}: ${td.competitors.length} competitors found`)
+      await sleep(200)
+    }
+    console.log()
+  }
+
   // Cost gate
   const totalCalls = teardowns.reduce((s, t) => s + t.competitors.length * 2, 0)
-  const estCost = totalCalls * 0.02
-  console.log(`Estimated cost: $${estCost.toFixed(2)} (${totalCalls} API calls × $0.02)`)
+  const serpCost = needSerp.length > 0 ? Math.ceil(needSerp.length / 100) * 0.01 : 0
+  const estCost = totalCalls * 0.02 + serpCost
+  console.log(`Estimated cost: $${estCost.toFixed(2)} (${totalCalls} backlink calls × $0.02${serpCost > 0 ? ` + $${serpCost.toFixed(2)} SERP` : ''})`)
   if (estCost > 2) {
     console.error('Cost exceeds $2 — aborting.')
     process.exit(1)
@@ -172,7 +210,8 @@ async function main() {
 
     // --- On-page audit ---
     console.log(`  On-page audits:`)
-    const keyword = td.candidate.primary_phrase.replace(/ (houston|tulsa|tucson|albuquerque|oklahoma city|el paso|midland|odessa|abilene)$/i, '')
+    const areaPattern = new RegExp(`\\s+${td.candidate.area.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'i')
+    const keyword = td.candidate.primary_phrase.replace(areaPattern, '')
     for (const comp of td.competitors) {
       const url = `https://${comp}`
       process.stdout.write(`    ${comp}: `)

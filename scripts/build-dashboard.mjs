@@ -350,7 +350,10 @@ tr:hover { background: #f8fafc; }
 </head>
 <body>
 
-<h1>Rank &amp; Rent — Research Dashboard</h1>
+<div style="display:flex;align-items:center;gap:16px">
+  <h1>Rank &amp; Rent — Research Dashboard</h1>
+  <button id="rebuild-btn" onclick="rebuildDashboard()" style="padding:6px 16px;border-radius:6px;border:1px solid #cbd5e1;background:#fff;cursor:pointer;font-size:13px;font-weight:600;color:#475569;white-space:nowrap;transition:all 0.15s;user-select:none" onmousedown="this.style.transform='scale(0.96)'" onmouseup="this.style.transform=''" onmouseleave="this.style.transform=''">&#x21bb; Rebuild</button>
+</div>
 <p class="subtitle">Phase 2 Pipeline Results &bull; Generated ${new Date().toISOString().slice(0, 10)} &bull; ${funnel.total} candidates evaluated</p>
 
 ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">📋 Shortlist memos: ${shortlists.map((f) => `<a href="${f}" style="color:#3b82f6">${f}</a>`).join(', ')}</p>` : ''}
@@ -518,6 +521,32 @@ document.getElementById('bulk-clear').addEventListener('click', function() {
   document.getElementById('select-all').checked = false;
   updateToolbar();
 });
+
+// Rebuild button
+function rebuildDashboard() {
+  var btn = document.getElementById('rebuild-btn');
+  btn.disabled = true;
+  btn.style.background = '#e2e8f0';
+  btn.style.color = '#94a3b8';
+  btn.style.cursor = 'wait';
+  btn.innerHTML = '&#x23f3; Rebuilding\u2026';
+  if (location.protocol === 'file:') {
+    alert('Rebuild requires the dashboard server.\\nRun: node scripts/serve-dashboard.mjs');
+    resetBtn();
+    return;
+  }
+  fetch('/api/rebuild', { method: 'POST' })
+    .then(function(r) {
+      if (r.status === 404) throw new Error('Server does not have /api/rebuild. Restart serve-dashboard.mjs.');
+      return r.json();
+    })
+    .then(function(data) {
+      if (data.ok) { btn.innerHTML = '&#x2713; Done'; location.reload(); }
+      else { alert('Rebuild failed: ' + (data.error || 'unknown')); resetBtn(); }
+    })
+    .catch(function(err) { alert(err.message); resetBtn(); });
+  function resetBtn() { btn.disabled = false; btn.style.background = '#fff'; btn.style.color = '#475569'; btn.style.cursor = 'pointer'; btn.innerHTML = '&#x21bb; Rebuild'; }
+}
 
 // Sortable table
 (function() {

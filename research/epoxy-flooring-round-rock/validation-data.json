@@ -1,0 +1,114 @@
+{
+  "slug": "epoxy-flooring-round-rock",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "epoxy flooring round rock",
+      "search_volume": 10,
+      "cpc": 9.78
+    },
+    {
+      "keyword": "epoxy flooring round rock tx",
+      "search_volume": 10,
+      "cpc": 0
+    },
+    {
+      "keyword": "epoxy flooring services round rock",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best epoxy flooring round rock",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "round rock epoxy flooring",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable epoxy flooring round rock",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "epoxy flooring in round rock",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    62,
+    66,
+    63,
+    76,
+    69,
+    84,
+    81,
+    83,
+    93,
+    93,
+    91,
+    72,
+    90,
+    86,
+    84,
+    84,
+    76,
+    91,
+    79,
+    86,
+    88,
+    95,
+    96,
+    89,
+    84,
+    97,
+    100,
+    96,
+    89,
+    92,
+    99,
+    100,
+    98,
+    78,
+    90,
+    76,
+    90,
+    77,
+    79,
+    80,
+    83,
+    94,
+    90,
+    71,
+    84,
+    85,
+    72,
+    78,
+    71,
+    73,
+    75,
+    86,
+    57
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "totalScore": 6,
+  "status": "walk_away"
+}
