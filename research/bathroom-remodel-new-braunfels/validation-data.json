@@ -235,5 +235,206 @@
     "rent": 0
   },
   "total": 10,
-  "status": "marginal"
+  "status": "marginal",
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Kitchen & Bath Solutions - Remodeling New Braunfels",
+      "description": "We are a full-blown remodeling company that does everything from floor to ceiling. From plumbing, electrical work, reframing, support beams, sheetrock, ... Read more",
+      "url": "https://google.com/goto?url=CAESWwHEIkXXT9abXtrQ18jTpcODlVI1PfABMXHFZrm-imFE_AaYTM0PjDLcb3sooihhPu-2hh6W1HT1pGP6OKEOClA5Vnu0LeaPUKoLLieLdvpwZia16UOu05C8fV0&gsessionid=RL8G4ioDabtv_cWBYzIQEIoaxqR86S4yeBQPS7CIYhmkf-5eEOf55A",
+      "breadcrumb": "https://www.kbsolutionstx.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "New Braunfels Remodeling",
+      "description": "Whether you dream of a kitchen makeover, a bathroom renovation, or a full commercial remodel, our experienced team has the expertise to exceed your expectations ... Read more",
+      "url": "https://google.com/goto?url=CAESZAHEIkXX_sk0Guvy6X5KH6ooSun2n7Oq_P7A3760rNVm_LeMGXXec1iPUSarlXtqNR1eOVV3hEFdZIu0htG5p9GLvlPzIaIPrzwIicdxPkyhN5WAhCv3IUcrZOWYBVE_jEh1BbQ&gsessionid=RL8G4ioDabtv_cWBYzIQEIoaxqR86S4yeBQPS7CIYhmkf-5eEOf55A",
+      "breadcrumb": "https://www.newbraunfelsremodeling.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Best Bathroom Remodeling near New Braunfels, TX 78130",
+      "description": "Dalton And Sons Remodeling is highly rated for remodeling expertise and offers free job walks and quotes. TJ's Remodeling And Construction is known for licensed ... Read more",
+      "url": "https://google.com/goto?url=CAESmQEBxCJF18vJHu-vP4WwDM7_hvcfbwuJG-eELbVQ7iT2Uop0zshkXmgUU6Su8_XJFb68D4hnf3kyznvbcGZjejeyF2fDbpLTtJz-R_F57C_fSoi53k7L2F23JDR7urKg1HxKlUCLNiJ_J5TkAmZfyDA7VBF0Vb-TY15iEHM_J5YpyFllol_38_lr5M_mpXydBhNRtx7jQrIZSmU&gsessionid=RL8G4ioDabtv_cWBYzIQEIoaxqR86S4yeBQPS7CIYhmkf-5eEOf55A",
+      "breadcrumb": "https://www.yelp.com › ... › Bathroom Remodeling"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Patriot Remodeling | Patriot Construction & Remodeling",
+      "description": "Located in New Braunfels, serving the Central TX Hill Country. 1393 Wald Rd, New Braunfels, TX 78132 info@patriot-remodeling.com · (830) 620-0200. Read more",
+      "url": "https://google.com/goto?url=CAESXAHEIkXXi6SI2I7d6kmF7I8bk8YABK7QN6hY6fpzwEa2RguUTASY4rUtGlotLnCtYTtX3NStJMi6UGQqxPT-eFt05-iaQvIjVrCuIRUzYl8vchQyj9vOndaptM5X&gsessionid=RL8G4ioDabtv_cWBYzIQEIoaxqR86S4yeBQPS7CIYhmkf-5eEOf55A",
+      "breadcrumb": "https://patriot-remodeling.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Bathroom Remodel, E Klein Rd, New Braunfels, TX 78130",
+      "description": "Update Your Bath In as Little as 1 to 2 Days. Speak with our bath experts by calling us at (512) 991-3249 or use our online booking form. Read more",
+      "url": "https://google.com/goto?url=CAEStgEBxCJF10h-2reO_-bBc68Boi8oe2XDqiRLAmbf30Cnee89zF_xJpBvJWZ1r4cZcbOBRJxAB8VNWGLAFEs_QVMaigxKkKB8ufefMLsEAsOuLTrIHejgnQ56X7JLcEI7OolHpvg5vPuv8wno4DnWBli4fLn7E6FqIHn2qQyS24zdsfAQYkvskOPWCHIoG6PyATq2Ij9lS_E26twFPhNQuiPQc5dS0mcLNXCM2lm6oGy41rBFtV7ViA&gsessionid=RL8G4ioDabtv_cWBYzIQEIoaxqR86S4yeBQPS7CIYhmkf-5eEOf55A",
+      "breadcrumb": "https://fivestarbathsolutions.com › hill-country-tx › bathr..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Hathaway Remodeling | New Braunfels & Schertz, TX ...",
+      "description": "Call Today for an Estimate! (210) 764-3518. Kitchen remodeling and bathroom remodeling are our specialties;",
+      "url": "https://google.com/goto?url=CAESYAHEIkXX37cIrkoABFQxc18debSQMpcq_hRAuG6d0lfW6uyAjr2r5i21iPTc3sm2EthZnYKhWSpRBRr5FyoXQFBkuddIcZtTFXdFw247mF7X3zmf_nByPZj-G4YigHIT5Q&gsessionid=RL8G4ioDabtv_cWBYzIQEIoaxqR86S4yeBQPS7CIYhmkf-5eEOf55A",
+      "breadcrumb": "https://www.hathawayremodeling.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "New Braunfels TX Bathroom Remodeling",
+      "description": "Bathroom remodeling in New Braunfels, TX : showers, tubs, conversions & accessibility upgrades. Free consultation & 1–2 day installation. Get a free quote!",
+      "url": "https://google.com/goto?url=CAESdQHEIkXXXhrwC0JUcWZKwpRUNx2CuE9wog5MwqMXabsT2tP6InkPjBorKQmYaJQEpNhrkBfD9CNLK5NWU4bX7kXjjjDZgg2ftUkUXDnS4sYCEEYAam1Z0s0BENsDPUZgSxHUxMGNKyemynhWm0BmHJ8OEDbHKA&gsessionid=RL8G4ioDabtv_cWBYzIQEIoaxqR86S4yeBQPS7CIYhmkf-5eEOf55A",
+      "breadcrumb": "https://newbathtoday.com › Service Areas"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Texas Hill Country Remodeling | General Contractor in New ...",
+      "description": "Located in the heart of New Braunfels, TX, we bring 20 years of expertise. Specializing in full kitchen and bathroom remodeling, our team strives to bring your ...",
+      "url": "https://google.com/goto?url=CAESYQHEIkXXfOzdDJX04YHGmPDgtYYgyzUQ_EyqE5HSBAdHjT6wzD0uJXr8TVHvY6_FTQWhVwV6x7YQiLrwEqLLkyGrzAB68zaFJZ-o-_WNUYQNxpmE8SsBgLDYlIy2hER0m38&gsessionid=RL8G4ioDabtv_cWBYzIQEIoaxqR86S4yeBQPS7CIYhmkf-5eEOf55A",
+      "breadcrumb": "https://txhillcountryremodeling.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 14,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Bathroom remodelers near New Braunfels, TX",
+      "description": "Here is the definitive list of New Braunfels's bathroom remodelers as rated by the New Braunfels, TX community. Want to see who made the cut?",
+      "url": "https://google.com/goto?url=CAESewHEIkXXgnoo0fjWMXARslcqTNOfRptbOWrnQqKL5kmG3s8cHAikJV5oZ4PsA-tYDri6nD-Dp3OwlbOBG225GoQZHWERuIhaOwaEM7oO_JZw8sBysEj4NxDzPELtkwGhP5OsVit4g_00bL-hj0C6mCsN9hM6Dscm49ewQQ&gsessionid=RL8G4ioDabtv_cWBYzIQEIoaxqR86S4yeBQPS7CIYhmkf-5eEOf55A",
+      "breadcrumb": "https://www.thumbtack.com › TX › New Braunfels"
+    },
+    {
+      "type": "organic",
+      "rank_group": 10,
+      "rank_absolute": 16,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Bathroom renovation services in New Braunfels, TX",
+      "description": "Call for a Free Estimate: New Braunfels (830) 609-9311 San Antonio (210) 505-3856 Website: www.bathsolutions-nb.com Tub To Shower Conversions ... Read more",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF12HRXZciZ5cjxVbsK6l3Upi9B_2MnTS2E6eeOLWqYUhXxpvhnXUIMYZEcdhSJtHgzZXVOiRy4JPW8mctIgMMlhusSZax4-bmqwZo6ej0Oku6F6_tkInf2fxPFy6BvcVJwVULUwMdKSz47pSwWlr5XVpf5qL05fMg7FfVOrfPmSK8&gsessionid=y-luviM60LjtMpE3AbFPYESmE7paFrN8tDQg8B7XdR43EAMH9uZkVg",
+      "breadcrumb": "4 days ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 11,
+      "rank_absolute": 17,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Best 15 General Contractors in New Braunfels, TX",
+      "description": "Search 1499 New Braunfels general contractors to find the best general contractor for your project. See the top reviewed local general contractors in New ...",
+      "url": "https://google.com/goto?url=CAESowEBxCJF1x7AnzFQFvY3o-iQNV8VWusigd2Att58s5TKOSto9w8RQRJsgZJYSNSlf6eB-cb2SqZYsiSSxiNXg3dGDrsbfSra0cRfAavHrtQL5RaeYfSXqVP7IojGOHwV7eLui5Nbd81KBjLykTMe_Qmvuvz3n3b7v5dsqAexML6HXq2qYtLMh7yqdmLbth2uehdwD6MjjlF2E6l2nJqvDV-ntF6x&gsessionid=y-luviM60LjtMpE3AbFPYESmE7paFrN8tDQg8B7XdR43EAMH9uZkVg",
+      "breadcrumb": "https://www.houzz.com › ... › General Contractors"
+    },
+    {
+      "type": "organic",
+      "rank_group": 12,
+      "rank_absolute": 18,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Construction Experts | New Braunfels, TX | Graybrook",
+      "description": "Trusted Partner in Home Improvement · Kitchen Renovation · Bathroom Renovation · Custom Cabinetry · Ceiling Enhancements · Accent Walls · Custom Built-ins · Fireplace ... Read more",
+      "url": "https://google.com/goto?url=CAESYwHEIkXXqPM6GQ5u4ccNIFkf6B1Blpw5S6E9aY1a_c6TtKw8JLDsL16LmeI_y63Z1cdjC5-2tzVJouuFw3vqFLMuAmQftu1ziJQyIuaTOea8E1VlLKLClBk8ds_iUubpC67fJQ&gsessionid=y-luviM60LjtMpE3AbFPYESmE7paFrN8tDQg8B7XdR43EAMH9uZkVg",
+      "breadcrumb": "https://www.graybrookconstruction.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 13,
+      "rank_absolute": 19,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Bathroom Remodeling in New Braunfels, TX",
+      "description": "Bathroom remodeling in New Braunfels, TX : curbless showers, tub-to-shower conversions & aging-in-place designs. CAPS-certified team.",
+      "url": "https://google.com/goto?url=CAESdwHEIkXX9c-m2VPMIy6i5FEyBGqsEOS4o4z-IZbiR1iNLyVPLQ13nU2xKSSjVA77d2TykN2irOWcI_oWAG_351PY9H_VfcDqEkeK-DHLV9PNVpq7K2WAfTwh73DJlaLAt-89I7RZx3j2m1yEQIpBYM4tS8zYLAX8&gsessionid=y-luviM60LjtMpE3AbFPYESmE7paFrN8tDQg8B7XdR43EAMH9uZkVg",
+      "breadcrumb": "https://www.eversafeshowers.com › serviceareas › new-..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 14,
+      "rank_absolute": 20,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Norton Remodeling: Remodeling in New Braunfels TX",
+      "description": "Kitchen, bathroom and whole-home remodeling in New Braunfels, Texas. Written scope before work starts. Rated 5.0 on Google.",
+      "url": "https://google.com/goto?url=CAESVQHEIkXX1DEVVXeNTtRELagWiwxA6x8PLC1ags0jAteryXgo9b72QL-T5UYZ2xFdgSvkZhYyK0O6OQZCMXPurG7wY4KIjKJXqicXH2CGiCT_dS6vqvE&gsessionid=y-luviM60LjtMpE3AbFPYESmE7paFrN8tDQg8B7XdR43EAMH9uZkVg",
+      "breadcrumb": "https://nortonremod.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 15,
+      "rank_absolute": 21,
+      "page": 2,
+      "domain": "google.com",
+      "title": "New Braunfels Bathroom Remodel | Bath Remodelers",
+      "description": "Award-Winning Bathroom Remodeling Services. Since 1994, Statewide Remodeling has earned the trust of more than 80,000 homeowners-and we've earned industry ... Read more",
+      "url": "https://google.com/goto?url=CAESjwEBxCJF17hGOzbC5W6Eootstdhju1HS3OzuLqXNw9RZbTfFOcg39LgitmVls9ars-D414Zeudi44ztuCmy3N5cGVHU5kbDiTOH1tQssgM18h8wzQgwA5PjEywMbLu2LMzXZu60KkwgCYSIeWptW7Dn8iNx4kdZGBrxuvNGGKdY98B57khtJOVKIHRMwTpHBfA&gsessionid=y-luviM60LjtMpE3AbFPYESmE7paFrN8tDQg8B7XdR43EAMH9uZkVg",
+      "breadcrumb": "https://www.statewideremodeling.com › new-braunfels"
+    },
+    {
+      "type": "organic",
+      "rank_group": 16,
+      "rank_absolute": 22,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Bathroom Remodeling in New Braunfels, Texas",
+      "description": "Call (210) 683-8917 or request a free consultation online. We will walk your space, discuss your ideas, and give you a clear quote. Read more",
+      "url": "https://google.com/goto?url=CAESdgHEIkXXZYMj-Pvl4lF74ygw0o7WlQ9FWYn7wOEdeQI9t1umDG5WOGdbgFxHvIsG9tFKFm2u_GlrbgIeu_9uUES51dpEObfHs0EBxFL9nK0ptA-ZeCriN9u7AtIg3fzsTVcXa6QkAAnZn1WtiL96po5RHqr1UpE&gsessionid=y-luviM60LjtMpE3AbFPYESmE7paFrN8tDQg8B7XdR43EAMH9uZkVg",
+      "breadcrumb": "https://bathbydesignsa.com › ... › Areas We Served"
+    },
+    {
+      "type": "organic",
+      "rank_group": 17,
+      "rank_absolute": 23,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Kitchen And Bath Remodeling in New Braunfels, TX",
+      "description": "Five Star Bath Solutions of the Hill Country is the top-of-the-line bathroom remodeling company. We've earned this title by using advanced technology, custom ... Read more",
+      "url": "https://google.com/goto?url=CAESkQEBxCJF1zwD3LnVs4qtMPiOmrd_qX3riBC8sTjxaywYeGJ8vwjnkJmRaPb9n92o8qkWWdS9a6_HmvcTPcdlQS_i0W6e-kmx3YpAB6kUw31vNUgpS_FWev4wP_-wZoAOumYQyZGPh90SRVrJKEXmZXxSbme7TPiqObpJKmYXk2zxznRLWvcV4ULuXC0ddsGX6W6E&gsessionid=y-luviM60LjtMpE3AbFPYESmE7paFrN8tDQg8B7XdR43EAMH9uZkVg",
+      "breadcrumb": "https://www.angi.com › companylist › kitchen-and-bath-..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 18,
+      "rank_absolute": 24,
+      "page": 2,
+      "domain": "google.com",
+      "title": "New Braunfels Remodeling & Additions, TX | Stonecastle",
+      "description": "Kitchen & bath remodeling, additions, flooring & painting for New Braunfels, TX homes—from Gruene rentals to new builds. Licensed. Call (830) 360-8906.",
+      "url": "https://google.com/goto?url=CAESggEBxCJF1_qKasYu_o2Yo7zsXsXMcmydvQ2BQlqyagTBYdK5J5dv4VPSteVOt1rMBVrkWwQc8coog5Eybhy6ADMErgBeVdTj1v4cILsf4ZJrii6-k17yXYeEF2bjjNoI1EaYHGYP-pg8X-nTJA9d0kaqoJ4L8GC83MIplzqsoy8qewKL&gsessionid=y-luviM60LjtMpE3AbFPYESmE7paFrN8tDQg8B7XdR43EAMH9uZkVg",
+      "breadcrumb": "https://stonecastlehillcountry.com › Service Areas"
+    }
+  ],
+  "cached_at": "2026-11-09"
 }

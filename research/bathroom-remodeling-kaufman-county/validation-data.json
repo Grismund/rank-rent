@@ -1,0 +1,109 @@
+{
+  "slug": "bathroom-remodeling-kaufman-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "bathroom remodeling kaufman county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "bathroom remodeling services kaufman county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best bathroom remodeling kaufman county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "kaufman county bathroom remodeling",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable bathroom remodeling kaufman county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "bathroom remodeling in kaufman county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    50,
+    50,
+    39,
+    49,
+    42,
+    46,
+    50,
+    53,
+    54,
+    46,
+    53,
+    58,
+    63,
+    56,
+    54,
+    79,
+    64,
+    67,
+    68,
+    70,
+    75,
+    71,
+    72,
+    88,
+    74,
+    100,
+    86,
+    79,
+    66,
+    68,
+    69,
+    80,
+    82,
+    73,
+    75,
+    68,
+    90,
+    72,
+    71,
+    71,
+    69,
+    73,
+    75,
+    64,
+    53,
+    71,
+    43,
+    52,
+    38,
+    48,
+    48,
+    50,
+    56
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

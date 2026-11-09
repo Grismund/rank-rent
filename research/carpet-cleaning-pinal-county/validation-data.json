@@ -1,0 +1,109 @@
+{
+  "slug": "carpet-cleaning-pinal-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "carpet cleaning pinal county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "carpet cleaning services pinal county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best carpet cleaning pinal county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "pinal county carpet cleaning",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable carpet cleaning pinal county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "carpet cleaning in pinal county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    46,
+    47,
+    46,
+    42,
+    40,
+    37,
+    37,
+    43,
+    43,
+    39,
+    39,
+    49,
+    46,
+    44,
+    47,
+    58,
+    47,
+    52,
+    47,
+    60,
+    80,
+    83,
+    86,
+    90,
+    68,
+    66,
+    67,
+    78,
+    76,
+    75,
+    91,
+    100,
+    90,
+    79,
+    80,
+    75,
+    72,
+    73,
+    73,
+    73,
+    67,
+    51,
+    50,
+    45,
+    46,
+    51,
+    42,
+    48,
+    45,
+    43,
+    48,
+    47,
+    38
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

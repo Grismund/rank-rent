@@ -1,0 +1,109 @@
+{
+  "slug": "cabinet-refinishing-st.-johns-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "cabinet refinishing st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "cabinet refinishing services st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best cabinet refinishing st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "st. johns county cabinet refinishing",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable cabinet refinishing st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "cabinet refinishing in st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    22,
+    26,
+    25,
+    23,
+    21,
+    22,
+    22,
+    27,
+    26,
+    26,
+    28,
+    45,
+    32,
+    28,
+    32,
+    42,
+    39,
+    41,
+    33,
+    60,
+    79,
+    99,
+    79,
+    100,
+    58,
+    40,
+    60,
+    81,
+    59,
+    55,
+    56,
+    66,
+    60,
+    65,
+    78,
+    64,
+    63,
+    51,
+    55,
+    55,
+    51,
+    43,
+    44,
+    37,
+    40,
+    35,
+    25,
+    31,
+    29,
+    47,
+    49,
+    54,
+    52
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 0,
+    "rent": 0
+  },
+  "totalScore": 4,
+  "status": "walk_away"
+}

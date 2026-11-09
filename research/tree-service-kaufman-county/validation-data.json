@@ -1,0 +1,109 @@
+{
+  "slug": "tree-service-kaufman-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "tree service kaufman county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "tree service services kaufman county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best tree service kaufman county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "kaufman county tree service",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable tree service kaufman county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "tree service in kaufman county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    42,
+    42,
+    37,
+    39,
+    38,
+    37,
+    32,
+    34,
+    39,
+    36,
+    44,
+    46,
+    45,
+    47,
+    49,
+    55,
+    54,
+    60,
+    60,
+    60,
+    56,
+    61,
+    66,
+    62,
+    65,
+    74,
+    69,
+    64,
+    65,
+    66,
+    87,
+    100,
+    83,
+    62,
+    70,
+    59,
+    68,
+    58,
+    53,
+    60,
+    57,
+    54,
+    56,
+    46,
+    48,
+    52,
+    44,
+    49,
+    45,
+    39,
+    45,
+    43,
+    36
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "driveway-paving-comal-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "driveway paving comal county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "driveway paving services comal county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best driveway paving comal county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "comal county driveway paving",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable driveway paving comal county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "driveway paving in comal county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    43,
+    48,
+    45,
+    48,
+    51,
+    49,
+    48,
+    44,
+    50,
+    51,
+    48,
+    56,
+    58,
+    59,
+    69,
+    98,
+    76,
+    83,
+    82,
+    76,
+    68,
+    80,
+    73,
+    81,
+    82,
+    100,
+    81,
+    74,
+    76,
+    75,
+    81,
+    77,
+    76,
+    65,
+    79,
+    71,
+    85,
+    69,
+    73,
+    73,
+    55,
+    43,
+    48,
+    38,
+    39,
+    59,
+    40,
+    38,
+    49,
+    51,
+    48,
+    44,
+    42
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

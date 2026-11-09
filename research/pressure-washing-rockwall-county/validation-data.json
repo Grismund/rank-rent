@@ -1,0 +1,109 @@
+{
+  "slug": "pressure-washing-rockwall-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "pressure washing rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "pressure washing services rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best pressure washing rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "rockwall county pressure washing",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable pressure washing rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "pressure washing in rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    30,
+    31,
+    27,
+    30,
+    27,
+    27,
+    27,
+    28,
+    34,
+    31,
+    34,
+    43,
+    35,
+    37,
+    40,
+    43,
+    45,
+    54,
+    46,
+    51,
+    58,
+    62,
+    69,
+    59,
+    58,
+    58,
+    63,
+    80,
+    60,
+    54,
+    87,
+    100,
+    76,
+    59,
+    56,
+    49,
+    51,
+    44,
+    42,
+    43,
+    42,
+    41,
+    40,
+    36,
+    39,
+    41,
+    32,
+    35,
+    36,
+    32,
+    36,
+    34,
+    32
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 0,
+    "rent": 0
+  },
+  "totalScore": 4,
+  "status": "walk_away"
+}

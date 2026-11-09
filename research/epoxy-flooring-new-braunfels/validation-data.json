@@ -110,5 +110,217 @@
     "rent": 1
   },
   "totalScore": 9,
-  "status": "validated"
+  "status": "validated",
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Epoxy Flooring in San Marcos & Seguin, TX | Triple C",
+      "description": "Free same-day quotes: 830-488-7770. Family-owned epoxy & concrete coatings for garages, patios & pool decks in New Braunfels, San Marcos & Seguin.",
+      "url": "https://google.com/goto?url=CAESYgHEIkXXVapbvsKgfbbv5Q5ySDuPJlupnPU4TIO6DDg2Fd09nHPZOj29J4fxXt75LCI6ItUFQOlLgu9nGn1anTppsSpv-eeuCuBatQEhBSC5BUFnpwFURH2gWDdTqgxmgfO_&gsessionid=7ZwQ7ddHCsrtwI4avws4z4ab8HNCGR14CdtYrGkpn3CEik603JxyCQ",
+      "breadcrumb": "https://www.triplecepoxyflooring.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Elevated Epoxy | Premium Epoxy Flooring & Concrete Coatings",
+      "description": "Veteran-owned, we specialize in high-quality epoxy flooring, concrete coatings, and garage transformations in New Braunfels, TX, (214) 903-3333",
+      "url": "https://google.com/goto?url=CAESXQHEIkXXlybdiF09uw_QE3fQuVO2IBvxT8bzL0caRQst2I216-nDW2HwgBpeZ3dzPzYmZbY-YdKI8_8FJ3Rpb12_rONoDT_jcjaOzuJndAvjADCIpp7d58mrQQ1QrA&gsessionid=7ZwQ7ddHCsrtwI4avws4z4ab8HNCGR14CdtYrGkpn3CEik603JxyCQ",
+      "breadcrumb": "https://www.elevatedepoxytx.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Top 10 Best Epoxy flooring pros in New Braunfels, TX",
+      "description": "Epoxy flooring adds shine and durability to your basement, studio, or garage floor. Check out these epoxy flooring ideas to create the room of your dreams. Read more",
+      "url": "https://google.com/goto?url=CAEShAEBxCJF1xNGNUmK242OESmUtlQQ9B2hyBgI7mmeOPPlBh-hCTtaiWOolz09-PoNg85FZLyzKZufl5qmWot8vuKPU3HAdv2k-Kh16ksr74xmzgpBW_rWYRCtKLmigAoSYii_Nss1zCbMkKu5o0Gi76SSVq9gYFZf0wPNpEUzfS5LA2L1_OM&gsessionid=7ZwQ7ddHCsrtwI4avws4z4ab8HNCGR14CdtYrGkpn3CEik603JxyCQ",
+      "breadcrumb": "https://www.angi.com › ... › Epoxy Floor"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Epoxy Floors in New Braunfels",
+      "description": "Get durable epoxy floors in New Braunfels with Zion Outdoors. Professional installation for garages and concrete floors. Get your free quote today!",
+      "url": "https://google.com/goto?url=CAEScQHEIkXXIGpLapQ0LtadWpkDlRjl50ROj9Knms9a2jF-5l1qmBhUwZb7_O1HK_eu1VhhXQUrd0i4sUPsnmxTO15MAXlYLG9mG6jdIwdL3IyNvNLIEGKz4vF8WViSFfrtb5SAYP-dnHRJMXWIYfCwnvKu&gsessionid=7ZwQ7ddHCsrtwI4avws4z4ab8HNCGR14CdtYrGkpn3CEik603JxyCQ",
+      "breadcrumb": "https://zionoutdoors.com › new-braunfels-epoxy-floors"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "New Braunfels Concrete Polishing & Epoxy Flooring: Expert ...",
+      "description": "Call New Braunfels Concrete Polishing & Epoxy Flooring today for a free on-site estimate - we serve New Braunfels and 11 surrounding cities with no-obligation ... Read more",
+      "url": "https://google.com/goto?url=CAESewHEIkXXHBAi_8p6QdOQCLQ9CUGXvkkOOT3AY0qI5ppasbgUS9zaKIke7sao-laHmReusDVaW5C5aKkxEBo9lbFULnYXaTq5oZdt6EcdsGGoXpAr_s31FtfRey8wac5JCXgzixQCMl-xyqXs2zO_YE8ylvYrKgWwktkgww&gsessionid=7ZwQ7ddHCsrtwI4avws4z4ab8HNCGR14CdtYrGkpn3CEik603JxyCQ",
+      "breadcrumb": "https://www.newbraunfelsconcretepolishingandepoxyflooring.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "TRIPLE C EPOXY FLOORING - Updated November 2026",
+      "description": "Triple C Epoxy Flooring provides epoxy flooring installation, epoxy floor refinishing, polyaspartic flooring installation, and pool refinishing in the New ...",
+      "url": "https://google.com/goto?url=CAESeQHEIkXX-RIG8ON7egXIqLr6bfIiji8bdXrHkf0AMfKOhaBkuiquOcPocvmCh3Jf3XCDUrWOexvjouIDsyUpUQEA3yxusg1G-3K9lt-VLLY0oVXzasvYISRmJxU6JxMPRcYgf7TU2oDGr0K6nmwZSAQ932Nudg65lY0&gsessionid=7ZwQ7ddHCsrtwI4avws4z4ab8HNCGR14CdtYrGkpn3CEik603JxyCQ",
+      "breadcrumb": "https://m.yelp.com › biz › triple-c-epoxy-flooring-new-..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Flaked Epoxy Flooring, New Braunfels, TX",
+      "description": "At Patriot Concrete Coatings, we install flaked epoxy flooring in San Antonio and New Braunfels, Texas. Hours of Operation Mon 08:00 AM - 05:",
+      "url": "https://google.com/goto?url=CAESnQEBxCJF17m_CM1M7mbgVPwBLzl0h-CHyQ1YmvL07hH_dwz964oMWX3uXjlerJcCgGUh026uDdFwR4kJLTX1BrOAtn4MKGGbGE9S1gWbZx7ESNxPIT6FShHFHE8MRFx5STShd9KEQAeLo5o7jM_n3Nf5woOL13YulpPklxyUGzEyx1MesGkUHCvROvL7WBt-zfcSNEFSclAiEgltcKv2&gsessionid=7ZwQ7ddHCsrtwI4avws4z4ab8HNCGR14CdtYrGkpn3CEik603JxyCQ",
+      "breadcrumb": "https://patriotconcretecoatings.com › flaked-epoxy-floo..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Epoxy Floor Coating - New Braunfels",
+      "description": "Here is the definitive list of New Braunfels's epoxy flooring contractors as rated by the New Braunfels, TX community. Want to see who made the cut?",
+      "url": "https://google.com/goto?url=CAESdgHEIkXXFZOOpztZ3BxOMmp8x2SOCf8QkHndF-fNWH3sm99vYxdslB_0hxexgPUJOtMs85NPybYSDKE-05HyR5dUxufvjhnTRPm2CTVQEDfB2GjGiJN298zK1CbhBjeZScs9Vabg-SyjYgE9hPnKXHit4w0bc9A&gsessionid=7ZwQ7ddHCsrtwI4avws4z4ab8HNCGR14CdtYrGkpn3CEik603JxyCQ",
+      "breadcrumb": "https://www.thumbtack.com › TX › New Braunfels"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 14,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Triple C Epoxy Flooring | New Braunfels TX",
+      "description": "At Triple C Epoxy Flooring, we help homeowners transform garages, patios, and concrete floors with custom flake, metallic, and other concrete coating options. Read more",
+      "url": "https://google.com/goto?url=CAESawHEIkXXLP6otTmJ52NzMJuHFGZL3n7WoNNKOqMfzAXHFyz41eOf69rv85_F5HawYmukpWf5oKIVNM2ebMR5mGY31Dqob526YhOOSIak6BTM_yYOba7lvnZ-ckd_hV9SjcZb0wWWwEH70KdJ&gsessionid=7ZwQ7ddHCsrtwI4avws4z4ab8HNCGR14CdtYrGkpn3CEik603JxyCQ",
+      "breadcrumb": "1.1K+ followers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 10,
+      "rank_absolute": 16,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Epoxy Flooring New Braunfels, TX",
+      "description": "Call (210) 899-0609 or request a free estimate to get an exact price, with no obligation. Will epoxy hold up on a New Braunfels garage ... Read more",
+      "url": "https://google.com/goto?url=CAESfwHEIkXXHepb_8ROx2ApGf7blUlM6iCGe8aLY_PBL4qt1LdLpEyBT1j1YbwaFo_EuSihUdGYRkXy9MMb6afN6KF8MWiYImWXjvJjaQayYhhlddU2ceJYHx36x9-3H5LSlKQ64eJ9D8ujmfk-De_hrFYUtCgspNTWqSaXZjAhv9Q&gsessionid=K_zd-q2eTXcpvmdQBIFG4VdE46f4d5X8u-oAbq-ybmW_jeHERlfQTw",
+      "breadcrumb": "https://sanantonioepoxyfloor.com › Service Areas"
+    },
+    {
+      "type": "organic",
+      "rank_group": 11,
+      "rank_absolute": 17,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Epoxy Flooring in New Braunfels, TX",
+      "description": "We install epoxy garage floors and decorative concrete across New Braunfels, including Gruene and Dove Crossing. Built to last. Done right the first time.",
+      "url": "https://google.com/goto?url=CAESbwHEIkXXSVae-whLR3-OZH_EvjOo1U5e4UrZhqQdGAZp_cgO7oRh1JFnofhn-uawnHIzCHWw-OHanQBV713DJUVuI0Dh65Rm2Qwuir3QXHYbeEJrDLkoK12dzH-hos63CoZj3X4AiLVqXXyK5l60aQ&gsessionid=K_zd-q2eTXcpvmdQBIFG4VdE46f4d5X8u-oAbq-ybmW_jeHERlfQTw",
+      "breadcrumb": "https://www.wesvollmer.com › Locations"
+    },
+    {
+      "type": "organic",
+      "rank_group": 12,
+      "rank_absolute": 18,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Epoxy Flooring in New Braunfels, TX",
+      "description": "Epoxy garage floors and food-plant floor coatings in New Braunfels, TX. Moisture test before every quote, then grinding and repair. Veteran-owned.",
+      "url": "https://google.com/goto?url=CAESeAHEIkXX-1mvZpFqXQE7-9DRlREFOlf1qmIF9V29J-LIQkXBQmk20-zqj4vWWlcHbvaZ909rnnXYsT6rvRgXeH2uSp-hdJ0Xaw-je-9u4vXCpCa8EVY0zAVCXri_Wo3Enk59Dn6mqQtUtoJ7mNQOsU-Kp_8xjgZslA&gsessionid=K_zd-q2eTXcpvmdQBIFG4VdE46f4d5X8u-oAbq-ybmW_jeHERlfQTw",
+      "breadcrumb": "https://www.aesflooring.com › epoxy-flooring-new-bra..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 13,
+      "rank_absolute": 19,
+      "page": 2,
+      "domain": "google.com",
+      "title": "High-Performance Epoxy Floor Coatings in New Braunfels",
+      "description": "Corby Stain & Seal installs residential and commercial epoxy systems engineered to withstand the demands of garages, workshops, retail spaces, and industrial ... Read more",
+      "url": "https://google.com/goto?url=CAESjgEBxCJF14YCcPcZeU9-9qeXvQdg16_v90p5osk0MAbtF3WaSZMCGSLjDVcxONQ7VXTmf8zL0pRY_RaFrIGtQUzf32OBZOhwnMicQHNAD-p7xAMrv4YpXnghj0hRNGRN8fpIOnVVdjWHy9pUoqcAtGd-YicHaKBrb2vZSW9O9tP3U-gwYB-NoWul6LxemFAU&gsessionid=K_zd-q2eTXcpvmdQBIFG4VdE46f4d5X8u-oAbq-ybmW_jeHERlfQTw",
+      "breadcrumb": "https://www.corbystain.com › high-performance-epoxy..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 14,
+      "rank_absolute": 20,
+      "page": 2,
+      "domain": "google.com",
+      "title": "ATX Concrete Coatings – Best Concrete Coating Contractor in ...",
+      "description": "As an epoxy flooring company Central Texas homeowners can contact directly, ATX Concrete Coatings emphasizes preparation, attention to detail, and taking the ... Read more",
+      "url": "https://google.com/goto?url=CAESXQHEIkXXWOdXNX0PYkSHZ2dJTOghEVCCPZ9r0xZ3NkSPNyb7egr1bWqy4G3_l32GjiY-HA_SSt_lzyfgAja1E-FsrVB4-Tr6b5HdZR5tSBnU6U9GD5Mv8hLTBoc8lQ&gsessionid=K_zd-q2eTXcpvmdQBIFG4VdE46f4d5X8u-oAbq-ybmW_jeHERlfQTw",
+      "breadcrumb": "https://atxconcreteflooring.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 15,
+      "rank_absolute": 21,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Best Epoxy Flooring Services in New Braunfels, TX",
+      "description": "For chemical-resistant epoxy flooring in New Braunfels, Simple Epoxy specializes in completely chemical resistant coatings and uses a urethane topcoat for extra ... Read more",
+      "url": "https://google.com/goto?url=CAESiAEBxCJF14NSBhySGBoB7aCLsCgWa5oUXeKmisCPuD5o_O5jNL1y72OT7HcI2DGh0eppID84xCioiq-fvInnJCi4e5nYkqgbDbb934pzFhhLO01T9X8VaX9by3gn3sxzYFlW13T48g6GjdWXdUSSk15TJ3hSdHpLCOQqB--LiKXh1eAuAV2R-3Ha&gsessionid=K_zd-q2eTXcpvmdQBIFG4VdE46f4d5X8u-oAbq-ybmW_jeHERlfQTw",
+      "breadcrumb": "https://www.yelp.com › questions › loc › epoxy-floorin..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 16,
+      "rank_absolute": 22,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Epoxy Flooring New Braunfels, TX",
+      "description": "Epoxy and metallic flooring for New Braunfels homes and businesses. New construction, garages, restaurants and retail. Free estimate.",
+      "url": "https://google.com/goto?url=CAESegHEIkXX4mw1-B8Octt92hMpQMxmyH4PNJtXrwXz4486gQ9KZ_vatzr25_hWRUhGKQiZo8LtUlzrBB-NFIb5nm1RDgpOjwgGxZgNAfBQizvOzEz0S9Im-tTl1LXXxCCNTHEmOs43plgA73ZpwK5YGNg6HiBq-sfKnBGN&gsessionid=K_zd-q2eTXcpvmdQBIFG4VdE46f4d5X8u-oAbq-ybmW_jeHERlfQTw",
+      "breadcrumb": "https://cb1specialtyconcrete.com › Service Areas"
+    },
+    {
+      "type": "organic",
+      "rank_group": 17,
+      "rank_absolute": 23,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Epoxy Flooring New Braunfels alternative",
+      "description": "Get top polyaspartic & epoxy flooring in New Braunfels, TX. Instant online estimates & expert installs. Transform your garage with MyGarageFloors.com!",
+      "url": "https://google.com/goto?url=CAESggEBxCJF1_YygjTK6RbLjJ51QqFVE7C2e5NoFrjH51wxsL9K81CXBz0M9ADklXIKEBINDVFYWnLq9yzUhfOHP_dDZTpihoSK4ram3iXQB6b7TYpBhpPuFCzX4II6vqlv7lyjuorhv4guDm2-oRSw74lEXYhGclEO3sj6lvFVB-MENS7n&gsessionid=K_zd-q2eTXcpvmdQBIFG4VdE46f4d5X8u-oAbq-ybmW_jeHERlfQTw",
+      "breadcrumb": "https://mygaragefloors.com › Service area"
+    },
+    {
+      "type": "organic",
+      "rank_group": 18,
+      "rank_absolute": 24,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Triple C Epoxy Flooring, LLC | BBB Business Profile",
+      "description": "Triple C Epoxy Flooring is a family-owned, woman-owned concrete coatings company serving New Braunfels, San Marcos, Seguin, Canyon Lake and the Texas Hill ... Read more",
+      "url": "https://google.com/goto?url=CAESrQEBxCJF15_6nS65R7SZOrAqyyz0-Qi0k9OCX5ZtBI_BnMiZidfywa6jO9p7zp9L7cv9LRG43WHgY8nzfnipehwLDgijuHoByK1p3amaAui1D9WzXSnYDuhO3cWPn8pZ1yJYXC93OQ4s77QZhBY13sE7KGHpVUKmLJTKkF6L1gtStsaxrMvunAlnWzkK5WSLHxS-9tUFB2hMGxVa4AbmKpPNYLuQQ7xKp3PsGZ3diw&gsessionid=K_zd-q2eTXcpvmdQBIFG4VdE46f4d5X8u-oAbq-ybmW_jeHERlfQTw",
+      "breadcrumb": "https://www.bbb.org › ... › Concrete Contractors"
+    },
+    {
+      "type": "organic",
+      "rank_group": 19,
+      "rank_absolute": 25,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Epoxy Flooring San Antonio TX | Garage Floor Coatings New ...",
+      "description": "Epoxy flooring protects your concrete garage floor from stains, road salt, and anything else life throws at with an easy to clean finish.",
+      "url": "https://google.com/goto?url=CAEScQHEIkXXHMnv2V0mart2kkG8qLAI34eovPAn8AY_oeMiRgSRK2RipYZEB0tG1Ew33AO8yOji53MIhCbpeU9oyVzggIzgZvMz8befc7xGD7rDnTcm1lKWBbLyCVZYuIgeEBRUfHq1lfKU-wGTwWwl6CLI&gsessionid=K_zd-q2eTXcpvmdQBIFG4VdE46f4d5X8u-oAbq-ybmW_jeHERlfQTw",
+      "breadcrumb": "https://www.artisticrocks.com › epoxy-garage-flooring"
+    }
+  ],
+  "cached_at": "2026-11-09"
 }

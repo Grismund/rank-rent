@@ -1,0 +1,109 @@
+{
+  "slug": "dumpster-rental-brunswick-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "dumpster rental brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "dumpster rental services brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best dumpster rental brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "brunswick county dumpster rental",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable dumpster rental brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "dumpster rental in brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    47,
+    50,
+    44,
+    39,
+    39,
+    39,
+    36,
+    41,
+    49,
+    41,
+    43,
+    38,
+    47,
+    52,
+    55,
+    63,
+    63,
+    70,
+    67,
+    67,
+    70,
+    80,
+    76,
+    74,
+    71,
+    92,
+    81,
+    76,
+    82,
+    93,
+    75,
+    95,
+    88,
+    77,
+    89,
+    81,
+    89,
+    81,
+    77,
+    81,
+    82,
+    100,
+    73,
+    63,
+    78,
+    82,
+    64,
+    65,
+    71,
+    60,
+    67,
+    54,
+    49
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

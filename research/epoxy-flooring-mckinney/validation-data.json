@@ -110,5 +110,7 @@
     "rent": 0
   },
   "totalScore": 8,
-  "status": "validated"
+  "status": "validated",
+  "serp_items": [],
+  "cached_at": "2026-11-09"
 }

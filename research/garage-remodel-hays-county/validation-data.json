@@ -1,0 +1,109 @@
+{
+  "slug": "garage-remodel-hays-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "garage remodel hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "garage remodel services hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best garage remodel hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "hays county garage remodel",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable garage remodel hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "garage remodel in hays county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    43,
+    54,
+    30,
+    48,
+    53,
+    43,
+    60,
+    55,
+    70,
+    55,
+    67,
+    61,
+    63,
+    54,
+    45,
+    56,
+    100,
+    72,
+    74,
+    62,
+    72,
+    69,
+    73,
+    74,
+    79,
+    78,
+    63,
+    84,
+    66,
+    68,
+    79,
+    70,
+    80,
+    59,
+    63,
+    59,
+    72,
+    43,
+    53,
+    50,
+    33,
+    30,
+    62,
+    57,
+    56,
+    48,
+    64,
+    41,
+    43,
+    57,
+    59,
+    46,
+    45
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

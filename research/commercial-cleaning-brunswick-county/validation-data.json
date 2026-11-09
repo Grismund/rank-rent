@@ -1,0 +1,109 @@
+{
+  "slug": "commercial-cleaning-brunswick-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "commercial cleaning brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "commercial cleaning services brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best commercial cleaning brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "brunswick county commercial cleaning",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable commercial cleaning brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "commercial cleaning in brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    41,
+    55,
+    42,
+    33,
+    31,
+    31,
+    31,
+    33,
+    36,
+    32,
+    41,
+    40,
+    41,
+    42,
+    43,
+    48,
+    53,
+    47,
+    45,
+    100,
+    57,
+    62,
+    60,
+    59,
+    57,
+    55,
+    55,
+    58,
+    59,
+    52,
+    58,
+    71,
+    66,
+    50,
+    55,
+    46,
+    52,
+    47,
+    44,
+    43,
+    45,
+    45,
+    43,
+    38,
+    40,
+    42,
+    34,
+    42,
+    29,
+    30,
+    37,
+    33,
+    29
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

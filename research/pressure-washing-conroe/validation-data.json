@@ -279,5 +279,217 @@
     "rent": 0
   },
   "total": 9,
-  "status": "marginal"
+  "status": "marginal",
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "PSI POWER EQUIPMENT - Updated November 2026",
+      "description": "1115 Chateau Woods Parkway Dr. Conroe, TX 77385. Directions · (281) 503-1152. Call Now · Payment methods. Does PSI Power Equipment take credit cards? Yes, PSI ... Read more",
+      "url": "https://google.com/goto?url=CAESdwHEIkXXRxtB-5fuQubjMVe79SzZ7vqn0Aj4QGNTw8YU45S7jPPR7KYOiy72GNT6LunMUBNFik0U2rx0H3ppXll3NPbDIC0eZ9-LT_Fet67ztD1vC6ARuhUhRcquRZRwwgZm0GxQF5pnmVNv8Sv125k9iJUfOBso&gsessionid=4TxwL3ZIHxCGrHWA-DjGZsmTJaWxWrD9aCKMk_AAL69s54WSSfmkUA",
+      "breadcrumb": "https://m.yelp.com › biz › psi-pressure-washing-systems..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Commercial Pressure Washing Conroe TX | Prestige",
+      "description": "At Prestige, we provide expert commercial cleaning services tailored to businesses, HOAs, and industrial properties in Montgomery County. Read more",
+      "url": "https://google.com/goto?url=CAEShgEBxCJF12Djumrk5D5VWB-tlx3aJ9lCLHfpaAjuv-upgSqMR02QZPLY_l2PYBb6U_4XGx3ondZaflGszaMg1HYQjr8BrWPvPiUGpql5cFZzvqJs7cOiB6ZwnoZOen7FfOAQNauEo0KyYl2XlsA3IaEFbsqvUXmiye26aT3hPlhGkQNNtp6KBA&gsessionid=4TxwL3ZIHxCGrHWA-DjGZsmTJaWxWrD9aCKMk_AAL69s54WSSfmkUA",
+      "breadcrumb": "https://prestigeexteriorcleaning.com › commercial-pressu..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Who power washes houses in Conroe?",
+      "description": "Looking for someone reliable and affordable to power wash my house. Any good suggestions? Live in Conroe.",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF1843I-IDYf0o24hDU77ETF5Xsc34XJks1G4vl5ygkl-anDpvElOo3pt2EvLq9AWhq2z080ITonyHPw4nCPa6NWivny4Yr6w4qkr0X6TTgAykBsr-NXEBUx-8oBjAfjh2pSKVWMU1BnL1qfrGWSv36XShVLKpEm4jAWiP1g&gsessionid=4TxwL3ZIHxCGrHWA-DjGZsmTJaWxWrD9aCKMk_AAL69s54WSSfmkUA",
+      "breadcrumb": "140+ comments  ·  10 months ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Power Washing in Conroe, TX",
+      "description": "KJ's Pressure Washing & More provides professional residential and commercial pressure washing services. Open now (281) 790-4909(281) (936) 230-2360(936) 5451 ...",
+      "url": "https://google.com/goto?url=CAESmgEBxCJF16BmCFcu_4k8k8-Mp5C-R79aPOe5w3-hjS7C5E26Gpk9thw3BSfEOXKbN8lTmR9KwR_9rMeT3-xNQG-OYCmeoCUyTU4YFke1tcWFZxKH9KK3gRZd5o7Fd-cwrkmH4-sxwrvpTtC9y0Re7hTMsocJnWlcd88wA1g9bTZZYTgi3mDCaRok5hyUqLnKmuqAIBf2vbYJ-dtD&gsessionid=4TxwL3ZIHxCGrHWA-DjGZsmTJaWxWrD9aCKMk_AAL69s54WSSfmkUA",
+      "breadcrumb": "https://local.yahoo.com › ... › Texas › Conroe"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Need a trustworthy pressure washing company.",
+      "description": "Need a trustworthy pressure washing company.",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF17n12OijGCSV-L9Fe89TTfFvAF0UYpvNJjqDM1Ov3uGfyjtcoICFp2wxXrl7BhQDrL8p-dUQOPbWAOQuPfXGInKVmtKKVTLj_VtD5G4katZBfT-eckVtrax37GeMfWxc7UO2zwUwecNBA9RFex0g3N49QgGdxrhnKJrRjQ&gsessionid=4TxwL3ZIHxCGrHWA-DjGZsmTJaWxWrD9aCKMk_AAL69s54WSSfmkUA",
+      "breadcrumb": "60+ comments  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Pressure Washing in Conroe, TX (77301)",
+      "description": "Rolling Suds of Woodlands-Conroe delivers pressure washing in Conroe, Texas (77301). Washing service includes: Houses & Siding, Roofs, Driveways, Decks, ...",
+      "url": "https://google.com/goto?url=CAESkQEBxCJF12lkw6rmOnH7cBUUhEmr_SqoJncmBtD4s80DxKw4pPCbijdGgfCjwGHyl-X8mi7bDrJxRqPF0RUpqRJnPItfxy7isTPOIKwmls0uhBOttJ9qYceI4W_woEs7kYHW6KWuuYgE91hyi25pREB9IEmo31AOB5yLJ7GCTUqyIcJnvCoZUpf95Txg7ZxJRVmg&gsessionid=4TxwL3ZIHxCGrHWA-DjGZsmTJaWxWrD9aCKMk_AAL69s54WSSfmkUA",
+      "breadcrumb": "https://www.rollingsudspowerwashing.com › conroe-tx-..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "5 Star Pressure Washing in Conroe TX",
+      "description": "Smith Brothers Exterior Cleaning is the Top Rated Pressure Washing in Conroe TX. (832) 758-9868. We have over 75+ Reviews (832) 758-9868",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF14e8EpYxKArAB2eVe_0ebTv_f0JsRd84oX5RkywFj_PlPJxeB5vL6W3Se3dZ3oCrIRRVRHSy1-4jZIc6VpYWZuP7Pa28vF3sT7zYISxcYvlCQ7Oh7Nb-JLsZVIxfcUpdQ_mgHeWdnE9Z9L9cvGtqDsvTmfoK4l8djQkYGJDNsbP0&gsessionid=4TxwL3ZIHxCGrHWA-DjGZsmTJaWxWrD9aCKMk_AAL69s54WSSfmkUA",
+      "breadcrumb": "https://smithbrothersexteriorcleaning.com › pressure-wa..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Diamond Pressure Washing - Conroe, Texas",
+      "description": "Diamond Pressure Washing Conroe, TX 77302 Directions (281) 221-2217 Call Now Visit Website http://dpwllp.com. We provide top tier pressure washing services in  ...",
+      "url": "https://google.com/goto?url=CAEScwHEIkXXuEwRH2wGhvpva5CDfQNQxtHL7QOG3gkOvh4_sX6PvImxfpcBMMPdvtVlDlVkcWgF5oB7X60J4esb3tZqoykw_FQt3o2jcj8nbWHfR_4nUfxr9AlXR3AI7rr-rbrpWRcqRFAsrcxkUvw26cy45WU&gsessionid=4TxwL3ZIHxCGrHWA-DjGZsmTJaWxWrD9aCKMk_AAL69s54WSSfmkUA",
+      "breadcrumb": "https://m.yelp.com › biz › diamond-pressure-washing-c..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Clean Industries Pressure Washing | Conroe TX",
+      "description": "Clean Industries Pressure Washing is a professional exterior cleaning service that is fully insured. Home Improvement. Follow. Conroe, Texas ... Read more",
+      "url": "https://google.com/goto?url=CAESigEBxCJF11RPLOXtco-fOPz02uNoE5lIhTjgMQEG1e16PHgS1OR9NUaxQET_6r22wxkTwStjpQUyW1GQhEHGnXY-tSLCBgRpBCI_Yszk0_xljGPTz40d38d-xddkbzx_-PUebX2DSF9V8udO1HLFYxhsPR8NMcgQY3pBfSFLci2CX_ybQym7o-nUJrk&gsessionid=4TxwL3ZIHxCGrHWA-DjGZsmTJaWxWrD9aCKMk_AAL69s54WSSfmkUA",
+      "breadcrumb": "50+ followers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 10,
+      "rank_absolute": 13,
+      "page": 2,
+      "domain": "google.com",
+      "title": "PRO TEC PRESSURE WASHING - Yelp",
+      "description": "Specialties. ‍ ‍At Pro-Tec, our mission is simple — deliver these values: reliability, quality workmanship, and genuine care for every property we touch. Read more",
+      "url": "https://google.com/goto?url=CAEScwHEIkXXeOldOiryTotrsNI4poKTFYscKVcpgmYl9Kcz2RZq4gvHFW6j0uZAeriynPc31TYtgoUVQfnIDh7LOMoKO6DdzvcZVrqbwfPlOIeqMS1czclDyNR3X2YXC6WgrSeK-BNT4reNAxeWj2Y0OYoVcVE&gsessionid=X9XK6wVR1yEzXvI-M1dIBuPjUVs3unhAt3iqCrHarDZKxJTou0gsvQ",
+      "breadcrumb": "https://m.yelp.com › biz › pro-tec-pressure-washing-co..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 11,
+      "rank_absolute": 14,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Pressure Washing Prices In Conroe 2022",
+      "description": "Offer exterior cleaning services ranging from power washing, soft washing, roof cleaning, and deck cleaning to flatwork like concrete cleaning and surface ...",
+      "url": "https://google.com/goto?url=CAESqgEBxCJF1wU-I0Mhquy2-Vzv-AyFs7yV9eOLL6r0DAMHI1RjQ5CxHZ_7wn0CNXugTxcHnH51WV5nDGH72KtvS-sjMmUHpAKg3Fsf3u5BaXUgjeoSmkFTNKCxPaUXRx3VKUiHb_6u0QRvCcB7QaLMO8Rf9TetorvUT-c4P0HfEHRjxyE-nEEo7ZZVoXib47j4PwDsdRiZUredZiYYuA3WRXwQ7AzzFm5eS2BpXg&gsessionid=X9XK6wVR1yEzXvI-M1dIBuPjUVs3unhAt3iqCrHarDZKxJTou0gsvQ",
+      "breadcrumb": "https://www.texas-pressurewashing.com › Pressure wash ..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 12,
+      "rank_absolute": 15,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Conroe Pressure Washing | Exterior Cleaning & Power ...",
+      "description": "Offering professional Conroe pressure washing, soft washing, roof cleaning, gutter cleaning, window washing, and more since 2010.",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF1wH-EfiVSgA3cI0lICoeBaKH3UjEx8W-5vw1seOAoXLDCS7gN83xXEAR-6LBY_ByNWHmv-xtk_4CdLphAZ9Q3irgwzlpDOjWOIJ6TVFFwuIr-vuQ3RIL5EvCVnyK_y2Ase3KhrkNdFTr9wvfFx3xaGkcMewgLyQLPrYitg&gsessionid=X9XK6wVR1yEzXvI-M1dIBuPjUVs3unhAt3iqCrHarDZKxJTou0gsvQ",
+      "breadcrumb": "https://kingwoodpressurewashing.com › locations › conr..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 13,
+      "rank_absolute": 16,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Ark Power Washing, Conroe, TX 77384, US",
+      "description": "Get more information for Ark Power Washing in Conroe, TX. See reviews, map, get the address, and find directions.",
+      "url": "https://google.com/goto?url=CAESegHEIkXXjFRaZpBLmrm1-wwrC3TdHFyzPP8QtNE4jaKKPKTXZNYXt38GnAEJwhMl-_oPTk4lSImXyJm9UDHDo-j3us82x1_OiSc2-ENZSEj-aLbhsTexeP1_tcFwfW7Njdb3HoxSOwiu-JKIFZkHlPVyxuGn7ASBvnd7&gsessionid=X9XK6wVR1yEzXvI-M1dIBuPjUVs3unhAt3iqCrHarDZKxJTou0gsvQ",
+      "breadcrumb": "https://www.mapquest.com › ... › Conroe › 77384"
+    },
+    {
+      "type": "organic",
+      "rank_group": 14,
+      "rank_absolute": 17,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Arcane Pressure Washing - Conroe, TX, 77302",
+      "description": "Get more information for Arcane Pressure Washing in Conroe, TX. See reviews, map, get the address, and find directions.",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF1_LCnLQLsHZwYmqmu3r-67u1woZ5V5-xI2LuZtRkkzbtiGQhEjgN4W-W5_vkIRA1xSzon5U7usPNR1Jav_4tYpnq0tsGYTUYdRcXV2D9JEh8J-R5yahcH44FY5L7C05AIhs2nzf11XFx15PH8IZStw0oWQAWKWMUR9afhg&gsessionid=X9XK6wVR1yEzXvI-M1dIBuPjUVs3unhAt3iqCrHarDZKxJTou0gsvQ",
+      "breadcrumb": "https://www.mapquest.com › ... › Conroe › 77302"
+    },
+    {
+      "type": "organic",
+      "rank_group": 15,
+      "rank_absolute": 18,
+      "page": 2,
+      "domain": "google.com",
+      "title": "MG pressure washing, Conroe, TX 77303, US",
+      "description": "Get more information for MG pressure washing in Conroe, TX. See reviews, map, get the address, and find directions.",
+      "url": "https://google.com/goto?url=CAESfAHEIkXXAm7P5Mf-GioL4jbz2wraaysriZMmqDD6uIC3KhwdZCy8hsYfNMimpVFsqTA9eT9VRmSWS46-_iXptTEHqklVdyGDVmoXtDRsN8jii834RdjX5Zq1mHJR0_2E_KwBs3bWED9BqR4xkF4ZiAIp83eWU4RGTeDzLOE&gsessionid=X9XK6wVR1yEzXvI-M1dIBuPjUVs3unhAt3iqCrHarDZKxJTou0gsvQ",
+      "breadcrumb": "https://www.mapquest.com › ... › Conroe › 77303"
+    },
+    {
+      "type": "organic",
+      "rank_group": 16,
+      "rank_absolute": 19,
+      "page": 2,
+      "domain": "google.com",
+      "title": "First Line Pressure Washing, Conroe, TX 77304, US",
+      "description": "Get more information for First Line Pressure Washing in Conroe, TX. See reviews, map, get the address, and find directions.",
+      "url": "https://google.com/goto?url=CAEShAEBxCJF13jpalwCxvLwcd8wUIHwhlSr3fzhTm6Th5gHg0RELpAsyx0qipDzTpCcGZa01_rkFOiCiU-Ktqad2yVr5bhM58Qgbu9lwi_rSvh9x4tsZfJs8zmaJBCMmyN5FTehe7_64CVVghFN0f3FF8nuDHeg2wN1Mkp5GMD1gJlrItwZbqk&gsessionid=X9XK6wVR1yEzXvI-M1dIBuPjUVs3unhAt3iqCrHarDZKxJTou0gsvQ",
+      "breadcrumb": "https://www.mapquest.com › ... › Conroe › 77304"
+    },
+    {
+      "type": "organic",
+      "rank_group": 17,
+      "rank_absolute": 20,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Pressure Washing Conroe in Conroe, TX",
+      "description": "Open now. MonOpen 24 Hours; TueOpen 24 Hours; WedOpen 24 Hours; ThuOpen 24 Hours; FriOpen 24 Hours; SatOpen 24 Hours; SunOpen 24 Hours. 310 E Davis StConroe ... Read more",
+      "url": "https://google.com/goto?url=CAESgwEBxCJF1xGZvHuIVgDk3O1Zr81UYKoYardbMBAscEyo7v8SW9OXMOatWVJ5WODayoPkf53HWJe_TjqF39OH8g3-vwXYHA8oABHnD6vhofeHe2eiCxi4mcYWj2B57E6jGaOPlM6nJi4dRGrqyyNBh9gx2YHlfyhTSAGu7XWeq90nlN0OdA&gsessionid=X9XK6wVR1yEzXvI-M1dIBuPjUVs3unhAt3iqCrHarDZKxJTou0gsvQ",
+      "breadcrumb": "https://local.yahoo.com › ... › Pressure Washing Conroe"
+    },
+    {
+      "type": "organic",
+      "rank_group": 18,
+      "rank_absolute": 21,
+      "page": 2,
+      "domain": "google.com",
+      "title": "HW Pressure Washing - Conroe, TX, 77302",
+      "description": "Get more information for HW Pressure Washing in Conroe, TX. See reviews, map, get the address, and find directions.",
+      "url": "https://google.com/goto?url=CAESfAHEIkXXmTQbe_EIdenf23PVYeDaxG8maHn82_fMjt111SOG3O5wy8el6IFEyM9Nv1_7Ho3DMiQwOWVLHXO3CTQ2Vc_ySRzS1ldF5kQW2j61Pfc8YhlrFNyZbK8LdrasW3-BD4xtToob6zpd0B89l6dKhHFQdN6KfLzmaLo&gsessionid=X9XK6wVR1yEzXvI-M1dIBuPjUVs3unhAt3iqCrHarDZKxJTou0gsvQ",
+      "breadcrumb": "https://www.mapquest.com › ... › Conroe › 77302"
+    },
+    {
+      "type": "organic",
+      "rank_group": 19,
+      "rank_absolute": 22,
+      "page": 2,
+      "domain": "google.com",
+      "title": "www.YellowStreamPowerWash.com Pressure washing ...",
+      "description": "We're a local, family-owned and operated exterior cleaning company providing professional pressure washing and soft washing throughout Conroe, ... Read more",
+      "url": "https://google.com/goto?url=CAESugEBxCJF1zycaQehqJs1yKgcvkOVZeLoUidssmt0ZiD_h23_qxiJaxPaQENWN8thgB9ooyxIXOPjQt4ExRrKs445q-qK19jzm9lxoj11wEhcyKJEGMpyQtGF-FWsllxO-mjsHLcWfgMXo5Y1T4iMZkxnEmIoE1GjBEQ8eHXnN-lipNh-8F6qR4psdb-CpszciHzz6kk5GEF-19aCWXb3afzyTgv_pVkvyIA8L6DBjGoM3H4NO-_m4SoRvt4&gsessionid=X9XK6wVR1yEzXvI-M1dIBuPjUVs3unhAt3iqCrHarDZKxJTou0gsvQ",
+      "breadcrumb": "1 year ago"
+    }
+  ],
+  "cached_at": "2026-11-09"
 }

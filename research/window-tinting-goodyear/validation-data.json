@@ -262,5 +262,206 @@
     "rent": 0
   },
   "total": 9,
-  "status": "marginal"
+  "status": "marginal",
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Wulf Window Tinting | window tinting service | 1509 South ...",
+      "description": "Professional window tinting services available at www.wulftint.com in Avondale, AZ. Contact us today! blocks nearly 99% of harmful ultraviolet heat radiation,",
+      "url": "https://google.com/goto?url=CAESVgHEIkXXyIYUPst_1AfHkFwZ8_NhD8QF-ier3WZNi9TOiLX8cMPzsppEWHMaJc6CrgUVoE5qWydSdRvweDBMQxfJKo7KWckbU_NSNjcTJbtE1UF5ZOX2&gsessionid=nIuY6YP59AfWHh2MQLWQ0yB3gzhazahu1oTU4aYbyh7lDAg3t5cIEw",
+      "breadcrumb": "https://www.wulftint.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "The 10 Best Window Tinting Services in Goodyear, AZ 2026",
+      "description": "Here is the definitive list of Goodyear's window tinting services as rated by the Goodyear, AZ community. Want to see who made the cut?",
+      "url": "https://google.com/goto?url=CAEScQHEIkXXDCX2iWlVzxEvTbr7l565CH8_lRa1euFRO4jylE9DeAYCn1Ncit57zFbmoH8Qk2_TXvIatVorY2udTDQBrOiF754o43lJq3PPjDno08UKyn0lHwZ9Y_XlCFQeGON58-GHiwIxOdR8w8JQWNNR&gsessionid=nIuY6YP59AfWHh2MQLWQ0yB3gzhazahu1oTU4aYbyh7lDAg3t5cIEw",
+      "breadcrumb": "https://www.thumbtack.com › AZ › Goodyear"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Car window tinting services in Goodyear, AZ",
+      "description": "Car window tinting services in Goodyear, AZ … 📲 480-989-2207 | @certifiedtints__ Fresh tint, clean finish, and protection made for the Arizona ...",
+      "url": "https://google.com/goto?url=CAESiAEBxCJF16QBv7pajE-fkX-tZ84XWE4ff6BmFDXEjFgC1gEEr8mtqsPwb7eihN8ZEcgmbHeuzm4hGA1xXWJRQcopaIPVH_2KdhfdzLf9ESXoXm18TcaHRNC587J9s-xP9EyMc26tCFwAs-XeD7K4Gi_lG0MCzVlJ2aKc0CAL7_9iyR4HTVp137GC&gsessionid=nIuY6YP59AfWHh2MQLWQ0yB3gzhazahu1oTU4aYbyh7lDAg3t5cIEw",
+      "breadcrumb": "1 comment  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Ceramic window tint near Goodyear, AZ?",
+      "description": "Anyone know of a good window tint place to do ceramic tint on my Fairlane?  Near Goodyear area",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF16SzuxDjvJHrb2pXXCsi5NNIGPtyQgTw9JDIWB15FGoZvmAeYUdSprUQ3Twb23dqcFTX_LGd5bfrNkRl_rbhvihnOEXuEko_mTVgJs9oDqF7ymVc7Pt9ALIOS7PkS59-_yLl3E_FlxsDO273XjwkjYrQvGsbmCkeu4V5Lz7kZtJc&gsessionid=nIuY6YP59AfWHh2MQLWQ0yB3gzhazahu1oTU4aYbyh7lDAg3t5cIEw",
+      "breadcrumb": "10+ comments  ·  6 months ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "MAHONEY WINDOW TINTING - Updated October 2026",
+      "description": "Goodyear, Arizona - Car Window Tinting. Window Tinting Goodyear, AZ 85395 Directions (602) 390-0207 Call Now Visit Website http://www.mahoneywindowtinting.com",
+      "url": "https://google.com/goto?url=CAEScwHEIkXXELPC8bXEX7P7u_Ihf-kWp5QR1RnzOct-gTrgH0MLfPqxzG_Zpg7Yu5J7JqCBLC-5sxpeZc4xk5QQ3uN--YKeBihNT2Qez0yuQ_W1-ic57RmRyMbARq5rdmHxjA8tKrq8uyfI0w4tBHN5MZG2Xj0&gsessionid=nIuY6YP59AfWHh2MQLWQ0yB3gzhazahu1oTU4aYbyh7lDAg3t5cIEw",
+      "breadcrumb": "https://m.yelp.com › biz › mahoney-window-tinting-go..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "LOCATION PAGE - GOODYEAR, AZ",
+      "description": "Call us at 480-448-0668 today to schedule the finest professional window tinting in Goodyear, AZ and elevate your driving experience to the next level! Extreme ... Read more",
+      "url": "https://google.com/goto?url=CAESbQHEIkXXeQE6oXmrfUmplnvFGv-r9WbOYLJaUFxVAFKIN0GpUPo3X6zYSVJZIX9p6TtoAIvVe8brKnrhEJRrr8wfrx-xXIrTrRJKkSMmbrhXhZSjTMrKskZsNjO3X8IGXualfyQ6NaChbexUkAQ&gsessionid=nIuY6YP59AfWHh2MQLWQ0yB3gzhazahu1oTU4aYbyh7lDAg3t5cIEw",
+      "breadcrumb": "https://tint360az.com › location-page-goodyear-az"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Windshield Tint in Goodyear, AZ | Auto Window Tinting",
+      "description": "Our on-site window tinting services for fleets of trucks in Goodyear, AZ are designed to meet the specific needs of commercial customers like you. With Tint ... Read more",
+      "url": "https://google.com/goto?url=CAEStwEBxCJF16ML5vfSdQHtMd2C7BiM5OUB_PK52JQbvOxOZxblSPkQY7l-KLt9ZpeSeqabZmqCNfJ783h4kOo3dlo61mREb3FIekP-2kNT9pqVKSbyAnfnztNfn2EpINM9Vnyv_ess9P-EHW6aoM0cYWDy55Gb-ShCRVh53HYOIdV-PHDHXvupBcIROsnl1wL_pwHxd6Kz_Bzinvs6BPEOyBxpBP938K2a9zJSQSwssHA7mWbpz7niEVI&gsessionid=nIuY6YP59AfWHh2MQLWQ0yB3gzhazahu1oTU4aYbyh7lDAg3t5cIEw",
+      "breadcrumb": "https://www.tintworld.com › locations › chandler-072"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "What are some good window tinting services in Avondale ...",
+      "description": "Send me your car tint recommendations pls! Thank you in advance",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF1yhEKe_pNbUEyJgPhQU8yPn4tCIgdO3pTuzoDRNACHdrR3hljDfARzBTkgPDOY1ZOdQwUxhKEzVNYN0x4zeByFbCbnvMpOgsbUeo3tGN7aHgaqof9dN6Aycx57h2403WlRoQm2_quRPCM-Q7GXAfmp4hWgmDaC_QezAR95yGLwMv&gsessionid=nIuY6YP59AfWHh2MQLWQ0yB3gzhazahu1oTU4aYbyh7lDAg3t5cIEw",
+      "breadcrumb": "40+ comments  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 15,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Affordable ceramic tint for cars in Goodyear",
+      "description": "This post from P1 PPF Protection advertises a \"ceramic window tint special\" for car owners. The price is $395, which includes full ceramic ... Read more",
+      "url": "https://google.com/goto?url=CAEShgEBxCJF1z5albIr1GuYL0honX06wAwNNzR7jjGWXJbxpvi0H6iBv74QzTVmUqU5sSibnAPXOc6rVW8uw-7LNOFxpAhR3Xm6npVC8ZmHMUlj-6CB8zQ2wvdUdqGfLvwarwj1mZ3qO4aUd4kpZIoTAfLXDB4OFYGkxzW3yK0Ax6NkfC_VkmQIyg&gsessionid=9Y_hc-eM6fG_zcZFQpUMACdCjs5G-eHX1kJ2wHWZaUpSJq3BJ0wqeQ",
+      "breadcrumb": "2 comments  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 10,
+      "rank_absolute": 16,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Residential Home Window Tinting Goodyear, AZ",
+      "description": "Goodyear Window Film. Metro Tint is a customer-centered model to provide customers with the best rates and products for window film. Our team is client-focused ... Read more",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXUqI8UAd7BDlUk4cD4VobxTka9coGKirsRGv-53NT3DxSuZSeYZExQeLM-g7yq9gqrD567Z3lysErdRDqgII93YmTHBqrCYUeL4BEfcWkIhGmAHN6o1PYDUHHI-4_Wa0ean0u&gsessionid=9Y_hc-eM6fG_zcZFQpUMACdCjs5G-eHX1kJ2wHWZaUpSJq3BJ0wqeQ",
+      "breadcrumb": "https://metrotint.com › goodyear-window-film"
+    },
+    {
+      "type": "organic",
+      "rank_group": 11,
+      "rank_absolute": 17,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Avondale Auto Glass & Window Tint",
+      "description": "Call us today at (623) 337-3352 - all insurance accepted! Avondale Auto Glass. Goodyear Shop: 18503 W Van Buren St Goodyear, AZ 85338. Hours: Monday-Friday ... Read more",
+      "url": "https://google.com/goto?url=CAESawHEIkXXDuROgYwWZVQE5AMXrKnHabx3wOKDN7kFs4W50bFBW1D9eHV9LIOUBgjEfn_aFTuLYtxNYQCneOueFsukw5vfaOo5nNK97LV7leOaMnxQeJxAPkj1eRIbpViBBGgQpqLc7qvNaEQG&gsessionid=9Y_hc-eM6fG_zcZFQpUMACdCjs5G-eHX1kJ2wHWZaUpSJq3BJ0wqeQ",
+      "breadcrumb": "https://avondaleautoglass.com › window-tint"
+    },
+    {
+      "type": "organic",
+      "rank_group": 12,
+      "rank_absolute": 18,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Avondale Auto Glass & Window Tint",
+      "description": "AVONDALE AUTO GLASS & WINDOW TINT, 18503 W Van Buren St, Goodyear, AZ 85338, 73 Photos, (623) 337-3352, Mon - 7:00 am - 6:00 pm, Tue - 7:00 am - 6:00 pm, ...",
+      "url": "https://google.com/goto?url=CAESggEBxCJF1-eGwYo9OjYAslDz0n1Tr8vwSBPVa5GUQQdG8xDN60c2LkncaDYS2Cu6CwXWreKmxkzXBwLDNc2yEiXEfduuGF6jftXHi8pXfdVVFKYIAn0fd04GBQ06opsUv735Sz3ZETm_z4G1AdX4uAt89ujyq099ljwPLIEHfLo6ebsi&gsessionid=9Y_hc-eM6fG_zcZFQpUMACdCjs5G-eHX1kJ2wHWZaUpSJq3BJ0wqeQ",
+      "breadcrumb": "https://www.yelp.com › ... › Car Window Tinting"
+    },
+    {
+      "type": "organic",
+      "rank_group": 13,
+      "rank_absolute": 19,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Windshield Tint in Goodyear, AZ | Auto Window Tinting",
+      "description": "Our on-site window tinting services for fleets of trucks in Goodyear, AZ are designed to meet the specific needs of commercial customers like you. With Tint ... Read more",
+      "url": "https://google.com/goto?url=CAEStwEBxCJF18RhwG8e710JWsouL2FuWwQbJXqNq4weaKbIqgPFQpMARmMPm6NfXfjN8CzlNjfT3bdxt1lXXsdShiVTiQPgaJs_AQ7I2aFz5bCsUkwtkPhAQmcda_6AP5RFK66Hvh4LpXgrDZyrVAcLtaPQ0j2CUf90xjF48eQunWJYl2vaeXu4pjjTdfiaLgTCKl0C_gLZ7fw7yaYnTLZEDJdO67qOwq1JP8lphRg3kf7BG_lqHeLcl1E&gsessionid=9Y_hc-eM6fG_zcZFQpUMACdCjs5G-eHX1kJ2wHWZaUpSJq3BJ0wqeQ",
+      "breadcrumb": "https://www.tintworld.com › locations › chandler-072"
+    },
+    {
+      "type": "organic",
+      "rank_group": 14,
+      "rank_absolute": 20,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Top 10 Best Window tinters in Goodyear, AZ",
+      "description": "Read real reviews and see ratings for Goodyear, AZ window tinters for free! This list will help you pick the right window tinters in Goodyear, AZ.",
+      "url": "https://google.com/goto?url=CAESfwHEIkXXAgTYwvjeOMd8esB4tVUchzf9zDNYbTvdKpYWKsF5hqySAPN3T2Z0bv_DgIkw2qfrTMq7UjRaG7pJnXLzk4VuVcZjy2MCBs2jbPb8E_szoP5VhxzdE_QsjGYEE9mXoytyEe2mCWJWlkuFjmC6qnPfUaNSyx9DseYTz7I&gsessionid=9Y_hc-eM6fG_zcZFQpUMACdCjs5G-eHX1kJ2wHWZaUpSJq3BJ0wqeQ",
+      "breadcrumb": "https://www.angi.com › ... › Window Film"
+    },
+    {
+      "type": "organic",
+      "rank_group": 15,
+      "rank_absolute": 21,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Glass Tinting Plus LLC | Goodyear AZ",
+      "description": "We provide commercial window film services to the whole state of Arizona. Decorative films, security film, anti graffiti film, wall wrap, school security film, ... Read more",
+      "url": "https://google.com/goto?url=CAESZwHEIkXXrmASaCgEhpoi3cgDZ7Z_p6X-dsMXMxBARSIK7_gfsmVY-yPl-UFRv0ZtbXUZg4PBrgyIT3bmK4Ocf-GjnpC6O9_LnMtN1yi9N7KAzLYVf8me1WatTkk29j9t1UVNvIkBlMo&gsessionid=9Y_hc-eM6fG_zcZFQpUMACdCjs5G-eHX1kJ2wHWZaUpSJq3BJ0wqeQ",
+      "breadcrumb": "210+ followers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 16,
+      "rank_absolute": 22,
+      "page": 2,
+      "domain": "google.com",
+      "title": "LAKAYS Window Tinting and Detailing",
+      "description": "We specialize in providing top-quality window tinting. With 26 years of experience and a dedication to customer satisfaction. We standby our quality of work ... Read more",
+      "url": "https://google.com/goto?url=CAESVgHEIkXXSXmgswgB5NBAogKKSQyxLfzMuQKXQHc3SwxO43Eyas38Hd3Y1pru7MRIR8MJcAOZ5B6QOuQo820jQ3CQZ1dPYOVvezerLomVe0JOIKFxB2rJ&gsessionid=9Y_hc-eM6fG_zcZFQpUMACdCjs5G-eHX1kJ2wHWZaUpSJq3BJ0wqeQ",
+      "breadcrumb": "https://tintingwalis.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 17,
+      "rank_absolute": 23,
+      "page": 2,
+      "domain": "google.com",
+      "title": "THE BEST 10 AUTO GLASS SERVICES IN GOODYEAR, AZ",
+      "description": "Top 10 Best Auto Glass Services in Goodyear, Arizona - With Real Reviews - Near You ; Allegiance Auto Glass · (18 reviews) · 1.9 mi ; Phil's Glass · (36 reviews). Read more",
+      "url": "https://google.com/goto?url=CAESfwHEIkXXMdWJvheR_b2CZiLl-idbSeWtiZ7mujPSwn-Spwn-1xHnKwQyGxOGzwyTol6CXIorhGbKvZuV-YB4kATHwVM_szOGbo4qp12puqxwhxwakv7o4_ggkPF4qQ5a_Z-KRoGiLW4gWLYY-pMf-WAGDtte398oWPDWGH-OEYI&gsessionid=9Y_hc-eM6fG_zcZFQpUMACdCjs5G-eHX1kJ2wHWZaUpSJq3BJ0wqeQ",
+      "breadcrumb": "https://www.yelp.com › ... › Auto Glass Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 18,
+      "rank_absolute": 24,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Mobile Rivian Window Tinting in Goodyear, AZ | Sudz & Shade",
+      "description": "We bring mobile Rivian window tint to you across Goodyear, weather permitting, for a distance-based premium. Prefer the shop? Book Glendale by appointment. Read more",
+      "url": "https://google.com/goto?url=CAESigEBxCJF17es-dLecJgDIYSAyDob80utGaDrYM9sIvCCVnG1dC55s7oAPomIYrDI7Jqjw11cciyFLqLrXfcyw8Ks94mmdv8oKzXCoOe574S8nHx6dxFJ16U7aZLrpP_VyG_jMiPq6g46mkkz-YwQOcgqnv598SniSO1Q7XYHpzjsV9GfRe-nLUIlmZs&gsessionid=9Y_hc-eM6fG_zcZFQpUMACdCjs5G-eHX1kJ2wHWZaUpSJq3BJ0wqeQ",
+      "breadcrumb": "https://sudzandshadellc.com › Locations › Goodyear"
+    }
+  ],
+  "cached_at": "2026-11-09"
 }

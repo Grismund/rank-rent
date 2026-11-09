@@ -1,0 +1,109 @@
+{
+  "slug": "paver-sealing-st.-johns-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "paver sealing st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "paver sealing services st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best paver sealing st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "st. johns county paver sealing",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable paver sealing st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "paver sealing in st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    44,
+    38,
+    52,
+    42,
+    56,
+    52,
+    50,
+    50,
+    43,
+    52,
+    57,
+    54,
+    55,
+    53,
+    57,
+    77,
+    65,
+    64,
+    63,
+    59,
+    93,
+    89,
+    84,
+    80,
+    80,
+    61,
+    66,
+    100,
+    67,
+    68,
+    76,
+    77,
+    60,
+    58,
+    87,
+    58,
+    74,
+    53,
+    57,
+    68,
+    49,
+    43,
+    43,
+    37,
+    51,
+    57,
+    42,
+    42,
+    53,
+    49,
+    47,
+    48,
+    41
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

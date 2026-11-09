@@ -22,6 +22,7 @@ import {
   prioritizeLinkTargets,
 } from '../lib/dashboard-data.js'
 import { parseNicheEconomics } from '../lib/niche-economics-parser.js'
+import { buildReportMaps, buildShortlistMap } from '../lib/report-loader.js'
 
 const ROOT = new URL('..', import.meta.url).pathname
 
@@ -64,6 +65,11 @@ for (const slug of readdirSync(researchDir)) {
 const shortlists = readdirSync(researchDir)
   .filter((f) => f.startsWith('shortlist-') && f.endsWith('.md'))
   .map((f) => f)
+
+// Load report HTML (teardowns, viability, shortlists)
+const allSlugs = readdirSync(researchDir).filter((f) => existsSync(join(researchDir, f, 'validation-data.json')) || existsSync(join(researchDir, f, 'teardown.md')) || existsSync(join(researchDir, f, 'viability.md')))
+const { teardownHtmlMap, viabilityHtmlMap } = buildReportMaps(allSlugs, researchDir)
+const shortlistHtmlMap = buildShortlistMap(shortlists, researchDir)
 
 // Load niche economics
 const economicsPath = join(ROOT, 'reference', 'niche-economics.md')
@@ -186,6 +192,10 @@ function candidateRows() {
           </div>
           ${c.teardownVerdict ? `<div style="margin-top:12px"><strong>Teardown Verdict:</strong> ${verdictBadge(c.teardownVerdict)}</div>` : ''}
           ${c.teardownAssessment ? `<div style="margin-top:8px;padding:8px 12px;background:#f0f4f8;border-radius:6px;font-size:13px;line-height:1.5;color:#334155;border-left:3px solid ${c.teardownVerdict === 'BEATABLE' ? '#22c55e' : c.teardownVerdict === 'TOUGH' ? '#eab308' : '#ef4444'}">${esc(c.teardownAssessment)}</div>` : ''}
+          <div style="margin-top:10px">
+            ${teardownHtmlMap[c.slug] ? `<button class="report-btn" onclick="event.stopPropagation();openReport('teardown','${esc(c.slug)}','Teardown: ${esc(c.slug)}')">View Full Teardown</button>` : ''}
+            ${viabilityHtmlMap[c.slug] ? `<button class="report-btn" onclick="event.stopPropagation();openReport('viability','${esc(c.slug)}','Viability: ${esc(c.slug)}')">View Viability Report</button>` : ''}
+          </div>
           ${buildBacklinkSection(c)}
         </td>
       </tr>`
@@ -347,6 +357,26 @@ tr:hover { background: #f8fafc; }
 #bulk-apply:hover { background: #2563eb; }
 #bulk-clear { background: #475569; color: #fff; }
 #bulk-clear:hover { background: #64748b; }
+#report-panel { position:fixed;top:0;right:0;width:50%;height:100vh;background:#fff;box-shadow:-4px 0 20px rgba(0,0,0,0.15);z-index:200;transform:translateX(100%);transition:transform 0.25s ease;display:flex;flex-direction:column; }
+#report-panel.open { transform:translateX(0); }
+#report-panel-header { display:flex;align-items:center;justify-content:space-between;padding:12px 20px;border-bottom:1px solid #e2e8f0;background:#f8fafc;flex-shrink:0; }
+#report-panel-header h3 { font-size:16px;margin:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
+#report-panel-close { background:none;border:none;font-size:22px;cursor:pointer;color:#64748b;padding:4px 8px;border-radius:4px; }
+#report-panel-close:hover { background:#e2e8f0;color:#1e293b; }
+#report-panel-body { flex:1;overflow-y:auto;padding:20px;font-size:14px;line-height:1.6; }
+#report-panel-body h1 { font-size:20px;margin:0 0 12px;border-bottom:none; }
+#report-panel-body h2 { font-size:16px;margin:16px 0 8px;border-bottom:1px solid #e2e8f0; }
+#report-panel-body h3 { font-size:14px;margin:12px 0 6px; }
+#report-panel-body table { font-size:13px;margin:8px 0 16px; }
+#report-panel-body ul, #report-panel-body ol { margin:8px 0;padding-left:20px; }
+#report-panel-body p { margin:8px 0; }
+#report-panel-body hr { margin:16px 0;border:none;border-top:1px solid #e2e8f0; }
+#report-overlay { position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.2);z-index:199;display:none; }
+#report-overlay.open { display:block; }
+.report-btn { display:inline-block;padding:4px 12px;margin:4px 4px 0 0;border-radius:4px;border:1px solid #cbd5e1;background:#fff;cursor:pointer;font-size:12px;font-weight:600;color:#475569;transition:all 0.15s; }
+.report-btn:hover { background:#f1f5f9;border-color:#94a3b8; }
+.shortlist-btn { display:inline-block;padding:2px 10px;border-radius:4px;border:1px solid #3b82f6;background:#eff6ff;cursor:pointer;font-size:13px;color:#3b82f6;font-weight:500;transition:all 0.15s; }
+.shortlist-btn:hover { background:#dbeafe; }
 </style>
 </head>
 <body>
@@ -357,7 +387,7 @@ tr:hover { background: #f8fafc; }
 </div>
 <p class="subtitle">Phase 2 Pipeline Results &bull; Generated ${new Date().toISOString().slice(0, 10)} &bull; ${funnel.total} candidates evaluated</p>
 
-${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">📋 Shortlist memos: ${shortlists.map((f) => `<a href="${f}" style="color:#3b82f6">${f}</a>`).join(', ')}</p>` : ''}
+${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">Shortlist memos: ${shortlists.map((f) => `<button class="shortlist-btn" onclick="openReport('shortlist','${esc(f)}','${esc(f)}')">${esc(f)}</button>`).join(' ')}</p>` : ''}
 
 <div class="tab-bar">
   <button class="tab active" onclick="showTab('funnel')">Pipeline Funnel</button>
@@ -437,7 +467,43 @@ ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">📋 Sho
   <button id="bulk-clear">Clear</button>
 </div>
 
+<div id="report-overlay" onclick="closeReport()"></div>
+<div id="report-panel">
+  <div id="report-panel-header">
+    <h3 id="report-panel-title"></h3>
+    <button id="report-panel-close" onclick="closeReport()">&times;</button>
+  </div>
+  <div id="report-panel-body"></div>
+</div>
+
 <script>
+window.__REPORTS__ = {
+  teardowns: ${JSON.stringify(teardownHtmlMap)},
+  viability: ${JSON.stringify(viabilityHtmlMap)},
+  shortlists: ${JSON.stringify(shortlistHtmlMap)}
+};
+
+function openReport(type, key, title) {
+  var map = type === 'teardown' ? window.__REPORTS__.teardowns
+          : type === 'viability' ? window.__REPORTS__.viability
+          : window.__REPORTS__.shortlists;
+  var html = map[key];
+  if (!html) return;
+  document.getElementById('report-panel-title').textContent = title;
+  document.getElementById('report-panel-body').innerHTML = html;
+  document.getElementById('report-panel').classList.add('open');
+  document.getElementById('report-overlay').classList.add('open');
+}
+
+function closeReport() {
+  document.getElementById('report-panel').classList.remove('open');
+  document.getElementById('report-overlay').classList.remove('open');
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeReport();
+});
+
 // Tab switching
 function showTab(name) {
   document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));

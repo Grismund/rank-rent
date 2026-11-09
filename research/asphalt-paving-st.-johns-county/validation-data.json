@@ -1,0 +1,109 @@
+{
+  "slug": "asphalt-paving-st.-johns-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "asphalt paving st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "asphalt paving services st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best asphalt paving st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "st. johns county asphalt paving",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable asphalt paving st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "asphalt paving in st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    47,
+    52,
+    47,
+    47,
+    52,
+    48,
+    46,
+    43,
+    47,
+    51,
+    53,
+    56,
+    57,
+    63,
+    64,
+    81,
+    70,
+    69,
+    66,
+    67,
+    61,
+    81,
+    74,
+    84,
+    67,
+    97,
+    100,
+    97,
+    67,
+    65,
+    85,
+    80,
+    72,
+    71,
+    80,
+    77,
+    95,
+    73,
+    71,
+    82,
+    70,
+    56,
+    58,
+    54,
+    61,
+    64,
+    50,
+    50,
+    53,
+    59,
+    64,
+    63,
+    56
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

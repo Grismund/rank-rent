@@ -241,8 +241,8 @@ describe('AREA_STATE', () => {
     expect(AREA_STATE['Albuquerque']).toBe('New Mexico')
   })
 
-  it('has 10 city entries', () => {
-    expect(Object.keys(AREA_STATE)).toHaveLength(10)
+  it('has 22 city entries', () => {
+    expect(Object.keys(AREA_STATE)).toHaveLength(22)
   })
 })
 

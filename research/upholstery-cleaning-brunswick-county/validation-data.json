@@ -1,0 +1,109 @@
+{
+  "slug": "upholstery-cleaning-brunswick-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "upholstery cleaning brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "upholstery cleaning services brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best upholstery cleaning brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "brunswick county upholstery cleaning",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable upholstery cleaning brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "upholstery cleaning in brunswick county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    37,
+    33,
+    33,
+    35,
+    31,
+    26,
+    29,
+    33,
+    32,
+    28,
+    28,
+    41,
+    35,
+    36,
+    37,
+    41,
+    38,
+    44,
+    39,
+    49,
+    73,
+    80,
+    82,
+    97,
+    56,
+    48,
+    56,
+    74,
+    74,
+    71,
+    79,
+    89,
+    89,
+    73,
+    81,
+    85,
+    82,
+    100,
+    92,
+    88,
+    63,
+    64,
+    57,
+    43,
+    52,
+    54,
+    44,
+    45,
+    50,
+    53,
+    58,
+    46,
+    35
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 0,
+    "rent": 0
+  },
+  "totalScore": 4,
+  "status": "walk_away"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "land-clearing-st.-johns-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "land clearing st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "land clearing services st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best land clearing st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "st. johns county land clearing",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable land clearing st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "land clearing in st. johns county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    59,
+    60,
+    59,
+    65,
+    58,
+    62,
+    56,
+    61,
+    69,
+    68,
+    69,
+    70,
+    91,
+    83,
+    75,
+    95,
+    95,
+    89,
+    76,
+    81,
+    78,
+    88,
+    90,
+    89,
+    77,
+    85,
+    79,
+    78,
+    78,
+    78,
+    90,
+    100,
+    75,
+    79,
+    78,
+    83,
+    80,
+    71,
+    71,
+    70,
+    66,
+    65,
+    76,
+    65,
+    65,
+    76,
+    63,
+    67,
+    68,
+    71,
+    66,
+    66,
+    63
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

@@ -27,3 +27,8 @@ Average job values and gross margins per niche. Used by `rr-viability` to verify
 | carpet cleaning | $125–$300 | 50–65% | Per room $50–$75; whole house $175–$300; low COGS |
 | house cleaning | $120–$250 | 40–55% | Recurring revenue; avg $150/visit; 2–4 hr jobs |
 | commercial cleaning | $500–$2,000 | 30–45% | Contract-based; recurring monthly; $0.05–$0.20/sq ft |
+| bathroom remodel | $6,000–$15,000 | 25–40% | Avg ~$10K; high ticket, 2–4 week jobs |
+| kitchen remodel | $12,000–$35,000 | 20–35% | Avg ~$20K; longest sales cycle in home services |
+| window tinting | $200–$600 | 50–65% | Residential; commercial $1K–$5K; low material cost |
+| pool builders | $25,000–$65,000 | 15–25% | Very high ticket; long sales cycle; seasonal in some markets |
+| paver sealing | $400–$1,200 | 45–60% | Low material cost; avg ~$700; upsells to repair/install |

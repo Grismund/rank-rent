@@ -1,0 +1,109 @@
+{
+  "slug": "window-tinting-ellis-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "window tinting ellis county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "window tinting services ellis county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best window tinting ellis county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "ellis county window tinting",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable window tinting ellis county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "window tinting in ellis county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    35,
+    37,
+    39,
+    40,
+    38,
+    39,
+    41,
+    39,
+    44,
+    39,
+    38,
+    45,
+    47,
+    45,
+    47,
+    60,
+    52,
+    55,
+    52,
+    67,
+    84,
+    85,
+    91,
+    100,
+    68,
+    57,
+    61,
+    89,
+    82,
+    70,
+    85,
+    87,
+    76,
+    85,
+    90,
+    84,
+    86,
+    81,
+    74,
+    83,
+    79,
+    68,
+    64,
+    52,
+    48,
+    53,
+    39,
+    45,
+    41,
+    38,
+    40,
+    40,
+    35
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

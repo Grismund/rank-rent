@@ -1,0 +1,109 @@
+{
+  "slug": "pool-remodeling-hays-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "pool remodeling hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "pool remodeling services hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best pool remodeling hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "hays county pool remodeling",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable pool remodeling hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "pool remodeling in hays county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    52,
+    49,
+    47,
+    44,
+    55,
+    48,
+    48,
+    45,
+    64,
+    51,
+    54,
+    63,
+    66,
+    69,
+    52,
+    59,
+    52,
+    65,
+    63,
+    57,
+    90,
+    72,
+    76,
+    66,
+    72,
+    84,
+    92,
+    63,
+    87,
+    81,
+    100,
+    94,
+    97,
+    65,
+    87,
+    57,
+    85,
+    69,
+    60,
+    71,
+    69,
+    71,
+    69,
+    44,
+    59,
+    59,
+    44,
+    46,
+    41,
+    50,
+    50,
+    69,
+    53
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

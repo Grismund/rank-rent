@@ -1,0 +1,109 @@
+{
+  "slug": "epoxy-flooring-osceola-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "epoxy flooring osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "epoxy flooring services osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best epoxy flooring osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "osceola county epoxy flooring",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable epoxy flooring osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "epoxy flooring in osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    61,
+    66,
+    62,
+    75,
+    67,
+    82,
+    80,
+    81,
+    92,
+    93,
+    89,
+    71,
+    89,
+    83,
+    83,
+    82,
+    75,
+    89,
+    78,
+    83,
+    87,
+    93,
+    94,
+    87,
+    82,
+    95,
+    100,
+    93,
+    86,
+    90,
+    98,
+    97,
+    97,
+    77,
+    88,
+    74,
+    88,
+    76,
+    77,
+    77,
+    82,
+    93,
+    89,
+    69,
+    83,
+    81,
+    70,
+    77,
+    70,
+    73,
+    74,
+    84,
+    67
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "totalScore": 6,
+  "status": "walk_away"
+}

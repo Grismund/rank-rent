@@ -1,0 +1,109 @@
+{
+  "slug": "junk-removal-rockwall-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "junk removal rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "junk removal services rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best junk removal rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "rockwall county junk removal",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable junk removal rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "junk removal in rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    49,
+    52,
+    49,
+    52,
+    47,
+    46,
+    46,
+    62,
+    59,
+    53,
+    56,
+    62,
+    61,
+    62,
+    73,
+    85,
+    81,
+    73,
+    66,
+    65,
+    70,
+    73,
+    80,
+    72,
+    72,
+    72,
+    67,
+    66,
+    71,
+    68,
+    87,
+    100,
+    86,
+    73,
+    72,
+    70,
+    78,
+    64,
+    63,
+    65,
+    63,
+    64,
+    60,
+    55,
+    58,
+    63,
+    53,
+    52,
+    51,
+    54,
+    59,
+    56,
+    47
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

@@ -110,5 +110,206 @@
     "rent": 2
   },
   "totalScore": 11,
-  "status": "validated"
+  "status": "validated",
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "What is the best epoxy floor company in Fort Myers or ...",
+      "description": "What is everyone’s thoughts on the best epoxy floor company or companies in this area?",
+      "url": "https://google.com/goto?url=CAESngEBxCJF19Y90H61XnOdgvpAl3QSCsbRaqO0JCj6uWCpB8q3-wEf0UYJLPJGrLaNVIrm_p_5IBg2j7AgPacM0t-Wl4k050mjh-o_gN3JS_Pzrn_BYm5raAuuib5JhH4wfZIojyMxcNcogDXO13f-6XpDAxxUmwtiN_CPpT48zt4AhbY6o8nAU4X2aK_l72rWrOrlSTL7IhUurSQ2tzQ6eQ&gsessionid=MdCyualxkNF9nzO9HEWXPDsvGyNdQuyRZCSd31q_lR87Vef2g8U26A",
+      "breadcrumb": "9 comments  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Fort Myers Epoxy Flooring - Locations - Floorguard Products",
+      "description": "Fort Myers's leading supplier of epoxy, flake & polyaspartic coatings for residential & commercial projects. Fast shipping & free delivery. Shop now!",
+      "url": "https://google.com/goto?url=CAESbQHEIkXXHqXSVdBBtLHhezCctA-G-owP9y5RrLoZcZROPhKju06jPhR1vtvQMJk0nOq2ES9izhDyLqo7Hgpcl7ZcjUKaTmORZid3LbXBrYSw81XOvJgpQqomX8lFhtvF9oTMWRIPxYANlUb7vIc&gsessionid=MdCyualxkNF9nzO9HEWXPDsvGyNdQuyRZCSd31q_lR87Vef2g8U26A",
+      "breadcrumb": "https://local.floorguardproducts.com › fort-myers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Companies for whole house epoxy flooring in Fort Myers",
+      "description": "Looking for companies that do epoxy flooring for inside homes. Wanting the entire house done (company measured a total of 1426 sqft). We like the neat ...",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF1yb-YGDDLiF6Oy049TEVKmxzV-AlZlD640VUb_jR7MwRHb0hR3M8m5aWb0zoH5mnFAz25e9toMEr84dasmge42U75Nd7OrqxpNp6q5p_8JDLjIJ5PL1mtYxztooIGqGynuENhVGukvo0uhiU8uKtPPQZuJfmXgCvtd1UvtSuSmLz&gsessionid=MdCyualxkNF9nzO9HEWXPDsvGyNdQuyRZCSd31q_lR87Vef2g8U26A",
+      "breadcrumb": "50+ comments  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "epoxy flooring Fort Myers Archives - Page 2 of 3",
+      "description": "Top Quality Coating offers expert epoxy floor coatings and concrete resurfacing , Florida. Locally Owned and Operated, Fully Licensed & Insured...",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF1_bq_WlHhi7UlGBBFsOeW4AbkkWZAcefAl1zRFMdodyVCuiyu80yldj8SJzZt_QNWUydcTznR9QPfK5KPZkVKd-fAf5jf15II81dHrOHZpTySkiGqQ_aUlv-8QgHQ8ShsrPRjhfIZ0bIdUWlfwJQrckU5X6r3Diig_Ehcg&gsessionid=MdCyualxkNF9nzO9HEWXPDsvGyNdQuyRZCSd31q_lR87Vef2g8U26A",
+      "breadcrumb": "https://topqualitycoating.com › tag › page"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Best Colors and Finishes for Epoxy Flooring in Fort Myers ...",
+      "description": "Fort Myers epoxy flooring performs best in light gray, tan, and coastal blue tones paired with UV-stable polyaspartic topcoats. Read more",
+      "url": "https://google.com/goto?url=CAEScQHEIkXXmJVQLdgqlU8jXupuiILzBrOwKOzHmUwXG3m3th-XZnqT46N4YKFBHxUyL0OUA0vBLF-44si6tAnpOvstKmSlmOMaIEKvXuT-Ew1yWLmZuAIFHP_Dvz4rr2mZAoBvhY86csfMe-KRPRatiWNu&gsessionid=MdCyualxkNF9nzO9HEWXPDsvGyNdQuyRZCSd31q_lR87Vef2g8U26A",
+      "breadcrumb": "https://topgun-garage.com › fort-myers-epoxy-flooring"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Fort Myers garage floor epoxy finishing company ...",
+      "description": "Hello Fort Myers friends... I'm looking for a good garage floor epoxy finishing company. Can you please recommend? Thank you!",
+      "url": "https://google.com/goto?url=CAEShgEBxCJF17KUjF-0UaGiC0ESsPCRBIty7HXmZOTdlNutn-GnMINmBJjP6Hbp3Kiqi--2Cmom30OPqebfuOlpM5GxBoiaNVUZ872k5wURPnFGwExOGgrQWK4aMnDd55q5emg93htxKgOXAQrtmyCx7Id-Z2sP7_d0aiZbk5gpngKaohXIHeObxw&gsessionid=MdCyualxkNF9nzO9HEWXPDsvGyNdQuyRZCSd31q_lR87Vef2g8U26A",
+      "breadcrumb": "20+ comments  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Apex Epoxy Flooring of Fort Myers",
+      "description": "12557 New Brittany Blvd Ste 24E Fort Myers, FL 33907 Directions (239) 893-9424 Call Now Visit Website https://www.swfloridaepoxy.com/fort-myers. Prime Epoxy ...",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF18GPPSjEMOohlJWbdX4VzWgvfMRHq5hvvAxAAp5bU8XXB0oXUbse-ibX9Pafb3XkHotqEx_VbdXMOjARW6Y6iizxKGTUctZiG6mWFjFoOxEr7PmqDIpiLPFRyWLMKiN_3EiPd9qZd2rzb99pKVP9zx62sEerFd8oWy_mCg&gsessionid=MdCyualxkNF9nzO9HEWXPDsvGyNdQuyRZCSd31q_lR87Vef2g8U26A",
+      "breadcrumb": "https://m.yelp.com › biz › apex-epoxy-flooring-of-fort-..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 14,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Best Garage Floor Coating near North Fort Myers, FL 33917",
+      "description": "Best Garage Floor Coating near North Fort Myers, FL 33917 ; Southern Sun Flooring · Flooring. 25.9 mi · Port Charlotte, FL 33948 ; Concrete Coating Professionals. Read more",
+      "url": "https://google.com/goto?url=CAESnQEBxCJF10xlv3WB7ro_IoeGCoWxuvnyWAW86eE93y68AWwwF8i7PjTUC6QMXuTjcF5PeQTjrmJX5wtaizog-J2AvUD7HTwnMvQatLLRcZFUXkow5a8ZOd3bEWvZvStmAqpcpdn0rza_XpDsuNYZbdqaFxVx2bfAoM5dLXrucqH4nI214ee-QSgXgV4IXa6nP4-spyGnNJ8689M16Z9f&gsessionid=MdCyualxkNF9nzO9HEWXPDsvGyNdQuyRZCSd31q_lR87Vef2g8U26A",
+      "breadcrumb": "https://www.yelp.com › ... › Garage Floor Coating"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 16,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Epoxy Flooring Fort Myers | Residential & Garage",
+      "description": "Ryan Resin provides professional epoxy flooring in Fort Myers. Durable, sleek, and chemical-resistant floors built for both residential and commercial ...",
+      "url": "https://google.com/goto?url=CAESbQHEIkXX97OuGjL_glceRqMTfYttCXJ623i-UAb4WN77cgtLPqwBZChsQEyCYqrQ4qh_62eFr0MYO7jaNFQs_gZBzhcyg911t4Ozj7tc3YEOYf8THCzI5PSJ1PdMJZSyIfl5JRdfuQQLFquS_8A&gsessionid=SzGxb7DFlBrMRleRlve9uKW0HVneQ_P0qrbTv03nizaL_hEGz1BcFQ",
+      "breadcrumb": "https://ryanresin.com › epoxy-flooring-fort-myers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 10,
+      "rank_absolute": 17,
+      "page": 2,
+      "domain": "google.com",
+      "title": "epoxy floors Fort Myers Archives - Page 2 of 3",
+      "description": "Let us bring your epoxy floor coating vision to life! We offer a no strings free estimate and are here to answer any questions you may have. Get a quote now! Read more",
+      "url": "https://google.com/goto?url=CAESfgHEIkXXpnPKnpT8rb5Z1ZLv1AFQSo4vqqcTliMLZToib6HZudufCrsZCkoxi7L8Q1GTFOQ4yHU-mbEboiJWd4-euaZzSXx1rVy4YsnROWvtlEgBgrLmhAmJQeJzjkw7zvV5BnxqxovD6pfrPsooO6CJh2qUybWILbf4-mvjOA&gsessionid=SzGxb7DFlBrMRleRlve9uKW0HVneQ_P0qrbTv03nizaL_hEGz1BcFQ",
+      "breadcrumb": "https://topqualitycoating.com › tag › page"
+    },
+    {
+      "type": "organic",
+      "rank_group": 11,
+      "rank_absolute": 18,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Epoxy Garage Floors in Fort Myers, FL  Upgrade your ...",
+      "description": "We provide high-quality garage floor coatings designed to handle everyday traffic while giving your garage a clean, finished appearance.",
+      "url": "https://google.com/goto?url=CAESzQEBxCJF14lcRo23q7YCdG9hBax1shgljGgtP0FnbN0EKhfY4v5ljnWecg9aNvRvFOQCVuM7UWYIKYCwSpGSn76GHXY_BUsY26fRLGbPXo_ZjzV3CF_S9mVmZFMKdp0fqA9seHu99qr9t9CHaHY3p9tdovvefjn_QFGc5ZhDrntqMW0zDHxVdSDYAxs7VPdFtkIiJwSZE7lEyN8dEt4zdR463GsF5Sx8C9dH8Fqewoj7TWv1Nkekh1tTA-dRuq5ihfrsMWS8nNnNTh0MNLXH&gsessionid=SzGxb7DFlBrMRleRlve9uKW0HVneQ_P0qrbTv03nizaL_hEGz1BcFQ",
+      "breadcrumb": "2 reactions  ·  2 months ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 12,
+      "rank_absolute": 19,
+      "page": 2,
+      "domain": "google.com",
+      "title": "5STAREPOXY - Updated November 2026 - 23 Photos",
+      "description": "5STAREPOXY, Fort Myers, FL 33967, 23 Photos, (954) 254-0156, Mon - Open 24 hours, Tue - Open 24 hours, Wed - Open 24 hours, Thu - Open 24 hours, ...",
+      "url": "https://google.com/goto?url=CAESawHEIkXXqY0jBmrcwNaVX0GpIHZLP-fU9PTxeF4mYEPUM2lKFaG-2g8vnch8sNvH_sYKxkY0h9NUeWiBTCU1uRcD_JreiELMaOowUELzDJlp4zRfVeh9kMSOQClsYG2G4vVzaQWkfW5zdGSm&gsessionid=SzGxb7DFlBrMRleRlve9uKW0HVneQ_P0qrbTv03nizaL_hEGz1BcFQ",
+      "breadcrumb": "https://www.yelp.com › ... › Home Services › Flooring"
+    },
+    {
+      "type": "organic",
+      "rank_group": 13,
+      "rank_absolute": 20,
+      "page": 2,
+      "domain": "google.com",
+      "title": "High-Quality Retail Floor Coatings Fort Myers | Get Quote",
+      "description": "Top Gun Garage brings professional epoxy floor coating and concrete coatings to homeowners and businesses across Southwest Florida, with free estimates, 1-day ... Read more",
+      "url": "https://google.com/goto?url=CAESeAHEIkXXPJJBeFraPM_ZK7K4l-TWF90QAeAejqbsu0Bei5VRls-qNRCE4JrPKIULYb0_ugTVt7AWsbLR6lVmDORKEfBcY6KxqRyDD4lEu6yM6vyhOWd_QMup--66FzKBl3hfK3hlE4NYgKTKuhyyq7ZiTq7a6zMaSA&gsessionid=SzGxb7DFlBrMRleRlve9uKW0HVneQ_P0qrbTv03nizaL_hEGz1BcFQ",
+      "breadcrumb": "https://topgun-garage.com › commercial › retail-floor-c..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 14,
+      "rank_absolute": 21,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Epoxy Floor Transformation in Fort Myers: Prep to Final ...",
+      "description": "Another floor, another fresh finish!   From prep to the final reveal, our crew delivered a clean, durable epoxy floor built to last.",
+      "url": "https://google.com/goto?url=CAES1wEBxCJF1xd5wljIdwDTsT_wm0r87ViIUZMfeXPy2g8iEprP0oratJyWt7zaexazaBK9287CncpFg4JGzRf9NljX6XHMD21DuCOc8d2PLs9HImHKSx8Rh63M2YskncIw_Zo4El7372E37xpZmkBBoeRVed-7IhcRbtYmXzW1As55RVwqhOt60zAI02n84rD57YVmX_pBnlVHxzpV6_xQPKudQPNzdeUqVIplDHPDQeuUlrXNrgwmzjKIqaYzj4FuVjqmIvCFZxpXkuIwQa-O-BCmXdOO9Hz2eg&gsessionid=SzGxb7DFlBrMRleRlve9uKW0HVneQ_P0qrbTv03nizaL_hEGz1BcFQ",
+      "breadcrumb": "5 days ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 15,
+      "rank_absolute": 22,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Fort Myers Epoxy Flooring",
+      "description": "View details about Fort Myers Epoxy Flooring in Fort Myers, FL United States on Apple Maps. Address, driving directions, images, nearby attractions and ...",
+      "url": "https://google.com/goto?url=CAESigIBxCJF1zv4AI9sbygzlGMbZv8YI_8UU3kFksmUWVwoysrVPkrTOVtoWKvnuDKBLk3alKrLCRkg2EMgmzLP5k_auCthG9UtXvVR2i5GXtfHPzA4W9eUYmSYLpvRtbdEHF-SeH9RwN6Lr2QEE2bYAg1dxN6KyDNrPG7zfEkCltPQp90aiMDjW3qZJN2oBLHMpxOueX2bdEVRxp4JEZwrOZrEFRM5rHEK5xWx9_5rJ6Qnku9fr7apdqPCtN4YVr7REVZWPgDQysiQ72eAzG8yhHp6r3M4_j3sbLhyh90vLmIQCGWTVaYa8aP_7r9kkxr7HCSb7-YdlzHsXFyJOlhcNuGiuPAcC0idjjZFSw&gsessionid=SzGxb7DFlBrMRleRlve9uKW0HVneQ_P0qrbTv03nizaL_hEGz1BcFQ",
+      "breadcrumb": "https://maps.apple.com › place › name=Fort+Myers+Ep..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 16,
+      "rank_absolute": 23,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Epoxy Flooring Fort Myers | Garage Floor Coatings Naples ...",
+      "description": "At Southern Concrete & Epoxy, we specialize in high-quality epoxy flooring in Fort Myers, Naples, and Cape Coral, delivering durable, long-lasting solutions for ... Read more",
+      "url": "https://google.com/goto?url=CAESUQHEIkXXCPsWB9SPbpPfmh4C2U2vQskQdHwUqRY4-zF4rsr2wT-YVTGYED5LNBz5PkIiO3LjfSbxYj7s2hUErtHqcSxdQT_eBlyGdu0qQDyonA&gsessionid=SzGxb7DFlBrMRleRlve9uKW0HVneQ_P0qrbTv03nizaL_hEGz1BcFQ",
+      "breadcrumb": "https://sceswfl.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 17,
+      "rank_absolute": 24,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Cape Coral and Fort Myers — hurricane-proof epoxy floors ...",
+      "description": "Looking for durable, high-quality epoxy flooring ? We specialize in premium epoxy coatings designed for longevity, aesthetics, and performance.",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF10JN7ZL8XtG-IzYDKipbP3tDhVCGO67NBMOVx5t-xONvmRugak804OCPSlIZeyUXZKlu0PHPlxRtYVzY1uFQ5dZeKyaHqm3B-IOXTeaAvAMsLbqERl-TjcdIFvwlGU79qNsN_LIkFO1rdZEidU2LRgd0FWY5dky2G4paoZCQJcWv&gsessionid=SzGxb7DFlBrMRleRlve9uKW0HVneQ_P0qrbTv03nizaL_hEGz1BcFQ",
+      "breadcrumb": "5 days ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 18,
+      "rank_absolute": 25,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Fort Myers Garage Floor Coating and Epoxy | 1-Day Install",
+      "description": "Garage floor coating and 1-day epoxy installation in Fort Myers, FL. 25-yr warranty, upfront pricing. Free quote: (239) 392-4787.",
+      "url": "https://google.com/goto?url=CAESZwHEIkXXKLbB-aQq2nh0Y2PtLQHyaVWXdiPDBPuXeBEq9buH9nOzONhZDEF95r2D2xoO3nmHoe3wxRX1DUDUwTJ1_XRLNcSFkmITa6v7I_sgv_On5cxlhwn5mkRPM894QEIxe_Lc20g&gsessionid=SzGxb7DFlBrMRleRlve9uKW0HVneQ_P0qrbTv03nizaL_hEGz1BcFQ",
+      "breadcrumb": "https://www.swfloridaepoxy.com › fort-myers"
+    }
+  ],
+  "cached_at": "2026-11-09"
 }

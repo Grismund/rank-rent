@@ -1,0 +1,109 @@
+{
+  "slug": "demolition-hays-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "demolition hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "demolition services hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best demolition hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "hays county demolition",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable demolition hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "demolition in hays county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    58,
+    61,
+    59,
+    63,
+    61,
+    62,
+    62,
+    59,
+    64,
+    62,
+    67,
+    70,
+    92,
+    83,
+    73,
+    78,
+    69,
+    68,
+    75,
+    69,
+    78,
+    90,
+    100,
+    82,
+    71,
+    85,
+    73,
+    70,
+    79,
+    77,
+    100,
+    84,
+    79,
+    75,
+    76,
+    96,
+    80,
+    79,
+    74,
+    80,
+    79,
+    83,
+    77,
+    70,
+    69,
+    61,
+    58,
+    54,
+    55,
+    49,
+    53,
+    47,
+    40
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

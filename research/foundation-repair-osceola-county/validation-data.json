@@ -1,0 +1,109 @@
+{
+  "slug": "foundation-repair-osceola-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "foundation repair osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "foundation repair services osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best foundation repair osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "osceola county foundation repair",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable foundation repair osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "foundation repair in osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    38,
+    44,
+    28,
+    38,
+    30,
+    36,
+    26,
+    35,
+    33,
+    37,
+    34,
+    42,
+    45,
+    56,
+    49,
+    69,
+    100,
+    60,
+    51,
+    63,
+    84,
+    95,
+    95,
+    86,
+    69,
+    79,
+    79,
+    78,
+    62,
+    63,
+    75,
+    70,
+    68,
+    63,
+    60,
+    54,
+    56,
+    58,
+    55,
+    57,
+    52,
+    56,
+    65,
+    54,
+    46,
+    54,
+    43,
+    46,
+    39,
+    47,
+    43,
+    61,
+    49
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}

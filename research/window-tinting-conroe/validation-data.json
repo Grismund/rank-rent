@@ -275,5 +275,217 @@
     "rent": 0
   },
   "total": 8,
-  "status": "marginal"
+  "status": "marginal",
+  "serp_items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Car Window Tint Near Me in Montgomery, TX",
+      "description": "Tinting Services of Conroe, Texas … we specialize in providing top-notch window tinting, audio and video entertainment, and a wide range of auto accessories.",
+      "url": "https://google.com/goto?url=CAESrwEBxCJF19399E25PTXeG2l14IVcNx9VAPo6Y826xWugPgFZxlWBGNBvk2qYdEcEp5tagix8HmZApLeRzrD-aacIe5iR9miQ7Iqd9NeE1fmXeAzaXcM6pjXQIZJ9Z7AtEeBk0PD98xPAKXQ6Rdzo_xuuocBSmnqddW07DPTqJkRfe4DUPrh5a80CO9OeKuC0RvIj_QV5xSvNAuBKwHjTI6xEmjpO9JgwvzWKroqu5PVb&gsessionid=zqyEoStFsycLd2xvofz74GnUMTnVWCZQUkK906nQT0O_famuizrVYA",
+      "breadcrumb": "https://www.tintworld.com › locations › conroe-131 › c..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Who offers the best price on residential window tinting in ...",
+      "description": "Who has the best price on residential window tinting?\nWe have 16 windows in the house. All 16 I believe are 30x60 windows or pretty close to that. 7 are ...",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF1-IjMhDL0s1NwghIJPeLugNYslFUQOwqHQ9Uke7MLwKIZtV0-DV2GY2ZAUIa9_nXQL3eaBN2Hj9E0IGk5WQbl-yqY_lTtKFPtsIQ38yECEGYvaq77hS2sOdorQbVhYw1X19BwtE7Kx72nwFt0mmYqQ2298ic3wJqKiFPkA&gsessionid=zqyEoStFsycLd2xvofz74GnUMTnVWCZQUkK906nQT0O_famuizrVYA",
+      "breadcrumb": "7 comments  ·  5 months ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Where to get automotive window tint done in Conroe?",
+      "description": "Best place to get automotive window tint done in Conroe? 🚘",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF102gIqQIwp14eL-jxRGBWQHJ5Lres0uFLgKT9g5XaTVgjqzakpoc1iq-gTvq8nKyLWPM1WgUinI0McLPkNtoS0qLpTUlgqWpLDkZ_xoSSQ7TQxCBEeGwMiES2irVIFPncWw3ebLo643iB-ptakTPIH5m1nhdUaRBT8C6Gg&gsessionid=zqyEoStFsycLd2xvofz74GnUMTnVWCZQUkK906nQT0O_famuizrVYA",
+      "breadcrumb": "60+ comments  ·  2 years ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "google.com",
+      "title": "The 10 Best Window Tinting Services in Conroe, TX 2026",
+      "description": "Here is the definitive list of Conroe's window tinting services as rated by the Conroe, TX community. Want to see who made the cut?",
+      "url": "https://google.com/goto?url=CAESbwHEIkXXHB9-VTtNP1OF6XkdxetudjuRFDR6CJ7JEC1gyiVu4H-7ao8HrggY_4thsVQImsFWZOXpI-qSpYZWGfPk1s8sM2k0M_h4Dk4MuEtSMlYstS5BMyf0el6nmikrueZMjvSIfyV2oJBE3wCxQw&gsessionid=zqyEoStFsycLd2xvofz74GnUMTnVWCZQUkK906nQT0O_famuizrVYA",
+      "breadcrumb": "https://www.thumbtack.com › TX › Conroe"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Car Tint Shop Near Me in New Waverly, TX | Window ...",
+      "description": "Window Tinting Services of Conroe, Texas. Our premier car tint shop is dedicated to providing top-notch window tinting services … tinting solutions today!",
+      "url": "https://google.com/goto?url=CAESrgEBxCJF10sMsZDDfUYJ-kB_0_h_juZD8CKzA4k7O1t0cN9g2cvjkeYgAVu8JHjbxqU7QzL-gOkJP5qcCgV3kYg7zgG_rOOg3A4j8_06OlffskhGgnmMjk1ClWNyrKyAadYs1CbUBV25kU9BIq6vjs6YjltPHur7ut8jFkTAANTVe4AJyB7JUL6oKkNJekFlOTbu5Vlsl5laIjgibz64T9IgsRngatXEUNM5c_vt8FE&gsessionid=zqyEoStFsycLd2xvofz74GnUMTnVWCZQUkK906nQT0O_famuizrVYA",
+      "breadcrumb": "https://www.tintworld.com › locations › conroe-131 › c..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "google.com",
+      "title": "What's the best window tint for a small car in Conroe?",
+      "description": "ISO vehicle tint business\nWith summer coming I’m wanting to get my car windows tinted to keep my toddler cooled off! \n\nBasic small car, just looking ...",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF1xfviSUVOyJrlLxb0lTOz8AWWrPfNqTTkHZNZMkQZZ-yDhQLZjA92qfxLkHa8fboYyS27sQYbYu2qFyRenUR7330iftZztizAfCkHcwaDUaATk3aLcIhlfgZHfEcIEPPnBJhkxAsIUZq7X2oN1A_gGlACJ4HHPpEwVtlVQ&gsessionid=zqyEoStFsycLd2xvofz74GnUMTnVWCZQUkK906nQT0O_famuizrVYA",
+      "breadcrumb": "30+ comments  ·  7 months ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "google.com",
+      "title": "What are some recommendations for residential window ...",
+      "description": "Any recommendations for businesses that do residential window tinting in the area?",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF1zc8VRYERze_3TTEBIb27B1Ii0KhJm1IKRWfvEehK1SjfYIAu7JF36RgtOZp6kUCxZops4qv8L_6cLFHLJgJ7Px8odiLHlvnC_v4dWoacdBa9FF3tzZHdVpYnYKw4EY9UkGfywIo6ADvwuWu3ancAtx8_HshnCsjs-U05A&gsessionid=zqyEoStFsycLd2xvofz74GnUMTnVWCZQUkK906nQT0O_famuizrVYA",
+      "breadcrumb": "5 comments  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Car Window Tint in Montgomery, TX | Window Tinting Service",
+      "description": "At Tint World, we are committed to providing top-notch window tinting, audio and video entertainment, and auto accessories to enhance your driving experience. Read more",
+      "url": "https://google.com/goto?url=CAESpwEBxCJF13ACIbKL9-8qbc3XXK2LFemQHQq4GeKTv_GYW_rfaDJjDSpV0ryaqD4gNJzMoHIhkiLnlm4QP8BLfky02xrZZVuGj_ikRhcYYoeKpyOGs4CLnGlD3PTusdFks_s3M0TgrTO0pG1clJxZ4Bk_VLWbcBQnLcOHRjVxe-72JxY_PRXBuT1LUg0elpKaoLg28_qSf2rugV0o6KbScjcUtxAo84T7eA&gsessionid=zqyEoStFsycLd2xvofz74GnUMTnVWCZQUkK906nQT0O_famuizrVYA",
+      "breadcrumb": "https://www.tintworld.com › locations › conroe-131 › c..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "google.com",
+      "title": "Retail Service for Tint Near Me | Conroe, TX",
+      "description": "Quality Materials: We use high-quality window tint films that offer superior heat rejection, UV protection, and glare reduction, providing you with a ... Read more",
+      "url": "https://google.com/goto?url=CAEShgEBxCJF1wo2vEGAi8FfWaeCeMQLQLf7BTe6Nf-JvlO-XlY4GhsCDd5Wvek2mn7dzGYsvB_4r8z07AvZqz-cL7t9OYmb-l9nJf2z32ZCUxDit7hs0s6xgrjvLwvzviprI_VhLCQ-oe_8r9zbxZX92jG8dRDXrqP3kb0ZwQlIh5SSoYbzTGEhcA&gsessionid=zqyEoStFsycLd2xvofz74GnUMTnVWCZQUkK906nQT0O_famuizrVYA",
+      "breadcrumb": "https://www.tintworld.com › retail-service-for-tint-near-..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 10,
+      "rank_absolute": 14,
+      "page": 2,
+      "domain": "google.com",
+      "title": "TOP 10 BEST Home Window Tinting in Conroe, TX",
+      "description": "Our window tint gives you protection from ultraviolet light & looks great! We offer window tinting according to your specific requirements. Read more",
+      "url": "https://google.com/goto?url=CAESjAEBxCJF120yFTLOOD5dNOeMF8SlR_dGY1YJ-RQ7h1FMzCxTYHT5do-cGHvyrjuFei8NLCLKISG8Sba11FiEOshccBV8z0JyoMbyEDmntv_UeiPawLzejGubNDB_BgrocG5vAafam-pYA1HcB1h3fTOM1_fiMEk4ztMYwxw2-9Htt6ING1V3IDU207e-5A&gsessionid=8rdsIpHE0COWWpYj2lN-Do6fWWx2bZdoyIpmFYHjl98NbZ3A6Uwmow",
+      "breadcrumb": "https://www.yelp.com › Home Services"
+    },
+    {
+      "type": "organic",
+      "rank_group": 11,
+      "rank_absolute": 15,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Conroe Archives",
+      "description": "Tint World Conroe Locations ; Tint World #131. 670 N Farm To Market 3083 Rd W # 204. Conroe, TX 77303 ; Tint World #054. 24707 Oakhurst Dr. Spring, TX 77386-1952. Read more",
+      "url": "https://google.com/goto?url=CAESawHEIkXX5eTiUyz-UoKtubnm8PqATfdRhg6gH5QoZbEbc939KsjFP2S2l4p9U_Hkimh8tsqUt4KLcBefbBN9wt0-Rs3mfeoLJqeKthSEiiy6F2-0c0ce-jmvDg9uSlKOlhaLBQxk_8moKxRL&gsessionid=8rdsIpHE0COWWpYj2lN-Do6fWWx2bZdoyIpmFYHjl98NbZ3A6Uwmow",
+      "breadcrumb": "https://www.tintworld.com › ... › Texas"
+    },
+    {
+      "type": "organic",
+      "rank_group": 12,
+      "rank_absolute": 16,
+      "page": 2,
+      "domain": "google.com",
+      "title": "LoneStar Tinting (@LoneStarTinting)",
+      "description": "Serving The North Houston area, We specialize in automotive, marine, commercial, residential window tinting and automotive paint protection. Read more",
+      "url": "https://google.com/goto?url=CAESZgHEIkXXZrmv48qc0JlshICTsPdriN9eN26DZpuTfripD49_8b94BTHMH_jTJiDwQqmHqc2zCm8AxNAqHbN-ajNfmpEd2kAHr01f5Ws6yW8V0PicCspTSd63a6NLoHwBzQbnQl2tdA&gsessionid=8rdsIpHE0COWWpYj2lN-Do6fWWx2bZdoyIpmFYHjl98NbZ3A6Uwmow",
+      "breadcrumb": "960+ followers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 13,
+      "rank_absolute": 17,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Tint World - Updated November 2026 - 5 Reviews",
+      "description": "670 N Farm To Market 3083 Rd W Ste 204. Conroe, TX 77303 · (281) 812-3800. Call Now · Payment methods. Does Tint World take credit cards? Yes, Tint World takes ... Read more",
+      "url": "https://google.com/goto?url=CAESZQHEIkXX0fisEZ9LnJDbItw9uPgF9tVigr5pTHVa6G3haN2Mh56k8SA0i9WVoKKAQ9tCge1Y4rbEgR98IGr-tuXN7KLX-6__AQvkDBwDnU0JeM__i_X5OSMS6eWI7YuP9ws_bh7W&gsessionid=8rdsIpHE0COWWpYj2lN-Do6fWWx2bZdoyIpmFYHjl98NbZ3A6Uwmow",
+      "breadcrumb": "https://m.yelp.com › biz › tint-world-conroe"
+    },
+    {
+      "type": "organic",
+      "rank_group": 14,
+      "rank_absolute": 18,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Performance Tinters - Conroe TX",
+      "description": "936-756-3112 105 Gladstell, Conroe, TX 🗓️ Open Monday–Saturday Call today for a personalized quote on your vehicle! - at Performance Tinters - Conroe. Read more",
+      "url": "https://google.com/goto?url=CAESaQHEIkXXAV17osCBR_0PZEOSVxwe4IMhcGzy3bPyxiW0MQYXpyEag0VBqqevKgmnt6ICUlNs_4PGmYDtbfKy-EfPUJWwfXvzPUUZSPZnACGfghF8hr328F4n9bvtAKpE24jbSetjqAs9nQ&gsessionid=8rdsIpHE0COWWpYj2lN-Do6fWWx2bZdoyIpmFYHjl98NbZ3A6Uwmow",
+      "breadcrumb": "1.4K+ followers"
+    },
+    {
+      "type": "organic",
+      "rank_group": 15,
+      "rank_absolute": 19,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Top Notch Tinting | Professional Window Tinting Services",
+      "description": "Top Notch Tinting is a locally owned business based in Montgomery, TX, specializing in professional window tinting for automotive, residential, and commercial ... Read more",
+      "url": "https://google.com/goto?url=CAESWQHEIkXXy8bom_rRig6D-FCZn3EUUzJHouM-EwSn4HLgVgnlWSDES-tFQIqZ6sF7CFtdgqYVBaBwFn7VnCn8s8wquYHCQcyZHcrLCkQJV7ArCywQqRAGIOG8&gsessionid=8rdsIpHE0COWWpYj2lN-Do6fWWx2bZdoyIpmFYHjl98NbZ3A6Uwmow",
+      "breadcrumb": "https://topnotchtinting.com"
+    },
+    {
+      "type": "organic",
+      "rank_group": 16,
+      "rank_absolute": 20,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Where to get windows tinted in Conroe?",
+      "description": "Any recommendations on where to get my windows tinted? Places you’ve used personally and pictures if you have them please.",
+      "url": "https://google.com/goto?url=CAESgAEBxCJF12CpCpTdH1m3aqA-5mggrW7TspcAzXRyFQW1TVoepQHvJoJ8UbUtgbWPlqFlowKAL5WPLol3fW-6ezcsfgY9shfhb9ANZdDYjmuaCcDaDhs4hiK54iQa_cSl61q6jfikzx9T98gueiszLR9Nj2M5hU5Ix4c18LlFA04FMg&gsessionid=8rdsIpHE0COWWpYj2lN-Do6fWWx2bZdoyIpmFYHjl98NbZ3A6Uwmow",
+      "breadcrumb": "10+ comments  ·  1 year ago"
+    },
+    {
+      "type": "organic",
+      "rank_group": 17,
+      "rank_absolute": 21,
+      "page": 2,
+      "domain": "google.com",
+      "title": "THE BEST 10 CAR WINDOW TINTING IN CONROE, TX",
+      "description": "Best Car Window Tinting in Conroe, TX - Last Updated November 2026 - VIP Tinters Plus Bed Liners & Truck Accessories, Tint World, Performance Tinters, ...",
+      "url": "https://google.com/goto?url=CAEShAEBxCJF1wkdEjJG6s3W67EXzM9ulTzn8RoaSgTzcKibvHE-p2LGjSzPwM85NWUjz0uBYt534Su914GPxC25rWsZ3vsK1M0BL9qepYuPNxqBQyQLecPG1AiKUNb54zkkrapGTCDla5sqdJBsMG9P39pWV5ACh2Ku5RPDudazJHyaK5CM7GE&gsessionid=8rdsIpHE0COWWpYj2lN-Do6fWWx2bZdoyIpmFYHjl98NbZ3A6Uwmow",
+      "breadcrumb": "https://www.yelp.com › ... › Car Window Tinting"
+    },
+    {
+      "type": "organic",
+      "rank_group": 18,
+      "rank_absolute": 22,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Window Film Installation | Conroe",
+      "description": "CoolVu window film tinting and glass and surface products for every need and budget giving Conroe commercial and residential customers exact solutions ...",
+      "url": "https://google.com/goto?url=CAESZwHEIkXX5NFXNytMWraNK_qycCWcFCzbXozfxWq1kc7yLxObYOigqR4DWwF4p6FaVzHkmiARnc5ClbSCBurb1CpUv9f3qYKsNgti8aie3L5f2rEICWcWfDbFcYDpnRJbEeT_HEHYpdE&gsessionid=8rdsIpHE0COWWpYj2lN-Do6fWWx2bZdoyIpmFYHjl98NbZ3A6Uwmow",
+      "breadcrumb": "https://www.coolvu.com › conroe-window-film"
+    },
+    {
+      "type": "organic",
+      "rank_group": 19,
+      "rank_absolute": 23,
+      "page": 2,
+      "domain": "google.com",
+      "title": "Tint World Conroe, TX (@tintworldconroetx)",
+      "description": "Tint World® Conroe, TX is your one-stop shop for all your automotive styling needs. Contact us @ (281) 812-3800 to schedule your appointment today! Read more",
+      "url": "https://google.com/goto?url=CAESaQHEIkXXLJ_DH-BW8AG8Ug09u8ay_x-CG4AjFydh_NyrmxfpWPbxGZ6QQl0BCLBRpiRI_ERu8fXCFAIGZLuifBvqUYDtDB4YSKF3U6MIvtp35CJzxA1a_zmcW3IefAT9sYIvHkkcnG-mxg&gsessionid=8rdsIpHE0COWWpYj2lN-Do6fWWx2bZdoyIpmFYHjl98NbZ3A6Uwmow",
+      "breadcrumb": "170+ followers"
+    }
+  ],
+  "cached_at": "2026-11-09"
 }

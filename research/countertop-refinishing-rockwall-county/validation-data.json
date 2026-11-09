@@ -1,0 +1,109 @@
+{
+  "slug": "countertop-refinishing-rockwall-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "countertop refinishing rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "countertop refinishing services rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best countertop refinishing rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "rockwall county countertop refinishing",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable countertop refinishing rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "countertop refinishing in rockwall county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    44,
+    44,
+    38,
+    39,
+    31,
+    27,
+    46,
+    39,
+    46,
+    30,
+    51,
+    54,
+    35,
+    50,
+    41,
+    75,
+    39,
+    37,
+    46,
+    54,
+    71,
+    100,
+    87,
+    88,
+    72,
+    80,
+    80,
+    97,
+    60,
+    51,
+    61,
+    73,
+    63,
+    29,
+    51,
+    33,
+    40,
+    51,
+    49,
+    45,
+    36,
+    30,
+    23,
+    17,
+    0,
+    29,
+    29,
+    25,
+    25,
+    35,
+    24,
+    21,
+    27
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 0,
+    "rent": 0
+  },
+  "totalScore": 4,
+  "status": "walk_away"
+}

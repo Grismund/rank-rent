@@ -1,0 +1,109 @@
+{
+  "slug": "spray-foam-insulation-osceola-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "spray foam insulation osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "spray foam insulation services osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best spray foam insulation osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "osceola county spray foam insulation",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable spray foam insulation osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "spray foam insulation in osceola county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    91,
+    93,
+    75,
+    95,
+    84,
+    91,
+    68,
+    87,
+    79,
+    76,
+    91,
+    100,
+    87,
+    90,
+    82,
+    93,
+    84,
+    83,
+    80,
+    83,
+    91,
+    97,
+    89,
+    89,
+    73,
+    75,
+    78,
+    98,
+    80,
+    84,
+    85,
+    98,
+    98,
+    86,
+    85,
+    87,
+    90,
+    83,
+    72,
+    88,
+    87,
+    85,
+    82,
+    91,
+    73,
+    90,
+    78,
+    80,
+    77,
+    89,
+    89,
+    89,
+    91
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "totalScore": 6,
+  "status": "walk_away"
+}

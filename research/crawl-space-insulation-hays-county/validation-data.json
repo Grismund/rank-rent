@@ -1,0 +1,109 @@
+{
+  "slug": "crawl-space-insulation-hays-county",
+  "validated": "2026-11-09",
+  "volume": [
+    {
+      "keyword": "crawl space insulation hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "crawl space insulation services hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "best crawl space insulation hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "hays county crawl space insulation",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "affordable crawl space insulation hays county",
+      "search_volume": 0,
+      "cpc": 0
+    },
+    {
+      "keyword": "crawl space insulation in hays county",
+      "search_volume": 0,
+      "cpc": 0
+    }
+  ],
+  "organic": [],
+  "topDomains": [],
+  "maps": {
+    "topThree": [],
+    "totalCount": 0
+  },
+  "seasonality": [
+    76,
+    71,
+    57,
+    74,
+    76,
+    68,
+    56,
+    75,
+    58,
+    56,
+    84,
+    100,
+    85,
+    89,
+    79,
+    75,
+    60,
+    76,
+    63,
+    57,
+    56,
+    75,
+    59,
+    59,
+    47,
+    50,
+    57,
+    68,
+    58,
+    56,
+    57,
+    55,
+    50,
+    84,
+    71,
+    65,
+    77,
+    81,
+    59,
+    78,
+    63,
+    63,
+    80,
+    71,
+    65,
+    81,
+    62,
+    66,
+    58,
+    59,
+    66,
+    69,
+    68
+  ],
+  "scores": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 0,
+    "license": 2,
+    "seasonality": 1,
+    "rent": 0
+  },
+  "totalScore": 5,
+  "status": "walk_away"
+}
