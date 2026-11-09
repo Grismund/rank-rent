@@ -1,6 +1,6 @@
 # rank-rent
 
-AI-powered rank-and-rent SEO system. Claude runs 19 skills across eight stages to research niches, buy domains, build sites, launch them, and prepare pitch materials — while the operator holds three gates: what to buy, what goes live, and who rents it.
+AI-powered rank-and-rent SEO system. Claude runs 20 skills across eight stages to research niches, build sites, buy domains, launch them, and prepare pitch materials — while the operator holds three gates: what to build, what goes live, and who rents it.
 
 ## Repo layout
 
@@ -13,6 +13,7 @@ rank-rent/
     content-rules.md                word counts, local-fact minimums, banned claims
     naming-rules.md                 domain naming conventions
     niche-economics.md              avg job values + margins per niche
+    site-design.md                  brand-first design principles, page inventory
   data/
     candidates.csv                  every niche × area scored
     counties.csv                    109 high-growth US counties (8%+ pop growth since 2020)
@@ -27,6 +28,7 @@ rank-rent/
     <niche>-<area>/                 validation data, teardown per candidate
     dashboard.html                  generated research dashboard
     shortlist-*.md                  generated shortlists
+  niches/<niche>/pack.yaml           niche content pack (sub-services, outlines, local vars)
   template/                         shared Astro site template (Phase 4)
   sites/<domain>/site.yaml          niche, towns, phone, page plan (Phase 4)
   workers/call-router/              tracking-number Cloudflare Worker (Phase 5)
@@ -43,8 +45,8 @@ Skills live at `.claude/skills/rr-<name>/SKILL.md`. The `rr-` prefix is mandator
 |-------|--------|
 | 1 | `rr-smoke-test` |
 | 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-viability`, `rr-shortlist` [^1] |
-| 3 | `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` |
-| 4 | `rr-domains`, `rr-phone`, `rr-site-build`, `rr-content`, `rr-seo-audit` |
+| 3 | `rr-niche-pack`, `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` |
+| 4 | `rr-site-build`, `rr-content`, `rr-seo-audit`, `rr-domains`, `rr-phone` |
 | 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` |
 
 [^1]: `rr-discover` is deprecated — `rr-volume-scan` replaced it with batch keyword volume lookups. `rr-viability` was added between teardown and shortlist to check unit economics.
@@ -60,7 +62,7 @@ Each SKILL.md should specify:
 
 ## Workflow
 
-> **Current status:** Phase 2 skills built and tested. Volume scanning and validation run across southern cities. County-level scanning added (`scripts/county-scan.mjs`) targeting 109 high-growth US counties. City-level scanning added (`scripts/city-scan.mjs`) targeting 59 high-growth US cities. Shortlist generated for Permian Basin (`research/shortlist-2026-11-02.md`). Awaiting Gate 1 decision and/or expanded research.
+> **Current status:** Phase 2 complete. 18 candidates approved at Gate 1 across 8 niches. Phase 3 beginning with `rr-niche-pack` (8 niche packs to create). Pipeline reordered: domains/phones moved to end of Phase 4 (after SEO audit, before Gate 2).
 
 ### Pipeline overview
 
@@ -73,15 +75,16 @@ Each SKILL.md should specify:
   status=          data.json    backlink-    status=         YYYY-MM-DD.md
   discovered                    sources.json viable
 
-  ◆ GATE 1 ──→ Niche Brief ──→ Local Facts ──→ Keywords ──→ Renters
-                    │               │              │            │
-                    ▼               ▼              ▼            ▼
-              niches/<n>.md    areas/<t>.md    site.yaml    buyers.csv
+  ◆ GATE 1 ──→ Niche Pack ──→ Niche Brief ──→ Local Facts ──→ Keywords ──→ Renters
+                    │               │               │              │            │
+                    ▼               ▼               ▼              ▼            ▼
+              niches/<n>/      niches/<n>.md    areas/<t>.md    site.yaml    buyers.csv
+              pack.yaml
 
-  ──→ Domains ──→ Phone ──→ Site Build ──→ Content ──→ SEO Audit ──→ ◆ GATE 2
-       │            │           │             │            │
-       ▼            ▼           ▼             ▼            ▼
-   sites.csv    sites.csv   site files    page content  pass/fail
+  ──→ Site Build ──→ Content ──→ SEO Audit ──→ Domains ──→ Phone ──→ ◆ GATE 2
+       │               │            │             │           │
+       ▼               ▼            ▼             ▼           ▼
+   site files      page content  pass/fail     sites.csv   sites.csv
 
   ◆ GATE 2 ──→ Deploy ──→ Index ──→ Links ──→ Weekly Review ──→ Pitch Prep ──→ Route
                                                                                   │
@@ -95,14 +98,14 @@ Each SKILL.md should specify:
 |-------|--------|--------|----------|
 | 1 | `rr-smoke-test` | DONE | `docs/connectivity-report.md` |
 | 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-viability`, `rr-shortlist` | DONE | `candidates.csv`, validation data, teardowns, viability reports, shortlist memo |
-| 3 | `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` | NOT BUILT | Niche/town research, page plans, buyer lists |
-| 4 | `rr-domains`, `rr-phone`, `rr-site-build`, `rr-content`, `rr-seo-audit` | NOT BUILT | Registered domains, sites, content, audit reports |
+| 3 | `rr-niche-pack`, `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` | NOT BUILT | Niche packs, niche/town research, page plans, buyer lists |
+| 4 | `rr-site-build`, `rr-content`, `rr-seo-audit`, `rr-domains`, `rr-phone` | NOT BUILT | Sites, content, audit reports, registered domains |
 | 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` | NOT BUILT | Live sites, backlinks, review reports, pitch materials |
 
 ### Gates
 
-- **Gate 1** — Which candidates to buy domains/numbers for (after shortlist)
-- **Gate 2** — Which sites to deploy (after SEO audit passes)
+- **Gate 1** — Which candidates to build sites for (after shortlist)
+- **Gate 2** — Which sites to purchase domains/numbers for and deploy (after SEO audit passes)
 - **Gate 3** — Who rents each site (operator makes sales calls)
 
 ### Candidate status lifecycle
@@ -110,6 +113,8 @@ Each SKILL.md should specify:
 ```
 discovered → validated (score ≥8) → torn_down (score ≥11) → viable (economics pass) → shortlisted
                 ↘ walk_away (score <8)    ↘ walk_away (SKIP)       ↘ walk_away (economics fail)
+
+shortlisted → ◆ GATE 1 → packed → briefed → content_ready → audited → ◆ GATE 2 → purchased → deployed
 ```
 
 ## Data model
@@ -117,6 +122,7 @@ discovered → validated (score ≥8) → torn_down (score ≥11) → viable (ec
 - **CSV** files in `data/` are the source of truth for candidates, sites, buyers, and links. Currently `candidates.csv`, `counties.csv`, and `cities.csv` exist; `sites.csv`, `buyers.csv`, and `links.csv` are defined for Phase 3+.
 - **`counties.csv`** holds 109 high-growth US counties (8%+ population growth since 2020) used by `scripts/county-scan.mjs` for county-level volume scanning. Columns: `county, state, pop_2026, pop_2020, growth_pct`.
 - **`cities.csv`** holds 59 high-growth US cities used by `scripts/city-scan.mjs` for city-level volume scanning. Columns: `city, state, pop_2026, pop_2020, growth_pct`.
+- **YAML** (`niches/<niche>/pack.yaml`) holds per-niche content packs: sub-services, page outlines with heading structures, guide topics, and local variable definitions with research questions. One pack per niche, shared across all cities.
 - **YAML** (`sites/<domain>/site.yaml`) holds per-site config: niche, towns served, phone number, and the page plan.
 - **Markdown** in `research/` holds research output (niche briefs, town fact sheets, teardowns, shortlists).
 - **Reference docs** in `reference/` hold shared scoring rubrics and content standards that skills import.
@@ -160,6 +166,7 @@ Once created, the `reference/` files are the canonical source for:
 - `seo-standards.md` — titles under 60 chars, exactly one H1 per page, keyword alignment, internal linking
 - `content-rules.md` — home page 800-1,500 words; service/town pages 500-1,000; every town page uses at least 3 facts from its town sheet; no near-duplicate town pages
 - `naming-rules.md` — service + area in the domain, .com first, no trademarks
+- `site-design.md` — brand-first design, 10-15 pages per site, mobile-first, Lighthouse 80+
 
 Skills must reference these files, not hardcode standards inline.
 

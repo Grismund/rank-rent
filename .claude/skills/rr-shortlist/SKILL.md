@@ -97,7 +97,7 @@ Write `research/shortlist-YYYY-MM-DD.md`:
 
 ## Gate 1 Question
 
-**Which candidates should we purchase domains and phone numbers for?**
+**Which candidates should we build sites for?**
 
 Please reply with the candidate numbers to proceed, or "none" to pass.
 ```
