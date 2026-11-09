@@ -1,0 +1,311 @@
+{
+  "volTotal": 50,
+  "volPrimary": 0,
+  "maxCpc": 10.31,
+  "rentEst": 0,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Pro Tint LLC | Bunnell FL",
+      "url": "https://google.com/goto?url=CAESdQHEIkXXPA7cYRsjgabK7lYzVYyQoL505OwrbdzHb6fJ412ittoa-jvL1p4oqs3GGkzv776BggcbbY7Auejv60McW8E_QboXdA2CDK9IZilbV7FpZMEjL13ynFXvy2MwF6rFH2bGia0h0Ea3w7xT30OKCqddOQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "840+ followers",
+      "website_name": "Facebook · Pro Tint LLC",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Pro Tint LLC is a family run, veteran owned business, located in Palm Coast, FL, with 17 years of exp. Automotive Window Tinting Service. Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "automotive window tinting palm coast from www.facebook.com",
+          "url": "https://google.com/goto?url=CAESdQHEIkXXqJfIxVWbWEb-A3quRIN3EGDNjAD7NjZQlMMOGO8bqjzSt6BcpfSylcIbKVfEMcm1S5-mQrUJ6IcSYTL516OoIYTy0t5zwMrGrc6dyai8o5pB0F6xR8yUAzcKGoDFceDq6GRqSkZw5IhtgzXQ97wJiw",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090335-3011-0139-0000-6d3260a3e975:0"
+        }
+      ],
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 24,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "Pro Tint LLC is a family run, veteran owned business"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESzwEBxCJF15qvEVrEbv1mOYqrJmWAQPamePBOCycgypG-2TieZTsO5skJLCJAzDgrvyCvAdXtlhMtSV8E61w0mhrSV5cErvLhfX9ChiXpg3z_WCzpRXc4c5siYiXL7bTElBJs-4x1HUY0RAQ3DzC0XEQ07iBde8mt8BVs8OSfNEcBhHHQr3Mio2ONBjzAwq-Zub1I1nO88L9Gv-4FuL-UDnEjcHo65KJcA4iCLD4hcVrlv78QosQcfOkfpQqW9Jux0cLZ75mBYt575N5aVidVkgM",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "WINDOW TINTING - Vvash Mobile Detailing",
+      "url": "https://google.com/goto?url=CAESfAHEIkXXlFqiutDLHj5_3mujLKlSfKTg0Hug1SpGcuX9BLt5iwEm32dZuIPT20xjns20dOWw4SOpbQVhZt7DoPUniKaGElZLN93PCJ5JXtrs5Bd86jrTaKmvXr8oBsAg0zbTTzIxwEwww0HfPySEG26KvjcIUqyBK1ABejE",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://vvashautodetail.com › palm-coast-window-tintin...",
+      "website_name": "Palm Coast Mobile Detailing",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "At our establishment, we specialize in Palm Coast window tinting, providing top-notch solutions for heat reduction, glare control, and added privacy.",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Palm Coast window tinting"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Best place to get my car windows tinted? In and around ...",
+      "url": "https://google.com/goto?url=CAESjwEBxCJF12TuPIgd4QyeMCGPBilob9N3Sax4t7aLX851OpcB3ChbbPE0P0DP_aiww6KFxREzQZDqtNosV8e7gxsoKTlr1XHkvvxC37CMnKmfnK9HZXjdn_clcRwX80jWtwu2iHFrvag9VCY7LE-RW01eDnBvsByOWhERBx9kaqb07f9Y7IX-IoGUlsTPL3586A",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "80+ comments  ·  6 months ago",
+      "website_name": "Facebook · Palm Coast Community Network",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Best place to get my car windows tinted? In and around Palm Coast.",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "automotive window tinting palm coast from www.facebook.com",
+          "url": "https://google.com/goto?url=CAESjwEBxCJF11iiQbCWIV5Rk7uQgRTSbmXCw8G-hiu6e8rcn2KRlwqZxsO9NKwOFg-q6TmjQa0gPjKDTMkYzqmpQcF_bMjj9LxGDC13vmC2nANZpnEpnRD8OKUBdcDYLCo29Dh8bzCkJIIRVRBAbqpJ1THRdhUvWad71LkRjQW1pfvQOSZMvQLzuiC8rW38Y5ujyA",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090335-3011-0139-0000-6d3260a3e975:1"
+        }
+      ],
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": null,
+      "links": [
+        {
+          "type": "link_element",
+          "title": "What are recommended window tinting places in Palm Coast ...",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESjwEBxCJF174cGyWxFybe5f8kRj22dKzUTRhuWwD1YgnqMNWnsmBjRAJE94qJibVVldT1Gk73ewwZqwYb7lFP2bHREaaED6DfYLJISm3bJvIfOFeHwPiqFJmiwEjQfxMELyad6cM39PU8uETqYlxf_ztG264ArnnVBY8rhQ1oEF7886kwasGmpyNM9P0eYBPoTA",
+          "domain": "google.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Is there a mobile tinting company around Palm Coast? TIA!",
+          "description": null,
+          "url": "https://google.com/goto?url=CAEShAEBxCJF1wE8TTtnPCgAGGi3t76z7dYY3X-ibtKKZXF0CGXfhD9k51dYzoUqonc5q-drt3pvfZbVP9NOWKQdgl2EMiJwTUZXz7e9I4KEx6W49kEEU0-8cxIJKZBjXHTd9A_IO0Y1zYWssDmwjDqT8bOi5c_nCZUNWBkyd70pcK1zZWWIvKY",
+          "domain": "google.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.facebook.com",
+          "description": null,
+          "url": "https://www.google.com/search?q=automotive+window+tinting+palm+coast+site:www.facebook.com&sca_esv=8b9727547dc98b1b&hl=en&gl=US&sxsrf=AKL5yDhCJ2UH2pIwQHOTSQ8pQ-CoLuWosQ:1794195348825&sa=X&ved=2ahUKEwiQlbLD-vmXAxXgGtAFHSP7Kr4QrQIoAnoECCUQAw",
+          "domain": "www.google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "TOP 10 BEST Cheap Window Tinting in Palm Coast, FL",
+      "url": "https://google.com/goto?url=CAESkQEBxCJF173vJBbUpBcDG6YyejWVrSPPNi8lVtqKscYz1FeIlJa5KhA-2DEKSc988fVSsrVDFLQk-MWPIsHyzlOuHYXci4TUuX3-Ma5Hcsca6V5vdDnDA-PyOW1Ew00-QwTOumctKLT7e73ZhkLqNlJyafrOqSb7BJOhXHeYNCo8txKh-htXNBlZpxULKEsBUCVV",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › Automotive",
+      "website_name": "Yelp",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "A1 Window Tinting · Car Window Tinting · Home Window Tinting. 5.5 mi · 3501 E Moody Blvd, Bunnell, FL 32110. (386) 437-0000 ; Garage Tints · Car Window Tinting. Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "automotive window tinting palm coast from www.yelp.com",
+          "url": "https://google.com/goto?url=CAESkQEBxCJF1ygcECFhGE_G-chsTxrFJZ-6O9Mk9_GHERr366PWYyjMmGkSwJo6QJ0QkzGy943_GyWk9Pb15kJ9En-KID80BZScwcUkeGoRZxMqJsF1nbSLnhCnuuPCRTW8fX03JcLO2hQZoiWgN3KRemARWOg6j649djYU6zFeukniG8yWOu6Fa6zPziaTNV8fLu4e",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090335-3011-0139-0000-6d3260a3e975:2"
+        }
+      ],
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.3,
+        "votes_count": 394,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "3501 E Moody Blvd, Bunnell, FL 32110"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESsAIBxCJF191MU6nh-LLorcvoNQzqp67KmdBkGJFzxtcNo6g1Oz4Un2COxBYxLJe2Oyfq-R9O4kFmGoxuc8Fq8_S6lPPMZamYQQzVj7CE6MM1BUASoIURYErkiQwUHyWHlxfNX1vncYDAgyJjamjKJcTv-LXLT-DnF8YSf955nIY7wOZxaBamlPmaCiByyvIoByiTqxndz3u1AxreeIKQgcwlHcf5vVoBb2NrafBsAhUIdPlTlKWwQfeNpwOcPaS9FkCHCcUAD8yJm_vkJaJptYgCWUBH3XyBWPueh60CPwfXqFDtOk8WYeqD7t2o-VEv-MeT0fwwqr47JyqARNa6Sh674ic5F_pktktSwu6CFGm1_qIOBIpOSvwVDqLuKhOcs565cU9-AcsBGK8GMWLl-odZ",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Tinting Services in Palm Coast, FL & Nearby Areas",
+      "url": "https://google.com/goto?url=CAEScAHEIkXXoQYJYLLl1bmBftXNXBJR6Gua8P-rZ4HuUzoNBz7Vm8UppcOn0uVFtcTkUHPOErA3Ut4wC2FS5oPej2sRLheaHP3AQm8d3CxfAW89K3TCm4sVbMiakkmwibMMZjgkSOnPD-xPNb3FevZQ6Nw",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.protintllc.com › Contact Us",
+      "website_name": "Pro Tint LLC",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Pro Tint LLC offers premium paint protection film and professional window tinting in Palm Coast, FL, and surrounding communities. Call now for a quote.",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Pro Tint LLC offers premium paint protection film and professional window tinting"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "TINT NATION",
+      "reviews": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Mid-Florida Tinting Company",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Shady Character Window Tinting",
+      "reviews": 0,
+      "rating": 4.8
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 1,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 9,
+  "status": "marginal"
+}

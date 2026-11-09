@@ -1,0 +1,291 @@
+{
+  "volTotal": 60,
+  "volPrimary": 10,
+  "maxCpc": 12,
+  "rentEst": 6.750000000000001,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Transform Your Oasis: Pool Remodeling in Cape Coral, FL",
+      "url": "https://google.com/goto?url=CAESmQEBxCJF16l70QJJd-wRVPVhu4WuVnsQ3BdgN9AoVag_ECoMM8VJ87q1-p2khdOvHI7ejzqGN5Cn4cpQRHdrC7hJdQlFpWWaO8U2yLtZW1M0hPSm1FikftRocsOCIZOs9bYqJBa-wIG_NQf2LPkFBe6Kfpcz4vSH_a0GWkF3y9E1I3w1PAUJ6ddgdYyGgWu_B1KGbQmEpWVqzHk",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://sevenstarpools.com › Uncategorized",
+      "website_name": "sevenstarpools.com",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Aug 23, 2026 — Enhance your backyard with expert pool remodeling in Cape Coral, FL. LLC 239-790-8117",
+      "pre_snippet": "08/23/2026 00:00:00",
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "expert pool remodeling in Cape Coral, FL"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": "2026-08-23 00:00:00 +00:00",
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "TOP 10 BEST Pool Installation in Cape Coral, FL",
+      "url": "https://google.com/goto?url=CAESjgEBxCJF14YQTRzMOffKiFgRMBea9VWSxkYDE53EwxeNAFYULScy9PefUSFmGzeFnE1sVcXQCwqSCryoKhEjbuxaPw4kqqD_adl9rcTaBPK2z9K4-TdJ2oGIofjre6vDO0waxtV086fPi2c24V9Cj-4fEFio_PfqzOPcUjgPJEpf2kdyAPk-xD5wEfK6WMCg",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › Home Services",
+      "website_name": "Yelp",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Cape Coral, two top options are End 2 End Pool and Property Services and Ted's Pool Repair & Leak Detection. Pool Service all offer pool repairs and equipment ...",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "pool remodeling cape coral from www.yelp.com",
+          "url": "https://google.com/goto?url=CAESjgEBxCJF1xZJ42FfmaOaGiqQyF_mCZJPI3UbpNPfgie3nd7GhIWVokNesZyMDUE6ISezuPz1pZah_rBg8UlG2s39B4pHD7xZwulWkM_nPIklnKS0REW4-9pi1pBTGnl4ABWaCxs-Ieuy1DHGXDiZBIm0ebBf2zT54DdHNnaCdiAjy9mSZi_pDXNGfj4BhdxQ",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090337-3011-0139-0000-9c650c2f00e2:0"
+        }
+      ],
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.1,
+        "votes_count": 601,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "End 2 End Pool and Property Services"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Who are good pool contractors in Cape Coral?",
+      "url": "https://google.com/goto?url=CAEShAEBxCJF1-3hoIjJ0TEkz18Q2ZJndY31Vk6jpXaKHHHCGYajuhANdOzE1eM8eiP6EpFJkRoEGo35nnuEUyjTW4ze8Zbf7EjQ346OCwaVr0GFmSqjJTryq3CYTV89dmLScEYaqDQF1n5bnrx00y7bfil93BtrgVX4u5OEwRXVYkukt7H8-NQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "90+ comments  ·  1 year ago",
+      "website_name": "Facebook · Cape Coral Community Information",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Any recommendations for a good Pool Contractor? Looking to have a basic one added, nothing too fancy needed.",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "pool remodeling cape coral from www.facebook.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF1-xcf0ghAZekoKBTci4PTvWLht-LnQWVL4tYeYxz_56uP6L2UVFn-dzup60jG1hcNnGn9uyvBr2d_xK4hi-06h4YY0inLxXb7cOjP7WZBB_fFihl65tJ6AM6CbjB7zLF52yi8P-7_i4zPx2dtDPhdnUwOzPv_D67cpcmPoZ-L_s",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090337-3011-0139-0000-9c650c2f00e2:1"
+        }
+      ],
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": null,
+      "links": [
+        {
+          "type": "link_element",
+          "title": "What are quality pool installation options in Cape Coral, FL?",
+          "description": null,
+          "url": "https://google.com/goto?url=CAEShAEBxCJF18rModoNeek2ByLSJHPMqex-0lQKQxCWqQVNRwiY19Q9f-8tklIKO-WB9jgeLNhS3ayBxJHBddtCWJAoxjU75vFYevl649ZhGHQbPF0VdFfTtO04-e9NSb4OP6X9oHeRg0DjvfbJjWLz8ZDUXcY_FbJnZ3y-7_fVS43PiPStJ1I",
+          "domain": "google.com"
+        },
+        {
+          "type": "link_element",
+          "title": "What are some recommended pool builders in Cape Coral ...",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESjgEBxCJF17NOA3auo_XDqGSGrwfdg0eZjeqwF753Kv_sG-BPpBvG5R9uBE7Cd0BYbV9VvOVmE3b0yOWZBC_uU2da7dEy1PesucMvWjTtErc8HE1XE9J2tr2jOEu6SiRbRWs-684FBN7isX0pNUjD2JV3NW18sbxe3m1AvdD2bDoqLvyKjmJ3JsjC8pR2bTYz",
+          "domain": "google.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.facebook.com",
+          "description": null,
+          "url": "https://www.google.com/search?q=pool+remodeling+cape+coral+site:www.facebook.com&sca_esv=8b9727547dc98b1b&hl=en&gl=US&sxsrf=AKL5yDgGjlCCyuBtuH736HHpIuD2kaI60A:1794195444764&sa=X&ved=2ahUKEwi_2JHx-vmXAxWoR_EDHVSeIv4QrQIoAnoECCkQAw",
+          "domain": "www.google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Re-Pool 239 690-9934 Swimming Pool Renovations ...",
+      "url": "https://google.com/goto?url=CAESyQEBxCJF180pFNQjNpSd_UYkcJ-oZu8zWKrNPINQgBF9blezOb7kPuMYWyXrglsn16YKh25tR4DQkZ6NH-GaaH9XlW0fc4D14ZSgpCWdD1WhZenCALJLGfDwzHxtT62E2cD2oQzO3NFFiU5mBUBI8dS0MAkj5VmnIMbnlAO0W_nfJJ_XoHspYMv47b011fyppm1s6SdSKZif7Dv6T1-9twnIByBOaptcsvrXwtZ03uKugp_M9ADzHEyKFEEoPgQL9p-yzoe1juPSHbA",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "1 month ago",
+      "website_name": "Facebook · Re-Pool",
+      "is_image": false,
+      "is_video": true,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_video"
+      ],
+      "description": "We offer all swimming pool remodel & renovation services ! ING We are specialist in pool resurfacing, waterline, tiles, Estimate: 239 691 5288",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "swimming pool remodel & renovation services"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": "2026-10-09 03:37:25 +00:00",
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Top Inground Pool Contractors in Cape Coral, FL",
+      "url": "https://google.com/goto?url=CAESkwEBxCJF1wx7sNdMD9ISklxHgM5qkJ-kagG1uLa2RG9SMTMYrpoGQ3rI-hWhRi9KLtznnv8sqIiVgdaCayVE9NUFcAXQ8FDSfyd7x9mRot0Q68z0l7LlZ60dOqDZcRLrw22Mq8frNzJdzlZIfNf1gPzxyh1ZQvb_jux-sJ9boLy43Y2QBcPFqztmSUzE1AY3vLzagdc",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.sccpools.com › resources › top-inground-p...",
+      "website_name": "Suncoast Custom Pools",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "The best contractors offer many design and customization options, allowing you to create a pool that reflects your style and complements your home's aesthetics. Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "design and customization options"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES9AEBxCJF15aenPrf_f-EcK794sG7zebPKyc3rkEzPTb1Fn7aGHiNH8S-Oc_5wlvelyksaHPhFFb2QNA9sq4ljuFRDbkDAhnKOLP8TS2AXzkdqo-JZQh5UyFUZGJcvZ-_14x8nSmFlaXv8au-LxD1IS3WYnPRbkcEctyYW3muSGQwcl2QHdTDLIK-E9ybPzWjvhI0vM7ol8f705k_zAfwP92e2sk4FfqEnUjKBr35t60CbV_WT2a7GhrXdWDbv5DvfFe6K-GSGphydevEkSvzgBP7JoTX8jym810kZd-abZo054RiAzftk88v4uVhNQX1k1XHEK93",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "Real Nice Pools, Inc.",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Into H2O Pools and Spas, LLC",
+      "reviews": 0,
+      "rating": 4.3
+    },
+    {
+      "name": "J & J Pools Inc.",
+      "reviews": 0,
+      "rating": 5
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 1,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 9,
+  "status": "marginal"
+}

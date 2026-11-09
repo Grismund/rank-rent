@@ -1,0 +1,268 @@
+{
+  "volTotal": 10,
+  "volPrimary": 0,
+  "maxCpc": 69.77,
+  "rentEst": 0,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Epoxy Flooring in North Port, FL",
+      "url": "https://google.com/goto?url=CAESdAHEIkXXNjzhNxe8pxcF8n-jeaesN4w6Hd0vrn_AccN2y5rUsyfPb5MZriuKuXKauw8YfNdVjODN4mvwxzEtgp7SJQPEZGEg2xIHw-660VcEha2ddko_KM9xy56IE44rdAlgyRAm_qROi2uKi-6vZeKyPoDS",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://coastalepoxyfloors.com › service-areas › north-p...",
+      "website_name": "coastalepoxyfloors.com",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Garage, lanai, pool deck and commercial floor coatings in North Port, Florida. Free estimates.",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Garage, lanai, pool deck and commercial floor coatings"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Which is better for a garage floor in North Port, FL",
+      "url": "https://google.com/goto?url=CAESuQEBxCJF18vzPeeOvStwiZOQmRTEDzqxbhdVFwJIl7pYOD4tlnQkKbbsTXC-kOy0w04Yt9ncPhXG_Dz3_8GeJ9E4ig9aCszLlEC0MYeGvCPt0jbIzmDjFnH3oAtoFnyREplI-gs9oBmhVcQ6OA6x_bajOk7VNRDtg4O1tVxlhgTaUFLQjyyD4t1p_OF1U2_OC55_F_ijr7C9uT0zfPhCNvsfTlpx_0IFJRayK6GfoYlAOAcXTQmbINDVtQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › questions › loc › north-port-fl",
+      "website_name": "Yelp",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "For garage floors in North Port, FL, a professional floor coating is highly recommended over standard flooring. Businesses like Garage Experts, ...",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "professional floor coating is highly recommended"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 7,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Flake It Now, LLC Reviews - North Port, FL",
+      "url": "https://google.com/goto?url=CAESewHEIkXXy4j-fZRkCdH-SjRqkQD9HQ8zuUZuCcd2OM4SGZCpqceWeIv6ECcRWhR7bRvdjavr-VjMD_Gtw3ZZOP21HP8u34dSKtwnD8Rwg737avfmPvTZu7wKS_niFj0kS86gyrVY5guMa2Ba6qWi3JsTZBMB0yw0SzgoRg",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.homeadvisor.com › FL › North Port",
+      "website_name": "Home Advisor",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "At Flake It Now LLC, we specialize in creating fully customizable Epoxy Flake Floors for residential and commercial spaces. We are a fully insured, ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 10,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "creating fully customizable Epoxy Flake Floors"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES2gEBxCJF13p67FCDqwMVlpH9EfYyGg7CJ8GFK-T3sI30Sa-k_UF4m6DBH7CxHhV4e0usLtX-ofJF4750AKoCOS0bn4Ilyky3fKVastiOwcCvi9AsNIrlNvc39Ad7TPevkq83ADM8etXx_rILzsPDZydMYcTkZ1Qo-FDloLaLkTruJlEz0IZhpkBeGrPY9ryTibdiMU3pfnk7zpiqlt-6dANvFhi30On-8pimHn9CfDBY_0_IoQiWTixW814Eo9mt1aeXiWtd3LptW9Gw2oSTSVrbFA5HGWAn59hM8A",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 9,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Venice Epoxy Flooring, Concrete Coatings, Pool Deck Overlays",
+      "url": "https://google.com/goto?url=CAESegHEIkXXfZpbIpAE4_WBvTGXHbXN150xtWmg9uwGx_BRU4N3Pjt-OCqo1mHz-glR56hBhZiT7rMFpzlJgHhTuHAU7MwXT23I6obbmjcF8vgaLwjdiTzFnfPLKUyEdeDWKYnikT-WzqNP2R3sWDjDG9gfdBosz9PKy5cx",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.northportepoxyflooringconcretecoatings.com › ...",
+      "website_name": "northportepoxyflooringconcretecoatings.com",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "We are the top provider of high-quality epoxy floor coatings, polished and stained concrete, and colored concrete solutions. With extensive experience and a ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "epoxy floor coatings"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESzgEBxCJF1w_gnop8ah7d8G9pEm-0P0WXIJOD6b5wW78hv2MdXlulDzoYlCaTday4k-uV0HIEYa64XNdb7iDO3KRCqeGpiSLidfkhOCfjOkitr46x6JOU70etgxdybXcZxGs2T9gYq8UEsViejjRGqv-KS08kD_RdRmJVZNJdLTdFlClnDJvCil8yHydWKAhgDile4DF2vP0PMSQ3POn1MT-aylt_paOQd0AD57xgsuQVj8CuOlveL7onVcezZmSQb4XVK2ECwpH5WLAEBpiAVw",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Driveway Transformation with Paradise Garage Floors in ...",
+      "url": "https://google.com/goto?url=CAES3QEBxCJF11efGTfRSjg03_VmYFiJg7jFIJAQzZ2Rk6FUsaQnvhG3fhINhYOGr_m12nDlAvzUYT_DjQx5-mFOmxgjpkV22XrMCDq9cWCwivhi6Bh3VCC_Y-QZgSlAR9pZg4LmeT7IYvm3ZSsGDfWQPOvZf2Bw56vKzfXZ4dAnsoCO0gM4Jwz3lytVqpVYSCCBydhtXpM3S01MT6TStRWWKUSXeVUnYLTLtoUU8bBUH-8Vf6nkzYVRONzEHzb1RK9S7JOQWdb5Mmtx3Vs-kkN7wvMSNhvbalTW_dgx5_3heQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "3 reactions  ·  1 month ago",
+      "website_name": "Facebook · Paradise Garage Floors",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "A showcase of a professional garage floor renovation featuring a grey and white flake epoxy coating. The video highlights the clean, finished ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "garage floor",
+        "epoxy coating"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESswIBxCJF1_LPj2RsQ9CHEBOWqEBlWIZWdJ9TFrw0atkD3FP0yJe0MIsJB8ul1k7-doBeEbRIBaS3Rv8tF8_Ep9d75O7x3rDA4BxfvvNOpG-OHQCdrUM6cW1c4FK2KGPiu6HNs4WPRFRnfRF4WG7RJtLI2fPlDrAQUdvtrPmp94DLE6gezM8O1J-znTfirin--Qh0oBTC4Tho7ZFJ2jDvNHsRLIngxQzo-GvrC1Q40uVpM9jNzbCfbkxjygj_qGwMr3u6TrG44fUcILEatr_q07nBFOrtWXPTwXt9shWPR1hjS6vAF1zpr3OWzQrChqHf1DMF80EqkkK7EGM3if9c2gliLCi1r-11jhPemYG3GxB9P-yC-lp460AMXkDIe6y2Oo17IOvVZX0jcYNJn6GHiLJvVDP_",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "Premier Floors Custom Concrete Coatings LLC",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Flake It Now LLC - Custom Epoxy & Polyaspartic Flooring",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Gulf Coast Garage Floors Inc",
+      "reviews": 0,
+      "rating": 3.9
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 2,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 10,
+  "status": "marginal"
+}

@@ -1,0 +1,41 @@
+{
+  "volTotal": 10,
+  "volPrimary": 0,
+  "maxCpc": 0,
+  "rentEst": 0,
+  "organic": [],
+  "topDomains": [],
+  "maps": [
+    {
+      "name": "Paradise Garage Doors",
+      "reviews": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Quality Garage Door Services Port St. Lucie",
+      "reviews": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "ENC Garage Doors and Construction",
+      "reviews": 0,
+      "rating": 5
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 8,
+  "status": "marginal"
+}

@@ -1,0 +1,313 @@
+{
+  "volTotal": 470,
+  "volPrimary": 390,
+  "maxCpc": 37.44,
+  "rentEst": 821.34,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[17]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Paver Sealing & Pressure Washing Cape Coral | SWFL",
+      "url": "https://google.com/goto?url=CAESWAHEIkXXeA1ZJ9YxyM1IT9980SItl9XX3m84wZ0jqiDgAfzC95na9br8K-chsPSuQwXc9UAqLUL9KuuK_-1uqhcPVbelSyg-Ujf4AZ9kyob_NjMWOPAqHF0",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://swflwashandseal.com",
+      "website_name": "SWFL Pressure Washing & Paver Sealing",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Oct 28, 2026 — Owner-operated paver sealing and pressure washing in Cape Coral and. Give us a call today at (239) 544-2826 for a FREE QUOTE!",
+      "pre_snippet": "10/28/2026 00:00:00",
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Owner-operated paver sealing and pressure washing in Cape Coral"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": "2026-10-28 00:00:00 +00:00",
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[17]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "TOP 10 BEST Paver Sealing in Cape Coral, FL - Yelp",
+      "url": "https://google.com/goto?url=CAESiQEBxCJF1zzsPPh1snVwccxu_s2AthDyOdaR3-dHcAZOCdbkpByzYm0sa63IqrExLi-OvI3Rjo25Bk1SZJYBQhlPRXoXjQaSIs_6cH-xi8J4n_cYXvepNf5dSSx09c51wpX133Fy3E32S6500V_M3hmPO9FxooiwuIB_LY2---enumlIYe0nGTWRGQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › Home Services",
+      "website_name": "Yelp",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Happy Home Detailing offers customizable exterior cleaning packages that include roof soft wash, driveway and pool deck cleaning, paver sealing, and lanai ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "paver sealing cape coral from www.yelp.com",
+          "url": "https://google.com/goto?url=CAESiQEBxCJF1xmUkuyrqWC0FxkHYjNvL4sAS3Myi6S3-A6VJ4HjSQ8DpjqjHknR3a9JK2KsEPewDGomBlORrXQYtfAdSi0P6ST4W1kuBtqcVmCfRY_r-bBORuAhDwrb-mU-qBSLCCRGPoXWVSUCGE55CMV0E9dHyWlaYfRYPj-3CcuPXx91o7Q364N1ew",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090336-3011-0139-0000-86fea245f3d1:0"
+        }
+      ],
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.4,
+        "votes_count": 278,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "Happy Home Detailing"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES8AEBxCJF1xyTu9aws_hlOn6udvjfEvcH51q9xGga0D1rtl1kUoeFWVzy_bemQJqrI0dwXBpjGjSQVnysIdJIJM8LIxZhHJnwTbOU3-zOaHg-WZR4z1XuBXGLQoNJNh1Ynq0jcp7IwRexojlPbjmBpKW95_VXOxzf-RfdEhpr_PDPpVGFNKeBDOljhc1rcVsbiZ-F0EAw285kPY9mqVVjZsBWHEnABkhxEr40An8zgNBfl-evBXuCt0_7brF-Mq8KmX99Gqux5S9FAK1DZpRssWcQh9ivKBj0yVBaYYGkOasSIh15jykj3EQJ4KjZNkVdJZ0",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[17]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Paver driveway power washing and sealing quotes?",
+      "url": "https://google.com/goto?url=CAEShAEBxCJF11VOfOifi-NTjcXZcl6WAsLoaZ2qEbCiTA_c2PjYMazTgzH3Z_bIEUfhLAjFg4Yy-vGLoemH7Q1rgVuEcyM-9HU1gwU-Gy2eFKkbMu5nqnRIUQqEkvMBM7wntq6bQjnPn3aNCzTBtXlyk1F5NtA_5Y4WjHE7AD1c3kdXasSUnQk",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "240+ comments  ·  10 months ago",
+      "website_name": "Facebook · Cape Coral Community Information",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Looking for quotes in Cape Coral for someone to power wash, and seal a 3 year old paver driveway. No stains to clean may need some sand or stone ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "paver sealing cape coral from www.facebook.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF1zhVEXqprIzaKu8CDfjRQncwa0nbXTy8enKoTLbmB7Xu9_gwBOdVTYt2rLy_Rc1ad5prmrcWm86o6WsN84MMfMc7_rFf1VgRTQ3riimW5zp-q_bbg-zTu71lJWfWJ8mTL11q3WTpPWmkeVWBAgangSViQrnTiJK4LmsTCq0MAyA",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090336-3011-0139-0000-86fea245f3d1:1"
+        }
+      ],
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Cape Coral",
+        "seal",
+        "paver"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Paver sealing and exterior cleaning services in Cape Coral, FL",
+          "description": null,
+          "url": "https://google.com/goto?url=CAEShAEBxCJF19coPFx9qcjoGMKlCBmJJ-3cT1FcMu1qoixvp6kOUypSwbpz83DTN1FQ6DrXqR510TN7IfXrRhs8oYoPYrW5N1emjRQqjzg93JNbbIMKXObhhhpLlZnMytANwsZ-iJ5a6lmyCZfhYF3_mixXW0dxKX6XmYP-JkYO0k-i9cZnME0",
+          "domain": "google.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Recommendations for brick paver cleaning and sealing in ...",
+          "description": null,
+          "url": "https://google.com/goto?url=CAEShAEBxCJF13qlOV5X-RrEWRiKH0XKEUuG55ekOCcPAulj2sO07AlOhGFER6KZ2QCysEWsvAnsLxoI6jQbxqOs9bjEypCH0M_O9ycx8VDGJkHdGIkg19fsZCvaXZ9hYNgmz8eBIp5BUGPuH3ax107bdJ0mUIQ7eedfiFrJxSTxIOFBNdx6oMQ",
+          "domain": "google.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.facebook.com",
+          "description": null,
+          "url": "https://www.google.com/search?q=paver+sealing+cape+coral+site:www.facebook.com&sca_esv=8b9727547dc98b1b&hl=en&gl=US&sxsrf=AKL5yDjH5jV2jgqvprs0gpHDicI6vExhOw:1794195409972&sa=X&ved=2ahUKEwiYjsbg-vmXAxWQ9LsIHf3IH_8QrQIoAnoECCUQAw",
+          "domain": "www.google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[17]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Top Rated Brick Paver Cleaning and Sealing in Naples FL ...",
+      "url": "https://google.com/goto?url=CAESXAHEIkXXIF6SXCNWdvV3z0HRmP7EHTVqcdBqbaHX4WX8mv0-c0JFokMaCYyKJ3LuCv1B2dZRxKY8NAufVqEOVM4kOjeOTY8uI0MPd2XbYWXAGXnK1krNBcUOhE56",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.paverprotectors.com",
+      "website_name": "paverprotectors.com",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Top Rated Paver Cleaning, Sealing, Restoration & Repair in Ft Myers, Naples, Cape Coral, Florida is Naples' Top Rated Brick Paver Cleaning and Sealing Company -",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "paver sealing cape coral from www.paverprotectors.com",
+          "url": "https://google.com/goto?url=CAESXAHEIkXX4eLjHsK9vHEM-FGkTS5ex8QJbGoy2jagaFm_0bbI3XAJKPet_qP4qjnehRlRZAdTfNh_FEeAu66NvWQ1tvl2nCeBH4oCSRgy0o55y9Ml7VkfdCpXokAN",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090336-3011-0139-0000-86fea245f3d1:2"
+        }
+      ],
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Paver",
+        "Sealing",
+        "Cape Coral"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[17]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Paver Sealing Cape Coral | Wet-Look, Satin & Matte",
+      "url": "https://google.com/goto?url=CAESbQHEIkXX7w43NcL1sjmMtRNWt1u8faHAfb79X_0pxRTrdMk1nzzSwA5t49BaN6_Fg4ixSANF6bV1IUrrL2UmzqUSfspCJOwGfPgzwefug8knNpNRu0I7Z8ERsmLvYYfI-L_AmhT8oOUTp19Ge74",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://poolarmorpros.com › Services",
+      "website_name": "Pool Armor Pros",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Paver sealing in Cape Coral from $1.65/sq. ft. Choose satin, wet-look or true matte. Travertine and concrete sealing also available. Free quote.",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "paver sealing cape coral from poolarmorpros.com",
+          "url": "https://google.com/goto?url=CAESbQHEIkXXAFJEt7-G1a1pC6QgJc7Sr8AMcmmag-jGsxJ5QHa_XclkxhKBjyH0baHDPEacWctMLi2g3jH19uthCH87sQS9P0mjlnayt0BXVXzg15oOKD4xuDflh66Iq2IfOMhEa_2Y_Q4VMlsf4EA",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090336-3011-0139-0000-86fea245f3d1:3"
+        }
+      ],
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Paver sealing in Cape Coral from $1.65/sq. ft"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "Xtreme Paver Sealers",
+      "reviews": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Next Level Paver Company LLC",
+      "reviews": 0,
+      "rating": 4.6
+    },
+    {
+      "name": "SWFL Pressure Washing & Paver Sealing",
+      "reviews": 0,
+      "rating": 5
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 1,
+    "cpc": 1,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 2
+  },
+  "total": 12,
+  "status": "pass"
+}

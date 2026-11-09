@@ -1,0 +1,41 @@
+{
+  "volTotal": 20,
+  "volPrimary": 0,
+  "maxCpc": 0,
+  "rentEst": 0,
+  "organic": [],
+  "topDomains": [],
+  "maps": [
+    {
+      "name": "That 1 Painter Georgetown",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Restore My Kitchen",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Diverse Trades Custom Construction and Remodeling",
+      "reviews": 0,
+      "rating": 5
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 8,
+  "status": "marginal"
+}

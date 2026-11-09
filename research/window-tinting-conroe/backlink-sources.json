@@ -1,0 +1,45 @@
+{
+  "slug": "window-tinting-conroe",
+  "analyzed_at": "2026-11-09",
+  "competitors": [
+    {
+      "domain": "performancetinters.com",
+      "summary": {
+        "backlinks": 130,
+        "referring_domains": 92,
+        "rank": 76
+      },
+      "top_referring_domains": []
+    },
+    {
+      "domain": "windowtintingconroe.com",
+      "summary": {
+        "backlinks": 135,
+        "referring_domains": 113,
+        "rank": 81
+      },
+      "top_referring_domains": []
+    },
+    {
+      "domain": "vprotintersllc.com",
+      "summary": {
+        "backlinks": 142,
+        "referring_domains": 116,
+        "rank": 114
+      },
+      "top_referring_domains": []
+    },
+    {
+      "domain": "tintworld.com",
+      "summary": {
+        "backlinks": 42044,
+        "referring_domains": 3008,
+        "rank": 347
+      },
+      "top_referring_domains": [],
+      "note": "National franchise — city page"
+    }
+  ],
+  "common_sources": [],
+  "link_building_targets": []
+}

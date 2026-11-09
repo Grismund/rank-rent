@@ -1,0 +1,269 @@
+{
+  "volTotal": 70,
+  "volPrimary": 0,
+  "maxCpc": 0,
+  "rentEst": 0,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "System Pavers Goodyear, Arizona",
+      "url": "https://google.com/goto?url=CAEScAHEIkXXP3rINn5DEDsgDnjrc4ywT2EewGAbAI6s2ipR0lhQJYzwx8LDB3HCX8a-_fWK6XRz91ZU-DyynGjMc4B6EONBzsxs0HG2wdkyCKFPHxfRKNnu3PYVVoi_UWR1HpzvI7jFHOvyI0lKkS-Fs-Y",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://systempavers.com › locations › goodyear",
+      "website_name": "System Pavers",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Goodyear, AZ outdoor renovations. Installation of paver patios, paver driveways, turf lawns, pergolas, and outdoor kitchens. (877) 728-3778. Serving Goodyear ...",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Goodyear",
+        "Installation",
+        "paver"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Masonry Contractor in Goodyear, AZ",
+      "url": "https://google.com/goto?url=CAESfQHEIkXXTNmm-V5B85oHiOM5JTiXx7EWTDCgpYYD-AEusCsaHXqJrrRya-WqXJAKTEJxbpLfAKdcxp_BFEnQyqcfLWfcOYllS532dUiezJuim0-ASzuztaJJbfbkxIJlOXBPipD2N79t38DIEBp6GWtN88Y1V13yTea82MhJ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.goodyearblockwall.com › masonry-contrac...",
+      "website_name": "goodyearblockwall.com",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Local masonry & block wall contractor serving Goodyear, AZ. Block wall installation & repair, retaining walls, pavers, and outdoor living. Free estimates.",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Local masonry & block wall contractor serving Goodyear"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "TOP 10 BEST Concrete Contractor in Goodyear, AZ",
+      "url": "https://google.com/goto?url=CAESjgEBxCJF1-oR_a9j6qZ1yFGYMqq6mJU0zhDRuAq7gUDdyYdnWD4naMB13tizMy3HZgk6jFRKMdfB9V7a7c9GJTQV-r3EjEdeDh6eU2tNnFEzbChs03wbVQlWeo233lPTPO9Pctcjh8Gs_7gsyZLYzn-6teybzKI9qEE2PJrs7HGt-bpdxa5QUwMuS8Hr92-0",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › Home Services",
+      "website_name": "Yelp",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Top 10 Best Concrete Contractor Near Goodyear, Arizona (Updated 2026) ; Botta's Concrete Construction. 5.0 (1 review) · 37.3 mi · 4549 E Jensen St, Mesa, AZ 85205. Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.5,
+        "votes_count": 1024,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "4549 E Jensen St, Mesa, AZ 85205"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES1gIBxCJF13xZGhNLfiNAQm25csMNyJRSIT80XZ-glM9nJXOYdV4A0x_PqH_-LmPJbQrJUmMs9uDB0Hd78O1394MCnoY_f5OsP0Usv5C3pduGZEOXs7FqkTVRbzpcr61LLftPjRRtl83DkVYgYQNaqLZrS-gF4CinsB3o5jqhM4hSfW1ys8_PjFD4PURpSbl0P913opU3EpUsWXt3k3sS-oOLUt43mxSM4B1QsXvh5_ztcjmCi-dZZ5TKzuNuqigCaLFStpKeHfrDk6tZZ6EMRi7aJjB7kml_NUHxE51FsBpd1PEhXS7s1dBE_N1id5VT_XYpXJ8g2c4QL6katAcF2SnJtjNfSE1NeAuObox6GQLc0bmauiZ6JCl7L55pp3B0jyb1-xYumqdhaO_dVyyYrTYVZuFibulOqnTKM9WfsI-3kQXEHe7GaZZYAf-G1RXqUJmj_FNB-t4",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Artificial Turf, Pavers & Patio Covers in Goodyear, AZ",
+      "url": "https://google.com/goto?url=CAESbgHEIkXX6ckyuZin14dF9jmR1JXlLzayEEgN34H1YGgA342MKapsH8QdiniJo-ozoE8Slik0f-Jw1IbfvA7EqHOI8zXfdvnNMkV6MRExPV-uw_4ohaTITEWLUSw-rg7piWTw8qAX_r6XQj6azNFQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://greenforeverarizona.com › Locations",
+      "website_name": "Green Forever Arizona",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Call (833) 476-4387 to schedule. How long does turf installation take in Goodyear?+. Most residential installs in Goodyear are finished in 1 to 2 days ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Most residential installs in Goodyear are finished in 1 to 2 days"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESuQEBxCJF13dE3aOk1cHCzF1UunRVRmJF8PWqrgsEyTsPHCjfEGDL7M09fSal03Otv_hMhqEB0IUyNH3mQ5bZTC4tGwbuCg2j0QkKM1e8tCr-h6JkWKfL8Yd2R254oCCm75UXkzLda3UjHS9GFECgLhV0scSWyIUQay4IEp36bVVAZMPK6BAoLaI-MyOlUG_ytjbf0EH36be7F0ucj-9jNlF0ofpbYPAVUUkuagVue-6YN1QvC_RXVrm6gQ",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Diamond Masonry LLC offers free paver driveway ...",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF1wEqtzfybScFBM-jT_dYJgnSrQlwEkCD7vTp37sHFs9Jf-raMKBIwWEXlzLTNh5XfgSNrzocJa-Lx_JQ-HiDLrn_JSxoA8HqMa64l6JxgeR07jzy7-VdWYIjfJmrXG7Vpks0DNUNFPmXK3wFDE9Nscod7JnCNwTMUVo-tcGVP97k",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "3 days ago",
+      "website_name": "Facebook · Avondale and Goodyear",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "If you're looking for a pavers driveway, call us today for free consultations at 623-764-0409! We specialize in many more services such as: All ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "free consultations at 623-764-0409"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES0wEBxCJF1ypqyaRWQYXM8f7X73Fvx3YdToqjyjalQq0dcr58Kb-04Ogakr85qgtPeg-YiNlmhuP7MOFPcYZvPOJ5BiQs9PgfWFrWe_l-Ngh3P448_U4Hw8klRHXsexhJk560vzUYThehXYUD86EfgfKePTNQW-_gkmMZiHLyRfBxAtOt9fFBHnRsO7KJuntXSP4Yb1Y71Kfsl5Bw5Qh7VC_xpQGUTCBphkN-bRfFrW8G4mb-4faONKJFBp_2v-GzRkFZB2fFRjirwVL07M8CM6578Cgw",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "Luxe Pavers",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Desert Sky Pavers llc",
+      "reviews": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Vivid Outdoors",
+      "reviews": 0,
+      "rating": 4.9
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 8,
+  "status": "marginal"
+}

@@ -1,0 +1,267 @@
+{
+  "volTotal": 80,
+  "volPrimary": 10,
+  "maxCpc": 26.57,
+  "rentEst": 14.945625000000001,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "TOP 10 BEST Home Remodeling in Georgetown, TX",
+      "url": "https://google.com/goto?url=CAESjAEBxCJF12L3JRs_8pttk7url3y2_dkRCVgzr9tv-Xb2fvvS51M0XqdWF3YiboUE5AyjqjOdOpmRJHEcO1dujeSdar6LqUnMOHV-Kbcp0qm8E4xNoz0WmOBaNQKAUzIPHacWU2r0nNHa6DOxHAlSpE12R7ggcyUd9dziiUHpWRQ7BegJn89LQqZyDsUirw",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › Home Services",
+      "website_name": "Yelp",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Top 10 Best Home Remodeling Near Georgetown, Texas (Updated 2026) · ATP Renovations · AGC Home Remodeling · Atech Plumbing · TWT Exteriors & Roofing · ATX Builders & ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.5,
+        "votes_count": 1422,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "ATP Renovations"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES-wIBxCJF1zDYGT6Iq3RaJbEe3htrpmJyWurPpp3RD6Qrh20wM3mUNl-cpu1G48LIkrJvvouxFID6EhXqDp5-xT41eEZMxesDOEzKxn0NTgToiX9DmAnT3xbqgU44WEqxHv8CT5gpUS1_Cm4Y8HPC3gSW_SUPkpH-dQw1eV3ALYOnUbSaGR5dYSPTyKd2839dx9xCgzYVpsnjPxWyBAGegzAdXgk7x5awO871c-MnsNsCmzNbq87VfQWIa8uQBujolxOKAGKLYEgXZGhLcDXEY4gU3W1Dxc9qBOmD1Mwd4X8ZnvRKabX7HppTv6NGSdoLjRpWA55BbjuLP6NOr1PejWyzWCupSz1wx-smDaYutL9wZE5oByex_zw4iga2V1C5aOs-iz6Y5xXBAHc5msiTyiTC4uw6v4dQ0u8O_55sndAlWorFTEY0saJAXs75gngkfVagY_M5NSVemSNC5BrGzmLIP0e2pPdkSF8VylcXsOXO8juDTflAqfzin9u1",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Bathroom Remodeling in Georgetown, TX",
+      "url": "https://google.com/goto?url=CAESiQEBxCJF10CScn7w3BEf3IBu2s1HvqIUjEx2EV1QiJHasxjH3N3HcWKi0cTB657SuuQODu9PtdUpeJZ76mPtz5tZiISewA2d6mNdV5l8SABjVv7BLbESZ0Y4c6RqyPoAK8k2qVBlH2OdsJbTNyGKM2AlRN6aTuyHk0q-OBXzNGluoPmk9rL-HqGaDQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://floresremodelingtx.com › services › bathroom-re...",
+      "website_name": "Flores Remodeling LLC",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "We proudly offer Bathroom Remodeling in Georgetown, TX and nearby areas. Flores Remodeling LLC. Ready to start? Request your free quote. 512-368-6329 713 ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Bathroom Remodeling in Georgetown, TX"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES9AEBxCJF18uDlzTYtcE9NHsyjVmNfA7AJN33Am77Vb2RCxAXJeUlUPCGsClq9Z8n8CR9bekt4MUu-pSlqOupPy3nWNNcbLO1Af959Kk--1-yj-Bl0GzunL8dtj6OxAkhzu1NKi9RKAQsxAuTSr44qO3nthc6-l-rYrYdCsyDbuYGOE35bXhQRZm6Ha3WHQZPzDK5Ty1mlxrIWZ6nEWsW2Cep3oY9eh4Ph0oImcUNSpG9HR0kRZwdzy8oYq12KbxH9ZwOl7s_8b2m8mW3vzjb6VLzwDG92ymm2z3Ed5iPmwc0z5323psaZGKL-uUIqnn-ksrJ16mw",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 8,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Expert Bathroom Remodeling in Georgetown, TX",
+      "url": "https://google.com/goto?url=CAEShwEBxCJF1_o3FJ6GnQNdRRn-T5yJneYdRpx2p-WOECvmNlTi043lUaUjDOtWelSZCOblp0dousB9dmh5pBq8xsum7bQyAT4D-pf_QMB9qKbCWOf8b-lKK2h4AcVMGRpSaxuK1mKBymvio_OBMXU7zny5U-8Bm5R3zgpWfljtyRjKNZ4KmQLn2mY",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://qualityshowerremodelingandrepair.com › services",
+      "website_name": "qualityshowerremodelingandrepair.com",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Transform your bathroom with expert bathroom remodeling from Quality Shower Remodeling & Repair. Serving Cedar Park, Leander, Georgetown, and surrounding ...",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "expert bathroom remodeling"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 9,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Bathroom Remodeling in Georgetown TX in Sun City ...",
+      "url": "https://google.com/goto?url=CAESoAEBxCJF13x0wNKk4FW0A96ToBgWCVnRdbpv60iwA5aBVkyGMXA2L8TqNkJwBbpb0PIMA1zI5fzzq4liUFLlwQ1zx0kjdVH6pAd2yO7HibK1erhkignCrP7PTYlASH4wzv5vxI_V5sfoziveCkl-rIUR49l-mR_nNY9AAfyMOt-6PK5Pyj8PwqkzDjQEr_5mKbFUS4uAHlL9vNzGvgPPpj6R",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://bathroomremodelinggeorgetowntx.com › bathroo...",
+      "website_name": "bathroomremodelinggeorgetowntx.com",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "If you are ready to update your bathroom, call Georgetown Bath Remodel Pros at 512 325 0295. We have served Sun City Georgetown since 2013 and have completed ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "call Georgetown Bath Remodel Pros at 512 325 0295"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES8AEBxCJF1wd_SuordUfGMVJ3MD2sr9QHIlprgt6m2Yhj9XSZJGFKjDH81TtQ-9wPCsE0Zs3LV_t_KQ7Vaodfp0rELCdgKkrMYPVFhEY55_70M8zQJZG3BE8nuQ_v-QJ0k-fnPb8Y22FsqIJ-NbpKr6whM54WC8q9XkffhKHQRdCISV09kaaN-ugZTP0bB_GntrVG_4orxmDeafz2M4-FpfZMajrCWjZ72IRgG8CLrjUgBp3lwwI4z5R79whrVEmA_lgpGjvNviHl7LAOZA_a0p9y1IxsDcnntmOvpaI6qOboe_O_cmQKE7yKefRklcMh6RY",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Best Bathroom Remodeling Pros in Georgetown, TX",
+      "url": "https://google.com/goto?url=CAEShwEBxCJF1_M01ClYSlYtDTTJyilMFhP3asIQPwosSX-AR4Z9Vq6YAda-A5JPAms7AxZT_RNBvpzDrzj9YocX_ePddp0CWSCkl9XwvYbBFKXZL-DZz5MfQRj9hvW_BitYuP6a2P7ITV_8GigMulXIGvhZ4lC3Bg12bxNi9DaVZ_iO3IBSdY041vs",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://leanderbathtubs.com › best-bathroom-remodeling...",
+      "website_name": "leanderbathtubs.com",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Browse Bathroom Remodeling companies to find experts who can help upgrade and renovate your bathroom space.",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Bathroom Remodeling companies"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "Hoeft Design Build",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Expo Home Improvement",
+      "reviews": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Five Star Bath Solutions of Georgetown",
+      "reviews": 0,
+      "rating": 4.9
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 1,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 9,
+  "status": "marginal"
+}

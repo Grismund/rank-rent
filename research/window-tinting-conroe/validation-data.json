@@ -1,0 +1,279 @@
+{
+  "volTotal": 760,
+  "volPrimary": 110,
+  "maxCpc": 8.13,
+  "rentEst": 50.30437500000001,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Window Tinting & Vehicle Upgrades in Conroe TX",
+      "url": "https://google.com/goto?url=CAESXAHEIkXX0TnB2EHW7wyVy4PVVthia5EAqgzRTaw52gQhbPodiXKf4AM66Qf0glN7Bjxskq0ZBc3cTOdN809Br8iKUYn8NQzkyKPbKU5bPSHkHsrPrZdDQ4y9L_lp&gsessionid=UhfuvXQfvtB2wAldmKDfAUe6zjswFZHG1re9aTVO21gvHK2azsxvVQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://performancetinters.com",
+      "website_name": "Performance Tinters",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Performance Tinters serves Conroe, The Woodlands & North Houston with window tint, PPF, ceramic coatings, wraps, lift kits, wheels & more.",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Performance Tinters serves Conroe"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "TOP 10 BEST Window Tinting in Conroe, TX - (2026 Guide)",
+      "url": "https://google.com/goto?url=CAEShwEBxCJF14QOqmUPGiP19quOaV_sYcCcyeYJxmIyBoSXvYiFKXqmvqMWy_deN_-LnkxGYCCzr65Bpu6MFdjN1gRbIYtoThWcnse1N3KAkQ3vd5qDXCQp3nYDA_ofmRoksQUvpCOlII8mE_JgZEY-OUt61hRPygy22NkOrkerfl47-iSj21foBLc&gsessionid=UhfuvXQfvtB2wAldmKDfAUe6zjswFZHG1re9aTVO21gvHK2azsxvVQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › Automotive",
+      "website_name": "Yelp",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "21149 Blaire Rd, Unit 16 Conroe, TX … call at (832) 688-5354 for an exact quote for your vehicle. Tint World (5/5) Window Tint TX (5/5) Exoticz Window Tinting ...",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "window tinting conroe from www.yelp.com",
+          "url": "https://google.com/goto?url=CAEShwEBxCJF1yARb4nLibMYGtCt4xHTENdJU0swuE80Objwoxtf4Yw0Mr64Q0e2jkxow1Vo9Q2IWsStpU_9u00A6MdXp0wrY0Qa6DH7h3I_ZVTRlAO0GwnDYmpXKMZsWWI4-nWdh5TA9pICmC4oSXSSE_i-fjPAFJXhpY5EkgIwCxtyg991mz2TCu0&gsessionid=UhfuvXQfvtB2wAldmKDfAUe6zjswFZHG1re9aTVO21gvHK2azsxvVQ",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090329-3011-0139-0000-3626078e25e3:0"
+        }
+      ],
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.5,
+        "votes_count": 2454,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "21149 Blaire Rd, Unit 16 Conroe, TX"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Window Tinting in Conroe, TX | Nicho's Car Audio and ...",
+      "url": "https://google.com/goto?url=CAESYAHEIkXX4m3rqgIJ3FkQsSbeCzXD8UFgqVVQ-k6q1uOPM6fc0hSqFfX7XLzRxLASjOiD8p0U8z8M7TgY80oCeSrWRI1EE3h3Il9YUQu4WeobPVHzlgGRoZj0ZGcBtmShDg&gsessionid=UhfuvXQfvtB2wAldmKDfAUe6zjswFZHG1re9aTVO21gvHK2azsxvVQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "http://www.windowtintingconroe.com",
+      "website_name": "Nicho's Car Audio and Window Tinting",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "(936) 788-2228 ・ 903 W Davis St, Conroe, TX 77301, US | (936) 788-2228 ・ window tinting, and accessories since 1994. Hours Mon - Sat 9:00",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "window tinting conroe from www.windowtintingconroe.com",
+          "url": "https://google.com/goto?url=CAESYAHEIkXXabpuBgPpUOWtR3FlcGqtkI--OAcAcPzV-0XT0XHgqY-vw4QB3zx3LeF0uwmgOp2hv1KbiEbjmDi7AYA1EqHq5F8qBUv9MKBWQeg44p-4FvGdlI8MRCiPQV3vMA&gsessionid=UhfuvXQfvtB2wAldmKDfAUe6zjswFZHG1re9aTVO21gvHK2azsxvVQ",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090329-3011-0139-0000-3626078e25e3:1"
+        }
+      ],
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "903 W Davis St, Conroe, TX 77301"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Best Paint Protection Conroe TX | VPRO Tinters, LLC",
+      "url": "https://google.com/goto?url=CAESXAHEIkXXsJRTdm8ZX7lWAJkiRKDsvCe4ueWSShgD-PWce3qJkP8WB-Nm-hoFf2-7k6lTiiI3t_K2Kj1U7SpY5633b_MrjLzazFizDQmWm__MDGniKozS2l1-c9DB&gsessionid=UhfuvXQfvtB2wAldmKDfAUe6zjswFZHG1re9aTVO21gvHK2azsxvVQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.vprotintersllc.com",
+      "website_name": "VPRO Tinters, LLC",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Contact (936) 697-9057. Premier Window Tinting, Paint Protection Film, and Ceramic Coating Services in Conroe, in Conroe, Texas. Friday: 8:30am - 6pm. Sat: 8: ...",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "window tinting conroe from www.vprotintersllc.com",
+          "url": "https://google.com/goto?url=CAESXAHEIkXXX9uuzICQWKqjWi0kxxJA6nwRSwaE4m5cbW4aAHQnyK7BnQqf_crnT_9-LnpaPyPXKmSRVC579gOCmCy5lZbsaTq9Kyslhqjh1LSJCfkaOImPw4qIQpBU&gsessionid=UhfuvXQfvtB2wAldmKDfAUe6zjswFZHG1re9aTVO21gvHK2azsxvVQ",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090329-3011-0139-0000-3626078e25e3:2"
+        }
+      ],
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Premier Window Tinting, Paint Protection Film, and Ceramic Coating Services in Conroe"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Automotive Styling and Window Tinting Services of ...",
+      "url": "https://google.com/goto?url=CAESbwHEIkXX0xCLW_En3y4H5F_A3G-FfuCQd1q3u_0a1EEmNr6VXO7TRGgntY5iSEdNehj03nEPrMFI1mcmXGBsCrCOG9vHFCSKiufhRyjnl58_6h4TcjvOqesOtW1GuOLE_omx2AAoJUbaqthiHjiaDw&gsessionid=UhfuvXQfvtB2wAldmKDfAUe6zjswFZHG1re9aTVO21gvHK2azsxvVQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.tintworld.com › ... › Texas",
+      "website_name": "Tint World",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Aug 16, 2023 — premium window tinting services, paint protection films, ceramic coatings and much more. Call For Instant Quote! 281-812-3800 We offer fast, ...",
+      "pre_snippet": "08/16/2023 00:00:00",
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "window tinting conroe from www.tintworld.com",
+          "url": "https://google.com/goto?url=CAESbwHEIkXXRN43WzSWV1G8a_K5bUAdDNqpxR9WKfVWOCZuKMjPBc0pZBXOn69urNL_1nx15SqLWLbfqGowm53oI7RaTYNyfSSVHXAIno31tIkJNxxMMtkcNzJN0tpn1IJzk0S_2U5cthw0oOhq-pFO8g&gsessionid=UhfuvXQfvtB2wAldmKDfAUe6zjswFZHG1re9aTVO21gvHK2azsxvVQ",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090329-3011-0139-0000-3626078e25e3:3"
+        }
+      ],
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "premium window tinting services"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": "2023-08-16 00:00:00 +00:00",
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "Nicho's Car Audio and Window Tinting",
+      "reviews": 0,
+      "rating": 4.8
+    },
+    {
+      "name": "Performance Tinters",
+      "reviews": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "Nicho's Auto Stereo Sound",
+      "reviews": 0,
+      "rating": 4.2
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 8,
+  "status": "marginal"
+}

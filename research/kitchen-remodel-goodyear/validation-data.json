@@ -1,0 +1,41 @@
+{
+  "volTotal": 70,
+  "volPrimary": 0,
+  "maxCpc": 160.85,
+  "rentEst": 0,
+  "organic": [],
+  "topDomains": [],
+  "maps": [
+    {
+      "name": "Avondale Kitchen and Bathroom Remodeling",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Stellar Kitchen & Bath",
+      "reviews": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Gonzalez Custom Remodeling",
+      "reviews": 0,
+      "rating": 5
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 2,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 10,
+  "status": "marginal"
+}

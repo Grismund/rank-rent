@@ -621,4 +621,35 @@ describe('extractCompetitorDomains', () => {
     const result = extractCompetitorDomains(data)
     expect(result).toEqual(['realsite.com'])
   })
+
+  it('extracts domains from organic breadcrumbs when no serp_items key exists', () => {
+    const data = {
+      organic: [
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://www.yelp.com › ... › Junk Removal' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://www.junktrust.com › garbage-and-waste-removal' },
+        { type: 'organic', domain: 'google.com', breadcrumb: '1 comment  ·  1 month ago' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://homeguide.com › FL › Port St Lucie' },
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://www.networx.com › c.772-junk-removal8' },
+      ],
+    }
+    const result = extractCompetitorDomains(data)
+    expect(result).toContain('junktrust.com')
+    expect(result).toContain('homeguide.com')
+    expect(result).toContain('networx.com')
+    expect(result).not.toContain('yelp.com')
+    expect(result).not.toContain('google.com')
+  })
+
+  it('prefers serp_items breadcrumbs over organic breadcrumbs', () => {
+    const data = {
+      serp_items: [
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://fromserp.com › page' },
+      ],
+      organic: [
+        { type: 'organic', domain: 'google.com', breadcrumb: 'https://fromorganic.com › page' },
+      ],
+    }
+    const result = extractCompetitorDomains(data)
+    expect(result).toEqual(['fromserp.com'])
+  })
 })

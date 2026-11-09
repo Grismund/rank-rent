@@ -1,0 +1,273 @@
+{
+  "volTotal": 20,
+  "volPrimary": 10,
+  "maxCpc": 0,
+  "rentEst": 0,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[18]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Georgetown Epoxy Floors: Home",
+      "url": "https://google.com/goto?url=CAESXwHEIkXXTuUQiioHxLVpSDDeleRSxRqWo0v2ryeGj8Zx5HfA5pM5ubgu_zSu9NndWUH7d3h1edKCemgSICjsnTRU6TFseLr6N4T1J-SQgmJ0Vo25JXR0Jhd8cqjmUlDP",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://georgetownepoxyfloors.com",
+      "website_name": "georgetownepoxyfloors.com",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Georgetown's Highest-Rated Epoxy Floor Installers. Industrial-grade garage, commercial & patio epoxy that lasts decades — not months. Lifetime warranty. Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Industrial-grade garage, commercial & patio epoxy"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAEStwEBxCJF1_tjoiD5ONKC8e70Z8Zt99WOOCtEaGT3WvtCXKzdJFl6DUIZK30MllxFrFKy5IFn1KU8gEXmeh5GujyL-TAduTv-YW-SI77rsZgeFn6D2Z8-NPh6UBAb1wPVfUGCNLRVQIRDnFEZpYkEH4tzaySQXiqacDw8mViTCgHoW5Or4mIrTeKo-HtvVqv7AAY-ogHOvMxxRepoNeZItKmu4XI89P_oQDAz7azei0WUseO749I6_IA",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[18]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Best Epoxy Flooring Services in Georgetown, TX",
+      "url": "https://google.com/goto?url=CAEStwEBxCJF14QSaXmQ8JayTFH4da3BNJ0O_PWwTSXyvaeu5emEIYiDkk3PNQsw3hd43vkVzvVYU5DVdVT2ekIZLTdqtK98sKZdIZkZMGNfpzr9PMiKyddZyC2KldxXaCeSEdPI2bai5X9JHBs2i4xOADfQIcHfq7sZn1bQciPFTt_VcwRHXbF4ViyRTLQXMW-TaiHrTMXODjJ6DSoefqFkh6U4_Li8XRpXhu2IpHHRO1LXC_rhO1tzyOo",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › questions › loc › georgetown-tx",
+      "website_name": "Yelp",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Sep 1, 2026 — I found a few installers serving Georgetown, TX who can do metallic epoxy garage floors with a fast turnaround. Read more",
+      "pre_snippet": "09/01/2026 00:00:00",
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "metallic epoxy garage floors"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESiAIBxCJF10ouC2JecuFxOPFdgwUGnXvxc21zFy-bqjFsWfjbF6oZPKz38WYd-qwQOM-FbZSNtRcX6LchL46keuKgsjFV_eSfkzi96tJyRiSdpbARjaNphXUJwIiDdHXernrMPu1lEd4FzsQ9ytdZqhYg6qeasC8YMqyUwdD0SxJsQZ-ATbTAjgBi2fPgWsPNa4tR9JEC_GSOKigEiGTBIcu8hkNUkv_4Q0cFh04qBzmIv4C3XMOoTBfh1xNEO9OG5EAI-oLawOF1iZUQ5Vx91PuybvRV4PkoeiAF6HqopsTSTA-FXSHDEQPRqYk8ehnmQ_SzmpKtI1H0AdkT_J7WqOg21Y5u4ZGm56w",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": "2026-09-01 00:00:00 +00:00",
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 7,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[18]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Do any garage remodel businesses in Georgetown, TX ...",
+      "url": "https://google.com/goto?url=CAESvwEBxCJF14EUGZcGdkj_7ctyTmaWsTY17fkBO16vg4rcNdbYDPLTCLR0_7NXpC2OK8CkW2r2sLKC_1rFNcoWgsauajvWUtqDHp3xwOcl-3YdwN-Xnzdvb9ZbBaKz7I4J-ClNbJajU9DTo1ZqYpRfY1OsQp6uRcat7UD1HKnoU0YCvT3t7qATCwG7zrmFoloVScgx4JzrtbrBL493B8ED1PYxARutaW28EICWhHOwGcLuwCnTDcPdGxadOOmODw6bNw",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › questions › loc › garage-remod...",
+      "website_name": "Yelp",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "For garage remodels in Georgetown, TX, both Garage Monkeyz and Dream Garage Specialist offer epoxy floor coatings as part of their services.",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "garage",
+        "Georgetown",
+        "Garage",
+        "epoxy floor"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 8,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[18]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Polyaspartic Garage Floor Coating in Georgetown, TX",
+      "url": "https://google.com/goto?url=CAEShwEBxCJF102X_P4o6VvAWyPbnnfEp5CSJkYbzXbNepmgkmwbI80Y9JrO5904fMaA2wb9Epqzlx7HBbcnAaiXNmEK7tvTlNwb2OwZSpFYeGnc_d2xwkatJL48j8OdIY2JBbxJmqT-PVI1Ter8W4ZnfzPvMeG1PCvD2Uv1vgOjhcCjWzH0STjufbQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://texastoughconcretecoatings.com › polyaspartic-g...",
+      "website_name": "Texas Tough Concrete Coatings",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "A professionally installed Polyaspartic Garage Floor Coating lasts longer than many basic epoxy floor coatings. It handles Texas heat, UV light, vehicle ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "lasts longer than many basic epoxy floor coatings"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES8QEBxCJF12_Mgll01HkhSxISu2QAf6S6AoQvi1oBinquPZ9HaovKY8BIaANtkz-wIXkLUd0nE9cC03YhLrCAtXs0xacVugiNmDOY6VYTNt975YvxNesGn8YXpYR8SEqnpvoHyUXm5YpZAqeV0zR7o4tDrgWtjsX1hVfievHkyQXlL26cQHav58osybPb8UEsjXR7VLsTAPJB6jeSn1SEL6ND093TvY3wI78XnMBM5odbc48B3RpYfrBsccTYIZxu0kmYyeVnadDEUdCYpiZvyY_7hlfTc7M5HRGT6VRyRGUpL17gTK8RmRnIEuEWxv7sKoB8",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[18]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Epoxy Floor Coating near Georgetown, TX",
+      "url": "https://google.com/goto?url=CAESfgHEIkXXp54G65eHVKucvCC7rDYlxZN3gvn7zNb9DGM-Op5SinjQSD4ZepgJwdN3FhOiK6GCWVHWhx9061AlTdOmQASzKigAr-AGNlZQDXB2xWAgInPgHa5h_gGysaR9uI1JOE9iR0q_JWmJKreGPZL46eM-yE_nLmF7f-WNtQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.bbb.org › georgetown › category › epoxy-...",
+      "website_name": "Better Business Bureau",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Showing: 176 results for Epoxy Floor Coating near Georgetown, TX ; Fresh Coat Painters of North Austin. Painting Contractors, Stucco, Residential Painter ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Epoxy Floor Coating near Georgetown, TX"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESrQIBxCJF11pWj8bTJgMJMLM6qVBjkxZP8qNDTsVNfp-ih3sODZfGK5VVk6_lIUR8-mvhUfJbA0EFpUxaZvkGKj22UhNT6qYezfiJwU1oAYHrEfDP0yP3O9-L9fDvqCzRPgeC4ZgkkdnuL0NMeb2p2nvjYgZN7-92ErRGFY93oHFIPMh4D4AyGQCBetok9QK6Meb4dg6lR383dOw5OJ8FWb4HxBn3xP_O2jY2h5MBxBwNUckROoj8w4nUX5XSMmq9smZZnG6VxBAuOQe7qWvW9Ho7jG4FIwwy5oXGYpIlcJ9QhZLvMwFiC283mwiJjHcxuByhPzH7SwRzJJsL83JXuKdikBDAq4jKAVAYNmc6JfdnA0Nkalwl4OmjCIb9zRUB960NCGr6_xZa0zVd28kx",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "Georgetown Texas Pro Epoxy flooring",
+      "reviews": 0,
+      "rating": 0
+    },
+    {
+      "name": "Texas Tough Concrete Coatings",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "MyGarageFloors.com - Garage floor coatings Leander",
+      "reviews": 0,
+      "rating": 5
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 8,
+  "status": "marginal"
+}

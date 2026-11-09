@@ -1,0 +1,37 @@
+{
+  "slug": "junk-removal-port-st.-lucie",
+  "analyzed_at": "2026-11-09",
+  "competitors": [
+    {
+      "domain": "junktrust.com",
+      "summary": {
+        "backlinks": 104,
+        "referring_domains": 81,
+        "rank": 113
+      },
+      "top_referring_domains": []
+    },
+    {
+      "domain": "homeguide.com",
+      "summary": {
+        "backlinks": 282308,
+        "referring_domains": 28171,
+        "rank": 446
+      },
+      "top_referring_domains": [],
+      "note": "Lead-gen platform — not a direct competitor"
+    },
+    {
+      "domain": "networx.com",
+      "summary": {
+        "backlinks": 787420,
+        "referring_domains": 5098,
+        "rank": 503
+      },
+      "top_referring_domains": [],
+      "note": "Lead-gen platform — not a direct competitor"
+    }
+  ],
+  "common_sources": [],
+  "link_building_targets": []
+}

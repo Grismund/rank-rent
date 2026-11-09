@@ -1,0 +1,272 @@
+{
+  "volTotal": 20,
+  "volPrimary": 0,
+  "maxCpc": 0,
+  "rentEst": 0,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Commercial Cleaning Services near Georgetown, TX",
+      "url": "https://google.com/goto?url=CAEShwEBxCJF1_O_FJqIisEbtSTJgYnd81gNZDod5CUy8rv4ESgAMKMmJy0-Q-DhD6rXNwxKyl4LHdExXZrbd59NE_3WRlMtefPkLesTxvGUGEfilZPXT_qkAcuDhuYLRCrmkofJM-f6qnvftq2N-Bu1i67zuC4n5Kyk6qUzieQRffERp--PXqSLTO4",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.bbb.org › georgetown › category › comme...",
+      "website_name": "Better Business Bureau",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "BBB Directory of Commercial Cleaning Services near Georgetown, TX. (512) 947-6035 Georgetown, TX Services (512) 679-1734 (512) 784-6844. Cleaning Carpet and ...",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "512) 947-6035 Georgetown, TX Services"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Commercial Floor Cleaning Service in Georgetown, TX",
+      "url": "https://google.com/goto?url=CAESbQHEIkXXgg05XvjKlw2xA7NS3nv0i1LCzV_errVfoGToy3VJocWC6OPez45ppacWfaBDbuwJVd-ytICebb6mDeeXDHeYxYHHYU9Y2KRsOT5B-b--zkIAVSqwUdO_mR5FMbeFIMo2LvEA5_UF_6U",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://spacekfloorcare.com › commercial-cleaning",
+      "website_name": "Spacek Floor Care",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "512-818-7896 Professional Commercial Floor Cleaning in Georgetown, TX. Get a FREE estimate! At Spacek Floor Care, we specialize in commercial floor deep  ...",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Commercial",
+        "Cleaning",
+        "Georgetown",
+        "commercial"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Commercial Cleaning in Georgetown, TX",
+      "url": "https://google.com/goto?url=CAESeAHEIkXXz9wcbV1o_5gQvyd7GwBQDWllyZKbT6h4GdE8gaIbH02l6DEZSmMs9Wi94u_NMqDbbk0HLnNwD2fdVMPBecioWgVQaa3loMEEfRM4gJfjXqS74NeMNK3pzuoNGReIXdiU6BCcwYKIA7HwgafmtQS1FDjuJg",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.beyondeco.net › commercial-cleaning-geor...",
+      "website_name": "Beyond ECO",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Beyond Eco proudly serves Georgetown businesses with eco-friendly commercial cleaning services, from the Historic Downtown Square to Wolf Ranch and the ...",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Georgetown",
+        "commercial cleaning"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Commercial Cleaning in Georgetown, TX",
+      "url": "https://google.com/goto?url=CAEScwHEIkXXOS_4-9JnKdK2HsQuzgZwvHF7Lgq9m7PrTiJDh7x9-XnOToIdKBDytk7s6QE7aVknkXe5crneR4vTAEgBbUvwAD5Dh6whoKHIk46SaC5H3Cz-biiAXvySLrGeRzKfZnr19jPYaw_scjSP0kW7KIA",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.leekscleaning.com › service-areas › george...",
+      "website_name": "leekscleaning.com",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Leek's Cleaning Services provides after-hours commercial cleaning across Georgetown and Williamson County: corporate offices and law firms, warehouses and ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "provides after-hours commercial cleaning"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES6wEBxCJF1_VkfmDTB7L4a83h6bFu32967gTFohwXU8FUv7T--qpVpdPby9jrm5u5b9uvI5A-ihUsetwhp6EM1StbF_mxoH1EA4KljF0M0_XYFMlCjlIfI-3u3hr6-x-O_7OcC05CxjEu4A1RuGW6mGSLj09aFBEBd5bz-Tx_wcPV7fd-ewnywyah9UUAm2jkSByx2vJKm5vO4lIHHlBzSwhuH7Exke8NxmkLfmIw-01nqBagd1yoOjjOyPt1uN9tvJBAIDl7FyuoKX0u6x5pmnftoIV2d46JE8RcfPBeX_W3SqrT62_u3PTYTej5",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "TOP 10 BEST Janitorial Services in Georgetown, TX",
+      "url": "https://google.com/goto?url=CAESkAEBxCJF10vT_QikeHGNKZiitfHR52G6JnR_r5lEcCv4xU0tw5WVsHNL2MQ5l-nRWoLFm1dUk2TtEWzPZAdEYXXyRqvEt2xk0n5Je6y-Eeh8kYG6m9lamMYIbP5-abo22lkKBeo9iNKFdCEyaRWgFX1pYC-BEPQ7JE0tRz2uFRu4KLz69A3VbDOVNF-tirWKzTQ",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › Home Services",
+      "website_name": "Yelp",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Top 10 Best Janitorial Services Near Georgetown, Texas (Updated 2026) · Local Carpet Cleaning Co · Empire Cleaners · OrakPro · Jehová Yiret Cleaner Service. Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "commercial cleaning georgetown from www.yelp.com",
+          "url": "https://google.com/goto?url=CAESkAEBxCJF1y5NMUXE-qpu6Tw8KgT3kqbuCA2q-wsu2NOVooNxM42KsaFpC3WpZoGLigw51TQ84FHyMudcL0CVQiwlrK2xXfimBpWBwwarzbsdZQAr2fgYa4l-avKSS1bZV8r7AaZkd4pjWUTdBGBqdQxAQhA7y_h9Pa_fkW3G-E3f9lurmrwihmDVeM9IklY24rc",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090325-3011-0139-0000-8e07f590207f:0"
+        }
+      ],
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 1183,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "Local Carpet Cleaning Co"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES5AIBxCJF16mjG8J_r-YuNc4CeHtLBqo81RXxid10WFX-iRWkwBH7hI6otRDH6-LDajmSDlmRmwmurL2ay3BQQfxgNRvOT8hvkGPMDy7CycqhbrPebxCtZEeF2CHYpfLWljaXdo0v2ChmiRWudM0lawPV0J8E4LwO6ZNV0UkZ1wB_x0O4Mba88uJPNAqjlaUTfXVyzo0AdAQCBKpDS1v0FsqPHz5YyptzlQwLepUAXfvxKsrsy7MFaDvfxbF-XZBoYgkfY9JIalpB6PNjYaqXbRm4LJc9-fGfBCo-RF4uAEq33xVg3UlcujnmYguPHaUGAozQY3RnVEJzK-4JMz6IS_VNRuqWldZHEZnj72yytcp41gT9EM7tFnQ20T6mAxFT2lf7wVVUcjTfNz-RyKPf5Jyn7r7Qnofnk1U0Dwl1YMlZekx1haxeDXzguM5aqdSjKMxkcTb1qtH5Fx8oOHvKQkKiFnZrIA",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "Fairy Commercial Cleaning LLC",
+      "reviews": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Bee Natural Residential & Commercial Cleaning Service",
+      "reviews": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Austin Skyline Cleaning Services",
+      "reviews": 0,
+      "rating": 5
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 8,
+  "status": "marginal"
+}

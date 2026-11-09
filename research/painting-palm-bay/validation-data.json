@@ -1,0 +1,287 @@
+{
+  "volTotal": 30,
+  "volPrimary": 0,
+  "maxCpc": 20.61,
+  "rentEst": 0,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Amazing Glaze - Updated November 2026 - 3 Reviews",
+      "url": "https://google.com/goto?url=CAESagHEIkXXvhAp9blSg_XktIBsJ3xRNkPV1WTbkxWRrfVcSze46x9g7raCL6CMT1l3pU14YV8B1g_mWUjxV8AS9hazVu2JrfHcd3rfUu06stUa4DqYHqs2qn5VjfLsMQzvrSDWpR7n0Cg8tSM",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://m.yelp.com › biz › amazing-glaze-palm-bay",
+      "website_name": "Yelp",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Amazing Glaze - Paint table choices - Art Classes Near Me - Palm Bay, Florida … 3540 Jupiter Blvd SE Ste 4 Palm Bay, FL 32909 Directions (321) 802-5600.  ...",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "painting palm bay from m.yelp.com",
+          "url": "https://google.com/goto?url=CAESagHEIkXXaYJBMXs95T6bdQFX-GWNeLbQ_bvsebNT_8ISc27tGEYlrwrUtLpzIsUQjilvxHVC5RIY8u6f6lp3pCj3CbeOFKgz1ddkFevFQoA9-H00pwHcYaVHdBevT3iwnAJFEwgyDfOzZ4g",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090335-3011-0139-0000-7b021460b8aa:0"
+        }
+      ],
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 2.7,
+        "votes_count": 3,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "3540 Jupiter Blvd SE Ste 4 Palm Bay, FL 32909"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "TOP 10 BEST Pottery Classes in Palm Bay, FL",
+      "url": "https://google.com/goto?url=CAESigEBxCJF1yMsFWxCZx6axf2L-caKesezQYw9v_QK0YlXSxdEZh6nwnR6uUoejurmsbXZyTzdt9CC6ps_2LgMuPbBFLXqwoXEfUPqo3QcR_5s3afJ4Xf81od7VUMFnscuhUWxGH_FeGgGDAXQzrM7yDq4J4nSuUNpkKNX8d8_ZHdw22QWKBkyCR6ZuxM",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › Shopping",
+      "website_name": "Yelp",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Top 10 Best Pottery Classes Near Palm Bay, Florida (Updated 2026) ; 1. Harbor City Art · Art Classes · Art Galleries. 7.6 mi ; 2. Seagrass Pottery · Art Galleries. Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "1. Harbor City Art"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESzAIBxCJF1_8hneGme_xNQ4Vm4jefjlOoT6P2vb5OZ1kcDDfG91PNXK-kfda9c-C8P3C8BxwM-g2FU9vFudS1PIIhqzMpUacVlwdfk7JCTr9DYFkSI-967GCovBCa223oAmLpjay8cxJi7GSH2sXFmsgaOOh-Hls1KhWdIYrR2oIz9yNtyhRdTYa1yKkAYIwpvRd7pT8LrDvqtGcuodJb-9-k392rh1G4EhCAEA-Mbhyg_82WT5UIDuLGjhsQSpx0Op_d1NHspRulAjO_sxGwLalJ4wBIsQMQTYM6r5fWSr8eEJt7u5REUyKwkv23ncuYfIHKkltMZXubVukhsT2UZONA30UMOzOY67dBd0IglHgD8TKRhy7Q8zFxhsJOpyyAHefMdOrkKSRVEfyzB-VawiTbbhkmumE8_WCNdzjRLYBalR___lOhPJof-9iAyA",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Services - Amazing Glaze",
+      "url": "https://google.com/goto?url=CAESYQHEIkXXF-pttRdPYgi0r2RivFyw7uukKpCMY5oYBFDI7sQNU8jyvIGEhI2yrRBRR6lh5GpEosIqZnMnQTV1kvdOEytkmespA9GUkb8i3Ss1_pJ-WMEuyDe2__K2kxisPm8",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://amazingglaze.fun › services-2",
+      "website_name": "amazingglaze.fun",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "(321) 802-5600 (321) Amazing Glaze host your next big occasion! kids painting pottery palm bay florida (321) 802-5600 amazingglaze321@gmail.com",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "painting palm bay from amazingglaze.fun",
+          "url": "https://google.com/goto?url=CAESYQHEIkXX9sNxd40dkHteC-ADf067caoxPzzLLuyUVQfcNhEKM8Pki1xJ6dwDiOHCIcGbK-Ika0rxFiPtPzXbQWfNzQ8Qq-a5gllhA2rrKvjN0dA3ORDrwiB6BcZ-m3rvkbY",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090335-3011-0139-0000-7b021460b8aa:1"
+        }
+      ],
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "kids painting pottery palm bay florida"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Palm Bay art studio hours and events",
+      "url": "https://google.com/goto?url=CAEShAEBxCJF11m0bhyNqtUPBjnV1QB0vQMDqIhVghG5W0tpdDD449E6i9mWdz2E7XAvHY7dn77ocYaK7CgqZnujwzoBiBUDkDAnbQg9hPFqb79ek07LonGFFCZR42bZadA2nx1LtTHLLlWXaaKo5R58X0nvzuP7HaxehqhsH9CEvoOYkror7R0",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "70+ comments  ·  11 months ago",
+      "website_name": "Facebook · Palm Bay Florida",
+      "is_image": true,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Amazing Glaze 321-802-5600 Pottery painting studio, located @ 3540 Jupiter Blvd SE unit 5 Palm Bay, FL 32909. Check out our Facebook page for ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "painting palm bay from www.facebook.com",
+          "url": "https://google.com/goto?url=CAEShAEBxCJF14dtW9PaWyZhD3IVprB1r_ag6Hsfnk07BoLRjg7OREUf_TYCmOAliJqF5MZdLvegFWGulh_qTuLyUoiGIBsC9VeKSt8I0J-w5GAoeIbxeUiqsezawBc9ip5cRduPLvTDMetYXoDY-bXiIQvuwdlp7eIpJO0qubwGkTJ812mizmw",
+          "image_url": "https://api.dataforseo.com/cdn/i/11090335-3011-0139-0000-7b021460b8aa:2"
+        }
+      ],
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "painting",
+        "Palm Bay"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES6wEBxCJF1-G7QEZRCT00JD7LSeLWI9HWQMusQ666ao-VA36ZjEELbkOsvQtTZb69Oq7yjdeZhYVBF6n2I4c3OdN7Z20FXIU99bVH46mAFAEBFW64_WjejElCNy_UNUSiZ8OOc0Rgr1bfVmuihwglCL5zwy72HGGOIGQMpgxfnbXzUyMGxB_vU-fUGf1-7qBcogKt4TR6Opl4lmalSZZO9_bbXb99Tqm5os4rTpY-dQ7K6EqLempdsNSGx8OIcrqPDLt11nBgn8tQLBF8io2vneuRCeGtZgW77aY-AslTmEbNi_Hqcmfma0EAXIrs",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Brevard County: Make and Take Studios",
+      "url": "https://google.com/goto?url=CAESggEBxCJF14rUelimBHxP-T7xYcdtx39Y2Ltbs8oMnRFPx3dwyPjrKf7GuXz-kMszWI_3q3BVV8c0ZZzdIS26s89Wbzah8aSUmfRrHGUiCL46nejA6dLF3aqVS1pZR7xWyObR1F99THpAfUBSuDGoYvmTOiSFMHfpDNUHG9tVftWTa_VH",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://fun4spacecoastkids.com › Fun-Around-Town › M...",
+      "website_name": "Fun 4 Space Coast Kids",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "3540 Jupiter Blvd SE Suite 5, Palm Bay, FL, 32909 (321) 802-5600. Join us to paint pottery, canvas painting, workshops & glass fusing,",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "3540 Jupiter Blvd SE Suite 5, Palm Bay, FL, 32909"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "The Glitz & Glam of Art",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Amazing Glaze",
+      "reviews": 0,
+      "rating": 4.6
+    },
+    {
+      "name": "Brevard County Painting LLC",
+      "reviews": 0,
+      "rating": 5
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 1,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 9,
+  "status": "marginal"
+}

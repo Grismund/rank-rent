@@ -1,0 +1,35 @@
+{
+  "slug": "paver-sealing-cape-coral",
+  "analyzed_at": "2026-11-09",
+  "competitors": [
+    {
+      "domain": "swflwashandseal.com",
+      "summary": {
+        "backlinks": 93,
+        "referring_domains": 86,
+        "rank": 62
+      },
+      "top_referring_domains": []
+    },
+    {
+      "domain": "paverprotectors.com",
+      "summary": {
+        "backlinks": 335,
+        "referring_domains": 264,
+        "rank": 138
+      },
+      "top_referring_domains": []
+    },
+    {
+      "domain": "poolarmorpros.com",
+      "summary": {
+        "backlinks": 140,
+        "referring_domains": 134,
+        "rank": 207
+      },
+      "top_referring_domains": []
+    }
+  ],
+  "common_sources": [],
+  "link_building_targets": []
+}

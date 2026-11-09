@@ -1,0 +1,27 @@
+{
+  "slug": "bathroom-remodel-conroe",
+  "analyzed_at": "2026-11-09",
+  "competitors": [
+    {
+      "domain": "modernize.com",
+      "summary": {
+        "backlinks": 51108,
+        "referring_domains": 12466,
+        "rank": 369
+      },
+      "top_referring_domains": [],
+      "note": "Lead-gen platform — not a direct competitor"
+    },
+    {
+      "domain": "rdconst.com",
+      "summary": {
+        "backlinks": 130,
+        "referring_domains": 83,
+        "rank": 72
+      },
+      "top_referring_domains": []
+    }
+  ],
+  "common_sources": [],
+  "link_building_targets": []
+}

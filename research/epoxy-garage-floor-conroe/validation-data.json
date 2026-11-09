@@ -1,0 +1,283 @@
+{
+  "volTotal": 10,
+  "volPrimary": 0,
+  "maxCpc": 3.43,
+  "rentEst": 0,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Epoxy Garage Flooring | Garage Floor Epoxy Coating",
+      "url": "https://google.com/goto?url=CAESYQHEIkXXeCNBtmAE1Hv8k3dwtSVSj9R8ijo5_8nbO3918eRyQLktvJt52UmwMwKpouTHfYgzKHBlvZTytbXZkkYg5BIKjlYSYbJvLzD9AGLt7MJRQtBV1OsbpPEuhulKpGE",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://epoxygarageflooring-llc.com",
+      "website_name": "epoxygarageflooring-llc.com",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Epoxy Garage Flooring; 13921 Highway 105, #143; Conroe, TX 77304; (281) 967-0780 · Contact. Bryan- College Station. Epoxy Garage Flooring; Bryan- College ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "13921 Highway 105, #143; Conroe, TX 77304"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESqAEBxCJF1w3yuSa3Rpcm_MsoL86CJFdVLEh79hJkhW6qeXyDNNI9ibhZRF2rOJYDfTNxvLlqXo8f3fLrPUndNIzI65mh6EKSFSVmDGp10o6FUd-Xmp9p4QzouJ1z20IdDdNjTXkWKEj-sZJkCH3CiQy0Z27izdRj0ARa-GiSzJXVVv7m366sRrbS9GewTRFJ7jaQjbNNtj0k7k3bsShDTtSgJL-lo-m8zqk",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Conroe Garage Flooring",
+      "url": "https://google.com/goto?url=CAESXgHEIkXXJD7uEZBwl14D7CKjKYf49tpTyoWa7xzHZS63zN2HclBfqxusapQOj83R6pyuAK8wZux-Y52lbv-ybR2C9XwHKeoRN7OblvYo9E6VraPZgb4EYnPIXsLEz3Q",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://conroegarageflooring.com",
+      "website_name": "conroegarageflooring.com",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Home · About Us · Services · Residential Epoxy Flooring · Commercial Epoxy Flooring · Polyaspartic Flooring · Concrete Resurfacing. Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "Residential Epoxy Flooring"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESjwEBxCJF19e7TNMepKVm9CO7EjNvvaVSin2FwDQonYfzCnHPPiX-UUUnFprcFPzPwwgY_uh8BTFWseQ6--sFsYq4lxjO2AFJb-7ezEAKe3pBWky0kaRye4FD0DLuW9Pe8d0N3eXUWTDWgG6qHB9k1Oe0UMZctEmBQncQhDy1teO4OpJ52mNs2vwiuFE-hSaUxw",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 7,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "TOP 10 BEST Epoxy in Conroe, TX - (2026 Guide)",
+      "url": "https://google.com/goto?url=CAESfgHEIkXXZx42Hj2DROKndS0-kPDNlnZPjj4IpNnJE5WdVq0KXpbmjzqlWXF1hvKAoPopnnKbYiDNp90XlqqwBBeUQvjuV63JEfK-01ehgpCs8tnymtogymXYLT4WGivLzyFaBMjfst5n7XBvN6LGnr1Eik8YaAUegCza04Ih9g",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › Home Services",
+      "website_name": "Yelp",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Top 10 Best Epoxy Near Conroe, Texas (Updated 2026) ; Mr Epoxy Garage Flooring · 12.2 mi · Montgomery, TX 77316. (346) 317-4599 ; 1 Day Garage Coatings · 24.4 mi. Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.6,
+        "votes_count": 390,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "Mr Epoxy Garage Flooring"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES1AIBxCJF13XEcnXC5sUfXOAV4VXYcee8AQ8p4uowsTK_n3_r7C5BbHxpsUZWyQhvoqwujpLOOHRvM-v3eE3_OEAd2aQk3Kd81smAwfhkhVR6Ey7DTUVN5T-Ybq0fn5IEOszuO3pYUHM8916yX5lMliRcOjhBoEcZG5W9MWA_e3Ln8e1u2Rtt0KkPVSwyGJvEq-qvnmObE9S9PmRt5Ul03DgM4S3ycEFnYKMbsvKp8764faMRLjzRUxM84fjpYW9JSbc9D2p-bRJHUdbL93CcM0nqvFRihpjzd5aoK73Nh5iBHLN4e67FAzPNRiNQYAR4HA38p6tAj_vhuMJa5AhUi7TKsCfHltgyIA9VRWumNmggNFCGmcFIF8NN08eyyqnQ-_xcHNDZ1Vsa8UATs5mX89zrU5h-vrNFmgHI14pnej3yxW8rvLmSWtk2j8_PvSfPKVekxYx0",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 9,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "1-Day Garage Floors in Conroe, TX",
+      "url": "https://google.com/goto?url=CAESmgEBxCJF179v7FasscCJDOrKOOUX3FDBFOcK18bH_KlCtz35zUlLyhz1gUZR6o1_C-6NjuR_SpjZFQSLW02cVbr0nt2PsucgrJ6QUxR8hKDDjPnO-31JQP_z_zaRTL79AJXHTQAlG06vRINXmjg7B4-K-SFPuZASZCMo2O8lLzuu1s7uVskSjMwsuJb8nipeIl7FjecIkLRY_KRB",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://sunflowerfloorcoatings.com › houston-tx › garage...",
+      "website_name": "Sunflower Floor Coatings",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "1-Day Garage Floors in Conroe, TX. Let us transform your concrete floor with a faster, better alternative to epoxy. Estimate Your Project. Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "1-Day Garage Floors in Conroe, TX"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES6AEBxCJF13qOroxvlR7tE-foXWG0MmTD_FGwE4r_J3jMBUGudlcA6xDdob7cvmINCWWSK7CVrEbIk6aKYpBFUHRwqhgggW_818da3F8q8f04WtFxFrJdoOgsmePToDvVDFH3eUs4J4Y3E5IhCrqp91mYFKtZ1z6JHJ8GS6QzTEta5buCe5qDVcCk3c-en1U_BJSKWaIMcyMeolh46iNzCa25RqBQssXQcZir8vm5Cbs36xhRaaXgq7qWqt-HvmaXUJd-ws1OU4NgXL-LikkKGooUnSjpDfl6pxMczJNFYcmvwH5rmflJNVSo",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Conroe, TX garage makeover with epoxy floors and wall art",
+      "url": "https://google.com/goto?url=CAESgQEBxCJF16_Bek6mUrsLLLlAyeJKTvEoCuPyuScNcFKDriviaPBudolans5glg13Qi6uBKYelfJAAe9tVe0JvKOhfKWxqVej1b50M_a1pGzweL0M98gX4Df0i1GRvXBFPEgVCgdEt2tc8bFslPzreAAjrZzTStH3D8XNks4FPwcRPfE",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "2 comments  ·  4 months ago",
+      "website_name": "Facebook · I Love Conroe More Uncensored Chat",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Precision concrete coating installs epoxy garage floor coating and polyaspartic floor coatings built to handle hot tires, oil drips, and ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "epoxy garage floor coating"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES4gEBxCJF1zEymEIhXgFGNdOHZwAwar5_V_2UCzO9s347zfmlKEFK68F-ZjZzmQe3_bu0IR2n1DcF49Z0-CJF_1lgEwCP5sPEDq48Ojio95dYz5FIb_o4LzwCVEynkY51n7HzwW6h2eYkX0CAcMqs99IgbMn_bE1idk0A-6e1z-_PdkyV7Kp7l-JoyLsL6E0KC1ROQLSQcak2Piz26pnNiApbkGwGgUdKWGVj-4nnLtvMFhIb2WbY6ckBwCTTUzHJLqDP_GMCmUHgmn00ZEi-7Vt1iRwxs8j63WUV4XtTkfxkTGQe",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "Epoxy Garage Flooring, LLC",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Garage Floor Effects",
+      "reviews": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "All About Epoxy",
+      "reviews": 0,
+      "rating": 4.6
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 8,
+  "status": "marginal"
+}

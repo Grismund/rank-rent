@@ -1,0 +1,35 @@
+{
+  "slug": "bathroom-remodel-new-braunfels",
+  "analyzed_at": "2026-11-09",
+  "competitors": [
+    {
+      "domain": "wimberleybathrooms.com",
+      "summary": {
+        "backlinks": 65,
+        "referring_domains": 63,
+        "rank": 0
+      },
+      "top_referring_domains": []
+    },
+    {
+      "domain": "bulverdebathrooms.com",
+      "summary": {
+        "backlinks": 40,
+        "referring_domains": 38,
+        "rank": 0
+      },
+      "top_referring_domains": []
+    },
+    {
+      "domain": "sandstoneconstructiontx.com",
+      "summary": {
+        "backlinks": 10,
+        "referring_domains": 10,
+        "rank": 0
+      },
+      "top_referring_domains": []
+    }
+  ],
+  "common_sources": [],
+  "link_building_targets": []
+}

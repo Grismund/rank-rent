@@ -1,0 +1,36 @@
+{
+  "slug": "pool-builders-port-st.-lucie",
+  "analyzed_at": "2026-11-09",
+  "competitors": [
+    {
+      "domain": "stluciepoolinstallers.com",
+      "summary": {
+        "backlinks": 183,
+        "referring_domains": 144,
+        "rank": 45
+      },
+      "top_referring_domains": []
+    },
+    {
+      "domain": "familypoolsinc.com",
+      "summary": {
+        "backlinks": 211,
+        "referring_domains": 130,
+        "rank": 101
+      },
+      "top_referring_domains": []
+    },
+    {
+      "domain": "poolpad.com",
+      "summary": {
+        "backlinks": 294,
+        "referring_domains": 109,
+        "rank": 291
+      },
+      "top_referring_domains": [],
+      "note": "Pool directory — not a direct competitor"
+    }
+  ],
+  "common_sources": [],
+  "link_building_targets": []
+}

@@ -4,6 +4,7 @@ import {
   enrichCandidates,
   enrichWithJobEconomics,
   extractTeardownVerdict,
+  extractTeardownData,
   buildRegionSummary,
   buildNicheSummary,
   findCommonSources,
@@ -209,6 +210,106 @@ describe('extractTeardownVerdict', () => {
 
   it('returns null for empty string', () => {
     expect(extractTeardownVerdict('')).toBeNull()
+  })
+})
+
+describe('extractTeardownData', () => {
+  it('extracts verdict, assessment, and keyFinding from well-formed teardown markdown', () => {
+    const md = `# Teardown: tree removal in Odessa
+
+## Verdict: BEATABLE
+
+Majority of competitors have thin content, few referring domains, or poor on-page SEO. This niche is winnable with solid content and basic link building.`
+    const result = extractTeardownData(md)
+    expect(result.verdict).toBe('BEATABLE')
+    expect(result.assessment).toBe('Majority of competitors have thin content, few referring domains, or poor on-page SEO. This niche is winnable with solid content and basic link building.')
+    expect(result.keyFinding).toBe('Majority of competitors have thin content, few referring domains, or poor on-page SEO.')
+  })
+
+  it('returns first sentence as keyFinding (up to first period)', () => {
+    const md = `## Verdict: TOUGH
+
+The backlink gap is substantial. However, no competitor specifically targets this keyword. A purpose-built site could compete.`
+    const result = extractTeardownData(md)
+    expect(result.keyFinding).toBe('The backlink gap is substantial.')
+  })
+
+  it('handles multiline assessment paragraphs', () => {
+    const md = `## Verdict: TOUGH
+
+The backlink gap is substantial (median 99 referring domains), making this a medium-to-high effort play. However, no competitor specifically targets "tree removal odessa" with both domain and on-page optimization.
+The strongest Odessa-specific site (advancedtreeclinic) has weak on-page SEO.`
+    const result = extractTeardownData(md)
+    expect(result.verdict).toBe('TOUGH')
+    expect(result.assessment).toContain('medium-to-high effort play')
+    expect(result.assessment).toContain('weak on-page SEO')
+  })
+
+  it('returns null fields for markdown without a verdict', () => {
+    const md = '# Some markdown\n\nNo verdict here.'
+    const result = extractTeardownData(md)
+    expect(result.verdict).toBeNull()
+    expect(result.assessment).toBeNull()
+    expect(result.keyFinding).toBeNull()
+  })
+
+  it('returns null fields for null/undefined input', () => {
+    expect(extractTeardownData(null)).toEqual({ verdict: null, assessment: null, keyFinding: null })
+    expect(extractTeardownData(undefined)).toEqual({ verdict: null, assessment: null, keyFinding: null })
+  })
+
+  it('returns empty assessment when verdict heading has no paragraph after it', () => {
+    const md = '## Verdict: SKIP\n'
+    const result = extractTeardownData(md)
+    expect(result.verdict).toBe('SKIP')
+    expect(result.assessment).toBe('')
+    expect(result.keyFinding).toBe('')
+  })
+
+  it('stops assessment at next heading', () => {
+    const md = `## Verdict: BEATABLE
+
+Competitors are weak and poorly optimized.
+
+## Next Section
+
+More content here.`
+    const result = extractTeardownData(md)
+    expect(result.assessment).toBe('Competitors are weak and poorly optimized.')
+    expect(result.assessment).not.toContain('Next Section')
+  })
+
+  it('backward compat: extractTeardownVerdict still works unchanged', () => {
+    const md = '## Verdict: BEATABLE\n\nSome assessment text.'
+    expect(extractTeardownVerdict(md)).toBe('BEATABLE')
+    expect(extractTeardownVerdict('')).toBeNull()
+    expect(extractTeardownVerdict(null)).toBeNull()
+  })
+})
+
+describe('enrichCandidates teardown data', () => {
+  it('attaches teardownAssessment and teardownKeyFinding when teardownMap has object entries', () => {
+    const candidates = [{ slug: 'tree-removal-odessa', score_total: '11' }]
+    const teardownMap = {
+      'tree-removal-odessa': {
+        verdict: 'TOUGH',
+        assessment: 'The backlink gap is substantial. No competitor targets this keyword.',
+        keyFinding: 'The backlink gap is substantial.',
+      },
+    }
+    const result = enrichCandidates(candidates, {}, teardownMap, {})
+    expect(result[0].teardownVerdict).toBe('TOUGH')
+    expect(result[0].teardownAssessment).toBe('The backlink gap is substantial. No competitor targets this keyword.')
+    expect(result[0].teardownKeyFinding).toBe('The backlink gap is substantial.')
+  })
+
+  it('still works with legacy string teardownMap entries', () => {
+    const candidates = [{ slug: 'tree-removal-odessa', score_total: '11' }]
+    const teardownMap = { 'tree-removal-odessa': 'TOUGH' }
+    const result = enrichCandidates(candidates, {}, teardownMap, {})
+    expect(result[0].teardownVerdict).toBe('TOUGH')
+    expect(result[0].teardownAssessment).toBeUndefined()
+    expect(result[0].teardownKeyFinding).toBeUndefined()
   })
 })
 

@@ -1,0 +1,41 @@
+{
+  "volTotal": 50,
+  "volPrimary": 0,
+  "maxCpc": 8.26,
+  "rentEst": 0,
+  "organic": [],
+  "topDomains": [],
+  "maps": [
+    {
+      "name": "Shade Customs Window Tinting",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Georgetown Window Tint",
+      "reviews": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "RC Makeready Tint & Detail",
+      "reviews": 0,
+      "rating": 5
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 0,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 8,
+  "status": "marginal"
+}

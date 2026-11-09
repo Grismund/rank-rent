@@ -15,7 +15,7 @@ import {
   buildFunnel,
   enrichCandidates,
   enrichWithJobEconomics,
-  extractTeardownVerdict,
+  extractTeardownData,
   buildRegionSummary,
   buildNicheSummary,
   findCommonSources,
@@ -41,13 +41,13 @@ for (const slug of readdirSync(researchDir)) {
   }
 }
 
-// Load teardown verdicts
+// Load teardown data (verdict + assessment + keyFinding)
 const teardownMap = {}
 for (const slug of readdirSync(researchDir)) {
   const tPath = join(researchDir, slug, 'teardown.md')
   if (existsSync(tPath)) {
-    const verdict = extractTeardownVerdict(readFileSync(tPath, 'utf8'))
-    if (verdict) teardownMap[slug] = verdict
+    const data = extractTeardownData(readFileSync(tPath, 'utf8'))
+    if (data.verdict) teardownMap[slug] = data
   }
 }
 
@@ -185,6 +185,7 @@ function candidateRows() {
             </div>
           </div>
           ${c.teardownVerdict ? `<div style="margin-top:12px"><strong>Teardown Verdict:</strong> ${verdictBadge(c.teardownVerdict)}</div>` : ''}
+          ${c.teardownAssessment ? `<div style="margin-top:8px;padding:8px 12px;background:#f0f4f8;border-radius:6px;font-size:13px;line-height:1.5;color:#334155;border-left:3px solid ${c.teardownVerdict === 'BEATABLE' ? '#22c55e' : c.teardownVerdict === 'TOUGH' ? '#eab308' : '#ef4444'}">${esc(c.teardownAssessment)}</div>` : ''}
           ${buildBacklinkSection(c)}
         </td>
       </tr>`
@@ -204,7 +205,7 @@ function candidateRows() {
       <td data-sort="${score}">${score || '—'}</td>
       <td data-sort="${c.score_organic != null && c.score_organic !== '' ? c.score_organic : ''}">${c.score_organic != null && c.score_organic !== '' ? `<span style="color:${String(c.score_organic) === '2' ? '#22c55e' : String(c.score_organic) === '1' ? '#eab308' : '#ef4444'};font-weight:bold">${c.score_organic}</span>` : '—'}</td>
       <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:${statusColor(c.status)};color:#fff;font-size:11px">${esc(c.status)}</span></td>
-      <td>${c.teardownVerdict ? verdictBadge(c.teardownVerdict) : ''}</td>
+      <td>${c.teardownVerdict ? verdictBadge(c.teardownVerdict) : ''}${c.teardownKeyFinding ? `<div style="font-size:11px;color:#555;margin-top:2px;max-width:220px;line-height:1.3">${esc(c.teardownKeyFinding)}</div>` : ''}</td>
     </tr>${detailHtml}`
   }).join('')
 }

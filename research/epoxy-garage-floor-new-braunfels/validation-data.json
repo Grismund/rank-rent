@@ -1,0 +1,271 @@
+{
+  "volTotal": 20,
+  "volPrimary": 10,
+  "maxCpc": 20.24,
+  "rentEst": 11.385,
+  "organic": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "ATX Concrete Coatings – Best Concrete Coating Contractor in ...",
+      "url": "https://google.com/goto?url=CAESXAHEIkXXmDWrCzKfjn50xVcVQWHxj3Y4KmzZsoKB9ZsL1g8dGyq1zVwk_P-9sNAxnCCv672pTzPuIRH6Rz0yY4TNzEgJg0wLKZYYA1iboudscn70_Eo-ZAjWSXui",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://atxconcreteflooring.com",
+      "website_name": "ATX Concrete Coatings",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "ATX Concrete Coatings did an amazing job on our garage epoxy and back patio! Easy to work with, highly recommend! The clearest primary service is epoxy ...",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "ATX Concrete Coatings did an amazing job on our garage epoxy"
+      ],
+      "links": null,
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Looking for someone in New Braunfels, TX who does ...",
+      "url": "https://google.com/goto?url=CAESwQEBxCJF156VwhhVR7sxz8XqyJ9htXY_w9OO8UZ08CZcsZcLIyIgZGiLniR3Xku71wqO2xk4Fayk71I2mtLKvG4Emuq2MsUUBR0HVm2yiksXbtlKRFVodEynLNaSN-hHYp3vX8IMDHXnvZD-E-7tj8fTMOue8u3OZ8ET_eHyKr-9k2g0UvuVJp3dzN9v9gEydmnkA-NEWXCmjKU4dZDpVJ17khK8weHmb7JbRF1-KBo3jPLWC6taLZZKBlU825w-_4La",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › loc › new-braunfels-tx › lookin...",
+      "website_name": "Yelp",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Looking for someone in New Braunfels, TX who does epoxy garage floors or pool deck overlays—any recs?",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": null,
+      "links": [
+        {
+          "type": "link_element",
+          "title": "1 answer",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESwQEBxCJF13Qute8y0vHNsWWc17fc7VHIdZ18z0oEbUU1GSvoKQJkbDmPVBpOjsr3s7o7voIGhHWpZ68jZel08BknYfxFZBDz6XDz5l8xwh8pNFs2zy8P36XofwYaY1slIrZjgsNGHRrOhEZW3PHxD2_u917Fl9T9O7UfH0eUbnihCy71zTkxeXV5NEyYR56fMS0Sq6n8cIgJIdtW9d0-28MA5GvuNvU-7CM2EpuTEWoZDWMGvQ_LOOlWMoUxmiEpbPJ2",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Epoxy Floor Coating, New Braunfels, TX",
+      "url": "https://google.com/goto?url=CAESqQEBxCJF13gpmF_Vw6TdiKxinptau47ohKqgANfDMhNTMyLozFWOz4qHozVm7OvXZ_Tdojm1Y3OTqHFvFV7GWqvpkQ4W2Zho0Yr4OQoVNlTkBNYtLPakzulS7KP2dw7shHRzVjeu8G56_ET4qi-R78LRe67Ci0UW3iGTfR7k2YMatP5WypulN-Qq-yGtIKgaY74AwXXGaFFKPdZcQX7DVmbmFO6uwYX7TYOg",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://patriotconcretecoatings.com › epoxy-floor-coating",
+      "website_name": "Patriot Concrete Coatings",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Our team at Patriot Concrete Coatings offers the high-quality epoxy coating services you need to keep your San Antonio, Texas property looking their best. Hours ... Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": [
+        "offers the high-quality epoxy coating services"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAES7gEBxCJF1_JHmToEysSfbpk9zT80EsDiz184xZNXMvt7cEN1RYAO9JSwfgDypBewmeXPNu4UCJEevXQM4Yx3n7WYYG0glSIkRQr2hZ5vI3sBpOQ6PmBb-iC1fzmdTSl2udGov-wEK2Xw-697cXrrVeOXWZlOYYuAtAS_JCQR2pZv0PALMcPWXTAHtuZrfRx8vAmcTAKW0r9ImB6OhHfNgjovF3_OJt87P0mpOmeOtld-ZM8Px3FzUzw39K9l6VjPSH9TfPosvdHfaLlmXe0ZTDUsYqDXXNSUprfK6vhPSALVEQ-aeL5fiLpCPkKsXLdV",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "Best Epoxy Coating near New Braunfels, TX 78130",
+      "url": "https://google.com/goto?url=CAESkgEBxCJF11ZbS4UAn0_4PHlj_NTTBodu60eSa-asN7E5UCfUN9yoD8wfzZqNI9ygVAFFRjDNp_6bdTAZgJsKsYT2Tng1KQY-JYkleIoHKu5jhitYFL2nk6wa05dj2sAwAQ2TgTbwlzD9f5CSmZ5waDCEKJdO5IY9piETJOFg2zrfuRX2PzXYc5qSWSRwSa9Pqe0Xqw",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › Home Services › Epoxy Coating",
+      "website_name": "Yelp",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Best Epoxy Coating near New Braunfels, TX 78130 ; Toptek Coatings · Refinishing Services · Masonry/Concrete · Flooring. 23.0 mi ; L.p contractors. 5.0 (3 reviews). Read more",
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.7,
+        "votes_count": 602,
+        "rating_max": 5
+      },
+      "price": null,
+      "highlighted": [
+        "Best Epoxy Coating near New Braunfels, TX 78130"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESowIBxCJF1w_mSJqMmS3qYCx3sYKhFvaAzy3nDuNqYq8Hw9l7NJL1d0LXyrYkdQ0rInLqoXswj96MgXUHM_nQMyhmdai2xP3Caf3UG9QkUxo6B8qVnnEly5X-9kGW6UFNniyGhgsiijhdhOp0ZBKi9iz7MiS5ISpTEtQ9R_-gC9C2p3imoFWIO9Hnik5nKxM7WDhs_GPPngeskMFQdrK2ArnRGlpV19lsTutLwZQWR3PAdLdnp3Fao16SCnEGaAtZ8aaqYmKKfuN5_F_nPAFYct8A9x940pawQy8X2nEEmUbNm3A4Kp6DmucLGiLsW92RhHHFxz1sz1CauumxUWUwbz0ciQ89voj2VpWYDINt02Ck_VTGJ4UavFqP2f4Kw8XY1NOtKag",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": null,
+      "rectangle": null
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+      "domain": "google.com",
+      "title": "I want to refinish my garage floor and pool deck. Any ...",
+      "url": "https://google.com/goto?url=CAESwgEBxCJF1zeBkIpBiXaaQwnb3cZ-FVwc5Ktsl60jPD8zXiM0l1yaSN8vWQHFyvcLU8_92_2bPxSLMNlv9AijUV7ZS6DJaKD_2R-P1mrFaFUzUnprurHERain3oc-xFeqDk5BjvK-5ZQfoHTj7QbAhQ4AVSONi4bo__vWUcn2D2HaErnIyseoI4-rPxYwxL25UqdQDCPgC9laftifeO-KTZD0dMOvgh3DBULFzoUiWnMaC05nqTZoxk_9kFAxPn1HKsxLGg",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": "https://www.yelp.com › loc › new-braunfels-tx › want-r...",
+      "website_name": "Yelp",
+      "is_image": false,
+      "is_video": false,
+      "is_featured_snippet": false,
+      "is_malicious": false,
+      "is_web_story": false,
+      "checks": null,
+      "description": "Oct 1, 2026 — I want to refinish my garage floor and pool deck. Any recommendations for epoxy or overlay contractors in New Braunfels, TX?",
+      "pre_snippet": "10/01/2026 00:00:00",
+      "extended_snippet": null,
+      "images": null,
+      "amp_version": false,
+      "rating": null,
+      "price": null,
+      "highlighted": null,
+      "links": [
+        {
+          "type": "link_element",
+          "title": "1 answer",
+          "description": null,
+          "url": "https://google.com/goto?url=CAESwgEBxCJF1_mVNJD8fx0k2WMktzuxnDZH56w5vwW5KpRq7s2JKw-jgZQJQSa73UOJwKwpdbDb3CMAFp_D9HEqJ2a3S44JOSGC4fP35zO42rxBmSW2cqi5PAyQ8pvnf3oAaYpFaNsU03y-Y_2xHbzAvXuR7zCmrmJlkTQW768emMVNskSZYruVFNoE-V6k7jIsz_S752CVajl5ExHvdYj8LJXKUjde7pF6S9JZpv4eV4yVRXq4RPwnxNsZw4dyXTmlH0vDoQ",
+          "domain": "google.com"
+        }
+      ],
+      "faq": null,
+      "extended_people_also_search": null,
+      "about_this_result": null,
+      "related_result": null,
+      "timestamp": "2026-10-01 00:00:00 +00:00",
+      "rectangle": null
+    }
+  ],
+  "topDomains": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+  ],
+  "maps": [
+    {
+      "name": "New Braunfels Epoxy Flooring",
+      "reviews": 0,
+      "rating": 0
+    },
+    {
+      "name": "NBTX Epoxy Solutions",
+      "reviews": 0,
+      "rating": 4.9
+    },
+    {
+      "name": "Elevated Epoxy LLC",
+      "reviews": 0,
+      "rating": 4.9
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 1,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 9,
+  "status": "marginal"
+}

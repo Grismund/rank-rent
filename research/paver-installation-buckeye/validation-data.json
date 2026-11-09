@@ -1,0 +1,41 @@
+{
+  "volTotal": 30,
+  "volPrimary": 0,
+  "maxCpc": 25.76,
+  "rentEst": 0,
+  "organic": [],
+  "topDomains": [],
+  "maps": [
+    {
+      "name": "Sonny’s Quality Landscape LLC",
+      "reviews": 0,
+      "rating": 5
+    },
+    {
+      "name": "Happy Clean Lawnscapes",
+      "reviews": 0,
+      "rating": 4.7
+    },
+    {
+      "name": "Preach Building & Landscape Supply",
+      "reviews": 0,
+      "rating": 4.5
+    }
+  ],
+  "mapsTotal": 20,
+  "trends": [
+    50
+  ],
+  "signals": {
+    "volume": 0,
+    "cpc": 1,
+    "mapPack": 2,
+    "organic": 0,
+    "renters": 2,
+    "license": 2,
+    "seasonality": 2,
+    "rent": 0
+  },
+  "total": 9,
+  "status": "marginal"
+}
