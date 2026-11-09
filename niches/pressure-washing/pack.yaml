@@ -1,0 +1,170 @@
+niche: pressure-washing
+display_name: Pressure Washing
+created: 2026-11-09
+
+sub_services:
+  - slug: house-washing
+    display: House Washing
+    primary_keyword: "house washing {city}"
+    intent: "Exterior siding, brick, and stucco cleaning"
+  - slug: driveway-pressure-washing
+    display: Driveway Pressure Washing
+    primary_keyword: "driveway pressure washing {city}"
+    intent: "Concrete and paver driveway cleaning"
+  - slug: deck-and-patio-cleaning
+    display: Deck and Patio Cleaning
+    primary_keyword: "deck cleaning {city}"
+    intent: "Wood deck, composite, and patio surface washing"
+  - slug: roof-soft-washing
+    display: Roof Soft Washing
+    primary_keyword: "roof soft washing {city}"
+    intent: "Low-pressure chemical wash for shingle and tile roofs"
+
+page_outlines:
+  home:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} | {brand}"
+    sections:
+      - h2: "Professional {display_name} Services"
+        content_guidance: "Introduce pressure washing, who it's for, and the area served. Mention connecting homeowners with local pressure washing pros."
+        h3s:
+          - "Why Hire a Pressure Washing Service?"
+          - "Surfaces We Clean"
+      - h2: "Our Services"
+        content_guidance: "List and briefly describe each sub-service with links to service pages."
+        h3s: []
+      - h2: "Areas We Serve"
+        content_guidance: "List towns served with links to town pages."
+        h3s: []
+      - h2: "How It Works"
+        content_guidance: "3-step process: request a quote, schedule service, surfaces cleaned."
+        h3s:
+          - "Step 1: Request a Quote"
+          - "Step 2: Schedule Your Service"
+          - "Step 3: Surfaces Cleaned and Restored"
+      - h2: "Get a Free Quote Today"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 800, max: 1500 }
+
+  service:
+    h1: "{sub_service} in {city}, {state}"
+    title: "{sub_service} {city} | {brand}"
+    sections:
+      - h2: "What Is {sub_service}?"
+        content_guidance: "Explain the service, surfaces treated, and when homeowners need it."
+        h3s: []
+      - h2: "Benefits of {sub_service}"
+        content_guidance: "Curb appeal, mold and mildew removal, surface preservation, home value."
+        h3s: []
+      - h2: "The {sub_service} Process"
+        content_guidance: "Step-by-step from assessment to final rinse."
+        h3s:
+          - "Surface Assessment"
+          - "Pre-Treatment"
+          - "Washing and Rinse"
+      - h2: "{sub_service} Cost in {city}"
+        content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($275-$425 residential avg)."
+        h3s: []
+      - h2: "Schedule Your {sub_service}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  town:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} {state} | {brand}"
+    sections:
+      - h2: "{display_name} Services in {city}"
+        content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
+        h3s: []
+      - h2: "Why {city} Homeowners Need Pressure Washing"
+        content_guidance: "Local climate factors: humidity, rain, mold and mildew growth, tree coverage, pollen."
+        h3s:
+          - "Humidity and Mold Growth"
+          - "Seasonal Debris and Pollen"
+      - h2: "Common Surfaces Cleaned in {city}"
+        content_guidance: "Driveways, siding, fences, decks, patios typical in local homes."
+        h3s: []
+      - h2: "Local Considerations"
+        content_guidance: "Water restrictions, HOA rules, neighborhood standards."
+        h3s: []
+      - h2: "Get {display_name} in {city}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  cost_guide:
+    h1: "How Much Does {display_name} Cost in {city}?"
+    title: "{display_name} Cost {city} | {brand}"
+    sections:
+      - h2: "Average {display_name} Prices"
+        content_guidance: "General price ranges by project type. Reference $275-$425 residential avg."
+        h3s:
+          - "Driveway Washing"
+          - "House Exterior Washing"
+          - "Full Property Package"
+      - h2: "What Affects {display_name} Pricing?"
+        content_guidance: "Factors: square footage, surface type, stain severity, accessibility, water source."
+        h3s: []
+      - h2: "Pressure Washing vs Soft Washing"
+        content_guidance: "When each method is used and how it affects pricing."
+        h3s: []
+      - h2: "Get a Free Estimate"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  faq:
+    h1: "{display_name} FAQ — {city}, {state}"
+    title: "{display_name} FAQ {city} | {brand}"
+    sections:
+      - h2: "Frequently Asked Questions About {display_name}"
+        content_guidance: "Answer each question in 2-4 sentences."
+        h3s: []
+    questions:
+      - "What is the difference between pressure washing and power washing?"
+      - "How often should I pressure wash my house?"
+      - "Can pressure washing damage siding?"
+      - "What PSI is safe for a driveway?"
+      - "Is soft washing better for roofs?"
+      - "Do I need to be home during pressure washing?"
+      - "Can pressure washing remove oil stains?"
+      - "When is the best time of year to pressure wash?"
+    word_count: { min: 400, max: 1000 }
+    schema: FAQPage
+
+guide_topics:
+  - type: cost_guide
+    topic: "How much does pressure washing cost?"
+    target_keyword: "pressure washing cost {city}"
+  - type: faq
+    questions:
+      - "What is the difference between pressure washing and power washing?"
+      - "How often should I pressure wash my house?"
+      - "Can pressure washing damage siding?"
+      - "What PSI is safe for a driveway?"
+      - "Is soft washing better for roofs?"
+      - "Do I need to be home during pressure washing?"
+      - "Can pressure washing remove oil stains?"
+      - "When is the best time of year to pressure wash?"
+
+local_variables:
+  standard:
+    - var: neighborhoods
+      research_question: "What are the main neighborhoods and districts in {city}, {state}?"
+    - var: permit_requirements
+      research_question: "What permits does {city}, {state} require for pressure washing businesses or wastewater discharge?"
+    - var: local_regulations
+      research_question: "What {city}, {state} ordinances regulate pressure washing wastewater runoff or water usage?"
+    - var: climate_factors
+      research_question: "How does the climate in {city}, {state} affect pressure washing demand (e.g. humidity, rain, mold growth, pollen)?"
+    - var: nearby_cities
+      research_question: "What cities and towns neighbor {city}, {state} that a pressure washing provider would also serve?"
+  niche_specific:
+    - var: mold_mildew_risk
+      research_question: "How common is mold and mildew growth on home exteriors in {city}, {state}?"
+    - var: tree_coverage
+      research_question: "How heavy is tree canopy coverage in {city}, {state} neighborhoods and how does it affect algae and debris buildup?"
+    - var: water_restrictions
+      research_question: "Does {city}, {state} have water use restrictions that affect pressure washing schedules?"

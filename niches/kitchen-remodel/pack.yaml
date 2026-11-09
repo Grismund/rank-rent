@@ -1,0 +1,170 @@
+niche: kitchen-remodel
+display_name: Kitchen Remodel
+created: 2026-11-09
+
+sub_services:
+  - slug: full-kitchen-remodel
+    display: Full Kitchen Remodel
+    primary_keyword: "kitchen remodel {city}"
+    intent: "Complete kitchen renovation including layout changes"
+  - slug: cabinet-refacing
+    display: Cabinet Refacing
+    primary_keyword: "cabinet refacing {city}"
+    intent: "Update cabinet doors and hardware without full replacement"
+  - slug: countertop-replacement
+    display: Countertop Replacement
+    primary_keyword: "countertop replacement {city}"
+    intent: "Swap old countertops for granite, quartz, or butcher block"
+  - slug: kitchen-island-installation
+    display: Kitchen Island Installation
+    primary_keyword: "kitchen island installation {city}"
+    intent: "Add or rebuild a kitchen island for workspace and storage"
+
+page_outlines:
+  home:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} | {brand}"
+    sections:
+      - h2: "Professional {display_name} Services"
+        content_guidance: "Introduce kitchen remodeling, who it's for, and the area served. Mention connecting homeowners with local remodeling contractors."
+        h3s:
+          - "Why Remodel Your Kitchen?"
+          - "Types of Kitchen Remodels"
+      - h2: "Our Services"
+        content_guidance: "List and briefly describe each sub-service with links to service pages."
+        h3s: []
+      - h2: "Areas We Serve"
+        content_guidance: "List towns served with links to town pages."
+        h3s: []
+      - h2: "How It Works"
+        content_guidance: "3-step process: request a quote, design consultation, construction begins."
+        h3s:
+          - "Step 1: Request a Quote"
+          - "Step 2: Design Consultation"
+          - "Step 3: Construction and Completion"
+      - h2: "Get a Free Quote Today"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 800, max: 1500 }
+
+  service:
+    h1: "{sub_service} in {city}, {state}"
+    title: "{sub_service} {city} | {brand}"
+    sections:
+      - h2: "What Is {sub_service}?"
+        content_guidance: "Explain what the service involves, typical scope, and who benefits most."
+        h3s: []
+      - h2: "What to Expect During {sub_service}"
+        content_guidance: "Timeline, disruption, materials, and typical decisions homeowners face."
+        h3s:
+          - "Planning and Material Selection"
+          - "Demolition and Installation"
+          - "Final Walkthrough"
+      - h2: "Popular Options for {sub_service}"
+        content_guidance: "Common material and style choices relevant to this sub-service."
+        h3s: []
+      - h2: "{sub_service} Cost in {city}"
+        content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($12,000-$35,000 avg job)."
+        h3s: []
+      - h2: "Schedule Your {sub_service} Consultation"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  town:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} {state} | {brand}"
+    sections:
+      - h2: "{display_name} Services in {city}"
+        content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
+        h3s: []
+      - h2: "Why {city} Homeowners Are Remodeling Kitchens"
+        content_guidance: "Local housing market, home ages, growth trends driving remodel demand."
+        h3s:
+          - "Home Ages and Common Kitchen Layouts"
+          - "Local Housing Market Trends"
+      - h2: "Permits and Inspections in {city}"
+        content_guidance: "Local permit requirements, electrical and plumbing code, inspection process."
+        h3s: []
+      - h2: "Popular Kitchen Styles in {city}"
+        content_guidance: "Regional preferences for countertops, cabinets, layouts, and finishes."
+        h3s: []
+      - h2: "Get {display_name} in {city}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  cost_guide:
+    h1: "How Much Does a {display_name} Cost in {city}?"
+    title: "{display_name} Cost {city} | {brand}"
+    sections:
+      - h2: "Average {display_name} Prices"
+        content_guidance: "General price ranges by project scope. Reference $12,000-$35,000 avg job value."
+        h3s:
+          - "Minor Kitchen Update"
+          - "Mid-Range Kitchen Remodel"
+          - "High-End Kitchen Remodel"
+      - h2: "What Affects {display_name} Pricing?"
+        content_guidance: "Factors: kitchen size, cabinet quality, countertop material, appliances, plumbing and electrical changes, labor rates."
+        h3s: []
+      - h2: "Cost Breakdown by Component"
+        content_guidance: "Approximate share of budget: cabinets, countertops, labor, appliances, plumbing, electrical, permits."
+        h3s: []
+      - h2: "Get a Free Estimate"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  faq:
+    h1: "{display_name} FAQ — {city}, {state}"
+    title: "{display_name} FAQ {city} | {brand}"
+    sections:
+      - h2: "Frequently Asked Questions About {display_name}"
+        content_guidance: "Answer each question in 2-4 sentences."
+        h3s: []
+    questions:
+      - "How long does a kitchen remodel take?"
+      - "Do I need a permit for a kitchen remodel?"
+      - "What is the most expensive part of a kitchen remodel?"
+      - "Can I remodel my kitchen in phases?"
+      - "Should I remodel or just update cabinets?"
+      - "What kitchen remodel adds the most home value?"
+      - "Can I use my kitchen during a remodel?"
+      - "What is a realistic kitchen remodel budget?"
+    word_count: { min: 400, max: 1000 }
+    schema: FAQPage
+
+guide_topics:
+  - type: cost_guide
+    topic: "How much does a kitchen remodel cost?"
+    target_keyword: "kitchen remodel cost {city}"
+  - type: faq
+    questions:
+      - "How long does a kitchen remodel take?"
+      - "Do I need a permit for a kitchen remodel?"
+      - "What is the most expensive part of a kitchen remodel?"
+      - "Can I remodel my kitchen in phases?"
+      - "Should I remodel or just update cabinets?"
+      - "What kitchen remodel adds the most home value?"
+      - "Can I use my kitchen during a remodel?"
+      - "What is a realistic kitchen remodel budget?"
+
+local_variables:
+  standard:
+    - var: neighborhoods
+      research_question: "What are the main neighborhoods and districts in {city}, {state}?"
+    - var: permit_requirements
+      research_question: "What permits does {city}, {state} require for kitchen remodeling?"
+    - var: local_regulations
+      research_question: "What {city}, {state} building codes and ordinances apply to kitchen renovations?"
+    - var: climate_factors
+      research_question: "How does the climate in {city}, {state} affect kitchen remodel choices (e.g. cooling load, ventilation, humidity)?"
+    - var: nearby_cities
+      research_question: "What cities and towns neighbor {city}, {state} that a kitchen remodeling contractor would also serve?"
+  niche_specific:
+    - var: plumbing_codes
+      research_question: "What plumbing and electrical codes does {city}, {state} enforce for kitchen remodels?"
+    - var: typical_home_age
+      research_question: "What is the typical home age in {city}, {state} and how does it affect kitchen remodel scope?"
+    - var: countertop_preferences
+      research_question: "What countertop materials are most popular among homeowners in {city}, {state}?"

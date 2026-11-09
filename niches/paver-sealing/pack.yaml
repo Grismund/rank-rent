@@ -1,0 +1,170 @@
+niche: paver-sealing
+display_name: Paver Sealing
+created: 2026-11-09
+
+sub_services:
+  - slug: paver-sealing
+    display: Paver Sealing
+    primary_keyword: "paver sealing {city}"
+    intent: "Protective sealant application on brick and concrete pavers"
+  - slug: paver-cleaning
+    display: Paver Cleaning
+    primary_keyword: "paver cleaning {city}"
+    intent: "Pressure washing and stain removal on paver surfaces"
+  - slug: paver-cleaning-and-sealing
+    display: Paver Cleaning and Sealing
+    primary_keyword: "paver cleaning and sealing {city}"
+    intent: "Combined cleaning plus sealant service in a single visit"
+  - slug: paver-repair
+    display: Paver Repair
+    primary_keyword: "paver repair {city}"
+    intent: "Releveling, replacing, and re-sanding damaged pavers"
+
+page_outlines:
+  home:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} | {brand}"
+    sections:
+      - h2: "Professional {display_name} Services"
+        content_guidance: "Introduce paver sealing, who it's for, and the area served. Mention connecting homeowners with local paver contractors."
+        h3s:
+          - "Why Seal Your Pavers?"
+          - "Types of Pavers We Service"
+      - h2: "Our Services"
+        content_guidance: "List and briefly describe each sub-service with links to service pages."
+        h3s: []
+      - h2: "Areas We Serve"
+        content_guidance: "List towns served with links to town pages."
+        h3s: []
+      - h2: "How It Works"
+        content_guidance: "3-step process: request a quote, schedule service, pavers sealed."
+        h3s:
+          - "Step 1: Request a Quote"
+          - "Step 2: Schedule Your Service"
+          - "Step 3: Pavers Cleaned and Sealed"
+      - h2: "Get a Free Quote Today"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 800, max: 1500 }
+
+  service:
+    h1: "{sub_service} in {city}, {state}"
+    title: "{sub_service} {city} | {brand}"
+    sections:
+      - h2: "What Is {sub_service}?"
+        content_guidance: "Explain the service, materials used, and when homeowners need it."
+        h3s: []
+      - h2: "Benefits of {sub_service}"
+        content_guidance: "Protection from weather, weeds, staining, fading, and settling."
+        h3s: []
+      - h2: "The {sub_service} Process"
+        content_guidance: "Step-by-step from inspection to finished result."
+        h3s:
+          - "Surface Preparation"
+          - "Application"
+          - "Curing and Aftercare"
+      - h2: "{sub_service} Cost in {city}"
+        content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($400-$1,200 avg job)."
+        h3s: []
+      - h2: "Schedule Your {sub_service}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  town:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} {state} | {brand}"
+    sections:
+      - h2: "{display_name} Services in {city}"
+        content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
+        h3s: []
+      - h2: "Why {city} Homeowners Need Paver Sealing"
+        content_guidance: "Local climate factors, sun exposure, rain, salt air if coastal, soil conditions."
+        h3s:
+          - "Climate and Weather Impact"
+          - "Common Paver Issues in {city}"
+      - h2: "Popular Paver Areas in {city} Homes"
+        content_guidance: "Driveways, patios, pool decks, walkways common in this market."
+        h3s: []
+      - h2: "Local Considerations"
+        content_guidance: "HOA rules, permit requirements, neighborhood standards."
+        h3s: []
+      - h2: "Get {display_name} in {city}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  cost_guide:
+    h1: "How Much Does {display_name} Cost in {city}?"
+    title: "{display_name} Cost {city} | {brand}"
+    sections:
+      - h2: "Average {display_name} Prices"
+        content_guidance: "General price ranges by project size. Reference $400-$1,200 avg job value."
+        h3s:
+          - "Small Patio or Walkway"
+          - "Driveway Sealing"
+          - "Full Property (Driveway + Patio + Pool Deck)"
+      - h2: "What Affects {display_name} Pricing?"
+        content_guidance: "Factors: square footage, paver condition, sealer type (wet-look vs matte), cleaning needed."
+        h3s: []
+      - h2: "Sealer Types and Cost Differences"
+        content_guidance: "Wet-look vs matte vs penetrating sealers, cost per square foot."
+        h3s: []
+      - h2: "Get a Free Estimate"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  faq:
+    h1: "{display_name} FAQ — {city}, {state}"
+    title: "{display_name} FAQ {city} | {brand}"
+    sections:
+      - h2: "Frequently Asked Questions About {display_name}"
+        content_guidance: "Answer each question in 2-4 sentences."
+        h3s: []
+    questions:
+      - "How often should pavers be sealed?"
+      - "What type of sealer is best for pavers?"
+      - "Can you seal pavers in the rain?"
+      - "How long does paver sealer take to dry?"
+      - "Does sealing pavers prevent weeds?"
+      - "Should pavers be cleaned before sealing?"
+      - "What is wet-look paver sealer?"
+      - "How long does paver sealing last?"
+    word_count: { min: 400, max: 1000 }
+    schema: FAQPage
+
+guide_topics:
+  - type: cost_guide
+    topic: "How much does paver sealing cost?"
+    target_keyword: "paver sealing cost {city}"
+  - type: faq
+    questions:
+      - "How often should pavers be sealed?"
+      - "What type of sealer is best for pavers?"
+      - "Can you seal pavers in the rain?"
+      - "How long does paver sealer take to dry?"
+      - "Does sealing pavers prevent weeds?"
+      - "Should pavers be cleaned before sealing?"
+      - "What is wet-look paver sealer?"
+      - "How long does paver sealing last?"
+
+local_variables:
+  standard:
+    - var: neighborhoods
+      research_question: "What are the main neighborhoods and districts in {city}, {state}?"
+    - var: permit_requirements
+      research_question: "What permits does {city}, {state} require for paver sealing or hardscape work?"
+    - var: local_regulations
+      research_question: "What {city}, {state} ordinances regulate hardscape maintenance or chemical sealant use?"
+    - var: climate_factors
+      research_question: "How does the climate in {city}, {state} affect paver condition (e.g. sun, rain, humidity, salt air)?"
+    - var: nearby_cities
+      research_question: "What cities and towns neighbor {city}, {state} that a paver sealing provider would also serve?"
+  niche_specific:
+    - var: soil_type
+      research_question: "What soil type is common in {city}, {state} and how does it affect paver settling?"
+    - var: paver_styles
+      research_question: "What paver styles are most common in {city}, {state} driveways and patios?"
+    - var: salt_exposure
+      research_question: "Is {city}, {state} near salt water and how does salt air affect pavers?"

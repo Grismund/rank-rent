@@ -1,0 +1,170 @@
+niche: epoxy-flooring
+display_name: Epoxy Flooring
+created: 2026-11-09
+
+sub_services:
+  - slug: garage-floor-epoxy
+    display: Garage Floor Epoxy
+    primary_keyword: "garage floor epoxy {city}"
+    intent: "Epoxy coating for residential garage floors"
+  - slug: commercial-epoxy-flooring
+    display: Commercial Epoxy Flooring
+    primary_keyword: "commercial epoxy flooring {city}"
+    intent: "Epoxy systems for warehouses, shops, and showrooms"
+  - slug: epoxy-floor-coating
+    display: Epoxy Floor Coating
+    primary_keyword: "epoxy floor coating {city}"
+    intent: "General-purpose epoxy coating for concrete surfaces"
+  - slug: metallic-epoxy-flooring
+    display: Metallic Epoxy Flooring
+    primary_keyword: "metallic epoxy flooring {city}"
+    intent: "Decorative metallic-finish epoxy for high-end interiors"
+
+page_outlines:
+  home:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} | {brand}"
+    sections:
+      - h2: "Professional {display_name} Services"
+        content_guidance: "Introduce epoxy flooring, who it's for, and the area served. Mention connecting homeowners and businesses with local epoxy contractors."
+        h3s:
+          - "Why Choose Epoxy Flooring?"
+          - "Where Epoxy Flooring Works Best"
+      - h2: "Our Services"
+        content_guidance: "List and briefly describe each sub-service with links to service pages."
+        h3s: []
+      - h2: "Areas We Serve"
+        content_guidance: "List towns served with links to town pages."
+        h3s: []
+      - h2: "How It Works"
+        content_guidance: "3-step process: request a quote, surface prep and color selection, installation."
+        h3s:
+          - "Step 1: Request a Quote"
+          - "Step 2: Surface Prep and Color Selection"
+          - "Step 3: Installation and Curing"
+      - h2: "Get a Free Quote Today"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 800, max: 1500 }
+
+  service:
+    h1: "{sub_service} in {city}, {state}"
+    title: "{sub_service} {city} | {brand}"
+    sections:
+      - h2: "What Is {sub_service}?"
+        content_guidance: "Explain what the service involves, typical applications, and who benefits most."
+        h3s: []
+      - h2: "Benefits of {sub_service}"
+        content_guidance: "Durability, chemical resistance, easy cleaning, visual appeal."
+        h3s: []
+      - h2: "The {sub_service} Process"
+        content_guidance: "Step-by-step from concrete prep to final topcoat."
+        h3s:
+          - "Concrete Preparation"
+          - "Epoxy Application"
+          - "Curing and Final Coat"
+      - h2: "{sub_service} Cost in {city}"
+        content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($1,600-$3,500 avg job)."
+        h3s: []
+      - h2: "Schedule Your {sub_service}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  town:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} {state} | {brand}"
+    sections:
+      - h2: "{display_name} Services in {city}"
+        content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
+        h3s: []
+      - h2: "Why {city} Homeowners Choose Epoxy Flooring"
+        content_guidance: "Local factors driving demand: climate, humidity, concrete slab homes, garage usage patterns."
+        h3s:
+          - "Climate and Concrete Conditions"
+          - "Popular Applications in {city}"
+      - h2: "Epoxy Flooring Options in {city}"
+        content_guidance: "Solid color, flake, metallic, and polyaspartic alternatives available locally."
+        h3s: []
+      - h2: "Local Considerations"
+        content_guidance: "HOA rules, permit requirements if applicable, humidity and curing considerations."
+        h3s: []
+      - h2: "Get {display_name} in {city}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  cost_guide:
+    h1: "How Much Does {display_name} Cost in {city}?"
+    title: "{display_name} Cost {city} | {brand}"
+    sections:
+      - h2: "Average {display_name} Prices"
+        content_guidance: "General price ranges by project type. Reference $1,600-$3,500 avg job value."
+        h3s:
+          - "One-Car Garage"
+          - "Two-Car Garage"
+          - "Commercial or Large Area"
+      - h2: "What Affects {display_name} Pricing?"
+        content_guidance: "Factors: square footage, concrete condition, coating type (solid vs flake vs metallic), number of coats, prep work needed."
+        h3s: []
+      - h2: "Epoxy vs Polyaspartic: Cost Comparison"
+        content_guidance: "Compare standard epoxy to polyaspartic coatings on cost, cure time, and durability."
+        h3s: []
+      - h2: "Get a Free Estimate"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  faq:
+    h1: "{display_name} FAQ — {city}, {state}"
+    title: "{display_name} FAQ {city} | {brand}"
+    sections:
+      - h2: "Frequently Asked Questions About {display_name}"
+        content_guidance: "Answer each question in 2-4 sentences."
+        h3s: []
+    questions:
+      - "How long does epoxy flooring last?"
+      - "Can you epoxy a garage floor yourself?"
+      - "How long does epoxy take to cure?"
+      - "Is epoxy flooring slippery when wet?"
+      - "Does epoxy flooring crack?"
+      - "Can epoxy be applied over old concrete?"
+      - "What is the difference between epoxy and polyaspartic coatings?"
+      - "How do you maintain epoxy floors?"
+    word_count: { min: 400, max: 1000 }
+    schema: FAQPage
+
+guide_topics:
+  - type: cost_guide
+    topic: "How much does epoxy flooring cost?"
+    target_keyword: "epoxy flooring cost {city}"
+  - type: faq
+    questions:
+      - "How long does epoxy flooring last?"
+      - "Can you epoxy a garage floor yourself?"
+      - "How long does epoxy take to cure?"
+      - "Is epoxy flooring slippery when wet?"
+      - "Does epoxy flooring crack?"
+      - "Can epoxy be applied over old concrete?"
+      - "What is the difference between epoxy and polyaspartic coatings?"
+      - "How do you maintain epoxy floors?"
+
+local_variables:
+  standard:
+    - var: neighborhoods
+      research_question: "What are the main neighborhoods and districts in {city}, {state}?"
+    - var: permit_requirements
+      research_question: "What permits does {city}, {state} require for epoxy flooring or garage floor coating work?"
+    - var: local_regulations
+      research_question: "What {city}, {state} ordinances regulate VOC emissions or chemical coatings in residential areas?"
+    - var: climate_factors
+      research_question: "How does the climate in {city}, {state} affect epoxy flooring (e.g. humidity, temperature swings, slab moisture)?"
+    - var: nearby_cities
+      research_question: "What cities and towns neighbor {city}, {state} that an epoxy flooring contractor would also serve?"
+  niche_specific:
+    - var: concrete_condition
+      research_question: "What is the typical concrete slab condition in {city}, {state} homes — moisture issues, cracks, coatings?"
+    - var: humidity_impact
+      research_question: "How does humidity in {city}, {state} affect epoxy curing and adhesion?"
+    - var: garage_usage
+      research_question: "How do homeowners in {city}, {state} typically use their garages — parking, workshop, storage?"

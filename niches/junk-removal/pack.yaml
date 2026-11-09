@@ -1,0 +1,170 @@
+niche: junk-removal
+display_name: Junk Removal
+created: 2026-11-09
+
+sub_services:
+  - slug: residential-junk-removal
+    display: Residential Junk Removal
+    primary_keyword: "residential junk removal {city}"
+    intent: "Whole-home cleanout of unwanted household items"
+  - slug: furniture-removal
+    display: Furniture Removal
+    primary_keyword: "furniture removal {city}"
+    intent: "Pickup and disposal of old couches, mattresses, dressers"
+  - slug: appliance-hauling
+    display: Appliance Hauling
+    primary_keyword: "appliance removal {city}"
+    intent: "Removal of refrigerators, washers, dryers, water heaters"
+  - slug: construction-debris-removal
+    display: Construction Debris Removal
+    primary_keyword: "construction debris removal {city}"
+    intent: "Post-renovation or remodel waste hauling"
+
+page_outlines:
+  home:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} | {brand}"
+    sections:
+      - h2: "Professional {display_name} Services"
+        content_guidance: "Introduce the service, who it's for, and the area served. Mention connecting homeowners with local haulers."
+        h3s:
+          - "Why Hire a Junk Removal Service?"
+          - "What We Haul"
+      - h2: "Our Services"
+        content_guidance: "List and briefly describe each sub-service with links to service pages."
+        h3s: []
+      - h2: "Areas We Serve"
+        content_guidance: "List towns served with links to town pages."
+        h3s: []
+      - h2: "How It Works"
+        content_guidance: "3-step process: request a quote, schedule pickup, items hauled away."
+        h3s:
+          - "Step 1: Request a Quote"
+          - "Step 2: Schedule Your Pickup"
+          - "Step 3: We Haul It Away"
+      - h2: "Get a Free Quote Today"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 800, max: 1500 }
+
+  service:
+    h1: "{sub_service} in {city}, {state}"
+    title: "{sub_service} {city} | {brand}"
+    sections:
+      - h2: "What Is {sub_service}?"
+        content_guidance: "Explain what the service involves and common scenarios."
+        h3s: []
+      - h2: "Common Items We Remove"
+        content_guidance: "List typical items for this sub-service category."
+        h3s: []
+      - h2: "How {sub_service} Works"
+        content_guidance: "Process overview from scheduling to completion."
+        h3s:
+          - "Booking and Estimates"
+          - "Pickup Day"
+          - "Responsible Disposal"
+      - h2: "{sub_service} Cost in {city}"
+        content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($300-$500 avg job)."
+        h3s: []
+      - h2: "Schedule Your {sub_service}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  town:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} {state} | {brand}"
+    sections:
+      - h2: "{display_name} Services in {city}"
+        content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
+        h3s: []
+      - h2: "Why {city} Residents Choose Professional Junk Removal"
+        content_guidance: "Local factors that drive demand: growth, climate, regulations."
+        h3s:
+          - "Local Disposal Options"
+          - "Neighborhood Pickup"
+      - h2: "What We Haul in {city}"
+        content_guidance: "Items commonly removed in this area, referencing local context."
+        h3s: []
+      - h2: "Local Regulations and Permits"
+        content_guidance: "City/county rules on curbside debris, dumpster permits, HOA restrictions."
+        h3s: []
+      - h2: "Get {display_name} in {city}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  cost_guide:
+    h1: "How Much Does {display_name} Cost in {city}?"
+    title: "{display_name} Cost {city} | {brand}"
+    sections:
+      - h2: "Average {display_name} Prices"
+        content_guidance: "General price ranges: single item, partial load, full truck. Reference $300-$500 avg job value."
+        h3s:
+          - "Single Item Removal"
+          - "Partial Truck Load"
+          - "Full Truck Load"
+      - h2: "What Affects {display_name} Pricing?"
+        content_guidance: "Factors: volume, weight, item type, accessibility, disposal fees."
+        h3s: []
+      - h2: "Tips to Lower Your {display_name} Cost"
+        content_guidance: "Practical advice: sort items, donate what you can, consolidate before pickup."
+        h3s: []
+      - h2: "Get a Free Estimate"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  faq:
+    h1: "{display_name} FAQ — {city}, {state}"
+    title: "{display_name} FAQ {city} | {brand}"
+    sections:
+      - h2: "Frequently Asked Questions About {display_name}"
+        content_guidance: "Answer each question in 2-4 sentences."
+        h3s: []
+    questions:
+      - "What items can a junk removal service haul?"
+      - "How fast can I get a junk removal pickup?"
+      - "How is junk removal priced?"
+      - "Is there a minimum load for junk removal?"
+      - "What happens to my junk after pickup?"
+      - "Do I need to be home during junk removal?"
+      - "Can junk removal crews take items from inside my home?"
+      - "Does junk removal include recycling?"
+    word_count: { min: 400, max: 1000 }
+    schema: FAQPage
+
+guide_topics:
+  - type: cost_guide
+    topic: "How much does junk removal cost?"
+    target_keyword: "junk removal cost {city}"
+  - type: faq
+    questions:
+      - "What items can a junk removal service haul?"
+      - "How fast can I get a junk removal pickup?"
+      - "How is junk removal priced?"
+      - "Is there a minimum load for junk removal?"
+      - "What happens to my junk after pickup?"
+      - "Do I need to be home during junk removal?"
+      - "Can junk removal crews take items from inside my home?"
+      - "Does junk removal include recycling?"
+
+local_variables:
+  standard:
+    - var: neighborhoods
+      research_question: "What are the main neighborhoods and districts in {city}, {state}?"
+    - var: permit_requirements
+      research_question: "What permits does {city}, {state} require for junk removal or dumpster placement?"
+    - var: local_regulations
+      research_question: "What {city}, {state} ordinances regulate curbside debris, bulk trash pickup, or waste hauling?"
+    - var: climate_factors
+      research_question: "How does the climate in {city}, {state} affect junk removal demand (e.g. storm debris, humidity damage)?"
+    - var: nearby_cities
+      research_question: "What cities and towns neighbor {city}, {state} that a junk removal provider would also serve?"
+  niche_specific:
+    - var: landfill_location
+      research_question: "Where is the nearest landfill or transfer station to {city}, {state}?"
+    - var: recycling_programs
+      research_question: "What recycling and donation centers operate near {city}, {state}?"
+    - var: hoa_rules
+      research_question: "Do HOAs in {city}, {state} restrict dumpsters or curbside debris storage?"

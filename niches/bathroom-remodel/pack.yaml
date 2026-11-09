@@ -1,0 +1,174 @@
+niche: bathroom-remodel
+display_name: Bathroom Remodel
+created: 2026-11-09
+
+sub_services:
+  - slug: full-bathroom-remodel
+    display: Full Bathroom Remodel
+    primary_keyword: "bathroom remodel {city}"
+    intent: "Complete gut-and-rebuild of an existing bathroom"
+  - slug: shower-remodel
+    display: Shower Remodel
+    primary_keyword: "shower remodel {city}"
+    intent: "Shower replacement, tiling, glass enclosure upgrade"
+  - slug: bathtub-replacement
+    display: Bathtub Replacement
+    primary_keyword: "bathtub replacement {city}"
+    intent: "Swap old tub for new soaking or walk-in tub"
+  - slug: tub-to-shower-conversion
+    display: Tub-to-Shower Conversion
+    primary_keyword: "tub to shower conversion {city}"
+    intent: "Remove bathtub and install walk-in shower"
+  - slug: small-bathroom-remodel
+    display: Small Bathroom Remodel
+    primary_keyword: "small bathroom remodel {city}"
+    intent: "Budget-focused update for guest or half baths"
+
+page_outlines:
+  home:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} | {brand}"
+    sections:
+      - h2: "Professional {display_name} Services"
+        content_guidance: "Introduce bathroom remodeling, who it's for, and the area served. Mention connecting homeowners with local remodeling contractors."
+        h3s:
+          - "Why Remodel Your Bathroom?"
+          - "Types of Bathroom Remodels"
+      - h2: "Our Services"
+        content_guidance: "List and briefly describe each sub-service with links to service pages."
+        h3s: []
+      - h2: "Areas We Serve"
+        content_guidance: "List towns served with links to town pages."
+        h3s: []
+      - h2: "How It Works"
+        content_guidance: "3-step process: request a quote, plan your remodel, construction begins."
+        h3s:
+          - "Step 1: Request a Quote"
+          - "Step 2: Design and Planning"
+          - "Step 3: Construction and Completion"
+      - h2: "Get a Free Quote Today"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 800, max: 1500 }
+
+  service:
+    h1: "{sub_service} in {city}, {state}"
+    title: "{sub_service} {city} | {brand}"
+    sections:
+      - h2: "What Is {sub_service}?"
+        content_guidance: "Explain what the service involves, typical scope, and who benefits most."
+        h3s: []
+      - h2: "What to Expect During {sub_service}"
+        content_guidance: "Timeline, disruption, materials, and typical decisions homeowners face."
+        h3s:
+          - "Planning and Design"
+          - "Demolition and Rough-In"
+          - "Finishing and Inspection"
+      - h2: "Popular Options for {sub_service}"
+        content_guidance: "Common material and fixture choices: tile, vanity, fixtures, lighting."
+        h3s: []
+      - h2: "{sub_service} Cost in {city}"
+        content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($6,000-$15,000 avg job)."
+        h3s: []
+      - h2: "Schedule Your {sub_service} Consultation"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  town:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} {state} | {brand}"
+    sections:
+      - h2: "{display_name} Services in {city}"
+        content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
+        h3s: []
+      - h2: "Why {city} Homeowners Are Remodeling Bathrooms"
+        content_guidance: "Local housing market, home ages, growth trends driving remodel demand."
+        h3s:
+          - "Home Ages and Common Bathroom Issues"
+          - "Local Housing Market Trends"
+      - h2: "Permits and Inspections in {city}"
+        content_guidance: "Local permit requirements, plumbing code, inspection process."
+        h3s: []
+      - h2: "Popular Bathroom Styles in {city}"
+        content_guidance: "Regional preferences for materials, layouts, and fixtures."
+        h3s: []
+      - h2: "Get {display_name} in {city}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  cost_guide:
+    h1: "How Much Does a {display_name} Cost in {city}?"
+    title: "{display_name} Cost {city} | {brand}"
+    sections:
+      - h2: "Average {display_name} Prices"
+        content_guidance: "General price ranges by project scope. Reference $6,000-$15,000 avg job value."
+        h3s:
+          - "Budget Bathroom Remodel"
+          - "Mid-Range Bathroom Remodel"
+          - "High-End Bathroom Remodel"
+      - h2: "What Affects {display_name} Pricing?"
+        content_guidance: "Factors: bathroom size, fixture quality, plumbing changes, tile, labor rates."
+        h3s: []
+      - h2: "Cost Breakdown by Component"
+        content_guidance: "Approximate share of budget: labor, tile, fixtures, plumbing, permits."
+        h3s: []
+      - h2: "Get a Free Estimate"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  faq:
+    h1: "{display_name} FAQ — {city}, {state}"
+    title: "{display_name} FAQ {city} | {brand}"
+    sections:
+      - h2: "Frequently Asked Questions About {display_name}"
+        content_guidance: "Answer each question in 2-4 sentences."
+        h3s: []
+    questions:
+      - "How long does a bathroom remodel take?"
+      - "Do I need a permit for a bathroom remodel?"
+      - "Can I remodel a bathroom on a budget?"
+      - "Should I replace or refinish my bathtub?"
+      - "What is the most expensive part of a bathroom remodel?"
+      - "What adds the most value to a bathroom remodel?"
+      - "Do I need a contractor for a bathroom remodel?"
+      - "Can a bathroom be remodeled in stages?"
+    word_count: { min: 400, max: 1000 }
+    schema: FAQPage
+
+guide_topics:
+  - type: cost_guide
+    topic: "How much does a bathroom remodel cost?"
+    target_keyword: "bathroom remodel cost {city}"
+  - type: faq
+    questions:
+      - "How long does a bathroom remodel take?"
+      - "Do I need a permit for a bathroom remodel?"
+      - "Can I remodel a bathroom on a budget?"
+      - "Should I replace or refinish my bathtub?"
+      - "What is the most expensive part of a bathroom remodel?"
+      - "What adds the most value to a bathroom remodel?"
+      - "Do I need a contractor for a bathroom remodel?"
+      - "Can a bathroom be remodeled in stages?"
+
+local_variables:
+  standard:
+    - var: neighborhoods
+      research_question: "What are the main neighborhoods and districts in {city}, {state}?"
+    - var: permit_requirements
+      research_question: "What permits does {city}, {state} require for bathroom remodeling?"
+    - var: local_regulations
+      research_question: "What {city}, {state} building codes and ordinances apply to bathroom renovations?"
+    - var: climate_factors
+      research_question: "How does the climate in {city}, {state} affect bathroom remodel choices (e.g. humidity, mold risk, ventilation needs)?"
+    - var: nearby_cities
+      research_question: "What cities and towns neighbor {city}, {state} that a bathroom remodeling contractor would also serve?"
+  niche_specific:
+    - var: plumbing_codes
+      research_question: "What plumbing code does {city}, {state} follow and what inspections are required for bathroom remodels?"
+    - var: typical_home_age
+      research_question: "What is the typical home age in {city}, {state} and how does it affect bathroom remodel scope?"
+    - var: water_quality
+      research_question: "Does {city}, {state} have hard water or other water quality issues that affect fixture and pipe choices?"

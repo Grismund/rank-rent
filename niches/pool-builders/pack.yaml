@@ -1,0 +1,170 @@
+niche: pool-builders
+display_name: Pool Builders
+created: 2026-11-09
+
+sub_services:
+  - slug: inground-pool-construction
+    display: Inground Pool Construction
+    primary_keyword: "inground pool builder {city}"
+    intent: "New concrete, fiberglass, or vinyl liner pool installation"
+  - slug: pool-remodeling
+    display: Pool Remodeling
+    primary_keyword: "pool remodeling {city}"
+    intent: "Resurface, retile, or redesign an existing pool"
+  - slug: pool-screen-enclosure
+    display: Pool Screen Enclosure
+    primary_keyword: "pool screen enclosure {city}"
+    intent: "Screened lanai or cage installation around pool area"
+  - slug: pool-deck-resurfacing
+    display: Pool Deck Resurfacing
+    primary_keyword: "pool deck resurfacing {city}"
+    intent: "Resurface or overlay existing concrete pool decks"
+
+page_outlines:
+  home:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} | {brand}"
+    sections:
+      - h2: "Professional {display_name} Services"
+        content_guidance: "Introduce pool building, who it's for, and the area served. Mention connecting homeowners with local pool contractors."
+        h3s:
+          - "Why Build a Pool?"
+          - "Pool Types We Build"
+      - h2: "Our Services"
+        content_guidance: "List and briefly describe each sub-service with links to service pages."
+        h3s: []
+      - h2: "Areas We Serve"
+        content_guidance: "List towns served with links to town pages."
+        h3s: []
+      - h2: "How It Works"
+        content_guidance: "3-step process: request a quote, design consultation, construction begins."
+        h3s:
+          - "Step 1: Request a Quote"
+          - "Step 2: Design and Permits"
+          - "Step 3: Construction and Completion"
+      - h2: "Get a Free Quote Today"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 800, max: 1500 }
+
+  service:
+    h1: "{sub_service} in {city}, {state}"
+    title: "{sub_service} {city} | {brand}"
+    sections:
+      - h2: "What Is {sub_service}?"
+        content_guidance: "Explain what the service involves, typical scope, and who benefits most."
+        h3s: []
+      - h2: "Options for {sub_service}"
+        content_guidance: "Materials, styles, and design choices available for this sub-service."
+        h3s: []
+      - h2: "The {sub_service} Process"
+        content_guidance: "Step-by-step from planning to final inspection."
+        h3s:
+          - "Design and Permits"
+          - "Excavation and Construction"
+          - "Finishing and Inspection"
+      - h2: "{sub_service} Cost in {city}"
+        content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($25,000-$65,000 for new builds)."
+        h3s: []
+      - h2: "Schedule Your {sub_service} Consultation"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  town:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} {state} | {brand}"
+    sections:
+      - h2: "{display_name} Services in {city}"
+        content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
+        h3s: []
+      - h2: "Why {city} Homeowners Are Building Pools"
+        content_guidance: "Local climate, year-round swim season, home values, growth trends."
+        h3s:
+          - "Year-Round Swimming Climate"
+          - "Home Value and Lifestyle"
+      - h2: "Permits and Regulations in {city}"
+        content_guidance: "Pool permit process, barrier laws, setback requirements, HOA rules."
+        h3s: []
+      - h2: "Popular Pool Styles in {city}"
+        content_guidance: "Regional preferences: fiberglass vs concrete, screen enclosures, salt water systems."
+        h3s: []
+      - h2: "Get {display_name} in {city}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  cost_guide:
+    h1: "How Much Does It Cost to Build a Pool in {city}?"
+    title: "Pool Cost {city} | {brand}"
+    sections:
+      - h2: "Average Pool Construction Prices"
+        content_guidance: "General price ranges by pool type. Reference $25,000-$65,000 avg job value."
+        h3s:
+          - "Fiberglass Pool"
+          - "Concrete (Gunite) Pool"
+          - "Vinyl Liner Pool"
+      - h2: "What Affects Pool Construction Pricing?"
+        content_guidance: "Factors: pool size, type, depth, decking, screen enclosure, permits, soil conditions, water table."
+        h3s: []
+      - h2: "Additional Costs to Plan For"
+        content_guidance: "Screen enclosure, landscaping, equipment, permits, ongoing maintenance."
+        h3s: []
+      - h2: "Get a Free Estimate"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  faq:
+    h1: "{display_name} FAQ — {city}, {state}"
+    title: "{display_name} FAQ {city} | {brand}"
+    sections:
+      - h2: "Frequently Asked Questions About {display_name}"
+        content_guidance: "Answer each question in 2-4 sentences."
+        h3s: []
+    questions:
+      - "How long does it take to build a pool?"
+      - "Do I need a permit to build a pool?"
+      - "What type of pool is best — concrete, fiberglass, or vinyl?"
+      - "How much does pool maintenance cost?"
+      - "Does a pool increase home value?"
+      - "What size pool fits a typical backyard?"
+      - "Can I finance a pool?"
+      - "What is the best time of year to build a pool?"
+    word_count: { min: 400, max: 1000 }
+    schema: FAQPage
+
+guide_topics:
+  - type: cost_guide
+    topic: "How much does it cost to build a pool?"
+    target_keyword: "pool cost {city}"
+  - type: faq
+    questions:
+      - "How long does it take to build a pool?"
+      - "Do I need a permit to build a pool?"
+      - "What type of pool is best — concrete, fiberglass, or vinyl?"
+      - "How much does pool maintenance cost?"
+      - "Does a pool increase home value?"
+      - "What size pool fits a typical backyard?"
+      - "Can I finance a pool?"
+      - "What is the best time of year to build a pool?"
+
+local_variables:
+  standard:
+    - var: neighborhoods
+      research_question: "What are the main neighborhoods and districts in {city}, {state}?"
+    - var: permit_requirements
+      research_question: "What permits does {city}, {state} require for pool construction?"
+    - var: local_regulations
+      research_question: "What {city}, {state} ordinances regulate pool construction, barriers, and setbacks?"
+    - var: climate_factors
+      research_question: "How does the climate in {city}, {state} affect pool usage season and construction scheduling?"
+    - var: nearby_cities
+      research_question: "What cities and towns neighbor {city}, {state} that a pool builder would also serve?"
+  niche_specific:
+    - var: water_table
+      research_question: "What is the water table depth in {city}, {state} and how does it affect pool construction?"
+    - var: pool_barrier_laws
+      research_question: "What are the pool barrier and fencing requirements in {city}, {state}?"
+    - var: hoa_pool_rules
+      research_question: "Do HOAs in {city}, {state} have pool construction rules — setbacks, enclosures, noise?"

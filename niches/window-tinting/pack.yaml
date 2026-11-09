@@ -1,0 +1,170 @@
+niche: window-tinting
+display_name: Window Tinting
+created: 2026-11-09
+
+sub_services:
+  - slug: automotive-window-tinting
+    display: Automotive Window Tinting
+    primary_keyword: "car window tinting {city}"
+    intent: "Tint film for cars, trucks, and SUVs"
+  - slug: residential-window-tinting
+    display: Residential Window Tinting
+    primary_keyword: "home window tinting {city}"
+    intent: "Heat- and UV-blocking film for house windows"
+  - slug: commercial-window-tinting
+    display: Commercial Window Tinting
+    primary_keyword: "commercial window tinting {city}"
+    intent: "Tint film for storefronts, offices, and buildings"
+  - slug: paint-protection-film
+    display: Paint Protection Film
+    primary_keyword: "paint protection film {city}"
+    intent: "Clear protective wrap for vehicle paint surfaces"
+
+page_outlines:
+  home:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} | {brand}"
+    sections:
+      - h2: "Professional {display_name} Services"
+        content_guidance: "Introduce window tinting, who it's for (auto and residential), and the area served. Mention connecting customers with local tint shops."
+        h3s:
+          - "Why Tint Your Windows?"
+          - "Automotive, Residential, and Commercial"
+      - h2: "Our Services"
+        content_guidance: "List and briefly describe each sub-service with links to service pages."
+        h3s: []
+      - h2: "Areas We Serve"
+        content_guidance: "List towns served with links to town pages."
+        h3s: []
+      - h2: "How It Works"
+        content_guidance: "3-step process: request a quote, choose your tint, professional installation."
+        h3s:
+          - "Step 1: Request a Quote"
+          - "Step 2: Choose Your Tint"
+          - "Step 3: Professional Installation"
+      - h2: "Get a Free Quote Today"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 800, max: 1500 }
+
+  service:
+    h1: "{sub_service} in {city}, {state}"
+    title: "{sub_service} {city} | {brand}"
+    sections:
+      - h2: "What Is {sub_service}?"
+        content_guidance: "Explain the service, film types available, and who benefits most."
+        h3s: []
+      - h2: "Benefits of {sub_service}"
+        content_guidance: "Heat reduction, UV protection, glare reduction, privacy, aesthetic appeal."
+        h3s: []
+      - h2: "Film Options for {sub_service}"
+        content_guidance: "Dyed, carbon, ceramic tint options with pros and cons of each."
+        h3s:
+          - "Dyed Film"
+          - "Carbon Film"
+          - "Ceramic Film"
+      - h2: "{sub_service} Cost in {city}"
+        content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($200-$600 residential, $1K-$5K commercial)."
+        h3s: []
+      - h2: "Schedule Your {sub_service}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  town:
+    h1: "{display_name} in {city}, {state}"
+    title: "{display_name} {city} {state} | {brand}"
+    sections:
+      - h2: "{display_name} Services in {city}"
+        content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
+        h3s: []
+      - h2: "Why {city} Residents Choose Window Tinting"
+        content_guidance: "Local sun exposure, heat, UV index, and energy cost factors."
+        h3s:
+          - "Sun and Heat in {city}"
+          - "Energy Savings and Comfort"
+      - h2: "{state} Window Tint Laws"
+        content_guidance: "Legal VLT percentages for front, rear, and back windows in this state."
+        h3s: []
+      - h2: "Local Considerations"
+        content_guidance: "HOA rules on home tint, vehicle inspection requirements, popular vehicle types."
+        h3s: []
+      - h2: "Get {display_name} in {city}"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  cost_guide:
+    h1: "How Much Does {display_name} Cost in {city}?"
+    title: "{display_name} Cost {city} | {brand}"
+    sections:
+      - h2: "Average {display_name} Prices"
+        content_guidance: "General price ranges by vehicle type and home size. Reference $200-$600 automotive avg."
+        h3s:
+          - "Sedan or Coupe"
+          - "SUV or Truck"
+          - "Home Windows"
+      - h2: "What Affects {display_name} Pricing?"
+        content_guidance: "Factors: film type (dyed vs ceramic), number of windows, vehicle size, removal of old tint."
+        h3s: []
+      - h2: "Film Types and Cost Differences"
+        content_guidance: "Compare dyed, carbon, and ceramic film on price, heat rejection, and longevity."
+        h3s: []
+      - h2: "Get a Free Estimate"
+        content_guidance: "Call to action with phone number."
+        h3s: []
+    word_count: { min: 500, max: 1000 }
+
+  faq:
+    h1: "{display_name} FAQ — {city}, {state}"
+    title: "{display_name} FAQ {city} | {brand}"
+    sections:
+      - h2: "Frequently Asked Questions About {display_name}"
+        content_guidance: "Answer each question in 2-4 sentences."
+        h3s: []
+    questions:
+      - "What are the window tint laws in my state?"
+      - "How long does window tint last?"
+      - "Can window tint be removed?"
+      - "Does window tinting reduce heat?"
+      - "What is ceramic window tint?"
+      - "How dark can I tint my windows?"
+      - "How long does window tint take to install?"
+      - "Does window tinting block UV rays?"
+    word_count: { min: 400, max: 1000 }
+    schema: FAQPage
+
+guide_topics:
+  - type: cost_guide
+    topic: "How much does window tinting cost?"
+    target_keyword: "window tinting cost {city}"
+  - type: faq
+    questions:
+      - "What are the window tint laws in my state?"
+      - "How long does window tint last?"
+      - "Can window tint be removed?"
+      - "Does window tinting reduce heat?"
+      - "What is ceramic window tint?"
+      - "How dark can I tint my windows?"
+      - "How long does window tint take to install?"
+      - "Does window tinting block UV rays?"
+
+local_variables:
+  standard:
+    - var: neighborhoods
+      research_question: "What are the main neighborhoods and districts in {city}, {state}?"
+    - var: permit_requirements
+      research_question: "What permits does {city}, {state} require for window tinting businesses or residential film installation?"
+    - var: local_regulations
+      research_question: "What {city}, {state} ordinances or HOA rules regulate residential window tinting or reflective film?"
+    - var: climate_factors
+      research_question: "How does the climate in {city}, {state} affect window tinting demand (e.g. sun intensity, heat, UV index)?"
+    - var: nearby_cities
+      research_question: "What cities and towns neighbor {city}, {state} that a window tinting provider would also serve?"
+  niche_specific:
+    - var: tint_laws
+      research_question: "What are the legal window tint limits (VLT percentages) in {state} for front, rear, and back windows?"
+    - var: sun_exposure
+      research_question: "How many sunny days per year does {city}, {state} get and what is the average UV index?"
+    - var: vehicle_types
+      research_question: "What vehicle types are most common in {city}, {state} — trucks, SUVs, sedans?"
