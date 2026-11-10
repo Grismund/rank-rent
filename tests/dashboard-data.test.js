@@ -496,11 +496,11 @@ describe('prioritizeLinkTargets', () => {
 
 describe('buildRentersSummary', () => {
   const buyers = [
-    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz A', pitch_priority: 'hot', rating: '4.5', review_count: '20', website_weakness: 'no_website' },
-    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz B', pitch_priority: 'hot', rating: '4.0', review_count: '10', website_weakness: 'social_only' },
-    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz C', pitch_priority: 'warm', rating: '3.8', review_count: '5', website_weakness: 'directory_only' },
-    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz D', pitch_priority: 'cold', rating: '4.9', review_count: '100', website_weakness: 'no_organic_rank' },
-    { candidate_slug: 'junk-removal-georgetown', business_name: 'Junk Co', pitch_priority: 'hot', rating: '5.0', review_count: '3', website_weakness: 'no_website' },
+    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz A', pitch_priority: 'hot', rating: '4.5', review_count: '20', website_weakness: 'no_website', email: 'a@biz.com', owner_name: 'Alice', phone: '555-1111', website: '' },
+    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz B', pitch_priority: 'hot', rating: '4.0', review_count: '10', website_weakness: 'social_only', email: '', owner_name: '', phone: '555-2222', website: 'https://b.com' },
+    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz C', pitch_priority: 'warm', rating: '3.8', review_count: '5', website_weakness: 'directory_only', email: 'c@biz.com', owner_name: '', phone: '', website: '' },
+    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz D', pitch_priority: 'cold', rating: '4.9', review_count: '100', website_weakness: 'no_organic_rank', email: '', owner_name: '', phone: '555-4444', website: 'https://d.com' },
+    { candidate_slug: 'junk-removal-georgetown', business_name: 'Junk Co', pitch_priority: 'hot', rating: '5.0', review_count: '3', website_weakness: 'no_website', email: 'j@junk.com', owner_name: 'Joe', phone: '555-5555', website: '' },
   ]
 
   it('groups buyers by candidate_slug', () => {
@@ -539,6 +539,28 @@ describe('buildRentersSummary', () => {
     const result = buildRentersSummary([])
     expect(result.byCandidate).toEqual({})
     expect(result.totals).toEqual({ total: 0, hot: 0, warm: 0, cold: 0 })
+  })
+
+  it('includes contact fields in topRenters', () => {
+    const result = buildRentersSummary(buyers)
+    const miami = result.byCandidate['epoxy-flooring-miami']
+    const bizA = miami.topRenters.find(r => r.business_name === 'Biz A')
+    expect(bizA.email).toBe('a@biz.com')
+    expect(bizA.owner_name).toBe('Alice')
+    expect(bizA.phone).toBe('555-1111')
+    expect(bizA.website).toBe('')
+  })
+
+  it('counts withEmail, withPhone, withOwner per candidate', () => {
+    const result = buildRentersSummary(buyers)
+    const miami = result.byCandidate['epoxy-flooring-miami']
+    expect(miami.withEmail).toBe(2) // Biz A, Biz C
+    expect(miami.withPhone).toBe(3) // Biz A, Biz B, Biz D
+    expect(miami.withOwner).toBe(1) // Biz A
+    const geo = result.byCandidate['junk-removal-georgetown']
+    expect(geo.withEmail).toBe(1)
+    expect(geo.withPhone).toBe(1)
+    expect(geo.withOwner).toBe(1)
   })
 })
 

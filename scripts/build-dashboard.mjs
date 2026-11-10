@@ -377,6 +377,9 @@ function phase3Cards() {
           <span style="color:#eab308;font-weight:bold">${r.warm} warm</span>
           <span style="color:#6b7280">${r.cold} cold</span>
         </div>
+        <div style="font-size:12px;color:#64748b;margin-bottom:8px">
+          ${r.withEmail || 0} with email · ${r.withPhone || 0} with phone · ${r.withOwner || 0} with owner
+        </div>
         ${r.topRenters.length > 0 ? `
         <div style="max-height:320px;overflow-y:auto">
         <table class="renter-table" style="width:100%;font-size:12px;border-collapse:collapse">
@@ -385,16 +388,26 @@ function phase3Cards() {
             <th data-col="1" data-type="num" style="padding:3px 6px;position:sticky;top:0;z-index:1;background:#f1f5f9">Rating</th>
             <th data-col="2" data-type="num" style="padding:3px 6px;position:sticky;top:0;z-index:1;background:#f1f5f9">Reviews</th>
             <th data-col="3" data-type="text" style="padding:3px 6px;position:sticky;top:0;z-index:1;background:#f1f5f9">Weakness</th>
-            <th data-col="4" data-type="priority" style="padding:3px 6px;position:sticky;top:0;z-index:1;background:#f1f5f9">Priority</th>
+            <th data-col="4" data-type="num" style="padding:3px 6px;position:sticky;top:0;z-index:1;background:#f1f5f9">Contact Details</th>
+            <th data-col="5" data-type="priority" style="padding:3px 6px;position:sticky;top:0;z-index:1;background:#f1f5f9">Priority</th>
           </tr></thead>
-          <tbody>${r.topRenters.map((b) => `
+          <tbody>${r.topRenters.map((b) => {
+            const contactFields = [b.phone, b.email, b.owner_name].filter(Boolean).length
+            const contactLines = [
+              b.phone ? `<div>☎ ${esc(b.phone)}</div>` : '',
+              b.email ? `<div style="color:#2563eb">✉ ${esc(b.email)}</div>` : '',
+              b.owner_name ? `<div>👤 ${esc(b.owner_name)}</div>` : '',
+            ].filter(Boolean).join('')
+            const bizName = b.website ? `<a href="${esc(b.website)}" target="_blank" style="color:#2563eb;text-decoration:none">${esc(b.business_name)}</a>` : esc(b.business_name)
+            return `
             <tr>
-              <td style="padding:3px 6px">${esc(b.business_name)}</td>
+              <td style="padding:3px 6px">${bizName}</td>
               <td style="padding:3px 6px;text-align:center" data-sort="${b.rating || 0}">${b.rating || '—'}</td>
               <td style="padding:3px 6px;text-align:center" data-sort="${b.review_count || 0}">${b.review_count || '—'}</td>
               <td style="padding:3px 6px;font-size:11px">${esc(b.website_weakness)}</td>
+              <td style="padding:3px 6px;font-size:11px;line-height:1.4" data-sort="${contactFields}">${contactLines || '—'}</td>
               <td style="padding:3px 6px" data-sort="${b.pitch_priority === 'hot' ? 0 : b.pitch_priority === 'warm' ? 1 : 2}"><span style="color:${b.pitch_priority === 'hot' ? '#ef4444' : b.pitch_priority === 'warm' ? '#eab308' : '#6b7280'};font-weight:bold;font-size:11px">${esc(b.pitch_priority)}</span></td>
-            </tr>`).join('')}
+            </tr>`}).join('')}
           </tbody>
         </table>
         </div>` : ''}
