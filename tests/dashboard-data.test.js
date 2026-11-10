@@ -9,6 +9,8 @@ import {
   buildNicheSummary,
   findCommonSources,
   prioritizeLinkTargets,
+  buildRentersSummary,
+  buildKeywordsSummary,
 } from '../lib/dashboard-data.js'
 
 describe('buildFunnel', () => {
@@ -489,5 +491,122 @@ describe('prioritizeLinkTargets', () => {
 
   it('returns empty array for no competitors', () => {
     expect(prioritizeLinkTargets([], [])).toEqual([])
+  })
+})
+
+describe('buildRentersSummary', () => {
+  const buyers = [
+    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz A', pitch_priority: 'hot', rating: '4.5', review_count: '20', website_weakness: 'no_website' },
+    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz B', pitch_priority: 'hot', rating: '4.0', review_count: '10', website_weakness: 'social_only' },
+    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz C', pitch_priority: 'warm', rating: '3.8', review_count: '5', website_weakness: 'directory_only' },
+    { candidate_slug: 'epoxy-flooring-miami', business_name: 'Biz D', pitch_priority: 'cold', rating: '4.9', review_count: '100', website_weakness: 'no_organic_rank' },
+    { candidate_slug: 'junk-removal-georgetown', business_name: 'Junk Co', pitch_priority: 'hot', rating: '5.0', review_count: '3', website_weakness: 'no_website' },
+  ]
+
+  it('groups buyers by candidate_slug', () => {
+    const result = buildRentersSummary(buyers)
+    expect(Object.keys(result.byCandidate)).toHaveLength(2)
+    expect(result.byCandidate['epoxy-flooring-miami']).toBeDefined()
+    expect(result.byCandidate['junk-removal-georgetown']).toBeDefined()
+  })
+
+  it('counts total, hot, warm, cold per slug', () => {
+    const result = buildRentersSummary(buyers)
+    const miami = result.byCandidate['epoxy-flooring-miami']
+    expect(miami.total).toBe(4)
+    expect(miami.hot).toBe(2)
+    expect(miami.warm).toBe(1)
+    expect(miami.cold).toBe(1)
+  })
+
+  it('includes top renters sorted by review_count descending', () => {
+    const result = buildRentersSummary(buyers)
+    const miami = result.byCandidate['epoxy-flooring-miami']
+    expect(miami.topRenters).toHaveLength(4)
+    expect(miami.topRenters[0].business_name).toBe('Biz D') // 100 reviews
+    expect(miami.topRenters[1].business_name).toBe('Biz A') // 20 reviews
+  })
+
+  it('returns aggregate totals', () => {
+    const result = buildRentersSummary(buyers)
+    expect(result.totals.total).toBe(5)
+    expect(result.totals.hot).toBe(3)
+    expect(result.totals.warm).toBe(1)
+    expect(result.totals.cold).toBe(1)
+  })
+
+  it('returns empty structure for empty input', () => {
+    const result = buildRentersSummary([])
+    expect(result.byCandidate).toEqual({})
+    expect(result.totals).toEqual({ total: 0, hot: 0, warm: 0, cold: 0 })
+  })
+})
+
+describe('buildKeywordsSummary', () => {
+  const siteYamls = {
+    'epoxy-flooring-miami': {
+      niche: 'epoxy-flooring',
+      city: 'Miami',
+      state: 'Florida',
+      towns: ['Hialeah', 'Coral Gables'],
+      pages: [
+        { slug: '/', type: 'home', primary_keyword: 'epoxy flooring miami' },
+        { slug: '/garage-floor-epoxy/', type: 'service', primary_keyword: 'garage floor epoxy miami' },
+        { slug: '/areas/hialeah/', type: 'town', primary_keyword: 'epoxy flooring hialeah' },
+        { slug: '/cost/', type: 'cost_guide', primary_keyword: 'epoxy flooring cost miami' },
+        { slug: '/faq/', type: 'faq', primary_keyword: 'epoxy flooring faq' },
+      ],
+    },
+  }
+
+  it('extracts page count from site.yaml', () => {
+    const result = buildKeywordsSummary(siteYamls)
+    expect(result['epoxy-flooring-miami'].pageCount).toBe(5)
+  })
+
+  it('extracts page types as a count map', () => {
+    const result = buildKeywordsSummary(siteYamls)
+    const types = result['epoxy-flooring-miami'].pageTypes
+    expect(types.home).toBe(1)
+    expect(types.service).toBe(1)
+    expect(types.town).toBe(1)
+    expect(types.cost_guide).toBe(1)
+    expect(types.faq).toBe(1)
+  })
+
+  it('extracts primary keywords list', () => {
+    const result = buildKeywordsSummary(siteYamls)
+    const kws = result['epoxy-flooring-miami'].keywords
+    expect(kws).toContain('epoxy flooring miami')
+    expect(kws).toContain('garage floor epoxy miami')
+    expect(kws).toHaveLength(5)
+  })
+
+  it('extracts towns from site.yaml', () => {
+    const result = buildKeywordsSummary(siteYamls)
+    expect(result['epoxy-flooring-miami'].towns).toEqual(['Hialeah', 'Coral Gables'])
+  })
+
+  it('extracts city and niche', () => {
+    const result = buildKeywordsSummary(siteYamls)
+    expect(result['epoxy-flooring-miami'].city).toBe('Miami')
+    expect(result['epoxy-flooring-miami'].niche).toBe('epoxy-flooring')
+  })
+
+  it('returns empty object for empty input', () => {
+    expect(buildKeywordsSummary({})).toEqual({})
+  })
+
+  it('returns empty object for null/undefined input', () => {
+    expect(buildKeywordsSummary(null)).toEqual({})
+    expect(buildKeywordsSummary(undefined)).toEqual({})
+  })
+
+  it('handles site.yaml with no pages array', () => {
+    const yaml = { 'test-slug': { niche: 'test', city: 'City', towns: [] } }
+    const result = buildKeywordsSummary(yaml)
+    expect(result['test-slug'].pageCount).toBe(0)
+    expect(result['test-slug'].keywords).toEqual([])
+    expect(result['test-slug'].pageTypes).toEqual({})
   })
 })

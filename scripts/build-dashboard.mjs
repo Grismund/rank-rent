@@ -20,7 +20,11 @@ import {
   buildNicheSummary,
   findCommonSources,
   prioritizeLinkTargets,
+  buildRentersSummary,
+  buildKeywordsSummary,
 } from '../lib/dashboard-data.js'
+import { parseBuyersCsv } from '../lib/renters.js'
+import { load as yamlLoad } from 'js-yaml'
 import { parseNicheEconomics } from '../lib/niche-economics-parser.js'
 import { buildReportMaps, buildShortlistMap } from '../lib/report-loader.js'
 
@@ -77,6 +81,24 @@ const economicsMap = existsSync(economicsPath)
   ? parseNicheEconomics(readFileSync(economicsPath, 'utf8'))
   : new Map()
 
+// Load buyers data
+const buyersPath = join(ROOT, 'data', 'buyers.csv')
+const buyers = existsSync(buyersPath)
+  ? parseBuyersCsv(readFileSync(buyersPath, 'utf8'))
+  : []
+
+// Load site.yaml files
+const sitesDir = join(ROOT, 'sites')
+const siteYamls = {}
+if (existsSync(sitesDir)) {
+  for (const dir of readdirSync(sitesDir)) {
+    const yPath = join(sitesDir, dir, 'site.yaml')
+    if (existsSync(yPath)) {
+      siteYamls[dir] = yamlLoad(readFileSync(yPath, 'utf8'))
+    }
+  }
+}
+
 // ── Process data ───────────────────────────────────────────
 
 const funnel = buildFunnel(candidates)
@@ -84,6 +106,12 @@ let enriched = enrichCandidates(candidates, validationMap, teardownMap, backlink
 enriched = enrichWithJobEconomics(enriched, economicsMap)
 const regionSummary = buildRegionSummary(candidates)
 const nicheSummary = buildNicheSummary(candidates, economicsMap)
+const rentersSummary = buildRentersSummary(buyers)
+const keywordsSummary = buildKeywordsSummary(siteYamls)
+
+// Split candidates: only non-walk_away go into HTML; walk_away go into a JS blob
+const visibleCandidates = enriched.filter(c => c.status !== 'walk_away')
+const walkAwayCandidates = enriched.filter(c => c.status === 'walk_away')
 
 // ── HTML generation helpers ────────────────────────────────
 
@@ -154,55 +182,17 @@ function verdictBadge(verdict) {
   return `<span style="display:inline-block;padding:2px 8px;border-radius:4px;background:${bg};color:#fff;font-weight:bold;font-size:12px">${verdict}</span>`
 }
 
-// ── Build candidate rows ───────────────────────────────────
+// ── Build candidate rows (main rows only, no detail rows) ──
 
-function candidateRows() {
-  return enriched.map((c, idx) => {
-    const score = c.score_total || ''
-    const bg = statusBg(c.status)
-    const hasDetail = !!c.validation
+function candidateMainRow(c) {
+  const score = c.score_total || ''
+  const bg = statusBg(c.status)
+  const hasDetail = !!c.validation
+  const kwSummary = keywordsSummary[c.slug]
+  const rSummary = rentersSummary.byCandidate[c.slug]
 
-    let detailHtml = ''
-    if (c.validation) {
-      const v = c.validation
-      detailHtml = `
-      <tr class="detail-row" data-slug="${esc(c.slug)}" data-status="${esc(c.status)}" id="detail-${idx}" style="display:none">
-        <td colspan="13" style="padding:16px;background:#f9fafb;border-top:none">
-          <div style="display:flex;gap:24px;flex-wrap:wrap">
-            <div>
-              <h4 style="margin:0 0 8px">Score Breakdown</h4>
-              ${barChartSvg(v.signals)}
-            </div>
-            <div>
-              <h4 style="margin:0 0 8px">Monthly Trends</h4>
-              ${sparklineSvg(v.trends_monthly, 180, 40)}
-            </div>
-            <div>
-              <h4 style="margin:0 0 8px">Map Pack Top 3</h4>
-              ${v.maps_data && v.maps_data.topThree && v.maps_data.topThree.length > 0
-                ? `<ul style="margin:0;padding-left:16px;font-size:13px">${v.maps_data.topThree.map((m) => `<li>${m.reviews} reviews (${m.rating}★)</li>`).join('')}</ul>`
-                : '<span style="color:#999;font-size:13px">No map pack data</span>'}
-            </div>
-            <div>
-              <h4 style="margin:0 0 8px">Organic Domains</h4>
-              ${v.organic_domains && v.organic_domains.length > 0
-                ? `<ul style="margin:0;padding-left:16px;font-size:13px">${v.organic_domains.map((d) => `<li>${esc(d)}</li>`).join('')}</ul>`
-                : '<span style="color:#999;font-size:13px">None</span>'}
-            </div>
-          </div>
-          ${c.teardownVerdict ? `<div style="margin-top:12px"><strong>Teardown Verdict:</strong> ${verdictBadge(c.teardownVerdict)}</div>` : ''}
-          ${c.teardownAssessment ? `<div style="margin-top:8px;padding:8px 12px;background:#f0f4f8;border-radius:6px;font-size:13px;line-height:1.5;color:#334155;border-left:3px solid ${c.teardownVerdict === 'BEATABLE' ? '#22c55e' : c.teardownVerdict === 'TOUGH' ? '#eab308' : '#ef4444'}">${esc(c.teardownAssessment)}</div>` : ''}
-          <div style="margin-top:10px">
-            ${teardownHtmlMap[c.slug] ? `<button class="report-btn" onclick="event.stopPropagation();openReport('teardown','${esc(c.slug)}','Teardown: ${esc(c.slug)}')">View Full Teardown</button>` : ''}
-            ${viabilityHtmlMap[c.slug] ? `<button class="report-btn" onclick="event.stopPropagation();openReport('viability','${esc(c.slug)}','Viability: ${esc(c.slug)}')">View Viability Report</button>` : ''}
-          </div>
-          ${buildBacklinkSection(c)}
-        </td>
-      </tr>`
-    }
-
-    return `
-    <tr data-slug="${esc(c.slug)}" data-status="${esc(c.status)}" style="background:${bg};cursor:${hasDetail ? 'pointer' : 'default'}" ${hasDetail ? `onclick="toggleDetail(${idx})"` : ''}>
+  return `
+    <tr data-slug="${esc(c.slug)}" data-status="${esc(c.status)}" style="background:${bg};cursor:${hasDetail ? 'pointer' : 'default'}" ${hasDetail ? `onclick="toggleDetail(this)"` : ''}>
       <td onclick="event.stopPropagation()"><input type="checkbox" class="row-select" data-slug="${esc(c.slug)}"></td>
       <td>${esc(c.slug)}</td>
       <td>${esc(c.niche)}</td>
@@ -216,8 +206,73 @@ function candidateRows() {
       <td data-sort="${c.score_organic != null && c.score_organic !== '' ? c.score_organic : ''}">${c.score_organic != null && c.score_organic !== '' ? `<span style="color:${String(c.score_organic) === '2' ? '#22c55e' : String(c.score_organic) === '1' ? '#eab308' : '#ef4444'};font-weight:bold">${c.score_organic}</span>` : '—'}</td>
       <td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:${statusColor(c.status)};color:#fff;font-size:11px">${esc(c.status)}</span></td>
       <td>${c.teardownVerdict ? verdictBadge(c.teardownVerdict) : ''}${c.teardownKeyFinding ? `<div style="font-size:11px;color:#555;margin-top:2px;max-width:220px;line-height:1.3">${esc(c.teardownKeyFinding)}</div>` : ''}</td>
-    </tr>${detailHtml}`
-  }).join('')
+      <td data-sort="${kwSummary ? kwSummary.pageCount : 0}">${kwSummary ? kwSummary.pageCount : '—'}</td>
+      <td data-sort="${rSummary ? rSummary.total : 0}">${rSummary ? `${rSummary.total} (${rSummary.hot} hot)` : '—'}</td>
+    </tr>`
+}
+
+function candidateRows() {
+  return visibleCandidates.map(c => candidateMainRow(c)).join('')
+}
+
+// ── Build detail data JSON for lazy rendering ────────────────
+
+function buildDetailsJson() {
+  const details = {}
+  for (const c of enriched) {
+    if (!c.validation) continue
+    // Skip walk_away candidates with no teardown/backlink data — their detail rows
+    // would only show bar charts derived from CSV scores, which isn't worth the payload
+    if (c.status === 'walk_away' && !c.teardownVerdict && !c.backlinkSources) continue
+    const v = c.validation
+    const entry = {
+      signals: v.signals || null,
+      trends_monthly: v.trends_monthly || null,
+      maps_data: v.maps_data ? { topThree: v.maps_data.topThree || [] } : null,
+      organic_domains: v.organic_domains || null,
+      teardownVerdict: c.teardownVerdict || null,
+      teardownAssessment: c.teardownAssessment || null,
+      hasTeardownReport: !!teardownHtmlMap[c.slug],
+      hasViabilityReport: !!viabilityHtmlMap[c.slug],
+    }
+    if (c.backlinkSources) {
+      const bl = c.backlinkSources
+      entry.backlinkSources = {
+        competitors: (bl.competitors || []).map(comp => ({
+          domain: comp.domain,
+          summary: comp.summary ? { referring_domains: comp.summary.referring_domains, rank: comp.summary.rank } : null,
+          top_referring_domains: (comp.top_referring_domains || []).slice(0, 20).map(r => ({
+            domain: r.domain, rank: r.rank, backlinks: r.backlinks, first_seen: r.first_seen
+          })),
+        })),
+        common_sources: bl.common_sources || [],
+        link_building_targets: bl.link_building_targets || [],
+      }
+    }
+    details[c.slug] = entry
+  }
+  return details
+}
+
+// ── Build walk_away data as columnar JSON [cols, ...rows] ────
+
+const WALKAWAY_COLS = ['slug','niche','area','vol_total','vol_primary','cpc','rent_estimate','avgJobLow','jobValueRange','score_total','score_organic','status','teardownVerdict','teardownKeyFinding','pageCount','renterTotal','renterHot','hasDetail']
+
+function buildWalkawayJson() {
+  const rows = walkAwayCandidates.map(c => {
+    const kwSummary = keywordsSummary[c.slug]
+    const rSummary = rentersSummary.byCandidate[c.slug]
+    return [
+      c.slug, c.niche, c.area,
+      c.vol_total || 0, c.vol_primary || 0, c.cpc || 0, c.rent_estimate || 0,
+      c.avgJobLow || 0, c.jobValueRange || null,
+      c.score_total || '', c.score_organic != null && c.score_organic !== '' ? c.score_organic : null,
+      c.status, c.teardownVerdict || null, c.teardownKeyFinding || null,
+      kwSummary ? kwSummary.pageCount : 0, rSummary ? rSummary.total : 0, rSummary ? rSummary.hot : 0,
+      !!(c.validation && (c.teardownVerdict || c.backlinkSources)),
+    ]
+  })
+  return [WALKAWAY_COLS, ...rows]
 }
 
 // ── Build backlink section for detail card ──────────────────
@@ -292,6 +347,62 @@ function nicheTable() {
     </tr>`).join('')
 }
 
+// ── Phase 3 per-candidate cards ─────────────────────────────
+
+function phase3Cards() {
+  const shortlistedCandidates = enriched.filter((c) => c.status === 'shortlisted')
+  if (shortlistedCandidates.length === 0) return '<p style="color:#64748b;margin-top:16px">No shortlisted candidates yet.</p>'
+
+  return shortlistedCandidates.map((c) => {
+    const kw = keywordsSummary[c.slug]
+    const r = rentersSummary.byCandidate[c.slug]
+
+    const kwHtml = kw ? `
+      <div>
+        <h4 style="margin:0 0 6px">Page Plan</h4>
+        <div style="font-size:13px"><strong>${kw.pageCount}</strong> pages &mdash;
+          ${Object.entries(kw.pageTypes).map(([t, n]) => `${n} ${t}`).join(', ')}
+        </div>
+        ${kw.towns.length > 0 ? `<div style="font-size:12px;color:#64748b;margin-top:4px">Towns: ${kw.towns.map(esc).join(', ')}</div>` : ''}
+        <div style="margin-top:6px;font-size:12px;color:#475569">
+          <strong>Keywords:</strong> ${kw.keywords.slice(0, 5).map(esc).join(', ')}${kw.keywords.length > 5 ? ` +${kw.keywords.length - 5} more` : ''}
+        </div>
+      </div>` : '<div style="color:#999;font-size:13px">No site.yaml yet</div>'
+
+    const rHtml = r ? `
+      <div>
+        <h4 style="margin:0 0 6px">Renters (${r.total})</h4>
+        <div style="display:flex;gap:12px;margin-bottom:8px;font-size:13px">
+          <span style="color:#ef4444;font-weight:bold">${r.hot} hot</span>
+          <span style="color:#eab308;font-weight:bold">${r.warm} warm</span>
+          <span style="color:#6b7280">${r.cold} cold</span>
+        </div>
+        ${r.topRenters.length > 0 ? `
+        <table style="width:100%;font-size:12px;border-collapse:collapse">
+          <thead><tr><th style="text-align:left;padding:3px 6px">Business</th><th style="padding:3px 6px">Rating</th><th style="padding:3px 6px">Reviews</th><th style="padding:3px 6px">Weakness</th><th style="padding:3px 6px">Priority</th></tr></thead>
+          <tbody>${r.topRenters.slice(0, 8).map((b) => `
+            <tr>
+              <td style="padding:3px 6px">${esc(b.business_name)}</td>
+              <td style="padding:3px 6px;text-align:center">${b.rating || '—'}</td>
+              <td style="padding:3px 6px;text-align:center">${b.review_count || '—'}</td>
+              <td style="padding:3px 6px;font-size:11px">${esc(b.website_weakness)}</td>
+              <td style="padding:3px 6px"><span style="color:${b.pitch_priority === 'hot' ? '#ef4444' : b.pitch_priority === 'warm' ? '#eab308' : '#6b7280'};font-weight:bold;font-size:11px">${esc(b.pitch_priority)}</span></td>
+            </tr>`).join('')}
+          </tbody>
+        </table>` : ''}
+      </div>` : '<div style="color:#999;font-size:13px">No renters researched yet</div>'
+
+    return `
+    <div class="card" style="margin-top:16px">
+      <h3>${esc(c.slug)} <span style="font-weight:normal;color:#64748b;font-size:13px">${esc(c.niche)} &mdash; ${esc(c.area)}</span></h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px">
+        ${kwHtml}
+        ${rHtml}
+      </div>
+    </div>`
+  }).join('')
+}
+
 // ── Funnel bar ─────────────────────────────────────────────
 
 function funnelBar() {
@@ -323,7 +434,7 @@ const html = `<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rank &amp; Rent — Phase 2 Research Dashboard</title>
+<title>Rank &amp; Rent — Research Dashboard</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.5; padding: 24px; max-width: 1400px; margin: 0 auto; }
@@ -348,7 +459,6 @@ tr:hover { background: #f8fafc; }
 .tab-content { display: none; }
 .tab-content.active { display: block; }
 .sort-arrow { font-size: 10px; margin-left: 4px; }
-.hide-walkaway tr[data-status="walk_away"] { display: none; }
 #bulk-toolbar { position: fixed; bottom: 0; left: 0; right: 0; background: #1e293b; color: #fff; padding: 10px 24px; display: flex; align-items: center; gap: 12px; z-index: 100; font-size: 14px; box-shadow: 0 -2px 8px rgba(0,0,0,0.2); transform: translateY(100%); transition: transform 0.2s; }
 #bulk-toolbar.visible { transform: translateY(0); }
 #bulk-toolbar select { padding: 4px 8px; border-radius: 4px; border: 1px solid #475569; background: #334155; color: #fff; font-size: 13px; }
@@ -385,7 +495,7 @@ tr:hover { background: #f8fafc; }
   <h1>Rank &amp; Rent — Research Dashboard</h1>
   <button id="rebuild-btn" onclick="rebuildDashboard()" style="padding:6px 16px;border-radius:6px;border:1px solid #cbd5e1;background:#fff;cursor:pointer;font-size:13px;font-weight:600;color:#475569;white-space:nowrap;transition:all 0.15s;user-select:none" onmousedown="this.style.transform='scale(0.96)'" onmouseup="this.style.transform=''" onmouseleave="this.style.transform=''">&#x21bb; Rebuild</button>
 </div>
-<p class="subtitle">Phase 2 Pipeline Results &bull; Generated ${new Date().toISOString().slice(0, 10)} &bull; ${funnel.total} candidates evaluated</p>
+<p class="subtitle">Pipeline Results &bull; Generated ${new Date().toISOString().slice(0, 10)} &bull; ${funnel.total} candidates evaluated &bull; ${Object.keys(siteYamls).length} site plans &bull; ${buyers.length} renters found</p>
 
 ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">Shortlist memos: ${shortlists.map((f) => `<button class="shortlist-btn" onclick="openReport('shortlist','${esc(f)}','${esc(f)}')">${esc(f)}</button>`).join(' ')}</p>` : ''}
 
@@ -393,6 +503,7 @@ ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">Shortlis
   <button class="tab active" onclick="showTab('funnel')">Pipeline Funnel</button>
   <button class="tab" onclick="showTab('candidates')">Candidates</button>
   <button class="tab" onclick="showTab('regions')">Regions &amp; Niches</button>
+  <button class="tab" onclick="showTab('phase3')">Phase 3 — Sites &amp; Renters</button>
 </div>
 
 <div id="tab-funnel" class="tab-content active">
@@ -424,6 +535,8 @@ ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">Shortlis
             <th data-col="10" data-type="num">Org</th>
             <th data-col="11">Status</th>
             <th data-col="12">Verdict</th>
+            <th data-col="13" data-type="num">Pages</th>
+            <th data-col="14" data-type="num">Renters</th>
           </tr>
         </thead>
         <tbody>
@@ -451,6 +564,28 @@ ${shortlists.length > 0 ? `<p style="margin-bottom:16px;font-size:13px">Shortlis
       </table>
     </div>
   </div>
+</div>
+
+<div id="tab-phase3" class="tab-content">
+  <div class="grid" style="margin-top:16px">
+    <div class="card">
+      <h3 style="color:#6b7280">Site Plans</h3>
+      <div style="font-size:28px;font-weight:bold">${Object.keys(keywordsSummary).length}</div>
+      <div style="font-size:12px;color:#64748b">of ${funnel.shortlisted} shortlisted</div>
+    </div>
+    <div class="card">
+      <h3 style="color:#6b7280">Total Renters</h3>
+      <div style="font-size:28px;font-weight:bold">${rentersSummary.totals.total}</div>
+      <div style="font-size:12px;color:#64748b">${rentersSummary.totals.hot} hot &bull; ${rentersSummary.totals.warm} warm &bull; ${rentersSummary.totals.cold} cold</div>
+    </div>
+    <div class="card">
+      <h3 style="color:#6b7280">Hot Leads</h3>
+      <div style="font-size:28px;font-weight:bold;color:#ef4444">${rentersSummary.totals.hot}</div>
+      <div style="font-size:12px;color:#64748b">ready for pitch</div>
+    </div>
+  </div>
+
+  ${phase3Cards()}
 </div>
 
 <div id="bulk-toolbar">
@@ -482,6 +617,143 @@ window.__REPORTS__ = {
   viability: ${JSON.stringify(viabilityHtmlMap)},
   shortlists: ${JSON.stringify(shortlistHtmlMap)}
 };
+window.__DETAILS__ = ${JSON.stringify(buildDetailsJson())};
+window.__WALKAWAY__ = ${JSON.stringify(buildWalkawayJson())};
+
+function esc(str) {
+  var d = document.createElement('div');
+  d.textContent = String(str || '');
+  return d.innerHTML;
+}
+
+function statusColor(s) {
+  switch (s) {
+    case 'shortlisted': return '#22c55e';
+    case 'validated': return '#eab308';
+    case 'torn_down': return '#3b82f6';
+    case 'walk_away': return '#ef4444';
+    default: return '#6b7280';
+  }
+}
+
+function statusBg(s) {
+  switch (s) {
+    case 'shortlisted': return '#dcfce7';
+    case 'validated': return '#fef9c3';
+    case 'torn_down': return '#dbeafe';
+    case 'walk_away': return '#fee2e2';
+    default: return '#f3f4f6';
+  }
+}
+
+function verdictBadgeHtml(v) {
+  if (!v) return '';
+  var colors = { BEATABLE: '#22c55e', TOUGH: '#eab308', SKIP: '#ef4444' };
+  var bg = colors[v] || '#6b7280';
+  return '<span style="display:inline-block;padding:2px 8px;border-radius:4px;background:' + bg + ';color:#fff;font-weight:bold;font-size:12px">' + esc(v) + '</span>';
+}
+
+function barChartSvgHtml(signals) {
+  if (!signals) return '';
+  var labels = ['Vol', 'CPC', 'Map', 'Org', 'Rent', 'Lic', 'Seas', 'RentP'];
+  var keys = ['volume', 'cpc', 'mapPack', 'organic', 'renters', 'license', 'seasonality', 'rent'];
+  var barW = 28, gap = 4, maxH = 50;
+  var totalW = keys.length * (barW + gap);
+  var bars = '';
+  keys.forEach(function(k, i) {
+    var val = signals[k] || 0;
+    var h = (val / 2) * maxH;
+    var x = i * (barW + gap);
+    var y = maxH - h;
+    var color = val === 2 ? '#22c55e' : val === 1 ? '#eab308' : '#ef4444';
+    bars += '<rect x="' + x + '" y="' + y + '" width="' + barW + '" height="' + (h || 2) + '" fill="' + color + '" rx="2"/>';
+    bars += '<text x="' + (x + barW / 2) + '" y="' + (maxH + 14) + '" text-anchor="middle" font-size="9" fill="#666">' + labels[i] + '</text>';
+    bars += '<text x="' + (x + barW / 2) + '" y="' + (y - 3) + '" text-anchor="middle" font-size="9" fill="#333">' + val + '</text>';
+  });
+  return '<svg width="' + totalW + '" height="' + (maxH + 20) + '" viewBox="0 0 ' + totalW + ' ' + (maxH + 20) + '">' + bars + '</svg>';
+}
+
+function sparklineSvgHtml(values, width, height) {
+  width = width || 120; height = height || 30;
+  if (!values || values.length === 0) return '';
+  var max = Math.max.apply(null, values);
+  var min = Math.min.apply(null, values);
+  var range = max - min || 1;
+  var step = width / (values.length - 1);
+  var points = values.map(function(v, i) { return (i * step) + ',' + (height - ((v - min) / range) * (height - 4) - 2); }).join(' ');
+  return '<svg width="' + width + '" height="' + height + '" viewBox="0 0 ' + width + ' ' + height + '" style="vertical-align:middle"><polyline points="' + points + '" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+}
+
+function buildBacklinkHtml(bl) {
+  if (!bl) return '';
+  var competitorTables = '';
+  if (bl.competitors && bl.competitors.length > 0) {
+    competitorTables = bl.competitors.map(function(comp) {
+      var rows = (comp.top_referring_domains || []).slice(0, 20).map(function(ref) {
+        return '<tr><td style="font-size:12px">' + esc(ref.domain) + '</td><td style="font-size:12px">' + (ref.rank || '—') + '</td><td style="font-size:12px">' + (ref.backlinks || '—') + '</td><td style="font-size:12px">' + (ref.first_seen || '—') + '</td></tr>';
+      }).join('');
+      return '<div style="margin-bottom:12px"><h5 style="margin:0 0 4px">Referring Domains for <em>' + esc(comp.domain) + '</em> <span style="font-weight:normal;color:#666;font-size:12px">(' + ((comp.summary && comp.summary.referring_domains) || '?') + ' ref. domains, rank ' + ((comp.summary && comp.summary.rank) || '?') + ')</span></h5><table style="width:100%;font-size:12px;border-collapse:collapse"><thead><tr><th style="text-align:left;padding:4px">Domain</th><th style="text-align:left;padding:4px">Rank</th><th style="text-align:left;padding:4px">Backlinks</th><th style="text-align:left;padding:4px">First Seen</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+    }).join('');
+  }
+  var commonHtml = bl.common_sources && bl.common_sources.length > 0
+    ? '<div style="margin-top:8px"><strong>Common Sources</strong> (link to 2+ competitors): <span style="color:#22c55e;font-weight:bold">' + bl.common_sources.map(esc).join(', ') + '</span></div>'
+    : '';
+  var targetsHtml = bl.link_building_targets && bl.link_building_targets.length > 0
+    ? '<div style="margin-top:8px"><strong>Link Building Targets:</strong> ' + bl.link_building_targets.map(esc).join(', ') + '</div>'
+    : '';
+  return '<div class="backlink-section"><h4>Backlink Sources</h4>' + competitorTables + commonHtml + targetsHtml + '</div>';
+}
+
+function renderDetail(mainRow) {
+  var slug = mainRow.dataset.slug;
+  var d = window.__DETAILS__[slug];
+  if (!d) return null;
+  var html = '<td colspan="15" style="padding:16px;background:#f9fafb;border-top:none"><div style="display:flex;gap:24px;flex-wrap:wrap">';
+  html += '<div><h4 style="margin:0 0 8px">Score Breakdown</h4>' + barChartSvgHtml(d.signals) + '</div>';
+  html += '<div><h4 style="margin:0 0 8px">Monthly Trends</h4>' + sparklineSvgHtml(d.trends_monthly, 180, 40) + '</div>';
+  html += '<div><h4 style="margin:0 0 8px">Map Pack Top 3</h4>';
+  if (d.maps_data && d.maps_data.topThree && d.maps_data.topThree.length > 0) {
+    html += '<ul style="margin:0;padding-left:16px;font-size:13px">' + d.maps_data.topThree.map(function(m) { return '<li>' + m.reviews + ' reviews (' + m.rating + '★)</li>'; }).join('') + '</ul>';
+  } else {
+    html += '<span style="color:#999;font-size:13px">No map pack data</span>';
+  }
+  html += '</div>';
+  html += '<div><h4 style="margin:0 0 8px">Organic Domains</h4>';
+  if (d.organic_domains && d.organic_domains.length > 0) {
+    html += '<ul style="margin:0;padding-left:16px;font-size:13px">' + d.organic_domains.map(function(x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>';
+  } else {
+    html += '<span style="color:#999;font-size:13px">None</span>';
+  }
+  html += '</div></div>';
+  if (d.teardownVerdict) {
+    html += '<div style="margin-top:12px"><strong>Teardown Verdict:</strong> ' + verdictBadgeHtml(d.teardownVerdict) + '</div>';
+  }
+  if (d.teardownAssessment) {
+    var borderColor = d.teardownVerdict === 'BEATABLE' ? '#22c55e' : d.teardownVerdict === 'TOUGH' ? '#eab308' : '#ef4444';
+    html += '<div style="margin-top:8px;padding:8px 12px;background:#f0f4f8;border-radius:6px;font-size:13px;line-height:1.5;color:#334155;border-left:3px solid ' + borderColor + '">' + esc(d.teardownAssessment) + '</div>';
+  }
+  html += '<div style="margin-top:10px">';
+  if (d.hasTeardownReport) html += '<button class="report-btn" onclick="event.stopPropagation();openReport(&quot;teardown&quot;,&quot;' + esc(slug) + '&quot;,&quot;Teardown: ' + esc(slug) + '&quot;)">View Full Teardown</button>';
+  if (d.hasViabilityReport) html += '<button class="report-btn" onclick="event.stopPropagation();openReport(&quot;viability&quot;,&quot;' + esc(slug) + '&quot;,&quot;Viability: ' + esc(slug) + '&quot;)">View Viability Report</button>';
+  html += '</div>';
+  html += buildBacklinkHtml(d.backlinkSources);
+  html += '</td>';
+  var tr = document.createElement('tr');
+  tr.className = 'detail-row';
+  tr.dataset.slug = slug;
+  tr.innerHTML = html;
+  return tr;
+}
+
+function toggleDetail(mainRow) {
+  var next = mainRow.nextElementSibling;
+  if (next && next.classList.contains('detail-row')) {
+    next.style.display = next.style.display === 'none' ? 'table-row' : 'none';
+  } else {
+    var detailTr = renderDetail(mainRow);
+    if (detailTr) mainRow.parentNode.insertBefore(detailTr, mainRow.nextSibling);
+  }
+}
 
 function openReport(type, key, title) {
   var map = type === 'teardown' ? window.__REPORTS__.teardowns
@@ -506,31 +778,76 @@ document.addEventListener('keydown', function(e) {
 
 // Tab switching
 function showTab(name) {
-  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
-  document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(function(el) { el.classList.remove('active'); });
+  document.querySelectorAll('.tab').forEach(function(el) { el.classList.remove('active'); });
   document.getElementById('tab-' + name).classList.add('active');
   document.querySelector('[onclick="showTab(\\'' + name + '\\')"]').classList.add('active');
 }
 
-// Detail row toggle
-function toggleDetail(idx) {
-  const row = document.getElementById('detail-' + idx);
-  if (row) row.style.display = row.style.display === 'none' ? 'table-row' : 'none';
-}
-
-// Walk_away toggle
+// Walk_away toggle — builds rows from __WALKAWAY__ columnar data on demand
 (function() {
-  const tbody = document.querySelector('#candidates-table tbody');
-  const toggle = document.getElementById('show-walkaway');
+  var tbody = document.querySelector('#candidates-table tbody');
+  var toggle = document.getElementById('show-walkaway');
   if (!tbody || !toggle) return;
-  tbody.classList.add('hide-walkaway');
+  var walkawayRows = [];
+  var cols = window.__WALKAWAY__[0]; // column names
+  var ci = {}; cols.forEach(function(name, i) { ci[name] = i; });
+
+  function buildWalkawayRow(row) {
+    var slug = row[ci.slug], niche = row[ci.niche], area = row[ci.area];
+    var vol_total = row[ci.vol_total], vol_primary = row[ci.vol_primary], cpc = row[ci.cpc];
+    var rent_estimate = row[ci.rent_estimate], avgJobLow = row[ci.avgJobLow];
+    var jobValueRange = row[ci.jobValueRange], score = row[ci.score_total] || '';
+    var score_organic = row[ci.score_organic], status = row[ci.status];
+    var teardownVerdict = row[ci.teardownVerdict], teardownKeyFinding = row[ci.teardownKeyFinding];
+    var pageCount = row[ci.pageCount], renterTotal = row[ci.renterTotal], renterHot = row[ci.renterHot];
+    var hasDetail = row[ci.hasDetail];
+
+    var bg = statusBg(status);
+    var orgHtml = score_organic != null ? '<span style="color:' + (String(score_organic) === '2' ? '#22c55e' : String(score_organic) === '1' ? '#eab308' : '#ef4444') + ';font-weight:bold">' + score_organic + '</span>' : '—';
+    var renterHtml = renterTotal ? renterTotal + ' (' + renterHot + ' hot)' : '—';
+
+    var tr = document.createElement('tr');
+    tr.dataset.slug = slug;
+    tr.dataset.status = status;
+    tr.style.background = bg;
+    tr.style.cursor = hasDetail ? 'pointer' : 'default';
+    if (hasDetail) tr.onclick = function() { toggleDetail(tr); };
+    tr.innerHTML =
+      '<td onclick="event.stopPropagation()"><input type="checkbox" class="row-select" data-slug="' + esc(slug) + '"></td>' +
+      '<td>' + esc(slug) + '</td>' +
+      '<td>' + esc(niche) + '</td>' +
+      '<td>' + esc(area) + '</td>' +
+      '<td data-sort="' + vol_total + '">' + (vol_total || '—') + '</td>' +
+      '<td data-sort="' + vol_primary + '">' + (vol_primary || '—') + '</td>' +
+      '<td data-sort="' + cpc + '">' + (cpc ? '$' + parseFloat(cpc).toFixed(2) : '—') + '</td>' +
+      '<td data-sort="' + rent_estimate + '">' + (rent_estimate ? '$' + parseFloat(rent_estimate).toFixed(0) : '—') + '</td>' +
+      '<td data-sort="' + avgJobLow + '">' + (jobValueRange || '—') + '</td>' +
+      '<td data-sort="' + score + '">' + (score || '—') + '</td>' +
+      '<td data-sort="' + (score_organic != null ? score_organic : '') + '">' + orgHtml + '</td>' +
+      '<td><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:' + statusColor(status) + ';color:#fff;font-size:11px">' + esc(status) + '</span></td>' +
+      '<td>' + (teardownVerdict ? verdictBadgeHtml(teardownVerdict) : '') + (teardownKeyFinding ? '<div style="font-size:11px;color:#555;margin-top:2px;max-width:220px;line-height:1.3">' + esc(teardownKeyFinding) + '</div>' : '') + '</td>' +
+      '<td data-sort="' + pageCount + '">' + (pageCount || '—') + '</td>' +
+      '<td data-sort="' + renterTotal + '">' + renterHtml + '</td>';
+    return tr;
+  }
+
   toggle.addEventListener('change', function() {
     if (this.checked) {
-      tbody.classList.remove('hide-walkaway');
+      if (walkawayRows.length === 0) {
+        for (var i = 1; i < window.__WALKAWAY__.length; i++) {
+          walkawayRows.push(buildWalkawayRow(window.__WALKAWAY__[i]));
+        }
+      }
+      walkawayRows.forEach(function(tr) { tbody.appendChild(tr); });
     } else {
-      tbody.classList.add('hide-walkaway');
-      // Uncheck any selected walk_away rows
-      tbody.querySelectorAll('tr[data-status="walk_away"] .row-select:checked').forEach(cb => { cb.checked = false; });
+      walkawayRows.forEach(function(tr) {
+        var next = tr.nextElementSibling;
+        if (next && next.classList.contains('detail-row')) next.remove();
+        tr.remove();
+        var cb = tr.querySelector('.row-select');
+        if (cb) cb.checked = false;
+      });
       updateToolbar();
     }
   });
@@ -538,23 +855,23 @@ function toggleDetail(idx) {
 
 // Checkbox / toolbar logic
 function getSelectedSlugs() {
-  return Array.from(document.querySelectorAll('.row-select:checked')).map(cb => cb.dataset.slug);
+  return Array.from(document.querySelectorAll('.row-select:checked')).map(function(cb) { return cb.dataset.slug; });
 }
 
 function updateToolbar() {
-  const selected = getSelectedSlugs();
-  const toolbar = document.getElementById('bulk-toolbar');
-  const count = document.getElementById('bulk-count');
+  var selected = getSelectedSlugs();
+  var toolbar = document.getElementById('bulk-toolbar');
+  var count = document.getElementById('bulk-count');
   count.textContent = selected.length + ' selected';
   if (selected.length > 0) { toolbar.classList.add('visible'); } else { toolbar.classList.remove('visible'); }
 }
 
 // Select-all (visible rows only)
 document.getElementById('select-all').addEventListener('change', function() {
-  const checked = this.checked;
-  document.querySelectorAll('#candidates-table tbody tr:not(.detail-row)').forEach(tr => {
-    if (tr.offsetParent === null) return; // hidden (walk_away)
-    const cb = tr.querySelector('.row-select');
+  var checked = this.checked;
+  document.querySelectorAll('#candidates-table tbody tr:not(.detail-row)').forEach(function(tr) {
+    if (tr.offsetParent === null) return;
+    var cb = tr.querySelector('.row-select');
     if (cb) cb.checked = checked;
   });
   updateToolbar();
@@ -567,24 +884,24 @@ document.addEventListener('change', function(e) {
 
 // Apply button
 document.getElementById('bulk-apply').addEventListener('click', function() {
-  const slugs = getSelectedSlugs();
+  var slugs = getSelectedSlugs();
   if (slugs.length === 0) return;
-  const status = document.getElementById('bulk-status').value;
+  var status = document.getElementById('bulk-status').value;
   if (!confirm('Set ' + slugs.length + ' candidate(s) to "' + status + '"?')) return;
-  const updates = slugs.map(slug => ({ slug, status }));
+  var updates = slugs.map(function(slug) { return { slug: slug, status: status }; });
   fetch('/api/status', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ updates }),
-  }).then(r => r.json()).then(data => {
+    body: JSON.stringify({ updates: updates }),
+  }).then(function(r) { return r.json(); }).then(function(data) {
     if (data.ok) location.reload();
     else alert('Error: ' + (data.error || 'unknown'));
-  }).catch(err => alert('Request failed: ' + err.message));
+  }).catch(function(err) { alert('Request failed: ' + err.message); });
 });
 
 // Clear button
 document.getElementById('bulk-clear').addEventListener('click', function() {
-  document.querySelectorAll('.row-select:checked').forEach(cb => { cb.checked = false; });
+  document.querySelectorAll('.row-select:checked').forEach(function(cb) { cb.checked = false; });
   document.getElementById('select-all').checked = false;
   updateToolbar();
 });
@@ -617,43 +934,43 @@ function rebuildDashboard() {
 
 // Sortable table
 (function() {
-  const table = document.getElementById('candidates-table');
+  var table = document.getElementById('candidates-table');
   if (!table) return;
-  const headers = table.querySelectorAll('th[data-col]');
-  let sortCol = -1, sortAsc = true;
+  var headers = table.querySelectorAll('th[data-col]');
+  var sortCol = -1, sortAsc = true;
 
-  headers.forEach(th => {
+  headers.forEach(function(th) {
     th.addEventListener('click', function() {
-      const col = parseInt(this.dataset.col);
-      const isNum = this.dataset.type === 'num';
+      var col = parseInt(this.dataset.col);
+      var isNum = this.dataset.type === 'num';
       if (sortCol === col) { sortAsc = !sortAsc; } else { sortCol = col; sortAsc = true; }
 
       // Collect row pairs (data row + optional detail row)
-      const tbody = table.querySelector('tbody');
-      const allRows = Array.from(tbody.children);
-      const pairs = [];
-      for (let i = 0; i < allRows.length; i++) {
+      var tbody = table.querySelector('tbody');
+      var allRows = Array.from(tbody.children);
+      var pairs = [];
+      for (var i = 0; i < allRows.length; i++) {
         if (allRows[i].classList.contains('detail-row')) continue;
-        const detail = allRows[i + 1] && allRows[i + 1].classList.contains('detail-row') ? allRows[i + 1] : null;
-        pairs.push({ main: allRows[i], detail });
+        var detail = allRows[i + 1] && allRows[i + 1].classList.contains('detail-row') ? allRows[i + 1] : null;
+        pairs.push({ main: allRows[i], detail: detail });
       }
 
-      pairs.sort((a, b) => {
-        const cellA = a.main.children[col];
-        const cellB = b.main.children[col];
-        let valA = cellA.dataset.sort !== undefined ? cellA.dataset.sort : cellA.textContent.trim();
-        let valB = cellB.dataset.sort !== undefined ? cellB.dataset.sort : cellB.textContent.trim();
+      pairs.sort(function(a, b) {
+        var cellA = a.main.children[col];
+        var cellB = b.main.children[col];
+        var valA = cellA.dataset.sort !== undefined ? cellA.dataset.sort : cellA.textContent.trim();
+        var valB = cellB.dataset.sort !== undefined ? cellB.dataset.sort : cellB.textContent.trim();
         if (isNum) { valA = parseFloat(valA) || 0; valB = parseFloat(valB) || 0; }
         if (valA < valB) return sortAsc ? -1 : 1;
         if (valA > valB) return sortAsc ? 1 : -1;
         return 0;
       });
 
-      // Re-append in sorted order (DOM move preserves checkbox state)
-      pairs.forEach(p => { tbody.appendChild(p.main); if (p.detail) tbody.appendChild(p.detail); });
+      // Re-append in sorted order
+      pairs.forEach(function(p) { tbody.appendChild(p.main); if (p.detail) tbody.appendChild(p.detail); });
 
       // Update arrow indicators
-      headers.forEach(h => { const arrow = h.querySelector('.sort-arrow'); if (arrow) arrow.remove(); });
+      headers.forEach(function(h) { var arrow = h.querySelector('.sort-arrow'); if (arrow) arrow.remove(); });
       this.insertAdjacentHTML('beforeend', '<span class="sort-arrow">' + (sortAsc ? '▲' : '▼') + '</span>');
     });
   });
@@ -670,3 +987,4 @@ writeFileSync(outPath, html, 'utf8')
 console.log(`Dashboard written to ${outPath}`)
 console.log(`  ${funnel.total} candidates, ${funnel.validated} validated, ${funnel.shortlisted} shortlisted`)
 console.log(`  ${Object.keys(validationMap).length} validation files, ${Object.keys(teardownMap).length} teardowns, ${Object.keys(backlinkMap).length} backlink sources`)
+console.log(`  ${Object.keys(siteYamls).length} site plans, ${buyers.length} renters (${rentersSummary.totals.hot} hot)`)
