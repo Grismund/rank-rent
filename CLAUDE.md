@@ -21,9 +21,9 @@ rank-rent/
     sites.csv                       domain, registrar, renewal, number, status, client
     buyers.csv                      renters per niche and area
     links.csv                       backlink targets and status
-  lib/                              shared business logic (scoring, candidates, trends, etc.)
-  scripts/                          operational scripts (dashboard, validation, teardown, etc.)
-  tests/                            vitest unit tests (1:1 with lib/)
+  lib/                              shared business logic (scoring, candidates, trends, renters, etc.)
+  scripts/                          operational scripts (dashboard, validation, enrichment, etc.)
+  tests/                            vitest unit tests (1:1 with lib/, 20 test files)
   research/
     <niche>-<area>/                 validation data, teardown per candidate
     dashboard.html                  generated research dashboard
@@ -62,7 +62,7 @@ Each SKILL.md should specify:
 
 ## Workflow
 
-> **Current status:** Phase 2 complete. 18 candidates approved at Gate 1 across 8 niches. Phase 3 beginning with `rr-niche-pack` (8 niche packs to create). Pipeline reordered: domains/phones moved to end of Phase 4 (after SEO audit, before Gate 2).
+> **Current status:** Phase 3 substantially complete. 18 candidates approved at Gate 1 across 8 niches. Niche packs (8), niche briefs, local facts, keywords (18 site.yaml files), and renters (540 buyers in `buyers.csv`) all done. Enrichment pipeline active: GBP contact enrichment and website scraping for emails/owner names. Pipeline reordered: domains/phones moved to end of Phase 4 (after SEO audit, before Gate 2).
 
 ### Pipeline overview
 
@@ -98,7 +98,7 @@ Each SKILL.md should specify:
 |-------|--------|--------|----------|
 | 1 | `rr-smoke-test` | DONE | `docs/connectivity-report.md` |
 | 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-viability`, `rr-shortlist` | DONE | `candidates.csv`, validation data, teardowns, viability reports, shortlist memo |
-| 3 | `rr-niche-pack`, `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` | NOT BUILT | Niche packs, niche/town research, page plans, buyer lists |
+| 3 | `rr-niche-pack`, `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` | DONE | Niche packs (8), briefs, local facts, 18 site.yaml page plans, 540 buyers in `buyers.csv` |
 | 4 | `rr-site-build`, `rr-content`, `rr-seo-audit`, `rr-domains`, `rr-phone` | NOT BUILT | Sites, content, audit reports, registered domains |
 | 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` | NOT BUILT | Live sites, backlinks, review reports, pitch materials |
 
@@ -119,7 +119,7 @@ shortlisted → ◆ GATE 1 → packed → briefed → content_ready → audited 
 
 ## Data model
 
-- **CSV** files in `data/` are the source of truth for candidates, sites, buyers, and links. Currently `candidates.csv`, `counties.csv`, and `cities.csv` exist; `sites.csv`, `buyers.csv`, and `links.csv` are defined for Phase 3+.
+- **CSV** files in `data/` are the source of truth for candidates, sites, buyers, and links. Currently `candidates.csv`, `counties.csv`, `cities.csv`, and `buyers.csv` exist; `sites.csv` and `links.csv` are defined for Phase 4+.
 - **`counties.csv`** holds 109 high-growth US counties (8%+ population growth since 2020) used by `scripts/county-scan.mjs` for county-level volume scanning. Columns: `county, state, pop_2026, pop_2020, growth_pct`.
 - **`cities.csv`** holds 59 high-growth US cities used by `scripts/city-scan.mjs` for city-level volume scanning. Columns: `city, state, pop_2026, pop_2020, growth_pct`.
 - **YAML** (`niches/<niche>/pack.yaml`) holds per-niche content packs: sub-services, page outlines with heading structures, guide topics, and local variable definitions with research questions. One pack per niche, shared across all cities.
@@ -128,6 +128,52 @@ shortlisted → ◆ GATE 1 → packed → briefed → content_ready → audited 
 - **Reference docs** in `reference/` hold shared scoring rubrics and content standards that skills import.
 
 `data/sites.csv` columns: site, niche, area, domain, registrar, renewal date, tracking number, forwarding target, launch date, first impression, first call, monthly calls, client, price, start date, payment status.
+
+`data/buyers.csv` columns: candidate_slug, business_name, phone, website, domain, address, city, state, rating, review_count, is_claimed, source, has_website, website_weakness, fb_presence, pitch_priority, notes, researched_date, owner_name, owner_name_source, email, email_source, phone_source, website_source, enriched_date.
+
+### Buyer enrichment pipeline
+
+Buyers in `buyers.csv` are enriched in multiple passes, each adding contact details with source attribution:
+
+| Pass | Script | Source tag | What it finds |
+|------|--------|------------|---------------|
+| 1 | `scripts/enrich-contacts.mjs` | `GBP` | Re-queries DataForSEO Business Listings `contact_info` for emails and extra phones |
+| 2 | `scripts/enrich-websites.mjs` | `SITE` | Fetches buyer websites (homepage, /contact, /about pages) to extract emails and owner names |
+
+Each contact field (`email`, `phone`, `owner_name`, `website`) has a companion `*_source` column tracking where it came from (`GBP`, `SITE`, `FB`). The `mergeContactData()` function in `lib/renters.js` implements first-wins merge — it never overwrites an existing value. The `enriched_date` column records when a row was last enrichment-attempted.
+
+Key functions in `lib/renters.js` for enrichment:
+- `extractEmailFromText(text)` — regex email extraction, filtering generic addresses (noreply, admin, sentry.io, etc.)
+- `extractOwnerFromText(text)` — pattern matching for Owner/CEO/President/Founded by names
+- `buildContactPageUrls(websiteUrl)` — generates homepage + /contact, /contact-us, /about, /about-us URLs
+- `mergeContactData(row, newData)` — first-wins merge with source tracking
+- `buildEnrichmentSummary(buyers)` — aggregates enrichment coverage stats
+
+### Scripts
+
+Operational scripts in `scripts/`:
+
+| Script | Purpose |
+|--------|---------|
+| `build-dashboard.mjs` | Generates `research/dashboard.html` from all research data |
+| `serve-dashboard.mjs` | Local dev server for the dashboard |
+| `volume-scan.mjs` | Batch keyword volume lookups via DataForSEO |
+| `city-scan.mjs` | City-level volume scanning using `cities.csv` |
+| `county-scan.mjs` | County-level volume scanning using `counties.csv` |
+| `validate-candidates.mjs` | Batch validation scoring |
+| `validate-batch.mjs` | Batch validation with parallel processing |
+| `validate-local.mjs` | Local-only validation |
+| `revalidate-empty.mjs` | Re-validates candidates with missing data |
+| `teardown.mjs` | Competitor teardown analysis |
+| `viability.mjs` | Unit economics viability check |
+| `shortlist.mjs` | Generates shortlist memos |
+| `discover-niches.mjs` | Niche discovery via seed expansion |
+| `local-discover.mjs` | Local keyword discovery |
+| `generate-keywords.mjs` | Keyword generation for site plans |
+| `enrich-contacts.mjs` | GBP contact enrichment (DataForSEO) |
+| `enrich-websites.mjs` | Website scraping enrichment (emails, owner names) |
+| `rescore-candidates.mjs` | Re-scores candidates after data changes |
+| `verify-data.mjs` | Data integrity verification |
 
 ## API integrations
 

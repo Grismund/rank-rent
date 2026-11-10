@@ -1,0 +1,20 @@
+{
+  "skill": "update-beads",
+  "timestamp": "2026-11-10T10:20:00Z",
+  "closed": [
+    { "id": "agent-services-ozo", "title": "[epic] rr-keywords: Build keyword page plans for all 18 candidates", "reason": "All 4 subtasks complete — keywords.test.js, keywords.js, rr-keywords SKILL.md, and 18 site.yaml files" },
+    { "id": "agent-services-ozo.1", "title": "Write tests/keywords.test.js (RED)", "reason": "Implemented — tests/keywords.test.js exists with 310 lines of tests" },
+    { "id": "agent-services-ozo.2", "title": "Implement lib/keywords.js (GREEN)", "reason": "Implemented — lib/keywords.js exists with 166 lines" },
+    { "id": "agent-services-ozo.3", "title": "Create .claude/skills/rr-keywords/SKILL.md", "reason": "Implemented — .claude/skills/rr-keywords/SKILL.md exists" },
+    { "id": "agent-services-ozo.4", "title": "Execute rr-keywords for all 18 candidates", "reason": "Implemented — 18 sites/*/site.yaml files generated for all candidates" }
+  ],
+  "flags": [
+    { "id": "agent-services-c2p", "title": "Fix validation scoring for local-discover: use aggregate volume instead of exact-match", "reason": "Not implemented — score-candidate.js still uses exact-match volume only; no aggregate fallback" }
+  ],
+  "orphaned_work": [
+    "9570611 adds scraper to get business info — enrich-websites.mjs and lib/renters.js extraction functions (no beads issue tracked this)",
+    "032615b updates dashboard to make business details more visible — dashboard contact column redesign (no beads issue)",
+    "c8506aa renters identified — rr-renters skill execution, 540 buyers in buyers.csv (no beads issue)",
+    "dac87f6 fix up the dashboard — dashboard fixes (no beads issue)"
+  ]
+}

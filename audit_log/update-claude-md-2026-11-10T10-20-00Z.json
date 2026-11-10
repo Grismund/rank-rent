@@ -1,0 +1,15 @@
+{
+  "skill": "update-claude-md",
+  "timestamp": "2026-11-10T10:20:00Z",
+  "findings": [
+    { "section": "Workflow > Current status", "action": "updated", "detail": "Updated from 'Phase 3 beginning' to 'Phase 3 substantially complete' with enrichment pipeline details" },
+    { "section": "Phase summary table", "action": "updated", "detail": "Phase 3 status changed from NOT BUILT to DONE with specifics (8 packs, 18 site.yaml, 540 buyers)" },
+    { "section": "Data model", "action": "updated", "detail": "buyers.csv now exists; moved from 'Phase 3+' to current; added buyers.csv column listing" },
+    { "section": "Data model > Buyer enrichment pipeline", "action": "updated", "detail": "Added new section documenting multi-pass enrichment (GBP, SITE), source tracking, and key functions" },
+    { "section": "Data model > Scripts", "action": "updated", "detail": "Added full scripts table (19 scripts) replacing generic description" },
+    { "section": "Repo layout", "action": "updated", "detail": "Updated lib/ and scripts/ descriptions, added test file count" }
+  ],
+  "flags": [
+    "agent-services-c2p (validation scoring bug) is still open — volume scoring uses exact-match only, no aggregate fallback"
+  ]
+}
