@@ -350,10 +350,10 @@ function nicheTable() {
 // ── Phase 3 per-candidate cards ─────────────────────────────
 
 function phase3Cards() {
-  const shortlistedCandidates = enriched.filter((c) => c.status === 'shortlisted')
-  if (shortlistedCandidates.length === 0) return '<p style="color:#64748b;margin-top:16px">No shortlisted candidates yet.</p>'
+  const phase3Candidates = enriched.filter((c) => c.status === 'renters_found')
+  if (phase3Candidates.length === 0) return '<p style="color:#64748b;margin-top:16px">No shortlisted candidates yet.</p>'
 
-  return shortlistedCandidates.map((c) => {
+  return phase3Candidates.map((c) => {
     const kw = keywordsSummary[c.slug]
     const r = rentersSummary.byCandidate[c.slug]
 
@@ -378,18 +378,26 @@ function phase3Cards() {
           <span style="color:#6b7280">${r.cold} cold</span>
         </div>
         ${r.topRenters.length > 0 ? `
-        <table style="width:100%;font-size:12px;border-collapse:collapse">
-          <thead><tr><th style="text-align:left;padding:3px 6px">Business</th><th style="padding:3px 6px">Rating</th><th style="padding:3px 6px">Reviews</th><th style="padding:3px 6px">Weakness</th><th style="padding:3px 6px">Priority</th></tr></thead>
-          <tbody>${r.topRenters.slice(0, 8).map((b) => `
+        <div style="max-height:320px;overflow-y:auto">
+        <table class="renter-table" style="width:100%;font-size:12px;border-collapse:collapse">
+          <thead><tr>
+            <th data-col="0" data-type="text" style="text-align:left;padding:3px 6px;position:sticky;top:0;z-index:1;background:#f1f5f9">Business</th>
+            <th data-col="1" data-type="num" style="padding:3px 6px;position:sticky;top:0;z-index:1;background:#f1f5f9">Rating</th>
+            <th data-col="2" data-type="num" style="padding:3px 6px;position:sticky;top:0;z-index:1;background:#f1f5f9">Reviews</th>
+            <th data-col="3" data-type="text" style="padding:3px 6px;position:sticky;top:0;z-index:1;background:#f1f5f9">Weakness</th>
+            <th data-col="4" data-type="priority" style="padding:3px 6px;position:sticky;top:0;z-index:1;background:#f1f5f9">Priority</th>
+          </tr></thead>
+          <tbody>${r.topRenters.map((b) => `
             <tr>
               <td style="padding:3px 6px">${esc(b.business_name)}</td>
-              <td style="padding:3px 6px;text-align:center">${b.rating || '—'}</td>
-              <td style="padding:3px 6px;text-align:center">${b.review_count || '—'}</td>
+              <td style="padding:3px 6px;text-align:center" data-sort="${b.rating || 0}">${b.rating || '—'}</td>
+              <td style="padding:3px 6px;text-align:center" data-sort="${b.review_count || 0}">${b.review_count || '—'}</td>
               <td style="padding:3px 6px;font-size:11px">${esc(b.website_weakness)}</td>
-              <td style="padding:3px 6px"><span style="color:${b.pitch_priority === 'hot' ? '#ef4444' : b.pitch_priority === 'warm' ? '#eab308' : '#6b7280'};font-weight:bold;font-size:11px">${esc(b.pitch_priority)}</span></td>
+              <td style="padding:3px 6px" data-sort="${b.pitch_priority === 'hot' ? 0 : b.pitch_priority === 'warm' ? 1 : 2}"><span style="color:${b.pitch_priority === 'hot' ? '#ef4444' : b.pitch_priority === 'warm' ? '#eab308' : '#6b7280'};font-weight:bold;font-size:11px">${esc(b.pitch_priority)}</span></td>
             </tr>`).join('')}
           </tbody>
-        </table>` : ''}
+        </table>
+        </div>` : ''}
       </div>` : '<div style="color:#999;font-size:13px">No renters researched yet</div>'
 
     return `
@@ -487,6 +495,8 @@ tr:hover { background: #f8fafc; }
 .report-btn:hover { background:#f1f5f9;border-color:#94a3b8; }
 .shortlist-btn { display:inline-block;padding:2px 10px;border-radius:4px;border:1px solid #3b82f6;background:#eff6ff;cursor:pointer;font-size:13px;color:#3b82f6;font-weight:500;transition:all 0.15s; }
 .shortlist-btn:hover { background:#dbeafe; }
+.renter-table > thead > tr > th { cursor: pointer; user-select: none; }
+.renter-table > thead > tr > th:hover { background: #e2e8f0 !important; }
 </style>
 </head>
 <body>
@@ -973,6 +983,47 @@ function rebuildDashboard() {
       headers.forEach(function(h) { var arrow = h.querySelector('.sort-arrow'); if (arrow) arrow.remove(); });
       this.insertAdjacentHTML('beforeend', '<span class="sort-arrow">' + (sortAsc ? '▲' : '▼') + '</span>');
     });
+  });
+})();
+
+// Sortable renter tables
+(function() {
+  document.addEventListener('click', function(e) {
+    var th = e.target.closest('.renter-table > thead > tr > th');
+    if (!th) return;
+    var table = th.closest('table');
+    var col = parseInt(th.dataset.col);
+    var type = th.dataset.type;
+    var prev = th.dataset.sortDir;
+    var asc = prev === 'asc' ? false : true;
+
+    // Reset arrows on sibling headers
+    table.querySelectorAll('thead th').forEach(function(h) {
+      var arrow = h.querySelector('.sort-arrow');
+      if (arrow) arrow.remove();
+      delete h.dataset.sortDir;
+    });
+    th.dataset.sortDir = asc ? 'asc' : 'desc';
+    th.insertAdjacentHTML('beforeend', '<span class="sort-arrow">' + (asc ? '▲' : '▼') + '</span>');
+
+    var tbody = table.querySelector('tbody');
+    var rows = Array.from(tbody.querySelectorAll('tr'));
+    rows.sort(function(a, b) {
+      var cellA = a.children[col];
+      var cellB = b.children[col];
+      var valA, valB;
+      if (type === 'num' || type === 'priority') {
+        valA = parseFloat(cellA.dataset.sort) || 0;
+        valB = parseFloat(cellB.dataset.sort) || 0;
+      } else {
+        valA = cellA.textContent.trim().toLowerCase();
+        valB = cellB.textContent.trim().toLowerCase();
+      }
+      if (valA < valB) return asc ? -1 : 1;
+      if (valA > valB) return asc ? 1 : -1;
+      return 0;
+    });
+    rows.forEach(function(r) { tbody.appendChild(r); });
   });
 })();
 </script>

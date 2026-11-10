@@ -11,6 +11,10 @@ import {
   serializeBuyersCsv,
   buildFacebookSearchQuery,
   generatePitchNote,
+  extractContactInfo,
+  parseGbpContactInfo,
+  mergeContactData,
+  buildEnrichmentSummary,
 } from '../lib/renters.js'
 
 // --- NICHE_CATEGORY_MAP ---
