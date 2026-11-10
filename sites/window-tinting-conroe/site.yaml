@@ -1,0 +1,133 @@
+niche: window-tinting
+display_name: Window Tinting
+city: Conroe
+state: Texas
+brand: TBD
+phone: null
+domain: null
+towns:
+  - The Woodlands
+  - Willis
+  - Spring
+  - Shenandoah
+pages:
+  - slug: /
+    type: home
+    primary_keyword: window tinting conroe
+    h1: Window Tinting in Conroe, Texas
+    title: Window Tinting Conroe | TBD
+    meta_description_intent: >-
+      Connect with window tinting pros in Conroe, Texas. Free quotes from local
+      contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /automotive-window-tinting/
+    type: service
+    primary_keyword: car window tinting conroe
+    h1: Automotive Window Tinting in Conroe, Texas
+    title: Automotive Window Tinting Conroe | TBD
+    meta_description_intent: >-
+      Automotive Window Tinting services in Conroe, Texas. Tint film for cars,
+      trucks, and SUVs.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /residential-window-tinting/
+    type: service
+    primary_keyword: home window tinting conroe
+    h1: Residential Window Tinting in Conroe, Texas
+    title: Residential Window Tinting Conroe | TBD
+    meta_description_intent: >-
+      Residential Window Tinting services in Conroe, Texas. Heat- and
+      UV-blocking film for house windows.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /commercial-window-tinting/
+    type: service
+    primary_keyword: commercial window tinting conroe
+    h1: Commercial Window Tinting in Conroe, Texas
+    title: Commercial Window Tinting Conroe | TBD
+    meta_description_intent: >-
+      Commercial Window Tinting services in Conroe, Texas. Tint film for
+      storefronts, offices, and buildings.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /paint-protection-film/
+    type: service
+    primary_keyword: paint protection film conroe
+    h1: Paint Protection Film in Conroe, Texas
+    title: Paint Protection Film Conroe | TBD
+    meta_description_intent: >-
+      Paint Protection Film services in Conroe, Texas. Clear protective wrap for
+      vehicle paint surfaces.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/the-woodlands/
+    type: town
+    primary_keyword: window tinting the woodlands
+    h1: Window Tinting in The Woodlands, Texas
+    title: Window Tinting The Woodlands Texas | TBD
+    meta_description_intent: >-
+      Window Tinting services in The Woodlands, Texas. Serving The Woodlands and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/willis/
+    type: town
+    primary_keyword: window tinting willis
+    h1: Window Tinting in Willis, Texas
+    title: Window Tinting Willis Texas | TBD
+    meta_description_intent: >-
+      Window Tinting services in Willis, Texas. Serving Willis and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/spring/
+    type: town
+    primary_keyword: window tinting spring
+    h1: Window Tinting in Spring, Texas
+    title: Window Tinting Spring Texas | TBD
+    meta_description_intent: >-
+      Window Tinting services in Spring, Texas. Serving Spring and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/shenandoah/
+    type: town
+    primary_keyword: window tinting shenandoah
+    h1: Window Tinting in Shenandoah, Texas
+    title: Window Tinting Shenandoah Texas | TBD
+    meta_description_intent: >-
+      Window Tinting services in Shenandoah, Texas. Serving Shenandoah and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: window tinting cost conroe
+    h1: How Much Does Window Tinting Cost in Conroe?
+    title: Window Tinting Cost Conroe | TBD
+    meta_description_intent: >-
+      How much does window tinting cost in Conroe? Price ranges, factors, and
+      free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: window tinting faq
+    h1: Window Tinting FAQ — Conroe, Texas
+    title: Window Tinting FAQ Conroe | TBD
+    meta_description_intent: Frequently asked questions about window tinting in Conroe, Texas.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

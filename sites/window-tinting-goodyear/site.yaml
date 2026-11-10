@@ -1,0 +1,133 @@
+niche: window-tinting
+display_name: Window Tinting
+city: Goodyear
+state: Arizona
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Avondale
+  - Litchfield Park
+  - Buckeye
+  - Tolleson
+pages:
+  - slug: /
+    type: home
+    primary_keyword: window tinting goodyear
+    h1: Window Tinting in Goodyear, Arizona
+    title: Window Tinting Goodyear | TBD
+    meta_description_intent: >-
+      Connect with window tinting pros in Goodyear, Arizona. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /automotive-window-tinting/
+    type: service
+    primary_keyword: car window tinting goodyear
+    h1: Automotive Window Tinting in Goodyear, Arizona
+    title: Automotive Window Tinting Goodyear | TBD
+    meta_description_intent: >-
+      Automotive Window Tinting services in Goodyear, Arizona. Tint film for
+      cars, trucks, and SUVs.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /residential-window-tinting/
+    type: service
+    primary_keyword: home window tinting goodyear
+    h1: Residential Window Tinting in Goodyear, Arizona
+    title: Residential Window Tinting Goodyear | TBD
+    meta_description_intent: >-
+      Residential Window Tinting services in Goodyear, Arizona. Heat- and
+      UV-blocking film for house windows.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /commercial-window-tinting/
+    type: service
+    primary_keyword: commercial window tinting goodyear
+    h1: Commercial Window Tinting in Goodyear, Arizona
+    title: Commercial Window Tinting Goodyear | TBD
+    meta_description_intent: >-
+      Commercial Window Tinting services in Goodyear, Arizona. Tint film for
+      storefronts, offices, and buildings.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /paint-protection-film/
+    type: service
+    primary_keyword: paint protection film goodyear
+    h1: Paint Protection Film in Goodyear, Arizona
+    title: Paint Protection Film Goodyear | TBD
+    meta_description_intent: >-
+      Paint Protection Film services in Goodyear, Arizona. Clear protective wrap
+      for vehicle paint surfaces.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/avondale/
+    type: town
+    primary_keyword: window tinting avondale
+    h1: Window Tinting in Avondale, Arizona
+    title: Window Tinting Avondale Arizona | TBD
+    meta_description_intent: >-
+      Window Tinting services in Avondale, Arizona. Serving Avondale and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/litchfield-park/
+    type: town
+    primary_keyword: window tinting litchfield park
+    h1: Window Tinting in Litchfield Park, Arizona
+    title: Window Tinting Litchfield Park Arizona | TBD
+    meta_description_intent: >-
+      Window Tinting services in Litchfield Park, Arizona. Serving Litchfield
+      Park and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/buckeye/
+    type: town
+    primary_keyword: window tinting buckeye
+    h1: Window Tinting in Buckeye, Arizona
+    title: Window Tinting Buckeye Arizona | TBD
+    meta_description_intent: >-
+      Window Tinting services in Buckeye, Arizona. Serving Buckeye and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/tolleson/
+    type: town
+    primary_keyword: window tinting tolleson
+    h1: Window Tinting in Tolleson, Arizona
+    title: Window Tinting Tolleson Arizona | TBD
+    meta_description_intent: >-
+      Window Tinting services in Tolleson, Arizona. Serving Tolleson and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: window tinting cost goodyear
+    h1: How Much Does Window Tinting Cost in Goodyear?
+    title: Window Tinting Cost Goodyear | TBD
+    meta_description_intent: >-
+      How much does window tinting cost in Goodyear? Price ranges, factors, and
+      free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: window tinting faq
+    h1: Window Tinting FAQ — Goodyear, Arizona
+    title: Window Tinting FAQ Goodyear | TBD
+    meta_description_intent: Frequently asked questions about window tinting in Goodyear, Arizona.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

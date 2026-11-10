@@ -1,0 +1,133 @@
+niche: pool-builders
+display_name: Pool Builders
+city: Port St. Lucie
+state: Florida
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Fort Pierce
+  - Stuart
+  - Vero Beach
+  - Jensen Beach
+pages:
+  - slug: /
+    type: home
+    primary_keyword: pool builders port st. lucie
+    h1: Pool Builders in Port St. Lucie, Florida
+    title: Pool Builders Port St. Lucie | TBD
+    meta_description_intent: >-
+      Connect with pool builders pros in Port St. Lucie, Florida. Free quotes
+      from local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /inground-pool-construction/
+    type: service
+    primary_keyword: inground pool builder port st. lucie
+    h1: Inground Pool Construction in Port St. Lucie, Florida
+    title: Inground Pool Construction Port St. Lucie | TBD
+    meta_description_intent: >-
+      Inground Pool Construction services in Port St. Lucie, Florida. New
+      concrete, fiberglass, or vinyl liner pool installation.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /pool-remodeling/
+    type: service
+    primary_keyword: pool remodeling port st. lucie
+    h1: Pool Remodeling in Port St. Lucie, Florida
+    title: Pool Remodeling Port St. Lucie | TBD
+    meta_description_intent: >-
+      Pool Remodeling services in Port St. Lucie, Florida. Resurface, retile, or
+      redesign an existing pool.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /pool-screen-enclosure/
+    type: service
+    primary_keyword: pool screen enclosure port st. lucie
+    h1: Pool Screen Enclosure in Port St. Lucie, Florida
+    title: Pool Screen Enclosure Port St. Lucie | TBD
+    meta_description_intent: >-
+      Pool Screen Enclosure services in Port St. Lucie, Florida. Screened lanai
+      or cage installation around pool area.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /pool-deck-resurfacing/
+    type: service
+    primary_keyword: pool deck resurfacing port st. lucie
+    h1: Pool Deck Resurfacing in Port St. Lucie, Florida
+    title: Pool Deck Resurfacing Port St. Lucie | TBD
+    meta_description_intent: >-
+      Pool Deck Resurfacing services in Port St. Lucie, Florida. Resurface or
+      overlay existing concrete pool decks.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/fort-pierce/
+    type: town
+    primary_keyword: pool builders fort pierce
+    h1: Pool Builders in Fort Pierce, Florida
+    title: Pool Builders Fort Pierce Florida | TBD
+    meta_description_intent: >-
+      Pool Builders services in Fort Pierce, Florida. Serving Fort Pierce and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/stuart/
+    type: town
+    primary_keyword: pool builders stuart
+    h1: Pool Builders in Stuart, Florida
+    title: Pool Builders Stuart Florida | TBD
+    meta_description_intent: >-
+      Pool Builders services in Stuart, Florida. Serving Stuart and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/vero-beach/
+    type: town
+    primary_keyword: pool builders vero beach
+    h1: Pool Builders in Vero Beach, Florida
+    title: Pool Builders Vero Beach Florida | TBD
+    meta_description_intent: >-
+      Pool Builders services in Vero Beach, Florida. Serving Vero Beach and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/jensen-beach/
+    type: town
+    primary_keyword: pool builders jensen beach
+    h1: Pool Builders in Jensen Beach, Florida
+    title: Pool Builders Jensen Beach Florida | TBD
+    meta_description_intent: >-
+      Pool Builders services in Jensen Beach, Florida. Serving Jensen Beach and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: pool builders cost port st. lucie
+    h1: How Much Does It Cost to Build a Pool in Port St. Lucie?
+    title: Pool Cost Port St. Lucie | TBD
+    meta_description_intent: >-
+      How much does pool builders cost in Port St. Lucie? Price ranges, factors,
+      and free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: pool builders faq
+    h1: Pool Builders FAQ — Port St. Lucie, Florida
+    title: Pool Builders FAQ Port St. Lucie | TBD
+    meta_description_intent: Frequently asked questions about pool builders in Port St. Lucie, Florida.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

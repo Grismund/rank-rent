@@ -1,0 +1,144 @@
+niche: bathroom-remodel
+display_name: Bathroom Remodel
+city: Conroe
+state: Texas
+brand: TBD
+phone: null
+domain: null
+towns:
+  - The Woodlands
+  - Willis
+  - Spring
+  - Shenandoah
+pages:
+  - slug: /
+    type: home
+    primary_keyword: bathroom remodel conroe
+    h1: Bathroom Remodel in Conroe, Texas
+    title: Bathroom Remodel Conroe | TBD
+    meta_description_intent: >-
+      Connect with bathroom remodel pros in Conroe, Texas. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /full-bathroom-remodel/
+    type: service
+    primary_keyword: full bathroom remodel conroe
+    h1: Full Bathroom Remodel in Conroe, Texas
+    title: Full Bathroom Remodel Conroe | TBD
+    meta_description_intent: >-
+      Full Bathroom Remodel services in Conroe, Texas. Complete gut-and-rebuild
+      of an existing bathroom.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /shower-remodel/
+    type: service
+    primary_keyword: shower remodel conroe
+    h1: Shower Remodel in Conroe, Texas
+    title: Shower Remodel Conroe | TBD
+    meta_description_intent: >-
+      Shower Remodel services in Conroe, Texas. Shower replacement, tiling,
+      glass enclosure upgrade.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /bathtub-replacement/
+    type: service
+    primary_keyword: bathtub replacement conroe
+    h1: Bathtub Replacement in Conroe, Texas
+    title: Bathtub Replacement Conroe | TBD
+    meta_description_intent: >-
+      Bathtub Replacement services in Conroe, Texas. Swap old tub for new
+      soaking or walk-in tub.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /tub-to-shower-conversion/
+    type: service
+    primary_keyword: tub to shower conversion conroe
+    h1: Tub-to-Shower Conversion in Conroe, Texas
+    title: Tub-to-Shower Conversion Conroe | TBD
+    meta_description_intent: >-
+      Tub-to-Shower Conversion services in Conroe, Texas. Remove bathtub and
+      install walk-in shower.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /small-bathroom-remodel/
+    type: service
+    primary_keyword: small bathroom remodel conroe
+    h1: Small Bathroom Remodel in Conroe, Texas
+    title: Small Bathroom Remodel Conroe | TBD
+    meta_description_intent: >-
+      Small Bathroom Remodel services in Conroe, Texas. Budget-focused update
+      for guest or half baths.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/the-woodlands/
+    type: town
+    primary_keyword: bathroom remodel the woodlands
+    h1: Bathroom Remodel in The Woodlands, Texas
+    title: Bathroom Remodel The Woodlands Texas | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in The Woodlands, Texas. Serving The Woodlands
+      and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/willis/
+    type: town
+    primary_keyword: bathroom remodel willis
+    h1: Bathroom Remodel in Willis, Texas
+    title: Bathroom Remodel Willis Texas | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Willis, Texas. Serving Willis and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/spring/
+    type: town
+    primary_keyword: bathroom remodel spring
+    h1: Bathroom Remodel in Spring, Texas
+    title: Bathroom Remodel Spring Texas | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Spring, Texas. Serving Spring and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/shenandoah/
+    type: town
+    primary_keyword: bathroom remodel shenandoah
+    h1: Bathroom Remodel in Shenandoah, Texas
+    title: Bathroom Remodel Shenandoah Texas | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Shenandoah, Texas. Serving Shenandoah and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: bathroom remodel cost conroe
+    h1: How Much Does a Bathroom Remodel Cost in Conroe?
+    title: Bathroom Remodel Cost Conroe | TBD
+    meta_description_intent: >-
+      How much does bathroom remodel cost in Conroe? Price ranges, factors, and
+      free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: bathroom remodel faq
+    h1: Bathroom Remodel FAQ — Conroe, Texas
+    title: Bathroom Remodel FAQ Conroe | TBD
+    meta_description_intent: Frequently asked questions about bathroom remodel in Conroe, Texas.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

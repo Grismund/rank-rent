@@ -1,0 +1,144 @@
+niche: bathroom-remodel
+display_name: Bathroom Remodel
+city: Palm Bay
+state: Florida
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Melbourne
+  - West Melbourne
+  - Melbourne Beach
+  - Satellite Beach
+pages:
+  - slug: /
+    type: home
+    primary_keyword: bathroom remodel palm bay
+    h1: Bathroom Remodel in Palm Bay, Florida
+    title: Bathroom Remodel Palm Bay | TBD
+    meta_description_intent: >-
+      Connect with bathroom remodel pros in Palm Bay, Florida. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /full-bathroom-remodel/
+    type: service
+    primary_keyword: full bathroom remodel palm bay
+    h1: Full Bathroom Remodel in Palm Bay, Florida
+    title: Full Bathroom Remodel Palm Bay | TBD
+    meta_description_intent: >-
+      Full Bathroom Remodel services in Palm Bay, Florida. Complete
+      gut-and-rebuild of an existing bathroom.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /shower-remodel/
+    type: service
+    primary_keyword: shower remodel palm bay
+    h1: Shower Remodel in Palm Bay, Florida
+    title: Shower Remodel Palm Bay | TBD
+    meta_description_intent: >-
+      Shower Remodel services in Palm Bay, Florida. Shower replacement, tiling,
+      glass enclosure upgrade.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /bathtub-replacement/
+    type: service
+    primary_keyword: bathtub replacement palm bay
+    h1: Bathtub Replacement in Palm Bay, Florida
+    title: Bathtub Replacement Palm Bay | TBD
+    meta_description_intent: >-
+      Bathtub Replacement services in Palm Bay, Florida. Swap old tub for new
+      soaking or walk-in tub.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /tub-to-shower-conversion/
+    type: service
+    primary_keyword: tub to shower conversion palm bay
+    h1: Tub-to-Shower Conversion in Palm Bay, Florida
+    title: Tub-to-Shower Conversion Palm Bay | TBD
+    meta_description_intent: >-
+      Tub-to-Shower Conversion services in Palm Bay, Florida. Remove bathtub and
+      install walk-in shower.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /small-bathroom-remodel/
+    type: service
+    primary_keyword: small bathroom remodel palm bay
+    h1: Small Bathroom Remodel in Palm Bay, Florida
+    title: Small Bathroom Remodel Palm Bay | TBD
+    meta_description_intent: >-
+      Small Bathroom Remodel services in Palm Bay, Florida. Budget-focused
+      update for guest or half baths.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/melbourne/
+    type: town
+    primary_keyword: bathroom remodel melbourne
+    h1: Bathroom Remodel in Melbourne, Florida
+    title: Bathroom Remodel Melbourne Florida | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Melbourne, Florida. Serving Melbourne and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/west-melbourne/
+    type: town
+    primary_keyword: bathroom remodel west melbourne
+    h1: Bathroom Remodel in West Melbourne, Florida
+    title: Bathroom Remodel West Melbourne Florida | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in West Melbourne, Florida. Serving West
+      Melbourne and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/melbourne-beach/
+    type: town
+    primary_keyword: bathroom remodel melbourne beach
+    h1: Bathroom Remodel in Melbourne Beach, Florida
+    title: Bathroom Remodel Melbourne Beach Florida | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Melbourne Beach, Florida. Serving Melbourne
+      Beach and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/satellite-beach/
+    type: town
+    primary_keyword: bathroom remodel satellite beach
+    h1: Bathroom Remodel in Satellite Beach, Florida
+    title: Bathroom Remodel Satellite Beach Florida | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Satellite Beach, Florida. Serving Satellite
+      Beach and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: bathroom remodel cost palm bay
+    h1: How Much Does a Bathroom Remodel Cost in Palm Bay?
+    title: Bathroom Remodel Cost Palm Bay | TBD
+    meta_description_intent: >-
+      How much does bathroom remodel cost in Palm Bay? Price ranges, factors,
+      and free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: bathroom remodel faq
+    h1: Bathroom Remodel FAQ — Palm Bay, Florida
+    title: Bathroom Remodel FAQ Palm Bay | TBD
+    meta_description_intent: Frequently asked questions about bathroom remodel in Palm Bay, Florida.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

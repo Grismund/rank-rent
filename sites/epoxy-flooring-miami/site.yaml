@@ -1,0 +1,133 @@
+niche: epoxy-flooring
+display_name: Epoxy Flooring
+city: Miami
+state: Florida
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Miami Beach
+  - Coral Gables
+  - Hialeah
+  - Key Biscayne
+pages:
+  - slug: /
+    type: home
+    primary_keyword: epoxy flooring miami
+    h1: Epoxy Flooring in Miami, Florida
+    title: Epoxy Flooring Miami | TBD
+    meta_description_intent: >-
+      Connect with epoxy flooring pros in Miami, Florida. Free quotes from local
+      contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /garage-floor-epoxy/
+    type: service
+    primary_keyword: garage floor epoxy miami
+    h1: Garage Floor Epoxy in Miami, Florida
+    title: Garage Floor Epoxy Miami | TBD
+    meta_description_intent: >-
+      Garage Floor Epoxy services in Miami, Florida. Epoxy coating for
+      residential garage floors.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /commercial-epoxy-flooring/
+    type: service
+    primary_keyword: commercial epoxy flooring miami
+    h1: Commercial Epoxy Flooring in Miami, Florida
+    title: Commercial Epoxy Flooring Miami | TBD
+    meta_description_intent: >-
+      Commercial Epoxy Flooring services in Miami, Florida. Epoxy systems for
+      warehouses, shops, and showrooms.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /epoxy-floor-coating/
+    type: service
+    primary_keyword: epoxy floor coating miami
+    h1: Epoxy Floor Coating in Miami, Florida
+    title: Epoxy Floor Coating Miami | TBD
+    meta_description_intent: >-
+      Epoxy Floor Coating services in Miami, Florida. General-purpose epoxy
+      coating for concrete surfaces.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /metallic-epoxy-flooring/
+    type: service
+    primary_keyword: metallic epoxy flooring miami
+    h1: Metallic Epoxy Flooring in Miami, Florida
+    title: Metallic Epoxy Flooring Miami | TBD
+    meta_description_intent: >-
+      Metallic Epoxy Flooring services in Miami, Florida. Decorative
+      metallic-finish epoxy for high-end interiors.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/miami-beach/
+    type: town
+    primary_keyword: epoxy flooring miami beach
+    h1: Epoxy Flooring in Miami Beach, Florida
+    title: Epoxy Flooring Miami Beach Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Miami Beach, Florida. Serving Miami Beach and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/coral-gables/
+    type: town
+    primary_keyword: epoxy flooring coral gables
+    h1: Epoxy Flooring in Coral Gables, Florida
+    title: Epoxy Flooring Coral Gables Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Coral Gables, Florida. Serving Coral Gables and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/hialeah/
+    type: town
+    primary_keyword: epoxy flooring hialeah
+    h1: Epoxy Flooring in Hialeah, Florida
+    title: Epoxy Flooring Hialeah Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Hialeah, Florida. Serving Hialeah and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/key-biscayne/
+    type: town
+    primary_keyword: epoxy flooring key biscayne
+    h1: Epoxy Flooring in Key Biscayne, Florida
+    title: Epoxy Flooring Key Biscayne Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Key Biscayne, Florida. Serving Key Biscayne and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: epoxy flooring cost miami
+    h1: How Much Does Epoxy Flooring Cost in Miami?
+    title: Epoxy Flooring Cost Miami | TBD
+    meta_description_intent: >-
+      How much does epoxy flooring cost in Miami? Price ranges, factors, and
+      free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: epoxy flooring faq
+    h1: Epoxy Flooring FAQ — Miami, Florida
+    title: Epoxy Flooring FAQ Miami | TBD
+    meta_description_intent: Frequently asked questions about epoxy flooring in Miami, Florida.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

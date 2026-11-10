@@ -1,0 +1,133 @@
+niche: epoxy-flooring
+display_name: Epoxy Flooring
+city: San Antonio
+state: Texas
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Schertz
+  - Converse
+  - Live Oak
+  - Helotes
+pages:
+  - slug: /
+    type: home
+    primary_keyword: epoxy flooring san antonio
+    h1: Epoxy Flooring in San Antonio, Texas
+    title: Epoxy Flooring San Antonio | TBD
+    meta_description_intent: >-
+      Connect with epoxy flooring pros in San Antonio, Texas. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /garage-floor-epoxy/
+    type: service
+    primary_keyword: garage floor epoxy san antonio
+    h1: Garage Floor Epoxy in San Antonio, Texas
+    title: Garage Floor Epoxy San Antonio | TBD
+    meta_description_intent: >-
+      Garage Floor Epoxy services in San Antonio, Texas. Epoxy coating for
+      residential garage floors.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /commercial-epoxy-flooring/
+    type: service
+    primary_keyword: commercial epoxy flooring san antonio
+    h1: Commercial Epoxy Flooring in San Antonio, Texas
+    title: Commercial Epoxy Flooring San Antonio | TBD
+    meta_description_intent: >-
+      Commercial Epoxy Flooring services in San Antonio, Texas. Epoxy systems
+      for warehouses, shops, and showrooms.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /epoxy-floor-coating/
+    type: service
+    primary_keyword: epoxy floor coating san antonio
+    h1: Epoxy Floor Coating in San Antonio, Texas
+    title: Epoxy Floor Coating San Antonio | TBD
+    meta_description_intent: >-
+      Epoxy Floor Coating services in San Antonio, Texas. General-purpose epoxy
+      coating for concrete surfaces.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /metallic-epoxy-flooring/
+    type: service
+    primary_keyword: metallic epoxy flooring san antonio
+    h1: Metallic Epoxy Flooring in San Antonio, Texas
+    title: Metallic Epoxy Flooring San Antonio | TBD
+    meta_description_intent: >-
+      Metallic Epoxy Flooring services in San Antonio, Texas. Decorative
+      metallic-finish epoxy for high-end interiors.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/schertz/
+    type: town
+    primary_keyword: epoxy flooring schertz
+    h1: Epoxy Flooring in Schertz, Texas
+    title: Epoxy Flooring Schertz Texas | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Schertz, Texas. Serving Schertz and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/converse/
+    type: town
+    primary_keyword: epoxy flooring converse
+    h1: Epoxy Flooring in Converse, Texas
+    title: Epoxy Flooring Converse Texas | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Converse, Texas. Serving Converse and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/live-oak/
+    type: town
+    primary_keyword: epoxy flooring live oak
+    h1: Epoxy Flooring in Live Oak, Texas
+    title: Epoxy Flooring Live Oak Texas | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Live Oak, Texas. Serving Live Oak and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/helotes/
+    type: town
+    primary_keyword: epoxy flooring helotes
+    h1: Epoxy Flooring in Helotes, Texas
+    title: Epoxy Flooring Helotes Texas | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Helotes, Texas. Serving Helotes and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: epoxy flooring cost san antonio
+    h1: How Much Does Epoxy Flooring Cost in San Antonio?
+    title: Epoxy Flooring Cost San Antonio | TBD
+    meta_description_intent: >-
+      How much does epoxy flooring cost in San Antonio? Price ranges, factors,
+      and free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: epoxy flooring faq
+    h1: Epoxy Flooring FAQ — San Antonio, Texas
+    title: Epoxy Flooring FAQ San Antonio | TBD
+    meta_description_intent: Frequently asked questions about epoxy flooring in San Antonio, Texas.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

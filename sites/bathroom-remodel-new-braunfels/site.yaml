@@ -1,0 +1,144 @@
+niche: bathroom-remodel
+display_name: Bathroom Remodel
+city: New Braunfels
+state: Texas
+brand: TBD
+phone: null
+domain: null
+towns:
+  - San Marcos
+  - Seguin
+  - Schertz
+  - Canyon Lake
+pages:
+  - slug: /
+    type: home
+    primary_keyword: bathroom remodel new braunfels
+    h1: Bathroom Remodel in New Braunfels, Texas
+    title: Bathroom Remodel New Braunfels | TBD
+    meta_description_intent: >-
+      Connect with bathroom remodel pros in New Braunfels, Texas. Free quotes
+      from local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /full-bathroom-remodel/
+    type: service
+    primary_keyword: full bathroom remodel new braunfels
+    h1: Full Bathroom Remodel in New Braunfels, Texas
+    title: Full Bathroom Remodel New Braunfels | TBD
+    meta_description_intent: >-
+      Full Bathroom Remodel services in New Braunfels, Texas. Complete
+      gut-and-rebuild of an existing bathroom.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /shower-remodel/
+    type: service
+    primary_keyword: shower remodel new braunfels
+    h1: Shower Remodel in New Braunfels, Texas
+    title: Shower Remodel New Braunfels | TBD
+    meta_description_intent: >-
+      Shower Remodel services in New Braunfels, Texas. Shower replacement,
+      tiling, glass enclosure upgrade.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /bathtub-replacement/
+    type: service
+    primary_keyword: bathtub replacement new braunfels
+    h1: Bathtub Replacement in New Braunfels, Texas
+    title: Bathtub Replacement New Braunfels | TBD
+    meta_description_intent: >-
+      Bathtub Replacement services in New Braunfels, Texas. Swap old tub for new
+      soaking or walk-in tub.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /tub-to-shower-conversion/
+    type: service
+    primary_keyword: tub to shower conversion new braunfels
+    h1: Tub-to-Shower Conversion in New Braunfels, Texas
+    title: Tub-to-Shower Conversion New Braunfels | TBD
+    meta_description_intent: >-
+      Tub-to-Shower Conversion services in New Braunfels, Texas. Remove bathtub
+      and install walk-in shower.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /small-bathroom-remodel/
+    type: service
+    primary_keyword: small bathroom remodel new braunfels
+    h1: Small Bathroom Remodel in New Braunfels, Texas
+    title: Small Bathroom Remodel New Braunfels | TBD
+    meta_description_intent: >-
+      Small Bathroom Remodel services in New Braunfels, Texas. Budget-focused
+      update for guest or half baths.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/san-marcos/
+    type: town
+    primary_keyword: bathroom remodel san marcos
+    h1: Bathroom Remodel in San Marcos, Texas
+    title: Bathroom Remodel San Marcos Texas | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in San Marcos, Texas. Serving San Marcos and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/seguin/
+    type: town
+    primary_keyword: bathroom remodel seguin
+    h1: Bathroom Remodel in Seguin, Texas
+    title: Bathroom Remodel Seguin Texas | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Seguin, Texas. Serving Seguin and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/schertz/
+    type: town
+    primary_keyword: bathroom remodel schertz
+    h1: Bathroom Remodel in Schertz, Texas
+    title: Bathroom Remodel Schertz Texas | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Schertz, Texas. Serving Schertz and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/canyon-lake/
+    type: town
+    primary_keyword: bathroom remodel canyon lake
+    h1: Bathroom Remodel in Canyon Lake, Texas
+    title: Bathroom Remodel Canyon Lake Texas | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Canyon Lake, Texas. Serving Canyon Lake and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: bathroom remodel cost new braunfels
+    h1: How Much Does a Bathroom Remodel Cost in New Braunfels?
+    title: Bathroom Remodel Cost New Braunfels | TBD
+    meta_description_intent: >-
+      How much does bathroom remodel cost in New Braunfels? Price ranges,
+      factors, and free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: bathroom remodel faq
+    h1: Bathroom Remodel FAQ — New Braunfels, Texas
+    title: Bathroom Remodel FAQ New Braunfels | TBD
+    meta_description_intent: Frequently asked questions about bathroom remodel in New Braunfels, Texas.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

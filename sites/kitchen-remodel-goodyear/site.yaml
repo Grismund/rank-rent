@@ -1,0 +1,133 @@
+niche: kitchen-remodel
+display_name: Kitchen Remodel
+city: Goodyear
+state: Arizona
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Avondale
+  - Litchfield Park
+  - Buckeye
+  - Tolleson
+pages:
+  - slug: /
+    type: home
+    primary_keyword: kitchen remodel goodyear
+    h1: Kitchen Remodel in Goodyear, Arizona
+    title: Kitchen Remodel Goodyear | TBD
+    meta_description_intent: >-
+      Connect with kitchen remodel pros in Goodyear, Arizona. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /full-kitchen-remodel/
+    type: service
+    primary_keyword: full kitchen remodel goodyear
+    h1: Full Kitchen Remodel in Goodyear, Arizona
+    title: Full Kitchen Remodel Goodyear | TBD
+    meta_description_intent: >-
+      Full Kitchen Remodel services in Goodyear, Arizona. Complete kitchen
+      renovation including layout changes.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cabinet-refacing/
+    type: service
+    primary_keyword: cabinet refacing goodyear
+    h1: Cabinet Refacing in Goodyear, Arizona
+    title: Cabinet Refacing Goodyear | TBD
+    meta_description_intent: >-
+      Cabinet Refacing services in Goodyear, Arizona. Update cabinet doors and
+      hardware without full replacement.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /countertop-replacement/
+    type: service
+    primary_keyword: countertop replacement goodyear
+    h1: Countertop Replacement in Goodyear, Arizona
+    title: Countertop Replacement Goodyear | TBD
+    meta_description_intent: >-
+      Countertop Replacement services in Goodyear, Arizona. Swap old countertops
+      for granite, quartz, or butcher block.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /kitchen-island-installation/
+    type: service
+    primary_keyword: kitchen island installation goodyear
+    h1: Kitchen Island Installation in Goodyear, Arizona
+    title: Kitchen Island Installation Goodyear | TBD
+    meta_description_intent: >-
+      Kitchen Island Installation services in Goodyear, Arizona. Add or rebuild
+      a kitchen island for workspace and storage.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/avondale/
+    type: town
+    primary_keyword: kitchen remodel avondale
+    h1: Kitchen Remodel in Avondale, Arizona
+    title: Kitchen Remodel Avondale Arizona | TBD
+    meta_description_intent: >-
+      Kitchen Remodel services in Avondale, Arizona. Serving Avondale and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/litchfield-park/
+    type: town
+    primary_keyword: kitchen remodel litchfield park
+    h1: Kitchen Remodel in Litchfield Park, Arizona
+    title: Kitchen Remodel Litchfield Park Arizona | TBD
+    meta_description_intent: >-
+      Kitchen Remodel services in Litchfield Park, Arizona. Serving Litchfield
+      Park and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/buckeye/
+    type: town
+    primary_keyword: kitchen remodel buckeye
+    h1: Kitchen Remodel in Buckeye, Arizona
+    title: Kitchen Remodel Buckeye Arizona | TBD
+    meta_description_intent: >-
+      Kitchen Remodel services in Buckeye, Arizona. Serving Buckeye and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/tolleson/
+    type: town
+    primary_keyword: kitchen remodel tolleson
+    h1: Kitchen Remodel in Tolleson, Arizona
+    title: Kitchen Remodel Tolleson Arizona | TBD
+    meta_description_intent: >-
+      Kitchen Remodel services in Tolleson, Arizona. Serving Tolleson and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: kitchen remodel cost goodyear
+    h1: How Much Does a Kitchen Remodel Cost in Goodyear?
+    title: Kitchen Remodel Cost Goodyear | TBD
+    meta_description_intent: >-
+      How much does kitchen remodel cost in Goodyear? Price ranges, factors, and
+      free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: kitchen remodel faq
+    h1: Kitchen Remodel FAQ — Goodyear, Arizona
+    title: Kitchen Remodel FAQ Goodyear | TBD
+    meta_description_intent: Frequently asked questions about kitchen remodel in Goodyear, Arizona.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

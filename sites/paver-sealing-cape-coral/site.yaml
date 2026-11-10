@@ -1,0 +1,133 @@
+niche: paver-sealing
+display_name: Paver Sealing
+city: Cape Coral
+state: Florida
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Fort Myers
+  - Lehigh Acres
+  - Bonita Springs
+  - Pine Island Center
+pages:
+  - slug: /
+    type: home
+    primary_keyword: paver sealing cape coral
+    h1: Paver Sealing in Cape Coral, Florida
+    title: Paver Sealing Cape Coral | TBD
+    meta_description_intent: >-
+      Connect with paver sealing pros in Cape Coral, Florida. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /paver-sealing/
+    type: service
+    primary_keyword: paver sealing services cape coral
+    h1: Paver Sealing in Cape Coral, Florida
+    title: Paver Sealing Cape Coral | TBD
+    meta_description_intent: >-
+      Paver Sealing services in Cape Coral, Florida. Protective sealant
+      application on brick and concrete pavers.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /paver-cleaning/
+    type: service
+    primary_keyword: paver cleaning cape coral
+    h1: Paver Cleaning in Cape Coral, Florida
+    title: Paver Cleaning Cape Coral | TBD
+    meta_description_intent: >-
+      Paver Cleaning services in Cape Coral, Florida. Pressure washing and stain
+      removal on paver surfaces.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /paver-cleaning-and-sealing/
+    type: service
+    primary_keyword: paver cleaning and sealing cape coral
+    h1: Paver Cleaning and Sealing in Cape Coral, Florida
+    title: Paver Cleaning and Sealing Cape Coral | TBD
+    meta_description_intent: >-
+      Paver Cleaning and Sealing services in Cape Coral, Florida. Combined
+      cleaning plus sealant service in a single visit.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /paver-repair/
+    type: service
+    primary_keyword: paver repair cape coral
+    h1: Paver Repair in Cape Coral, Florida
+    title: Paver Repair Cape Coral | TBD
+    meta_description_intent: >-
+      Paver Repair services in Cape Coral, Florida. Releveling, replacing, and
+      re-sanding damaged pavers.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/fort-myers/
+    type: town
+    primary_keyword: paver sealing fort myers
+    h1: Paver Sealing in Fort Myers, Florida
+    title: Paver Sealing Fort Myers Florida | TBD
+    meta_description_intent: >-
+      Paver Sealing services in Fort Myers, Florida. Serving Fort Myers and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/lehigh-acres/
+    type: town
+    primary_keyword: paver sealing lehigh acres
+    h1: Paver Sealing in Lehigh Acres, Florida
+    title: Paver Sealing Lehigh Acres Florida | TBD
+    meta_description_intent: >-
+      Paver Sealing services in Lehigh Acres, Florida. Serving Lehigh Acres and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/bonita-springs/
+    type: town
+    primary_keyword: paver sealing bonita springs
+    h1: Paver Sealing in Bonita Springs, Florida
+    title: Paver Sealing Bonita Springs Florida | TBD
+    meta_description_intent: >-
+      Paver Sealing services in Bonita Springs, Florida. Serving Bonita Springs
+      and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/pine-island-center/
+    type: town
+    primary_keyword: paver sealing pine island center
+    h1: Paver Sealing in Pine Island Center, Florida
+    title: Paver Sealing Pine Island Center Florida | TBD
+    meta_description_intent: >-
+      Paver Sealing services in Pine Island Center, Florida. Serving Pine Island
+      Center and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: paver sealing cost cape coral
+    h1: How Much Does Paver Sealing Cost in Cape Coral?
+    title: Paver Sealing Cost Cape Coral | TBD
+    meta_description_intent: >-
+      How much does paver sealing cost in Cape Coral? Price ranges, factors, and
+      free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: paver sealing faq
+    h1: Paver Sealing FAQ — Cape Coral, Florida
+    title: Paver Sealing FAQ Cape Coral | TBD
+    meta_description_intent: Frequently asked questions about paver sealing in Cape Coral, Florida.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

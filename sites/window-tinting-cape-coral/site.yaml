@@ -1,0 +1,133 @@
+niche: window-tinting
+display_name: Window Tinting
+city: Cape Coral
+state: Florida
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Fort Myers
+  - Lehigh Acres
+  - Bonita Springs
+  - Pine Island Center
+pages:
+  - slug: /
+    type: home
+    primary_keyword: window tinting cape coral
+    h1: Window Tinting in Cape Coral, Florida
+    title: Window Tinting Cape Coral | TBD
+    meta_description_intent: >-
+      Connect with window tinting pros in Cape Coral, Florida. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /automotive-window-tinting/
+    type: service
+    primary_keyword: car window tinting cape coral
+    h1: Automotive Window Tinting in Cape Coral, Florida
+    title: Automotive Window Tinting Cape Coral | TBD
+    meta_description_intent: >-
+      Automotive Window Tinting services in Cape Coral, Florida. Tint film for
+      cars, trucks, and SUVs.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /residential-window-tinting/
+    type: service
+    primary_keyword: home window tinting cape coral
+    h1: Residential Window Tinting in Cape Coral, Florida
+    title: Residential Window Tinting Cape Coral | TBD
+    meta_description_intent: >-
+      Residential Window Tinting services in Cape Coral, Florida. Heat- and
+      UV-blocking film for house windows.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /commercial-window-tinting/
+    type: service
+    primary_keyword: commercial window tinting cape coral
+    h1: Commercial Window Tinting in Cape Coral, Florida
+    title: Commercial Window Tinting Cape Coral | TBD
+    meta_description_intent: >-
+      Commercial Window Tinting services in Cape Coral, Florida. Tint film for
+      storefronts, offices, and buildings.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /paint-protection-film/
+    type: service
+    primary_keyword: paint protection film cape coral
+    h1: Paint Protection Film in Cape Coral, Florida
+    title: Paint Protection Film Cape Coral | TBD
+    meta_description_intent: >-
+      Paint Protection Film services in Cape Coral, Florida. Clear protective
+      wrap for vehicle paint surfaces.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/fort-myers/
+    type: town
+    primary_keyword: window tinting fort myers
+    h1: Window Tinting in Fort Myers, Florida
+    title: Window Tinting Fort Myers Florida | TBD
+    meta_description_intent: >-
+      Window Tinting services in Fort Myers, Florida. Serving Fort Myers and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/lehigh-acres/
+    type: town
+    primary_keyword: window tinting lehigh acres
+    h1: Window Tinting in Lehigh Acres, Florida
+    title: Window Tinting Lehigh Acres Florida | TBD
+    meta_description_intent: >-
+      Window Tinting services in Lehigh Acres, Florida. Serving Lehigh Acres and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/bonita-springs/
+    type: town
+    primary_keyword: window tinting bonita springs
+    h1: Window Tinting in Bonita Springs, Florida
+    title: Window Tinting Bonita Springs Florida | TBD
+    meta_description_intent: >-
+      Window Tinting services in Bonita Springs, Florida. Serving Bonita Springs
+      and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/pine-island-center/
+    type: town
+    primary_keyword: window tinting pine island center
+    h1: Window Tinting in Pine Island Center, Florida
+    title: Window Tinting Pine Island Center Florida | TBD
+    meta_description_intent: >-
+      Window Tinting services in Pine Island Center, Florida. Serving Pine
+      Island Center and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: window tinting cost cape coral
+    h1: How Much Does Window Tinting Cost in Cape Coral?
+    title: Window Tinting Cost Cape Coral | TBD
+    meta_description_intent: >-
+      How much does window tinting cost in Cape Coral? Price ranges, factors,
+      and free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: window tinting faq
+    h1: Window Tinting FAQ — Cape Coral, Florida
+    title: Window Tinting FAQ Cape Coral | TBD
+    meta_description_intent: Frequently asked questions about window tinting in Cape Coral, Florida.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

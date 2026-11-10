@@ -1,0 +1,133 @@
+niche: epoxy-flooring
+display_name: Epoxy Flooring
+city: New Braunfels
+state: Texas
+brand: TBD
+phone: null
+domain: null
+towns:
+  - San Marcos
+  - Seguin
+  - Schertz
+  - Canyon Lake
+pages:
+  - slug: /
+    type: home
+    primary_keyword: epoxy flooring new braunfels
+    h1: Epoxy Flooring in New Braunfels, Texas
+    title: Epoxy Flooring New Braunfels | TBD
+    meta_description_intent: >-
+      Connect with epoxy flooring pros in New Braunfels, Texas. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /garage-floor-epoxy/
+    type: service
+    primary_keyword: garage floor epoxy new braunfels
+    h1: Garage Floor Epoxy in New Braunfels, Texas
+    title: Garage Floor Epoxy New Braunfels | TBD
+    meta_description_intent: >-
+      Garage Floor Epoxy services in New Braunfels, Texas. Epoxy coating for
+      residential garage floors.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /commercial-epoxy-flooring/
+    type: service
+    primary_keyword: commercial epoxy flooring new braunfels
+    h1: Commercial Epoxy Flooring in New Braunfels, Texas
+    title: Commercial Epoxy Flooring New Braunfels | TBD
+    meta_description_intent: >-
+      Commercial Epoxy Flooring services in New Braunfels, Texas. Epoxy systems
+      for warehouses, shops, and showrooms.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /epoxy-floor-coating/
+    type: service
+    primary_keyword: epoxy floor coating new braunfels
+    h1: Epoxy Floor Coating in New Braunfels, Texas
+    title: Epoxy Floor Coating New Braunfels | TBD
+    meta_description_intent: >-
+      Epoxy Floor Coating services in New Braunfels, Texas. General-purpose
+      epoxy coating for concrete surfaces.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /metallic-epoxy-flooring/
+    type: service
+    primary_keyword: metallic epoxy flooring new braunfels
+    h1: Metallic Epoxy Flooring in New Braunfels, Texas
+    title: Metallic Epoxy Flooring New Braunfels | TBD
+    meta_description_intent: >-
+      Metallic Epoxy Flooring services in New Braunfels, Texas. Decorative
+      metallic-finish epoxy for high-end interiors.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/san-marcos/
+    type: town
+    primary_keyword: epoxy flooring san marcos
+    h1: Epoxy Flooring in San Marcos, Texas
+    title: Epoxy Flooring San Marcos Texas | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in San Marcos, Texas. Serving San Marcos and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/seguin/
+    type: town
+    primary_keyword: epoxy flooring seguin
+    h1: Epoxy Flooring in Seguin, Texas
+    title: Epoxy Flooring Seguin Texas | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Seguin, Texas. Serving Seguin and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/schertz/
+    type: town
+    primary_keyword: epoxy flooring schertz
+    h1: Epoxy Flooring in Schertz, Texas
+    title: Epoxy Flooring Schertz Texas | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Schertz, Texas. Serving Schertz and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/canyon-lake/
+    type: town
+    primary_keyword: epoxy flooring canyon lake
+    h1: Epoxy Flooring in Canyon Lake, Texas
+    title: Epoxy Flooring Canyon Lake Texas | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Canyon Lake, Texas. Serving Canyon Lake and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: epoxy flooring cost new braunfels
+    h1: How Much Does Epoxy Flooring Cost in New Braunfels?
+    title: Epoxy Flooring Cost New Braunfels | TBD
+    meta_description_intent: >-
+      How much does epoxy flooring cost in New Braunfels? Price ranges, factors,
+      and free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: epoxy flooring faq
+    h1: Epoxy Flooring FAQ — New Braunfels, Texas
+    title: Epoxy Flooring FAQ New Braunfels | TBD
+    meta_description_intent: Frequently asked questions about epoxy flooring in New Braunfels, Texas.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

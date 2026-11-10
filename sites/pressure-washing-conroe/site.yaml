@@ -1,0 +1,133 @@
+niche: pressure-washing
+display_name: Pressure Washing
+city: Conroe
+state: Texas
+brand: TBD
+phone: null
+domain: null
+towns:
+  - The Woodlands
+  - Willis
+  - Spring
+  - Shenandoah
+pages:
+  - slug: /
+    type: home
+    primary_keyword: pressure washing conroe
+    h1: Pressure Washing in Conroe, Texas
+    title: Pressure Washing Conroe | TBD
+    meta_description_intent: >-
+      Connect with pressure washing pros in Conroe, Texas. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /house-washing/
+    type: service
+    primary_keyword: house washing conroe
+    h1: House Washing in Conroe, Texas
+    title: House Washing Conroe | TBD
+    meta_description_intent: >-
+      House Washing services in Conroe, Texas. Exterior siding, brick, and
+      stucco cleaning.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /driveway-pressure-washing/
+    type: service
+    primary_keyword: driveway pressure washing conroe
+    h1: Driveway Pressure Washing in Conroe, Texas
+    title: Driveway Pressure Washing Conroe | TBD
+    meta_description_intent: >-
+      Driveway Pressure Washing services in Conroe, Texas. Concrete and paver
+      driveway cleaning.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /deck-and-patio-cleaning/
+    type: service
+    primary_keyword: deck cleaning conroe
+    h1: Deck and Patio Cleaning in Conroe, Texas
+    title: Deck and Patio Cleaning Conroe | TBD
+    meta_description_intent: >-
+      Deck and Patio Cleaning services in Conroe, Texas. Wood deck, composite,
+      and patio surface washing.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /roof-soft-washing/
+    type: service
+    primary_keyword: roof soft washing conroe
+    h1: Roof Soft Washing in Conroe, Texas
+    title: Roof Soft Washing Conroe | TBD
+    meta_description_intent: >-
+      Roof Soft Washing services in Conroe, Texas. Low-pressure chemical wash
+      for shingle and tile roofs.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/the-woodlands/
+    type: town
+    primary_keyword: pressure washing the woodlands
+    h1: Pressure Washing in The Woodlands, Texas
+    title: Pressure Washing The Woodlands Texas | TBD
+    meta_description_intent: >-
+      Pressure Washing services in The Woodlands, Texas. Serving The Woodlands
+      and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/willis/
+    type: town
+    primary_keyword: pressure washing willis
+    h1: Pressure Washing in Willis, Texas
+    title: Pressure Washing Willis Texas | TBD
+    meta_description_intent: >-
+      Pressure Washing services in Willis, Texas. Serving Willis and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/spring/
+    type: town
+    primary_keyword: pressure washing spring
+    h1: Pressure Washing in Spring, Texas
+    title: Pressure Washing Spring Texas | TBD
+    meta_description_intent: >-
+      Pressure Washing services in Spring, Texas. Serving Spring and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/shenandoah/
+    type: town
+    primary_keyword: pressure washing shenandoah
+    h1: Pressure Washing in Shenandoah, Texas
+    title: Pressure Washing Shenandoah Texas | TBD
+    meta_description_intent: >-
+      Pressure Washing services in Shenandoah, Texas. Serving Shenandoah and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: pressure washing cost conroe
+    h1: How Much Does Pressure Washing Cost in Conroe?
+    title: Pressure Washing Cost Conroe | TBD
+    meta_description_intent: >-
+      How much does pressure washing cost in Conroe? Price ranges, factors, and
+      free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: pressure washing faq
+    h1: Pressure Washing FAQ — Conroe, Texas
+    title: Pressure Washing FAQ Conroe | TBD
+    meta_description_intent: Frequently asked questions about pressure washing in Conroe, Texas.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

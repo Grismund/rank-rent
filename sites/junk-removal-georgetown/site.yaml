@@ -1,0 +1,133 @@
+niche: junk-removal
+display_name: Junk Removal
+city: Georgetown
+state: Texas
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Round Rock
+  - Cedar Park
+  - Taylor
+  - Hutto
+pages:
+  - slug: /
+    type: home
+    primary_keyword: junk removal georgetown
+    h1: Junk Removal in Georgetown, Texas
+    title: Junk Removal Georgetown | TBD
+    meta_description_intent: >-
+      Connect with junk removal pros in Georgetown, Texas. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /residential-junk-removal/
+    type: service
+    primary_keyword: residential junk removal georgetown
+    h1: Residential Junk Removal in Georgetown, Texas
+    title: Residential Junk Removal Georgetown | TBD
+    meta_description_intent: >-
+      Residential Junk Removal services in Georgetown, Texas. Whole-home
+      cleanout of unwanted household items.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /furniture-removal/
+    type: service
+    primary_keyword: furniture removal georgetown
+    h1: Furniture Removal in Georgetown, Texas
+    title: Furniture Removal Georgetown | TBD
+    meta_description_intent: >-
+      Furniture Removal services in Georgetown, Texas. Pickup and disposal of
+      old couches, mattresses, dressers.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /appliance-hauling/
+    type: service
+    primary_keyword: appliance removal georgetown
+    h1: Appliance Hauling in Georgetown, Texas
+    title: Appliance Hauling Georgetown | TBD
+    meta_description_intent: >-
+      Appliance Hauling services in Georgetown, Texas. Removal of refrigerators,
+      washers, dryers, water heaters.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /construction-debris-removal/
+    type: service
+    primary_keyword: construction debris removal georgetown
+    h1: Construction Debris Removal in Georgetown, Texas
+    title: Construction Debris Removal Georgetown | TBD
+    meta_description_intent: >-
+      Construction Debris Removal services in Georgetown, Texas. Post-renovation
+      or remodel waste hauling.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/round-rock/
+    type: town
+    primary_keyword: junk removal round rock
+    h1: Junk Removal in Round Rock, Texas
+    title: Junk Removal Round Rock Texas | TBD
+    meta_description_intent: >-
+      Junk Removal services in Round Rock, Texas. Serving Round Rock and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/cedar-park/
+    type: town
+    primary_keyword: junk removal cedar park
+    h1: Junk Removal in Cedar Park, Texas
+    title: Junk Removal Cedar Park Texas | TBD
+    meta_description_intent: >-
+      Junk Removal services in Cedar Park, Texas. Serving Cedar Park and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/taylor/
+    type: town
+    primary_keyword: junk removal taylor
+    h1: Junk Removal in Taylor, Texas
+    title: Junk Removal Taylor Texas | TBD
+    meta_description_intent: >-
+      Junk Removal services in Taylor, Texas. Serving Taylor and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/hutto/
+    type: town
+    primary_keyword: junk removal hutto
+    h1: Junk Removal in Hutto, Texas
+    title: Junk Removal Hutto Texas | TBD
+    meta_description_intent: >-
+      Junk Removal services in Hutto, Texas. Serving Hutto and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: junk removal cost georgetown
+    h1: How Much Does Junk Removal Cost in Georgetown?
+    title: Junk Removal Cost Georgetown | TBD
+    meta_description_intent: >-
+      How much does junk removal cost in Georgetown? Price ranges, factors, and
+      free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: junk removal faq
+    h1: Junk Removal FAQ — Georgetown, Texas
+    title: Junk Removal FAQ Georgetown | TBD
+    meta_description_intent: Frequently asked questions about junk removal in Georgetown, Texas.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

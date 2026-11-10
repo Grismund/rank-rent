@@ -1,0 +1,133 @@
+niche: epoxy-flooring
+display_name: Epoxy Flooring
+city: Orlando
+state: Florida
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Winter Park
+  - Kissimmee
+  - Sanford
+  - Altamonte Springs
+pages:
+  - slug: /
+    type: home
+    primary_keyword: epoxy flooring orlando
+    h1: Epoxy Flooring in Orlando, Florida
+    title: Epoxy Flooring Orlando | TBD
+    meta_description_intent: >-
+      Connect with epoxy flooring pros in Orlando, Florida. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /garage-floor-epoxy/
+    type: service
+    primary_keyword: garage floor epoxy orlando
+    h1: Garage Floor Epoxy in Orlando, Florida
+    title: Garage Floor Epoxy Orlando | TBD
+    meta_description_intent: >-
+      Garage Floor Epoxy services in Orlando, Florida. Epoxy coating for
+      residential garage floors.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /commercial-epoxy-flooring/
+    type: service
+    primary_keyword: commercial epoxy flooring orlando
+    h1: Commercial Epoxy Flooring in Orlando, Florida
+    title: Commercial Epoxy Flooring Orlando | TBD
+    meta_description_intent: >-
+      Commercial Epoxy Flooring services in Orlando, Florida. Epoxy systems for
+      warehouses, shops, and showrooms.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /epoxy-floor-coating/
+    type: service
+    primary_keyword: epoxy floor coating orlando
+    h1: Epoxy Floor Coating in Orlando, Florida
+    title: Epoxy Floor Coating Orlando | TBD
+    meta_description_intent: >-
+      Epoxy Floor Coating services in Orlando, Florida. General-purpose epoxy
+      coating for concrete surfaces.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /metallic-epoxy-flooring/
+    type: service
+    primary_keyword: metallic epoxy flooring orlando
+    h1: Metallic Epoxy Flooring in Orlando, Florida
+    title: Metallic Epoxy Flooring Orlando | TBD
+    meta_description_intent: >-
+      Metallic Epoxy Flooring services in Orlando, Florida. Decorative
+      metallic-finish epoxy for high-end interiors.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/winter-park/
+    type: town
+    primary_keyword: epoxy flooring winter park
+    h1: Epoxy Flooring in Winter Park, Florida
+    title: Epoxy Flooring Winter Park Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Winter Park, Florida. Serving Winter Park and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/kissimmee/
+    type: town
+    primary_keyword: epoxy flooring kissimmee
+    h1: Epoxy Flooring in Kissimmee, Florida
+    title: Epoxy Flooring Kissimmee Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Kissimmee, Florida. Serving Kissimmee and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/sanford/
+    type: town
+    primary_keyword: epoxy flooring sanford
+    h1: Epoxy Flooring in Sanford, Florida
+    title: Epoxy Flooring Sanford Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Sanford, Florida. Serving Sanford and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/altamonte-springs/
+    type: town
+    primary_keyword: epoxy flooring altamonte springs
+    h1: Epoxy Flooring in Altamonte Springs, Florida
+    title: Epoxy Flooring Altamonte Springs Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Altamonte Springs, Florida. Serving Altamonte
+      Springs and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: epoxy flooring cost orlando
+    h1: How Much Does Epoxy Flooring Cost in Orlando?
+    title: Epoxy Flooring Cost Orlando | TBD
+    meta_description_intent: >-
+      How much does epoxy flooring cost in Orlando? Price ranges, factors, and
+      free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: epoxy flooring faq
+    h1: Epoxy Flooring FAQ — Orlando, Florida
+    title: Epoxy Flooring FAQ Orlando | TBD
+    meta_description_intent: Frequently asked questions about epoxy flooring in Orlando, Florida.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

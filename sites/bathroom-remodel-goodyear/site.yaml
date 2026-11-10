@@ -1,0 +1,144 @@
+niche: bathroom-remodel
+display_name: Bathroom Remodel
+city: Goodyear
+state: Arizona
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Avondale
+  - Litchfield Park
+  - Buckeye
+  - Tolleson
+pages:
+  - slug: /
+    type: home
+    primary_keyword: bathroom remodel goodyear
+    h1: Bathroom Remodel in Goodyear, Arizona
+    title: Bathroom Remodel Goodyear | TBD
+    meta_description_intent: >-
+      Connect with bathroom remodel pros in Goodyear, Arizona. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /full-bathroom-remodel/
+    type: service
+    primary_keyword: full bathroom remodel goodyear
+    h1: Full Bathroom Remodel in Goodyear, Arizona
+    title: Full Bathroom Remodel Goodyear | TBD
+    meta_description_intent: >-
+      Full Bathroom Remodel services in Goodyear, Arizona. Complete
+      gut-and-rebuild of an existing bathroom.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /shower-remodel/
+    type: service
+    primary_keyword: shower remodel goodyear
+    h1: Shower Remodel in Goodyear, Arizona
+    title: Shower Remodel Goodyear | TBD
+    meta_description_intent: >-
+      Shower Remodel services in Goodyear, Arizona. Shower replacement, tiling,
+      glass enclosure upgrade.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /bathtub-replacement/
+    type: service
+    primary_keyword: bathtub replacement goodyear
+    h1: Bathtub Replacement in Goodyear, Arizona
+    title: Bathtub Replacement Goodyear | TBD
+    meta_description_intent: >-
+      Bathtub Replacement services in Goodyear, Arizona. Swap old tub for new
+      soaking or walk-in tub.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /tub-to-shower-conversion/
+    type: service
+    primary_keyword: tub to shower conversion goodyear
+    h1: Tub-to-Shower Conversion in Goodyear, Arizona
+    title: Tub-to-Shower Conversion Goodyear | TBD
+    meta_description_intent: >-
+      Tub-to-Shower Conversion services in Goodyear, Arizona. Remove bathtub and
+      install walk-in shower.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /small-bathroom-remodel/
+    type: service
+    primary_keyword: small bathroom remodel goodyear
+    h1: Small Bathroom Remodel in Goodyear, Arizona
+    title: Small Bathroom Remodel Goodyear | TBD
+    meta_description_intent: >-
+      Small Bathroom Remodel services in Goodyear, Arizona. Budget-focused
+      update for guest or half baths.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/avondale/
+    type: town
+    primary_keyword: bathroom remodel avondale
+    h1: Bathroom Remodel in Avondale, Arizona
+    title: Bathroom Remodel Avondale Arizona | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Avondale, Arizona. Serving Avondale and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/litchfield-park/
+    type: town
+    primary_keyword: bathroom remodel litchfield park
+    h1: Bathroom Remodel in Litchfield Park, Arizona
+    title: Bathroom Remodel Litchfield Park Arizona | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Litchfield Park, Arizona. Serving Litchfield
+      Park and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/buckeye/
+    type: town
+    primary_keyword: bathroom remodel buckeye
+    h1: Bathroom Remodel in Buckeye, Arizona
+    title: Bathroom Remodel Buckeye Arizona | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Buckeye, Arizona. Serving Buckeye and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/tolleson/
+    type: town
+    primary_keyword: bathroom remodel tolleson
+    h1: Bathroom Remodel in Tolleson, Arizona
+    title: Bathroom Remodel Tolleson Arizona | TBD
+    meta_description_intent: >-
+      Bathroom Remodel services in Tolleson, Arizona. Serving Tolleson and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: bathroom remodel cost goodyear
+    h1: How Much Does a Bathroom Remodel Cost in Goodyear?
+    title: Bathroom Remodel Cost Goodyear | TBD
+    meta_description_intent: >-
+      How much does bathroom remodel cost in Goodyear? Price ranges, factors,
+      and free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: bathroom remodel faq
+    h1: Bathroom Remodel FAQ — Goodyear, Arizona
+    title: Bathroom Remodel FAQ Goodyear | TBD
+    meta_description_intent: Frequently asked questions about bathroom remodel in Goodyear, Arizona.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

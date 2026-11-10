@@ -1,0 +1,133 @@
+niche: epoxy-flooring
+display_name: Epoxy Flooring
+city: Fort Myers
+state: Florida
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Cape Coral
+  - Lehigh Acres
+  - Estero
+  - Bonita Springs
+pages:
+  - slug: /
+    type: home
+    primary_keyword: epoxy flooring fort myers
+    h1: Epoxy Flooring in Fort Myers, Florida
+    title: Epoxy Flooring Fort Myers | TBD
+    meta_description_intent: >-
+      Connect with epoxy flooring pros in Fort Myers, Florida. Free quotes from
+      local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /garage-floor-epoxy/
+    type: service
+    primary_keyword: garage floor epoxy fort myers
+    h1: Garage Floor Epoxy in Fort Myers, Florida
+    title: Garage Floor Epoxy Fort Myers | TBD
+    meta_description_intent: >-
+      Garage Floor Epoxy services in Fort Myers, Florida. Epoxy coating for
+      residential garage floors.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /commercial-epoxy-flooring/
+    type: service
+    primary_keyword: commercial epoxy flooring fort myers
+    h1: Commercial Epoxy Flooring in Fort Myers, Florida
+    title: Commercial Epoxy Flooring Fort Myers | TBD
+    meta_description_intent: >-
+      Commercial Epoxy Flooring services in Fort Myers, Florida. Epoxy systems
+      for warehouses, shops, and showrooms.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /epoxy-floor-coating/
+    type: service
+    primary_keyword: epoxy floor coating fort myers
+    h1: Epoxy Floor Coating in Fort Myers, Florida
+    title: Epoxy Floor Coating Fort Myers | TBD
+    meta_description_intent: >-
+      Epoxy Floor Coating services in Fort Myers, Florida. General-purpose epoxy
+      coating for concrete surfaces.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /metallic-epoxy-flooring/
+    type: service
+    primary_keyword: metallic epoxy flooring fort myers
+    h1: Metallic Epoxy Flooring in Fort Myers, Florida
+    title: Metallic Epoxy Flooring Fort Myers | TBD
+    meta_description_intent: >-
+      Metallic Epoxy Flooring services in Fort Myers, Florida. Decorative
+      metallic-finish epoxy for high-end interiors.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/cape-coral/
+    type: town
+    primary_keyword: epoxy flooring cape coral
+    h1: Epoxy Flooring in Cape Coral, Florida
+    title: Epoxy Flooring Cape Coral Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Cape Coral, Florida. Serving Cape Coral and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/lehigh-acres/
+    type: town
+    primary_keyword: epoxy flooring lehigh acres
+    h1: Epoxy Flooring in Lehigh Acres, Florida
+    title: Epoxy Flooring Lehigh Acres Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Lehigh Acres, Florida. Serving Lehigh Acres and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/estero/
+    type: town
+    primary_keyword: epoxy flooring estero
+    h1: Epoxy Flooring in Estero, Florida
+    title: Epoxy Flooring Estero Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Estero, Florida. Serving Estero and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/bonita-springs/
+    type: town
+    primary_keyword: epoxy flooring bonita springs
+    h1: Epoxy Flooring in Bonita Springs, Florida
+    title: Epoxy Flooring Bonita Springs Florida | TBD
+    meta_description_intent: >-
+      Epoxy Flooring services in Bonita Springs, Florida. Serving Bonita Springs
+      and surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: epoxy flooring cost fort myers
+    h1: How Much Does Epoxy Flooring Cost in Fort Myers?
+    title: Epoxy Flooring Cost Fort Myers | TBD
+    meta_description_intent: >-
+      How much does epoxy flooring cost in Fort Myers? Price ranges, factors,
+      and free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: epoxy flooring faq
+    h1: Epoxy Flooring FAQ — Fort Myers, Florida
+    title: Epoxy Flooring FAQ Fort Myers | TBD
+    meta_description_intent: Frequently asked questions about epoxy flooring in Fort Myers, Florida.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage

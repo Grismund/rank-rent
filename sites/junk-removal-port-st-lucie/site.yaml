@@ -1,0 +1,133 @@
+niche: junk-removal
+display_name: Junk Removal
+city: Port St. Lucie
+state: Florida
+brand: TBD
+phone: null
+domain: null
+towns:
+  - Fort Pierce
+  - Stuart
+  - Vero Beach
+  - Jensen Beach
+pages:
+  - slug: /
+    type: home
+    primary_keyword: junk removal port st. lucie
+    h1: Junk Removal in Port St. Lucie, Florida
+    title: Junk Removal Port St. Lucie | TBD
+    meta_description_intent: >-
+      Connect with junk removal pros in Port St. Lucie, Florida. Free quotes
+      from local contractors.
+    word_count:
+      min: 800
+      max: 1500
+  - slug: /residential-junk-removal/
+    type: service
+    primary_keyword: residential junk removal port st. lucie
+    h1: Residential Junk Removal in Port St. Lucie, Florida
+    title: Residential Junk Removal Port St. Lucie | TBD
+    meta_description_intent: >-
+      Residential Junk Removal services in Port St. Lucie, Florida. Whole-home
+      cleanout of unwanted household items.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /furniture-removal/
+    type: service
+    primary_keyword: furniture removal port st. lucie
+    h1: Furniture Removal in Port St. Lucie, Florida
+    title: Furniture Removal Port St. Lucie | TBD
+    meta_description_intent: >-
+      Furniture Removal services in Port St. Lucie, Florida. Pickup and disposal
+      of old couches, mattresses, dressers.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /appliance-hauling/
+    type: service
+    primary_keyword: appliance removal port st. lucie
+    h1: Appliance Hauling in Port St. Lucie, Florida
+    title: Appliance Hauling Port St. Lucie | TBD
+    meta_description_intent: >-
+      Appliance Hauling services in Port St. Lucie, Florida. Removal of
+      refrigerators, washers, dryers, water heaters.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /construction-debris-removal/
+    type: service
+    primary_keyword: construction debris removal port st. lucie
+    h1: Construction Debris Removal in Port St. Lucie, Florida
+    title: Construction Debris Removal Port St. Lucie | TBD
+    meta_description_intent: >-
+      Construction Debris Removal services in Port St. Lucie, Florida.
+      Post-renovation or remodel waste hauling.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/fort-pierce/
+    type: town
+    primary_keyword: junk removal fort pierce
+    h1: Junk Removal in Fort Pierce, Florida
+    title: Junk Removal Fort Pierce Florida | TBD
+    meta_description_intent: >-
+      Junk Removal services in Fort Pierce, Florida. Serving Fort Pierce and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/stuart/
+    type: town
+    primary_keyword: junk removal stuart
+    h1: Junk Removal in Stuart, Florida
+    title: Junk Removal Stuart Florida | TBD
+    meta_description_intent: >-
+      Junk Removal services in Stuart, Florida. Serving Stuart and surrounding
+      areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/vero-beach/
+    type: town
+    primary_keyword: junk removal vero beach
+    h1: Junk Removal in Vero Beach, Florida
+    title: Junk Removal Vero Beach Florida | TBD
+    meta_description_intent: >-
+      Junk Removal services in Vero Beach, Florida. Serving Vero Beach and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /areas/jensen-beach/
+    type: town
+    primary_keyword: junk removal jensen beach
+    h1: Junk Removal in Jensen Beach, Florida
+    title: Junk Removal Jensen Beach Florida | TBD
+    meta_description_intent: >-
+      Junk Removal services in Jensen Beach, Florida. Serving Jensen Beach and
+      surrounding areas.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /cost/
+    type: cost_guide
+    primary_keyword: junk removal cost port st. lucie
+    h1: How Much Does Junk Removal Cost in Port St. Lucie?
+    title: Junk Removal Cost Port St. Lucie | TBD
+    meta_description_intent: >-
+      How much does junk removal cost in Port St. Lucie? Price ranges, factors,
+      and free estimates.
+    word_count:
+      min: 500
+      max: 1000
+  - slug: /faq/
+    type: faq
+    primary_keyword: junk removal faq
+    h1: Junk Removal FAQ — Port St. Lucie, Florida
+    title: Junk Removal FAQ Port St. Lucie | TBD
+    meta_description_intent: Frequently asked questions about junk removal in Port St. Lucie, Florida.
+    word_count:
+      min: 400
+      max: 1000
+    schema: FAQPage
