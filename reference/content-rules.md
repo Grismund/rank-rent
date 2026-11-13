@@ -11,6 +11,9 @@ All content generation and audits must follow these rules. Skills reference this
 | Town/area page | 500 | 1,000 |
 | FAQ page | 400 | 1,000 |
 | Cost guide | 500 | 1,000 |
+| Informational guide | 600 | 1,500 |
+| Tool page (copy around the tool) | 300 | 800 |
+| About / How It Works | 300 | 800 |
 
 ## Local facts requirement
 
@@ -23,7 +26,8 @@ All content generation and audits must follow these rules. Skills reference this
 
 - No two town pages may share more than 40% of their non-boilerplate content
 - Town pages must differ in: local facts used, neighborhoods mentioned, specific regulations, and at least one unique paragraph
-- The `rr-seo-audit` skill checks for near-duplicates before deploy
+- **Across sites in the same niche**, no page pair may exceed 0.75 similarity (fail) and pairs above 0.60 are flagged (warn). Pack outlines define structure, not sentences — never reuse a paragraph across sites; re-express cost ranges and process steps per site.
+- The `rr-seo-audit` skill checks both within-site and cross-site near-duplicates before deploy (see `ranking-playbook.md` §1)
 
 ## Banned claims
 
@@ -77,5 +81,18 @@ Sites position as lead-generation services connecting homeowners with local cont
 2. Brief intro tying service to town
 3. Local facts (minimum 3)
 4. Common local issues relevant to the service
-5. Why local matters (regulations, permit office, etc.)
+5. Permits and rules: whether a permit is needed in this jurisdiction, the issuing office, HOA/land-use note — with source link (say so and cite it if no permit is required)
+6. Which 1–2 sub-services this town skews toward and why, linking to those pages
+7. Service logistics: distance/response from hub city, named neighborhoods and corridors
+8. At least one paragraph that could not be moved to another town page and still be true
+9. Call to action
+
+If the town's facts sheet cannot support steps 5–8, cut the town from the page plan rather than pad it. See `ranking-playbook.md` §2.
+
+### Tool page
+1. H1 with tool keyword (e.g. "[Service] Cost Calculator — [City]")
+2. One-paragraph explanation of what the tool estimates and its inputs
+3. The tool (Astro island)
+4. How the estimate was built (sources from the niche brief), "costs vary by contractor" note
+5. 3–5 FAQs the tool raises (FAQPage schema)
 6. Call to action

@@ -14,6 +14,9 @@ rank-rent/
     naming-rules.md                 domain naming conventions
     niche-economics.md              avg job values + margins per niche
     site-design.md                  brand-first design principles, page inventory
+    ranking-playbook.md             what ranks beyond the floor: portfolio footprint, town depth, tools, links, growth
+    template-architecture.md        spec for template/: shells, variants, orders, copy banks, seed, classmap, site.yaml schema
+    niche-design-specs.md           per-niche token sets, imagery, interactive tool, guide topics
   data/
     candidates.csv                  every niche × area scored
     counties.csv                    109 high-growth US counties (8%+ pop growth since 2020)
@@ -30,9 +33,11 @@ rank-rent/
     shortlist-*.md                  generated shortlists
   niches/<niche>/pack.yaml           niche content pack (sub-services, outlines, local vars)
   template/                         shared Astro site template (Phase 4)
-  sites/<domain>/site.yaml          niche, towns, phone, page plan (Phase 4)
+  sites/ASSIGNMENTS.md             per-site shell/tokens/orders/copy/wave + proposed brands (Phase 4 input)
+  sites/<domain>/site.yaml          niche, brand, design, copy, tool, towns, phone, page plan
+  sites/<domain>/content/*.md       per-page content with frontmatter (Phase 4)
   workers/call-router/              tracking-number Cloudflare Worker (Phase 5)
-  docs/                             connectivity report, master workflow (original planning doc, may be stale)
+  docs/                             connectivity report, master workflow (may be stale), phase-4-build-plan.md (current build order)
 ```
 
 ## Skill conventions
@@ -99,7 +104,7 @@ Each SKILL.md should specify:
 | 1 | `rr-smoke-test` | DONE | `docs/connectivity-report.md` |
 | 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-viability`, `rr-shortlist` | DONE | `candidates.csv`, validation data, teardowns, viability reports, shortlist memo |
 | 3 | `rr-niche-pack`, `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` | DONE | Niche packs (8), briefs, local facts, 18 site.yaml page plans, 540 buyers in `buyers.csv` |
-| 4 | `rr-site-build`, `rr-content`, `rr-seo-audit`, `rr-domains`, `rr-phone` | NOT BUILT | Sites, content, audit reports, registered domains |
+| 4 | `rr-site-build`, `rr-content`, `rr-seo-audit`, `rr-domains`, `rr-phone` | SPECCED — see `docs/phase-4-build-plan.md` | `template/`, sites, content, audit reports, registered domains |
 | 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` | NOT BUILT | Live sites, backlinks, review reports, pitch materials |
 
 ### Gates
@@ -212,9 +217,14 @@ Once created, the `reference/` files are the canonical source for:
 - `seo-standards.md` — titles under 60 chars, exactly one H1 per page, keyword alignment, internal linking
 - `content-rules.md` — home page 800-1,500 words; service/town pages 500-1,000; every town page uses at least 3 facts from its town sheet; no near-duplicate town pages
 - `naming-rules.md` — service + area in the domain, .com first, no trademarks
-- `site-design.md` — brand-first design, 10-15 pages per site, mobile-first, Lighthouse 80+
+- `site-design.md` — brand-first design, 10-15 pages per site, 3 template variants, mobile-first, Lighthouse 80+
+- `ranking-playbook.md` — portfolio footprint rules (distinct brands, variant/palette uniqueness, cross-site similarity, no inter-site links, staggered launches), defensible town pages, one tool page per site, schema set, images, links, post-launch growth, and the portfolio-level audit checklist
 
-Skills must reference these files, not hardcode standards inline.
+- `template-architecture.md` — the `template/` spec: 4 shells, section variants, order sets, copy banks, `h2_variants`, seeded class map, extended `site.yaml` schema, `_audit.json`, acceptance criteria
+- `niche-design-specs.md` — per niche: two token sets, imagery brief, tool definition, guide topics
+- `sites/ASSIGNMENTS.md` — which site gets which shell/tokens/orders/copy, proposed brands (unverified), tool slugs, launch waves
+
+Skills must reference these files, not hardcode standards inline. `rr-site-build`, `rr-content`, `rr-seo-audit`, `rr-links`, and `rr-weekly-review` all read `ranking-playbook.md`. Phase 4 work order lives in `docs/phase-4-build-plan.md`.
 
 ## Testing
 
