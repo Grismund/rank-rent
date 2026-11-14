@@ -12,7 +12,9 @@ sections:
   - h2: "Key Differences"
   - h2: "What This Means for Your Project"
   - h2: "Get Expert Advice"
-sources: []
+sources:
+  - "Niche brief: $1,600-$3,500 avg job value, polyaspartic 20-30% premium"
+  - "Manufacturer specifications for cure times and UV stability"
 faqs: []
 town_facts: []
 ---

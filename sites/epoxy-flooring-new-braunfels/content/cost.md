@@ -19,6 +19,9 @@ sections:
 sources:
   - "Niche brief: $1,600–$3,500 avg job value, 40–50% gross margin"
   - "Material cost: $0.30–$1/sq ft; metallic $5–$12/sq ft vs standard $3–$7/sq ft"
+figures:
+  - id: epoxy-cost-by-finish
+    after_section: "Average Epoxy Flooring Prices"
 faqs: []
 town_facts: []
 ---

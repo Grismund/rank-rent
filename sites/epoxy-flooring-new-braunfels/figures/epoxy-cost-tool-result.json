@@ -1,0 +1,14 @@
+{
+  "title": "Epoxy Flooring Cost by Garage Size",
+  "unit": "dollars",
+  "series": [
+    { "label": "1-Car Garage (~250 sq ft)", "low": 1200, "high": 2500 },
+    { "label": "2-Car Garage (~450 sq ft)", "low": 1600, "high": 3500 },
+    { "label": "3-Car Garage (~700 sq ft)", "low": 2400, "high": 5000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics; 3-car extrapolated from per-sq-ft rates in cost guide",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-14"
+}

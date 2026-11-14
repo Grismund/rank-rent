@@ -1,0 +1,15 @@
+{
+  "title": "Epoxy Flooring Cost by Finish Type",
+  "unit": "$/sq ft",
+  "series": [
+    { "label": "Solid Color", "low": 3, "high": 7 },
+    { "label": "Flake / Chip", "low": 3, "high": 7 },
+    { "label": "Metallic", "low": 5, "high": 12 },
+    { "label": "Polyaspartic", "low": 4, "high": 9 }
+  ],
+  "source": {
+    "label": "Niche brief sub-service editorial notes and New Braunfels contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-14"
+}

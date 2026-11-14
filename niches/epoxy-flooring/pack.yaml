@@ -325,6 +325,26 @@ design:
     - epoxy-flooring-2
   image_set: epoxy-flooring
 
+figures:
+  - id: epoxy-cost-tool-result
+    form: range-bars
+    description: "Your estimate vs. typical range for that garage size"
+    categories: [1-car garage, 2-car garage, 3-car garage]
+    unit: dollars
+    brief_section: "Job Economics"
+  - id: epoxy-cost-by-finish
+    form: range-bars
+    description: "$/sq ft range by finish type"
+    categories: [solid, flake, metallic, polyaspartic]
+    unit: "$/sq ft"
+    brief_section: "Job Economics"
+  - id: epoxy-lifespan-comparison
+    form: side-by-side
+    description: "Lifespan: epoxy vs polyaspartic vs paint"
+    categories: [professional epoxy, polyaspartic, garage floor paint]
+    unit: years
+    brief_section: "Manufacturer specifications"
+
 local_variables:
   standard:
     - var: neighborhoods

@@ -1,0 +1,14 @@
+{
+  "title": "Floor Coating Lifespan Comparison",
+  "unit": "years",
+  "series": [
+    { "label": "Professional Epoxy", "low": 10, "high": 20 },
+    { "label": "Polyaspartic", "low": 15, "high": 20 },
+    { "label": "Garage Floor Paint", "low": 2, "high": 5 }
+  ],
+  "source": {
+    "label": "Guide content and manufacturer specifications for polyaspartic lifespan",
+    "brief_section": "Manufacturer specifications"
+  },
+  "updated": "2026-11-14"
+}

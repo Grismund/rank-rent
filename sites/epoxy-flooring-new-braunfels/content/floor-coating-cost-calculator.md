@@ -18,6 +18,9 @@ sections:
 sources:
   - "Niche brief: $1,600–$3,500 avg job value"
   - "Material cost: $0.30–$1/sq ft (standard), $5–$12/sq ft (metallic)"
+figures:
+  - id: epoxy-cost-tool-result
+    after_section: "How This Calculator Works"
 faqs:
   - "How accurate is this epoxy cost calculator?"
   - "Does the estimate include concrete prep?"

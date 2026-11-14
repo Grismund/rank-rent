@@ -12,7 +12,12 @@ sections:
   - h2: "Key Differences"
   - h2: "What This Means for Your Project"
   - h2: "Get Expert Advice"
-sources: []
+sources:
+  - "Manufacturer specifications for polyaspartic lifespan (15-20 years)"
+  - "Trade sources for epoxy and paint lifespan ranges"
+figures:
+  - id: epoxy-lifespan-comparison
+    after_section: "Key Differences"
 faqs: []
 town_facts: []
 ---
@@ -46,6 +51,8 @@ What decides whether your floor lands near 10 or near 20:
 **Chemicals.** Oil, gas, brake fluid and household cleaners are fine. Harsh solvents and acids left sitting will eventually eat the topcoat. A garage where spills get wiped up will outlast a shop where they do not.
 
 **Sun.** Standard epoxy yellows and chalks under direct sunlight. It is cosmetic, the floor still works, but a garage with a west-facing door that stands open in the afternoon will show it. A polyaspartic or UV-stable topcoat solves it.
+
+**Polyaspartic coatings** last 15 to 20 years under residential garage conditions. The chemistry resists UV yellowing and hot-tire pickup better than standard epoxy, so the topcoat stays intact longer.
 
 **Ground movement.** Epoxy is rigid; when the slab cracks, the coating cracks with it. Around New Braunfels that is not hypothetical. Comal County's clay soils swell and shrink with the seasons and move slabs along with them. A crack in the epoxy that follows a new crack in the concrete is not a coating failure, and it does not mean the whole floor is done. The section gets repaired and recoated.
 

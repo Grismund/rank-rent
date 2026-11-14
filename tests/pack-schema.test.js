@@ -131,6 +131,11 @@ function makeValidPack() {
       tokens: ['epoxy-flooring-1', 'epoxy-flooring-2'],
       image_set: 'epoxy-flooring',
     },
+    figures: [
+      { id: 'epoxy-cost-tool-result', form: 'range-bars', categories: ['1-car', '2-car', '3-car'], unit: 'dollars', brief_section: 'Job Economics' },
+      { id: 'epoxy-cost-by-finish', form: 'side-by-side', categories: ['solid', 'metallic'], unit: '$/sq ft', brief_section: 'Job Economics' },
+      { id: 'epoxy-lifespan', form: 'columns', categories: ['epoxy', 'polyaspartic', 'paint'], unit: 'years', brief_section: 'Specs' },
+    ],
   }
 }
 
@@ -237,6 +242,53 @@ describe('validatePack', () => {
     const result = validatePack(pack)
     expect(result.valid).toBe(false)
     expect(result.errors.some(e => e.includes('guide_topics'))).toBe(true)
+  })
+
+  it('requires figures block with at least 3 entries', () => {
+    const pack = makeValidPack()
+    pack.figures = [
+      { id: 'a', form: 'range-bars', categories: ['x'], unit: 'dollars', brief_section: 'Sec' },
+      { id: 'b', form: 'columns', categories: ['y'], unit: 'years', brief_section: 'Sec' },
+    ]
+    const result = validatePack(pack)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some(e => e.includes('figures') && e.includes('3'))).toBe(true)
+  })
+
+  it('rejects missing figures block entirely', () => {
+    const pack = makeValidPack()
+    delete pack.figures
+    const result = validatePack(pack)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some(e => e.includes('figures'))).toBe(true)
+  })
+
+  it('validates figure entry has id, form, categories, unit, brief_section', () => {
+    const pack = makeValidPack()
+    pack.figures[0] = { id: 'a', form: 'range-bars' }
+    const result = validatePack(pack)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some(e => e.includes('categories'))).toBe(true)
+    expect(result.errors.some(e => e.includes('unit'))).toBe(true)
+    expect(result.errors.some(e => e.includes('brief_section'))).toBe(true)
+  })
+
+  it('validates form is an allowed value', () => {
+    const pack = makeValidPack()
+    pack.figures[0].form = 'pie'
+    const result = validatePack(pack)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some(e => e.includes('form') && e.includes('pie'))).toBe(true)
+  })
+
+  it('accepts all allowed form values', () => {
+    const forms = ['range-bars', 'side-by-side', 'segmented', 'line', 'stat', 'dot-range', 'columns']
+    for (const form of forms) {
+      const pack = makeValidPack()
+      pack.figures[0].form = form
+      const result = validatePack(pack)
+      expect(result.errors.some(e => e.includes('form'))).toBe(false)
+    }
   })
 
   it('does not count non-guide types toward the 2 guide minimum', () => {
