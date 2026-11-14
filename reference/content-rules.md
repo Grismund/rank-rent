@@ -89,10 +89,22 @@ Sites position as lead-generation services connecting homeowners with local cont
 
 If the town's facts sheet cannot support steps 5–8, cut the town from the page plan rather than pad it. See `ranking-playbook.md` §2.
 
+### Cost guide
+1. H1 with cost keyword ("[Service] Cost in [City]")
+2. The headline range for the typical job, with the "costs vary by contractor" note
+3. **Data figure:** cost range by sub-service or tier (see `data-viz.md` §6), with its "See the numbers" table and source line
+4. What drives the price up or down (size, condition, materials, access, permits)
+5. Sources and "Last updated" date
+6. Call to action
+
 ### Tool page
 1. H1 with tool keyword (e.g. "[Service] Cost Calculator — [City]")
 2. One-paragraph explanation of what the tool estimates and its inputs
-3. The tool (Astro island)
+3. The tool (Astro island) — its result screen draws the estimate as a figure, not only as text (`data-viz.md` §1, §6)
 4. How the estimate was built (sources from the niche brief), "costs vary by contractor" note
 5. 3–5 FAQs the tool raises (FAQPage schema)
 6. Call to action
+
+## Data figures
+
+Every site ships **at least 3 data figures**: one inside the tool, one on the cost guide, and one more (a "vs." or "how long" guide is the usual home). Figures are built from a sourced JSON data file, rendered as inline SVG, and always carry a caption, a one-sentence `aria-label`, and a "See the numbers" table. Numbers come only from the niche brief, `niche-economics.md`, a town facts sheet, or a cited external source — a number in a chart with no source is a banned claim. Full rules: `data-viz.md`.

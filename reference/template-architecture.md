@@ -2,7 +2,7 @@
 
 The spec for `template/` and for `rr-site-build`. One Astro codebase produces every site; no two sites in the portfolio share the same visible structure, copy patterns, or class names. `ranking-playbook.md` §1 states the why; this file states the how.
 
-Read with: `site-design.md` (page inventory, visual requirements), `seo-standards.md` (page-level floor), `niche-design-specs.md` (per-niche tokens, tools, imagery), `sites/ASSIGNMENTS.md` (which site gets which combination).
+Read with: `site-design.md` (page inventory, visual requirements), `seo-standards.md` (page-level floor), `niche-design-specs.md` (per-niche tokens, tools, imagery), `data-viz.md` (data figures: forms, provenance, fallback), `sites/ASSIGNMENTS.md` (which site gets which combination).
 
 ## 1. Design principle
 
@@ -18,7 +18,8 @@ Three excellent shells beat eight mediocre ones. Build four, polish them, and le
 |---|---|---|
 | Framework | Astro 5, `output: 'static'` | One project in `template/`; each site is a build with `SITE=<slug>` |
 | Styling | Astro scoped styles + CSS custom properties for tokens | No Tailwind (utility classes are a shared fingerprint across sites) |
-| Interactive islands | Preact (`@astrojs/preact`) | Tool page and FAQ accordion only; everything else is zero-JS |
+| Interactive islands | Preact (`@astrojs/preact`) | Tool page only (FAQ uses native `<details>`); everything else is zero-JS |
+| Data figures | Build-time inline SVG from `src/lib/figures.ts`; the tool island reuses the same primitives | No chart library, no `<canvas>`, no raster charts. Spec: `data-viz.md` |
 | Images | `astro:assets` `<Image>` / `<Picture>` with sharp | AVIF + WebP, explicit dimensions, lazy below the fold |
 | Fonts | `@fontsource-variable/*`, self-hosted, subset | Two families per site max; no Google Fonts requests |
 | Content | Markdown per page in `sites/<slug>/content/<slug>.md` with frontmatter | Written by `rr-content`; template renders it |
@@ -91,6 +92,7 @@ Every section has variants that differ in markup. The seed picks one per section
 | `TrustBlock` | `disclosure-first` (how-it-works paragraph + sources), `stat-free-facts` (3 sourced local facts), `checklist` (what to expect) — never testimonials or ratings |
 | `FAQ` | `details` (native `<details>`), `open-list` (`<dl>`), `two-column` |
 | `CostTable` | `table`, `range-bars` (CSS-only), `cards` |
+| `DataFigure` | `range-bars`, `dot-range`, `columns` — inline SVG from `sites/<slug>/figures/<id>.json`; always wrapped in `<figure>` with caption, `aria-label`, source line, and a `<details>` table (`data-viz.md` §4–5) |
 | `CTABand` | `band` (full-width), `card` (boxed), `inline` (paragraph + button) |
 | `Breadcrumbs` | `slash`, `chevron`, `arrow` (markup identical; separators and position differ) |
 | `Hero` | per shell (not separately varied) |
@@ -151,7 +153,7 @@ Re-running the resolver never overwrites a persisted pick.
 
 `src/pages/[...slug].astro` → `getStaticPaths()` from `site.yaml.pages`. For each page:
 
-1. Load `sites/<slug>/content/<page>.md` (frontmatter: `title`, `meta_description`, `h1`, `primary_keyword`, `type`, `status`, `updated`, `sources[]`, `faqs[]`, `town_facts[]`).
+1. Load `sites/<slug>/content/<page>.md` (frontmatter: `title`, `meta_description`, `h1`, `primary_keyword`, `type`, `status`, `updated`, `sources[]`, `faqs[]`, `town_facts[]`, `figures[]` — ids of data files in `sites/<slug>/figures/` and the section each renders after).
 2. Pick layout by shell; pick section order by page type; render sections via `SectionRenderer` with the resolved variants; pass the markdown body split by `## ` headings into the sections that expect prose.
 3. `<head>`: title, meta description, canonical, OG tags + per-page OG image (`/og/<page>.png`, generated at build with `satori` or `@resvg/resvg-js`), schema JSON-LD from `schema.ts`.
 4. Sticky mobile call bar and skip link from `base/`.
@@ -222,6 +224,7 @@ design:
     CTABand: card
     Breadcrumbs: chevron
     ToolShell: split
+    DataFigure: dot-range
   classmap: classmap.json            # seed-generated on first resolve
 
 copy:                                # seed-filled on first resolve, editable
@@ -256,11 +259,11 @@ template/
     layouts/ShellA.astro ShellB.astro ShellC.astro ShellD.astro
     components/
       base/Head.astro Schema.astro StickyCallBar.astro SkipLink.astro Breadcrumbs/
-      sections/<Section>/<variant>.astro
-      tools/<tool-type>.tsx                 # Preact islands
+      sections/<Section>/<variant>.astro    # includes DataFigure/{range-bars,dot-range,columns}.astro
+      tools/<tool-type>.tsx                 # Preact islands; result screen uses lib/figures.ts
     tokens/<niche>-<n>.css
     config/section-orders.ts copy-banks.ts classmap-vocab.ts
-    lib/resolve-site.ts seed.ts classmap.ts schema.ts content.ts og-image.ts
+    lib/resolve-site.ts seed.ts classmap.ts schema.ts content.ts og-image.ts figures.ts
     pages/[...slug].astro 404.astro
     pages/sitemap.xml.ts robots.txt.ts
   functions/api/lead.ts                     # Cloudflare Pages Function → Resend
@@ -274,7 +277,7 @@ scripts/
 
 ## 10. Audit hooks (consumed by `rr-seo-audit`)
 
-Beyond `seo-standards.md` and the `ranking-playbook.md` checklist, the template exposes `dist/<slug>/_audit.json` per build with: shell, tokens, order sets, variants, copy picks, classmap hash, per-page word counts, headings tree, internal link graph, schema types present, image list with alt/dimensions, OG image presence. The audit reads these across all sites to enforce:
+Beyond `seo-standards.md` and the `ranking-playbook.md` checklist, the template exposes `dist/<slug>/_audit.json` per build with: shell, tokens, order sets, variants, copy picks, classmap hash, per-page word counts, headings tree, internal link graph, schema types present, image list with alt/dimensions, OG image presence, and per-page `figures[]` (`id, variant, form, categories, has_table, has_source, fills[]`) plus a `tool` entry (`type, has_figure, output_varies`). The audit reads these across all sites to enforce:
 
 - Shell + tokens unique within niche; shell + tokens + nav set unique portfolio-wide
 - Class-map overlap ≤ 20% between any two sites
@@ -290,7 +293,8 @@ Beyond `seo-standards.md` and the `ranking-playbook.md` checklist, the template 
 3. Every section has its listed variants and each is reachable by config.
 4. Resolver persists seed picks into `site.yaml`/`classmap.json`; re-running changes nothing.
 5. Lighthouse mobile ≥ 90 on the empty template (headroom for content and images).
-6. Tool islands for all 8 niches work with JS, and the page still renders meaningful copy and the CTA with JS disabled.
+6. Tool islands for all 8 niches work with JS, draw their result as a figure, and the page still renders meaningful copy and the CTA with JS disabled.
+6a. `DataFigure` renders all three variants from a JSON data file as inline SVG with caption, `aria-label`, source line, and table fallback; a fixture site builds with ≥ 3 figures and zero client JS outside the tool page.
 7. Lead form posts to the Pages Function and arrives via Resend in a local test.
 8. `_audit.json` emitted per build with every field in §10.
 9. Two sites in the same niche built side by side produce HTML with no identical `<section>` subtrees other than the form and sticky bar.

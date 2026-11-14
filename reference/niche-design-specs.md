@@ -6,7 +6,9 @@ Palette values are starting points; adjust for WCAG AA contrast (≥ 4.5:1 body,
 
 Image sets: 8–12 licensed or generated images per niche covering each sub-service plus two hero candidates. Filenames are descriptive (`<subject>-<detail>.avif`); town-specific variants are not required. Store at `template/public/img/<niche>/`. No people's faces, no visible brand logos, no text in images.
 
-Tools are Preact islands in `template/src/components/tools/<type>.tsx`. Every tool: inputs → a **range** output → "Costs vary by contractor and site conditions" note → phone CTA + form link. Ranges come from the niche brief (`niches/<niche>/brief.md`) and `niche-economics.md`; record the source table in the component's header comment.
+Tools are Preact islands in `template/src/components/tools/<type>.tsx`. Every tool: inputs → a **range** output drawn as a figure → "Costs vary by contractor and site conditions" note → phone CTA + form link. Ranges come from the niche brief (`niches/<niche>/brief.md`) and `niche-economics.md`; record the source table in the component's header comment.
+
+Figures: each niche also ships the three data figures listed in `data-viz.md` §6 (tool result, cost guide, one guide), declared in `pack.yaml` `figures:`. Figure colors are the token set's `accent` on `surface`/`border` tracks — the palettes below are the only colors a chart may use, so check `accent` against `bg` for ≥ 3:1 when finalizing a set.
 
 ---
 

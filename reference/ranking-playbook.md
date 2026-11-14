@@ -54,7 +54,20 @@ Rules:
 - Tool types by niche are defined in `pack.yaml` under `tool:` — e.g. cost estimator, square-footage / volume estimator, permit-needed checker, legal-limit lookup (window tint VLT), job-size classifier (junk removal load estimator), material comparison.
 - Tool pages carry `WebApplication` or `SoftwareApplication` schema plus `FAQPage` for the questions the tool answers.
 - Tool must be fully usable on mobile with no horizontal scroll; Lighthouse 80+ still applies.
+- The result screen shows the estimate **as a figure** (the user's range against the typical range, or the parts of the total), not only as numbers — see `data-viz.md` §6 for the figure per niche.
+- Every tool is a real decision aid: at least one input changes the output materially, and the output explains *why* (the condition multiplier, the extra-cost items, the permit flag). A form that returns the same range for every input is not a tool.
 - The tool page is the primary target for outreach in `rr-links` (see §8).
+
+## 3a. Data shown visually
+
+Google's helpful-content guidance rewards pages that present information in a way that is easier to use than the competition's. The research pipeline already produces real numbers (cost ranges by option, lifespans, permit fees, distances); every site turns some of them into charts.
+
+- **Minimum 3 figures per site**: inside the tool, on the cost guide, and on one more page (usually a comparison or "how long" guide). Full rules and the per-niche figure set: `data-viz.md`.
+- Figures are **build-time inline SVG** from a sourced JSON data file — no chart library, no client JS outside the tool page, never a raster image of a chart.
+- Every figure ships with a caption, a one-sentence `aria-label`, a "See the numbers" `<table>` fallback, and a source line. The table is what gets indexed; the chart is what gets read.
+- Numbers in figures obey the same provenance rule as copy (brief, economics, facts sheet, or cited source) and are re-expressed per site like any other content — two sites in a niche may not ship identical series data.
+- Form follows the data's job (`data-viz.md` §3): range bars for ranges, side-by-side bars for comparisons, segmented bars for breakdowns, a stat tile for a single number. No pie, no dual axis, no rainbow; one accent hue from the site's token set.
+- Figures are a second outreach hook alongside the tool: a sourced cost chart is what a local writer embeds or cites. `rr-links` pitches the cost guide for this (§8).
 
 ## 4. Trust signals without fabricated claims
 
@@ -102,7 +115,7 @@ Baseline is the copycat method in `rr-links` (backlinks of 10 sites ranking for 
 - **Tool-page outreach**: pitch the tool page, not the home page, to local blogs, neighborhood groups, and news sites. It is the only page a third party has a reason to cite.
 - **Niche directories** relevant to the service (not general web directories).
 - **Local chambers of commerce** for the hub city: a membership is typically $100–300/yr and yields a real, local, editorially-controlled citation. Budget one per site once a site shows impressions.
-- **Cost-guide citations**: guides with sourced numbers get picked up by local writers; include a short "cite this page" line.
+- **Cost-guide citations**: guides with sourced numbers and a figure get picked up by local writers; include a short "cite this page" line under the figure.
 - No PBNs, no paid link packages, no links from other portfolio sites.
 - `data/links.csv` tracks target, type, status, date, and the page linked to.
 
@@ -146,6 +159,11 @@ Ranking only matters if the call happens.
 | Portfolio links | portfolio | any link to another `sites.csv` domain |
 | Town page completeness | page | missing permit section or unique paragraph |
 | Tool page present | site | no page with `type: tool` |
+| Tool is a decision aid | site | tool output does not change across the input matrix, or result screen has no figure |
+| Figure minimum | site | fewer than 3 figures, or tool page / cost guide without one (`data-viz.md` §7) |
+| Figure provenance + fallback | figure | missing source, table fallback, or `aria-label`; value not traceable to a source |
+| Figure form + palette | figure | pie/donut, dual axis, raster chart, client JS off the tool page, or fill outside the token set |
+| Figure duplication | niche | identical series data on two sites |
 | Schema set | page | missing Organization / BreadcrumbList; LocalBusiness present |
 | Image hygiene | page | missing alt, missing dimensions, non-AVIF/WebP, generic filename |
 | OG image | page | missing or wrong size |

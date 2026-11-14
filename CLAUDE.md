@@ -17,6 +17,7 @@ rank-rent/
     ranking-playbook.md             what ranks beyond the floor: portfolio footprint, town depth, tools, links, growth
     template-architecture.md        spec for template/: shells, variants, orders, copy banks, seed, classmap, site.yaml schema
     niche-design-specs.md           per-niche token sets, imagery, interactive tool, guide topics
+    data-viz.md                     data figures: 3+ sourced SVG charts per site, forms, provenance, table fallback, audit checks
   data/
     candidates.csv                  every niche × area scored
     counties.csv                    109 high-growth US counties (8%+ pop growth since 2020)
@@ -36,6 +37,7 @@ rank-rent/
   sites/ASSIGNMENTS.md             per-site shell/tokens/orders/copy/wave + proposed brands (Phase 4 input)
   sites/<domain>/site.yaml          niche, brand, design, copy, tool, towns, phone, page plan
   sites/<domain>/content/*.md       per-page content with frontmatter (Phase 4)
+  sites/<domain>/figures/*.json     sourced data files behind each chart (Phase 4)
   workers/call-router/              tracking-number Cloudflare Worker (Phase 5)
   docs/                             connectivity report, master workflow (may be stale), phase-4-build-plan.md (current build order)
 ```
@@ -203,7 +205,7 @@ These are non-negotiable:
 1. **Purchase approval** — Never buy a domain or phone number without explicit user approval naming the exact items and total cost.
 2. **Cost warnings** — Any research batch estimated over **$1** must show the cost and wait for approval before proceeding.
 3. **Auto-renew** — Always enable auto-renew immediately after every domain purchase (Cloudflare defaults it to off).
-4. **No fake claims** — Never invent years in business, licenses, crew sizes, reviews, or any other fabricated business details in site content.
+4. **No fake claims** — Never invent years in business, licenses, crew sizes, reviews, or any other fabricated business details in site content. A number in a chart or tool with no source is a fake claim.
 5. **No LocalBusiness schema** — Sites do not represent a single business; never generate LocalBusiness structured data with a fake address.
 6. **Deploy gate** — `rr-seo-audit` must pass before any site deploys. Failing sites cannot go live.
 7. **Key security** — Keys stay in the env file. Skills never print, log, or commit them.
@@ -222,6 +224,7 @@ Once created, the `reference/` files are the canonical source for:
 
 - `template-architecture.md` — the `template/` spec: 4 shells, section variants, order sets, copy banks, `h2_variants`, seeded class map, extended `site.yaml` schema, `_audit.json`, acceptance criteria
 - `niche-design-specs.md` — per niche: two token sets, imagery brief, tool definition, guide topics
+- `data-viz.md` — every site shows real numbers visually: ≥ 3 figures (tool result, cost guide, one guide), build-time inline SVG in token colors, sourced JSON data, caption + `aria-label` + table fallback, no pie/dual-axis/raster, audit checks
 - `sites/ASSIGNMENTS.md` — which site gets which shell/tokens/orders/copy, proposed brands (unverified), tool slugs, launch waves
 
 Skills must reference these files, not hardcode standards inline. `rr-site-build`, `rr-content`, `rr-seo-audit`, `rr-links`, and `rr-weekly-review` all read `ranking-playbook.md`. Phase 4 work order lives in `docs/phase-4-build-plan.md`.

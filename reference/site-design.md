@@ -24,7 +24,8 @@ Each site launches with **10-15 pages**:
 | Town/area pages | 3-5 | site.yaml `towns` list (cut towns whose facts sheet can't support `ranking-playbook.md` §2) |
 | Cost guide | 1 | pack.yaml `guide_topics` (type: cost_guide) |
 | Informational guides | 2+ | pack.yaml `guide_topics` (type: guide) — cost/"how long"/"is it worth it"/comparison topics |
-| Tool page | 1 | pack.yaml `tool` — Astro island, own target keyword, `WebApplication` schema |
+| Tool page | 1 | pack.yaml `tool` — Astro island, own target keyword, `WebApplication` schema; result drawn as a figure |
+| Data figures | 3+ across the site | pack.yaml `figures` — inline SVG charts with table fallback on the tool page, cost guide, and one guide (`data-viz.md`) |
 | FAQ | 1 | pack.yaml `guide_topics` (type: faq) + FAQPage schema |
 | About / How It Works | 1 | Static outline in pack.yaml; names Vantabox LLC as operator |
 | Contact, Privacy, Thank-you, 404 | 4 | Template (privacy/thank-you `noindex`) |
@@ -51,6 +52,7 @@ The template reserves `/guides/` for pages added post-launch by `rr-weekly-revie
 
 - **Mobile-first** responsive layout
 - **Click-to-call** button prominent on every page (header + CTA block after every major section + sticky mobile call bar)
+- **Numbers shown visually**: cost ranges and comparisons rendered as charts (inline SVG, token colors, table fallback), never as walls of figures or raster images — see `data-viz.md`
 - Visible breadcrumbs on every non-home page
 - Hero image is the only above-the-fold image and is preloaded; all others lazy-load
 - One generated OG image per page (brand + H1, 1200×630)
