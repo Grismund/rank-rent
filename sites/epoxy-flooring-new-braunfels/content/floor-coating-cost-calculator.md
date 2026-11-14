@@ -5,7 +5,7 @@ h1: "Floor Coating Cost Calculator — New Braunfels, Texas"
 primary_keyword: "floor coating cost calculator new braunfels"
 type: tool
 status: draft
-updated: 2026-11-13
+updated: 2026-11-14
 word_count_target: { min: 300, max: 800 }
 schema:
   - WebApplication
@@ -26,48 +26,48 @@ faqs:
 town_facts: []
 ---
 
-Use this free **floor coating cost calculator** to estimate what an epoxy flooring project costs in New Braunfels, Texas. Enter your garage size, preferred finish type, and floor condition to see a price range in seconds.
+This **floor coating cost calculator** gives you a price range for an epoxy floor in New Braunfels before you talk to anyone. Pick your garage size, the finish you have in mind and the shape your slab is in. The range appears right away.
 
 ## How This Calculator Works
 
-The calculator asks three questions about your project:
+Three questions:
 
-1. **Garage size** -- select one-car (approximately 250 sq ft), two-car (approximately 400-500 sq ft), or three-car (approximately 600-750 sq ft) to set the square footage range.
-2. **Finish type** -- choose from solid color, decorative flake, metallic, or polyaspartic. Each finish has a different material cost and labor requirement.
-3. **Floor condition** -- indicate whether your slab is new concrete, has minor cracks, or has an old coating that needs removal. Slabs requiring more prep work cost more.
+1. **How big is the garage?** One-car is about 250 square feet, two-car 400 to 500, three-car 600 to 750. That sets the footage.
+2. **What finish?** Solid color, flake, metallic or polyaspartic. Each one costs different money in material and in hours.
+3. **What shape is the floor in?** New concrete, a few cracks, or an old coating that has to come off first. More prep, higher number.
 
-Based on your selections, the tool generates a low-to-high price range for your project. The estimate covers materials, concrete preparation, and installation labor.
+From those three answers you get a low and a high. The range covers material, standard concrete prep and the labor to install.
 
 <!-- Tool island: epoxy-cost-estimator -->
 
 ## Where Our Estimates Come From
 
-The price ranges in this calculator are based on typical project costs in the New Braunfels area. Standard solid-color and flake epoxy systems run $3 to $7 per square foot installed. Metallic finishes range from $5 to $12 per square foot. Polyaspartic coatings add roughly 20 to 30% over comparable epoxy systems.
+The numbers behind the calculator are what New Braunfels contractors are actually quoting. Solid-color and flake systems install for about $3 to $7 a square foot. Metallic runs $5 to $12. Polyaspartic adds roughly 20 to 30 percent to a comparable epoxy system.
 
-A typical two-car garage installation falls between $1,600 and $3,500, which aligns with the range most local contractors quote for residential work. These figures account for standard concrete preparation -- diamond grinding, crack repair, and moisture testing.
+A typical two-car garage lands between $1,600 and $3,500, which matches what most local installers tell homeowners over the phone. Those figures assume normal prep: diamond grinding, minor crack fill, a moisture test.
 
-Costs vary by contractor and site conditions. Slabs with significant damage, moisture problems, or old coatings that need removal will cost more than the calculator's base estimate. The tool provides a starting point, not a firm quote. For a more detailed breakdown of pricing factors, visit our [epoxy flooring cost guide](/cost/).
+What the calculator cannot see is your slab. A floor with real damage, active moisture, or a stubborn old coating will come in above the range it shows you. Treat the result as a budget number, not a bid. The [epoxy flooring cost guide](/cost/) explains each factor in more depth.
 
 ## Frequently Asked Questions
 
 ### How accurate is this epoxy cost calculator?
 
-The calculator provides a ballpark range based on typical project costs in the New Braunfels area. It is useful for budgeting but does not replace a contractor's on-site estimate. Actual costs depend on your slab's specific condition, the contractor's pricing, and any additional prep work required.
+Accurate enough to budget with, not accurate enough to sign on. It uses typical New Braunfels pricing and assumes a normal slab. The contractor's on-site estimate will account for your concrete's actual condition and whatever extra prep it needs.
 
 ### Does the estimate include concrete prep?
 
-Yes. The ranges include standard concrete preparation such as diamond grinding, minor crack repair, and moisture testing. Slabs with extensive damage, active moisture issues, or old coatings that require chemical stripping may cost more than shown.
+Yes, the standard kind: grinding, minor crack repair and moisture testing. Extensive damage, an active moisture problem or an old coating that needs chemical stripping are extras that can push the real price above the calculator's range.
 
 ### What is the difference between solid, flake, and metallic finishes?
 
-Solid-color epoxy is a single-tone finish and the most affordable option. Flake (also called chip or broadcast) adds colored vinyl flakes for texture, visual depth, and improved slip resistance. Metallic epoxy uses metallic pigments that create unique swirl patterns -- it is the premium option at $5 to $12 per square foot. Each finish works over the same base preparation process.
+Solid color is one tone and the least expensive. Flake (some people say chip or broadcast) adds colored vinyl flakes for texture, visual depth and better traction when wet. Metallic uses pigments that swirl as the epoxy cures, so every floor comes out different; it is the premium choice at $5 to $12 a square foot. All three go over the same prep.
 
 ### How long does an epoxy floor installation take?
 
-Most residential garage installations take one to two days. Standard epoxy then needs 24 to 72 hours before foot traffic and five to seven days before parking. Polyaspartic coatings cure faster, often allowing full use within 24 hours. Your contractor will provide a specific timeline based on the product selected and current weather conditions.
+A day or two for most garages. Then standard epoxy needs 24 to 72 hours before you walk on it and five to seven days before you park. Polyaspartic is faster, often ready for full use within 24 hours. Your contractor will give you dates based on the product and the week's weather.
 
 ## Get an Accurate Quote
 
-A calculator gives you a range. A contractor gives you a real number. Comal Epoxy Floors connects New Braunfels homeowners with independent local contractors who provide free on-site estimates. Call **[PHONE]** to schedule yours.
+A calculator gives you a range. A contractor standing on your slab gives you a number. Comal Epoxy Floors connects New Braunfels homeowners with independent local contractors who do free on-site estimates. Call **[PHONE]** to set one up.
 
-See also: [garage floor epoxy services](/garage-floor-epoxy/) and [full cost guide](/cost/).
+See also: [garage floor epoxy services](/garage-floor-epoxy/) and the [full cost guide](/cost/).
