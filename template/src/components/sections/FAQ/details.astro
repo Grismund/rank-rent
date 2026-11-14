@@ -1,0 +1,136 @@
+---
+/**
+ * FAQ section — accordion variant.
+ * Each Q&A pair uses native <details><summary> for zero-JS expand/collapse.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const faqs: { question: string; answer: string }[] = page?.faqs ?? []
+const hasContent = !!contentHtml?.trim()
+const hasFaqs = faqs.length > 0
+---
+
+<section class="faq-details" aria-labelledby="faq-details-heading">
+  <div class="faq-details-inner">
+    <h2 id="faq-details-heading">{sectionName}</h2>
+
+    {hasContent ? (
+      <div class="faq-details-content" set:html={contentHtml} />
+    ) : hasFaqs ? (
+      <div class="faq-details-list">
+        {faqs.map((faq) => (
+          <details class="faq-details-item">
+            <summary class="faq-details-question">{faq.question}</summary>
+            <div class="faq-details-answer">
+              <p>{faq.answer}</p>
+            </div>
+          </details>
+        ))}
+      </div>
+    ) : (
+      <p class="faq-details-placeholder">Frequently asked questions will be added here.</p>
+    )}
+  </div>
+</section>
+
+<style>
+  .faq-details {
+    padding: var(--space-xl) var(--space-m);
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  .faq-details-inner {
+    max-width: 72ch;
+    margin: 0 auto;
+  }
+
+  .faq-details-inner h2 {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    margin-bottom: var(--space-l);
+    color: var(--text);
+  }
+
+  .faq-details-content {
+    line-height: 1.6;
+  }
+
+  .faq-details-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .faq-details-item {
+    border-bottom: 1px solid var(--border);
+  }
+
+  .faq-details-item:first-child {
+    border-top: 1px solid var(--border);
+  }
+
+  .faq-details-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-s);
+    padding: var(--space-m) 0;
+    cursor: pointer;
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    font-weight: 600;
+    color: var(--text);
+    list-style: none;
+  }
+
+  .faq-details-question::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-details-question::after {
+    content: '+';
+    flex-shrink: 0;
+    font-size: var(--step-2);
+    line-height: 1;
+    color: var(--accent);
+    transition: transform 0.2s ease;
+  }
+
+  .faq-details-item[open] > .faq-details-question::after {
+    content: '\2212';
+  }
+
+  .faq-details-answer {
+    padding: 0 0 var(--space-m) 0;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .faq-details-answer p {
+    margin: 0;
+  }
+
+  .faq-details-placeholder {
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  @media (max-width: 360px) {
+    .faq-details {
+      padding: var(--space-l) var(--space-s);
+    }
+
+    .faq-details-question {
+      font-size: var(--step-0);
+      word-break: break-word;
+    }
+  }
+</style>

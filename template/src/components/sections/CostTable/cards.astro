@@ -1,0 +1,264 @@
+---
+/**
+ * CostTable — cards variant
+ *
+ * Card-based cost breakdown showing cost tiers as distinct cards.
+ * When contentHtml is provided, renders that directly.
+ * Otherwise shows placeholder cards awaiting real data.
+ *
+ * Uses token CSS vars only; no horizontal scroll at 360px.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const city = site.city ?? ''
+const niche = site.display_name ?? site.niche ?? ''
+
+const placeholderCards = [
+  {
+    tier: 'Basic',
+    description: 'Standard materials, straightforward project scope.',
+    low: '—',
+    high: '—',
+  },
+  {
+    tier: 'Mid-Range',
+    description: 'Better materials, moderate customization.',
+    low: '—',
+    high: '—',
+    featured: true,
+  },
+  {
+    tier: 'Premium',
+    description: 'Top-tier materials, full customization, complex scope.',
+    low: '—',
+    high: '—',
+  },
+]
+---
+
+<section class="cost-cards-section" aria-labelledby="cost-cards-heading">
+  <div class="cost-cards-container">
+    <h2 id="cost-cards-heading">{sectionName}</h2>
+
+    {contentHtml ? (
+      <div class="cost-cards-content" set:html={contentHtml} />
+    ) : (
+      <div class="cost-cards-content">
+        <p class="cost-cards-intro">
+          What to expect when budgeting for {niche.toLowerCase()} in {city}.
+          Costs fall into three general tiers depending on materials, scope, and
+          project complexity.
+        </p>
+
+        <div class="cost-cards-grid">
+          {placeholderCards.map((card) => (
+            <article
+              class={`cost-card ${card.featured ? 'cost-card-featured' : ''}`}
+            >
+              <div class="cost-card-header">
+                <h3 class="cost-card-tier">{card.tier}</h3>
+              </div>
+              <div class="cost-card-range">
+                <span class="cost-card-amount">{card.low}</span>
+                <span class="cost-card-separator">&ndash;</span>
+                <span class="cost-card-amount">{card.high}</span>
+              </div>
+              <p class="cost-card-desc">{card.description}</p>
+            </article>
+          ))}
+        </div>
+
+        <p class="cost-cards-note">
+          These ranges are typical for {city}. Actual costs depend on your
+          specific project. Call for a free, no-obligation estimate.
+        </p>
+      </div>
+    )}
+  </div>
+</section>
+
+<style>
+  .cost-cards-section {
+    padding: var(--space-2xl) var(--space-m);
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  .cost-cards-container {
+    max-width: 72ch;
+    margin: 0 auto;
+  }
+
+  .cost-cards-container h2 {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    line-height: 1.2;
+    margin-bottom: var(--space-l);
+    color: var(--text);
+  }
+
+  .cost-cards-intro {
+    margin-bottom: var(--space-l);
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .cost-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-m);
+  }
+
+  .cost-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--space-l);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+    transition: box-shadow 0.15s ease;
+  }
+
+  .cost-card:hover {
+    box-shadow: var(--shadow);
+  }
+
+  .cost-card-featured {
+    border-color: var(--accent);
+    border-width: 2px;
+    position: relative;
+  }
+
+  .cost-card-featured::before {
+    content: 'Most Common';
+    position: absolute;
+    top: 0;
+    right: var(--space-m);
+    transform: translateY(-50%);
+    background-color: var(--accent);
+    color: var(--accent-text);
+    font-family: var(--font-display);
+    font-size: var(--step--2);
+    font-weight: 700;
+    padding: 0.125rem 0.5rem;
+    border-radius: var(--radius);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .cost-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cost-card-tier {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    font-weight: 700;
+    color: var(--text);
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .cost-card-range {
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cost-card-amount {
+    font-family: var(--font-display);
+    font-size: var(--step-2);
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1.2;
+  }
+
+  .cost-card-separator {
+    font-size: var(--step-1);
+    color: var(--muted);
+  }
+
+  .cost-card-desc {
+    font-size: var(--step--1);
+    color: var(--muted);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .cost-cards-note {
+    margin-top: var(--space-l);
+    font-size: var(--step--1);
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  /* Style contentHtml consistently */
+  .cost-cards-content :global(p) {
+    margin-bottom: var(--space-m);
+    line-height: 1.6;
+  }
+
+  .cost-cards-content :global(figure) {
+    margin: var(--space-l) 0;
+  }
+
+  .cost-cards-content :global(figcaption) {
+    font-size: var(--step--1);
+    color: var(--muted);
+    margin-top: var(--space-s);
+  }
+
+  .cost-cards-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+    margin: var(--space-m) 0;
+  }
+
+  .cost-cards-content :global(th) {
+    font-family: var(--font-display);
+    font-size: var(--step--1);
+    font-weight: 700;
+    text-align: left;
+    padding: var(--space-s);
+    border-bottom: 2px solid var(--accent);
+  }
+
+  .cost-cards-content :global(td) {
+    padding: var(--space-s);
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* Two columns on tablets */
+  @media (min-width: 600px) {
+    .cost-cards-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* Stack to single column at narrow viewports — no horizontal scroll */
+  @media (max-width: 599px) {
+    .cost-cards-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .cost-card {
+      padding: var(--space-m);
+    }
+
+    .cost-card-amount {
+      font-size: var(--step-1);
+    }
+  }
+</style>

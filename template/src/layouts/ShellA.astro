@@ -1,0 +1,309 @@
+---
+/**
+ * Shell A — Classic Contractor
+ * Logo left, inline nav, phone button right.
+ * Centered H1 hero, single-col body (72ch max), 4-col footer.
+ */
+import Head from '../components/base/Head.astro'
+import SkipLink from '../components/base/SkipLink.astro'
+import StickyCallBar from '../components/base/StickyCallBar.astro'
+import Schema from '../components/base/Schema.astro'
+import Disclosure from '../components/base/Disclosure.astro'
+import MobileNav from '../components/base/MobileNav.astro'
+import '../tokens/base.css'
+
+interface Props {
+  site: any
+  page: any
+  breadcrumbs?: any
+  tokens?: string
+}
+
+const { site, page, breadcrumbs, tokens } = Astro.props
+const phone = site.phone
+const nav = site.copy.nav
+const cta = site.copy.cta
+
+const navItems = [
+  { label: nav.services, href: site.pages.find((p: any) => p.type === 'service')?.slug || '#' },
+  { label: nav.areas, href: '/areas/' },
+  { label: nav.cost, href: '/cost/' },
+  { label: nav.faq, href: '/faq/' },
+  { label: nav.about, href: '/about/' },
+]
+
+const servicePages = site.pages.filter((p: any) => p.type === 'service')
+const townPages = site.pages.filter((p: any) => p.type === 'town')
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <Head
+      title={page.title}
+      description={page.meta_description_intent}
+      tokens={tokens}
+    />
+    <Schema page={page} site={site} />
+  </head>
+  <body>
+    <SkipLink />
+
+    <header class="shell-a-header">
+      <div class="header-inner">
+        <div class="logo-wrap">
+          <a href="/">{site.brand}</a>
+        </div>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            {navItems.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+        <div class="header-phone">
+          {phone && (
+            <a href={`tel:${phone}`} class="phone-btn">{cta.primary}</a>
+          )}
+        </div>
+        <div class="mobile-nav-wrap">
+          <MobileNav items={navItems} phone={phone} />
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-a">
+      <div class="hero-inner">
+        <h1>{page.h1}</h1>
+        {phone && (
+          <div class="hero-cta">
+            <a href={`tel:${phone}`} class="cta-primary">{cta.primary}</a>
+          </div>
+        )}
+      </div>
+    </div>
+
+    {breadcrumbs}
+
+    <main id="main-content">
+      <div class="content-wrap">
+        <slot />
+      </div>
+    </main>
+
+    <footer class="shell-a-footer">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <p class="footer-brand">{site.brand}</p>
+          <Disclosure index={site.copy.disclosure} />
+        </div>
+        <div class="footer-col">
+          <p class="footer-heading">{nav.services}</p>
+          <ul class="footer-links">
+            {servicePages.slice(0, 5).map((p: any) => (
+              <li><a href={p.slug}>{p.h1}</a></li>
+            ))}
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-heading">{nav.areas}</p>
+          <ul class="footer-links">
+            {townPages.map((p: any) => (
+              <li><a href={p.slug}>{p.h1}</a></li>
+            ))}
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-heading">Contact</p>
+          {phone && <p><a href={`tel:${phone}`}>{phone}</a></p>}
+          <ul class="footer-links">
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/privacy/">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <StickyCallBar phone={phone} ctaText={cta.primary} />
+  </body>
+</html>
+
+<style>
+  .shell-a-header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: var(--space-s) var(--space-m);
+  }
+
+  .header-inner {
+    max-width: 72rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-m);
+  }
+
+  .logo-wrap a {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    font-weight: 700;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .desktop-nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: var(--space-m);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-list a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: var(--step--1);
+    font-family: var(--font-body);
+  }
+
+  .nav-list a:hover {
+    color: var(--accent);
+  }
+
+  .phone-btn {
+    display: inline-block;
+    padding: var(--space-s) var(--space-m);
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--font-display);
+    font-size: var(--step--1);
+    border-radius: var(--radius);
+    white-space: nowrap;
+  }
+
+  .mobile-nav-wrap {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .desktop-nav,
+    .header-phone {
+      display: none;
+    }
+    .mobile-nav-wrap {
+      display: block;
+    }
+  }
+
+  .hero-a {
+    background: var(--bg);
+    padding: var(--space-l) var(--space-m);
+    text-align: center;
+  }
+
+  .hero-inner {
+    max-width: 48rem;
+    margin-inline: auto;
+  }
+
+  .hero-a h1 {
+    font-family: var(--font-display);
+    font-size: var(--step-4);
+    color: var(--text);
+    margin: 0;
+    line-height: 1.15;
+  }
+
+  .hero-cta {
+    margin-block-start: var(--space-m);
+  }
+
+  .cta-primary {
+    display: inline-block;
+    padding: var(--space-s) var(--space-l);
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--font-display);
+    font-size: var(--step-0);
+    border-radius: var(--radius);
+  }
+
+  .content-wrap {
+    max-width: 72ch;
+    margin-inline: auto;
+  }
+
+  .shell-a-footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: var(--space-l) var(--space-m);
+    margin-block-start: var(--space-l);
+  }
+
+  .footer-inner {
+    max-width: 72rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-l);
+  }
+
+  @media (max-width: 640px) {
+    .footer-inner {
+      grid-template-columns: 1fr;
+      gap: var(--space-m);
+    }
+  }
+
+  .footer-brand {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    font-weight: 700;
+    color: var(--text);
+    margin-block-end: var(--space-s);
+  }
+
+  .footer-heading {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--text);
+    margin-block-end: var(--space-s);
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-links li {
+    margin-block-end: 0.25em;
+  }
+
+  .footer-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: var(--step--1);
+  }
+
+  .footer-links a:hover {
+    color: var(--accent);
+  }
+
+  .footer-col p a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+</style>

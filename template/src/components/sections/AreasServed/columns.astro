@@ -1,0 +1,158 @@
+---
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const townPages = (site.pages ?? []).filter((p: any) => p.type === 'town')
+const towns: string[] = site.towns ?? []
+
+/** Build a lookup from town slug/label to its page href */
+const townPageMap = new Map<string, any>()
+for (const tp of townPages) {
+  const label = (tp.title ?? tp.slug ?? '').replace(/-/g, ' ').toLowerCase()
+  townPageMap.set(label, tp)
+  if (tp.slug) townPageMap.set(tp.slug.toLowerCase(), tp)
+}
+
+function findTownPage(town: string) {
+  const key = town.toLowerCase().trim()
+  const slug = key.replace(/\s+/g, '-')
+  return townPageMap.get(key) ?? townPageMap.get(slug) ?? null
+}
+---
+
+<section class="areas-served-columns" aria-labelledby="areas-served-heading">
+  <div class="areas-served-inner">
+    <h2 id="areas-served-heading">{sectionName}</h2>
+
+    {contentHtml && (
+      <div class="areas-served-intro" set:html={contentHtml} />
+    )}
+
+    {towns.length > 0 && (
+      <ul class="town-columns" role="list">
+        {towns.map((town) => {
+          const tp = findTownPage(town)
+          const href = tp?.slug ? `/${tp.slug}/` : null
+          return (
+            <li class="town-item">
+              {href ? (
+                <a href={href} class="town-link">
+                  <span class="town-marker" aria-hidden="true"></span>
+                  {town}
+                </a>
+              ) : (
+                <span class="town-name">
+                  <span class="town-marker" aria-hidden="true"></span>
+                  {town}
+                </span>
+              )}
+            </li>
+          )
+        })}
+      </ul>
+    )}
+  </div>
+</section>
+
+<style>
+  .areas-served-columns {
+    padding: var(--space-l) var(--space-m);
+    background: var(--surface);
+    color: var(--text);
+  }
+
+  .areas-served-inner {
+    max-width: 52rem;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-family: var(--font-display, inherit);
+    font-size: var(--step-2, 1.75rem);
+    color: var(--text);
+    margin: 0 0 var(--space-s) 0;
+  }
+
+  .areas-served-intro {
+    margin-bottom: var(--space-m);
+    line-height: 1.6;
+    color: var(--muted, var(--text));
+  }
+
+  .town-columns {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 3;
+    column-gap: var(--space-l, 2rem);
+  }
+
+  .town-item {
+    break-inside: avoid;
+    padding: var(--space-3xs, 0.25rem) 0;
+  }
+
+  .town-link,
+  .town-name {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs, 0.5rem);
+    font-size: var(--step-0, 1rem);
+    line-height: 1.5;
+  }
+
+  .town-link {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .town-link:hover,
+  .town-link:focus-visible {
+    color: var(--text);
+    text-decoration: underline;
+    outline: none;
+  }
+
+  .town-name {
+    color: var(--text);
+  }
+
+  .town-marker {
+    flex-shrink: 0;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  /* Two columns on tablets */
+  @media (max-width: 768px) {
+    .town-columns {
+      columns: 2;
+      column-gap: var(--space-m, 1.5rem);
+    }
+  }
+
+  /* Single column on small screens — no horizontal scroll */
+  @media (max-width: 480px) {
+    .areas-served-columns {
+      padding: var(--space-m) var(--space-s);
+    }
+
+    .town-columns {
+      columns: 1;
+    }
+
+    .town-link,
+    .town-name {
+      font-size: var(--step--1, 0.875rem);
+    }
+  }
+</style>

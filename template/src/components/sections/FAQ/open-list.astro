@@ -1,0 +1,118 @@
+---
+/**
+ * FAQ section — open list variant.
+ * All Q&A pairs visible (not collapsed), rendered as definition-list-style blocks.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const faqs: { question: string; answer: string }[] = page?.faqs ?? []
+const hasContent = !!contentHtml?.trim()
+const hasFaqs = faqs.length > 0
+---
+
+<section class="faq-open" aria-labelledby="faq-open-heading">
+  <div class="faq-open-inner">
+    <h2 id="faq-open-heading">{sectionName}</h2>
+
+    {hasContent ? (
+      <div class="faq-open-content" set:html={contentHtml} />
+    ) : hasFaqs ? (
+      <dl class="faq-open-list">
+        {faqs.map((faq) => (
+          <div class="faq-open-pair">
+            <dt class="faq-open-question">{faq.question}</dt>
+            <dd class="faq-open-answer">{faq.answer}</dd>
+          </div>
+        ))}
+      </dl>
+    ) : (
+      <p class="faq-open-placeholder">Frequently asked questions will be added here.</p>
+    )}
+  </div>
+</section>
+
+<style>
+  .faq-open {
+    padding: var(--space-xl) var(--space-m);
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  .faq-open-inner {
+    max-width: 72ch;
+    margin: 0 auto;
+  }
+
+  .faq-open-inner h2 {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    margin-bottom: var(--space-l);
+    color: var(--text);
+  }
+
+  .faq-open-content {
+    line-height: 1.6;
+  }
+
+  .faq-open-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+    margin: 0;
+    padding: 0;
+  }
+
+  .faq-open-pair {
+    padding-bottom: var(--space-l);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .faq-open-pair:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .faq-open-question {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: var(--space-s);
+  }
+
+  .faq-open-question::before {
+    content: 'Q: ';
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .faq-open-answer {
+    margin: 0;
+    padding: 0;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .faq-open-placeholder {
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  @media (max-width: 360px) {
+    .faq-open {
+      padding: var(--space-l) var(--space-s);
+    }
+
+    .faq-open-question {
+      font-size: var(--step-0);
+      word-break: break-word;
+    }
+  }
+</style>

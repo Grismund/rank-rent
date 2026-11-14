@@ -1,0 +1,74 @@
+---
+/**
+ * CTABand/inline — Inline text with embedded phone link.
+ * Variant: inline
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+const phone = site.phone
+const primaryCta = site.copy?.cta?.primary ?? 'Call Now'
+const secondaryCta = site.copy?.cta?.secondary ?? ''
+---
+
+<section class="cta-inline" id={sectionName} aria-label={primaryCta}>
+  <div class="cta-inline__inner">
+    {contentHtml && <span class="cta-inline__text" set:html={contentHtml} />}
+    {!contentHtml && secondaryCta && <span class="cta-inline__text">{secondaryCta}</span>}
+    <a href={`tel:${phone}`} class="cta-inline__link">
+      {primaryCta} <span class="cta-inline__phone">{phone}</span>
+    </a>
+  </div>
+</section>
+
+<style>
+  .cta-inline {
+    padding: var(--space-l) var(--space-m);
+    overflow-x: hidden;
+  }
+
+  .cta-inline__inner {
+    max-width: 48rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    gap: var(--space-s);
+    font-size: var(--step-1);
+    font-family: var(--font-display);
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .cta-inline__text {
+    color: var(--text);
+  }
+
+  .cta-inline__link {
+    color: var(--accent);
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .cta-inline__link:hover {
+    text-decoration: underline;
+  }
+
+  .cta-inline__phone {
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (max-width: 480px) {
+    .cta-inline__inner {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>

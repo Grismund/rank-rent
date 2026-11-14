@@ -1,0 +1,209 @@
+---
+/**
+ * CostTable — range-bars variant
+ *
+ * Visual horizontal range bars showing cost ranges by category.
+ * CSS-only — no JavaScript, no chart library.
+ * When contentHtml is provided, renders that directly.
+ * Otherwise shows placeholder bars awaiting real data from figures JSON.
+ *
+ * Uses token CSS vars only; no horizontal scroll at 360px.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const city = site.city ?? ''
+const niche = site.display_name ?? site.niche ?? ''
+
+/**
+ * Placeholder cost tiers when no content is provided.
+ * Real data comes from sites/<slug>/figures/<id>.json via contentHtml.
+ */
+const placeholderRanges = [
+  { label: 'Basic scope', low: 20, high: 45, unit: '' },
+  { label: 'Mid-range scope', low: 35, high: 70, unit: '' },
+  { label: 'Premium scope', low: 60, high: 100, unit: '' },
+]
+
+/** Normalize ranges to percentages for CSS width */
+const maxVal = Math.max(...placeholderRanges.map((r) => r.high))
+function pct(val: number): number {
+  return maxVal > 0 ? Math.round((val / maxVal) * 100) : 0
+}
+---
+
+<section class="cost-range-section" aria-labelledby="cost-range-heading">
+  <div class="cost-range-container">
+    <h2 id="cost-range-heading">{sectionName}</h2>
+
+    {contentHtml ? (
+      <div class="cost-range-content" set:html={contentHtml} />
+    ) : (
+      <div class="cost-range-content">
+        <p class="cost-range-intro">
+          How {niche.toLowerCase()} costs compare across service tiers in {city}.
+          Each bar shows the typical low-to-high range.
+        </p>
+
+        <div class="cost-range-list" role="list" aria-label={`${niche} cost ranges`}>
+          {placeholderRanges.map((range) => (
+            <div class="cost-range-row" role="listitem">
+              <div class="cost-range-label">{range.label}</div>
+              <div class="cost-range-track">
+                <div
+                  class="cost-range-bar"
+                  style={`left: ${pct(range.low)}%; width: ${pct(range.high) - pct(range.low)}%`}
+                  role="img"
+                  aria-label={`${range.label}: range pending`}
+                >
+                  <span class="cost-range-value cost-range-low">&mdash;</span>
+                  <span class="cost-range-value cost-range-high">&mdash;</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <p class="cost-range-note">
+          Ranges reflect typical contractor pricing. Your project cost depends on
+          scope, materials, and site conditions. Call for an exact quote.
+        </p>
+      </div>
+    )}
+  </div>
+</section>
+
+<style>
+  .cost-range-section {
+    padding: var(--space-2xl) var(--space-m);
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  .cost-range-container {
+    max-width: 72ch;
+    margin: 0 auto;
+  }
+
+  .cost-range-container h2 {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    line-height: 1.2;
+    margin-bottom: var(--space-l);
+    color: var(--text);
+  }
+
+  .cost-range-intro {
+    margin-bottom: var(--space-l);
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .cost-range-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+  }
+
+  .cost-range-row {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+  }
+
+  .cost-range-label {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--step--1);
+    color: var(--text);
+  }
+
+  .cost-range-track {
+    position: relative;
+    height: 1.5rem;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: visible;
+  }
+
+  .cost-range-bar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: var(--accent);
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 3rem;
+  }
+
+  .cost-range-value {
+    font-size: var(--step--2);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--accent-text);
+    padding: 0 0.375rem;
+    white-space: nowrap;
+    line-height: 1.5rem;
+  }
+
+  .cost-range-note {
+    margin-top: var(--space-l);
+    font-size: var(--step--1);
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  /* Style contentHtml figures consistently */
+  .cost-range-content :global(p) {
+    margin-bottom: var(--space-m);
+    line-height: 1.6;
+  }
+
+  .cost-range-content :global(figure) {
+    margin: var(--space-l) 0;
+  }
+
+  .cost-range-content :global(figcaption) {
+    font-size: var(--step--1);
+    color: var(--muted);
+    margin-top: var(--space-s);
+  }
+
+  .cost-range-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+    margin: var(--space-m) 0;
+  }
+
+  .cost-range-content :global(th) {
+    font-family: var(--font-display);
+    font-size: var(--step--1);
+    font-weight: 700;
+    text-align: left;
+    padding: var(--space-s);
+    border-bottom: 2px solid var(--accent);
+  }
+
+  .cost-range-content :global(td) {
+    padding: var(--space-s);
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* Narrow viewports — labels stack above bars naturally; no horizontal scroll */
+  @media (max-width: 480px) {
+    .cost-range-value {
+      font-size: var(--step--2);
+      padding: 0 0.25rem;
+    }
+  }
+</style>

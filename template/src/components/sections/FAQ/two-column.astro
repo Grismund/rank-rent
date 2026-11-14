@@ -1,0 +1,120 @@
+---
+/**
+ * FAQ section — two-column grid variant.
+ * Q&A pairs displayed as cards in a two-column grid on desktop,
+ * collapsing to a single column on mobile.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const faqs: { question: string; answer: string }[] = page?.faqs ?? []
+const hasContent = !!contentHtml?.trim()
+const hasFaqs = faqs.length > 0
+---
+
+<section class="faq-grid" aria-labelledby="faq-grid-heading">
+  <div class="faq-grid-inner">
+    <h2 id="faq-grid-heading">{sectionName}</h2>
+
+    {hasContent ? (
+      <div class="faq-grid-content" set:html={contentHtml} />
+    ) : hasFaqs ? (
+      <div class="faq-grid-cards">
+        {faqs.map((faq) => (
+          <div class="faq-grid-card">
+            <h3 class="faq-grid-question">{faq.question}</h3>
+            <p class="faq-grid-answer">{faq.answer}</p>
+          </div>
+        ))}
+      </div>
+    ) : (
+      <p class="faq-grid-placeholder">Frequently asked questions will be added here.</p>
+    )}
+  </div>
+</section>
+
+<style>
+  .faq-grid {
+    padding: var(--space-xl) var(--space-m);
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  .faq-grid-inner {
+    max-width: 80ch;
+    margin: 0 auto;
+  }
+
+  .faq-grid-inner h2 {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    margin-bottom: var(--space-l);
+    color: var(--text);
+    text-align: center;
+  }
+
+  .faq-grid-content {
+    line-height: 1.6;
+  }
+
+  .faq-grid-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-m);
+  }
+
+  .faq-grid-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--space-m);
+  }
+
+  .faq-grid-question {
+    font-family: var(--font-display);
+    font-size: var(--step-0);
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: var(--space-s);
+    line-height: 1.3;
+  }
+
+  .faq-grid-answer {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.6;
+    font-size: var(--step--1);
+  }
+
+  .faq-grid-placeholder {
+    color: var(--muted);
+    font-style: italic;
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    .faq-grid-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .faq-grid {
+      padding: var(--space-l) var(--space-s);
+    }
+
+    .faq-grid-card {
+      padding: var(--space-s);
+    }
+
+    .faq-grid-question {
+      word-break: break-word;
+    }
+  }
+</style>

@@ -1,0 +1,124 @@
+---
+/**
+ * TrustBlock — disclosure-first variant
+ * Leads with a transparency disclosure statement, then lists factual
+ * trust points as bullet items. This is a "how this works" section,
+ * not a social-proof section.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+const heading = site.copy?.trust_heading ?? 'How This Works'
+
+const trustPoints = [
+  'We match you with an independent local contractor who serves your area',
+  'Every contractor carries their own license and insurance',
+  'Get a free quote with no obligation — no pressure, no commitment',
+  'Your request goes directly to a qualified professional near you',
+  'We never share your information with unrelated third parties',
+]
+---
+
+<section class="trust-disclosure" aria-labelledby="trust-heading">
+  <div class="trust-inner">
+    <h2 id="trust-heading">{heading}</h2>
+
+    <p class="trust-lead">
+      This site connects homeowners with independent, qualified contractors
+      in the local area. Here is what that means for you:
+    </p>
+
+    <ul class="trust-list" role="list">
+      {trustPoints.map((point) => (
+        <li class="trust-item">{point}</li>
+      ))}
+    </ul>
+
+    {contentHtml && (
+      <div class="trust-extra" set:html={contentHtml} />
+    )}
+  </div>
+</section>
+
+<style>
+  .trust-disclosure {
+    padding: var(--space-2xl) var(--space-m);
+    background-color: var(--surface);
+  }
+
+  .trust-inner {
+    max-width: 72ch;
+    margin-inline: auto;
+  }
+
+  #trust-heading {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    color: var(--text);
+    margin-block-end: var(--space-m);
+  }
+
+  .trust-lead {
+    font-size: var(--step-0);
+    color: var(--muted);
+    line-height: 1.6;
+    margin-block-end: var(--space-l);
+    max-width: 60ch;
+  }
+
+  .trust-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+  }
+
+  .trust-item {
+    position: relative;
+    padding-inline-start: var(--space-l);
+    font-size: var(--step-0);
+    color: var(--text);
+    line-height: 1.5;
+  }
+
+  .trust-item::before {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0.55em;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--accent);
+  }
+
+  .trust-extra {
+    margin-block-start: var(--space-l);
+    font-size: var(--step--1);
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 360px) {
+    .trust-disclosure {
+      padding: var(--space-xl) var(--space-s);
+    }
+
+    .trust-inner {
+      max-width: 100%;
+    }
+
+    .trust-item {
+      padding-inline-start: var(--space-m);
+      word-break: break-word;
+      overflow-wrap: break-word;
+    }
+  }
+</style>

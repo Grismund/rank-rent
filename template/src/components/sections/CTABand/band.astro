@@ -1,0 +1,93 @@
+---
+/**
+ * CTABand/band — Full-width accent-colored band with phone CTA.
+ * Variant: band
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+const phone = site.phone
+const primaryCta = site.copy?.cta?.primary ?? 'Call Now'
+const secondaryCta = site.copy?.cta?.secondary ?? ''
+---
+
+<section class="cta-band" id={sectionName} aria-label={primaryCta}>
+  <div class="cta-band__inner">
+    {contentHtml && <div class="cta-band__text" set:html={contentHtml} />}
+    <div class="cta-band__actions">
+      <a href={`tel:${phone}`} class="cta-band__button">
+        <span class="cta-band__label">{primaryCta}</span>
+        <span class="cta-band__phone">{phone}</span>
+      </a>
+      {secondaryCta && <p class="cta-band__secondary">{secondaryCta}</p>}
+    </div>
+  </div>
+</section>
+
+<style>
+  .cta-band {
+    background-color: var(--accent);
+    color: var(--accent-text);
+    padding: var(--space-xl) var(--space-m);
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  .cta-band__inner {
+    max-width: 48rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-m);
+  }
+
+  .cta-band__text {
+    font-size: var(--step-1);
+    font-family: var(--font-display);
+    line-height: 1.3;
+  }
+
+  .cta-band__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-s);
+  }
+
+  .cta-band__button {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-s);
+    background-color: var(--accent-text);
+    color: var(--accent);
+    padding: var(--space-s) var(--space-l);
+    border-radius: var(--radius);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--step-1);
+    text-decoration: none;
+    transition: opacity 0.15s ease;
+  }
+
+  .cta-band__button:hover {
+    opacity: 0.9;
+    text-decoration: none;
+  }
+
+  .cta-band__phone {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cta-band__secondary {
+    font-size: var(--step--1);
+    opacity: 0.85;
+  }
+</style>

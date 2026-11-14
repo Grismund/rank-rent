@@ -1,0 +1,273 @@
+---
+/**
+ * Shell D — Guide-First
+ * Minimal wordmark + phone link, hamburger always.
+ * No image hero; large H1, lede, phone, TOC.
+ * Article body 65ch, floating Call card. Compact footer.
+ */
+import Head from '../components/base/Head.astro'
+import SkipLink from '../components/base/SkipLink.astro'
+import StickyCallBar from '../components/base/StickyCallBar.astro'
+import Schema from '../components/base/Schema.astro'
+import Disclosure from '../components/base/Disclosure.astro'
+import MobileNav from '../components/base/MobileNav.astro'
+import '../tokens/base.css'
+
+interface Props {
+  site: any
+  page: any
+  breadcrumbs?: any
+  tokens?: string
+}
+
+const { site, page, breadcrumbs, tokens } = Astro.props
+const phone = site.phone
+const nav = site.copy.nav
+const cta = site.copy.cta
+
+const navItems = [
+  { label: nav.services, href: site.pages.find((p: any) => p.type === 'service')?.slug || '#' },
+  { label: nav.areas, href: '/areas/' },
+  { label: nav.cost, href: '/cost/' },
+  { label: nav.faq, href: '/faq/' },
+  { label: nav.about, href: '/about/' },
+]
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <Head
+      title={page.title}
+      description={page.meta_description_intent}
+      tokens={tokens}
+    />
+    <Schema page={page} site={site} />
+  </head>
+  <body>
+    <SkipLink />
+
+    <header class="shell-d-header">
+      <div class="header-inner">
+        <a href="/" class="wordmark">{site.brand}</a>
+        <div class="header-right">
+          {phone && (
+            <a href={`tel:${phone}`} class="header-phone">{phone}</a>
+          )}
+          <MobileNav items={navItems} phone={phone} />
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-d">
+      <div class="hero-inner">
+        <h1>{page.h1}</h1>
+        <p class="hero-lede">{page.meta_description_intent}</p>
+        {phone && (
+          <a href={`tel:${phone}`} class="hero-phone-link">{cta.primary} — {phone}</a>
+        )}
+      </div>
+    </div>
+
+    {breadcrumbs}
+
+    <main id="main-content">
+      <div class="article-layout">
+        <article class="article-body">
+          <slot />
+        </article>
+        <aside class="floating-card">
+          {phone && (
+            <div class="call-card">
+              <p class="call-card-heading">{cta.primary}</p>
+              <a href={`tel:${phone}`} class="call-card-btn">{phone}</a>
+            </div>
+          )}
+        </aside>
+      </div>
+    </main>
+
+    <footer class="shell-d-footer">
+      <div class="footer-inner">
+        <span class="footer-brand">{site.brand}</span>
+        <Disclosure index={site.copy.disclosure} />
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+          <a href="/privacy/">Privacy</a>
+        </nav>
+      </div>
+    </footer>
+
+    <StickyCallBar phone={phone} ctaText={cta.primary} />
+  </body>
+</html>
+
+<style>
+  .shell-d-header {
+    padding: var(--space-s) var(--space-m);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .header-inner {
+    max-width: 65ch;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .wordmark {
+    font-family: var(--font-display);
+    font-size: var(--step-0);
+    font-weight: 700;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: var(--space-m);
+  }
+
+  .header-phone {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: var(--step--1);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .hero-d {
+    padding: var(--space-l) var(--space-m);
+  }
+
+  .hero-inner {
+    max-width: 65ch;
+    margin-inline: auto;
+  }
+
+  .hero-d h1 {
+    font-family: var(--font-display);
+    font-size: var(--step-4);
+    color: var(--text);
+    margin: 0;
+    line-height: 1.15;
+  }
+
+  .hero-lede {
+    font-family: var(--font-body);
+    font-size: var(--step-1);
+    color: var(--muted);
+    margin-block: var(--space-m);
+    line-height: 1.5;
+  }
+
+  .hero-phone-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: var(--step-0);
+  }
+
+  .hero-phone-link:hover {
+    text-decoration: underline;
+  }
+
+  .article-layout {
+    max-width: 80rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: minmax(0, 65ch) 240px;
+    gap: var(--space-l);
+    padding: 0 var(--space-m);
+    align-items: start;
+  }
+
+  @media (max-width: 768px) {
+    .article-layout {
+      grid-template-columns: 1fr;
+    }
+    .floating-card {
+      order: -1;
+    }
+  }
+
+  .floating-card {
+    position: sticky;
+    top: var(--space-m);
+  }
+
+  .call-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--space-m);
+    text-align: center;
+  }
+
+  .call-card-heading {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--text);
+    margin-block-end: var(--space-s);
+  }
+
+  .call-card-btn {
+    display: block;
+    padding: var(--space-s);
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--font-display);
+    border-radius: var(--radius);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .shell-d-footer {
+    border-top: 1px solid var(--border);
+    padding: var(--space-m);
+    margin-block-start: var(--space-l);
+  }
+
+  .footer-inner {
+    max-width: 65ch;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-m);
+  }
+
+  .footer-brand {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--text);
+    font-size: var(--step--1);
+  }
+
+  .footer-links {
+    display: flex;
+    gap: var(--space-m);
+    margin-inline-start: auto;
+  }
+
+  .footer-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: var(--step--1);
+  }
+
+  .footer-links a:hover { color: var(--accent); }
+
+  @media (max-width: 480px) {
+    .footer-inner {
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-links {
+      margin-inline-start: 0;
+    }
+  }
+</style>

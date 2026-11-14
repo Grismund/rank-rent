@@ -1,0 +1,22 @@
+---
+import { COPY_BANKS } from '../../config/copy-banks'
+
+interface Props {
+  index: number
+}
+
+const { index } = Astro.props
+const disclosures = COPY_BANKS['footer.disclosure']
+const text = disclosures[(index - 1) % disclosures.length]
+---
+
+<p class="footer-disclosure">{text}</p>
+
+<style>
+  .footer-disclosure {
+    font-size: var(--step--1);
+    color: var(--muted);
+    line-height: 1.5;
+    max-width: 60ch;
+  }
+</style>

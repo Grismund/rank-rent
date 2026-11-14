@@ -1,0 +1,167 @@
+---
+/**
+ * ToolShell/split — Split layout: tool on one side, description on the other.
+ * Renders a placeholder that Preact hydrates in Group 3.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+const toolType = site.tool?.type ?? 'calculator'
+const toolKeyword = site.tool?.primary_keyword ?? 'cost'
+---
+
+<section class="tool-shell-split" aria-label={sectionName}>
+  <div class="tool-split-grid">
+    <div class="tool-side">
+      <div
+        class="tool-placeholder"
+        data-tool-type={toolType}
+        role="status"
+        aria-live="polite"
+      >
+        <div class="tool-loading">
+          <div class="tool-loading-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 5h16v14H4z" stroke="currentColor" stroke-width="1.5" />
+              <path d="M8 9h3v2H8zm5 0h3v2h-3zm-5 4h3v2H8zm5 4h3v2h-3zm5-4h-3v-2h3z" fill="currentColor" opacity="0.4" />
+            </svg>
+          </div>
+          <p class="tool-loading-text">Loading {toolKeyword} calculator&hellip;</p>
+        </div>
+      </div>
+    </div>
+    <div class="description-side">
+      {contentHtml ? (
+        <div class="tool-description" set:html={contentHtml} />
+      ) : (
+        <div class="tool-description">
+          <p>Use our free {toolKeyword} calculator to get an instant estimate for your project.</p>
+        </div>
+      )}
+    </div>
+  </div>
+</section>
+
+<style>
+  .tool-shell-split {
+    padding: var(--section-gap) var(--space-m);
+  }
+
+  .tool-split-grid {
+    max-width: 64rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+    align-items: start;
+  }
+
+  .tool-side {
+    order: 1;
+  }
+
+  .description-side {
+    order: 2;
+  }
+
+  .tool-placeholder {
+    min-height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+
+  .tool-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-s);
+    text-align: center;
+    padding: var(--space-l);
+  }
+
+  .tool-loading-icon {
+    color: var(--accent);
+    opacity: 0.7;
+  }
+
+  .tool-loading-text {
+    font-family: var(--font-body);
+    font-size: var(--step--1);
+    color: var(--muted);
+    margin: 0;
+  }
+
+  .tool-description {
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  .tool-description :global(h2) {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    margin-bottom: var(--space-s);
+  }
+
+  .tool-description :global(h3) {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    margin-top: var(--space-l);
+    margin-bottom: var(--space-s);
+  }
+
+  .tool-description :global(p) {
+    color: var(--muted);
+    margin-bottom: var(--space-s);
+  }
+
+  .tool-description :global(ul),
+  .tool-description :global(ol) {
+    color: var(--muted);
+    padding-left: var(--space-l);
+    margin-bottom: var(--space-s);
+  }
+
+  .tool-description :global(li) {
+    margin-bottom: var(--space-s);
+  }
+
+  /* Stack vertically on narrow screens */
+  @media (max-width: 768px) {
+    .tool-split-grid {
+      grid-template-columns: 1fr;
+      gap: var(--space-l);
+    }
+
+    .tool-side {
+      order: 1;
+    }
+
+    .description-side {
+      order: 2;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .tool-shell-split {
+      padding-inline: var(--space-s);
+    }
+
+    .tool-placeholder {
+      min-height: 12rem;
+    }
+
+    .tool-loading {
+      padding: var(--space-m);
+    }
+  }
+</style>

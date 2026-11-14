@@ -1,0 +1,145 @@
+---
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const townPages = (site.pages ?? []).filter((p: any) => p.type === 'town')
+const towns: string[] = site.towns ?? []
+
+/** Build a lookup from town slug/label to its page href */
+const townPageMap = new Map<string, any>()
+for (const tp of townPages) {
+  const label = (tp.title ?? tp.slug ?? '').replace(/-/g, ' ').toLowerCase()
+  townPageMap.set(label, tp)
+  if (tp.slug) townPageMap.set(tp.slug.toLowerCase(), tp)
+}
+
+function findTownPage(town: string) {
+  const key = town.toLowerCase().trim()
+  const slug = key.replace(/\s+/g, '-')
+  return townPageMap.get(key) ?? townPageMap.get(slug) ?? null
+}
+---
+
+<section class="areas-served-chips" aria-labelledby="areas-served-heading">
+  <div class="areas-served-inner">
+    <h2 id="areas-served-heading">{sectionName}</h2>
+
+    {contentHtml && (
+      <div class="areas-served-intro" set:html={contentHtml} />
+    )}
+
+    {towns.length > 0 && (
+      <ul class="chip-list" role="list">
+        {towns.map((town) => {
+          const tp = findTownPage(town)
+          const href = tp?.slug ? `/${tp.slug}/` : null
+          return (
+            <li class="chip">
+              {href ? (
+                <a href={href} class="chip-link">{town}</a>
+              ) : (
+                <span class="chip-label">{town}</span>
+              )}
+            </li>
+          )
+        })}
+      </ul>
+    )}
+  </div>
+</section>
+
+<style>
+  .areas-served-chips {
+    padding: var(--space-l) var(--space-m);
+    background: var(--surface);
+    color: var(--text);
+  }
+
+  .areas-served-inner {
+    max-width: 52rem;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-family: var(--font-display, inherit);
+    font-size: var(--step-2, 1.75rem);
+    color: var(--text);
+    margin: 0 0 var(--space-s) 0;
+  }
+
+  .areas-served-intro {
+    margin-bottom: var(--space-m);
+    line-height: 1.6;
+    color: var(--muted, var(--text));
+  }
+
+  .chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs, 0.5rem);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .chip {
+    flex: 0 0 auto;
+    max-width: 100%;
+  }
+
+  .chip-link,
+  .chip-label {
+    display: inline-block;
+    padding: var(--space-3xs, 0.25rem) var(--space-s, 0.75rem);
+    border: 1px solid var(--border);
+    border-radius: var(--radius, 999px);
+    font-size: var(--step--1, 0.875rem);
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+
+  .chip-link {
+    color: var(--accent);
+    text-decoration: none;
+    background: transparent;
+  }
+
+  .chip-link:hover,
+  .chip-link:focus-visible {
+    background: var(--accent);
+    color: var(--accent-text, #fff);
+    border-color: var(--accent);
+    outline: none;
+  }
+
+  .chip-label {
+    color: var(--text);
+    background: transparent;
+  }
+
+  @media (max-width: 360px) {
+    .areas-served-chips {
+      padding: var(--space-m) var(--space-s);
+    }
+
+    .chip-list {
+      gap: var(--space-3xs, 0.375rem);
+    }
+
+    .chip-link,
+    .chip-label {
+      font-size: var(--step--2, 0.8125rem);
+      padding: var(--space-3xs, 0.2rem) var(--space-xs, 0.5rem);
+    }
+  }
+</style>

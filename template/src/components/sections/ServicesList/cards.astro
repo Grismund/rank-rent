@@ -1,0 +1,131 @@
+---
+/**
+ * ServicesList — cards variant
+ * Grid of linked cards, one per service page.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const services = (site.pages ?? []).filter(
+  (p: { type: string }) => p.type === 'service',
+)
+---
+
+<section class="services-cards" id={sectionName}>
+  {contentHtml ? (
+    <div class="services-cards__intro" set:html={contentHtml} />
+  ) : (
+    <h2 class="services-cards__heading">Our Services</h2>
+  )}
+
+  {services.length > 0 && (
+    <ul class="services-cards__grid" role="list">
+      {services.map((svc: { slug: string; h1: string; primary_keyword: string }) => (
+        <li class="services-cards__item">
+          <a href={`/${svc.slug}/`} class="services-cards__link">
+            <span class="services-cards__title">{svc.h1}</span>
+            <span class="services-cards__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</section>
+
+<style>
+  .services-cards {
+    padding: var(--space-l) var(--space-m);
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  .services-cards__intro {
+    max-width: 48rem;
+    margin-bottom: var(--space-l);
+    font-family: var(--font-body);
+    font-size: var(--step-0);
+    line-height: 1.6;
+  }
+
+  .services-cards__intro :global(h2) {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    margin-bottom: var(--space-s);
+  }
+
+  .services-cards__heading {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    margin-bottom: var(--space-l);
+  }
+
+  .services-cards__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-m);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media (min-width: 540px) {
+    .services-cards__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 860px) {
+    .services-cards__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .services-cards__item {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    background-color: var(--surface);
+    transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+
+  .services-cards__item:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.08);
+  }
+
+  .services-cards__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-s);
+    padding: var(--space-m);
+    color: var(--text);
+    text-decoration: none;
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    line-height: 1.3;
+    min-height: 4rem;
+  }
+
+  .services-cards__link:hover {
+    color: var(--accent);
+  }
+
+  .services-cards__arrow {
+    flex-shrink: 0;
+    font-size: var(--step-1);
+    color: var(--muted);
+    transition: color 0.15s ease, transform 0.15s ease;
+  }
+
+  .services-cards__item:hover .services-cards__arrow {
+    color: var(--accent);
+    transform: translateX(2px);
+  }
+</style>

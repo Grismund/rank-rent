@@ -1,0 +1,122 @@
+---
+/**
+ * ToolShell/card — Card container for an interactive tool island.
+ * Renders a placeholder that Preact hydrates in Group 3.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+const toolType = site.tool?.type ?? 'calculator'
+const toolKeyword = site.tool?.primary_keyword ?? 'cost'
+---
+
+<section class="tool-shell-card" aria-label={sectionName}>
+  <div class="tool-card">
+    {contentHtml && (
+      <div class="tool-intro" set:html={contentHtml} />
+    )}
+    <div
+      class="tool-placeholder"
+      data-tool-type={toolType}
+      role="status"
+      aria-live="polite"
+    >
+      <div class="tool-loading">
+        <div class="tool-loading-icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 5h16v14H4z" stroke="currentColor" stroke-width="1.5" />
+            <path d="M8 9h3v2H8zm5 0h3v2h-3zm-5 4h3v2H8zm5 4h3v2h-3zm5-4h-3v-2h3z" fill="currentColor" opacity="0.4" />
+          </svg>
+        </div>
+        <p class="tool-loading-text">Loading {toolKeyword} calculator&hellip;</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .tool-shell-card {
+    padding: var(--space-xl) var(--space-m);
+  }
+
+  .tool-card {
+    max-width: 40rem;
+    margin-inline: auto;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+
+  .tool-intro {
+    padding: var(--space-l) var(--space-l) 0;
+    font-size: var(--step-0);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  .tool-intro :global(h2) {
+    font-family: var(--font-display);
+    font-size: var(--step-2);
+    margin-bottom: var(--space-s);
+  }
+
+  .tool-intro :global(p) {
+    color: var(--muted);
+    margin-bottom: var(--space-s);
+  }
+
+  .tool-placeholder {
+    padding: var(--space-l);
+    min-height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tool-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-s);
+    text-align: center;
+  }
+
+  .tool-loading-icon {
+    color: var(--accent);
+    opacity: 0.7;
+  }
+
+  .tool-loading-text {
+    font-family: var(--font-body);
+    font-size: var(--step--1);
+    color: var(--muted);
+    margin: 0;
+  }
+
+  @media (max-width: 360px) {
+    .tool-shell-card {
+      padding-inline: var(--space-s);
+    }
+
+    .tool-card {
+      border-radius: 0;
+      border-left: none;
+      border-right: none;
+    }
+
+    .tool-intro {
+      padding: var(--space-m) var(--space-m) 0;
+    }
+
+    .tool-placeholder {
+      padding: var(--space-m);
+    }
+  }
+</style>

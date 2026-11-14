@@ -1,0 +1,217 @@
+---
+import { resolve } from 'node:path'
+import { resolveSite } from '../lib/resolve-site'
+import { initClassmap } from '../lib/classmap'
+import { loadPageContent, pageSlugToFilename, matchSectionContent } from '../lib/content'
+import { buildBreadcrumbs } from '../lib/breadcrumbs'
+import { SECTION_ORDERS } from '../config/section-orders'
+import type { OrderSet } from '../config/section-orders'
+
+import ShellA from '../layouts/ShellA.astro'
+import ShellB from '../layouts/ShellB.astro'
+import ShellC from '../layouts/ShellC.astro'
+import ShellD from '../layouts/ShellD.astro'
+
+import SectionRenderer from '../components/sections/SectionRenderer.astro'
+
+// Breadcrumb variants
+import BreadcrumbSlash from '../components/base/Breadcrumbs/slash.astro'
+import BreadcrumbChevron from '../components/base/Breadcrumbs/chevron.astro'
+import BreadcrumbArrow from '../components/base/Breadcrumbs/arrow.astro'
+
+const siteSlug = process.env.SITE || 'default'
+const rootDir = resolve(process.cwd(), '..')
+
+export function getStaticPaths() {
+  const slug = process.env.SITE || 'default'
+  const root = resolve(process.cwd(), '..')
+  const config = resolveSite(slug, root)
+
+  const paths: { params: { slug: string | undefined }; props: { page: any } }[] = []
+
+  // Content pages from site.yaml
+  for (const page of config.pages) {
+    // Exclude drafts in production
+    if ((page as any).status === 'draft' && import.meta.env.PROD) continue
+
+    const slugParam = page.slug === '/'
+      ? undefined
+      : page.slug.replace(/^\/|\/$/g, '')
+
+    paths.push({ params: { slug: slugParam }, props: { page } })
+  }
+
+  // Static utility pages
+  const staticPages = [
+    {
+      slug: 'about',
+      type: 'static',
+      h1: `About ${config.brand}`,
+      title: `About | ${config.brand}`,
+      primary_keyword: '',
+      meta_description_intent: `Learn about ${config.brand} and how we connect you with local contractors.`,
+      word_count: { min: 300, max: 800 },
+    },
+    {
+      slug: 'contact',
+      type: 'static',
+      h1: `Contact ${config.brand}`,
+      title: `Contact | ${config.brand}`,
+      primary_keyword: '',
+      meta_description_intent: `Get in touch with ${config.brand}. Call or fill out the form for a free quote.`,
+      word_count: { min: 200, max: 500 },
+    },
+    {
+      slug: 'privacy',
+      type: 'static',
+      h1: 'Privacy Policy',
+      title: `Privacy Policy | ${config.brand}`,
+      primary_keyword: '',
+      meta_description_intent: 'Privacy policy and data handling practices.',
+      word_count: { min: 200, max: 500 },
+      robots: 'noindex, nofollow',
+    },
+    {
+      slug: 'thank-you',
+      type: 'static',
+      h1: 'Thank You',
+      title: `Thank You | ${config.brand}`,
+      primary_keyword: '',
+      meta_description_intent: 'Your request has been received.',
+      word_count: { min: 100, max: 300 },
+      robots: 'noindex, nofollow',
+    },
+  ]
+
+  for (const sp of staticPages) {
+    // Only add if not already in site.yaml pages
+    const exists = config.pages.some((p: any) =>
+      p.slug.replace(/^\/|\/$/g, '') === sp.slug
+    )
+    if (!exists) {
+      paths.push({ params: { slug: sp.slug }, props: { page: sp } })
+    }
+  }
+
+  return paths
+}
+
+const config = resolveSite(siteSlug, rootDir)
+const { page } = Astro.props
+
+// Initialize classmap for this build
+initClassmap(config.design.classmap)
+
+// Load token CSS path
+const tokenFile = config.design.tokens
+
+// Load markdown content if available
+const contentDir = resolve(rootDir, 'sites', siteSlug, 'content')
+const pageFilename = page.slug === '/' ? 'index' : pageSlugToFilename(page.slug)
+const content = loadPageContent('', pageFilename, contentDir)
+
+// Determine section order for this page type
+const pageType = page.type
+const orderSet = config.design.orders[pageType] as OrderSet | undefined
+const sectionOrder = (pageType && orderSet && SECTION_ORDERS[pageType]?.[orderSet]) || []
+
+// Match content sections to order keys
+const contentSections = content
+  ? matchSectionContent(sectionOrder, content.sections)
+  : {}
+
+// Build breadcrumbs for non-home pages
+const breadcrumbItems = buildBreadcrumbs(page)
+
+// Select breadcrumb variant component
+const BreadcrumbVariants: Record<string, any> = {
+  slash: BreadcrumbSlash,
+  chevron: BreadcrumbChevron,
+  arrow: BreadcrumbArrow,
+}
+const BreadcrumbComponent = BreadcrumbVariants[config.design.variants.Breadcrumbs] || BreadcrumbSlash
+
+// Token import path
+const tokenImport = `/src/tokens/${tokenFile}.css`
+
+// Determine robots meta
+const robots = (page as any).robots || undefined
+
+const shell = config.design.shell
+---
+
+{shell === 'A' && (
+  <ShellA site={config} page={page} tokens={tokenImport}>
+    {breadcrumbItems.length > 0 && (
+      <BreadcrumbComponent items={breadcrumbItems} slot="default" />
+    )}
+    {sectionOrder.map((key: string) => (
+      <SectionRenderer
+        sectionKey={key}
+        site={config}
+        page={page}
+        contentHtml={contentSections[key] || content?.intro}
+      />
+    ))}
+    {sectionOrder.length === 0 && content?.intro && (
+      <div class="page-intro" set:html={content.intro} />
+    )}
+  </ShellA>
+)}
+
+{shell === 'B' && (
+  <ShellB site={config} page={page} tokens={tokenImport}>
+    {breadcrumbItems.length > 0 && (
+      <BreadcrumbComponent items={breadcrumbItems} slot="default" />
+    )}
+    {sectionOrder.map((key: string) => (
+      <SectionRenderer
+        sectionKey={key}
+        site={config}
+        page={page}
+        contentHtml={contentSections[key] || content?.intro}
+      />
+    ))}
+    {sectionOrder.length === 0 && content?.intro && (
+      <div class="page-intro" set:html={content.intro} />
+    )}
+  </ShellB>
+)}
+
+{shell === 'C' && (
+  <ShellC site={config} page={page} tokens={tokenImport}>
+    {breadcrumbItems.length > 0 && (
+      <BreadcrumbComponent items={breadcrumbItems} slot="default" />
+    )}
+    {sectionOrder.map((key: string) => (
+      <SectionRenderer
+        sectionKey={key}
+        site={config}
+        page={page}
+        contentHtml={contentSections[key] || content?.intro}
+      />
+    ))}
+    {sectionOrder.length === 0 && content?.intro && (
+      <div class="page-intro" set:html={content.intro} />
+    )}
+  </ShellC>
+)}
+
+{shell === 'D' && (
+  <ShellD site={config} page={page} tokens={tokenImport}>
+    {breadcrumbItems.length > 0 && (
+      <BreadcrumbComponent items={breadcrumbItems} slot="default" />
+    )}
+    {sectionOrder.map((key: string) => (
+      <SectionRenderer
+        sectionKey={key}
+        site={config}
+        page={page}
+        contentHtml={contentSections[key] || content?.intro}
+      />
+    ))}
+    {sectionOrder.length === 0 && content?.intro && (
+      <div class="page-intro" set:html={content.intro} />
+    )}
+  </ShellD>
+)}

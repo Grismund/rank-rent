@@ -1,0 +1,150 @@
+---
+import { resolve } from 'node:path'
+import { resolveSite } from '../lib/resolve-site'
+import { initClassmap } from '../lib/classmap'
+
+import ShellA from '../layouts/ShellA.astro'
+import ShellB from '../layouts/ShellB.astro'
+import ShellC from '../layouts/ShellC.astro'
+import ShellD from '../layouts/ShellD.astro'
+
+import '../tokens/base.css'
+
+const siteSlug = process.env.SITE || 'default'
+const rootDir = resolve(process.cwd(), '..')
+
+let config: any
+try {
+  config = resolveSite(siteSlug, rootDir)
+  initClassmap(config.design.classmap)
+} catch {
+  config = null
+}
+
+const page = {
+  slug: '/404/',
+  type: 'static',
+  h1: 'Page Not Found',
+  title: config ? `Page Not Found | ${config.brand}` : 'Page Not Found',
+  primary_keyword: '',
+  meta_description_intent: '',
+  word_count: { min: 0, max: 0 },
+}
+
+const shell = config?.design?.shell || 'A'
+const phone = config?.phone
+const cta = config?.copy?.cta?.primary || 'Call for a Free Quote'
+---
+
+{shell === 'A' && config && (
+  <ShellA site={config} page={page}>
+    <div class="not-found">
+      <p>The page you're looking for doesn't exist or has been moved.</p>
+      <div class="not-found-actions">
+        <a href="/" class="back-home">Go to Home Page</a>
+        {phone && (
+          <a href={`tel:${phone}`} class="call-link">{cta}</a>
+        )}
+      </div>
+    </div>
+  </ShellA>
+)}
+
+{shell === 'B' && config && (
+  <ShellB site={config} page={page}>
+    <div class="not-found">
+      <p>The page you're looking for doesn't exist or has been moved.</p>
+      <div class="not-found-actions">
+        <a href="/" class="back-home">Go to Home Page</a>
+        {phone && (
+          <a href={`tel:${phone}`} class="call-link">{cta}</a>
+        )}
+      </div>
+    </div>
+  </ShellB>
+)}
+
+{shell === 'C' && config && (
+  <ShellC site={config} page={page}>
+    <div class="not-found">
+      <p>The page you're looking for doesn't exist or has been moved.</p>
+      <div class="not-found-actions">
+        <a href="/" class="back-home">Go to Home Page</a>
+        {phone && (
+          <a href={`tel:${phone}`} class="call-link">{cta}</a>
+        )}
+      </div>
+    </div>
+  </ShellC>
+)}
+
+{shell === 'D' && config && (
+  <ShellD site={config} page={page}>
+    <div class="not-found">
+      <p>The page you're looking for doesn't exist or has been moved.</p>
+      <div class="not-found-actions">
+        <a href="/" class="back-home">Go to Home Page</a>
+        {phone && (
+          <a href={`tel:${phone}`} class="call-link">{cta}</a>
+        )}
+      </div>
+    </div>
+  </ShellD>
+)}
+
+{!config && (
+  <html lang="en">
+    <head><title>Page Not Found</title></head>
+    <body>
+      <main>
+        <h1>Page Not Found</h1>
+        <p>The page you're looking for doesn't exist.</p>
+        <a href="/">Go to Home Page</a>
+      </main>
+    </body>
+  </html>
+)}
+
+<style>
+  .not-found {
+    text-align: center;
+    padding: var(--space-l) var(--space-m);
+    max-width: 48ch;
+    margin-inline: auto;
+  }
+
+  .not-found p {
+    font-size: var(--step-1);
+    color: var(--muted);
+    margin-block-end: var(--space-l);
+  }
+
+  .not-found-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-m);
+  }
+
+  .back-home {
+    display: inline-block;
+    padding: var(--space-s) var(--space-l);
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--font-display);
+    border-radius: var(--radius);
+  }
+
+  .call-link {
+    display: inline-block;
+    padding: var(--space-s) var(--space-l);
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--font-display);
+    border-radius: var(--radius);
+  }
+</style>

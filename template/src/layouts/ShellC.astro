@@ -1,0 +1,283 @@
+---
+/**
+ * Shell C — Bold Banner
+ * Dark full-width header, logo centered, phone pill.
+ * Full-bleed hero gradient, H1 bottom-left, CTA.
+ * Single-col body (80ch), single dark footer band.
+ */
+import Head from '../components/base/Head.astro'
+import SkipLink from '../components/base/SkipLink.astro'
+import StickyCallBar from '../components/base/StickyCallBar.astro'
+import Schema from '../components/base/Schema.astro'
+import Disclosure from '../components/base/Disclosure.astro'
+import MobileNav from '../components/base/MobileNav.astro'
+import '../tokens/base.css'
+
+interface Props {
+  site: any
+  page: any
+  breadcrumbs?: any
+  tokens?: string
+}
+
+const { site, page, breadcrumbs, tokens } = Astro.props
+const phone = site.phone
+const nav = site.copy.nav
+const cta = site.copy.cta
+
+const navItems = [
+  { label: nav.services, href: site.pages.find((p: any) => p.type === 'service')?.slug || '#' },
+  { label: nav.areas, href: '/areas/' },
+  { label: nav.cost, href: '/cost/' },
+  { label: nav.faq, href: '/faq/' },
+  { label: nav.about, href: '/about/' },
+]
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <Head
+      title={page.title}
+      description={page.meta_description_intent}
+      tokens={tokens}
+    />
+    <Schema page={page} site={site} />
+  </head>
+  <body>
+    <SkipLink />
+
+    <header class="shell-c-header">
+      <div class="header-inner">
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            {navItems.slice(0, 2).map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+        <div class="logo-center">
+          <a href="/">{site.brand}</a>
+        </div>
+        <nav class="desktop-nav desktop-nav-right" aria-label="Secondary navigation">
+          <ul class="nav-list">
+            {navItems.slice(2).map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+        {phone && (
+          <a href={`tel:${phone}`} class="phone-pill">{phone}</a>
+        )}
+        <div class="mobile-nav-wrap">
+          <MobileNav items={navItems} phone={phone} />
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-c">
+      <div class="hero-overlay">
+        <div class="hero-inner">
+          <h1>{page.h1}</h1>
+          {phone && (
+            <div class="hero-cta">
+              <a href={`tel:${phone}`} class="cta-primary">{cta.primary}</a>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+
+    {breadcrumbs}
+
+    <main id="main-content">
+      <div class="content-wrap">
+        <slot />
+      </div>
+    </main>
+
+    <footer class="shell-c-footer">
+      <div class="footer-inner">
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul>
+            {navItems.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/privacy/">Privacy</a></li>
+          </ul>
+        </nav>
+        {phone && (
+          <a href={`tel:${phone}`} class="footer-phone">{phone}</a>
+        )}
+        <Disclosure index={site.copy.disclosure} />
+      </div>
+    </footer>
+
+    <StickyCallBar phone={phone} ctaText={cta.primary} />
+  </body>
+</html>
+
+<style>
+  .shell-c-header {
+    background: var(--surface);
+    padding: var(--space-m);
+  }
+
+  .header-inner {
+    max-width: 80rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-m);
+    position: relative;
+  }
+
+  .logo-center a {
+    font-family: var(--font-display);
+    font-size: var(--step-2);
+    font-weight: 700;
+    color: var(--text);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .desktop-nav { display: flex; }
+
+  .nav-list {
+    display: flex;
+    gap: var(--space-m);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-list a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: var(--step--1);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .nav-list a:hover { color: var(--text); }
+
+  .phone-pill {
+    position: absolute;
+    right: 0;
+    padding: var(--space-s) var(--space-m);
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: var(--step--1);
+    border-radius: 999px;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .mobile-nav-wrap { display: none; }
+
+  @media (max-width: 768px) {
+    .desktop-nav,
+    .desktop-nav-right,
+    .phone-pill {
+      display: none;
+    }
+    .mobile-nav-wrap { display: block; }
+    .header-inner { justify-content: space-between; }
+  }
+
+  .hero-c {
+    background: var(--surface);
+    min-height: 40vh;
+    position: relative;
+  }
+
+  .hero-overlay {
+    background: linear-gradient(to top, var(--bg), transparent 60%);
+    min-height: 40vh;
+    display: flex;
+    align-items: flex-end;
+    padding: var(--space-l) var(--space-m);
+  }
+
+  .hero-inner {
+    max-width: 80rem;
+    margin-inline: auto;
+    width: 100%;
+  }
+
+  .hero-c h1 {
+    font-family: var(--font-display);
+    font-size: var(--step-5);
+    color: var(--text);
+    margin: 0;
+    line-height: 1.1;
+    max-width: 20ch;
+  }
+
+  .hero-cta {
+    margin-block-start: var(--space-m);
+  }
+
+  .cta-primary {
+    display: inline-block;
+    padding: var(--space-s) var(--space-l);
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--font-display);
+    font-size: var(--step-0);
+    border-radius: var(--radius);
+  }
+
+  .content-wrap {
+    max-width: 80ch;
+    margin-inline: auto;
+  }
+
+  .shell-c-footer {
+    background: var(--surface);
+    padding: var(--space-l) var(--space-m);
+    margin-block-start: var(--space-l);
+    text-align: center;
+  }
+
+  .footer-inner {
+    max-width: 80rem;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-m);
+  }
+
+  .footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-m);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-nav a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: var(--step--1);
+  }
+
+  .footer-nav a:hover { color: var(--accent); }
+
+  .footer-phone {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    font-weight: 700;
+    color: var(--accent);
+    text-decoration: none;
+  }
+</style>

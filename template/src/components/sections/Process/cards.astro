@@ -1,0 +1,129 @@
+---
+/**
+ * Process/cards — Horizontal cards that wrap to a single column on mobile.
+ * Renders contentHtml if provided; otherwise shows the default 3-step process.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const defaultSteps = [
+  {
+    number: 1,
+    title: 'Call for a Quote',
+    description: 'Reach out by phone or through our contact form. We\u2019ll discuss your project, answer questions, and provide a free estimate.',
+  },
+  {
+    number: 2,
+    title: 'We Prep and Plan',
+    description: 'Our team evaluates the work site, selects the right materials, and schedules a time that fits your calendar.',
+  },
+  {
+    number: 3,
+    title: 'Professional Installation',
+    description: 'Our crew completes the job on time, walks you through the finished result, and makes sure you\u2019re satisfied.',
+  },
+]
+---
+
+<section class="process-cards" id={sectionName} aria-labelledby={`${sectionName}-heading`}>
+  <div class="process-cards__inner">
+    <h2 id={`${sectionName}-heading`} class="process-cards__heading">How It Works</h2>
+
+    {contentHtml ? (
+      <div class="process-cards__custom" set:html={contentHtml} />
+    ) : (
+      <ol class="process-cards__grid">
+        {defaultSteps.map((step) => (
+          <li class="process-cards__card">
+            <span class="process-cards__number" aria-hidden="true">{step.number}</span>
+            <h3 class="process-cards__title">{step.title}</h3>
+            <p class="process-cards__desc">{step.description}</p>
+          </li>
+        ))}
+      </ol>
+    )}
+  </div>
+</section>
+
+<style>
+  .process-cards {
+    padding: var(--space-2xl) var(--space-m);
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  .process-cards__inner {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+
+  .process-cards__heading {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    text-align: center;
+    margin-bottom: var(--space-xl);
+  }
+
+  .process-cards__custom {
+    line-height: 1.6;
+  }
+
+  .process-cards__grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-l);
+  }
+
+  .process-cards__card {
+    flex: 1 1 100%;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--space-l);
+    box-shadow: var(--shadow);
+  }
+
+  .process-cards__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--accent);
+    color: var(--accent-text);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--step-0);
+    line-height: 1;
+    margin-bottom: var(--space-m);
+  }
+
+  .process-cards__title {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    margin-bottom: var(--space-s);
+  }
+
+  .process-cards__desc {
+    color: var(--muted);
+    font-size: var(--step-0);
+    line-height: 1.6;
+  }
+
+  /* At 640px+ the three cards sit side by side */
+  @media (min-width: 40rem) {
+    .process-cards__card {
+      flex: 1 1 0%;
+    }
+  }
+</style>

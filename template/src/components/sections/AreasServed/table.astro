@@ -1,0 +1,248 @@
+---
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const townPages = (site.pages ?? []).filter((p: any) => p.type === 'town')
+const towns: string[] = site.towns ?? []
+
+/** Build a lookup from town slug/label to its page href */
+const townPageMap = new Map<string, any>()
+for (const tp of townPages) {
+  const label = (tp.title ?? tp.slug ?? '').replace(/-/g, ' ').toLowerCase()
+  townPageMap.set(label, tp)
+  if (tp.slug) townPageMap.set(tp.slug.toLowerCase(), tp)
+}
+
+function findTownPage(town: string) {
+  const key = town.toLowerCase().trim()
+  const slug = key.replace(/\s+/g, '-')
+  return townPageMap.get(key) ?? townPageMap.get(slug) ?? null
+}
+
+/** Extract a short service label from the site niche for the "Service" column */
+const serviceLabel = site.niche
+  ? site.niche.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())
+  : 'Service'
+---
+
+<section class="areas-served-table" aria-labelledby="areas-served-heading">
+  <div class="areas-served-inner">
+    <h2 id="areas-served-heading">{sectionName}</h2>
+
+    {contentHtml && (
+      <div class="areas-served-intro" set:html={contentHtml} />
+    )}
+
+    {towns.length > 0 && (
+      <div class="table-wrap" role="region" aria-label="Service areas" tabindex={0}>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Town</th>
+              <th scope="col">Service</th>
+              <th scope="col" class="col-link">
+                <span class="sr-only">Page link</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {towns.map((town, i) => {
+              const tp = findTownPage(town)
+              const href = tp?.slug ? `/${tp.slug}/` : null
+              return (
+                <tr class={i % 2 === 0 ? 'row-even' : 'row-odd'}>
+                  <td class="col-town">
+                    {href ? (
+                      <a href={href} class="town-link">{town}</a>
+                    ) : (
+                      <span>{town}</span>
+                    )}
+                  </td>
+                  <td class="col-service">{serviceLabel}</td>
+                  <td class="col-link">
+                    {href && (
+                      <a href={href} class="view-link" aria-label={`View ${town} page`}>
+                        View&nbsp;&rarr;
+                      </a>
+                    )}
+                  </td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </div>
+    )}
+  </div>
+</section>
+
+<style>
+  .areas-served-table {
+    padding: var(--space-l) var(--space-m);
+    background: var(--surface);
+    color: var(--text);
+  }
+
+  .areas-served-inner {
+    max-width: 52rem;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-family: var(--font-display, inherit);
+    font-size: var(--step-2, 1.75rem);
+    color: var(--text);
+    margin: 0 0 var(--space-s) 0;
+  }
+
+  .areas-served-intro {
+    margin-bottom: var(--space-m);
+    line-height: 1.6;
+    color: var(--muted, var(--text));
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    min-width: 0;
+  }
+
+  thead {
+    border-bottom: 2px solid var(--border);
+  }
+
+  th {
+    text-align: left;
+    font-size: var(--step--1, 0.875rem);
+    font-weight: 600;
+    color: var(--muted, var(--text));
+    padding: var(--space-xs) var(--space-s);
+    white-space: nowrap;
+  }
+
+  td {
+    padding: var(--space-xs) var(--space-s);
+    font-size: var(--step-0, 1rem);
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+
+  .row-even {
+    background: transparent;
+  }
+
+  .row-odd {
+    background: color-mix(in srgb, var(--border) 20%, transparent);
+  }
+
+  .col-town {
+    font-weight: 500;
+  }
+
+  .col-service {
+    color: var(--muted, var(--text));
+    font-size: var(--step--1, 0.875rem);
+  }
+
+  .col-link {
+    text-align: right;
+    width: 5rem;
+  }
+
+  .town-link {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .town-link:hover,
+  .town-link:focus-visible {
+    color: var(--text);
+    text-decoration: underline;
+    outline: none;
+  }
+
+  .view-link {
+    display: inline-block;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: var(--step--1, 0.875rem);
+    font-weight: 500;
+    transition: color 0.15s ease;
+  }
+
+  .view-link:hover,
+  .view-link:focus-visible {
+    color: var(--text);
+    text-decoration: underline;
+    outline: none;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  /* Stacked layout on small screens — no horizontal scroll */
+  @media (max-width: 480px) {
+    .areas-served-table {
+      padding: var(--space-m) var(--space-s);
+    }
+
+    /* Hide the header row and service column on narrow screens */
+    thead {
+      display: none;
+    }
+
+    tr {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      padding: var(--space-xs) 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      border-bottom: none;
+      padding: 0;
+    }
+
+    .col-service {
+      display: none;
+    }
+
+    .col-town {
+      flex: 1 1 auto;
+      font-size: var(--step-0, 1rem);
+    }
+
+    .col-link {
+      flex: 0 0 auto;
+      text-align: right;
+    }
+
+    .row-odd {
+      background: transparent;
+    }
+  }
+</style>

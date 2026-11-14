@@ -1,0 +1,132 @@
+---
+/**
+ * TrustBlock — stat-free-facts variant
+ * A simple, clean list of factual trust statements presented as
+ * individual cards. No numbers, no statistics — just plain-language
+ * process transparency.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+const heading = site.copy?.trust_heading ?? 'How This Works'
+
+const facts = [
+  {
+    label: 'Local contractors only',
+    detail: 'Every job goes to an independent contractor based in your area — not a franchise or out-of-town crew.',
+  },
+  {
+    label: 'Licensed and insured',
+    detail: 'Contractors carry their own license and liability coverage. Ask for proof at any time.',
+  },
+  {
+    label: 'Free quotes, no obligation',
+    detail: 'Describe your project, get a quote by phone, and decide on your own timeline. No pressure.',
+  },
+  {
+    label: 'Transparent process',
+    detail: 'We connect homeowners with qualified professionals. That is all this site does — no hidden fees, no middleman markup.',
+  },
+]
+---
+
+<section class="trust-facts" aria-labelledby="trust-facts-heading">
+  <div class="trust-facts-inner">
+    <h2 id="trust-facts-heading">{heading}</h2>
+
+    <ul class="facts-list" role="list">
+      {facts.map((fact) => (
+        <li class="fact-card">
+          <strong class="fact-label">{fact.label}</strong>
+          <p class="fact-detail">{fact.detail}</p>
+        </li>
+      ))}
+    </ul>
+
+    {contentHtml && (
+      <div class="trust-facts-extra" set:html={contentHtml} />
+    )}
+  </div>
+</section>
+
+<style>
+  .trust-facts {
+    padding: var(--space-2xl) var(--space-m);
+    background-color: var(--bg);
+  }
+
+  .trust-facts-inner {
+    max-width: 72ch;
+    margin-inline: auto;
+  }
+
+  #trust-facts-heading {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    color: var(--text);
+    margin-block-end: var(--space-l);
+  }
+
+  .facts-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-m);
+  }
+
+  .fact-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--space-m);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+  }
+
+  .fact-label {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    color: var(--text);
+    line-height: 1.3;
+  }
+
+  .fact-detail {
+    font-size: var(--step--1);
+    color: var(--muted);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .trust-facts-extra {
+    margin-block-start: var(--space-l);
+    font-size: var(--step--1);
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 600px) {
+    .facts-list {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .trust-facts {
+      padding: var(--space-xl) var(--space-s);
+    }
+
+    .fact-card {
+      padding: var(--space-s);
+      word-break: break-word;
+      overflow-wrap: break-word;
+    }
+  }
+</style>

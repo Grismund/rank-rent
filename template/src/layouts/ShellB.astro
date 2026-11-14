@@ -1,0 +1,368 @@
+---
+/**
+ * Shell B — Split Editorial
+ * Slim phone bar top, nav row below.
+ * 2-col hero: H1+bullets left, form card right.
+ * Content left, sticky sidebar right. 2-col footer.
+ */
+import Head from '../components/base/Head.astro'
+import SkipLink from '../components/base/SkipLink.astro'
+import StickyCallBar from '../components/base/StickyCallBar.astro'
+import Schema from '../components/base/Schema.astro'
+import Disclosure from '../components/base/Disclosure.astro'
+import ContactForm from '../components/base/ContactForm.astro'
+import MobileNav from '../components/base/MobileNav.astro'
+import '../tokens/base.css'
+
+interface Props {
+  site: any
+  page: any
+  breadcrumbs?: any
+  tokens?: string
+}
+
+const { site, page, breadcrumbs, tokens } = Astro.props
+const phone = site.phone
+const nav = site.copy.nav
+const cta = site.copy.cta
+
+const navItems = [
+  { label: nav.services, href: site.pages.find((p: any) => p.type === 'service')?.slug || '#' },
+  { label: nav.areas, href: '/areas/' },
+  { label: nav.cost, href: '/cost/' },
+  { label: nav.faq, href: '/faq/' },
+  { label: nav.about, href: '/about/' },
+]
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <Head
+      title={page.title}
+      description={page.meta_description_intent}
+      tokens={tokens}
+    />
+    <Schema page={page} site={site} />
+  </head>
+  <body>
+    <SkipLink />
+
+    <div class="topbar">
+      <div class="topbar-inner">
+        <span class="topbar-brand">{site.brand}</span>
+        {phone && (
+          <a href={`tel:${phone}`} class="topbar-phone">{phone}</a>
+        )}
+      </div>
+    </div>
+
+    <header class="shell-b-header">
+      <div class="header-inner">
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            {navItems.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+        <div class="mobile-nav-wrap">
+          <MobileNav items={navItems} phone={phone} />
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-b">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <h1>{page.h1}</h1>
+          <ul class="hero-bullets">
+            <li>Free quotes from local contractors</li>
+            <li>Licensed and insured professionals</li>
+            <li>No obligation — call or fill out the form</li>
+          </ul>
+          {phone && (
+            <a href={`tel:${phone}`} class="hero-phone-btn">{cta.primary}</a>
+          )}
+        </div>
+        <div class="hero-form">
+          <ContactForm formHeading={site.copy.form_heading} towns={site.towns} />
+        </div>
+      </div>
+    </div>
+
+    {breadcrumbs}
+
+    <main id="main-content">
+      <div class="body-layout">
+        <div class="body-content">
+          <slot />
+        </div>
+        <aside class="body-sidebar">
+          {phone && (
+            <div class="sidebar-cta">
+              <p class="sidebar-heading">{cta.primary}</p>
+              <a href={`tel:${phone}`} class="sidebar-phone-btn">{phone}</a>
+            </div>
+          )}
+        </aside>
+      </div>
+    </main>
+
+    <footer class="shell-b-footer">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <Disclosure index={site.copy.disclosure} />
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <ul>
+              {navItems.map((item) => (
+                <li><a href={item.href}>{item.label}</a></li>
+              ))}
+              <li><a href="/privacy/">Privacy</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-right">
+          {phone && (
+            <a href={`tel:${phone}`} class="footer-phone">{phone}</a>
+          )}
+        </div>
+      </div>
+    </footer>
+
+    <StickyCallBar phone={phone} ctaText={cta.primary} />
+  </body>
+</html>
+
+<style>
+  .topbar {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: var(--space-s) var(--space-m);
+    font-size: var(--step--1);
+  }
+
+  .topbar-inner {
+    max-width: 72rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .topbar-brand {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .topbar-phone {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .shell-b-header {
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: var(--space-s) var(--space-m);
+  }
+
+  .header-inner {
+    max-width: 72rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .desktop-nav { flex: 1; }
+
+  .nav-list {
+    display: flex;
+    gap: var(--space-m);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-list a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: var(--step--1);
+  }
+
+  .nav-list a:hover { color: var(--accent); }
+
+  .mobile-nav-wrap { display: none; }
+
+  @media (max-width: 768px) {
+    .desktop-nav { display: none; }
+    .mobile-nav-wrap { display: block; }
+  }
+
+  .hero-b {
+    background: var(--bg);
+    padding: var(--space-l) var(--space-m);
+  }
+
+  .hero-inner {
+    max-width: 72rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-l);
+    align-items: start;
+  }
+
+  @media (max-width: 768px) {
+    .hero-inner {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .hero-b h1 {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    color: var(--text);
+    margin: 0 0 var(--space-m);
+    line-height: 1.2;
+  }
+
+  .hero-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--space-m);
+  }
+
+  .hero-bullets li {
+    padding-inline-start: 1.5em;
+    position: relative;
+    margin-block-end: var(--space-s);
+    color: var(--text);
+  }
+
+  .hero-bullets li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .hero-phone-btn {
+    display: inline-block;
+    padding: var(--space-s) var(--space-l);
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--font-display);
+    border-radius: var(--radius);
+  }
+
+  .hero-form {
+    background: var(--surface);
+    padding: var(--space-m);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+
+  .body-layout {
+    max-width: 72rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: var(--space-l);
+    padding: 0 var(--space-m);
+  }
+
+  @media (max-width: 768px) {
+    .body-layout {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .body-sidebar {
+    position: sticky;
+    top: var(--space-m);
+    align-self: start;
+  }
+
+  .sidebar-cta {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--space-m);
+    text-align: center;
+  }
+
+  .sidebar-heading {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--text);
+    margin-block-end: var(--space-s);
+  }
+
+  .sidebar-phone-btn {
+    display: block;
+    padding: var(--space-s);
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--font-display);
+    border-radius: var(--radius);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .shell-b-footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: var(--space-l) var(--space-m);
+    margin-block-start: var(--space-l);
+  }
+
+  .footer-inner {
+    max-width: 72rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-l);
+    align-items: center;
+  }
+
+  @media (max-width: 640px) {
+    .footer-inner {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  }
+
+  .footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-m);
+    list-style: none;
+    padding: 0;
+    margin: var(--space-m) 0 0;
+  }
+
+  .footer-nav a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: var(--step--1);
+  }
+
+  .footer-nav a:hover { color: var(--accent); }
+
+  .footer-phone {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    font-weight: 700;
+    color: var(--accent);
+    text-decoration: none;
+    font-variant-numeric: tabular-nums;
+  }
+</style>

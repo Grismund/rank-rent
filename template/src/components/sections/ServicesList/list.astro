@@ -1,0 +1,118 @@
+---
+/**
+ * ServicesList — list variant
+ * Simple vertical list of linked service pages.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const services = (site.pages ?? []).filter(
+  (p: { type: string }) => p.type === 'service',
+)
+---
+
+<section class="services-list" id={sectionName}>
+  {contentHtml ? (
+    <div class="services-list__intro" set:html={contentHtml} />
+  ) : (
+    <h2 class="services-list__heading">Our Services</h2>
+  )}
+
+  {services.length > 0 && (
+    <ul class="services-list__items" role="list">
+      {services.map((svc: { slug: string; h1: string; primary_keyword: string }) => (
+        <li class="services-list__item">
+          <a href={`/${svc.slug}/`} class="services-list__link">
+            <span class="services-list__text">{svc.h1}</span>
+            <span class="services-list__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</section>
+
+<style>
+  .services-list {
+    padding: var(--space-l) var(--space-m);
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  .services-list__intro {
+    max-width: 48rem;
+    margin-bottom: var(--space-l);
+    font-family: var(--font-body);
+    font-size: var(--step-0);
+    line-height: 1.6;
+  }
+
+  .services-list__intro :global(h2) {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    margin-bottom: var(--space-s);
+  }
+
+  .services-list__heading {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    margin-bottom: var(--space-l);
+  }
+
+  .services-list__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 40rem;
+  }
+
+  .services-list__item {
+    border-bottom: 1px solid var(--border);
+  }
+
+  .services-list__item:first-child {
+    border-top: 1px solid var(--border);
+  }
+
+  .services-list__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-s);
+    padding: var(--space-m) var(--space-s);
+    color: var(--text);
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--step-0);
+    line-height: 1.4;
+    transition: background-color 0.15s ease;
+  }
+
+  .services-list__link:hover {
+    background-color: var(--surface);
+    color: var(--accent);
+  }
+
+  .services-list__text {
+    font-family: var(--font-display);
+    font-weight: 600;
+  }
+
+  .services-list__arrow {
+    flex-shrink: 0;
+    color: var(--muted);
+    font-size: var(--step--1);
+    transition: color 0.15s ease, transform 0.15s ease;
+  }
+
+  .services-list__link:hover .services-list__arrow {
+    color: var(--accent);
+    transform: translateX(2px);
+  }
+</style>

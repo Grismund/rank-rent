@@ -1,0 +1,78 @@
+---
+import { SECTION_KEY_TO_TYPE } from '../../config/section-map'
+
+// ServicesList variants
+import ServicesListCards from './ServicesList/cards.astro'
+import ServicesListList from './ServicesList/list.astro'
+import ServicesListTabs from './ServicesList/tabs.astro'
+
+// AreasServed variants
+import AreasServedChips from './AreasServed/chips.astro'
+import AreasServedColumns from './AreasServed/columns.astro'
+import AreasServedTable from './AreasServed/table.astro'
+
+// Process variants
+import ProcessSteps from './Process/steps.astro'
+import ProcessTimeline from './Process/timeline.astro'
+import ProcessCards from './Process/cards.astro'
+
+// TrustBlock variants
+import TrustBlockDisclosureFirst from './TrustBlock/disclosure-first.astro'
+import TrustBlockStatFreeFacts from './TrustBlock/stat-free-facts.astro'
+import TrustBlockChecklist from './TrustBlock/checklist.astro'
+
+// FAQ variants
+import FAQDetails from './FAQ/details.astro'
+import FAQOpenList from './FAQ/open-list.astro'
+import FAQTwoColumn from './FAQ/two-column.astro'
+
+// CostTable variants
+import CostTableTable from './CostTable/table.astro'
+import CostTableRangeBars from './CostTable/range-bars.astro'
+import CostTableCards from './CostTable/cards.astro'
+
+// CTABand variants
+import CTABandBand from './CTABand/band.astro'
+import CTABandCard from './CTABand/card.astro'
+import CTABandInline from './CTABand/inline.astro'
+
+// ToolShell variants
+import ToolShellCard from './ToolShell/card.astro'
+import ToolShellFull from './ToolShell/full.astro'
+import ToolShellSplit from './ToolShell/split.astro'
+
+import ProseSection from './ProseSection.astro'
+
+interface Props {
+  sectionKey: string
+  site: any
+  page: any
+  contentHtml?: string
+}
+
+const { sectionKey, site, page, contentHtml } = Astro.props
+
+const componentType = SECTION_KEY_TO_TYPE[sectionKey]
+const variant = componentType ? site.design.variants[componentType] : null
+
+// Component lookup: type + variant → component
+const COMPONENTS: Record<string, Record<string, any>> = {
+  ServicesList: { cards: ServicesListCards, list: ServicesListList, tabs: ServicesListTabs },
+  AreasServed: { chips: AreasServedChips, columns: AreasServedColumns, table: AreasServedTable },
+  Process: { steps: ProcessSteps, timeline: ProcessTimeline, cards: ProcessCards },
+  TrustBlock: { 'disclosure-first': TrustBlockDisclosureFirst, 'stat-free-facts': TrustBlockStatFreeFacts, checklist: TrustBlockChecklist },
+  FAQ: { details: FAQDetails, 'open-list': FAQOpenList, 'two-column': FAQTwoColumn },
+  CostTable: { table: CostTableTable, 'range-bars': CostTableRangeBars, cards: CostTableCards },
+  CTABand: { band: CTABandBand, card: CTABandCard, inline: CTABandInline },
+  ToolShell: { card: ToolShellCard, full: ToolShellFull, split: ToolShellSplit },
+}
+
+const Component = componentType && variant && COMPONENTS[componentType]?.[variant]
+const sectionProps = { site, page, contentHtml, sectionName: sectionKey }
+---
+
+{Component ? (
+  <Component {...sectionProps} />
+) : (
+  <ProseSection {...sectionProps} />
+)}

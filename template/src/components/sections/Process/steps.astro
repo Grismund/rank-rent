@@ -1,0 +1,125 @@
+---
+/**
+ * Process/steps — Numbered steps in a vertical list with circled step numbers.
+ * Renders contentHtml if provided; otherwise shows the default 3-step process.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const defaultSteps = [
+  {
+    number: 1,
+    title: 'Call for a Quote',
+    description: 'Reach out by phone or through our contact form. We\u2019ll discuss your project, answer questions, and provide a free estimate.',
+  },
+  {
+    number: 2,
+    title: 'We Prep and Plan',
+    description: 'Our team evaluates the work site, selects the right materials, and schedules a time that fits your calendar.',
+  },
+  {
+    number: 3,
+    title: 'Professional Installation',
+    description: 'Our crew completes the job on time, walks you through the finished result, and makes sure you\u2019re satisfied.',
+  },
+]
+---
+
+<section class="process-steps" id={sectionName} aria-labelledby={`${sectionName}-heading`}>
+  <div class="process-steps__inner">
+    <h2 id={`${sectionName}-heading`} class="process-steps__heading">How It Works</h2>
+
+    {contentHtml ? (
+      <div class="process-steps__custom" set:html={contentHtml} />
+    ) : (
+      <ol class="process-steps__list">
+        {defaultSteps.map((step) => (
+          <li class="process-steps__item">
+            <span class="process-steps__number" aria-hidden="true">{step.number}</span>
+            <div class="process-steps__content">
+              <h3 class="process-steps__title">{step.title}</h3>
+              <p class="process-steps__desc">{step.description}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    )}
+  </div>
+</section>
+
+<style>
+  .process-steps {
+    padding: var(--space-2xl) var(--space-m);
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  .process-steps__inner {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+
+  .process-steps__heading {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    text-align: center;
+    margin-bottom: var(--space-xl);
+  }
+
+  .process-steps__custom {
+    line-height: 1.6;
+  }
+
+  .process-steps__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+  }
+
+  .process-steps__item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-m);
+  }
+
+  .process-steps__number {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    background-color: var(--accent);
+    color: var(--accent-text);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--step-1);
+    line-height: 1;
+  }
+
+  .process-steps__content {
+    min-width: 0;
+  }
+
+  .process-steps__title {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    margin-bottom: var(--space-s);
+  }
+
+  .process-steps__desc {
+    color: var(--muted);
+    font-size: var(--step-0);
+    line-height: 1.6;
+  }
+</style>

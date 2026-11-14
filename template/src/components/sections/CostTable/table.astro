@@ -1,0 +1,257 @@
+---
+/**
+ * CostTable — table variant
+ *
+ * Renders cost comparison data as a responsive HTML table.
+ * When contentHtml is provided, renders that directly.
+ * Otherwise shows a structured placeholder awaiting real data.
+ *
+ * Uses token CSS vars only; no horizontal scroll at 360px.
+ */
+interface Props {
+  site: any
+  page: any
+  contentHtml?: string
+  sectionName: string
+}
+
+const { site, page, contentHtml, sectionName } = Astro.props
+
+const city = site.city ?? ''
+const niche = site.display_name ?? site.niche ?? ''
+---
+
+<section class="cost-table-section" aria-labelledby="cost-table-heading">
+  <div class="cost-table-container">
+    <h2 id="cost-table-heading">{sectionName}</h2>
+
+    {contentHtml ? (
+      <div class="cost-table-content" set:html={contentHtml} />
+    ) : (
+      <div class="cost-table-content">
+        <p class="cost-table-intro">
+          Typical {niche.toLowerCase()} costs in {city} vary by scope, materials, and
+          project size. The ranges below reflect current contractor pricing in
+          the area.
+        </p>
+
+        <div class="cost-table-wrap">
+          <table class="cost-table" role="table">
+            <caption class="sr-only">
+              {niche} cost ranges by service type in {city}
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Service</th>
+                <th scope="col">Low</th>
+                <th scope="col">High</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Service">Basic scope</td>
+                <td data-label="Low">&mdash;</td>
+                <td data-label="High">&mdash;</td>
+              </tr>
+              <tr>
+                <td data-label="Service">Mid-range scope</td>
+                <td data-label="Low">&mdash;</td>
+                <td data-label="High">&mdash;</td>
+              </tr>
+              <tr>
+                <td data-label="Service">Premium scope</td>
+                <td data-label="Low">&mdash;</td>
+                <td data-label="High">&mdash;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="cost-table-note">
+          Costs vary by contractor, materials, and project conditions. Call for a
+          quote specific to your project.
+        </p>
+      </div>
+    )}
+  </div>
+</section>
+
+<style>
+  .cost-table-section {
+    padding: var(--space-2xl) var(--space-m);
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  .cost-table-container {
+    max-width: 72ch;
+    margin: 0 auto;
+  }
+
+  .cost-table-container h2 {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    line-height: 1.2;
+    margin-bottom: var(--space-l);
+    color: var(--text);
+  }
+
+  .cost-table-intro {
+    margin-bottom: var(--space-l);
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .cost-table-wrap {
+    overflow-x: visible;
+  }
+
+  .cost-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cost-table thead {
+    border-bottom: 2px solid var(--accent);
+  }
+
+  .cost-table th {
+    font-family: var(--font-display);
+    font-size: var(--step--1);
+    font-weight: 700;
+    text-align: left;
+    padding: var(--space-s) var(--space-s);
+    color: var(--text);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .cost-table td {
+    padding: var(--space-s) var(--space-s);
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    line-height: 1.4;
+  }
+
+  .cost-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .cost-table tbody tr:hover {
+    background-color: var(--surface);
+  }
+
+  .cost-table-note {
+    margin-top: var(--space-l);
+    font-size: var(--step--1);
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  /* Content HTML may contain its own tables — style them consistently */
+  .cost-table-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cost-table-content :global(th) {
+    font-family: var(--font-display);
+    font-size: var(--step--1);
+    font-weight: 700;
+    text-align: left;
+    padding: var(--space-s);
+    border-bottom: 2px solid var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .cost-table-content :global(td) {
+    padding: var(--space-s);
+    border-bottom: 1px solid var(--border);
+    line-height: 1.4;
+  }
+
+  .cost-table-content :global(p) {
+    margin-bottom: var(--space-m);
+    line-height: 1.6;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  /* Stack table to single column at narrow viewports — no horizontal scroll */
+  @media (max-width: 480px) {
+    .cost-table thead {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+    }
+
+    .cost-table tr {
+      display: block;
+      padding: var(--space-s) 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .cost-table tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    .cost-table td {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 0.25rem var(--space-s);
+      border-bottom: none;
+    }
+
+    .cost-table td::before {
+      content: attr(data-label);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: var(--step--1);
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      flex-shrink: 0;
+      margin-right: var(--space-s);
+    }
+
+    .cost-table-content :global(table) {
+      display: block;
+    }
+
+    .cost-table-content :global(thead) {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+    }
+
+    .cost-table-content :global(tr) {
+      display: block;
+      padding: var(--space-s) 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .cost-table-content :global(td) {
+      display: block;
+      padding: 0.25rem var(--space-s);
+      border-bottom: none;
+    }
+  }
+</style>
