@@ -40,6 +40,28 @@ const bathroomPack = {
   },
 }
 
+// Pack with Phase 4 fields (tool, guide_topics, guide/tool_page outlines)
+const epoxyPackFull = {
+  ...epoxyPack,
+  page_outlines: {
+    ...epoxyPack.page_outlines,
+    guide: { h1: '{topic} — {city}, {state}', title: '{topic} | {brand}', word_count: { min: 600, max: 1500 } },
+    tool_page: { h1: '{tool_name} — {city}, {state}', title: '{tool_name} {city} | {brand}', word_count: { min: 300, max: 800 }, schema: ['WebApplication', 'FAQPage'] },
+  },
+  tool: {
+    type: 'epoxy-cost-estimator',
+    default_slug: '/garage-floor-cost-calculator/',
+    inputs: ['garage_size', 'finish', 'floor_condition'],
+    outputs: ['sq_ft', 'price_per_sq_ft_range', 'total_range', 'estimated_days'],
+  },
+  guide_topics: [
+    { type: 'cost_guide', topic: 'How much does epoxy flooring cost?', target_keyword: 'epoxy flooring cost {city}' },
+    { type: 'faq', questions: ['Q1', 'Q2'] },
+    { type: 'guide', topic: 'Epoxy vs. Polyaspartic Garage Floors', target_keyword: 'epoxy vs polyaspartic {city}' },
+    { type: 'guide', topic: 'How Long Does an Epoxy Floor Last?', target_keyword: 'how long does epoxy garage floor last' },
+  ],
+}
+
 const miamiCandidate = { niche: 'epoxy-flooring', area: 'Miami', region: 'Florida (city-list)' }
 const conroeCandidate = { niche: 'bathroom-remodel', area: 'Conroe', region: 'Texas (local-discover)' }
 const miamiTowns = ['Hialeah', 'Coral Gables', 'Miami Beach', 'Doral']
@@ -223,13 +245,63 @@ describe('buildPagePlan', () => {
     const hialeah = result.pages.find(p => p.slug === '/areas/hialeah/')
     expect(hialeah.h1).toBe('Epoxy Flooring in Hialeah, Florida')
   })
+
+  // --- Tool and guide page tests (Phase 4) ---
+
+  it('includes tool page when pack has tool block', () => {
+    const result = buildPagePlan(miamiCandidate, epoxyPackFull, miamiTowns)
+    const tool = result.pages.find(p => p.type === 'tool')
+    expect(tool).toBeDefined()
+    expect(tool.slug).toBe('/garage-floor-cost-calculator/')
+  })
+
+  it('tool page slug comes from assignment toolSlug parameter', () => {
+    const result = buildPagePlan(miamiCandidate, epoxyPackFull, miamiTowns, { toolSlug: '/floor-coating-cost-calculator/' })
+    const tool = result.pages.find(p => p.type === 'tool')
+    expect(tool.slug).toBe('/floor-coating-cost-calculator/')
+  })
+
+  it('tool page keyword does not collide with cost guide keyword', () => {
+    const result = buildPagePlan(miamiCandidate, epoxyPackFull, miamiTowns)
+    const tool = result.pages.find(p => p.type === 'tool')
+    const cost = result.pages.find(p => p.type === 'cost_guide')
+    expect(tool.primary_keyword).not.toBe(cost.primary_keyword)
+    // Tool targets calculator/estimator phrase, cost guide targets cost/price
+    expect(tool.primary_keyword).toMatch(/calculator|estimator/)
+  })
+
+  it('includes 2 guide pages when pack has guide_topics with type: guide', () => {
+    const result = buildPagePlan(miamiCandidate, epoxyPackFull, miamiTowns)
+    const guides = result.pages.filter(p => p.type === 'guide')
+    expect(guides).toHaveLength(2)
+  })
+
+  it('guide page slugs are under /guides/', () => {
+    const result = buildPagePlan(miamiCandidate, epoxyPackFull, miamiTowns)
+    const guides = result.pages.filter(p => p.type === 'guide')
+    for (const guide of guides) {
+      expect(guide.slug).toMatch(/^\/guides\//)
+    }
+  })
+
+  it('total page count is 14 for standard site with tool + guides (1+4+4+1+1+1+2)', () => {
+    const result = buildPagePlan(miamiCandidate, epoxyPackFull, miamiTowns)
+    expect(result.pages).toHaveLength(14)
+  })
+
+  it('does not add tool or guide pages when pack lacks those fields', () => {
+    const result = buildPagePlan(miamiCandidate, epoxyPack, miamiTowns)
+    expect(result.pages.find(p => p.type === 'tool')).toBeUndefined()
+    expect(result.pages.find(p => p.type === 'guide')).toBeUndefined()
+  })
 })
 
 // --- validateSiteYaml ---
 
 describe('validateSiteYaml', () => {
+  // Uses Phase 4 pack (with tool + guides) to produce 14-page plans
   function makeSiteYaml(overrides = {}) {
-    const plan = buildPagePlan(miamiCandidate, epoxyPack, miamiTowns)
+    const plan = buildPagePlan(miamiCandidate, epoxyPackFull, miamiTowns)
     return {
       niche: 'epoxy-flooring',
       display_name: 'Epoxy Flooring',
@@ -244,8 +316,8 @@ describe('validateSiteYaml', () => {
     }
   }
 
-  it('returns valid for well-formed site.yaml', () => {
-    const result = validateSiteYaml(makeSiteYaml(), epoxyPack)
+  it('returns valid for well-formed site.yaml with 14 pages', () => {
+    const result = validateSiteYaml(makeSiteYaml(), epoxyPackFull)
     expect(result.valid).toBe(true)
     expect(result.errors).toHaveLength(0)
   })
@@ -253,7 +325,7 @@ describe('validateSiteYaml', () => {
   it('returns errors for duplicate primary_keywords', () => {
     const site = makeSiteYaml()
     site.pages[1].primary_keyword = site.pages[0].primary_keyword
-    const result = validateSiteYaml(site, epoxyPack)
+    const result = validateSiteYaml(site, epoxyPackFull)
     expect(result.valid).toBe(false)
     expect(result.errors.some(e => e.includes('duplicate'))).toBe(true)
   })
@@ -261,38 +333,47 @@ describe('validateSiteYaml', () => {
   it('returns errors when title exceeds 60 chars', () => {
     const site = makeSiteYaml()
     site.pages[0].title = 'A'.repeat(61)
-    const result = validateSiteYaml(site, epoxyPack)
+    const result = validateSiteYaml(site, epoxyPackFull)
     expect(result.valid).toBe(false)
     expect(result.errors.some(e => e.includes('title'))).toBe(true)
   })
 
-  it('returns errors when page count outside 10-15', () => {
+  it('returns errors when page count below 12', () => {
     const site = makeSiteYaml()
-    site.pages = site.pages.slice(0, 5)
-    const result = validateSiteYaml(site, epoxyPack)
+    site.pages = site.pages.slice(0, 11)
+    const result = validateSiteYaml(site, epoxyPackFull)
     expect(result.valid).toBe(false)
     expect(result.errors.some(e => e.includes('page count'))).toBe(true)
   })
 
-  it('returns errors when page count exceeds 15', () => {
+  it('returns errors when page count exceeds 16', () => {
     const site = makeSiteYaml()
-    // Add pages to exceed 15
-    while (site.pages.length <= 15) {
+    while (site.pages.length <= 16) {
       site.pages.push({ ...site.pages[0], primary_keyword: `extra keyword ${site.pages.length}`, slug: `/extra-${site.pages.length}/`, type: 'town' })
     }
-    const result = validateSiteYaml(site, epoxyPack)
+    const result = validateSiteYaml(site, epoxyPackFull)
     expect(result.valid).toBe(false)
     expect(result.errors.some(e => e.includes('page count'))).toBe(true)
+  })
+
+  it('accepts 12 pages (minimum valid)', () => {
+    const site = makeSiteYaml()
+    // Remove 2 town pages to get 12
+    const townPages = site.pages.filter(p => p.type === 'town')
+    const toRemove = townPages.slice(2).map(p => p.slug)
+    site.pages = site.pages.filter(p => !toRemove.includes(p.slug))
+    expect(site.pages).toHaveLength(12)
+    const result = validateSiteYaml(site, epoxyPackFull)
+    expect(result.valid).toBe(true)
   })
 
   it('returns errors when required page types missing (home)', () => {
     const site = makeSiteYaml()
     site.pages = site.pages.filter(p => p.type !== 'home')
-    // Still needs 10+ pages so add extras
-    while (site.pages.length < 10) {
+    while (site.pages.length < 12) {
       site.pages.push({ ...site.pages[0], primary_keyword: `filler ${site.pages.length}`, slug: `/filler-${site.pages.length}/`, type: 'town' })
     }
-    const result = validateSiteYaml(site, epoxyPack)
+    const result = validateSiteYaml(site, epoxyPackFull)
     expect(result.valid).toBe(false)
     expect(result.errors.some(e => e.includes('home'))).toBe(true)
   })
@@ -300,11 +381,22 @@ describe('validateSiteYaml', () => {
   it('returns errors when required page types missing (faq)', () => {
     const site = makeSiteYaml()
     site.pages = site.pages.filter(p => p.type !== 'faq')
-    while (site.pages.length < 10) {
+    while (site.pages.length < 12) {
       site.pages.push({ ...site.pages[0], primary_keyword: `filler ${site.pages.length}`, slug: `/filler-${site.pages.length}/`, type: 'town' })
     }
-    const result = validateSiteYaml(site, epoxyPack)
+    const result = validateSiteYaml(site, epoxyPackFull)
     expect(result.valid).toBe(false)
     expect(result.errors.some(e => e.includes('faq'))).toBe(true)
+  })
+
+  it('returns errors when required page type tool is missing', () => {
+    const site = makeSiteYaml()
+    site.pages = site.pages.filter(p => p.type !== 'tool')
+    while (site.pages.length < 12) {
+      site.pages.push({ ...site.pages[0], primary_keyword: `filler ${site.pages.length}`, slug: `/filler-${site.pages.length}/`, type: 'town' })
+    }
+    const result = validateSiteYaml(site, epoxyPackFull)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some(e => e.includes('tool'))).toBe(true)
   })
 })

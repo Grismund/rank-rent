@@ -26,23 +26,43 @@ page_outlines:
     title: "{display_name} {city} | {brand}"
     sections:
       - h2: "Professional {display_name} Services"
+        h2_variants:
+          - "Professional {display_name} Services"
+          - "{display_name} Services for Your Home and Business"
+          - "Local {display_name} Contractors in {city}"
         content_guidance: "Introduce epoxy flooring, who it's for, and the area served. Mention connecting homeowners and businesses with local epoxy contractors."
         h3s:
           - "Why Choose Epoxy Flooring?"
           - "Where Epoxy Flooring Works Best"
       - h2: "Our Services"
+        h2_variants:
+          - "Our Services"
+          - "{display_name} Services We Offer"
+          - "Coating Options Available in {city}"
         content_guidance: "List and briefly describe each sub-service with links to service pages."
         h3s: []
       - h2: "Areas We Serve"
+        h2_variants:
+          - "Areas We Serve"
+          - "Service Areas Near {city}"
+          - "{city} and Surrounding Communities"
         content_guidance: "List towns served with links to town pages."
         h3s: []
       - h2: "How It Works"
+        h2_variants:
+          - "How It Works"
+          - "The Epoxy Flooring Process"
+          - "From Quote to Finished Floor"
         content_guidance: "3-step process: request a quote, surface prep and color selection, installation."
         h3s:
           - "Step 1: Request a Quote"
           - "Step 2: Surface Prep and Color Selection"
           - "Step 3: Installation and Curing"
       - h2: "Get a Free Quote Today"
+        h2_variants:
+          - "Get a Free Quote Today"
+          - "Request Your Free Estimate"
+          - "Get Started with a Free Quote"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 800, max: 1500 }
@@ -52,21 +72,41 @@ page_outlines:
     title: "{sub_service} {city} | {brand}"
     sections:
       - h2: "What Is {sub_service}?"
+        h2_variants:
+          - "What Is {sub_service}?"
+          - "About {sub_service}"
+          - "Understanding {sub_service}"
         content_guidance: "Explain what the service involves, typical applications, and who benefits most."
         h3s: []
       - h2: "Benefits of {sub_service}"
+        h2_variants:
+          - "Benefits of {sub_service}"
+          - "Why Choose {sub_service}"
+          - "Advantages of {sub_service}"
         content_guidance: "Durability, chemical resistance, easy cleaning, visual appeal."
         h3s: []
       - h2: "The {sub_service} Process"
+        h2_variants:
+          - "The {sub_service} Process"
+          - "How {sub_service} Is Installed"
+          - "{sub_service} Installation Steps"
         content_guidance: "Step-by-step from concrete prep to final topcoat."
         h3s:
           - "Concrete Preparation"
           - "Epoxy Application"
           - "Curing and Final Coat"
       - h2: "{sub_service} Cost in {city}"
+        h2_variants:
+          - "{sub_service} Cost in {city}"
+          - "How Much Does {sub_service} Cost?"
+          - "{sub_service} Pricing in {city}"
         content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($1,600-$3,500 avg job)."
         h3s: []
       - h2: "Schedule Your {sub_service}"
+        h2_variants:
+          - "Schedule Your {sub_service}"
+          - "Get a {sub_service} Quote"
+          - "Request {sub_service} Service"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -76,20 +116,40 @@ page_outlines:
     title: "{display_name} {city} {state} | {brand}"
     sections:
       - h2: "{display_name} Services in {city}"
+        h2_variants:
+          - "{display_name} Services in {city}"
+          - "{city} {display_name} Contractors"
+          - "Local {display_name} in {city}"
         content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
         h3s: []
       - h2: "Why {city} Homeowners Choose Epoxy Flooring"
+        h2_variants:
+          - "Why {city} Homeowners Choose Epoxy Flooring"
+          - "What Drives Epoxy Demand in {city}"
+          - "Epoxy Flooring Demand in {city}"
         content_guidance: "Local factors driving demand: climate, humidity, concrete slab homes, garage usage patterns."
         h3s:
           - "Climate and Concrete Conditions"
           - "Popular Applications in {city}"
       - h2: "Epoxy Flooring Options in {city}"
+        h2_variants:
+          - "Epoxy Flooring Options in {city}"
+          - "Coating Types Available in {city}"
+          - "Choose the Right Epoxy for Your {city} Floor"
         content_guidance: "Solid color, flake, metallic, and polyaspartic alternatives available locally."
         h3s: []
       - h2: "Local Considerations"
+        h2_variants:
+          - "Local Considerations"
+          - "Permits and Regulations in {city}"
+          - "What to Know Before Coating in {city}"
         content_guidance: "HOA rules, permit requirements if applicable, humidity and curing considerations."
         h3s: []
       - h2: "Get {display_name} in {city}"
+        h2_variants:
+          - "Get {display_name} in {city}"
+          - "Request a Quote in {city}"
+          - "Connect with {city} Epoxy Contractors"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -99,18 +159,34 @@ page_outlines:
     title: "{display_name} Cost {city} | {brand}"
     sections:
       - h2: "Average {display_name} Prices"
+        h2_variants:
+          - "Average {display_name} Prices"
+          - "{display_name} Price Ranges"
+          - "Typical {display_name} Costs"
         content_guidance: "General price ranges by project type. Reference $1,600-$3,500 avg job value."
         h3s:
           - "One-Car Garage"
           - "Two-Car Garage"
           - "Commercial or Large Area"
       - h2: "What Affects {display_name} Pricing?"
+        h2_variants:
+          - "What Affects {display_name} Pricing?"
+          - "Factors That Influence {display_name} Cost"
+          - "Why {display_name} Prices Vary"
         content_guidance: "Factors: square footage, concrete condition, coating type (solid vs flake vs metallic), number of coats, prep work needed."
         h3s: []
       - h2: "Epoxy vs Polyaspartic: Cost Comparison"
+        h2_variants:
+          - "Epoxy vs Polyaspartic: Cost Comparison"
+          - "Comparing Epoxy and Polyaspartic Coatings"
+          - "Epoxy or Polyaspartic: Which Costs More?"
         content_guidance: "Compare standard epoxy to polyaspartic coatings on cost, cure time, and durability."
         h3s: []
       - h2: "Get a Free Estimate"
+        h2_variants:
+          - "Get a Free Estimate"
+          - "Request a Cost Estimate"
+          - "Get Your Free {display_name} Quote"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -120,6 +196,10 @@ page_outlines:
     title: "{display_name} FAQ {city} | {brand}"
     sections:
       - h2: "Frequently Asked Questions About {display_name}"
+        h2_variants:
+          - "Frequently Asked Questions About {display_name}"
+          - "{display_name} Questions Answered"
+          - "Common {display_name} Questions"
         content_guidance: "Answer each question in 2-4 sentences."
         h3s: []
     questions:
@@ -133,6 +213,90 @@ page_outlines:
       - "How do you maintain epoxy floors?"
     word_count: { min: 400, max: 1000 }
     schema: FAQPage
+
+  guide:
+    h1: "{topic} — {city}, {state}"
+    title: "{topic} | {brand}"
+    sections:
+      - h2: "Overview"
+        h2_variants:
+          - "Overview"
+          - "What You Need to Know"
+          - "Quick Summary"
+        content_guidance: "Introduce the topic and why it matters for homeowners considering epoxy flooring."
+        h3s: []
+      - h2: "Key Differences"
+        h2_variants:
+          - "Key Differences"
+          - "How They Compare"
+          - "Side-by-Side Comparison"
+        content_guidance: "Main comparison points or detailed explanation depending on the guide topic."
+        h3s: []
+      - h2: "What This Means for Your Project"
+        h2_variants:
+          - "What This Means for Your Project"
+          - "How This Affects Your Decision"
+          - "Practical Takeaways"
+        content_guidance: "Actionable advice based on the comparison or explanation."
+        h3s: []
+      - h2: "Get Expert Advice"
+        h2_variants:
+          - "Get Expert Advice"
+          - "Talk to a Local Contractor"
+          - "Get a Professional Opinion"
+        content_guidance: "Call to action directing readers to get a quote."
+        h3s: []
+    word_count: { min: 600, max: 1500 }
+
+  tool_page:
+    h1: "{tool_name} — {city}, {state}"
+    title: "{tool_name} {city} | {brand}"
+    sections:
+      - h2: "How This Calculator Works"
+        h2_variants:
+          - "How This Calculator Works"
+          - "About This Estimator"
+          - "How to Use This Tool"
+        content_guidance: "Explain tool inputs (garage size, finish type, floor condition) and what the estimate includes."
+        h3s: []
+      - h2: "Where Our Estimates Come From"
+        h2_variants:
+          - "Where Our Estimates Come From"
+          - "How We Calculate These Ranges"
+          - "About Our Pricing Data"
+        content_guidance: "Cite sources from niche brief. Include 'costs vary by contractor and site conditions' note."
+        h3s: []
+      - h2: "Frequently Asked Questions"
+        h2_variants:
+          - "Frequently Asked Questions"
+          - "Common Questions About Epoxy Costs"
+          - "Cost Estimator FAQ"
+        content_guidance: "3-5 FAQs the tool raises. FAQPage schema."
+        h3s: []
+      - h2: "Get an Accurate Quote"
+        h2_variants:
+          - "Get an Accurate Quote"
+          - "Request a Contractor Quote"
+          - "Get a Real Estimate from a Local Pro"
+        content_guidance: "Call to action — the tool gives ranges, a contractor gives exact pricing."
+        h3s: []
+    word_count: { min: 300, max: 800 }
+    schema:
+      - WebApplication
+      - FAQPage
+
+tool:
+  type: epoxy-cost-estimator
+  default_slug: "/garage-floor-cost-calculator/"
+  inputs:
+    - garage_size
+    - finish
+    - floor_condition
+  outputs:
+    - sq_ft
+    - price_per_sq_ft_range
+    - total_range
+    - estimated_days
 
 guide_topics:
   - type: cost_guide
@@ -148,6 +312,18 @@ guide_topics:
       - "Can epoxy be applied over old concrete?"
       - "What is the difference between epoxy and polyaspartic coatings?"
       - "How do you maintain epoxy floors?"
+  - type: guide
+    topic: "Epoxy vs. Polyaspartic Garage Floors"
+    target_keyword: "epoxy vs polyaspartic {city}"
+  - type: guide
+    topic: "How Long Does an Epoxy Floor Last?"
+    target_keyword: "how long does epoxy garage floor last"
+
+design:
+  tokens:
+    - epoxy-flooring-1
+    - epoxy-flooring-2
+  image_set: epoxy-flooring
 
 local_variables:
   standard:
