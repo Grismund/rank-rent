@@ -19,10 +19,10 @@ sections:
 sources: []
 faqs: []
 town_facts:
-  - "Hays County seat; population 91,082 (2026 est.)"
+  - "Hays County seat; population 91,000"
   - "Balcones Escarpment creates two soil zones: limestone west of I-35, Houston Black clay east of I-35"
-  - "Texas State University: 47,513 students; 69% renter-occupied housing"
-  - "Kissing Tree 55+ active-adult community — strong epoxy prospect for workshop conversions"
+  - "Texas State University: 47,500 students; 70% renter-occupied housing"
+  - "Kissing Tree is 55+ active-adult community strong epoxy prospect for workshop conversions"
   - "San Marcos River recreation culture drives gear-storage garage demand"
   - "No building permit required for residential epoxy over existing concrete (City of San Marcos)"
 ---
@@ -37,23 +37,23 @@ Our New Braunfels hub is 18 miles southwest via I-35, putting San Marcos well wi
 
 ### Climate and Concrete Conditions
 
-San Marcos straddles two distinct geological zones, and that matters for any floor coating project. West of I-35, the Edwards Plateau delivers limestone and caliche with thin topsoil — slabs here rarely shift from clay movement. East of I-35, the Blackland Prairie brings Houston Black clay with high shrink-swell characteristics, where soil cracks 0.5 to 4 inches wide during dry periods and heaves when saturated. The Balcones Fault runs directly through the city, meaning ground conditions can shift from swelling clay to shallow limestone within a single lot.
+San Marcos straddles two distinct geological zones, and that matters for any floor coating project. West of I-35, the Edwards Plateau delivers limestone and caliche with thin topsoil and slabs here rarely shift from clay movement. East of I-35, the Blackland Prairie brings Houston Black clay with high shrink-swell characteristics, where soil cracks 0.5 to 4 inches wide during dry periods and heaves when saturated. The Balcones Fault runs directly through the city, meaning ground conditions can shift from swelling clay to shallow limestone within a single lot.
 
-For epoxy flooring, this dual-zone geology means every slab needs individual assessment. Homes in newer subdivisions east of I-35 — Trace, La Cima, Cottonwood Creek — sit on recently disturbed fill soil that may still be settling. Installers must complete thorough crack repair, grinding, and moisture testing before coating. On active clay slabs, flexible coating systems like polyaspartic or polyurea sometimes outperform rigid epoxy.
+For epoxy flooring, this dual-zone geology means every slab needs individual assessment. Homes in newer subdivisions east of I-35. Trace, La Cima, Cottonwood Creek all sit on recently disturbed fill soil that may still be settling. Installers must complete thorough crack repair, grinding, and moisture testing before coating. On active clay slabs, flexible coating systems like polyaspartic or polyurea sometimes outperform rigid epoxy.
 
 The San Marcos River corridor adds a third moisture variable: water-table conditions near the river create unique moisture cycling that affects slab conditions in adjacent neighborhoods like Dunbar and Blanco Gardens. Humidity averages 67% annually and morning readings frequently reach 85%, so professional installers target spring and fall application windows when temperatures hold between 60 and 80 degrees.
 
 ### Popular Applications in San Marcos
 
-With only 30.8% of housing owner-occupied — the lowest rate among our service-area towns — the epoxy customer base here concentrates in master-planned communities rather than the broad rental market driven by Texas State University's 47,513 students. Homeowners in Trace, La Cima, River Bridge Ranch, and Blanco Vista represent the primary residential market, typically with two-car garages of 400 to 576 square feet.
+With only 30.8% of housing owner-occupied, the epoxy customer base here concentrates in master-planned communities. Owner occupied is the lowest rate among our service-area towns. The broad rental market is driven by Texas State University's 47,513 students. Homeowners in Trace, La Cima, River Bridge Ranch, and Blanco Vista represent the primary residential market, typically with two-car garages of 400 to 576 square feet.
 
-The Kissing Tree 55+ active-adult community stands out as a particularly strong match for [garage floor epoxy](/garage-floor-epoxy/). Residents downsizing into lock-and-leave homes frequently convert garage space into workshops, hobby rooms, or extra living areas. Durable, low-maintenance epoxy flooring handles that transition well — it resists dust, moisture, and staining while requiring minimal upkeep during extended absences.
+The [Kissing Tree 55+ active-adult community](https://kissingtree.com/) stands out as a particularly strong match for [garage floor epoxy](/garage-floor-epoxy/). Residents downsizing into lock-and-leave homes frequently convert garage space into workshops, hobby rooms, or extra living areas. Durable, low-maintenance epoxy flooring handles that transition well. It resists dust, moisture, and staining while requiring minimal upkeep during extended absences.
 
 San Marcos's outdoor recreation culture also drives demand. The San Marcos River draws tubing and kayaking enthusiasts year-round, and many homeowners store sporting equipment, coolers, and wet gear in their garages. Epoxy's seamless surface cleans up quickly after a day on the water.
 
 ## Epoxy Flooring Options in San Marcos
 
-Residential garage projects in San Marcos typically call for [garage floor epoxy](/garage-floor-epoxy/) — a solid-color or flake-chip system that handles daily parking, workshop use, and gear storage. For the master-planned communities where most owner-occupied homes sit, this is the standard installation.
+Residential garage projects in San Marcos typically call for [garage floor epoxy](/garage-floor-epoxy/) which is a solid-color or flake-chip system that handles daily parking, workshop use, and gear storage. For the master-planned communities where most owner-occupied homes sit, this is the standard installation.
 
 The commercial side of San Marcos is substantial. The San Marcos Premium Outlets and Tanger Outlets together span roughly 1.2 million square feet with over 240 stores, drawing an estimated 11 million visitors per year. Retail spaces, warehouse bays, and restaurant floors in that corridor benefit from [commercial epoxy flooring](/commercial-epoxy-flooring/) engineered for heavy foot traffic and regular cleaning cycles. With approximately 1,424 active construction projects in the city — 589 new builds and 835 renovations — the pipeline for both new-construction and retrofit [epoxy floor coating](/epoxy-floor-coating/) work remains steady.
 
