@@ -25,12 +25,12 @@ const VALID_STATUSES = new Set([
 const server = createServer((req, res) => {
   if (req.method === 'GET' && (req.url === '/' || req.url === '/index.html')) {
     try {
-      const html = readFileSync(join(ROOT, 'research', 'dashboard.html'), 'utf8')
+      const html = readFileSync(join(ROOT, 'index.html'), 'utf8')
       res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' })
       res.end(html)
     } catch (err) {
       res.writeHead(500, { 'Content-Type': 'application/json' })
-      res.end(JSON.stringify({ error: 'Failed to read dashboard.html' }))
+      res.end(JSON.stringify({ error: 'Failed to read index.html' }))
     }
     return
   }

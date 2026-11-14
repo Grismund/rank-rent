@@ -5,7 +5,7 @@
  * Reads Phase 2 research data and generates a self-contained HTML dashboard.
  *
  * Usage: node scripts/build-dashboard.mjs
- * Output: research/dashboard.html
+ * Output: dashboard.html
  */
 
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs'
@@ -1046,7 +1046,7 @@ function rebuildDashboard() {
 
 // ── Write output ───────────────────────────────────────────
 
-const outPath = join(ROOT, 'research', 'dashboard.html')
+const outPath = join(ROOT, 'index.html')
 writeFileSync(outPath, html, 'utf8')
 console.log(`Dashboard written to ${outPath}`)
 console.log(`  ${funnel.total} candidates, ${funnel.validated} validated, ${funnel.shortlisted} shortlisted`)

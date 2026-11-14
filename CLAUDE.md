@@ -27,9 +27,9 @@ rank-rent/
   lib/                              shared business logic (scoring, candidates, trends, renters, etc.)
   scripts/                          operational scripts (dashboard, validation, enrichment, etc.)
   tests/                            vitest unit tests (1:1 with lib/, 20 test files)
+  index.html                        generated research dashboard (repo root)
   research/
     <niche>-<area>/                 validation data, teardown per candidate
-    dashboard.html                  generated research dashboard
     shortlist-*.md                  generated shortlists
   niches/<niche>/pack.yaml           niche content pack (sub-services, outlines, local vars)
   template/                         shared Astro site template (Phase 4)
@@ -160,7 +160,7 @@ Operational scripts in `scripts/`:
 
 | Script | Purpose |
 |--------|---------|
-| `build-dashboard.mjs` | Generates `research/dashboard.html` from all research data |
+| `build-dashboard.mjs` | Generates `index.html` from all research data |
 | `serve-dashboard.mjs` | Local dev server for the dashboard |
 | `volume-scan.mjs` | Batch keyword volume lookups via DataForSEO |
 | `city-scan.mjs` | City-level volume scanning using `cities.csv` |
