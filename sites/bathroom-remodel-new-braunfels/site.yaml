@@ -142,3 +142,39 @@ pages:
       min: 400
       max: 1000
     schema: FAQPage
+  - slug: /bathroom-remodel-cost-calculator/
+    type: tool
+    primary_keyword: bathroom remodel cost calculator new braunfels
+    h1: Bathroom Remodel Cost Calculator — New Braunfels, Texas
+    title: Bathroom Remodel Cost Calculator New Braunfels | TBD
+    meta_description_intent: >-
+      Free bathroom remodel cost calculator for New Braunfels, Texas. Get an
+      instant estimate for your project.
+    word_count:
+      min: 300
+      max: 800
+    schema:
+      - WebApplication
+      - FAQPage
+  - slug: /guides/tub-to-shower-conversion-costs/
+    type: guide
+    primary_keyword: tub to shower conversion cost new braunfels
+    h1: Tub-to-Shower Conversion Costs — New Braunfels, Texas
+    title: Tub-to-Shower Conversion Costs | TBD
+    meta_description_intent: >-
+      Tub-to-Shower Conversion Costs — a guide for New Braunfels, Texas
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500
+  - slug: /guides/how-long-does-a-bathroom-remodel-take/
+    type: guide
+    primary_keyword: how long does a bathroom remodel take
+    h1: How Long Does a Bathroom Remodel Take? — New Braunfels, Texas
+    title: How Long Does a Bathroom Remodel Take? | TBD
+    meta_description_intent: >-
+      How Long Does a Bathroom Remodel Take? — a guide for New Braunfels, Texas
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500

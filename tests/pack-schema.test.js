@@ -1,4 +1,7 @@
 import { describe, it, expect } from 'vitest'
+import { readFileSync, readdirSync } from 'node:fs'
+import { join } from 'node:path'
+import { load as yamlLoad } from 'js-yaml'
 import { validatePack } from '../lib/pack-schema.js'
 
 // --- Minimal valid pack fixture ---
@@ -302,4 +305,28 @@ describe('validatePack', () => {
     expect(result.valid).toBe(false)
     expect(result.errors.some(e => e.includes('guide_topics') && e.includes('2'))).toBe(true)
   })
+})
+
+// --- Integration: validate all 8 actual pack.yaml files ---
+
+const NICHES_DIR = join(new URL('.', import.meta.url).pathname, '..', 'niches')
+
+describe('actual pack.yaml files validate', () => {
+  const nicheDirs = readdirSync(NICHES_DIR, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+
+  it('finds exactly 8 niche packs', () => {
+    expect(nicheDirs).toHaveLength(8)
+  })
+
+  for (const niche of nicheDirs) {
+    it(`${niche}/pack.yaml passes validatePack with 0 errors`, () => {
+      const packPath = join(NICHES_DIR, niche, 'pack.yaml')
+      const pack = yamlLoad(readFileSync(packPath, 'utf-8'))
+      const result = validatePack(pack)
+      expect(result.errors).toEqual([])
+      expect(result.valid).toBe(true)
+    })
+  }
 })

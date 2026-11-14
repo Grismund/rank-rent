@@ -131,3 +131,39 @@ pages:
       min: 400
       max: 1000
     schema: FAQPage
+  - slug: /pool-cost-calculator/
+    type: tool
+    primary_keyword: pool cost calculator port st. lucie
+    h1: Pool Cost Calculator — Port St. Lucie, Florida
+    title: Pool Cost Calculator Port St. Lucie | TBD
+    meta_description_intent: >-
+      Free pool cost calculator for Port St. Lucie, Florida. Get an instant
+      estimate for your project.
+    word_count:
+      min: 300
+      max: 800
+    schema:
+      - WebApplication
+      - FAQPage
+  - slug: /guides/gunite-vs-fiberglass-vs-vinyl-pools/
+    type: guide
+    primary_keyword: gunite vs fiberglass pool florida
+    h1: Gunite vs. Fiberglass vs. Vinyl Pools — Port St. Lucie, Florida
+    title: Gunite vs. Fiberglass vs. Vinyl Pools | TBD
+    meta_description_intent: >-
+      Gunite vs. Fiberglass vs. Vinyl Pools — a guide for Port St. Lucie,
+      Florida homeowners.
+    word_count:
+      min: 600
+      max: 1500
+  - slug: /guides/how-long-does-it-take-to-build-a-pool/
+    type: guide
+    primary_keyword: how long to build a pool
+    h1: How Long Does It Take to Build a Pool? — Port St. Lucie, Florida
+    title: How Long Does It Take to Build a Pool? | TBD
+    meta_description_intent: >-
+      How Long Does It Take to Build a Pool? — a guide for Port St. Lucie,
+      Florida homeowners.
+    word_count:
+      min: 600
+      max: 1500

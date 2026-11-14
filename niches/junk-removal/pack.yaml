@@ -26,23 +26,43 @@ page_outlines:
     title: "{display_name} {city} | {brand}"
     sections:
       - h2: "Professional {display_name} Services"
+        h2_variants:
+          - "Professional {display_name} Services"
+          - "{display_name} Services for Home and Business"
+          - "Local {display_name} Haulers in {city}"
         content_guidance: "Introduce the service, who it's for, and the area served. Mention connecting homeowners with local haulers."
         h3s:
           - "Why Hire a Junk Removal Service?"
           - "What We Haul"
       - h2: "Our Services"
+        h2_variants:
+          - "Our Services"
+          - "{display_name} Services We Offer"
+          - "Hauling Options Available in {city}"
         content_guidance: "List and briefly describe each sub-service with links to service pages."
         h3s: []
       - h2: "Areas We Serve"
+        h2_variants:
+          - "Areas We Serve"
+          - "Service Areas Near {city}"
+          - "{city} and Surrounding Communities"
         content_guidance: "List towns served with links to town pages."
         h3s: []
       - h2: "How It Works"
+        h2_variants:
+          - "How It Works"
+          - "The Junk Removal Process"
+          - "From Quote to Clean Space"
         content_guidance: "3-step process: request a quote, schedule pickup, items hauled away."
         h3s:
           - "Step 1: Request a Quote"
           - "Step 2: Schedule Your Pickup"
           - "Step 3: We Haul It Away"
       - h2: "Get a Free Quote Today"
+        h2_variants:
+          - "Get a Free Quote Today"
+          - "Request Your Free Estimate"
+          - "Get Started with a Free Quote"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 800, max: 1500 }
@@ -52,21 +72,41 @@ page_outlines:
     title: "{sub_service} {city} | {brand}"
     sections:
       - h2: "What Is {sub_service}?"
+        h2_variants:
+          - "What Is {sub_service}?"
+          - "About {sub_service}"
+          - "Understanding {sub_service}"
         content_guidance: "Explain what the service involves and common scenarios."
         h3s: []
       - h2: "Common Items We Remove"
+        h2_variants:
+          - "Common Items We Remove"
+          - "What We Haul for {sub_service}"
+          - "Items Included in {sub_service}"
         content_guidance: "List typical items for this sub-service category."
         h3s: []
       - h2: "How {sub_service} Works"
+        h2_variants:
+          - "How {sub_service} Works"
+          - "The {sub_service} Process"
+          - "{sub_service} Step by Step"
         content_guidance: "Process overview from scheduling to completion."
         h3s:
           - "Booking and Estimates"
           - "Pickup Day"
           - "Responsible Disposal"
       - h2: "{sub_service} Cost in {city}"
+        h2_variants:
+          - "{sub_service} Cost in {city}"
+          - "How Much Does {sub_service} Cost?"
+          - "{sub_service} Pricing in {city}"
         content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($300-$500 avg job)."
         h3s: []
       - h2: "Schedule Your {sub_service}"
+        h2_variants:
+          - "Schedule Your {sub_service}"
+          - "Get a {sub_service} Quote"
+          - "Request {sub_service} Service"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -76,20 +116,40 @@ page_outlines:
     title: "{display_name} {city} {state} | {brand}"
     sections:
       - h2: "{display_name} Services in {city}"
+        h2_variants:
+          - "{display_name} Services in {city}"
+          - "{city} {display_name} Haulers"
+          - "Local {display_name} in {city}"
         content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
         h3s: []
       - h2: "Why {city} Residents Choose Professional Junk Removal"
+        h2_variants:
+          - "Why {city} Residents Choose Professional Junk Removal"
+          - "What Drives Junk Removal Demand in {city}"
+          - "Junk Removal Demand in {city}"
         content_guidance: "Local factors that drive demand: growth, climate, regulations."
         h3s:
           - "Local Disposal Options"
           - "Neighborhood Pickup"
       - h2: "What We Haul in {city}"
+        h2_variants:
+          - "What We Haul in {city}"
+          - "Items We Remove in {city}"
+          - "Common Junk Pickup Items in {city}"
         content_guidance: "Items commonly removed in this area, referencing local context."
         h3s: []
       - h2: "Local Regulations and Permits"
+        h2_variants:
+          - "Local Regulations and Permits"
+          - "{city} Waste Disposal Rules"
+          - "Permits and Ordinances in {city}"
         content_guidance: "City/county rules on curbside debris, dumpster permits, HOA restrictions."
         h3s: []
       - h2: "Get {display_name} in {city}"
+        h2_variants:
+          - "Get {display_name} in {city}"
+          - "Request a Quote in {city}"
+          - "Connect with {city} Haulers"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -99,18 +159,34 @@ page_outlines:
     title: "{display_name} Cost {city} | {brand}"
     sections:
       - h2: "Average {display_name} Prices"
+        h2_variants:
+          - "Average {display_name} Prices"
+          - "{display_name} Price Ranges"
+          - "Typical {display_name} Costs"
         content_guidance: "General price ranges: single item, partial load, full truck. Reference $300-$500 avg job value."
         h3s:
           - "Single Item Removal"
           - "Partial Truck Load"
           - "Full Truck Load"
       - h2: "What Affects {display_name} Pricing?"
+        h2_variants:
+          - "What Affects {display_name} Pricing?"
+          - "Factors That Influence {display_name} Cost"
+          - "Why {display_name} Prices Vary"
         content_guidance: "Factors: volume, weight, item type, accessibility, disposal fees."
         h3s: []
       - h2: "Tips to Lower Your {display_name} Cost"
+        h2_variants:
+          - "Tips to Lower Your {display_name} Cost"
+          - "How to Save on {display_name}"
+          - "Ways to Reduce Your Hauling Bill"
         content_guidance: "Practical advice: sort items, donate what you can, consolidate before pickup."
         h3s: []
       - h2: "Get a Free Estimate"
+        h2_variants:
+          - "Get a Free Estimate"
+          - "Request a Cost Estimate"
+          - "Get Your Free {display_name} Quote"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -120,6 +196,10 @@ page_outlines:
     title: "{display_name} FAQ {city} | {brand}"
     sections:
       - h2: "Frequently Asked Questions About {display_name}"
+        h2_variants:
+          - "Frequently Asked Questions About {display_name}"
+          - "{display_name} Questions Answered"
+          - "Common {display_name} Questions"
         content_guidance: "Answer each question in 2-4 sentences."
         h3s: []
     questions:
@@ -133,6 +213,88 @@ page_outlines:
       - "Does junk removal include recycling?"
     word_count: { min: 400, max: 1000 }
     schema: FAQPage
+
+  guide:
+    h1: "{topic} — {city}, {state}"
+    title: "{topic} | {brand}"
+    sections:
+      - h2: "Overview"
+        h2_variants:
+          - "Overview"
+          - "What You Need to Know"
+          - "Quick Summary"
+        content_guidance: "Introduce the topic and why it matters for homeowners dealing with junk."
+        h3s: []
+      - h2: "Key Differences"
+        h2_variants:
+          - "Key Differences"
+          - "How They Compare"
+          - "Side-by-Side Comparison"
+        content_guidance: "Main comparison points or detailed explanation depending on the guide topic."
+        h3s: []
+      - h2: "What This Means for Your Project"
+        h2_variants:
+          - "What This Means for Your Project"
+          - "How This Affects Your Decision"
+          - "Practical Takeaways"
+        content_guidance: "Actionable advice based on the comparison or explanation."
+        h3s: []
+      - h2: "Get Expert Advice"
+        h2_variants:
+          - "Get Expert Advice"
+          - "Talk to a Local Hauler"
+          - "Get a Professional Opinion"
+        content_guidance: "Call to action directing readers to get a quote."
+        h3s: []
+    word_count: { min: 600, max: 1500 }
+
+  tool_page:
+    h1: "{tool_name} — {city}, {state}"
+    title: "{tool_name} {city} | {brand}"
+    sections:
+      - h2: "How This Calculator Works"
+        h2_variants:
+          - "How This Calculator Works"
+          - "About This Estimator"
+          - "How to Use This Tool"
+        content_guidance: "Explain tool inputs (item picker, stairs/long carry) and what the estimate includes."
+        h3s: []
+      - h2: "Where Our Estimates Come From"
+        h2_variants:
+          - "Where Our Estimates Come From"
+          - "How We Calculate These Ranges"
+          - "About Our Pricing Data"
+        content_guidance: "Cite sources from niche brief. Include 'costs vary by hauler and load' note."
+        h3s: []
+      - h2: "Frequently Asked Questions"
+        h2_variants:
+          - "Frequently Asked Questions"
+          - "Common Questions About Hauling Costs"
+          - "Cost Estimator FAQ"
+        content_guidance: "3-5 FAQs the tool raises. FAQPage schema."
+        h3s: []
+      - h2: "Get an Accurate Quote"
+        h2_variants:
+          - "Get an Accurate Quote"
+          - "Request a Hauler Quote"
+          - "Get a Real Estimate from a Local Hauler"
+        content_guidance: "Call to action — the tool gives ranges, a hauler gives exact pricing."
+        h3s: []
+    word_count: { min: 300, max: 800 }
+    schema:
+      - WebApplication
+      - FAQPage
+
+tool:
+  type: load-size-estimator
+  default_slug: "/junk-removal-cost-estimator/"
+  inputs:
+    - items
+    - stairs_long_carry
+  outputs:
+    - cubic_yards
+    - truck_fraction
+    - price_range
 
 guide_topics:
   - type: cost_guide
@@ -148,6 +310,38 @@ guide_topics:
       - "Do I need to be home during junk removal?"
       - "Can junk removal crews take items from inside my home?"
       - "Does junk removal include recycling?"
+  - type: guide
+    topic: "Junk Removal vs. Renting a Dumpster"
+    target_keyword: "junk removal vs dumpster rental {city}"
+  - type: guide
+    topic: "What Junk Removal Companies Won't Take"
+    target_keyword: "what junk removal won't take"
+
+design:
+  tokens:
+    - junk-removal-1
+    - junk-removal-2
+  image_set: junk-removal
+
+figures:
+  - id: junk-load-tool-result
+    form: segmented
+    description: "Truck-fraction gauge with price range"
+    categories: ["\u215B truck", "\u00BC truck", "\u00BD truck", "\u00BE truck", "full"]
+    unit: dollars
+    brief_section: "Job Economics"
+  - id: junk-cost-by-load
+    form: range-bars
+    description: "Price range by load fraction"
+    categories: ["\u215B truck", "\u00BC truck", "\u00BD truck", "\u00BE truck", "full"]
+    unit: dollars
+    brief_section: "Job Economics"
+  - id: junk-vs-dumpster
+    form: side-by-side
+    description: "Junk removal vs dumpster rental cost comparison"
+    categories: [junk removal, dumpster rental]
+    unit: dollars
+    brief_section: "Job Economics"
 
 local_variables:
   standard:

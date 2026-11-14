@@ -131,3 +131,39 @@ pages:
       min: 400
       max: 1000
     schema: FAQPage
+  - slug: /garage-floor-cost-calculator/
+    type: tool
+    primary_keyword: garage floor cost calculator fort myers
+    h1: Garage Floor Cost Calculator — Fort Myers, Florida
+    title: Garage Floor Cost Calculator Fort Myers | TBD
+    meta_description_intent: >-
+      Free garage floor cost calculator for Fort Myers, Florida. Get an instant
+      estimate for your project.
+    word_count:
+      min: 300
+      max: 800
+    schema:
+      - WebApplication
+      - FAQPage
+  - slug: /guides/epoxy-vs-polyaspartic-garage-floors/
+    type: guide
+    primary_keyword: epoxy vs polyaspartic fort myers
+    h1: Epoxy vs. Polyaspartic Garage Floors — Fort Myers, Florida
+    title: Epoxy vs. Polyaspartic Garage Floors | TBD
+    meta_description_intent: >-
+      Epoxy vs. Polyaspartic Garage Floors — a guide for Fort Myers, Florida
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500
+  - slug: /guides/how-long-does-an-epoxy-floor-last/
+    type: guide
+    primary_keyword: how long does epoxy garage floor last
+    h1: How Long Does an Epoxy Floor Last? — Fort Myers, Florida
+    title: How Long Does an Epoxy Floor Last? | TBD
+    meta_description_intent: >-
+      How Long Does an Epoxy Floor Last? — a guide for Fort Myers, Florida
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500

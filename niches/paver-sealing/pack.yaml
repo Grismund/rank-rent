@@ -26,23 +26,43 @@ page_outlines:
     title: "{display_name} {city} | {brand}"
     sections:
       - h2: "Professional {display_name} Services"
+        h2_variants:
+          - "Professional {display_name} Services"
+          - "{display_name} Services for Home and Business"
+          - "Local Paver Contractors in {city}"
         content_guidance: "Introduce paver sealing, who it's for, and the area served. Mention connecting homeowners with local paver contractors."
         h3s:
           - "Why Seal Your Pavers?"
           - "Types of Pavers We Service"
       - h2: "Our Services"
+        h2_variants:
+          - "Our Services"
+          - "{display_name} Services We Offer"
+          - "Paver Options Available in {city}"
         content_guidance: "List and briefly describe each sub-service with links to service pages."
         h3s: []
       - h2: "Areas We Serve"
+        h2_variants:
+          - "Areas We Serve"
+          - "Service Areas Near {city}"
+          - "{city} and Surrounding Communities"
         content_guidance: "List towns served with links to town pages."
         h3s: []
       - h2: "How It Works"
+        h2_variants:
+          - "How It Works"
+          - "The Paver Sealing Process"
+          - "From Quote to Sealed Pavers"
         content_guidance: "3-step process: request a quote, schedule service, pavers sealed."
         h3s:
           - "Step 1: Request a Quote"
           - "Step 2: Schedule Your Service"
           - "Step 3: Pavers Cleaned and Sealed"
       - h2: "Get a Free Quote Today"
+        h2_variants:
+          - "Get a Free Quote Today"
+          - "Request Your Free Estimate"
+          - "Get Started with a Free Quote"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 800, max: 1500 }
@@ -52,21 +72,41 @@ page_outlines:
     title: "{sub_service} {city} | {brand}"
     sections:
       - h2: "What Is {sub_service}?"
+        h2_variants:
+          - "What Is {sub_service}?"
+          - "About {sub_service}"
+          - "Understanding {sub_service}"
         content_guidance: "Explain the service, materials used, and when homeowners need it."
         h3s: []
       - h2: "Benefits of {sub_service}"
+        h2_variants:
+          - "Benefits of {sub_service}"
+          - "Why Choose {sub_service}"
+          - "Advantages of {sub_service}"
         content_guidance: "Protection from weather, weeds, staining, fading, and settling."
         h3s: []
       - h2: "The {sub_service} Process"
+        h2_variants:
+          - "The {sub_service} Process"
+          - "How {sub_service} Is Done"
+          - "{sub_service} Step by Step"
         content_guidance: "Step-by-step from inspection to finished result."
         h3s:
           - "Surface Preparation"
           - "Application"
           - "Curing and Aftercare"
       - h2: "{sub_service} Cost in {city}"
+        h2_variants:
+          - "{sub_service} Cost in {city}"
+          - "How Much Does {sub_service} Cost?"
+          - "{sub_service} Pricing in {city}"
         content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($400-$1,200 avg job)."
         h3s: []
       - h2: "Schedule Your {sub_service}"
+        h2_variants:
+          - "Schedule Your {sub_service}"
+          - "Get a {sub_service} Quote"
+          - "Request {sub_service} Service"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -76,20 +116,40 @@ page_outlines:
     title: "{display_name} {city} {state} | {brand}"
     sections:
       - h2: "{display_name} Services in {city}"
+        h2_variants:
+          - "{display_name} Services in {city}"
+          - "{city} Paver Contractors"
+          - "Local {display_name} in {city}"
         content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
         h3s: []
       - h2: "Why {city} Homeowners Need Paver Sealing"
+        h2_variants:
+          - "Why {city} Homeowners Need Paver Sealing"
+          - "What Drives Paver Sealing Demand in {city}"
+          - "Paver Sealing Demand in {city}"
         content_guidance: "Local climate factors, sun exposure, rain, salt air if coastal, soil conditions."
         h3s:
           - "Climate and Weather Impact"
           - "Common Paver Issues in {city}"
       - h2: "Popular Paver Areas in {city} Homes"
+        h2_variants:
+          - "Popular Paver Areas in {city} Homes"
+          - "Where Pavers Are Used in {city}"
+          - "Common Paver Surfaces in {city}"
         content_guidance: "Driveways, patios, pool decks, walkways common in this market."
         h3s: []
       - h2: "Local Considerations"
+        h2_variants:
+          - "Local Considerations"
+          - "What to Know in {city}"
+          - "{city} HOA and Permit Rules"
         content_guidance: "HOA rules, permit requirements, neighborhood standards."
         h3s: []
       - h2: "Get {display_name} in {city}"
+        h2_variants:
+          - "Get {display_name} in {city}"
+          - "Request a Quote in {city}"
+          - "Connect with {city} Paver Pros"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -99,18 +159,34 @@ page_outlines:
     title: "{display_name} Cost {city} | {brand}"
     sections:
       - h2: "Average {display_name} Prices"
+        h2_variants:
+          - "Average {display_name} Prices"
+          - "{display_name} Price Ranges"
+          - "Typical {display_name} Costs"
         content_guidance: "General price ranges by project size. Reference $400-$1,200 avg job value."
         h3s:
           - "Small Patio or Walkway"
           - "Driveway Sealing"
           - "Full Property (Driveway + Patio + Pool Deck)"
       - h2: "What Affects {display_name} Pricing?"
+        h2_variants:
+          - "What Affects {display_name} Pricing?"
+          - "Factors That Influence {display_name} Cost"
+          - "Why {display_name} Prices Vary"
         content_guidance: "Factors: square footage, paver condition, sealer type (wet-look vs matte), cleaning needed."
         h3s: []
       - h2: "Sealer Types and Cost Differences"
+        h2_variants:
+          - "Sealer Types and Cost Differences"
+          - "Comparing Paver Sealer Costs"
+          - "Wet-Look vs. Natural vs. Penetrating Sealers"
         content_guidance: "Wet-look vs matte vs penetrating sealers, cost per square foot."
         h3s: []
       - h2: "Get a Free Estimate"
+        h2_variants:
+          - "Get a Free Estimate"
+          - "Request a Cost Estimate"
+          - "Get Your Free {display_name} Quote"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -120,6 +196,10 @@ page_outlines:
     title: "{display_name} FAQ {city} | {brand}"
     sections:
       - h2: "Frequently Asked Questions About {display_name}"
+        h2_variants:
+          - "Frequently Asked Questions About {display_name}"
+          - "{display_name} Questions Answered"
+          - "Common {display_name} Questions"
         content_guidance: "Answer each question in 2-4 sentences."
         h3s: []
     questions:
@@ -133,6 +213,89 @@ page_outlines:
       - "How long does paver sealing last?"
     word_count: { min: 400, max: 1000 }
     schema: FAQPage
+
+  guide:
+    h1: "{topic} — {city}, {state}"
+    title: "{topic} | {brand}"
+    sections:
+      - h2: "Overview"
+        h2_variants:
+          - "Overview"
+          - "What You Need to Know"
+          - "Quick Summary"
+        content_guidance: "Introduce the topic and why it matters for homeowners with paver surfaces."
+        h3s: []
+      - h2: "Key Differences"
+        h2_variants:
+          - "Key Differences"
+          - "How They Compare"
+          - "Side-by-Side Comparison"
+        content_guidance: "Main comparison points or detailed explanation depending on the guide topic."
+        h3s: []
+      - h2: "What This Means for Your Project"
+        h2_variants:
+          - "What This Means for Your Project"
+          - "How This Affects Your Decision"
+          - "Practical Takeaways"
+        content_guidance: "Actionable advice based on the comparison or explanation."
+        h3s: []
+      - h2: "Get Expert Advice"
+        h2_variants:
+          - "Get Expert Advice"
+          - "Talk to a Local Paver Pro"
+          - "Get a Professional Opinion"
+        content_guidance: "Call to action directing readers to get a quote."
+        h3s: []
+    word_count: { min: 600, max: 1500 }
+
+  tool_page:
+    h1: "{tool_name} — {city}, {state}"
+    title: "{tool_name} {city} | {brand}"
+    sections:
+      - h2: "How This Calculator Works"
+        h2_variants:
+          - "How This Calculator Works"
+          - "About This Estimator"
+          - "How to Use This Tool"
+        content_guidance: "Explain tool inputs (area, condition, finish, re-sand) and what the estimate includes."
+        h3s: []
+      - h2: "Where Our Estimates Come From"
+        h2_variants:
+          - "Where Our Estimates Come From"
+          - "How We Calculate These Ranges"
+          - "About Our Pricing Data"
+        content_guidance: "Cite sources from niche brief. Include 'costs vary by contractor and site conditions' note."
+        h3s: []
+      - h2: "Frequently Asked Questions"
+        h2_variants:
+          - "Frequently Asked Questions"
+          - "Common Questions About Sealing Costs"
+          - "Cost Estimator FAQ"
+        content_guidance: "3-5 FAQs the tool raises. FAQPage schema."
+        h3s: []
+      - h2: "Get an Accurate Quote"
+        h2_variants:
+          - "Get an Accurate Quote"
+          - "Request a Contractor Quote"
+          - "Get a Real Estimate from a Local Pro"
+        content_guidance: "Call to action — the tool gives ranges, a contractor gives exact pricing."
+        h3s: []
+    word_count: { min: 300, max: 800 }
+    schema:
+      - WebApplication
+      - FAQPage
+
+tool:
+  type: paver-sealing-estimator
+  default_slug: "/paver-sealing-cost-calculator/"
+  inputs:
+    - area
+    - condition
+    - finish
+    - re_sand
+  outputs:
+    - total_range
+    - reseal_interval
 
 guide_topics:
   - type: cost_guide
@@ -148,6 +311,38 @@ guide_topics:
       - "Should pavers be cleaned before sealing?"
       - "What is wet-look paver sealer?"
       - "How long does paver sealing last?"
+  - type: guide
+    topic: "How Often Should Pavers Be Sealed?"
+    target_keyword: "how often seal pavers {state}"
+  - type: guide
+    topic: "Wet-Look vs. Natural Paver Sealer"
+    target_keyword: "wet look vs natural paver sealer"
+
+design:
+  tokens:
+    - paver-sealing-1
+    - paver-sealing-2
+  image_set: paver-sealing
+
+figures:
+  - id: paver-seal-tool-result
+    form: range-bars
+    description: "Your estimate vs typical for that area size"
+    categories: [small area, medium area, large area]
+    unit: dollars
+    brief_section: "Job Economics"
+  - id: paver-seal-cost-by-finish
+    form: range-bars
+    description: "$/sq ft range by sealer finish"
+    categories: [natural, wet-look, high-gloss]
+    unit: "$/sq ft"
+    brief_section: "Job Economics"
+  - id: paver-reseal-interval
+    form: side-by-side
+    description: "Re-seal interval by finish type"
+    categories: [natural, wet-look, high-gloss]
+    unit: years
+    brief_section: "Manufacturer specifications"
 
 local_variables:
   standard:

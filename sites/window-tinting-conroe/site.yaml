@@ -131,3 +131,35 @@ pages:
       min: 400
       max: 1000
     schema: FAQPage
+  - slug: /window-tint-calculator/
+    type: tool
+    primary_keyword: window tint calculator conroe
+    h1: Window Tint Calculator — Conroe, Texas
+    title: Window Tint Calculator Conroe | TBD
+    meta_description_intent: >-
+      Free window tint calculator for Conroe, Texas. Get an instant estimate for
+      your project.
+    word_count:
+      min: 300
+      max: 800
+    schema:
+      - WebApplication
+      - FAQPage
+  - slug: /guides/state-window-tint-laws-explained/
+    type: guide
+    primary_keyword: texas window tint laws
+    h1: State Window Tint Laws Explained — Conroe, Texas
+    title: State Window Tint Laws Explained | TBD
+    meta_description_intent: State Window Tint Laws Explained — a guide for Conroe, Texas homeowners.
+    word_count:
+      min: 600
+      max: 1500
+  - slug: /guides/ceramic-vs-carbon-vs-dyed-tint/
+    type: guide
+    primary_keyword: ceramic vs carbon tint
+    h1: Ceramic vs. Carbon vs. Dyed Tint — Conroe, Texas
+    title: Ceramic vs. Carbon vs. Dyed Tint | TBD
+    meta_description_intent: Ceramic vs. Carbon vs. Dyed Tint — a guide for Conroe, Texas homeowners.
+    word_count:
+      min: 600
+      max: 1500

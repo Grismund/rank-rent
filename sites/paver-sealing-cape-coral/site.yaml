@@ -131,3 +131,39 @@ pages:
       min: 400
       max: 1000
     schema: FAQPage
+  - slug: /paver-sealing-cost-calculator/
+    type: tool
+    primary_keyword: paver sealing cost calculator cape coral
+    h1: Paver Sealing Cost Calculator — Cape Coral, Florida
+    title: Paver Sealing Cost Calculator Cape Coral | TBD
+    meta_description_intent: >-
+      Free paver sealing cost calculator for Cape Coral, Florida. Get an instant
+      estimate for your project.
+    word_count:
+      min: 300
+      max: 800
+    schema:
+      - WebApplication
+      - FAQPage
+  - slug: /guides/how-often-should-pavers-be-sealed/
+    type: guide
+    primary_keyword: how often seal pavers florida
+    h1: How Often Should Pavers Be Sealed? — Cape Coral, Florida
+    title: How Often Should Pavers Be Sealed? | TBD
+    meta_description_intent: >-
+      How Often Should Pavers Be Sealed? — a guide for Cape Coral, Florida
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500
+  - slug: /guides/wet-look-vs-natural-paver-sealer/
+    type: guide
+    primary_keyword: wet look vs natural paver sealer
+    h1: Wet-Look vs. Natural Paver Sealer — Cape Coral, Florida
+    title: Wet-Look vs. Natural Paver Sealer | TBD
+    meta_description_intent: >-
+      Wet-Look vs. Natural Paver Sealer — a guide for Cape Coral, Florida
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500

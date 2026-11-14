@@ -131,3 +131,39 @@ pages:
       min: 400
       max: 1000
     schema: FAQPage
+  - slug: /window-tint-calculator/
+    type: tool
+    primary_keyword: window tint calculator cape coral
+    h1: Window Tint Calculator — Cape Coral, Florida
+    title: Window Tint Calculator Cape Coral | TBD
+    meta_description_intent: >-
+      Free window tint calculator for Cape Coral, Florida. Get an instant
+      estimate for your project.
+    word_count:
+      min: 300
+      max: 800
+    schema:
+      - WebApplication
+      - FAQPage
+  - slug: /guides/state-window-tint-laws-explained/
+    type: guide
+    primary_keyword: florida window tint laws
+    h1: State Window Tint Laws Explained — Cape Coral, Florida
+    title: State Window Tint Laws Explained | TBD
+    meta_description_intent: >-
+      State Window Tint Laws Explained — a guide for Cape Coral, Florida
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500
+  - slug: /guides/ceramic-vs-carbon-vs-dyed-tint/
+    type: guide
+    primary_keyword: ceramic vs carbon tint
+    h1: Ceramic vs. Carbon vs. Dyed Tint — Cape Coral, Florida
+    title: Ceramic vs. Carbon vs. Dyed Tint | TBD
+    meta_description_intent: >-
+      Ceramic vs. Carbon vs. Dyed Tint — a guide for Cape Coral, Florida
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500

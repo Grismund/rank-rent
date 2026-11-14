@@ -26,23 +26,43 @@ page_outlines:
     title: "{display_name} {city} | {brand}"
     sections:
       - h2: "Professional {display_name} Services"
+        h2_variants:
+          - "Professional {display_name} Services"
+          - "{display_name} Services for Your Home"
+          - "Local Pool Contractors in {city}"
         content_guidance: "Introduce pool building, who it's for, and the area served. Mention connecting homeowners with local pool contractors."
         h3s:
           - "Why Build a Pool?"
           - "Pool Types We Build"
       - h2: "Our Services"
+        h2_variants:
+          - "Our Services"
+          - "Pool Services We Offer"
+          - "Pool Options Available in {city}"
         content_guidance: "List and briefly describe each sub-service with links to service pages."
         h3s: []
       - h2: "Areas We Serve"
+        h2_variants:
+          - "Areas We Serve"
+          - "Service Areas Near {city}"
+          - "{city} and Surrounding Communities"
         content_guidance: "List towns served with links to town pages."
         h3s: []
       - h2: "How It Works"
+        h2_variants:
+          - "How It Works"
+          - "The Pool Building Process"
+          - "From Quote to Finished Pool"
         content_guidance: "3-step process: request a quote, design consultation, construction begins."
         h3s:
           - "Step 1: Request a Quote"
           - "Step 2: Design and Permits"
           - "Step 3: Construction and Completion"
       - h2: "Get a Free Quote Today"
+        h2_variants:
+          - "Get a Free Quote Today"
+          - "Request Your Free Estimate"
+          - "Get Started with a Free Quote"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 800, max: 1500 }
@@ -52,21 +72,41 @@ page_outlines:
     title: "{sub_service} {city} | {brand}"
     sections:
       - h2: "What Is {sub_service}?"
+        h2_variants:
+          - "What Is {sub_service}?"
+          - "About {sub_service}"
+          - "Understanding {sub_service}"
         content_guidance: "Explain what the service involves, typical scope, and who benefits most."
         h3s: []
       - h2: "Options for {sub_service}"
+        h2_variants:
+          - "Options for {sub_service}"
+          - "{sub_service} Materials and Styles"
+          - "Choose the Right {sub_service}"
         content_guidance: "Materials, styles, and design choices available for this sub-service."
         h3s: []
       - h2: "The {sub_service} Process"
+        h2_variants:
+          - "The {sub_service} Process"
+          - "How {sub_service} Is Done"
+          - "{sub_service} Step by Step"
         content_guidance: "Step-by-step from planning to final inspection."
         h3s:
           - "Design and Permits"
           - "Excavation and Construction"
           - "Finishing and Inspection"
       - h2: "{sub_service} Cost in {city}"
+        h2_variants:
+          - "{sub_service} Cost in {city}"
+          - "How Much Does {sub_service} Cost?"
+          - "{sub_service} Pricing in {city}"
         content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($25,000-$65,000 for new builds)."
         h3s: []
       - h2: "Schedule Your {sub_service} Consultation"
+        h2_variants:
+          - "Schedule Your {sub_service} Consultation"
+          - "Get a {sub_service} Quote"
+          - "Request {sub_service} Service"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -76,20 +116,40 @@ page_outlines:
     title: "{display_name} {city} {state} | {brand}"
     sections:
       - h2: "{display_name} Services in {city}"
+        h2_variants:
+          - "{display_name} Services in {city}"
+          - "{city} Pool Contractors"
+          - "Local {display_name} in {city}"
         content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
         h3s: []
       - h2: "Why {city} Homeowners Are Building Pools"
+        h2_variants:
+          - "Why {city} Homeowners Are Building Pools"
+          - "What Drives Pool Demand in {city}"
+          - "Pool Building Trends in {city}"
         content_guidance: "Local climate, year-round swim season, home values, growth trends."
         h3s:
           - "Year-Round Swimming Climate"
           - "Home Value and Lifestyle"
       - h2: "Permits and Regulations in {city}"
+        h2_variants:
+          - "Permits and Regulations in {city}"
+          - "{city} Pool Permits"
+          - "Pool Permit Requirements in {city}"
         content_guidance: "Pool permit process, barrier laws, setback requirements, HOA rules."
         h3s: []
       - h2: "Popular Pool Styles in {city}"
+        h2_variants:
+          - "Popular Pool Styles in {city}"
+          - "Pool Design Trends in {city}"
+          - "What {city} Homeowners Are Building"
         content_guidance: "Regional preferences: fiberglass vs concrete, screen enclosures, salt water systems."
         h3s: []
       - h2: "Get {display_name} in {city}"
+        h2_variants:
+          - "Get {display_name} in {city}"
+          - "Request a Quote in {city}"
+          - "Connect with {city} Pool Contractors"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -99,18 +159,34 @@ page_outlines:
     title: "Pool Cost {city} | {brand}"
     sections:
       - h2: "Average Pool Construction Prices"
+        h2_variants:
+          - "Average Pool Construction Prices"
+          - "Pool Construction Price Ranges"
+          - "Typical Pool Building Costs"
         content_guidance: "General price ranges by pool type. Reference $25,000-$65,000 avg job value."
         h3s:
           - "Fiberglass Pool"
           - "Concrete (Gunite) Pool"
           - "Vinyl Liner Pool"
       - h2: "What Affects Pool Construction Pricing?"
+        h2_variants:
+          - "What Affects Pool Construction Pricing?"
+          - "Factors That Influence Pool Cost"
+          - "Why Pool Prices Vary"
         content_guidance: "Factors: pool size, type, depth, decking, screen enclosure, permits, soil conditions, water table."
         h3s: []
       - h2: "Additional Costs to Plan For"
+        h2_variants:
+          - "Additional Costs to Plan For"
+          - "Hidden Pool Costs"
+          - "Beyond the Base Price"
         content_guidance: "Screen enclosure, landscaping, equipment, permits, ongoing maintenance."
         h3s: []
       - h2: "Get a Free Estimate"
+        h2_variants:
+          - "Get a Free Estimate"
+          - "Request a Cost Estimate"
+          - "Get Your Free Pool Quote"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -120,6 +196,10 @@ page_outlines:
     title: "{display_name} FAQ {city} | {brand}"
     sections:
       - h2: "Frequently Asked Questions About {display_name}"
+        h2_variants:
+          - "Frequently Asked Questions About {display_name}"
+          - "Pool Building Questions Answered"
+          - "Common Pool Construction Questions"
         content_guidance: "Answer each question in 2-4 sentences."
         h3s: []
     questions:
@@ -133,6 +213,91 @@ page_outlines:
       - "What is the best time of year to build a pool?"
     word_count: { min: 400, max: 1000 }
     schema: FAQPage
+
+  guide:
+    h1: "{topic} — {city}, {state}"
+    title: "{topic} | {brand}"
+    sections:
+      - h2: "Overview"
+        h2_variants:
+          - "Overview"
+          - "What You Need to Know"
+          - "Quick Summary"
+        content_guidance: "Introduce the topic and why it matters for homeowners considering a pool."
+        h3s: []
+      - h2: "Key Differences"
+        h2_variants:
+          - "Key Differences"
+          - "How They Compare"
+          - "Side-by-Side Comparison"
+        content_guidance: "Main comparison points or detailed explanation depending on the guide topic."
+        h3s: []
+      - h2: "What This Means for Your Project"
+        h2_variants:
+          - "What This Means for Your Project"
+          - "How This Affects Your Decision"
+          - "Practical Takeaways"
+        content_guidance: "Actionable advice based on the comparison or explanation."
+        h3s: []
+      - h2: "Get Expert Advice"
+        h2_variants:
+          - "Get Expert Advice"
+          - "Talk to a Local Pool Builder"
+          - "Get a Professional Opinion"
+        content_guidance: "Call to action directing readers to get a quote."
+        h3s: []
+    word_count: { min: 600, max: 1500 }
+
+  tool_page:
+    h1: "{tool_name} — {city}, {state}"
+    title: "{tool_name} {city} | {brand}"
+    sections:
+      - h2: "How This Calculator Works"
+        h2_variants:
+          - "How This Calculator Works"
+          - "About This Estimator"
+          - "How to Use This Tool"
+        content_guidance: "Explain tool inputs (pool type, size, features) and what the estimate includes."
+        h3s: []
+      - h2: "Where Our Estimates Come From"
+        h2_variants:
+          - "Where Our Estimates Come From"
+          - "How We Calculate These Ranges"
+          - "About Our Pricing Data"
+        content_guidance: "Cite sources from niche brief. Include 'costs vary by contractor and site conditions' note."
+        h3s: []
+      - h2: "Frequently Asked Questions"
+        h2_variants:
+          - "Frequently Asked Questions"
+          - "Common Questions About Pool Costs"
+          - "Cost Estimator FAQ"
+        content_guidance: "3-5 FAQs the tool raises. FAQPage schema."
+        h3s: []
+      - h2: "Get an Accurate Quote"
+        h2_variants:
+          - "Get an Accurate Quote"
+          - "Request a Builder Quote"
+          - "Get a Real Estimate from a Local Builder"
+        content_guidance: "Call to action — the tool gives ranges, a builder gives exact pricing."
+        h3s: []
+    word_count: { min: 300, max: 800 }
+    schema:
+      - WebApplication
+      - FAQPage
+
+tool:
+  type: pool-cost-estimator
+  default_slug: "/pool-cost-calculator/"
+  inputs:
+    - pool_type
+    - size
+    - features
+  outputs:
+    - base_range
+    - feature_adds
+    - total
+    - timeline
+    - permit_note
 
 guide_topics:
   - type: cost_guide
@@ -148,6 +313,38 @@ guide_topics:
       - "What size pool fits a typical backyard?"
       - "Can I finance a pool?"
       - "What is the best time of year to build a pool?"
+  - type: guide
+    topic: "Gunite vs. Fiberglass vs. Vinyl Pools"
+    target_keyword: "gunite vs fiberglass pool {state}"
+  - type: guide
+    topic: "How Long Does It Take to Build a Pool?"
+    target_keyword: "how long to build a pool"
+
+design:
+  tokens:
+    - pool-builders-1
+    - pool-builders-2
+  image_set: pool-builders
+
+figures:
+  - id: pool-cost-tool-result
+    form: segmented
+    description: "Base + feature adds with total range"
+    categories: [base, spa, screen, heater, saltwater, deck]
+    unit: dollars
+    brief_section: "Job Economics"
+  - id: pool-cost-by-type
+    form: range-bars
+    description: "Base range by pool type"
+    categories: [gunite, fiberglass, vinyl]
+    unit: dollars
+    brief_section: "Job Economics"
+  - id: pool-timeline-by-type
+    form: side-by-side
+    description: "Build timeline by pool type"
+    categories: [gunite, fiberglass, vinyl]
+    unit: weeks
+    brief_section: "Job Economics"
 
 local_variables:
   standard:

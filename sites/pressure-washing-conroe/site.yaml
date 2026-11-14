@@ -131,3 +131,37 @@ pages:
       min: 400
       max: 1000
     schema: FAQPage
+  - slug: /pressure-washing-cost-calculator/
+    type: tool
+    primary_keyword: pressure washing cost calculator conroe
+    h1: Pressure Washing Cost Calculator — Conroe, Texas
+    title: Pressure Washing Cost Calculator Conroe | TBD
+    meta_description_intent: >-
+      Free pressure washing cost calculator for Conroe, Texas. Get an instant
+      estimate for your project.
+    word_count:
+      min: 300
+      max: 800
+    schema:
+      - WebApplication
+      - FAQPage
+  - slug: /guides/soft-washing-vs-pressure-washing/
+    type: guide
+    primary_keyword: soft wash vs pressure wash
+    h1: Soft Washing vs. Pressure Washing — Conroe, Texas
+    title: Soft Washing vs. Pressure Washing | TBD
+    meta_description_intent: Soft Washing vs. Pressure Washing — a guide for Conroe, Texas homeowners.
+    word_count:
+      min: 600
+      max: 1500
+  - slug: /guides/how-often-should-you-pressure-wash-your-house/
+    type: guide
+    primary_keyword: how often pressure wash house texas
+    h1: How Often Should You Pressure Wash Your House? — Conroe, Texas
+    title: How Often Should You Pressure Wash Your House? | TBD
+    meta_description_intent: >-
+      How Often Should You Pressure Wash Your House? — a guide for Conroe, Texas
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500

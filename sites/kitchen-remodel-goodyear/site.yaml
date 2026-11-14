@@ -131,3 +131,39 @@ pages:
       min: 400
       max: 1000
     schema: FAQPage
+  - slug: /kitchen-remodel-cost-calculator/
+    type: tool
+    primary_keyword: kitchen remodel cost calculator goodyear
+    h1: Kitchen Remodel Cost Calculator — Goodyear, Arizona
+    title: Kitchen Remodel Cost Calculator Goodyear | TBD
+    meta_description_intent: >-
+      Free kitchen remodel cost calculator for Goodyear, Arizona. Get an instant
+      estimate for your project.
+    word_count:
+      min: 300
+      max: 800
+    schema:
+      - WebApplication
+      - FAQPage
+  - slug: /guides/cabinet-refacing-vs-replacement/
+    type: guide
+    primary_keyword: cabinet refacing vs replacing
+    h1: Cabinet Refacing vs. Replacement — Goodyear, Arizona
+    title: Cabinet Refacing vs. Replacement | TBD
+    meta_description_intent: >-
+      Cabinet Refacing vs. Replacement — a guide for Goodyear, Arizona
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500
+  - slug: /guides/how-long-does-a-kitchen-remodel-take/
+    type: guide
+    primary_keyword: how long does a kitchen remodel take
+    h1: How Long Does a Kitchen Remodel Take? — Goodyear, Arizona
+    title: How Long Does a Kitchen Remodel Take? | TBD
+    meta_description_intent: >-
+      How Long Does a Kitchen Remodel Take? — a guide for Goodyear, Arizona
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500

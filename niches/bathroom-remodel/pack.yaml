@@ -30,23 +30,43 @@ page_outlines:
     title: "{display_name} {city} | {brand}"
     sections:
       - h2: "Professional {display_name} Services"
+        h2_variants:
+          - "Professional {display_name} Services"
+          - "{display_name} Services for Your Home"
+          - "Local {display_name} Contractors in {city}"
         content_guidance: "Introduce bathroom remodeling, who it's for, and the area served. Mention connecting homeowners with local remodeling contractors."
         h3s:
           - "Why Remodel Your Bathroom?"
           - "Types of Bathroom Remodels"
       - h2: "Our Services"
+        h2_variants:
+          - "Our Services"
+          - "{display_name} Services We Offer"
+          - "Remodeling Options Available in {city}"
         content_guidance: "List and briefly describe each sub-service with links to service pages."
         h3s: []
       - h2: "Areas We Serve"
+        h2_variants:
+          - "Areas We Serve"
+          - "Service Areas Near {city}"
+          - "{city} and Surrounding Communities"
         content_guidance: "List towns served with links to town pages."
         h3s: []
       - h2: "How It Works"
+        h2_variants:
+          - "How It Works"
+          - "The Bathroom Remodel Process"
+          - "From Quote to Finished Bathroom"
         content_guidance: "3-step process: request a quote, plan your remodel, construction begins."
         h3s:
           - "Step 1: Request a Quote"
           - "Step 2: Design and Planning"
           - "Step 3: Construction and Completion"
       - h2: "Get a Free Quote Today"
+        h2_variants:
+          - "Get a Free Quote Today"
+          - "Request Your Free Estimate"
+          - "Get Started with a Free Quote"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 800, max: 1500 }
@@ -56,21 +76,41 @@ page_outlines:
     title: "{sub_service} {city} | {brand}"
     sections:
       - h2: "What Is {sub_service}?"
+        h2_variants:
+          - "What Is {sub_service}?"
+          - "About {sub_service}"
+          - "Understanding {sub_service}"
         content_guidance: "Explain what the service involves, typical scope, and who benefits most."
         h3s: []
       - h2: "What to Expect During {sub_service}"
+        h2_variants:
+          - "What to Expect During {sub_service}"
+          - "The {sub_service} Process"
+          - "How {sub_service} Works"
         content_guidance: "Timeline, disruption, materials, and typical decisions homeowners face."
         h3s:
           - "Planning and Design"
           - "Demolition and Rough-In"
           - "Finishing and Inspection"
       - h2: "Popular Options for {sub_service}"
+        h2_variants:
+          - "Popular Options for {sub_service}"
+          - "{sub_service} Materials and Styles"
+          - "Choices for Your {sub_service}"
         content_guidance: "Common material and fixture choices: tile, vanity, fixtures, lighting."
         h3s: []
       - h2: "{sub_service} Cost in {city}"
+        h2_variants:
+          - "{sub_service} Cost in {city}"
+          - "How Much Does {sub_service} Cost?"
+          - "{sub_service} Pricing in {city}"
         content_guidance: "General cost range with 'costs vary' disclaimer. Reference niche economics ($6,000-$15,000 avg job)."
         h3s: []
       - h2: "Schedule Your {sub_service} Consultation"
+        h2_variants:
+          - "Schedule Your {sub_service} Consultation"
+          - "Get a {sub_service} Quote"
+          - "Request {sub_service} Service"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -80,20 +120,40 @@ page_outlines:
     title: "{display_name} {city} {state} | {brand}"
     sections:
       - h2: "{display_name} Services in {city}"
+        h2_variants:
+          - "{display_name} Services in {city}"
+          - "{city} {display_name} Contractors"
+          - "Local {display_name} in {city}"
         content_guidance: "Tie the service to the specific town. Use at least 3 local facts from the town research sheet."
         h3s: []
       - h2: "Why {city} Homeowners Are Remodeling Bathrooms"
+        h2_variants:
+          - "Why {city} Homeowners Are Remodeling Bathrooms"
+          - "What Drives Bathroom Remodel Demand in {city}"
+          - "Bathroom Remodeling Trends in {city}"
         content_guidance: "Local housing market, home ages, growth trends driving remodel demand."
         h3s:
           - "Home Ages and Common Bathroom Issues"
           - "Local Housing Market Trends"
       - h2: "Permits and Inspections in {city}"
+        h2_variants:
+          - "Permits and Inspections in {city}"
+          - "{city} Bathroom Remodel Permits"
+          - "Permit Requirements in {city}"
         content_guidance: "Local permit requirements, plumbing code, inspection process."
         h3s: []
       - h2: "Popular Bathroom Styles in {city}"
+        h2_variants:
+          - "Popular Bathroom Styles in {city}"
+          - "Bathroom Design Trends in {city}"
+          - "What {city} Homeowners Are Choosing"
         content_guidance: "Regional preferences for materials, layouts, and fixtures."
         h3s: []
       - h2: "Get {display_name} in {city}"
+        h2_variants:
+          - "Get {display_name} in {city}"
+          - "Request a Quote in {city}"
+          - "Connect with {city} Remodeling Contractors"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -103,18 +163,34 @@ page_outlines:
     title: "{display_name} Cost {city} | {brand}"
     sections:
       - h2: "Average {display_name} Prices"
+        h2_variants:
+          - "Average {display_name} Prices"
+          - "{display_name} Price Ranges"
+          - "Typical {display_name} Costs"
         content_guidance: "General price ranges by project scope. Reference $6,000-$15,000 avg job value."
         h3s:
           - "Budget Bathroom Remodel"
           - "Mid-Range Bathroom Remodel"
           - "High-End Bathroom Remodel"
       - h2: "What Affects {display_name} Pricing?"
+        h2_variants:
+          - "What Affects {display_name} Pricing?"
+          - "Factors That Influence {display_name} Cost"
+          - "Why {display_name} Prices Vary"
         content_guidance: "Factors: bathroom size, fixture quality, plumbing changes, tile, labor rates."
         h3s: []
       - h2: "Cost Breakdown by Component"
+        h2_variants:
+          - "Cost Breakdown by Component"
+          - "Where Your {display_name} Budget Goes"
+          - "{display_name} Cost by Category"
         content_guidance: "Approximate share of budget: labor, tile, fixtures, plumbing, permits."
         h3s: []
       - h2: "Get a Free Estimate"
+        h2_variants:
+          - "Get a Free Estimate"
+          - "Request a Cost Estimate"
+          - "Get Your Free {display_name} Quote"
         content_guidance: "Call to action with phone number."
         h3s: []
     word_count: { min: 500, max: 1000 }
@@ -124,6 +200,10 @@ page_outlines:
     title: "{display_name} FAQ {city} | {brand}"
     sections:
       - h2: "Frequently Asked Questions About {display_name}"
+        h2_variants:
+          - "Frequently Asked Questions About {display_name}"
+          - "{display_name} Questions Answered"
+          - "Common {display_name} Questions"
         content_guidance: "Answer each question in 2-4 sentences."
         h3s: []
     questions:
@@ -137,6 +217,89 @@ page_outlines:
       - "Can a bathroom be remodeled in stages?"
     word_count: { min: 400, max: 1000 }
     schema: FAQPage
+
+  guide:
+    h1: "{topic} — {city}, {state}"
+    title: "{topic} | {brand}"
+    sections:
+      - h2: "Overview"
+        h2_variants:
+          - "Overview"
+          - "What You Need to Know"
+          - "Quick Summary"
+        content_guidance: "Introduce the topic and why it matters for homeowners considering a bathroom remodel."
+        h3s: []
+      - h2: "Key Differences"
+        h2_variants:
+          - "Key Differences"
+          - "How They Compare"
+          - "Side-by-Side Comparison"
+        content_guidance: "Main comparison points or detailed explanation depending on the guide topic."
+        h3s: []
+      - h2: "What This Means for Your Project"
+        h2_variants:
+          - "What This Means for Your Project"
+          - "How This Affects Your Decision"
+          - "Practical Takeaways"
+        content_guidance: "Actionable advice based on the comparison or explanation."
+        h3s: []
+      - h2: "Get Expert Advice"
+        h2_variants:
+          - "Get Expert Advice"
+          - "Talk to a Local Contractor"
+          - "Get a Professional Opinion"
+        content_guidance: "Call to action directing readers to get a quote."
+        h3s: []
+    word_count: { min: 600, max: 1500 }
+
+  tool_page:
+    h1: "{tool_name} — {city}, {state}"
+    title: "{tool_name} {city} | {brand}"
+    sections:
+      - h2: "How This Calculator Works"
+        h2_variants:
+          - "How This Calculator Works"
+          - "About This Estimator"
+          - "How to Use This Tool"
+        content_guidance: "Explain tool inputs (bathroom type, scope, finish tier) and what the estimate includes."
+        h3s: []
+      - h2: "Where Our Estimates Come From"
+        h2_variants:
+          - "Where Our Estimates Come From"
+          - "How We Calculate These Ranges"
+          - "About Our Pricing Data"
+        content_guidance: "Cite sources from niche brief. Include 'costs vary by contractor and site conditions' note."
+        h3s: []
+      - h2: "Frequently Asked Questions"
+        h2_variants:
+          - "Frequently Asked Questions"
+          - "Common Questions About Remodel Costs"
+          - "Cost Estimator FAQ"
+        content_guidance: "3-5 FAQs the tool raises. FAQPage schema."
+        h3s: []
+      - h2: "Get an Accurate Quote"
+        h2_variants:
+          - "Get an Accurate Quote"
+          - "Request a Contractor Quote"
+          - "Get a Real Estimate from a Local Pro"
+        content_guidance: "Call to action — the tool gives ranges, a contractor gives exact pricing."
+        h3s: []
+    word_count: { min: 300, max: 800 }
+    schema:
+      - WebApplication
+      - FAQPage
+
+tool:
+  type: bath-budget-estimator
+  default_slug: "/bathroom-remodel-cost-calculator/"
+  inputs:
+    - bathroom_type
+    - scope
+    - finish_tier
+  outputs:
+    - total_range
+    - typical_timeline
+    - permit_flag
 
 guide_topics:
   - type: cost_guide
@@ -152,6 +315,38 @@ guide_topics:
       - "What adds the most value to a bathroom remodel?"
       - "Do I need a contractor for a bathroom remodel?"
       - "Can a bathroom be remodeled in stages?"
+  - type: guide
+    topic: "Tub-to-Shower Conversion Costs"
+    target_keyword: "tub to shower conversion cost {city}"
+  - type: guide
+    topic: "How Long Does a Bathroom Remodel Take?"
+    target_keyword: "how long does a bathroom remodel take"
+
+design:
+  tokens:
+    - bathroom-remodel-1
+    - bathroom-remodel-2
+  image_set: bathroom-remodel
+
+figures:
+  - id: bath-budget-tool-result
+    form: range-bars
+    description: "Your estimate across the three finish tiers"
+    categories: [standard, upgraded, premium]
+    unit: dollars
+    brief_section: "Job Economics"
+  - id: bath-cost-by-scope
+    form: range-bars
+    description: "Total range by scope (refresh, mid-range, full)"
+    categories: [refresh, mid-range, full]
+    unit: dollars
+    brief_section: "Job Economics"
+  - id: bath-timeline-by-scope
+    form: side-by-side
+    description: "Timeline bars by scope"
+    categories: [refresh, mid-range, full]
+    unit: weeks
+    brief_section: "Job Economics"
 
 local_variables:
   standard:

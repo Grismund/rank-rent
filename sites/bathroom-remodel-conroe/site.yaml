@@ -142,3 +142,37 @@ pages:
       min: 400
       max: 1000
     schema: FAQPage
+  - slug: /bathroom-remodel-cost-calculator/
+    type: tool
+    primary_keyword: bathroom remodel cost calculator conroe
+    h1: Bathroom Remodel Cost Calculator — Conroe, Texas
+    title: Bathroom Remodel Cost Calculator Conroe | TBD
+    meta_description_intent: >-
+      Free bathroom remodel cost calculator for Conroe, Texas. Get an instant
+      estimate for your project.
+    word_count:
+      min: 300
+      max: 800
+    schema:
+      - WebApplication
+      - FAQPage
+  - slug: /guides/tub-to-shower-conversion-costs/
+    type: guide
+    primary_keyword: tub to shower conversion cost conroe
+    h1: Tub-to-Shower Conversion Costs — Conroe, Texas
+    title: Tub-to-Shower Conversion Costs | TBD
+    meta_description_intent: Tub-to-Shower Conversion Costs — a guide for Conroe, Texas homeowners.
+    word_count:
+      min: 600
+      max: 1500
+  - slug: /guides/how-long-does-a-bathroom-remodel-take/
+    type: guide
+    primary_keyword: how long does a bathroom remodel take
+    h1: How Long Does a Bathroom Remodel Take? — Conroe, Texas
+    title: How Long Does a Bathroom Remodel Take? | TBD
+    meta_description_intent: >-
+      How Long Does a Bathroom Remodel Take? — a guide for Conroe, Texas
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500

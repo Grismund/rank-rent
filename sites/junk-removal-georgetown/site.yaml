@@ -131,3 +131,39 @@ pages:
       min: 400
       max: 1000
     schema: FAQPage
+  - slug: /junk-removal-cost-estimator/
+    type: tool
+    primary_keyword: junk removal cost estimator georgetown
+    h1: Junk Removal Cost Estimator — Georgetown, Texas
+    title: Junk Removal Cost Estimator Georgetown | TBD
+    meta_description_intent: >-
+      Free junk removal cost estimator for Georgetown, Texas. Get an instant
+      estimate for your project.
+    word_count:
+      min: 300
+      max: 800
+    schema:
+      - WebApplication
+      - FAQPage
+  - slug: /guides/junk-removal-vs-renting-a-dumpster/
+    type: guide
+    primary_keyword: junk removal vs dumpster rental georgetown
+    h1: Junk Removal vs. Renting a Dumpster — Georgetown, Texas
+    title: Junk Removal vs. Renting a Dumpster | TBD
+    meta_description_intent: >-
+      Junk Removal vs. Renting a Dumpster — a guide for Georgetown, Texas
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500
+  - slug: /guides/what-junk-removal-companies-wont-take/
+    type: guide
+    primary_keyword: what junk removal won't take
+    h1: What Junk Removal Companies Won't Take — Georgetown, Texas
+    title: What Junk Removal Companies Won't Take | TBD
+    meta_description_intent: >-
+      What Junk Removal Companies Won't Take — a guide for Georgetown, Texas
+      homeowners.
+    word_count:
+      min: 600
+      max: 1500
