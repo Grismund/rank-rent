@@ -1,0 +1,15 @@
+/* Night Drive — dark, cool */
+:root {
+  --bg: #101418;
+  --surface: #1A2027;
+  --text: #EEF1F4;
+  --muted: #9AA4AE;
+  --accent: #38BDF8;
+  --accent-text: #0B1015;
+  --border: #2A333D;
+  --radius: 8px;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --spacing: dense;
+  --font-display: 'Oswald Variable', sans-serif;
+  --font-body: 'Source Sans 3 Variable', sans-serif;
+}

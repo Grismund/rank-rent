@@ -1,0 +1,37 @@
+---
+interface Props {
+  title: string
+  description?: string
+  canonical?: string
+  robots?: string
+  ogImage?: string
+  tokens?: string
+}
+
+const {
+  title,
+  description,
+  canonical,
+  robots = 'index, follow',
+  ogImage,
+  tokens,
+} = Astro.props
+---
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{title}</title>
+{description && <meta name="description" content={description} />}
+{canonical && <link rel="canonical" href={canonical} />}
+<meta name="robots" content={robots} />
+
+<!-- Open Graph -->
+<meta property="og:title" content={title} />
+{description && <meta property="og:description" content={description} />}
+<meta property="og:type" content="website" />
+{canonical && <meta property="og:url" content={canonical} />}
+{ogImage && <meta property="og:image" content={ogImage} />}
+{ogImage && <meta property="og:image:width" content="1200" />}
+{ogImage && <meta property="og:image:height" content="630" />}
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />

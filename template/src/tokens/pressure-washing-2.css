@@ -1,0 +1,15 @@
+/* Concrete — neutral grey, red accent */
+:root {
+  --bg: #F5F5F4;
+  --surface: #E8E8E6;
+  --text: #1F1F1F;
+  --muted: #5E5E5C;
+  --accent: #B91C1C;
+  --accent-text: #FFFFFF;
+  --border: #D4D4D2;
+  --radius: 0;
+  --shadow: none;
+  --spacing: dense;
+  --font-display: 'Oswald Variable', sans-serif;
+  --font-body: 'Source Sans 3 Variable', sans-serif;
+}

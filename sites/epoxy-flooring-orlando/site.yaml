@@ -16,9 +16,7 @@ pages:
     primary_keyword: epoxy flooring orlando
     h1: Epoxy Flooring in Orlando, Florida
     title: Epoxy Flooring Orlando | TBD
-    meta_description_intent: >-
-      Connect with epoxy flooring pros in Orlando, Florida. Free quotes from
-      local contractors.
+    meta_description_intent: Connect with epoxy flooring pros in Orlando, Florida. Free quotes from local contractors.
     word_count:
       min: 800
       max: 1500
@@ -27,9 +25,7 @@ pages:
     primary_keyword: garage floor epoxy orlando
     h1: Garage Floor Epoxy in Orlando, Florida
     title: Garage Floor Epoxy Orlando | TBD
-    meta_description_intent: >-
-      Garage Floor Epoxy services in Orlando, Florida. Epoxy coating for
-      residential garage floors.
+    meta_description_intent: Garage Floor Epoxy services in Orlando, Florida. Epoxy coating for residential garage floors.
     word_count:
       min: 500
       max: 1000
@@ -38,9 +34,7 @@ pages:
     primary_keyword: commercial epoxy flooring orlando
     h1: Commercial Epoxy Flooring in Orlando, Florida
     title: Commercial Epoxy Flooring Orlando | TBD
-    meta_description_intent: >-
-      Commercial Epoxy Flooring services in Orlando, Florida. Epoxy systems for
-      warehouses, shops, and showrooms.
+    meta_description_intent: Commercial Epoxy Flooring services in Orlando, Florida. Epoxy systems for warehouses, shops, and showrooms.
     word_count:
       min: 500
       max: 1000
@@ -49,9 +43,7 @@ pages:
     primary_keyword: epoxy floor coating orlando
     h1: Epoxy Floor Coating in Orlando, Florida
     title: Epoxy Floor Coating Orlando | TBD
-    meta_description_intent: >-
-      Epoxy Floor Coating services in Orlando, Florida. General-purpose epoxy
-      coating for concrete surfaces.
+    meta_description_intent: Epoxy Floor Coating services in Orlando, Florida. General-purpose epoxy coating for concrete surfaces.
     word_count:
       min: 500
       max: 1000
@@ -60,9 +52,7 @@ pages:
     primary_keyword: metallic epoxy flooring orlando
     h1: Metallic Epoxy Flooring in Orlando, Florida
     title: Metallic Epoxy Flooring Orlando | TBD
-    meta_description_intent: >-
-      Metallic Epoxy Flooring services in Orlando, Florida. Decorative
-      metallic-finish epoxy for high-end interiors.
+    meta_description_intent: Metallic Epoxy Flooring services in Orlando, Florida. Decorative metallic-finish epoxy for high-end interiors.
     word_count:
       min: 500
       max: 1000
@@ -71,9 +61,7 @@ pages:
     primary_keyword: epoxy flooring winter park
     h1: Epoxy Flooring in Winter Park, Florida
     title: Epoxy Flooring Winter Park Florida | TBD
-    meta_description_intent: >-
-      Epoxy Flooring services in Winter Park, Florida. Serving Winter Park and
-      surrounding areas.
+    meta_description_intent: Epoxy Flooring services in Winter Park, Florida. Serving Winter Park and surrounding areas.
     word_count:
       min: 500
       max: 1000
@@ -82,9 +70,7 @@ pages:
     primary_keyword: epoxy flooring kissimmee
     h1: Epoxy Flooring in Kissimmee, Florida
     title: Epoxy Flooring Kissimmee Florida | TBD
-    meta_description_intent: >-
-      Epoxy Flooring services in Kissimmee, Florida. Serving Kissimmee and
-      surrounding areas.
+    meta_description_intent: Epoxy Flooring services in Kissimmee, Florida. Serving Kissimmee and surrounding areas.
     word_count:
       min: 500
       max: 1000
@@ -93,9 +79,7 @@ pages:
     primary_keyword: epoxy flooring sanford
     h1: Epoxy Flooring in Sanford, Florida
     title: Epoxy Flooring Sanford Florida | TBD
-    meta_description_intent: >-
-      Epoxy Flooring services in Sanford, Florida. Serving Sanford and
-      surrounding areas.
+    meta_description_intent: Epoxy Flooring services in Sanford, Florida. Serving Sanford and surrounding areas.
     word_count:
       min: 500
       max: 1000
@@ -104,9 +88,7 @@ pages:
     primary_keyword: epoxy flooring altamonte springs
     h1: Epoxy Flooring in Altamonte Springs, Florida
     title: Epoxy Flooring Altamonte Springs Florida | TBD
-    meta_description_intent: >-
-      Epoxy Flooring services in Altamonte Springs, Florida. Serving Altamonte
-      Springs and surrounding areas.
+    meta_description_intent: Epoxy Flooring services in Altamonte Springs, Florida. Serving Altamonte Springs and surrounding areas.
     word_count:
       min: 500
       max: 1000
@@ -115,9 +97,7 @@ pages:
     primary_keyword: epoxy flooring cost orlando
     h1: How Much Does Epoxy Flooring Cost in Orlando?
     title: Epoxy Flooring Cost Orlando | TBD
-    meta_description_intent: >-
-      How much does epoxy flooring cost in Orlando? Price ranges, factors, and
-      free estimates.
+    meta_description_intent: How much does epoxy flooring cost in Orlando? Price ranges, factors, and free estimates.
     word_count:
       min: 500
       max: 1000
@@ -136,9 +116,7 @@ pages:
     primary_keyword: garage floor cost calculator orlando
     h1: Garage Floor Cost Calculator — Orlando, Florida
     title: Garage Floor Cost Calculator Orlando | TBD
-    meta_description_intent: >-
-      Free garage floor cost calculator for Orlando, Florida. Get an instant
-      estimate for your project.
+    meta_description_intent: Free garage floor cost calculator for Orlando, Florida. Get an instant estimate for your project.
     word_count:
       min: 300
       max: 800
@@ -150,9 +128,7 @@ pages:
     primary_keyword: epoxy vs polyaspartic orlando
     h1: Epoxy vs. Polyaspartic Garage Floors — Orlando, Florida
     title: Epoxy vs. Polyaspartic Garage Floors | TBD
-    meta_description_intent: >-
-      Epoxy vs. Polyaspartic Garage Floors — a guide for Orlando, Florida
-      homeowners.
+    meta_description_intent: Epoxy vs. Polyaspartic Garage Floors — a guide for Orlando, Florida homeowners.
     word_count:
       min: 600
       max: 1500
@@ -161,9 +137,88 @@ pages:
     primary_keyword: how long does epoxy garage floor last
     h1: How Long Does an Epoxy Floor Last? — Orlando, Florida
     title: How Long Does an Epoxy Floor Last? | TBD
-    meta_description_intent: >-
-      How Long Does an Epoxy Floor Last? — a guide for Orlando, Florida
-      homeowners.
+    meta_description_intent: How Long Does an Epoxy Floor Last? — a guide for Orlando, Florida homeowners.
     word_count:
       min: 600
       max: 1500
+design:
+  shell: B
+  tokens: epoxy-flooring-2
+  order:
+    home: O2
+    service: O2
+    town: O1
+    guide: O3
+    cost_guide: O3
+    faq: O3
+    tool: O2
+  variants:
+    ServicesList: cards
+    AreasServed: columns
+    Process: timeline
+    TrustBlock: stat-free-facts
+    FAQ: details
+    CostTable: range-bars
+    CTABand: band
+    Breadcrumbs: chevron
+    ToolShell: full
+    DataFigure: range-bars
+  classmap:
+    navList: site-nav-items
+    navToggle: mobile-menu-trigger
+    navWrapper: site-nav-block
+    logoWrap: site-logo-box
+    heroWrap: page-hero-wrap
+    heroHeading: banner-heading
+    heroSubtext: banner-subtext
+    phoneLink: phone-action-link
+    callButton: call-now-button
+    ctaButton: main-cta-button
+    ctaSecondary: alt-action-button
+    ctaBand: action-strip
+    stickyBar: sticky-phone-bar
+    stickyBarButton: sticky-cta-btn
+    sectionWrap: section-container
+    pageContent: article-body
+    introBlock: opening-block
+    serviceCard: service-item-card
+    serviceList: services-grid
+    serviceIcon: service-icon
+    areaChip: town-pill
+    areaList: areas-grid
+    processStep: step-item
+    processList: workflow-stages
+    trustBlock: trust-section
+    trustItem: trust-point
+    faqItem: qa-item
+    faqList: qa-roster
+    costRow: rate-entry
+    costTable: pricing-table
+    toolCard: tool-container
+    toolOutput: calc-result-box
+    toolInput: tool-control
+    formWrap: contact-form-wrap
+    formField: field-row
+    formSubmit: form-send-btn
+    breadcrumbList: nav-breadcrumbs
+    breadcrumbItem: path-segment
+    footerGrid: footer-columns
+    footerDisclosure: legal-note
+    footerNav: footer-sitemap
+    skipLink: skip-to-main
+    figureWrap: viz-frame
+    figureCaption: viz-description
+    figureTable: data-fallback-tbl
+copy:
+  nav:
+    services: What We Do
+    areas: Where We Work
+    cost: Cost Guide
+    faq: Common Questions
+    about: About
+  cta:
+    primary: Talk to a Local Pro
+    secondary: Send Details
+  form_heading: Send Us the Details
+  disclosure: 2
+  trust_heading: What to Expect

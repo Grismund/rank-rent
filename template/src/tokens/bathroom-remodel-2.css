@@ -1,0 +1,15 @@
+/* Tile — cool, terracotta accent */
+:root {
+  --bg: #FFFFFF;
+  --surface: #EEF3F6;
+  --text: #1E2A33;
+  --muted: #5A6B78;
+  --accent: #A15535;
+  --accent-text: #FFFFFF;
+  --border: #D5DEE5;
+  --radius: 4px;
+  --shadow: none;
+  --spacing: medium;
+  --font-display: 'Playfair Display Variable', serif;
+  --font-body: 'Source Sans 3 Variable', sans-serif;
+}

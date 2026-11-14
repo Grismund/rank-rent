@@ -1,0 +1,15 @@
+/* Hi-Vis — light, green accent */
+:root {
+  --bg: #FFFFFF;
+  --surface: #F3F4F2;
+  --text: #1C1F1A;
+  --muted: #5C6158;
+  --accent: #2E7D32;
+  --accent-text: #FFFFFF;
+  --border: #D9DCD5;
+  --radius: 8px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --spacing: medium;
+  --font-display: 'Oswald Variable', sans-serif;
+  --font-body: 'Source Sans 3 Variable', sans-serif;
+}

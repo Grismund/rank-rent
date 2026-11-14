@@ -1,0 +1,15 @@
+/* Lagoon — light, water blue */
+:root {
+  --bg: #FFFFFF;
+  --surface: #F0F7F9;
+  --text: #102A33;
+  --muted: #4F6B75;
+  --accent: #0077B6;
+  --accent-text: #FFFFFF;
+  --border: #D3E4EA;
+  --radius: 20px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --spacing: airy;
+  --font-display: 'Playfair Display Variable', serif;
+  --font-body: 'Source Sans 3 Variable', sans-serif;
+}

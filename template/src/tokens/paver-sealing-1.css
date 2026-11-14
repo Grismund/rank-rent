@@ -1,0 +1,15 @@
+/* Sandstone — warm stone */
+:root {
+  --bg: #FDFBF7;
+  --surface: #F3EDE2;
+  --text: #2E2924;
+  --muted: #746A5E;
+  --accent: #8B5E34;
+  --accent-text: #FFFFFF;
+  --border: #E6DCCB;
+  --radius: 6px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --spacing: medium;
+  --font-display: 'Lora Variable', serif;
+  --font-body: 'Source Serif 4 Variable', serif;
+}

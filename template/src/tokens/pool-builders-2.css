@@ -1,0 +1,15 @@
+/* Resort — dark, sunset accent */
+:root {
+  --bg: #101D24;
+  --surface: #17272F;
+  --text: #EAF2F5;
+  --muted: #9FB3BC;
+  --accent: #F4A261;
+  --accent-text: #101D24;
+  --border: #243640;
+  --radius: 8px;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --spacing: medium;
+  --font-display: 'Lora Variable', serif;
+  --font-body: 'Source Serif 4 Variable', serif;
+}

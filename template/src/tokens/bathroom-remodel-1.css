@@ -1,0 +1,15 @@
+/* Spa — warm neutral */
+:root {
+  --bg: #FBFAF7;
+  --surface: #F1EEE7;
+  --text: #2A2A2A;
+  --muted: #6B6B6B;
+  --accent: #2F7A6D;
+  --accent-text: #FFFFFF;
+  --border: #E2DDD2;
+  --radius: 16px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --spacing: airy;
+  --font-display: 'Playfair Display Variable', serif;
+  --font-body: 'Source Sans 3 Variable', sans-serif;
+}

@@ -1,0 +1,57 @@
+---
+interface Props {
+  phone: string | null
+  ctaText: string
+}
+
+const { phone, ctaText } = Astro.props
+---
+
+{phone && (
+  <div class="sticky-call-bar" role="complementary" aria-label="Call now">
+    <a href={`tel:${phone}`} class="sticky-call-link">
+      <span class="sticky-call-text">{ctaText}</span>
+      <span class="sticky-call-number">{phone}</span>
+    </a>
+  </div>
+)}
+
+<style>
+  .sticky-call-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: var(--accent);
+    color: var(--accent-text);
+    padding: var(--space-s) var(--space-m);
+    text-align: center;
+  }
+
+  .sticky-call-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-s);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--font-display);
+  }
+
+  .sticky-call-link:hover {
+    text-decoration: none;
+    opacity: 0.9;
+  }
+
+  .sticky-call-number {
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (min-width: 768px) {
+    .sticky-call-bar {
+      display: none;
+    }
+  }
+</style>

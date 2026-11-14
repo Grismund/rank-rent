@@ -1,0 +1,15 @@
+/* Clean Garage — light, technical */
+:root {
+  --bg: #FFFFFF;
+  --surface: #F4F6F8;
+  --text: #1B2430;
+  --muted: #5B6573;
+  --accent: #1F6FEB;
+  --accent-text: #FFFFFF;
+  --border: #DCE1E7;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --spacing: airy;
+  --font-display: 'Inter Variable', sans-serif;
+  --font-body: 'Inter Variable', sans-serif;
+}

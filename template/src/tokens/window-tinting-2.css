@@ -1,0 +1,15 @@
+/* Daylight — light with hot accent */
+:root {
+  --bg: #FFFFFF;
+  --surface: #F6F7F9;
+  --text: #15202B;
+  --muted: #5F6B77;
+  --accent: #BA4B03;
+  --accent-text: #FFFFFF;
+  --border: #E1E5EA;
+  --radius: 10px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --spacing: medium;
+  --font-display: 'Oswald Variable', sans-serif;
+  --font-body: 'Source Sans 3 Variable', sans-serif;
+}

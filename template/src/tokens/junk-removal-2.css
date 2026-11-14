@@ -1,0 +1,15 @@
+/* Work Truck — warm, orange accent */
+:root {
+  --bg: #FAF7F2;
+  --surface: #F0EAE0;
+  --text: #2B2520;
+  --muted: #6F655C;
+  --accent: #B7421A;
+  --accent-text: #FFFFFF;
+  --border: #E3DACB;
+  --radius: 2px;
+  --shadow: none;
+  --spacing: dense;
+  --font-display: 'Lora Variable', serif;
+  --font-body: 'Source Serif 4 Variable', serif;
+}

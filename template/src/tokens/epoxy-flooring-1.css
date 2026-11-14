@@ -1,0 +1,15 @@
+/* Showroom — dark, glossy */
+:root {
+  --bg: #0F1115;
+  --surface: #181B22;
+  --text: #F2F3F5;
+  --muted: #A7ADB8;
+  --accent: #F2B134;
+  --accent-text: #141414;
+  --border: #2A2F3A;
+  --radius: 6px;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --spacing: dense;
+  --font-display: 'Inter Variable', sans-serif;
+  --font-body: 'Inter Variable', sans-serif;
+}

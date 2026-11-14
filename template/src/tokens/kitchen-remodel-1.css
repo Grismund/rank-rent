@@ -1,0 +1,15 @@
+/* Marble — light, deep teal accent */
+:root {
+  --bg: #FFFFFF;
+  --surface: #F7F5F2;
+  --text: #222222;
+  --muted: #666666;
+  --accent: #1F4E5F;
+  --accent-text: #FFFFFF;
+  --border: #E6E1DA;
+  --radius: 10px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --spacing: airy;
+  --font-display: 'Playfair Display Variable', serif;
+  --font-body: 'Source Sans 3 Variable', sans-serif;
+}

@@ -1,0 +1,47 @@
+---
+import Head from '../components/base/Head.astro'
+import SkipLink from '../components/base/SkipLink.astro'
+import StickyCallBar from '../components/base/StickyCallBar.astro'
+import '../tokens/base.css'
+
+interface Props {
+  title: string
+  description?: string
+  canonical?: string
+  robots?: string
+  ogImage?: string
+  tokens?: string
+  phone?: string | null
+  ctaText?: string
+}
+
+const {
+  title,
+  description,
+  canonical,
+  robots,
+  ogImage,
+  tokens,
+  phone = null,
+  ctaText = 'Call for a Free Quote',
+} = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <Head
+      title={title}
+      description={description}
+      canonical={canonical}
+      robots={robots}
+      ogImage={ogImage}
+      tokens={tokens}
+    />
+  </head>
+  <body>
+    <SkipLink />
+    <slot />
+    <StickyCallBar phone={phone} ctaText={ctaText} />
+  </body>
+</html>

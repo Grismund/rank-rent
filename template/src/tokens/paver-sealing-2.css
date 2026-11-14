@@ -1,0 +1,15 @@
+/* Wet Look — cool neutral, teal accent */
+:root {
+  --bg: #FFFFFF;
+  --surface: #F2F4F7;
+  --text: #1A2027;
+  --muted: #5B6672;
+  --accent: #0F766E;
+  --accent-text: #FFFFFF;
+  --border: #DBE0E6;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --spacing: airy;
+  --font-display: 'Inter Variable', sans-serif;
+  --font-body: 'Inter Variable', sans-serif;
+}

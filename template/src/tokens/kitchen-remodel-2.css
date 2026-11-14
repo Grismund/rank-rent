@@ -1,0 +1,15 @@
+/* Walnut — dark, warm */
+:root {
+  --bg: #1E1B18;
+  --surface: #2A2521;
+  --text: #F3EEE7;
+  --muted: #B5AA9D;
+  --accent: #D9A441;
+  --accent-text: #1E1B18;
+  --border: #3A332D;
+  --radius: 6px;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --spacing: medium;
+  --font-display: 'Lora Variable', serif;
+  --font-body: 'Source Serif 4 Variable', serif;
+}

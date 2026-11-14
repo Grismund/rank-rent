@@ -1,0 +1,28 @@
+---
+import { readFileSync } from 'node:fs'
+import { resolve } from 'node:path'
+import { load as loadYaml } from 'js-yaml'
+import Base from '../layouts/Base.astro'
+
+const slug = process.env.SITE || 'default'
+const rootDir = resolve(process.cwd(), '..')
+const siteYamlPath = resolve(rootDir, 'sites', slug, 'site.yaml')
+
+let h1 = slug
+let title = slug
+try {
+  const raw = readFileSync(siteYamlPath, 'utf-8')
+  const config = loadYaml(raw) as Record<string, any>
+  const homePage = config.pages?.find((p: any) => p.slug === '/')
+  if (homePage?.h1) h1 = homePage.h1
+  if (homePage?.title) title = homePage.title
+} catch {
+  // site.yaml not found — use slug as fallback
+}
+---
+
+<Base title={title}>
+  <main>
+    <h1>{h1}</h1>
+  </main>
+</Base>

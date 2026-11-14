@@ -1,0 +1,16 @@
+---
+import { buildSchema } from '../../lib/schema'
+import type { PageConfig, SiteConfig } from '../../lib/resolve-site'
+
+interface Props {
+  page: PageConfig
+  site: SiteConfig
+}
+
+const { page, site } = Astro.props
+const schemas = buildSchema(page, site)
+---
+
+{schemas.map((schema) => (
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+))}

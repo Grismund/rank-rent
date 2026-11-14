@@ -1,0 +1,15 @@
+/* Fresh — light, aqua accent */
+:root {
+  --bg: #FFFFFF;
+  --surface: #EEF6FB;
+  --text: #14232E;
+  --muted: #55687A;
+  --accent: #0E7C86;
+  --accent-text: #FFFFFF;
+  --border: #D7E5EE;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --spacing: airy;
+  --font-display: 'Lora Variable', serif;
+  --font-body: 'Source Serif 4 Variable', serif;
+}
