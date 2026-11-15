@@ -28,8 +28,8 @@ export interface PageContent {
  */
 export function pageSlugToFilename(pageSlug: string): string {
   const trimmed = pageSlug.replace(/^\/|\/$/g, '')
-  if (trimmed === '') return 'index'
-  return trimmed.replace(/\//g, '--')
+  if (trimmed === '') return 'home'
+  return trimmed.replace(/\//g, '-')
 }
 
 /**

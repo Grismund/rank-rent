@@ -112,7 +112,7 @@ const tokenFile = config.design.tokens
 
 // Load markdown content if available
 const contentDir = resolve(rootDir, 'sites', siteSlug, 'content')
-const pageFilename = page.slug === '/' ? 'index' : pageSlugToFilename(page.slug)
+const pageFilename = pageSlugToFilename(page.slug)
 const content = loadPageContent('', pageFilename, contentDir)
 
 // Determine section order for this page type

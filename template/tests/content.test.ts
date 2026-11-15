@@ -10,20 +10,20 @@ import {
 const fixtureDir = resolve(import.meta.dirname, 'fixtures/content')
 
 describe('pageSlugToFilename', () => {
-  it('converts root slug to index', () => {
-    expect(pageSlugToFilename('/')).toBe('index')
+  it('converts root slug to home', () => {
+    expect(pageSlugToFilename('/')).toBe('home')
   })
 
   it('converts top-level service slug', () => {
     expect(pageSlugToFilename('/garage-floor-epoxy/')).toBe('garage-floor-epoxy')
   })
 
-  it('converts nested area slug with double-dash separator', () => {
-    expect(pageSlugToFilename('/areas/winter-park/')).toBe('areas--winter-park')
+  it('converts nested area slug with single-dash separator', () => {
+    expect(pageSlugToFilename('/areas/winter-park/')).toBe('areas-winter-park')
   })
 
-  it('converts nested guide slug with double-dash separator', () => {
-    expect(pageSlugToFilename('/guides/topic/')).toBe('guides--topic')
+  it('converts nested guide slug with single-dash separator', () => {
+    expect(pageSlugToFilename('/guides/topic/')).toBe('guides-topic')
   })
 
   it('handles slug without trailing slash', () => {
