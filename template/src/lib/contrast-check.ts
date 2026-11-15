@@ -124,6 +124,28 @@ export async function checkAllTokenFiles(dir: string): Promise<FileResult[]> {
       })
     }
 
+    // Figure marks: accent on bg (≥3:1 for large graphical objects)
+    if (tokens.accent && tokens.bg) {
+      const r = contrastRatio(tokens.accent, tokens.bg)
+      checks.push({
+        pair: 'accent/bg',
+        ratio: r,
+        required: 3,
+        pass: r >= 3,
+      })
+    }
+
+    // Figure marks: accent on surface tracks (≥3:1)
+    if (tokens.accent && tokens.surface) {
+      const r = contrastRatio(tokens.accent, tokens.surface)
+      checks.push({
+        pair: 'accent/surface',
+        ratio: r,
+        required: 3,
+        pass: r >= 3,
+      })
+    }
+
     return {
       file,
       pass: checks.every((c) => c.pass),

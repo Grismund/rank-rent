@@ -35,6 +35,7 @@ const { formHeading = 'Send Us the Details', towns = [] } = Astro.props
       <label for="details">Project Details</label>
       <textarea id="details" name="details" rows="4"></textarea>
     </div>
+    <input name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
     <button type="submit" class="form-submit">Send Request</button>
   </form>
 </div>

@@ -14,6 +14,11 @@ import ShellD from '../layouts/ShellD.astro'
 
 import SectionRenderer from '../components/sections/SectionRenderer.astro'
 
+// DataFigure variants
+import DataFigureRangeBars from '../components/sections/DataFigure/range-bars.astro'
+import DataFigureDotRange from '../components/sections/DataFigure/dot-range.astro'
+import DataFigureColumns from '../components/sections/DataFigure/columns.astro'
+
 // Breadcrumb variants
 import BreadcrumbSlash from '../components/base/Breadcrumbs/slash.astro'
 import BreadcrumbChevron from '../components/base/Breadcrumbs/chevron.astro'
@@ -131,6 +136,32 @@ const BreadcrumbVariants: Record<string, any> = {
 }
 const BreadcrumbComponent = BreadcrumbVariants[config.design.variants.Breadcrumbs] || BreadcrumbSlash
 
+// Load figure data for this page
+import { readFileSync, existsSync } from 'node:fs'
+const figuresDir = resolve(rootDir, 'sites', siteSlug, 'figures')
+const pageFigures: Array<{ id: string; afterSection: string; data: any }> = []
+const figureVariant = config.design.variants.DataFigure ?? 'range-bars'
+
+if ((page as any).figures && Array.isArray((page as any).figures)) {
+  for (const fig of (page as any).figures) {
+    const figPath = resolve(figuresDir, `${fig.id}.json`)
+    if (existsSync(figPath)) {
+      try {
+        const figData = JSON.parse(readFileSync(figPath, 'utf-8'))
+        pageFigures.push({ id: fig.id, afterSection: fig.after_section, data: figData })
+      } catch { /* skip invalid JSON */ }
+    }
+  }
+}
+
+// DataFigure variant lookup
+const DataFigureVariants: Record<string, any> = {
+  'range-bars': DataFigureRangeBars,
+  'dot-range': DataFigureDotRange,
+  'columns': DataFigureColumns,
+}
+const DataFigureComponent = DataFigureVariants[figureVariant] ?? DataFigureRangeBars
+
 // Token import path
 const tokenImport = `/src/tokens/${tokenFile}.css`
 
@@ -138,6 +169,14 @@ const tokenImport = `/src/tokens/${tokenFile}.css`
 const robots = (page as any).robots || undefined
 
 const shell = config.design.shell
+
+// Build a lookup: which figures follow which section key
+const figuresBySection = new Map<string, typeof pageFigures>()
+for (const fig of pageFigures) {
+  const key = fig.afterSection
+  if (!figuresBySection.has(key)) figuresBySection.set(key, [])
+  figuresBySection.get(key)!.push(fig)
+}
 ---
 
 {shell === 'A' && (
@@ -146,12 +185,17 @@ const shell = config.design.shell
       <BreadcrumbComponent items={breadcrumbItems} slot="default" />
     )}
     {sectionOrder.map((key: string) => (
-      <SectionRenderer
-        sectionKey={key}
-        site={config}
-        page={page}
-        contentHtml={contentSections[key] || content?.intro}
-      />
+      <Fragment>
+        <SectionRenderer
+          sectionKey={key}
+          site={config}
+          page={page}
+          contentHtml={contentSections[key] || content?.intro}
+        />
+        {(figuresBySection.get(key) ?? []).map((fig) => (
+          <DataFigureComponent figureData={fig.data} />
+        ))}
+      </Fragment>
     ))}
     {sectionOrder.length === 0 && content?.intro && (
       <div class="page-intro" set:html={content.intro} />
@@ -165,12 +209,17 @@ const shell = config.design.shell
       <BreadcrumbComponent items={breadcrumbItems} slot="default" />
     )}
     {sectionOrder.map((key: string) => (
-      <SectionRenderer
-        sectionKey={key}
-        site={config}
-        page={page}
-        contentHtml={contentSections[key] || content?.intro}
-      />
+      <Fragment>
+        <SectionRenderer
+          sectionKey={key}
+          site={config}
+          page={page}
+          contentHtml={contentSections[key] || content?.intro}
+        />
+        {(figuresBySection.get(key) ?? []).map((fig) => (
+          <DataFigureComponent figureData={fig.data} />
+        ))}
+      </Fragment>
     ))}
     {sectionOrder.length === 0 && content?.intro && (
       <div class="page-intro" set:html={content.intro} />
@@ -184,12 +233,17 @@ const shell = config.design.shell
       <BreadcrumbComponent items={breadcrumbItems} slot="default" />
     )}
     {sectionOrder.map((key: string) => (
-      <SectionRenderer
-        sectionKey={key}
-        site={config}
-        page={page}
-        contentHtml={contentSections[key] || content?.intro}
-      />
+      <Fragment>
+        <SectionRenderer
+          sectionKey={key}
+          site={config}
+          page={page}
+          contentHtml={contentSections[key] || content?.intro}
+        />
+        {(figuresBySection.get(key) ?? []).map((fig) => (
+          <DataFigureComponent figureData={fig.data} />
+        ))}
+      </Fragment>
     ))}
     {sectionOrder.length === 0 && content?.intro && (
       <div class="page-intro" set:html={content.intro} />
@@ -203,12 +257,17 @@ const shell = config.design.shell
       <BreadcrumbComponent items={breadcrumbItems} slot="default" />
     )}
     {sectionOrder.map((key: string) => (
-      <SectionRenderer
-        sectionKey={key}
-        site={config}
-        page={page}
-        contentHtml={contentSections[key] || content?.intro}
-      />
+      <Fragment>
+        <SectionRenderer
+          sectionKey={key}
+          site={config}
+          page={page}
+          contentHtml={contentSections[key] || content?.intro}
+        />
+        {(figuresBySection.get(key) ?? []).map((fig) => (
+          <DataFigureComponent figureData={fig.data} />
+        ))}
+      </Fragment>
     ))}
     {sectionOrder.length === 0 && content?.intro && (
       <div class="page-intro" set:html={content.intro} />

@@ -1,0 +1,110 @@
+---
+/**
+ * DataFigure/dot-range — Dot-range chart from JSON figure data.
+ * Build-time SVG, zero client JS.
+ */
+import { dotRange } from '../../../lib/figures'
+import type { FigureData } from '../../../lib/figures'
+
+interface Props {
+  figureData: FigureData
+}
+
+const { figureData } = Astro.props
+const svg = dotRange(figureData)
+const ariaLabel = `${figureData.title}: ${figureData.series.map(e => e.label).join(', ')} measured in ${figureData.unit}`
+---
+
+<figure class="data-figure">
+  <figcaption class="figure-caption">
+    <strong>{figureData.title}</strong>
+    <span class="figure-unit">({figureData.unit})</span>
+  </figcaption>
+  <div role="img" aria-label={ariaLabel} set:html={svg} />
+  <details class="figure-fallback">
+    <summary>See the numbers</summary>
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Low</th>
+          <th>High</th>
+        </tr>
+      </thead>
+      <tbody>
+        {figureData.series.map((entry) => (
+          <tr>
+            <td>{entry.label}</td>
+            <td>{entry.low ?? entry.value ?? '–'}</td>
+            <td>{entry.high ?? entry.value ?? '–'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </details>
+  <p class="figure-source">
+    Source: {figureData.source.url
+      ? <a href={figureData.source.url}>{figureData.source.label}</a>
+      : figureData.source.label
+    } · Updated {figureData.updated}
+  </p>
+</figure>
+
+<style>
+  .data-figure {
+    margin: var(--space-l) 0;
+    max-width: 40rem;
+  }
+
+  .figure-caption {
+    font-family: var(--font-display);
+    font-size: var(--step-0);
+    color: var(--text);
+    margin-bottom: var(--space-s);
+  }
+
+  .figure-unit {
+    color: var(--muted);
+    font-size: var(--step--1);
+    margin-left: 0.25em;
+  }
+
+  .figure-fallback {
+    margin-top: var(--space-s);
+    font-size: var(--step--1);
+    color: var(--muted);
+  }
+
+  .figure-fallback summary {
+    cursor: pointer;
+    color: var(--accent);
+  }
+
+  .figure-fallback table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: var(--space-s);
+  }
+
+  .figure-fallback th,
+  .figure-fallback td {
+    text-align: left;
+    padding: var(--space-s);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .figure-fallback th {
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .figure-source {
+    font-size: var(--step--2);
+    color: var(--muted);
+    margin-top: var(--space-s);
+  }
+
+  .figure-source a {
+    color: var(--accent);
+  }
+</style>

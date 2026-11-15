@@ -13,6 +13,7 @@ const EXPECTED_VARIANTS: Record<string, string[]> = {
   CostTable: ['table', 'range-bars', 'cards'],
   CTABand: ['band', 'card', 'inline'],
   ToolShell: ['card', 'full', 'split'],
+  DataFigure: ['range-bars', 'dot-range', 'columns'],
 }
 
 describe('section variant files', () => {
@@ -51,11 +52,11 @@ describe('section variant files', () => {
     }
   })
 
-  it('total variant file count is 24', () => {
+  it('total variant file count is 27', () => {
     let count = 0
     for (const variants of Object.values(EXPECTED_VARIANTS)) {
       count += variants.length
     }
-    expect(count).toBe(24)
+    expect(count).toBe(27)
   })
 })

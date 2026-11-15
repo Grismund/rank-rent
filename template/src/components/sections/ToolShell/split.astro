@@ -1,8 +1,10 @@
 ---
 /**
  * ToolShell/split — Split layout: tool on one side, description on the other.
- * Renders a placeholder that Preact hydrates in Group 3.
+ * ToolRouter hydrates on scroll via client:visible.
  */
+import ToolRouter from '../../tools/ToolRouter'
+
 interface Props {
   site: any
   page: any
@@ -13,6 +15,10 @@ interface Props {
 const { site, page, contentHtml, sectionName } = Astro.props
 const toolType = site.tool?.type ?? 'calculator'
 const toolKeyword = site.tool?.primary_keyword ?? 'cost'
+const phone = site.phone ?? null
+const ctaPrimary = site.copy?.cta?.primary ?? 'Call for a Free Quote'
+const siteState = site.state ?? ''
+const city = site.city ?? ''
 ---
 
 <section class="tool-shell-split" aria-label={sectionName}>
@@ -21,19 +27,26 @@ const toolKeyword = site.tool?.primary_keyword ?? 'cost'
       <div
         class="tool-placeholder"
         data-tool-type={toolType}
-        role="status"
-        aria-live="polite"
       >
-        <div class="tool-loading">
-          <div class="tool-loading-icon" aria-hidden="true">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 5h16v14H4z" stroke="currentColor" stroke-width="1.5" />
-              <path d="M8 9h3v2H8zm5 0h3v2h-3zm-5 4h3v2H8zm5 4h3v2h-3zm5-4h-3v-2h3z" fill="currentColor" opacity="0.4" />
-            </svg>
-          </div>
-          <p class="tool-loading-text">Loading {toolKeyword} calculator&hellip;</p>
-        </div>
+        <ToolRouter
+          client:visible
+          toolType={toolType}
+          phone={phone}
+          ctaPrimary={ctaPrimary}
+          state={siteState}
+          city={city}
+        />
       </div>
+      <noscript>
+        <div class="tool-noscript">
+          <p>This interactive {toolKeyword} calculator requires JavaScript.</p>
+          {phone ? (
+            <p>Call <a href={`tel:${phone}`}>{phone}</a> for a free estimate, or <a href="/contact/">fill out our contact form</a>.</p>
+          ) : (
+            <p><a href="/contact/">Fill out our contact form</a> for a free estimate.</p>
+          )}
+        </div>
+      </noscript>
     </div>
     <div class="description-side">
       {contentHtml ? (
@@ -71,34 +84,23 @@ const toolKeyword = site.tool?.primary_keyword ?? 'cost'
 
   .tool-placeholder {
     min-height: 16rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
-  }
-
-  .tool-loading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--space-s);
-    text-align: center;
     padding: var(--space-l);
   }
 
-  .tool-loading-icon {
-    color: var(--accent);
-    opacity: 0.7;
+  .tool-noscript {
+    padding: var(--space-l);
+    text-align: center;
+    color: var(--muted);
+    font-size: var(--step-0);
   }
 
-  .tool-loading-text {
-    font-family: var(--font-body);
-    font-size: var(--step--1);
-    color: var(--muted);
-    margin: 0;
+  .tool-noscript a {
+    color: var(--accent);
+    font-weight: 600;
   }
 
   .tool-description {
@@ -158,10 +160,6 @@ const toolKeyword = site.tool?.primary_keyword ?? 'cost'
 
     .tool-placeholder {
       min-height: 12rem;
-    }
-
-    .tool-loading {
-      padding: var(--space-m);
     }
   }
 </style>
