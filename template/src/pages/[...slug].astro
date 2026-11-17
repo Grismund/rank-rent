@@ -23,6 +23,7 @@ import DataFigureColumns from '../components/sections/DataFigure/columns.astro'
 import BreadcrumbSlash from '../components/base/Breadcrumbs/slash.astro'
 import BreadcrumbChevron from '../components/base/Breadcrumbs/chevron.astro'
 import BreadcrumbArrow from '../components/base/Breadcrumbs/arrow.astro'
+import { readFileSync, existsSync } from 'node:fs'
 
 const siteSlug = process.env.SITE || 'default'
 const rootDir = resolve(process.cwd(), '..')
@@ -137,7 +138,6 @@ const BreadcrumbVariants: Record<string, any> = {
 const BreadcrumbComponent = BreadcrumbVariants[config.design.variants.Breadcrumbs] || BreadcrumbSlash
 
 // Load figure data for this page
-import { readFileSync, existsSync } from 'node:fs'
 const figuresDir = resolve(rootDir, 'sites', siteSlug, 'figures')
 const pageFigures: Array<{ id: string; afterSection: string; data: any }> = []
 const figureVariant = config.design.variants.DataFigure ?? 'range-bars'
@@ -184,7 +184,7 @@ for (const fig of pageFigures) {
     {breadcrumbItems.length > 0 && (
       <BreadcrumbComponent items={breadcrumbItems} slot="default" />
     )}
-    {sectionOrder.map((key: string) => (
+    {sectionOrder.map((key) => (
       <Fragment>
         <SectionRenderer
           sectionKey={key}
@@ -208,7 +208,7 @@ for (const fig of pageFigures) {
     {breadcrumbItems.length > 0 && (
       <BreadcrumbComponent items={breadcrumbItems} slot="default" />
     )}
-    {sectionOrder.map((key: string) => (
+    {sectionOrder.map((key) => (
       <Fragment>
         <SectionRenderer
           sectionKey={key}
@@ -232,7 +232,7 @@ for (const fig of pageFigures) {
     {breadcrumbItems.length > 0 && (
       <BreadcrumbComponent items={breadcrumbItems} slot="default" />
     )}
-    {sectionOrder.map((key: string) => (
+    {sectionOrder.map((key) => (
       <Fragment>
         <SectionRenderer
           sectionKey={key}
@@ -256,7 +256,7 @@ for (const fig of pageFigures) {
     {breadcrumbItems.length > 0 && (
       <BreadcrumbComponent items={breadcrumbItems} slot="default" />
     )}
-    {sectionOrder.map((key: string) => (
+    {sectionOrder.map((key) => (
       <Fragment>
         <SectionRenderer
           sectionKey={key}
