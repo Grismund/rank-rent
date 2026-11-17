@@ -1,0 +1,14 @@
+{
+  "title": "Garage Floor Epoxy Cost by Size",
+  "unit": "dollars",
+  "series": [
+    { "label": "1-Car (~250 sq ft)", "low": 1250, "high": 2500 },
+    { "label": "2-Car (~450 sq ft)", "low": 1600, "high": 3500 },
+    { "label": "3-Car (~700 sq ft)", "low": 2500, "high": 5200 }
+  ],
+  "source": {
+    "label": "Niche brief job economics; 3-car range extrapolated from per-sq-ft installed rates",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-15"
+}

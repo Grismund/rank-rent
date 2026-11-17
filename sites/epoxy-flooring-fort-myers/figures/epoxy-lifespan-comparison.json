@@ -1,0 +1,14 @@
+{
+  "title": "Garage Floor Coating Lifespan",
+  "unit": "years",
+  "series": [
+    { "label": "Pro Epoxy System", "low": 10, "high": 20 },
+    { "label": "Polyaspartic Coating", "low": 15, "high": 20 },
+    { "label": "DIY Paint Kit", "low": 2, "high": 5 }
+  ],
+  "source": {
+    "label": "Manufacturer lifespan specs and trade-source estimates for residential garage use",
+    "brief_section": "Manufacturer specifications"
+  },
+  "updated": "2026-11-15"
+}
