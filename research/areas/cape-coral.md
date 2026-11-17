@@ -1,7 +1,7 @@
 # Local Facts: Cape Coral, Florida
 
-**Researched:** 2026-11-09
-**Niches:** paver-sealing, window-tinting
+**Researched:** 2026-11-15
+**Niches:** epoxy-flooring, paver-sealing, window-tinting
 **County:** Lee County
 **Population:** 236,264 (2025) — [Data Commons](https://datacommons.org/place/geoId/1210275)
 
@@ -27,6 +27,44 @@
 - Sanibel Island (20 miles south via causeway)
 - Punta Gorda (30 miles north)
 - Naples (43 miles south)
+
+## Niche: epoxy-flooring
+
+### Permit Requirements
+- Residential garage floor epoxy coatings are classified as cosmetic finish work under Florida Building Code Section 105.2, which exempts "painting, wallpapering, and similar cosmetic finish work" from building permits. Cosmetic flooring over an existing slab does not require a permit in Cape Coral unless structural modifications or utility changes are involved. [PermitPlace](https://permitplace.com/city/cape-coral-fl-building-permits/)
+- Over 60% of Cape Coral lies within a FEMA Special Flood Hazard Area, making most properties ineligible for the HB 803 exemption that otherwise allows flooring replacement without permits on projects under $7,500. [City of Cape Coral - HB 803](https://www.capecoral.gov/departments/development_services/permitting_services_division/hb_803/index.php)
+- Commercial epoxy flooring projects involving structural modifications, electrical work, or plumbing changes require a building permit from Cape Coral's Building Division. [PermitPlace](https://permitplace.com/city/cape-coral-fl-building-permits/)
+- The City of Cape Coral no longer issues local contractor licenses (Ordinance 10-23), consistent with Florida HB 735. Contractors must register with the city through the EnerGov CSS portal and carry general liability insurance. [City of Cape Coral - Building Division](https://www.capecoral.gov/departments/development_services/building_division/index.php)
+- Under Florida Statute 489.103, any construction work with a contract value above $2,500 or requiring a building permit must be performed by a state-licensed contractor. [Claro Studio Web](https://clarostudioweb.com/blog/licenca-flooring-florida/)
+
+### Local Regulations
+- Cape Coral enforces the Florida Building Code 8th Edition (2023), effective December 31, 2023 through December 30, 2026. [City of Cape Coral - Building Division](https://www.capecoral.gov/departments/development_services/building_division/index.php)
+- The EPA's national Architectural Coatings Rule (40 CFR Part 59, Subpart D) sets a VOC content limit of 400 grams per liter for floor coatings; Florida does not impose stricter limits. [eCFR - 40 CFR Part 59](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-59/subpart-D)
+- Contractors must register with the City of Cape Coral through the EnerGov CSS online portal before pulling permits. Registration inquiries: (239) 574-0870. [City of Cape Coral - Building Division](https://www.capecoral.gov/departments/development_services/building_division/index.php)
+- Cape Coral requires impact-rated garage doors throughout the city, rated for 140–150 mph wind speeds with large missile impact resistance per Florida Building Code hurricane provisions. [DAB Door](https://www.dabdoor.com/lee-approved-garage-doors/)
+
+### Concrete Condition
+- Cape Coral sits on the Fort Thompson Formation — very permeable, fossiliferous, sandy marine limestones and calcareous sandstones that allow moisture to move freely upward through the ground. [USGS](https://pubs.usgs.gov/wri/wri034208/html/)
+- The surficial aquifer in Cape Coral is shallow: water levels recover to near land surface during the summer wet season. Aquifer thickness ranges between 20 and 40 feet. [USGS](https://pubs.usgs.gov/wri/1995/4003/report.pdf)
+- Florida slabs routinely measure 5–15+ pounds of moisture vapor emission per 1,000 sq ft per 24 hours, well above the standard epoxy threshold of 3 lbs. Moisture vapor driving up through slab-on-grade foundations is the number-one cause of epoxy that bubbles or peels in Lee County. [imovingtoflorida.com](https://imovingtoflorida.com/guide/florida-epoxy-flooring-guide/)
+- ASTM F2170 is the industry standard for measuring relative humidity inside concrete slabs. Most epoxy manufacturers set the threshold at 75% RH; slabs reading above that require a moisture vapor barrier before any coating. [Xtreme Polishing Systems](https://xtremepolishingsystems.com/blogs/decorative-concrete-and-epoxy-blog/epoxy-floor-fails-why-moisture-testing-mvbs-matter)
+- Cape Coral has 400+ miles of canals, and the city holds a Class 5 Community Rating System rating — the pervasive flood zone status correlates with high subslab moisture conditions. [City of Cape Coral - Flood Protection](https://www.capecoral.gov/departments/development_services/building_division/flood_protection.php)
+- Without a moisture vapor barrier, trapped vapor creates osmotic blisters that cause epoxy to swell, bubble, and pull away, with complete system failure possible within 12 to 24 months. [Xtreme Polishing Systems](https://xtremepolishingsystems.com/blogs/decorative-concrete-and-epoxy-blog/epoxy-floor-fails-why-moisture-testing-mvbs-matter)
+
+### Humidity Impact
+- Cape Coral humidity ranges from 69–79% depending on the month, peaking at 78–79% in July through September and dropping to 69–71% in March. [Climates to Travel](https://www.climatestotravel.com/climate/united-states/cape-coral)
+- Above 85% relative humidity, moisture condenses on epoxy surfaces and triggers amine blushing — white patches or greasy layers that block intercoat adhesion. [PCI Magazine](https://www.pcimag.com/articles/85460-amine-blushing-and-blooming-of-epoxy-binder-systems-in-protective-coatings)
+- The substrate temperature must stay at least 5 °F above the dew point before, during, and after epoxy application to prevent condensation between coating and concrete. [PCI Magazine](https://www.pcimag.com/articles/85460-amine-blushing-and-blooming-of-epoxy-binder-systems-in-protective-coatings)
+- At 86 °F, epoxy pot life drops to approximately 15 minutes versus 25 minutes at 68 °F, forcing installers to work in smaller batches. Cape Coral summer slab temperatures can reach 90–110 °F. [National Concrete Polishing](https://nationalconcretepolishing.net/how-humidity-affects-epoxy-floors-in-miami/)
+- Professional installers use industrial dehumidifiers, thermostatically controlled workspace conditions, and dew point monitoring; applications are typically scheduled for early morning hours. [National Concrete Polishing](https://nationalconcretepolishing.net/how-humidity-affects-epoxy-floors-in-miami/)
+
+### Garage Usage
+- Cape Coral has more than 400 miles of navigable canals — more than any other city in the world — with approximately 40,000 waterfront estates, many providing direct Gulf access. [City of Cape Coral](https://www.capecoral.gov/departments/parks_recreation/outdoor_recreation/boating.php)
+- Lee County had approximately 49,000–51,000 registered recreational vessels as of 2023–2024, ranking among the top three Florida counties for boat registrations. [Lee County Government](https://www.leefl.gov/459/Safe-Boating)
+- Cape Coral city code requires boats and trailers to be stored in the rear yard or entirely within a garage; RVs must be parked entirely within a garage or carport. [City of Cape Coral - Code Compliance](https://www.capecoral.gov/departments/development_services/code_compliance_division/common_code_violations.php)
+- All single-family homes in Cape Coral must include a garage with minimum dimensions of 14 × 20 feet of unobstructed space; carports are prohibited on single-family detached properties. [Cape Coral Land Development Code](https://online.encodeplus.com/regs/capecoral-fl/ereader/files/basic-html/page123.html)
+- Canal-front properties experience accelerated corrosion on metal garage components due to salt air exposure, making corrosion-resistant floor coatings particularly valuable. [Champions Garage Door Service](https://championsgaragedoorservice.com/locations/florida/cape-coral/)
+- Garages serve as hurricane staging areas in Cape Coral; impact-rated doors (140–150 mph) create protected enclosures during hurricane season. [Champions Garage Door Service](https://championsgaragedoorservice.com/locations/florida/cape-coral/)
 
 ## Niche: paver-sealing
 
