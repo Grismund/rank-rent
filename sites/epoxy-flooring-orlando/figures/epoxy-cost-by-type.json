@@ -1,0 +1,15 @@
+{
+  "title": "Installed Cost per Square Foot by Coating Type",
+  "unit": "$/sq ft",
+  "series": [
+    { "label": "Single Color", "low": 3, "high": 7 },
+    { "label": "Chip Broadcast", "low": 4, "high": 8 },
+    { "label": "Metallic Pigment", "low": 5, "high": 12 },
+    { "label": "Polyaspartic Clear", "low": 4, "high": 10 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Orlando metro contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

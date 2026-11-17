@@ -1,0 +1,14 @@
+{
+  "title": "Epoxy Floor Cost by Garage Size",
+  "unit": "dollars",
+  "series": [
+    { "label": "Single-Car (~250 sq ft)", "low": 1250, "high": 2500 },
+    { "label": "Double-Car (~500 sq ft)", "low": 1600, "high": 3500 },
+    { "label": "Triple-Car (~700 sq ft)", "low": 2500, "high": 5000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics; triple-car range derived from per-sq-ft installed rates",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

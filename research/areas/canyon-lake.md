@@ -1,7 +1,7 @@
 # Local Facts: Canyon Lake, Texas
 
 **Researched:** 2026-11-13
-**Niches:** epoxy-flooring
+**Niches:** epoxy-flooring, bathroom-remodel
 **County:** Comal County
 **Population:** 33,883 (2020–2024 ACS 5-Year Estimate) — [U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/canyonlakecdptexas/POP645224)
 
@@ -52,7 +52,7 @@
 - San Antonio — ~45 mi southwest (~50 min)
 - Austin — ~50 mi north (~55 min)
 
-## Epoxy Flooring — Local Facts
+## Niche: epoxy-flooring
 
 ### Permit Requirements
 - Canyon Lake is unincorporated and falls under Comal County jurisdiction — there is no municipal government, no city building department, and no city-level permit process. [Herald-Zeitung](https://herald-zeitung.com/news/article_db473fb2-9cee-11e0-8142-001cc4c03286.html)
@@ -85,3 +85,35 @@
 - The 19.9% housing vacancy rate reflects a large stock of vacation homes, weekend lake houses, and seasonal cabins — these properties sit empty for extended periods, making low-maintenance, sealed epoxy floors ideal versus bare concrete that collects dust and moisture while unoccupied. [Point2 Homes](https://www.point2homes.com/US/Neighborhood/TX/Canyon-Lake-Demographics.html)
 - Garages in lakeside communities regularly handle wet gear (life jackets, wetsuits, fishing equipment, dripping coolers), tracked-in sand and lake sediment, and occasional flooding from heavy rain events — epoxy's seamless, non-porous surface resists water damage and cleans easily. [VRBO](https://www.vrbo.com/vacation-rentals/usa/texas/hill-country/canyon-lake)
 - RV and tow vehicle storage is common — Canyon Lake is a destination community where many residents own recreational vehicles, boats with trailers, and off-road vehicles that drip oil, fluids, and lake water onto garage floors. Chemical-resistant epoxy protects against these stains. [RecNation](https://www.recnationstorage.com/boat-storage/tx/canyon-lake/)
+
+## Niche: bathroom-remodel
+
+### Permit Requirements
+- Canyon Lake is unincorporated Comal County — there is no municipal building department. The county does not require traditional building permits (covering interior plumbing, electrical, or framing) for residential work in unincorporated areas. Only septic (OSSF), floodplain, driveway/right-of-way, and Fire Marshal permits are required at the county level. [Comal County — Permits](https://www.comalcounty.gov/286/Permits)
+- Although Comal County does not require a local building permit for a bathroom remodel, Texas state law requires that all plumbing work (beyond ordinary minor repairs to accessible fixtures) be performed by a plumber licensed through the Texas State Board of Plumbing Examiners (TSBPE). Moving or adding plumbing lines for a bathroom remodel requires a licensed plumber. [TSBPE — Plumbing License Law](https://tsbpe.texas.gov/wp-content/uploads/documents/TSBPE_PlumbingLicenseLaw(PlainView)_Sept2025.pdf)
+- Electrical work that adds or relocates circuits, outlets, or lighting must comply with the National Electrical Code as enforced by the Texas Department of Licensing and Regulation (TDLR), even though Comal County itself does not inspect. Homeowners should hire licensed electricians for code compliance and insurance purposes. [TDLR — Electricians](https://www.tdlr.texas.gov/electricians/electricians.htm)
+- Property owners in deed-restricted subdivisions (Mystic Shores, Oak Shores, Vintage Oaks) should check POA or HOA covenants — some require Architectural Control Committee approval before exterior or structural modifications. [Comal County — Permits](https://www.comalcounty.gov/286/Permits)
+- Comal County Engineer's Office for permit questions: 830-608-2090, located at 195 David Jonas Drive, New Braunfels. [AR Design Build](https://ardesign.build/resources/building-in-bulverde-city-etj-comal-county/)
+
+### Local Regulations
+- Texas counties may adopt the International Residential Code for unincorporated areas; Comal County's fire code applies to commercial and multifamily (4+ units) but the county does not enforce a residential building code with inspections for single-family interior remodels. [Texas Municipal League — Building Codes](https://www.tml.org/DocumentCenter/View/2817/Building-Codes---2021-07-PDF)
+- Despite the lack of local code enforcement, the TSBPE enforces the International Plumbing Code as adopted by Texas statewide. All plumbing work must meet these standards regardless of whether local inspections occur. [TSBPE — Plumbing License Law](https://tsbpe.texas.gov/wp-content/uploads/documents/TSBPE_PlumbingLicenseLaw(PlainView)_Sept2025.pdf)
+- The 2021 IRC Section R303.3 requires bathrooms to have either an operable window (minimum 3 sq ft glazing) or a mechanical exhaust fan rated at 50 CFM intermittent or 20 CFM continuous, vented directly to the exterior. [ICC — 2021 IRC R303.3](https://www.jaspector.com/codes/irc-2021/ch03-building-planning/bathroom-window-or-exhaust-fan/)
+- Canyon Lake properties on septic systems (OSSF) must ensure bathroom remodels that add fixtures do not exceed the septic system's designed capacity — adding a bathroom or toilet may require a septic system evaluation or upgrade through the Comal County OSSF program. [Comal County — Permits](https://www.comalcounty.gov/286/Permits)
+
+### Plumbing Codes
+- Texas requires all plumbing work beyond "ordinary minor repairs to accessible fixtures" to be done by a TSBPE-licensed plumber. A bathroom remodel that moves drain lines, supply lines, or adds new fixture connections requires a licensed master or journeyman plumber. [TSBPE — Plumbing License Law](https://tsbpe.texas.gov/wp-content/uploads/documents/TSBPE_PlumbingLicenseLaw(PlainView)_Sept2025.pdf)
+- Approved supply line materials under the Texas-adopted International Plumbing Code include Type L copper tubing (ASTM B88), cross-linked polyethylene (PEX) tubing (ASTM F876/F877), and CPVC. PEX is the dominant material in new Central Texas residential construction due to its flexibility and resistance to scale buildup in hard water. [Texas Minimum Construction Standards](https://www.tdhca.state.tx.us/single-family/training/docs/14-TMCS.pdf)
+- Drain, waste, and vent (DWV) piping must be PVC Schedule 40, ABS, or cast iron. New bathroom drain connections require proper venting per the International Plumbing Code to prevent siphoning of fixture traps. [ICC — 2021 IPC Chapter 29](https://codes.iccsafe.org/content/IBC2018/chapter-29-plumbing-systems)
+- Water heater installations or replacements require compliance with Texas plumbing code, including temperature-pressure relief valve discharge to within 6 inches of the floor or to the exterior, and seismic strapping is recommended though not required in Comal County. [Service Titan — Texas Plumbing License](https://www.servicetitan.com/licensing/plumbing/texas)
+
+### Typical Home Age
+- Median construction year in Canyon Lake is approximately 2001, with 51% of housing built since 2000. These homes typically have PEX or copper supply lines and PVC drain systems in good condition, requiring less plumbing replacement during a remodel. [NeighborhoodScout](https://www.neighborhoodscout.com/tx/canyon-lake/real-estate)
+- Only 7.3% of Canyon Lake homes were built between 1940–1969 — these are primarily original lakeside cabins built after the dam's 1964 completion. These older homes commonly have galvanized steel supply pipes (40–50 year lifespan, now well past end of life) and cast iron drain pipes that corrode, flake, and restrict flow over time. A bathroom remodel in these properties typically requires full repiping. [Point2 Homes](https://www.point2homes.com/US/Neighborhood/TX/Canyon-Lake-Demographics.html) · [Roto-Rooter — Canyon Lake](https://www.rotorooter.com/canyonlaketx/)
+- Homes from the 1970s–1980s era (approximately 15% of stock) often feature small, compartmentalized bathrooms with standard 5-foot alcove tubs, single-sink vanities, and no exhaust ventilation fans — common upgrade targets for modern open layouts with walk-in showers. [House Digest — 60s Homes](https://www.housedigest.com/2185907/60s-homes-problems-downsides/)
+- The 85% homeownership rate and median household income of $97,301 indicate a population with both equity and income to fund bathroom remodeling projects. The median age of 48.2 years — many homeowners aging in place — drives demand for accessibility features like curbless showers, grab bars, and comfort-height toilets. [Point2 Homes](https://www.point2homes.com/US/Neighborhood/TX/Canyon-Lake-Demographics.html)
+
+### Water Quality
+- Canyon Lake Water Service Company (CLWSC) serves most Canyon Lake residences with surface water from Canyon Lake reservoir and groundwater from the Trinity Aquifer. Water hardness averages 157 PPM (approximately 9.2 grains per gallon), classified as hard. [CLWSC — 2024 CCR](https://www.txwaterco.com/media/1dcnoyxs/canyon-lake-shores-2025-update.pdf)
+- Both the Edwards and Trinity aquifers feed the Canyon Lake area. Water percolates through carbonate limestone, dissolving calcium and magnesium that cause heavy mineral scale on shower heads, faucets, glass doors, and tile. Hard water shortens the life of water heaters and valves. [Gaines Softwater — Canyon Lake Hard Water](https://gaines-softwater.com/blog/hard-water-canyon-lake/)
+- Water softener installation is common in Canyon Lake homes and should be factored into bathroom remodel planning — plumbing for a softener loop, if not already present, is best added during a remodel. Tankless water heaters popular in remodels are especially sensitive to scale buildup from hard water and may require descaling every 6–12 months without softening. [Gaines Softwater — Canyon Lake Water](https://gaines-softwater.com/blog/canyon-lake-water/)

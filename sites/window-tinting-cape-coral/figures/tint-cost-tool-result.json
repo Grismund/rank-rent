@@ -1,0 +1,14 @@
+{
+  "title": "Estimated Tint Cost by Vehicle Class",
+  "unit": "dollars",
+  "series": [
+    { "label": "Sedan / Coupe", "low": 150, "high": 350 },
+    { "label": "SUV / Truck", "low": 200, "high": 500 },
+    { "label": "Full-Size Crew Cab", "low": 250, "high": 600 }
+  ],
+  "source": {
+    "label": "Niche brief job economics; ranges reflect dyed through ceramic film on each vehicle class",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Bathroom Remodel Estimate by Finish Level",
+  "unit": "dollars",
+  "series": [
+    { "label": "Economy Finish", "low": 3000, "high": 7000 },
+    { "label": "Mid-Level Finish", "low": 6000, "high": 11000 },
+    { "label": "High-End Finish", "low": 10000, "high": 15000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Brevard County contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

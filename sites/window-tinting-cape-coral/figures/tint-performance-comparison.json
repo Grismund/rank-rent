@@ -1,0 +1,14 @@
+{
+  "title": "Infrared Heat Rejection by Film Category",
+  "unit": "percent",
+  "series": [
+    { "label": "Standard Dyed", "low": 15, "high": 30 },
+    { "label": "Carbon Particle", "low": 35, "high": 50 },
+    { "label": "Nano-Ceramic", "low": 50, "high": 70 }
+  ],
+  "source": {
+    "label": "Manufacturer specifications for infrared heat rejection rates by film chemistry",
+    "brief_section": "Manufacturer specifications"
+  },
+  "updated": "2026-11-17"
+}

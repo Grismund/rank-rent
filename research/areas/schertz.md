@@ -1,7 +1,7 @@
 # Local Facts: Schertz, Texas
 
 **Researched:** 2026-11-13
-**Niches:** epoxy-flooring
+**Niches:** epoxy-flooring, bathroom-remodel
 **Counties:** Guadalupe (primary), Comal, Bexar
 **Population:** 46,597 (2026 est.) — [World Population Review](https://worldpopulationreview.com/us-cities/texas/schertz)
 
@@ -48,7 +48,7 @@
 - Seguin — 22 miles east
 - San Marcos — 30 miles northeast
 
-## Epoxy Flooring — Local Facts
+## Niche: epoxy-flooring
 
 ### Permit Requirements
 - A building permit is required in Schertz for new concrete flatwork (driveways, sidewalks, parking surfaces) at a cost of $100 with two required inspections. Applying an epoxy coating over an existing concrete floor does not require a building permit. [City of Schertz — Concrete Flatwork](https://www.schertz.com/DocumentCenter/View/5235/Concrete-Flatwork---Residential?bidId=)
@@ -76,3 +76,33 @@
 - With 22% of residents being veterans and the proximity to Randolph AFB, many Schertz garages serve dual duty as workshops and storage — military families on PCS rotations use garage space for equipment, tools, and household goods between moves. [VA Loan Network](https://valoannetwork.com/best-neighborhoods-in-schertz-tx-for-veterans/)
 - Median household income of ~$100K supports discretionary home upgrades; the Home Value-to-Income ratio of 3.1x means homeowners have disposable income for improvements like garage floor coatings. [HomeSnacks](https://www.homesnacks.com/tx/schertz/)
 - New construction homes in The Crossvine and Homestead feature "Texas-sized" 8-foot garage doors and tandem three-car configurations with 400–600 sq ft of total garage floor area — prime candidates for epoxy coating. [Highland Homes](https://www.highlandhomes.com/san-antonio/schertz/the-crossvine)
+
+## Niche: bathroom-remodel
+
+### Permit Requirements
+- A building permit is required in Schertz for bathroom remodels that involve structural changes, plumbing relocation, or electrical modifications. The City of Schertz has adopted the 2018 International Building Code (IBC) and 2018 International Residential Code (IRC). [City of Schertz — Building Permits](https://www.schertz.com/456/Building-Permits)
+- A plumbing permit is specifically required when remodeling or adding to a one- or two-family dwelling when existing plumbing is to be relocated, when replacing water heaters or underground piping, or when altering piping inside a wall, ceiling, or beneath a floor. A plumbing permit is NOT required for "ordinary minor repairs" — replacement of accessible fixtures in their existing locations. Plumbing repair/replacement permit fee is $60. [City of Schertz — When Do I Need a Permit for Plumbing Work](https://www.schertz.com/DocumentCenter/View/6895/When-do-I-need-a-permit-for-plumbing-work-21921-lw-letterhead)
+- Homeowners who own and occupy their homestead may pull their own permit and perform work themselves, but are fully responsible for all code requirements and inspections. All gas repairs require a permit regardless of scope. [City of Schertz — When Do I Need a Permit for Plumbing Work](https://www.schertz.com/DocumentCenter/View/6895/When-do-I-need-a-permit-for-plumbing-work-21921-lw-letterhead)
+- All contractors doing business in Schertz must register through the city's online portal at schertz.com; registration is free. Contact Planning and Community Development at 210-619-1750 for permit questions. [City of Schertz — Contractor Registration](https://schertz.com/458/Contractor-Registration)
+
+### Local Regulations
+- Schertz follows the 2018 IBC/IRC with related 2018 I-codes. Under the IRC, bathrooms require either an operable window or a mechanical exhaust fan rated at 50 CFM intermittent or 20 CFM continuous, vented directly to the exterior. Exhaust fans must not terminate in an attic space. [City of Schertz — Building Permits](https://www.schertz.com/456/Building-Permits) · [ICC — IRC R303.3](https://www.jaspector.com/codes/irc-2018/ch15-exhaust-systems/bathroom-exhaust-fan-outdoor-termination-irc-2018/)
+- Minimum bathroom dimensions under the IRC: at least 21 inches of clearance in front of toilet and lavatory, minimum 30-inch width at toilet center, and minimum 15 inches from toilet centerline to any wall or obstruction. [ICC — 2018 IRC R307](https://codes.iccsafe.org/s/IRC2021P2/part-iii-building-planning-and-construction/IRC2021P2-Pt03-Ch03-SecR307)
+- Schertz requires inspections at multiple stages for permitted work: rough-in plumbing (before walls are closed), rough-in electrical, and final inspections. The permit is valid for 180 days. [City of Schertz — FAQ](https://www.schertz.com/2314/Frequently-Asked-Questions)
+
+### Plumbing Codes
+- All plumbing work beyond ordinary minor repairs must be performed by a plumber licensed through the Texas State Board of Plumbing Examiners (TSBPE). The TSBPE enforces the International Plumbing Code as adopted by Texas statewide. [TSBPE — Plumbing License Law](https://tsbpe.texas.gov/wp-content/uploads/documents/TSBPE_PlumbingLicenseLaw(PlainView)_Sept2025.pdf)
+- Approved supply line materials include Type L copper tubing (ASTM B88), PEX (ASTM F876/F877), and CPVC. PEX is the standard in Schertz new construction due to its flexibility, freeze resistance, and lower cost than copper. PEX support spacing is 32 inches horizontal, 10 feet vertical. [Texas Minimum Construction Standards](https://www.tdhca.state.tx.us/single-family/training/docs/14-TMCS.pdf)
+- Emergency plumbing repairs for freeze-damaged or leaking concealed piping require a permit in Schertz if new piping exceeds 5 feet in total length. This is relevant for bathroom remodels that discover hidden water damage during demolition. [City of Schertz — When Do I Need a Permit for Plumbing Work](https://www.schertz.com/DocumentCenter/View/6895/When-do-I-need-a-permit-for-plumbing-work-21921-lw-letterhead)
+- Water heater installations or replacements always require a plumbing permit in Schertz. Temperature-pressure relief valve discharge must comply with the International Plumbing Code. [City of Schertz — When Do I Need a Permit for Plumbing Work](https://www.schertz.com/DocumentCenter/View/6895/When-do-I-need-a-permit-for-plumbing-work-21921-lw-letterhead)
+
+### Typical Home Age
+- Median construction year in Schertz is 2001; 54% of housing built since 2000 and 37.4% built between 1970–1999. These post-2000 homes have modern PEX or copper supply lines and PVC drains, making bathroom remodels straightforward plumbing-wise. [Point2 Homes — Schertz Demographics](https://www.point2homes.com/US/Neighborhood/TX/Bexar-County/Schertz-Demographics.html)
+- Approximately 8.2% of Schertz homes were built between 1940–1969, primarily in older neighborhoods like Aviation Heights and the original Schertz townsite. These homes may have galvanized steel supply pipes and cast iron drains that should be replaced during a bathroom remodel. [Point2 Homes — Schertz Demographics](https://www.point2homes.com/US/Neighborhood/TX/Bexar-County/Schertz-Demographics.html)
+- With 22% of residents being veterans and proximity to Randolph AFB, PCS (Permanent Change of Station) turnover is a major driver of bathroom remodels in Schertz — military families frequently remodel bathrooms before listing homes to maximize resale value within tight PCS timelines. Remodelers in the area offer PCS-friendly 3–6 week timelines. [VA Loan Network — Schertz Neighborhoods](https://valoannetwork.com/best-neighborhoods-in-schertz-tx-for-veterans/) · [4 Way Contractors — Make-Ready Schertz](https://www.4waycontractors.com/make-ready-schertz-tx/)
+- Median household income of approximately $99,948 and a home value-to-income ratio of 3.1x mean Schertz homeowners have disposable income for bathroom upgrades. Master-planned communities (The Crossvine, Homestead, The Parklands) with 2,400–3,500 sq ft homes are prime candidates for master bathroom remodels. [HomeSnacks — Schertz](https://www.homesnacks.com/tx/schertz/)
+
+### Water Quality
+- Schertz draws water from two groundwater sources: the Schertz-Seguin well field (Carrizo-Wilcox Aquifer) and Naco Wells 1 and 2 (Edwards Aquifer). Water hardness is approximately 176–212 mg/L (10–12 grains per gallon), classified as hard. [City of Schertz — 2025 CCR](https://schertz.com/DocumentCenter/View/14275)
+- Schertz water quality scores 93/100 (grade A) with limited use restrictions compared to cities relying solely on the Edwards Aquifer. Since March 2003, the primary supply has come from the Carrizo Aquifer, which produces lower-hardness water than the Edwards. [City of Schertz — Water & Wastewater](https://schertz.com/208/Water-Wastewater-Utility)
+- Hard water at 10–12 gpg causes moderate mineral scale on shower fixtures, glass enclosures, and tile, and reduces water heater efficiency over time. Water softener installation is a common add-on during Schertz bathroom remodels, particularly when upgrading to tankless water heaters that are sensitive to scale. [SoftPro Water Systems — Schertz](https://www.softprowatersystems.com/pages/best-water-softener-schertz-tx)

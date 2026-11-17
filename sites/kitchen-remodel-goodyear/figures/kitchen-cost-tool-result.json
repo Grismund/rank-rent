@@ -1,0 +1,14 @@
+{
+  "title": "Kitchen Remodel Estimate by Project Size",
+  "unit": "dollars",
+  "series": [
+    { "label": "Galley or Small Kitchen", "low": 8000, "high": 18000 },
+    { "label": "Standard Kitchen", "low": 12000, "high": 25000 },
+    { "label": "Large or Open Kitchen", "low": 18000, "high": 35000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics; ranges adjusted by typical kitchen size",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

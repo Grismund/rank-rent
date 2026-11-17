@@ -1,0 +1,14 @@
+{
+  "title": "Kitchen Remodel Cost by Scope",
+  "unit": "dollars",
+  "series": [
+    { "label": "Minor Update", "low": 5000, "high": 12000 },
+    { "label": "Mid-Range Remodel", "low": 12000, "high": 20000 },
+    { "label": "High-End Renovation", "low": 20000, "high": 35000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

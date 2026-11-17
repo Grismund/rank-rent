@@ -1,0 +1,14 @@
+{
+  "title": "Expected Floor Lifespan by Coating System",
+  "unit": "years",
+  "series": [
+    { "label": "Professional Epoxy", "low": 10, "high": 20 },
+    { "label": "Polyaspartic System", "low": 15, "high": 20 },
+    { "label": "Retail Paint Kit", "low": 2, "high": 5 }
+  ],
+  "source": {
+    "label": "Manufacturer lifespan specifications and industry trade sources for residential garage applications",
+    "brief_section": "Manufacturer specifications"
+  },
+  "updated": "2026-11-17"
+}

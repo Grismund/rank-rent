@@ -1,0 +1,14 @@
+{
+  "title": "Bathroom Remodel Timeline by Project Type",
+  "unit": "weeks",
+  "series": [
+    { "label": "Cosmetic Update", "low": 1, "high": 1 },
+    { "label": "Mid-Range Renovation", "low": 2, "high": 3 },
+    { "label": "Complete Reconstruction", "low": 3, "high": 6 }
+  ],
+  "source": {
+    "label": "Industry standard timelines adjusted for Palm Bay permit and inspection scheduling",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

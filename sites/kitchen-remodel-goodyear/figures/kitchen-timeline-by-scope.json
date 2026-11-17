@@ -1,0 +1,14 @@
+{
+  "title": "Kitchen Remodel Timeline by Scope",
+  "unit": "weeks",
+  "series": [
+    { "label": "Minor Update", "low": 1, "high": 2 },
+    { "label": "Mid-Range Remodel", "low": 3, "high": 5 },
+    { "label": "Full Renovation", "low": 4, "high": 8 }
+  ],
+  "source": {
+    "label": "Industry standard timelines for kitchen remodeling projects",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

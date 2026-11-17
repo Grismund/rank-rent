@@ -1,0 +1,14 @@
+{
+  "title": "Automotive Tint Pricing by Film Type",
+  "unit": "dollars",
+  "series": [
+    { "label": "Basic Dyed", "low": 50, "high": 150 },
+    { "label": "Mid-Range Carbon", "low": 150, "high": 250 },
+    { "label": "Premium Ceramic", "low": 200, "high": 400 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Cape Coral-area installer pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}
