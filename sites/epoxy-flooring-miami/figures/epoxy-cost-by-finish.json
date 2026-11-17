@@ -1,0 +1,15 @@
+{
+  "title": "Installed Price per Square Foot by Finish Style",
+  "unit": "$/sq ft",
+  "series": [
+    { "label": "Uniform Color", "low": 3, "high": 6 },
+    { "label": "Decorative Flake", "low": 3, "high": 7 },
+    { "label": "Metallic Swirl", "low": 5, "high": 12 },
+    { "label": "Polyaspartic Full System", "low": 4, "high": 10 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Miami-Dade contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

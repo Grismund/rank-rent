@@ -1,0 +1,14 @@
+{
+  "title": "Bathroom Remodel Duration by Work Level",
+  "unit": "weeks",
+  "series": [
+    { "label": "Surface Refresh", "low": 1, "high": 1 },
+    { "label": "Standard Remodel", "low": 2, "high": 3 },
+    { "label": "Gut-and-Rebuild", "low": 3, "high": 6 }
+  ],
+  "source": {
+    "label": "Industry standard timelines adjusted for New Braunfels permit and inspection scheduling",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

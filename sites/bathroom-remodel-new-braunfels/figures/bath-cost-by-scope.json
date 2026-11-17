@@ -1,0 +1,14 @@
+{
+  "title": "Bathroom Remodel Cost by Work Level",
+  "unit": "dollars",
+  "series": [
+    { "label": "Surface Refresh", "low": 3000, "high": 6000 },
+    { "label": "Standard Remodel", "low": 6000, "high": 10000 },
+    { "label": "Gut-and-Rebuild", "low": 10000, "high": 15000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and New Braunfels-area contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

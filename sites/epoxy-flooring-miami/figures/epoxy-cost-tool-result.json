@@ -1,0 +1,14 @@
+{
+  "title": "Epoxy Floor Installation Cost by Garage Configuration",
+  "unit": "dollars",
+  "series": [
+    { "label": "Single Bay (~250 sq ft)", "low": 1250, "high": 2500 },
+    { "label": "Standard Double (~450 sq ft)", "low": 1600, "high": 3500 },
+    { "label": "Oversized or Triple (~700 sq ft)", "low": 2500, "high": 5200 }
+  ],
+  "source": {
+    "label": "Niche brief job economics; oversized range derived from per-sq-ft installed rates in Miami-Dade market",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Coating Durability by Product Category",
+  "unit": "years",
+  "series": [
+    { "label": "Professional Epoxy (with primer)", "low": 10, "high": 20 },
+    { "label": "Polyaspartic Full Coat", "low": 15, "high": 20 },
+    { "label": "Hardware-Store Paint Kit", "low": 2, "high": 5 }
+  ],
+  "source": {
+    "label": "Manufacturer durability specifications and industry trade-source estimates for residential garage applications",
+    "brief_section": "Manufacturer specifications"
+  },
+  "updated": "2026-11-17"
+}

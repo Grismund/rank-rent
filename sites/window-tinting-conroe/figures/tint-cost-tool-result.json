@@ -1,0 +1,14 @@
+{
+  "title": "Tint Installation Cost by Vehicle Size",
+  "unit": "dollars",
+  "series": [
+    { "label": "Compact / Sedan", "low": 150, "high": 350 },
+    { "label": "Midsize SUV / Crossover", "low": 200, "high": 450 },
+    { "label": "Full-Size Truck / SUV", "low": 250, "high": 550 }
+  ],
+  "source": {
+    "label": "Niche brief job economics; ranges reflect dyed through ceramic film across vehicle sizes in the Conroe market",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

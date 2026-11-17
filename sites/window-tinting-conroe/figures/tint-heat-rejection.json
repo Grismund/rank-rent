@@ -1,0 +1,14 @@
+{
+  "title": "Solar Heat Rejection Rate by Film Technology",
+  "unit": "percent",
+  "series": [
+    { "label": "Dyed Absorptive", "low": 15, "high": 30 },
+    { "label": "Carbon Composite", "low": 35, "high": 50 },
+    { "label": "Ceramic Nano-Particle", "low": 50, "high": 70 }
+  ],
+  "source": {
+    "label": "Manufacturer specifications for infrared rejection performance by film chemistry category",
+    "brief_section": "Manufacturer specifications"
+  },
+  "updated": "2026-11-17"
+}

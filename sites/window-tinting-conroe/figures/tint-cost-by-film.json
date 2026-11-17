@@ -1,0 +1,14 @@
+{
+  "title": "Conroe-Area Tint Pricing by Film Grade",
+  "unit": "dollars",
+  "series": [
+    { "label": "Economy Dyed", "low": 50, "high": 150 },
+    { "label": "Carbon Infrared", "low": 150, "high": 250 },
+    { "label": "Ceramic Pro", "low": 200, "high": 400 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Conroe-area installer pricing for standard automotive applications",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

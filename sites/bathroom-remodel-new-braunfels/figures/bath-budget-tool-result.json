@@ -1,0 +1,14 @@
+{
+  "title": "Bathroom Remodel Estimate by Material Grade",
+  "unit": "dollars",
+  "series": [
+    { "label": "Builder Grade", "low": 3000, "high": 7000 },
+    { "label": "Mid-Grade", "low": 6000, "high": 11000 },
+    { "label": "Designer Grade", "low": 10000, "high": 15000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and New Braunfels-area contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}
