@@ -88,6 +88,16 @@
 - No sedan-versus-SUV distinction: rules apply equally to all vehicle types. [Car Tint Law](https://www.cartintlaw.com/arizona/)
 - Violation is a traffic offense; officers use tint meters to verify VLT during traffic stops. Arizona does not require a formal tint inspection after installation. [Tint Finder](https://tintfinder.com/tint-laws/arizona/)
 
+### Permit Requirements
+- No building permit is required for applying window tint film to vehicles, residential windows, or commercial glass in Avondale — film application is not classified as a construction trade. [City of Avondale Building Safety](https://www.avondaleaz.gov/government/departments/development-and-engineering-services/building-safety)
+- Window tinting businesses operating in Avondale must hold a City of Avondale business license and an Arizona Transaction Privilege Tax (TPT) license. [City of Avondale Business Licensing](https://www.avondaleaz.gov/government/departments/finance/business-licensing)
+- Arizona's Registrar of Contractors does not require an ROC license for window film installation — it is not classified among the licensed construction trades. [Arizona ROC](https://roc.az.gov/)
+
+### Local Regulations
+- HOA communities in Avondale — including Garden Lakes, Crystal Gardens, Westwind, and Coldwater Springs — commonly regulate exterior window appearance through CC&R covenants; homeowners should verify whether reflective or dark residential film requires HOA architectural approval before installation. [Garden Lakes HOA](https://gardenlakeshoa.com/)
+- The City of Avondale has no municipal ordinance specifically regulating window tint film on residential or commercial buildings beyond standard building code compliance for glazing. [City of Avondale Municipal Code](https://www.avondaleaz.gov/government/departments/city-clerk/city-code)
+- For commercial window film installations that alter the building's energy performance, the 2024 International Energy Conservation Code adopted by Avondale may apply. [AZ Home Sense](https://azhomesense.com/build/arizona-building-codes/)
+
 ### Sun Exposure
 - Avondale receives 291 sunny days per year with approximately 3,688 hours of sunshine annually. [Best Places](https://www.bestplaces.net/climate/city/arizona/avondale)
 - UV index peaks at 8 (Very High) from May through August; ranges from 3 (Moderate) in December to 8 in summer. [Current UV Index](https://currentuvindex.com/us/arizona/maricopa-county/avondale)

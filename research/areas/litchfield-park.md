@@ -89,6 +89,16 @@
 - No sedan-versus-SUV distinction: rules apply equally to all vehicle types. [Car Tint Law](https://www.cartintlaw.com/arizona/)
 - Violation is a traffic offense; officers use tint meters to verify VLT during traffic stops. Arizona does not require a formal tint inspection after installation. [Tint Finder](https://tintfinder.com/tint-laws/arizona/)
 
+### Permit Requirements
+- No building permit is required for applying window tint film to vehicles, residential windows, or commercial glass in Litchfield Park — film application is not classified as a construction trade. [Litchfield Park Building Permits](https://www.litchfieldpark.gov/487/Building-Permit-Questions-and-Answers)
+- Window tinting businesses operating in Litchfield Park must hold a city business license and an Arizona Transaction Privilege Tax (TPT) license. [Litchfield Park Business Licensing](https://www.litchfieldpark.gov/180/Business-Licensing)
+- Arizona's Registrar of Contractors does not require an ROC license for window film installation — it is not classified among the licensed construction trades. [Arizona ROC](https://roc.az.gov/)
+
+### Local Regulations
+- HOA communities in Litchfield Park — including The Village at Litchfield Park, Wigwam Creek, and Russell Ranch — commonly regulate exterior window appearance through CC&R covenants; homeowners should verify whether reflective or dark residential window film requires HOA architectural committee approval before installation. [Highgarden Phoenix](https://www.highgarden-phoenix.com/litchfield-park-arizona-neighborhoods)
+- The City of Litchfield Park has no municipal ordinance specifically regulating window tint film on residential or commercial buildings beyond standard building code compliance for glazing. [Litchfield Park Code Publishing](https://www.codepublishing.com/AZ/LitchfieldPark/html/LitchfieldPark07.html)
+- Litchfield Park enforces the 2018 International Energy Conservation Code; commercial window film installations that alter a building's energy performance may need to demonstrate code compliance. [Litchfield Park Code Publishing](https://www.codepublishing.com/AZ/LitchfieldPark/html/LitchfieldPark07.html)
+
 ### Sun Exposure
 - Litchfield Park shares the Phoenix metro climate with approximately 299 sunny days per year and over 3,800 hours of annual sunshine. [Current Results](https://www.currentresults.com/Weather/Arizona/annual-days-of-sunshine.php)
 - UV index peaks at 8 (Very High) from May through August; reaches Extreme levels (10-11) during midday in peak summer months. [Weather Atlas](https://www.weather-atlas.com/en/arizona-usa/litchfield-park-weather-june)

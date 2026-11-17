@@ -1,0 +1,17 @@
+{
+  "title": "Junk Removal Price by Truck Load",
+  "unit": "dollars",
+  "series": [
+    { "label": "Single Item", "low": 100, "high": 150 },
+    { "label": "1/8 Truck", "low": 100, "high": 150 },
+    { "label": "1/4 Truck", "low": 150, "high": 250 },
+    { "label": "1/2 Truck", "low": 250, "high": 400 },
+    { "label": "3/4 Truck", "low": 350, "high": 500 },
+    { "label": "Full Truck", "low": 450, "high": 700 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Treasure Coast hauler pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

@@ -88,6 +88,16 @@
 - No sedan-versus-SUV distinction: rules apply equally to all vehicle types. [Car Tint Law](https://www.cartintlaw.com/arizona/)
 - Violation is a traffic offense; officers use tint meters to verify VLT during traffic stops. Arizona does not require a formal tint inspection after installation. [Tint Finder](https://tintfinder.com/tint-laws/arizona/)
 
+### Permit Requirements
+- No building permit is required for applying window tint film to vehicles, residential windows, or commercial glass in Tolleson — film application is not classified as a construction trade. [Tolleson Homeowners](https://www.tolleson.az.gov/552/Homeowners)
+- Window tinting businesses operating in Tolleson must hold a city business license and an Arizona Transaction Privilege Tax (TPT) license. [Tolleson Business Licensing](https://www.tolleson.az.gov/266/Business-Licensing)
+- Arizona's Registrar of Contractors does not require an ROC license for window film installation — it is not classified among the licensed construction trades. [Arizona ROC](https://roc.az.gov/)
+
+### Local Regulations
+- HOA communities in Tolleson — including Legacy at Tolleson and Marley Park (adjacent) — commonly regulate exterior window appearance through CC&R covenants; homeowners should verify whether reflective or dark residential window film requires HOA architectural committee approval before installation. [Homes.com](https://www.homes.com/local-guide/tolleson-az/)
+- The City of Tolleson has no municipal ordinance specifically regulating window tint film on residential or commercial buildings beyond standard building code compliance for glazing. [Tolleson Municode](http://tolleson-az.elaws.us/code/coor_citoarzoco_ch12_art12-1_inco_sec12-1-20)
+- Tolleson enforces the 2024 International Energy Conservation Code as of July 1, 2025; commercial window film installations that alter a building's energy performance may need to demonstrate code compliance. [Tolleson Municode](http://tolleson-az.elaws.us/code/coor_citoarzoco_ch12_art12-1_inco_sec12-1-20)
+
 ### Sun Exposure
 - Tolleson receives approximately 290+ sunny days per year, consistent with the broader Phoenix metro average of 299 sunny days. [Best Places](https://www.bestplaces.net/climate/city/arizona/tolleson)
 - UV index peaks at 8 (Very High) from May through August; ranges from 3 (Moderate) in December to 8 in summer; midday UV reaches Extreme (10-11) during peak months. [Weather Atlas](https://www.weather-atlas.com/en/arizona-usa/tolleson-weather-july)

@@ -1,0 +1,14 @@
+{
+  "title": "Heat Rejection by Film Type",
+  "unit": "percent",
+  "series": [
+    { "label": "Dyed Film", "low": 15, "high": 30 },
+    { "label": "Carbon Film", "low": 35, "high": 50 },
+    { "label": "Ceramic Film", "low": 50, "high": 70 }
+  ],
+  "source": {
+    "label": "Manufacturer specifications for infrared heat rejection rates by film chemistry",
+    "brief_section": "Manufacturer specifications"
+  },
+  "updated": "2026-11-17"
+}

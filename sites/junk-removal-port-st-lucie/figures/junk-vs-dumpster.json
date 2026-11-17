@@ -1,0 +1,17 @@
+{
+  "title": "Junk Removal vs. Dumpster Rental Cost Comparison",
+  "unit": "dollars",
+  "series": [
+    { "label": "Junk Removal - Small (1/4 truck)", "low": 150, "high": 250 },
+    { "label": "Dumpster - Small (10-yard)", "low": 300, "high": 400 },
+    { "label": "Junk Removal - Medium (1/2 truck)", "low": 250, "high": 400 },
+    { "label": "Dumpster - Medium (15-yard)", "low": 350, "high": 500 },
+    { "label": "Junk Removal - Large (full truck)", "low": 450, "high": 700 },
+    { "label": "Dumpster - Large (20-yard)", "low": 400, "high": 600 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and local dumpster rental pricing; dumpster rates for 7-day rental period",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

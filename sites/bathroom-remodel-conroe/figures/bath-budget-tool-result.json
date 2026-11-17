@@ -1,0 +1,14 @@
+{
+  "title": "Bathroom Remodel Estimate by Finish Tier",
+  "unit": "dollars",
+  "series": [
+    { "label": "Standard Tier", "low": 3000, "high": 7000 },
+    { "label": "Upgraded Tier", "low": 6000, "high": 11000 },
+    { "label": "Premium Tier", "low": 10000, "high": 15000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Conroe-area contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

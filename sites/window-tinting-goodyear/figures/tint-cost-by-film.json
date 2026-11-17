@@ -1,0 +1,14 @@
+{
+  "title": "Window Tint Cost by Film Type (Per Vehicle)",
+  "unit": "dollars",
+  "series": [
+    { "label": "Dyed Film", "low": 50, "high": 150 },
+    { "label": "Carbon Film", "low": 150, "high": 250 },
+    { "label": "Ceramic Film", "low": 200, "high": 400 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Goodyear-area installer pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Bathroom Remodel Timeline by Scope",
+  "unit": "weeks",
+  "series": [
+    { "label": "Budget Refresh", "low": 1, "high": 1 },
+    { "label": "Mid-Range Remodel", "low": 2, "high": 3 },
+    { "label": "Full Remodel", "low": 3, "high": 6 }
+  ],
+  "source": {
+    "label": "Industry standard timelines adjusted for Conroe permit and inspection scheduling",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

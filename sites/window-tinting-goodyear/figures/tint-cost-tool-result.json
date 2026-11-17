@@ -1,0 +1,14 @@
+{
+  "title": "Window Tint Cost Estimate by Vehicle Type",
+  "unit": "dollars",
+  "series": [
+    { "label": "Coupe / Sedan", "low": 150, "high": 350 },
+    { "label": "SUV / Crossover", "low": 200, "high": 450 },
+    { "label": "Truck (Crew Cab)", "low": 200, "high": 500 }
+  ],
+  "source": {
+    "label": "Niche brief job economics; ranges reflect standard to ceramic film on each vehicle class",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

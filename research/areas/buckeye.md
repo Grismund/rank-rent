@@ -89,6 +89,16 @@
 - No sedan-versus-SUV distinction: rules apply equally to all vehicle types. [Car Tint Law](https://www.cartintlaw.com/arizona/)
 - Violation is a traffic offense; officers use tint meters to verify VLT during traffic stops. Arizona does not require a formal tint inspection after installation. [Tint Finder](https://tintfinder.com/tint-laws/arizona/)
 
+### Permit Requirements
+- No building permit is required for applying window tint film to vehicles, residential windows, or commercial glass in Buckeye — film application is not classified as a construction trade. [City of Buckeye Building Safety](https://www.buckeyeaz.gov/business/development-services/building-safety)
+- Window tinting businesses operating in Buckeye must hold a City of Buckeye business license and an Arizona Transaction Privilege Tax (TPT) license. [City of Buckeye Business Licensing](https://www.buckeyeaz.gov/business/business-licensing)
+- Arizona's Registrar of Contractors does not require an ROC license for window film installation — it is not classified among the licensed construction trades. [Arizona ROC](https://roc.az.gov/)
+
+### Local Regulations
+- HOA communities in Buckeye — including Verrado, Tartesso, Sundance, and Sun City Festival — commonly regulate exterior window appearance through CC&R covenants; homeowners should verify whether reflective or dark residential window film requires HOA architectural committee approval before installation. [Move Phoenix](https://movephoenix.com/neighborhoods/buckeye-az/)
+- The City of Buckeye has no municipal ordinance specifically regulating window tint film on residential or commercial buildings beyond standard building code compliance for glazing. [City of Buckeye Municipal Code](https://buckeyeaz.gov/government/city-code)
+- Buckeye adopted the 2024 International Energy Conservation Code effective January 1, 2025; commercial window film installations that alter a building's energy performance may need to demonstrate code compliance. [City of Buckeye Construction Codes](https://www.azbo.us/documents/documents/City_of_Buckeye_2024_Construction_Codes.pdf)
+
 ### Sun Exposure
 - Buckeye receives 295 sunny days per year in the Sonoran Desert with minimal cloud cover. [Best Places](https://www.bestplaces.net/climate/city/az/buckeye)
 - UV index peaks at 8 (Very High) from May through August; ranges from 3 (Moderate) in December to 8 in summer; midday UV reaches Extreme (10-11) during peak months. [Weather Atlas](https://www.weather-atlas.com/en/arizona-usa/buckeye-climate)
