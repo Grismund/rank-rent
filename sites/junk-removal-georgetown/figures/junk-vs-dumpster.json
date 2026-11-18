@@ -1,0 +1,17 @@
+{
+  "title": "Full-Service Hauler vs. Roll-Off Dumpster Rental",
+  "unit": "dollars",
+  "series": [
+    { "label": "Hauler - Quarter Load", "low": 150, "high": 250 },
+    { "label": "10-Yard Dumpster (7 days)", "low": 300, "high": 400 },
+    { "label": "Hauler - Half Load", "low": 250, "high": 400 },
+    { "label": "15-Yard Dumpster (7 days)", "low": 350, "high": 500 },
+    { "label": "Hauler - Full Load", "low": 450, "high": 700 },
+    { "label": "20-Yard Dumpster (7 days)", "low": 400, "high": 600 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and local dumpster rental pricing; dumpster rates for 7-day rental period",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

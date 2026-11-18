@@ -1,0 +1,14 @@
+{
+  "title": "Bathroom Remodel Duration by Project Depth",
+  "unit": "weeks",
+  "series": [
+    { "label": "Fixture and Finish Swap", "low": 1, "high": 1 },
+    { "label": "Layout-Preserving Remodel", "low": 2, "high": 3 },
+    { "label": "Full Tear-Out and Rebuild", "low": 3, "high": 6 }
+  ],
+  "source": {
+    "label": "Industry standard timelines adjusted for Goodyear permit and inspection scheduling",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

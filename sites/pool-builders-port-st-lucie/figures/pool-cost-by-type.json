@@ -1,0 +1,14 @@
+{
+  "title": "New Pool Cost by Construction Type",
+  "unit": "dollars",
+  "series": [
+    { "label": "Gunite / Concrete", "low": 35000, "high": 65000 },
+    { "label": "Fiberglass Shell", "low": 25000, "high": 55000 },
+    { "label": "Vinyl Liner", "low": 25000, "high": 45000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Treasure Coast pool contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

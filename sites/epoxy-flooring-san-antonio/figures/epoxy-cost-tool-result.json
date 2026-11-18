@@ -1,0 +1,14 @@
+{
+  "title": "Estimated Garage Coating Cost by Stall Count",
+  "unit": "dollars",
+  "series": [
+    { "label": "Single-Stall (~250 sq ft)", "low": 1250, "high": 2450 },
+    { "label": "Double-Stall (~450 sq ft)", "low": 1650, "high": 3450 },
+    { "label": "Triple-Stall (~700 sq ft)", "low": 2450, "high": 5100 }
+  ],
+  "source": {
+    "label": "Niche brief job economics; extended range derived from per-sq-ft installed rates in Bexar County market",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

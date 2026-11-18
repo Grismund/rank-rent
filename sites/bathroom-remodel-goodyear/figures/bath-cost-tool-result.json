@@ -1,0 +1,14 @@
+{
+  "title": "Bathroom Remodel Estimate by Investment Level",
+  "unit": "dollars",
+  "series": [
+    { "label": "Essential Update", "low": 3000, "high": 7000 },
+    { "label": "Comprehensive Renovation", "low": 6000, "high": 11000 },
+    { "label": "Complete Transformation", "low": 10000, "high": 15000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Goodyear-area contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

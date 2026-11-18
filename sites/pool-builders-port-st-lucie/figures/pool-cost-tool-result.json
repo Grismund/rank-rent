@@ -1,0 +1,16 @@
+{
+  "title": "Pool Construction Cost: Base Build Plus Feature Additions",
+  "unit": "dollars",
+  "series": [
+    { "label": "Base Pool (gunite, 12×24)", "low": 35000, "high": 55000 },
+    { "label": "Screen Enclosure", "low": 5000, "high": 15000 },
+    { "label": "Pool Heater", "low": 2000, "high": 5000 },
+    { "label": "Saltwater System", "low": 1000, "high": 3000 },
+    { "label": "Spa / Hot Tub Add-On", "low": 5000, "high": 15000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Treasure Coast pool contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

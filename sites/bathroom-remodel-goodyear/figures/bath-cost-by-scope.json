@@ -1,0 +1,14 @@
+{
+  "title": "Bathroom Remodel Cost by Project Depth",
+  "unit": "dollars",
+  "series": [
+    { "label": "Fixture and Finish Swap", "low": 3000, "high": 6000 },
+    { "label": "Layout-Preserving Remodel", "low": 6000, "high": 10000 },
+    { "label": "Full Tear-Out and Rebuild", "low": 10000, "high": 15000 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Goodyear-area contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

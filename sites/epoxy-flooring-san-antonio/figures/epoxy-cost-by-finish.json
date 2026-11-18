@@ -1,0 +1,15 @@
+{
+  "title": "San Antonio Epoxy Floor Pricing by Coating Style",
+  "unit": "$/sq ft",
+  "series": [
+    { "label": "Basic Solid Coat", "low": 3, "high": 7 },
+    { "label": "Vinyl Flake Blend", "low": 4, "high": 7 },
+    { "label": "Metallic Epoxy Finish", "low": 5, "high": 12 },
+    { "label": "Polyaspartic Topcoat System", "low": 4, "high": 10 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and San Antonio-area contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-17"
+}

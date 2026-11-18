@@ -1,0 +1,14 @@
+{
+  "title": "Floor Coating Service Life by Product Type",
+  "unit": "years",
+  "series": [
+    { "label": "Professional Epoxy System", "low": 10, "high": 20 },
+    { "label": "Polyaspartic Coating", "low": 15, "high": 20 },
+    { "label": "DIY Paint Kit", "low": 2, "high": 5 }
+  ],
+  "source": {
+    "label": "Manufacturer durability ratings and industry trade-source estimates for residential garage applications",
+    "brief_section": "Manufacturer specifications"
+  },
+  "updated": "2026-11-17"
+}
