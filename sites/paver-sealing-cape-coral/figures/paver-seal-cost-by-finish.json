@@ -1,0 +1,14 @@
+{
+  "title": "Paver Sealing Cost per Square Foot by Finish",
+  "unit": "$/sq ft",
+  "series": [
+    { "label": "Natural/Matte", "low": 1.00, "high": 2.00 },
+    { "label": "Wet-Look", "low": 1.50, "high": 3.00 },
+    { "label": "High-Gloss", "low": 2.00, "high": 4.00 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and manufacturer pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-18"
+}

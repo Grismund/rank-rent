@@ -1,0 +1,14 @@
+{
+  "title": "Paver Re-Seal Interval by Finish Type",
+  "unit": "years",
+  "series": [
+    { "label": "Natural/Matte", "low": 3, "high": 5 },
+    { "label": "Wet-Look", "low": 2, "high": 4 },
+    { "label": "High-Gloss", "low": 2, "high": 3 }
+  ],
+  "source": {
+    "label": "Manufacturer specifications and Southwest Florida climate adjustment",
+    "brief_section": "Manufacturer specifications"
+  },
+  "updated": "2026-11-18"
+}

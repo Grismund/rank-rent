@@ -1,0 +1,16 @@
+{
+  "title": "Pressure Washing Cost by Surface Type",
+  "unit": "dollars",
+  "series": [
+    { "label": "Driveway (400–600 sq ft)", "low": 100, "high": 200 },
+    { "label": "House Exterior (1,500–2,500 sq ft)", "low": 225, "high": 600 },
+    { "label": "Deck/Patio (200–400 sq ft)", "low": 100, "high": 250 },
+    { "label": "Roof (1,500–2,000 sq ft)", "low": 300, "high": 600 },
+    { "label": "Fence (100–200 linear ft)", "low": 100, "high": 400 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Conroe-area contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-18"
+}

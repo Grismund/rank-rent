@@ -1,0 +1,16 @@
+{
+  "title": "Pressure Washing Cost per Square Foot by Surface",
+  "unit": "$/sq ft",
+  "series": [
+    { "label": "Driveway", "low": 0.10, "high": 0.25 },
+    { "label": "House Exterior", "low": 0.15, "high": 0.40 },
+    { "label": "Deck/Patio", "low": 0.25, "high": 0.50 },
+    { "label": "Roof (Soft Wash)", "low": 0.20, "high": 0.50 },
+    { "label": "Fence (per linear ft)", "low": 1.00, "high": 3.00 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and trade-source pricing surveys",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-18"
+}

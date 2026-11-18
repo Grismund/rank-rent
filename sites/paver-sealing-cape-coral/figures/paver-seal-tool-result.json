@@ -1,0 +1,14 @@
+{
+  "title": "Paver Sealing Cost by Area Size",
+  "unit": "dollars",
+  "series": [
+    { "label": "Small Patio/Walkway (100–200 sq ft)", "low": 200, "high": 500 },
+    { "label": "Driveway (400–600 sq ft)", "low": 500, "high": 900 },
+    { "label": "Full Property (800–1,200 sq ft)", "low": 800, "high": 1400 }
+  ],
+  "source": {
+    "label": "Niche brief job economics and Cape Coral contractor pricing",
+    "brief_section": "Job Economics"
+  },
+  "updated": "2026-11-18"
+}

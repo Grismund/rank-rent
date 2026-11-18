@@ -1,0 +1,15 @@
+{
+  "title": "Recommended Pressure Washing Frequency by Surface",
+  "unit": "months",
+  "series": [
+    { "label": "Driveway", "low": 12, "high": 18 },
+    { "label": "House Exterior", "low": 12, "high": 24 },
+    { "label": "Deck/Patio", "low": 6, "high": 12 },
+    { "label": "Roof", "low": 24, "high": 36 }
+  ],
+  "source": {
+    "label": "Manufacturer recommendations adjusted for East Texas humidity and tree coverage",
+    "brief_section": "Manufacturer specifications"
+  },
+  "updated": "2026-11-18"
+}
