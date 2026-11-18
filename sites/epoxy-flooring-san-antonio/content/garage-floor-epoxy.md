@@ -1,6 +1,6 @@
 ---
 title: Garage Floor Epoxy San Antonio | Alamo City Epoxy
-meta_description: Garage Floor Epoxy services in San Antonio, Texas. Epoxy coating for residential garage floors.
+meta_description: "Garage Floor Epoxy San Antonio — San Antonio homeowners use their garages hard. Call today. Get started with a free quote."
 h1: Garage Floor Epoxy in San Antonio, Texas
 primary_keyword: garage floor epoxy san antonio
 type: service

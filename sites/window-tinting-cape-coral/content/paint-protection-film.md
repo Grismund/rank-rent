@@ -1,6 +1,6 @@
 ---
 title: Paint Protection Film Cape Coral | Cape Coral Window Tinting
-meta_description: Paint Protection Film services in Cape Coral, Florida. Clear protective wrap for vehicle paint surfaces.
+meta_description: "Paint Protection Film Cape Coral — Looking for paint protection film Cape Coral vehicle owners trust? Cape Coral... Compare local contractors."
 h1: Paint Protection Film in Cape Coral, Florida
 primary_keyword: paint protection film cape coral
 type: service

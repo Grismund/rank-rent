@@ -1,6 +1,6 @@
 ---
 title: How Long Does a Bathroom Remodel Take? | Conroe
-meta_description: How Long Does a Bathroom Remodel Take? — a guide for Conroe, Texas homeowners.
+meta_description: "How Long Does a Bathroom Remodel Take — covers overview, how they compare, practical takeaways. Request a free estimate."
 h1: How Long Does a Bathroom Remodel Take? — Conroe, Texas
 primary_keyword: how long does a bathroom remodel take
 type: guide

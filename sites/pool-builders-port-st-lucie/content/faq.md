@@ -1,6 +1,6 @@
 ---
 title: Pool Builders FAQ PSL | PSL Pool Builders
-meta_description: Frequently asked questions about pool builders in Port St. Lucie, Florida.
+meta_description: "Pool Builders FAQ for Port St. Lucie, Florida — answers on installation, cost, water resistance. Call today. Get free quotes today."
 h1: Pool Builders FAQ — Port St. Lucie, Florida
 primary_keyword: pool builders faq
 type: faq

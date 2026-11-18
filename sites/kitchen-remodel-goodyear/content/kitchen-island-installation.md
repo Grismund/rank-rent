@@ -1,6 +1,6 @@
 ---
 title: Kitchen Island Installation Goodyear | Goodyear Kitchen Remodeling
-meta_description: Kitchen Island Installation services in Goodyear, Arizona. Add or rebuild a kitchen island for workspace and storage.
+meta_description: "Kitchen Island Installation Goodyear — Kitchen island installation in Goodyear adds workspace, storage, and seating to... Get free quotes today."
 h1: Kitchen Island Installation in Goodyear, Arizona
 primary_keyword: kitchen island installation goodyear
 type: service

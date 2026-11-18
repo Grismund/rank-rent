@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Miami Beach Florida | Miami Garage Floor Co.
-meta_description: Epoxy Flooring services in Miami Beach, Florida. Serving Miami Beach and surrounding areas.
+meta_description: "Epoxy Flooring Miami Beach — Population 82,890 on a barrier island across Biscayne Bay. Call today. Request a free estimate."
 h1: Epoxy Flooring in Miami Beach, Florida
 primary_keyword: epoxy flooring miami beach
 type: town

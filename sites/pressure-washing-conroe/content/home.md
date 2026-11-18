@@ -1,6 +1,6 @@
 ---
 title: Pressure Washing Conroe | Conroe Pressure Washing
-meta_description: Connect with pressure washing pros in Conroe, Texas. Free quotes from local contractors.
+meta_description: "Pressure Washing Conroe, Texas — house washing, driveway pressure washing, deck and patio cleaning. Request a free estimate."
 h1: Pressure Washing in Conroe, Texas
 primary_keyword: pressure washing conroe
 type: home

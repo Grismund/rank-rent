@@ -1,6 +1,6 @@
 ---
 title: "Epoxy Flooring Cost New Braunfels | Comal Epoxy Floors"
-meta_description: "How much does epoxy flooring cost in New Braunfels? Price ranges from $1,600 to $3,500 by project size. Get a free estimate today."
+meta_description: "Epoxy Flooring Cost New Braunfels: most projects run . See what affects your price. Call today. Compare local contractors."
 h1: "How Much Does Epoxy Flooring Cost in New Braunfels?"
 primary_keyword: "epoxy flooring cost new braunfels"
 type: cost_guide

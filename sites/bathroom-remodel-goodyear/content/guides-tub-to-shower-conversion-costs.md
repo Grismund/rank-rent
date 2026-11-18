@@ -1,6 +1,6 @@
 ---
 title: Tub-to-Shower Conversion Costs | Goodyear Bath Remodel Co.
-meta_description: Tub-to-Shower Conversion Costs — a guide for Goodyear, Arizona homeowners.
+meta_description: "Tub to Shower Conversion Cost Goodyear — covers what you need to know, side-by-side comparison, what this means for your project. Get started with a free quote."
 h1: Tub-to-Shower Conversion Costs — Goodyear, Arizona
 primary_keyword: tub to shower conversion cost goodyear
 type: guide

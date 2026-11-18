@@ -1,6 +1,6 @@
 ---
 title: Small Bathroom Remodel Goodyear | Goodyear Bath Co.
-meta_description: Small Bathroom Remodel services in Goodyear, Arizona. Budget-focused update for guest or half baths.
+meta_description: "Small Bathroom Remodel Goodyear — A small bathroom remodel Goodyear families choose refreshes a guest bathroom,... Get free quotes today."
 h1: Small Bathroom Remodel in Goodyear, Arizona
 primary_keyword: small bathroom remodel goodyear
 type: service

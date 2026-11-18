@@ -1,6 +1,6 @@
 ---
 title: Epoxy vs. Polyaspartic Garage Floors | Orlando Epoxy Works
-meta_description: Epoxy vs. Polyaspartic Garage Floors — a guide for Orlando, Florida homeowners.
+meta_description: "Epoxy vs Polyaspartic Orlando — covers overview, how they compare, practical takeaways. Call today. Get free quotes today."
 h1: Epoxy vs. Polyaspartic Garage Floors — Orlando, Florida
 primary_keyword: epoxy vs polyaspartic orlando
 type: guide

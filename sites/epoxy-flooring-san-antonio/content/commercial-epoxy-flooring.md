@@ -1,6 +1,6 @@
 ---
 title: Commercial Epoxy Flooring San Antonio | Alamo City Epoxy
-meta_description: Commercial Epoxy Flooring services in San Antonio, Texas. Epoxy systems for warehouses, shops, and showrooms.
+meta_description: "Commercial Epoxy Flooring San Antonio — San Antonio's commercial corridors stretch for miles along I-35 and I-10, lined... Compare local contractors."
 h1: Commercial Epoxy Flooring in San Antonio, Texas
 primary_keyword: commercial epoxy flooring san antonio
 type: service

@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Cost Calculator | NBBW
-meta_description: Free bathroom remodel cost calculator for New Braunfels, Texas. Get an instant estimate for your project.
+meta_description: "Free Bathroom Remodel Cost Calculator New Braunfels — This bathroom remodel cost calculator New Braunfels homeowners use gives Get started with a free quote."
 h1: Bathroom Remodel Cost Calculator — New Braunfels, Texas
 primary_keyword: bathroom remodel cost calculator new braunfels
 type: tool

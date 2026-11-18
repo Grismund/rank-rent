@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Cost Port St. Lucie | PSL Haulers
-meta_description: How much does junk removal cost in Port St. Lucie? Price ranges, factors, and free estimates.
+meta_description: "Junk Removal Cost Port St. Lucie: most projects run . See what affects your price. Port St. Lucie area. Request a free estimate."
 h1: How Much Does Junk Removal Cost in Port St. Lucie?
 primary_keyword: junk removal cost port st. lucie
 type: cost_guide

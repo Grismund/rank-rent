@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring FAQ Miami | Miami Garage Floor Co.
-meta_description: Frequently asked questions about epoxy flooring in Miami, Florida.
+meta_description: "Epoxy Flooring FAQ for Miami, Florida — answers on . Serving Miami and surrounding areas. Get started with a free quote."
 h1: Epoxy Flooring FAQ — Miami, Florida
 primary_keyword: epoxy flooring faq
 type: faq

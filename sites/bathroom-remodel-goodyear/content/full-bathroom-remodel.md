@@ -1,6 +1,6 @@
 ---
 title: Full Bathroom Remodel Goodyear | Goodyear Bath Remodel Co.
-meta_description: Full Bathroom Remodel services in Goodyear, Arizona. Complete gut-and-rebuild of an existing bathroom.
+meta_description: "Full Bathroom Remodel Goodyear — A full bathroom remodel Goodyear contractors perform strips the room down to... Get free quotes today."
 h1: Full Bathroom Remodel in Goodyear, Arizona
 primary_keyword: full bathroom remodel goodyear
 type: service

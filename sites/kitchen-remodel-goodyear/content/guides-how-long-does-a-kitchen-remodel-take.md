@@ -1,6 +1,6 @@
 ---
 title: How Long Does a Kitchen Remodel Take? | Goodyear Kitchen Remodeling
-meta_description: How Long Does a Kitchen Remodel Take? — a guide for Goodyear, Arizona homeowners.
+meta_description: "How Long Does a Kitchen Remodel Take — covers quick summary, timeline by scope, what affects the schedule. Get started with a free quote."
 h1: How Long Does a Kitchen Remodel Take? — Goodyear, Arizona
 primary_keyword: how long does a kitchen remodel take
 type: guide

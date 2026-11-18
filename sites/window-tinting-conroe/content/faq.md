@@ -1,6 +1,6 @@
 ---
 title: Window Tinting FAQ Conroe | Conroe Tint Works
-meta_description: Frequently asked questions about window tinting in Conroe, Texas.
+meta_description: "Window Tinting FAQ for Conroe, Texas — answers on . Local Conroe, Texas contractors ready to help. Request a free estimate."
 h1: Window Tinting FAQ — Conroe, Texas
 primary_keyword: window tinting faq
 type: faq

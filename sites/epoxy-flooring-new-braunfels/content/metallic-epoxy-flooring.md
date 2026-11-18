@@ -1,6 +1,6 @@
 ---
 title: "Metallic Epoxy Flooring New Braunfels | Comal Epoxy Floors"
-meta_description: "Metallic epoxy flooring in New Braunfels, TX. Decorative metallic-finish coatings for garages and interiors. Get a free estimate today."
+meta_description: "Metallic Epoxy Flooring New Braunfels — Most epoxy floors are meant to disappear. New Braunfels area. Request a free estimate."
 h1: "Metallic Epoxy Flooring in New Braunfels, Texas"
 primary_keyword: "metallic epoxy flooring new braunfels"
 type: service

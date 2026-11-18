@@ -1,6 +1,6 @@
 ---
 title: Cabinet Refacing vs. Replacement | Goodyear Kitchen Remodeling
-meta_description: Cabinet Refacing vs. Replacement — a guide for Goodyear, Arizona homeowners.
+meta_description: "Cabinet Refacing vs Replacing — covers quick summary, key differences, how this affects your decision. Request a free estimate."
 h1: Cabinet Refacing vs. Replacement — Goodyear, Arizona
 primary_keyword: cabinet refacing vs replacing
 type: guide

@@ -1,6 +1,6 @@
 ---
 title: Gunite vs. Fiberglass vs. Vinyl Pools | PSL Pool Builders
-meta_description: Gunite vs. Fiberglass vs. Vinyl Pools — a guide for Port St. Lucie, Florida homeowners.
+meta_description: "Gunite vs Fiberglass Pool Florida — covers quick summary, key differences, how this affects your decision. Get free quotes today."
 h1: Gunite vs. Fiberglass vs. Vinyl Pools — Port St. Lucie, Florida
 primary_keyword: gunite vs fiberglass pool florida
 type: guide

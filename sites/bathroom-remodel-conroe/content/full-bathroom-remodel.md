@@ -1,6 +1,6 @@
 ---
 title: Full Bathroom Remodel Conroe | Conroe Bath Remodeling
-meta_description: Full Bathroom Remodel services in Conroe, Texas. Complete gut-and-rebuild of an existing bathroom.
+meta_description: "Full Bathroom Remodel Conroe — A full bathroom remodel Conroe homeowners choose means stripping the room down... Get free quotes today."
 h1: Full Bathroom Remodel in Conroe, Texas
 primary_keyword: full bathroom remodel conroe
 type: service

@@ -1,6 +1,6 @@
 ---
 title: Tub-to-Shower Conversion Goodyear | Goodyear Bath Co.
-meta_description: Tub-to-Shower Conversion services in Goodyear, Arizona. Remove bathtub and install walk-in shower.
+meta_description: "Tub to Shower Conversion Goodyear — A tub to shower conversion Goodyear homeowners are choosing removes an... Get started with a free quote."
 h1: Tub-to-Shower Conversion in Goodyear, Arizona
 primary_keyword: tub to shower conversion goodyear
 type: service

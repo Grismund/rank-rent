@@ -1,6 +1,6 @@
 ---
 title: Metallic Epoxy Flooring Orlando | Orlando Epoxy Works
-meta_description: Metallic Epoxy Flooring services in Orlando, Florida. Decorative metallic-finish epoxy for high-end interiors.
+meta_description: "Metallic Epoxy Flooring Orlando — Standard epoxy floors serve a function. Serving Orlando and surrounding areas. Compare local contractors."
 h1: Metallic Epoxy Flooring in Orlando, Florida
 primary_keyword: metallic epoxy flooring orlando
 type: service

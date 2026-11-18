@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Cape Coral | Cape Coral Window Tinting
-meta_description: Connect with window tinting pros in Cape Coral, Florida. Free quotes from local contractors.
+meta_description: "Window Tinting Cape Coral, Florida — automotive window tinting, residential window tinting, commercial window tinting. Get free quotes today."
 h1: Window Tinting in Cape Coral, Florida
 primary_keyword: window tinting cape coral
 type: home

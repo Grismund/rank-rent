@@ -1,6 +1,6 @@
 ---
 title: Kitchen Remodel Cost Goodyear | Goodyear Kitchen Remodeling
-meta_description: How much does kitchen remodel cost in Goodyear? Price ranges, factors, and free estimates.
+meta_description: "Kitchen Remodel Cost Goodyear: most projects run $12,000 to $20,000. See what affects your price. Request a free estimate."
 h1: How Much Does a Kitchen Remodel Cost in Goodyear?
 primary_keyword: kitchen remodel cost goodyear
 type: cost_guide

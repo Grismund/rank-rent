@@ -1,6 +1,6 @@
 ---
 title: Epoxy Floor Coating San Antonio | Alamo City Epoxy
-meta_description: Epoxy Floor Coating services in San Antonio, Texas. General-purpose epoxy coating for concrete surfaces.
+meta_description: "Epoxy Floor Coating San Antonio — Every concrete surface in a San Antonio home or business is a candidate for... Get started with a free quote."
 h1: Epoxy Floor Coating in San Antonio, Texas
 primary_keyword: epoxy floor coating san antonio
 type: service

@@ -1,6 +1,6 @@
 ---
 title: Furniture Removal Georgetown | Georgetown Junk Removal
-meta_description: Furniture Removal services in Georgetown, Texas. Pickup and disposal of old couches, mattresses, dressers.
+meta_description: "Furniture Removal Georgetown — Old couches, broken recliners, and mattresses that have seen better days are... Compare local contractors."
 h1: Furniture Removal in Georgetown, Texas
 primary_keyword: furniture removal georgetown
 type: service

@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Melbourne Florida | Palm Bay Bath Renovations
-meta_description: Bathroom Remodel services in Melbourne, Florida. Serving Melbourne and surrounding areas.
+meta_description: "Bathroom Remodel Melbourne — county seat of Brevard County. Serving Palm Bay and surrounding areas. Request a free estimate."
 h1: Bathroom Remodel in Melbourne, Florida
 primary_keyword: bathroom remodel melbourne
 type: town

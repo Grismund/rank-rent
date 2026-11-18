@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Cost Cape Coral | Cape Coral Window Tinting
-meta_description: How much does window tinting cost in Cape Coral? Price ranges, factors, and free estimates.
+meta_description: "Window Tinting Cost Cape Coral: most projects run . See what affects your price. Cape Coral area. Get free quotes today."
 h1: How Much Does Window Tinting Cost in Cape Coral?
 primary_keyword: window tinting cost cape coral
 type: cost_guide

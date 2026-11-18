@@ -1,6 +1,6 @@
 ---
 title: Pool Deck Resurfacing PSL | PSL Pool Builders
-meta_description: Pool Deck Resurfacing services in Port St. Lucie, Florida. Resurface or overlay existing concrete pool decks.
+meta_description: "Pool Deck Resurfacing Port St. Lucie — Port St. Lucie Pool Builders connects homeowners with local contractors for... Request a free estimate."
 h1: Pool Deck Resurfacing in Port St. Lucie, Florida
 primary_keyword: pool deck resurfacing port st. lucie
 type: service

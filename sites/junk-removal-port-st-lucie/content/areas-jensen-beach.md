@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Jensen Beach | PSL Junk Haulers
-meta_description: Junk Removal services in Jensen Beach, Florida. Serving Jensen Beach and surrounding areas.
+meta_description: "Junk Removal Jensen Beach — Jensen Beach is an unincorporated census-designated place. Call today. Compare local contractors."
 h1: Junk Removal in Jensen Beach, Florida
 primary_keyword: junk removal jensen beach
 type: town

@@ -1,6 +1,6 @@
 ---
 title: "Epoxy Flooring San Marcos Texas | Comal Epoxy Floors"
-meta_description: "Epoxy flooring in San Marcos, TX. Garage and commercial coatings for Hays County homeowners. Free estimates from local contractors."
+meta_description: "Epoxy Flooring San Marcos — Hays County seat; population 91,000. Serving New Braunfels and surrounding areas. Compare local contractors."
 h1: "Epoxy Flooring in San Marcos, Texas"
 primary_keyword: "epoxy flooring san marcos"
 type: town

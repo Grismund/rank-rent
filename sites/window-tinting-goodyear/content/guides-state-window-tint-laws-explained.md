@@ -1,6 +1,6 @@
 ---
 title: Arizona Window Tint Laws | West Valley Window Tinting
-meta_description: State Window Tint Laws Explained — a guide for Goodyear, Arizona homeowners.
+meta_description: "Arizona Window Tint Laws — covers quick summary, key differences, how this affects your decision. Compare local contractors."
 h1: State Window Tint Laws Explained — Goodyear, Arizona
 primary_keyword: arizona window tint laws
 type: guide

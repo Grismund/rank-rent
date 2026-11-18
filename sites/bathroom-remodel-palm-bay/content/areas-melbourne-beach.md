@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Melbourne Beach Florida | Palm Bay Bath Renovations
-meta_description: Bathroom Remodel services in Melbourne Beach, Florida. Serving Melbourne Beach and surrounding areas.
+meta_description: "Bathroom Remodel Melbourne Beach — small barrier island town between the Atlantic and Indian. Compare local contractors."
 h1: Bathroom Remodel in Melbourne Beach, Florida
 primary_keyword: bathroom remodel melbourne beach
 type: town

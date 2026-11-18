@@ -1,6 +1,6 @@
 ---
 title: Garage Floor Cost Calculator Fort Myers | FMFC
-meta_description: Free garage floor cost calculator for Fort Myers, Florida. Get an instant estimate for your project.
+meta_description: "Free Garage Floor Cost Calculator Fort Myers — This garage floor cost calculator for Fort Myers gives you a price range for an... Get started with a free quote."
 h1: Garage Floor Cost Calculator — Fort Myers, Florida
 primary_keyword: garage floor cost calculator fort myers
 type: tool

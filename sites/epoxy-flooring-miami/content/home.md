@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Miami | Miami Garage Floor Co.
-meta_description: Connect with epoxy flooring pros in Miami, Florida. Free quotes from local contractors.
+meta_description: "Epoxy Flooring Miami, Florida — garage floor epoxy, commercial epoxy flooring, epoxy floor coating. Request a free estimate."
 h1: Epoxy Flooring in Miami, Florida
 primary_keyword: epoxy flooring miami
 type: home

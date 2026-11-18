@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Shenandoah Texas | Conroe Tint Works
-meta_description: Window Tinting services in Shenandoah, Texas. Serving Shenandoah and surrounding areas.
+meta_description: "Window Tinting Shenandoah — Population approximately 4,125; compact Montgomery County. Call today. Get free quotes today."
 h1: Window Tinting in Shenandoah, Texas
 primary_keyword: window tinting shenandoah
 type: town

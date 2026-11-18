@@ -1,6 +1,6 @@
 ---
 title: Car Window Tinting Goodyear | West Valley Tinting
-meta_description: Automotive Window Tinting services in Goodyear, Arizona. Tint film for cars, trucks, and SUVs.
+meta_description: "Car Window Tinting Goodyear — If you need car window tinting Goodyear drivers rely on, you are solving a... Compare local contractors."
 h1: Automotive Window Tinting in Goodyear, Arizona
 primary_keyword: car window tinting goodyear
 type: service

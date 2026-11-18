@@ -1,6 +1,6 @@
 ---
 title: Metallic Epoxy Flooring San Antonio | Alamo City Epoxy
-meta_description: Metallic Epoxy Flooring services in San Antonio, Texas. Decorative metallic-finish epoxy for high-end interiors.
+meta_description: "Metallic Epoxy Flooring San Antonio — Metallic epoxy flooring San Antonio homeowners are choosing turns a plain... Get started with a free quote."
 h1: Metallic Epoxy Flooring in San Antonio, Texas
 primary_keyword: metallic epoxy flooring san antonio
 type: service

@@ -1,6 +1,6 @@
 ---
 title: Pressure Washing Shenandoah Texas | Conroe Pressure Washing
-meta_description: Pressure Washing services in Shenandoah, Texas. Serving Shenandoah and surrounding areas.
+meta_description: "Pressure Washing Shenandoah — Shenandoah experienced 28.3% population growth from 2019. Call today. Get started with a free quote."
 h1: Pressure Washing in Shenandoah, Texas
 primary_keyword: pressure washing shenandoah
 type: town

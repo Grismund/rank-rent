@@ -1,6 +1,6 @@
 ---
 title: Tub-to-Shower Conversion Costs | Palm Bay Bath Renovations
-meta_description: Tub-to-Shower Conversion Costs — a guide for Palm Bay, Florida homeowners.
+meta_description: "Tub to Shower Conversion Cost Palm Bay — covers quick summary, key differences, how this affects your decision. Request a free estimate."
 h1: Tub-to-Shower Conversion Costs — Palm Bay, Florida
 primary_keyword: tub to shower conversion cost palm bay
 type: guide

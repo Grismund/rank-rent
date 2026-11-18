@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Vero Beach | Port St. Lucie Junk Haulers
-meta_description: Junk Removal services in Vero Beach, Florida. Serving Vero Beach and surrounding areas.
+meta_description: "Junk Removal Vero Beach — Effective October 1, 2025, unincorporated Indian River. Port St. Lucie area. Request a free estimate."
 h1: Junk Removal in Vero Beach, Florida
 primary_keyword: junk removal vero beach
 type: town

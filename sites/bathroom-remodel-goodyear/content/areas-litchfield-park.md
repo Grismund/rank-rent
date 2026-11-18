@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Litchfield Park AZ | Goodyear Bath Co.
-meta_description: Bathroom Remodel services in Litchfield Park, Arizona. Serving Litchfield Park and surrounding areas.
+meta_description: "Bathroom Remodel Litchfield Park — Median year homes were built in Litchfield Park is 2003;. Call today. Compare local contractors."
 h1: Bathroom Remodel in Litchfield Park, Arizona
 primary_keyword: bathroom remodel litchfield park
 type: town

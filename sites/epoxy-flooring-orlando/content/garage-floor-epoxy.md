@@ -1,6 +1,6 @@
 ---
 title: Garage Floor Epoxy Orlando | Orlando Epoxy Works
-meta_description: Garage Floor Epoxy services in Orlando, Florida. Epoxy coating for residential garage floors.
+meta_description: "Garage Floor Epoxy Orlando — Homeowners searching for garage floor epoxy in Orlando are dealing with a floor... Get free quotes today."
 h1: Garage Floor Epoxy in Orlando, Florida
 primary_keyword: garage floor epoxy orlando
 type: service

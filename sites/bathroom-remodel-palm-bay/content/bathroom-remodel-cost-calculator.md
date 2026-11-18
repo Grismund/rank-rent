@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Cost Calculator Palm Bay | Palm Bay Bath Renovations
-meta_description: Free bathroom remodel cost calculator for Palm Bay, Florida. Get an instant estimate for your project.
+meta_description: "Free Bathroom Remodel Cost Calculator Palm Bay — This bathroom remodel cost calculator Palm Bay homeowners use produces a price... Request a free estimate."
 h1: Bathroom Remodel Cost Calculator — Palm Bay, Florida
 primary_keyword: bathroom remodel cost calculator palm bay
 type: tool

@@ -1,6 +1,6 @@
 ---
 title: Paint Protection Film Goodyear | West Valley Window Tinting
-meta_description: Paint Protection Film services in Goodyear, Arizona. Clear protective wrap for vehicle paint surfaces.
+meta_description: "Paint Protection Film Goodyear — Looking for paint protection film Goodyear vehicle owners trust? West Valley... Get free quotes today."
 h1: Paint Protection Film in Goodyear, Arizona
 primary_keyword: paint protection film goodyear
 type: service

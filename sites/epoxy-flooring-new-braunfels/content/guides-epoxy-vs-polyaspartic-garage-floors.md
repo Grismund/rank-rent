@@ -1,6 +1,6 @@
 ---
 title: "Epoxy vs. Polyaspartic Floors | Comal Epoxy Floors"
-meta_description: "Epoxy vs. polyaspartic garage floor coatings compared. Cost, cure time, durability, and which is right for New Braunfels homeowners."
+meta_description: "Epoxy vs Polyaspartic New Braunfels — covers overview, key differences, what this means for your project. Request a free estimate."
 h1: "Epoxy vs. Polyaspartic Garage Floors — New Braunfels, Texas"
 primary_keyword: "epoxy vs polyaspartic new braunfels"
 type: guide

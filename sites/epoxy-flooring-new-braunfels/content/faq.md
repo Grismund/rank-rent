@@ -1,6 +1,6 @@
 ---
 title: "Epoxy Flooring FAQ New Braunfels | Comal Epoxy Floors"
-meta_description: "Answers to common epoxy flooring questions for New Braunfels homeowners. Durability, cost, curing time, maintenance, and more."
+meta_description: "Epoxy Flooring FAQ for New Braunfels, Texas — answers on lifespan, DIY vs pro, curing time. Get started with a free quote."
 h1: "Epoxy Flooring FAQ — New Braunfels, Texas"
 primary_keyword: "epoxy flooring faq"
 type: faq

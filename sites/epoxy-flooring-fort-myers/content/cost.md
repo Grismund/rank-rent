@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Cost Fort Myers | Fort Myers Floor Coatings
-meta_description: How much does epoxy flooring cost in Fort Myers? Price ranges, factors, and free estimates.
+meta_description: "Epoxy Flooring Cost Fort Myers: most projects run . See what affects your price. Fort Myers area. Request a free estimate."
 h1: How Much Does Epoxy Flooring Cost in Fort Myers?
 primary_keyword: epoxy flooring cost fort myers
 type: cost_guide

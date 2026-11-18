@@ -1,6 +1,6 @@
 ---
 title: "Epoxy Flooring New Braunfels | Comal Epoxy Floors"
-meta_description: "Connect with epoxy flooring contractors in New Braunfels, TX. Garage, commercial, and metallic epoxy coatings. Free quotes from local pros."
+meta_description: "Epoxy Flooring New Braunfels, Texas — garage floor epoxy, commercial epoxy flooring, epoxy floor coating. Get free quotes today."
 h1: "Epoxy Flooring in New Braunfels, Texas"
 primary_keyword: "epoxy flooring new braunfels"
 type: home

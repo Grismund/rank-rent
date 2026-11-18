@@ -1,6 +1,6 @@
 ---
 title: Kitchen Remodel Goodyear | Goodyear Kitchen Remodeling
-meta_description: Connect with kitchen remodel pros in Goodyear, Arizona. Free quotes from local contractors.
+meta_description: "Kitchen Remodel Goodyear, Arizona — full kitchen remodel, cabinet refacing, countertop replacement. Request a free estimate."
 h1: Kitchen Remodel in Goodyear, Arizona
 primary_keyword: kitchen remodel goodyear
 type: home

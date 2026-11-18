@@ -1,6 +1,6 @@
 ---
 title: Kitchen Remodel Buckeye Arizona | Goodyear Kitchen Remodeling
-meta_description: Kitchen Remodel services in Buckeye, Arizona. Serving Buckeye and surrounding areas.
+meta_description: "Kitchen Remodel Buckeye — Population 125,445, grew 37.1% since 2020 (33,947 new. Goodyear area. Compare local contractors."
 h1: Kitchen Remodel in Buckeye, Arizona
 primary_keyword: kitchen remodel buckeye
 type: town

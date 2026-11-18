@@ -1,6 +1,6 @@
 ---
 title: How Long Does a Bathroom Remodel Take? | Goodyear Bath Co.
-meta_description: How Long Does a Bathroom Remodel Take? — a guide for Goodyear, Arizona homeowners.
+meta_description: "How Long Does a Bathroom Remodel Take — covers what you need to know, side-by-side comparison, what this means for your project. Request a free estimate."
 h1: How Long Does a Bathroom Remodel Take? — Goodyear, Arizona
 primary_keyword: how long does a bathroom remodel take
 type: guide

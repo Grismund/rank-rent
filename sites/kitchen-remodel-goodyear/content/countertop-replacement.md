@@ -1,6 +1,6 @@
 ---
 title: Countertop Replacement Goodyear | Goodyear Kitchen Remodeling
-meta_description: Countertop Replacement services in Goodyear, Arizona. Swap old countertops for granite, quartz, or butcher block.
+meta_description: "Countertop Replacement Goodyear — Countertop replacement in Goodyear is one of the most impactful upgrades you... Compare local contractors."
 h1: Countertop Replacement in Goodyear, Arizona
 primary_keyword: countertop replacement goodyear
 type: service

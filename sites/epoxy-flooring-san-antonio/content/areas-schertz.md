@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Schertz Texas | Alamo City Epoxy
-meta_description: Epoxy Flooring services in Schertz, Texas. Serving Schertz and surrounding areas.
+meta_description: "Epoxy Flooring Schertz — Schertz is the largest city in the Randolph Metrocom,. San Antonio area. Compare local contractors."
 h1: Epoxy Flooring in Schertz, Texas
 primary_keyword: epoxy flooring schertz
 type: town

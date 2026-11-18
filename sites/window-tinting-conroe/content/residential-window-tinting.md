@@ -1,6 +1,6 @@
 ---
 title: Residential Window Tinting Conroe | Conroe Tint Works
-meta_description: Residential Window Tinting services in Conroe, Texas. Heat- and UV-blocking film for house windows.
+meta_description: "Home Window Tinting Conroe — Looking for home window tinting Conroe homeowners depend on? Conroe Tint Works... Request a free estimate."
 h1: Residential Window Tinting in Conroe, Texas
 primary_keyword: home window tinting conroe
 type: service

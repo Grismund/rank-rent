@@ -1,6 +1,6 @@
 ---
 title: Shower Remodel Goodyear | Goodyear Bath Remodel Co.
-meta_description: Shower Remodel services in Goodyear, Arizona. Shower replacement, tiling, glass enclosure upgrade.
+meta_description: "Shower Remodel Goodyear — A shower remodel Goodyear homeowners request most often addresses the part of... Get started with a free quote."
 h1: Shower Remodel in Goodyear, Arizona
 primary_keyword: shower remodel goodyear
 type: service

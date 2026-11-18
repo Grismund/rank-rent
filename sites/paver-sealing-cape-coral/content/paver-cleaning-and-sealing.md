@@ -1,6 +1,6 @@
 ---
 title: 'Paver Cleaning & Sealing Cape Coral | CC Paver Sealing'
-meta_description: Paver Cleaning and Sealing services in Cape Coral, Florida. Combined cleaning plus sealant service in a single visit.
+meta_description: "Paver Cleaning and Sealing Cape Coral — Cape Coral Paver Sealing connects homeowners with independent local contractors... Get free quotes today."
 h1: Paver Cleaning and Sealing in Cape Coral, Florida
 primary_keyword: paver cleaning and sealing cape coral
 type: service

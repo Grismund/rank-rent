@@ -1,6 +1,6 @@
 ---
 title: Residential Junk Removal Port St. Lucie | PSL Haulers
-meta_description: Residential Junk Removal services in Port St. Lucie, Florida. Whole-home cleanout of unwanted household items.
+meta_description: "Residential Junk Removal Port St. Lucie — Need residential junk removal Port St. Lucie homeowners can count on? Port St.... Get started with a free quote."
 h1: Residential Junk Removal in Port St. Lucie, Florida
 primary_keyword: residential junk removal port st. lucie
 type: service

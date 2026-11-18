@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Cape Coral | FMFC
-meta_description: Epoxy Flooring services in Cape Coral, Florida. Serving Cape Coral and surrounding areas.
+meta_description: "Epoxy Flooring Cape Coral — largest city in Lee County, across the Caloosahatchee. Fort Myers area. Request a free estimate."
 h1: Epoxy Flooring in Cape Coral, Florida
 primary_keyword: epoxy flooring cape coral
 type: town

@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Converse Texas | Alamo City Epoxy
-meta_description: Epoxy Flooring services in Converse, Texas. Serving Converse and surrounding areas.
+meta_description: "Epoxy Flooring Converse — Converse population 32,481 (2025 est.), located 15 miles. San Antonio area. Get free quotes today."
 h1: Epoxy Flooring in Converse, Texas
 primary_keyword: epoxy flooring converse
 type: town

@@ -1,6 +1,6 @@
 ---
 title: Paint Protection Film Conroe | Conroe Tint Works
-meta_description: Paint Protection Film services in Conroe, Texas. Clear protective wrap for vehicle paint surfaces.
+meta_description: "Paint Protection Film Conroe — Looking for paint protection film Conroe vehicle owners trust? Conroe Tint... Get free quotes today."
 h1: Paint Protection Film in Conroe, Texas
 primary_keyword: paint protection film conroe
 type: service

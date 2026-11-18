@@ -1,6 +1,6 @@
 ---
 title: Paver Sealing Calculator Cape Coral | CCPS
-meta_description: Free paver sealing cost calculator for Cape Coral, Florida. Get an instant estimate for your project.
+meta_description: "Free Paver Sealing Cost Calculator Cape Coral — This paver sealing cost calculator Cape Coral homeowners use gives you a price... Get free quotes today."
 h1: Paver Sealing Cost Calculator — Cape Coral, Florida
 primary_keyword: paver sealing cost calculator cape coral
 type: tool

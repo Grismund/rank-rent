@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Cost Estimator Port St. Lucie
-meta_description: Free junk removal cost estimator for Port St. Lucie, Florida. Get an instant estimate for your project.
+meta_description: "Free Junk Removal Cost Estimator Port St. Lucie — This junk removal cost estimator Port St. Lucie page gives you a price range... Get started with a free quote."
 h1: Junk Removal Cost Estimator — Port St. Lucie, Florida
 primary_keyword: junk removal cost estimator port st. lucie
 type: tool

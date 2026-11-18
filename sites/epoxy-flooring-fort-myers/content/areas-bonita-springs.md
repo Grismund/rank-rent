@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Bonita Springs | Fort Myers Floor Coatings
-meta_description: Epoxy Flooring services in Bonita Springs, Florida. Serving Bonita Springs and surrounding areas.
+meta_description: "Epoxy Flooring Bonita Springs — city in Lee County between Estero and Naples. Serving Fort Myers. Get free quotes today."
 h1: Epoxy Flooring in Bonita Springs, Florida
 primary_keyword: epoxy flooring bonita springs
 type: town

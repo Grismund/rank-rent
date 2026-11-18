@@ -1,6 +1,6 @@
 ---
 title: Home Window Tinting Goodyear | West Valley Tinting
-meta_description: Residential Window Tinting services in Goodyear, Arizona. Heat- and UV-blocking film for house windows.
+meta_description: "Home Window Tinting Goodyear — Looking for home window tinting Goodyear homeowners trust? West Valley Window... Request a free estimate."
 h1: Residential Window Tinting in Goodyear, Arizona
 primary_keyword: home window tinting goodyear
 type: service

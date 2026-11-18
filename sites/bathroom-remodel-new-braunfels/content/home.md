@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel New Braunfels | New Braunfels Bath Works
-meta_description: Connect with bathroom remodel pros in New Braunfels, Texas. Free quotes from local contractors.
+meta_description: "Bathroom Remodel New Braunfels, Texas — full bathroom remodel, shower remodel, bathtub replacement. Request a free estimate."
 h1: Bathroom Remodel in New Braunfels, Texas
 primary_keyword: bathroom remodel new braunfels
 type: home

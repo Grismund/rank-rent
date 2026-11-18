@@ -1,6 +1,6 @@
 ---
 title: Window Tint Calculator Cape Coral | Cape Coral Window Tinting
-meta_description: Free window tint calculator for Cape Coral, Florida. Get an instant estimate for your project.
+meta_description: "Free Window Tint Calculator Cape Coral — This window tint calculator Cape Coral drivers use provides a price range for... Request a free estimate."
 h1: Window Tint Calculator — Cape Coral, Florida
 primary_keyword: window tint calculator cape coral
 type: tool

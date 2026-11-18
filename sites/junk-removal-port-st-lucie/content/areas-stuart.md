@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Stuart Florida | Port St. Lucie Junk Haulers
-meta_description: Junk Removal services in Stuart, Florida. Serving Stuart and surrounding areas.
+meta_description: "Junk Removal Stuart — Martin County residents may place bulk waste at the curb. Port St. Lucie area. Request a free estimate."
 h1: Junk Removal in Stuart, Florida
 primary_keyword: junk removal stuart
 type: town

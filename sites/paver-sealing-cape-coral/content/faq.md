@@ -1,6 +1,6 @@
 ---
 title: Paver Sealing FAQ Cape Coral | Cape Coral Paver Sealing
-meta_description: Frequently asked questions about paver sealing in Cape Coral, Florida.
+meta_description: "Paver Sealing FAQ for Cape Coral, Florida — answers on curing time, DIY vs pro, coating types. Get started with a free quote."
 h1: Paver Sealing FAQ — Cape Coral, Florida
 primary_keyword: paver sealing faq
 type: faq

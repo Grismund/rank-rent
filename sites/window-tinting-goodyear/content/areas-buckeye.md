@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Buckeye Arizona | West Valley Window Tinting
-meta_description: Window Tinting services in Buckeye, Arizona. Serving Buckeye and surrounding areas.
+meta_description: "Window Tinting Buckeye — grew 37.1% since 2020 census, adding 33,947 residents — one. Call today. Get started with a free quote."
 h1: Window Tinting in Buckeye, Arizona
 primary_keyword: window tinting buckeye
 type: town

@@ -1,6 +1,6 @@
 ---
 title: Pressure Washing Spring Texas | Conroe Pressure Washing
-meta_description: Pressure Washing services in Spring, Texas. Serving Spring and surrounding areas.
+meta_description: "Pressure Washing Spring — Spring sits at the southern edge of the East Texas Piney. Call today. Request a free estimate."
 h1: Pressure Washing in Spring, Texas
 primary_keyword: pressure washing spring
 type: town

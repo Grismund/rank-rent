@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Goodyear | Goodyear Bath Remodel Co.
-meta_description: Connect with bathroom remodel pros in Goodyear, Arizona. Free quotes from local contractors.
+meta_description: "Bathroom Remodel Goodyear, Arizona — full bathroom remodel, shower remodel, bathtub replacement. Get started with a free quote."
 h1: Bathroom Remodel in Goodyear, Arizona
 primary_keyword: bathroom remodel goodyear
 type: home

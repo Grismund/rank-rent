@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Conroe | Conroe Bath Remodeling
-meta_description: Connect with bathroom remodel pros in Conroe, Texas. Free quotes from local contractors.
+meta_description: "Bathroom Remodel Conroe, Texas — full bathroom remodel, shower remodel, bathtub replacement. Call today. Request a free estimate."
 h1: Bathroom Remodel in Conroe, Texas
 primary_keyword: bathroom remodel conroe
 type: home

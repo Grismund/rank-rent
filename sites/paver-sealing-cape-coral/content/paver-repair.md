@@ -1,6 +1,6 @@
 ---
 title: Paver Repair Cape Coral | Cape Coral Paver Sealing
-meta_description: Paver Repair services in Cape Coral, Florida. Releveling, replacing, and re-sanding damaged pavers.
+meta_description: "Paver Repair Cape Coral — Cape Coral Paver Sealing connects homeowners with independent local contractors... Get free quotes today."
 h1: Paver Repair in Cape Coral, Florida
 primary_keyword: paver repair cape coral
 type: service

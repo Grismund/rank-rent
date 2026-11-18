@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Shenandoah Texas | Conroe Bath Remodeling
-meta_description: Bathroom Remodel services in Shenandoah, Texas. Serving Shenandoah and surrounding areas.
+meta_description: "Bathroom Remodel Shenandoah — located 5 miles south of Conroe in Montgomery County. Call today. Request a free estimate."
 h1: Bathroom Remodel in Shenandoah, Texas
 primary_keyword: bathroom remodel shenandoah
 type: town

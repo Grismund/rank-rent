@@ -1,6 +1,6 @@
 ---
 title: 'Wet-Look vs Natural Paver Sealer | CCPS'
-meta_description: Wet-look vs. natural paver sealer comparison for Cape Coral, Florida homeowners.
+meta_description: "Wet Look vs Natural Paver Sealer — covers overview, how they compare, practical takeaways. Call today. Request a free estimate."
 h1: Wet-Look vs. Natural Paver Sealer — Cape Coral, Florida
 primary_keyword: wet look vs natural paver sealer
 type: guide

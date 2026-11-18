@@ -1,6 +1,6 @@
 ---
 title: Full Kitchen Remodel Goodyear | Goodyear Kitchen Remodeling
-meta_description: Full Kitchen Remodel services in Goodyear, Arizona. Complete kitchen renovation including layout changes.
+meta_description: "Full Kitchen Remodel Goodyear — A full kitchen remodel in Goodyear is the most comprehensive option: layout... Get free quotes today."
 h1: Full Kitchen Remodel in Goodyear, Arizona
 primary_keyword: full kitchen remodel goodyear
 type: service

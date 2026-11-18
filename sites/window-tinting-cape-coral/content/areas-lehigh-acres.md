@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Lehigh Acres Florida | Cape Coral Window Tinting
-meta_description: Window Tinting services in Lehigh Acres, Florida. Serving Lehigh Acres and surrounding areas.
+meta_description: "Window Tinting Lehigh Acres — Population 151,444 (2024 ACS 1-year) — Census Reporter. Call today. Get free quotes today."
 h1: Window Tinting in Lehigh Acres, Florida
 primary_keyword: window tinting lehigh acres
 type: town

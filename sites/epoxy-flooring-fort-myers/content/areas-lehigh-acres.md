@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Lehigh Acres | Fort Myers Floor Coatings
-meta_description: Epoxy Flooring services in Lehigh Acres, Florida. Serving Lehigh Acres and surrounding areas.
+meta_description: "Epoxy Flooring Lehigh Acres — largest unincorporated community in Lee County. Fort Myers area. Compare local contractors."
 h1: Epoxy Flooring in Lehigh Acres, Florida
 primary_keyword: epoxy flooring lehigh acres
 type: town

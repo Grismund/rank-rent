@@ -1,6 +1,6 @@
 ---
 title: Garage Floor Cost Calculator Orlando | Orlando Epoxy Works
-meta_description: Free garage floor cost calculator for Orlando, Florida. Get an instant estimate for your project.
+meta_description: "Free Garage Floor Cost Calculator Orlando — This garage floor cost calculator for Orlando generates a price range for an... Request a free estimate."
 h1: Garage Floor Cost Calculator — Orlando, Florida
 primary_keyword: garage floor cost calculator orlando
 type: tool

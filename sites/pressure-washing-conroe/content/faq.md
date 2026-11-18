@@ -1,6 +1,6 @@
 ---
 title: Pressure Washing FAQ Conroe | Conroe Pressure Washing
-meta_description: Frequently asked questions about pressure washing in Conroe, Texas.
+meta_description: "Pressure Washing FAQ for Conroe, Texas — answers on coating types, durability, cost. Conroe area. Get free quotes today."
 h1: Pressure Washing FAQ — Conroe, Texas
 primary_keyword: pressure washing faq
 type: faq

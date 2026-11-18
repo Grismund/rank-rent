@@ -1,6 +1,6 @@
 ---
 title: "Pressure Washing The Woodlands TX | Conroe PW"
-meta_description: Pressure Washing services in The Woodlands, Texas. Serving The Woodlands and surrounding areas.
+meta_description: "Pressure Washing the Woodlands — The Woodlands tree canopy covers 17,067 acres — 60.9%. Call today. Compare local contractors."
 h1: Pressure Washing in The Woodlands, Texas
 primary_keyword: pressure washing the woodlands
 type: town

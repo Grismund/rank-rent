@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Georgetown | Georgetown Junk Removal
-meta_description: Connect with junk removal pros in Georgetown, Texas. Free quotes from local contractors.
+meta_description: "Junk Removal Georgetown, Texas — residential junk removal, furniture removal, appliance hauling. Call today. Get free quotes today."
 h1: Junk Removal in Georgetown, Texas
 primary_keyword: junk removal georgetown
 type: home

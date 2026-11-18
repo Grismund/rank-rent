@@ -1,6 +1,6 @@
 ---
 title: Bathtub Replacement New Braunfels | New Braunfels Bath Works
-meta_description: Bathtub Replacement services in New Braunfels, Texas. Swap old tub for new soaking or walk-in tub.
+meta_description: "Bathtub Replacement New Braunfels — Professional bathtub replacement New Braunfels homeowners trust starts with a... Request a free estimate."
 h1: Bathtub Replacement in New Braunfels, Texas
 primary_keyword: bathtub replacement new braunfels
 type: service

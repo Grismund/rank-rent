@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Orlando | Orlando Epoxy Works
-meta_description: Connect with epoxy flooring pros in Orlando, Florida. Free quotes from local contractors.
+meta_description: "Epoxy Flooring Orlando, Florida — garage floor epoxy, commercial epoxy flooring, epoxy floor coating. Get started with a free quote."
 h1: Epoxy Flooring in Orlando, Florida
 primary_keyword: epoxy flooring orlando
 type: home

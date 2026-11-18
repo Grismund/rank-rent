@@ -1,6 +1,6 @@
 ---
 title: Tub-to-Shower Conversion Costs | Conroe Bath Remodeling
-meta_description: Tub-to-Shower Conversion Costs — a guide for Conroe, Texas homeowners.
+meta_description: "Tub to Shower Conversion Cost Conroe — covers overview, how they compare, practical takeaways. Call today. Request a free estimate."
 h1: Tub-to-Shower Conversion Costs — Conroe, Texas
 primary_keyword: tub to shower conversion cost conroe
 type: guide

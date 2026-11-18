@@ -1,6 +1,6 @@
 ---
 title: Pressure Washing Willis Texas | Conroe Pressure Washing
-meta_description: Pressure Washing services in Willis, Texas. Serving Willis and surrounding areas.
+meta_description: "Pressure Washing Willis — Willis sits in the southwest corner of the East Texas Piney. Call today. Compare local contractors."
 h1: Pressure Washing in Willis, Texas
 primary_keyword: pressure washing willis
 type: town

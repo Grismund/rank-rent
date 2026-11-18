@@ -1,6 +1,6 @@
 ---
 title: Driveway Pressure Washing Conroe | Conroe Pressure Washing
-meta_description: Driveway Pressure Washing services in Conroe, Texas. Concrete and paver driveway cleaning.
+meta_description: "Driveway Pressure Washing Conroe — Conroe Pressure Washing connects homeowners with independent local contractors... Compare local contractors."
 h1: Driveway Pressure Washing in Conroe, Texas
 primary_keyword: driveway pressure washing conroe
 type: service

@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Sanford Florida | Orlando Epoxy Works
-meta_description: Epoxy Flooring services in Sanford, Florida. Serving Sanford and surrounding areas.
+meta_description: "Epoxy Flooring Sanford — Population 67,483 (2025 est.) in Seminole County; 28 miles. Call today. Compare local contractors."
 h1: Epoxy Flooring in Sanford, Florida
 primary_keyword: epoxy flooring sanford
 type: town

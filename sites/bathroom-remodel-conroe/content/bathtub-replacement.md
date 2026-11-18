@@ -1,6 +1,6 @@
 ---
 title: Bathtub Replacement Conroe | Conroe Bath Remodeling
-meta_description: Bathtub Replacement services in Conroe, Texas. Swap old tub for new soaking or walk-in tub.
+meta_description: "Bathtub Replacement Conroe — For a quality bathtub replacement Conroe homeowners trust, start here. Request a free estimate."
 h1: Bathtub Replacement in Conroe, Texas
 primary_keyword: bathtub replacement conroe
 type: service

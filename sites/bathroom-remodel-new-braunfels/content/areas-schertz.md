@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Schertz Texas | New Braunfels Bath Works
-meta_description: Bathroom Remodel services in Schertz, Texas. Serving Schertz and surrounding areas.
+meta_description: "Bathroom Remodel Schertz — Schertz straddles three counties — Guadalupe, Comal,. New Braunfels area. Request a free estimate."
 h1: Bathroom Remodel in Schertz, Texas
 primary_keyword: bathroom remodel schertz
 type: town

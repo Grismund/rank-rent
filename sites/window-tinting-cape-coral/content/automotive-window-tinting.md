@@ -1,6 +1,6 @@
 ---
 title: Automotive Window Tinting Cape Coral | Cape Coral Window Tinting
-meta_description: Automotive Window Tinting services in Cape Coral, Florida. Tint film for cars, trucks, and SUVs.
+meta_description: "Car Window Tinting Cape Coral — For car window tinting Cape Coral vehicle owners depend on, Cape Coral Window... Get free quotes today."
 h1: Automotive Window Tinting in Cape Coral, Florida
 primary_keyword: car window tinting cape coral
 type: service

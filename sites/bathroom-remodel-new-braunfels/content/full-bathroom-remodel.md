@@ -1,6 +1,6 @@
 ---
 title: Full Bathroom Remodel New Braunfels | NBBW
-meta_description: Full Bathroom Remodel services in New Braunfels, Texas. Complete gut-and-rebuild of an existing bathroom.
+meta_description: "Full Bathroom Remodel New Braunfels — A full bathroom remodel New Braunfels homeowners choose means taking the room... Get free quotes today."
 h1: Full Bathroom Remodel in New Braunfels, Texas
 primary_keyword: full bathroom remodel new braunfels
 type: service

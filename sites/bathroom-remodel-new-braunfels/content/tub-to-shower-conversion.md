@@ -1,6 +1,6 @@
 ---
 title: Tub-to-Shower Conversion New Braunfels | NBBW
-meta_description: Tub-to-Shower Conversion services in New Braunfels, Texas. Remove bathtub and install walk-in shower.
+meta_description: "Tub to Shower Conversion New Braunfels — A tub to shower conversion New Braunfels homeowners request is one of the most... Get started with a free quote."
 h1: Tub-to-Shower Conversion in New Braunfels, Texas
 primary_keyword: tub to shower conversion new braunfels
 type: service

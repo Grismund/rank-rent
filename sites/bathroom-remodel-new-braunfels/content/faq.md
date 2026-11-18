@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel FAQ New Braunfels | NBBW
-meta_description: Frequently asked questions about bathroom remodel in New Braunfels, Texas.
+meta_description: "Bathroom Remodel FAQ for New Braunfels, Texas — answers on . Serving New Braunfels and surrounding areas. Get free quotes today."
 h1: Bathroom Remodel FAQ — New Braunfels, Texas
 primary_keyword: bathroom remodel faq
 type: faq

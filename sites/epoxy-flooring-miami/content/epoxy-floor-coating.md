@@ -1,6 +1,6 @@
 ---
 title: Epoxy Floor Coating Miami | Miami Garage Floor Co.
-meta_description: Epoxy Floor Coating services in Miami, Florida. General-purpose epoxy coating for concrete surfaces.
+meta_description: "Epoxy Floor Coating Miami — Not sure which coating system your concrete needs? Miami Garage Floor Co.... Get free quotes today."
 h1: Epoxy Floor Coating in Miami, Florida
 primary_keyword: epoxy floor coating miami
 type: service

@@ -1,6 +1,6 @@
 ---
 title: What Junk Removal Won't Take | PSL Junk Haulers
-meta_description: What Junk Removal Companies Won't Take — a guide for Port St. Lucie, Florida homeowners.
+meta_description: "What Junk Removal Won't Take — covers what you need to know, items junk removal haulers will not take, where to take restricted items in Get free quotes today."
 h1: What Junk Removal Companies Won't Take — Port St. Lucie, Florida
 primary_keyword: what junk removal won't take
 type: guide

@@ -1,6 +1,6 @@
 ---
 title: Epoxy vs Polyaspartic Garage Floors | Miami Garage Floor Co.
-meta_description: Epoxy vs. Polyaspartic Garage Floors — a guide for Miami, Florida homeowners.
+meta_description: "Epoxy vs Polyaspartic Miami — covers quick summary, key differences, how this affects your decision. Get free quotes today."
 h1: Epoxy vs. Polyaspartic Garage Floors — Miami, Florida
 primary_keyword: epoxy vs polyaspartic miami
 type: guide

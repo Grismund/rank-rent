@@ -1,6 +1,6 @@
 ---
 title: "Floor Coating Cost Calculator | Comal Epoxy Floors"
-meta_description: "Free floor coating cost calculator for New Braunfels, TX. Estimate your garage or commercial epoxy flooring project in seconds."
+meta_description: "Free Floor Coating Cost Calculator New Braunfels — This floor coating cost calculator gives you a price range for an epoxy floor... Get free quotes today."
 h1: "Floor Coating Cost Calculator — New Braunfels, Texas"
 primary_keyword: "floor coating cost calculator new braunfels"
 type: tool

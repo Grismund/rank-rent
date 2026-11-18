@@ -1,6 +1,6 @@
 ---
 title: Garage Floor Epoxy Fort Myers | Fort Myers Floor Coatings
-meta_description: Garage Floor Epoxy services in Fort Myers, Florida. Epoxy coating for residential garage floors.
+meta_description: "Garage Floor Epoxy Fort Myers — If you need garage floor epoxy in Fort Myers, you are solving the same problem... Get free quotes today."
 h1: Garage Floor Epoxy in Fort Myers, Florida
 primary_keyword: garage floor epoxy fort myers
 type: service

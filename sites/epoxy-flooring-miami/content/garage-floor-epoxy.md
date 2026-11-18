@@ -1,6 +1,6 @@
 ---
 title: Garage Floor Epoxy Miami | Miami Garage Floor Co.
-meta_description: Garage Floor Epoxy services in Miami, Florida. Epoxy coating for residential garage floors.
+meta_description: "Garage Floor Epoxy Miami — Miami Garage Floor Co. connects homeowners across Miami-Dade County with... Get free quotes today."
 h1: Garage Floor Epoxy in Miami, Florida
 primary_keyword: garage floor epoxy miami
 type: service

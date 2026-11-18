@@ -1,6 +1,6 @@
 ---
 title: Paver Sealing Cape Coral | Cape Coral Paver Sealing
-meta_description: Connect with paver sealing pros in Cape Coral, Florida. Free quotes from local contractors.
+meta_description: "Paver Sealing Cape Coral, Florida — paver sealing, paver cleaning, paver cleaning and sealing, paver repair. Get free quotes today."
 h1: Paver Sealing in Cape Coral, Florida
 primary_keyword: paver sealing cape coral
 type: home

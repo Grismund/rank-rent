@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Cost Georgetown | Georgetown Junk Removal
-meta_description: How much does junk removal cost in Georgetown? Price ranges, factors, and free estimates.
+meta_description: "Junk Removal Cost Georgetown: most projects run $450 to $700. See what affects your price. Call today. Compare local contractors."
 h1: How Much Does Junk Removal Cost in Georgetown?
 primary_keyword: junk removal cost georgetown
 type: cost_guide

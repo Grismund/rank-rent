@@ -1,6 +1,6 @@
 ---
 title: Full Bathroom Remodel Palm Bay | Palm Bay Bath Renovations
-meta_description: Full Bathroom Remodel services in Palm Bay, Florida. Complete gut-and-rebuild of an existing bathroom.
+meta_description: "Full Bathroom Remodel Palm Bay — A full bathroom remodel Palm Bay homeowners invest in means taking the room... Compare local contractors."
 h1: Full Bathroom Remodel in Palm Bay, Florida
 primary_keyword: full bathroom remodel palm bay
 type: service

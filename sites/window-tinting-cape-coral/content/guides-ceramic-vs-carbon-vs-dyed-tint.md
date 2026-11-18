@@ -1,6 +1,6 @@
 ---
 title: Ceramic vs. Carbon vs. Dyed Tint | Cape Coral Window Tinting
-meta_description: Ceramic vs. Carbon vs. Dyed Tint — a guide for Cape Coral, Florida homeowners.
+meta_description: "Ceramic vs Carbon Tint — covers what you need to know, side-by-side comparison, what this means for your project. Get started with a free quote."
 h1: Ceramic vs. Carbon vs. Dyed Tint — Cape Coral, Florida
 primary_keyword: ceramic vs carbon tint
 type: guide

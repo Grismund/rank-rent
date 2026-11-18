@@ -1,6 +1,6 @@
 ---
 title: Appliance Hauling Georgetown | Georgetown Junk Removal
-meta_description: Appliance Hauling services in Georgetown, Texas. Removal of refrigerators, washers, dryers, water heaters.
+meta_description: "Appliance Removal Georgetown — Refrigerators, washers, dryers, and water heaters are heavy, awkward, and... Request a free estimate."
 h1: Appliance Hauling in Georgetown, Texas
 primary_keyword: appliance removal georgetown
 type: service

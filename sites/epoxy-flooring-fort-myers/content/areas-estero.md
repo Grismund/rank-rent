@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Estero Florida | Fort Myers Floor Coatings
-meta_description: Epoxy Flooring services in Estero, Florida. Serving Estero and surrounding areas.
+meta_description: "Epoxy Flooring Estero — incorporated as a village in 2014. Serving Fort Myers and surrounding areas. Get started with a free quote."
 h1: Epoxy Flooring in Estero, Florida
 primary_keyword: epoxy flooring estero
 type: town

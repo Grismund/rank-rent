@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel San Marcos Texas | New Braunfels Bath Works
-meta_description: Bathroom Remodel services in San Marcos, Texas. Serving San Marcos and surrounding areas.
+meta_description: "Bathroom Remodel San Marcos — San Marcos is the Hays County seat with an estimated. Call today. Get started with a free quote."
 h1: Bathroom Remodel in San Marcos, Texas
 primary_keyword: bathroom remodel san marcos
 type: town

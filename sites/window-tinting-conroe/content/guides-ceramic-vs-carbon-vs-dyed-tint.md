@@ -1,6 +1,6 @@
 ---
 title: Ceramic vs. Carbon vs. Dyed Tint | Conroe Tint Works
-meta_description: Ceramic vs. Carbon vs. Dyed Tint — a guide for Conroe, Texas homeowners.
+meta_description: "Ceramic vs Carbon Tint — covers what you need to know, side-by-side comparison, what this means for your project. Get started with a free quote."
 h1: Ceramic vs. Carbon vs. Dyed Tint — Conroe, Texas
 primary_keyword: ceramic vs carbon tint
 type: guide

@@ -1,6 +1,6 @@
 ---
 title: Pool Builders Vero Beach FL | PSL Pool Builders
-meta_description: Pool Builders services in Vero Beach, Florida. Serving Vero Beach and surrounding areas.
+meta_description: "Pool Builders Vero Beach — Population 17,117 (2026 est.) in Indian River County;. Call today. Get started with a free quote."
 h1: Pool Builders in Vero Beach, Florida
 primary_keyword: pool builders vero beach
 type: town

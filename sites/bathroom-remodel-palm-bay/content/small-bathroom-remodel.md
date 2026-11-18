@@ -1,6 +1,6 @@
 ---
 title: Small Bathroom Remodel Palm Bay | Palm Bay Bath Renovations
-meta_description: Small Bathroom Remodel services in Palm Bay, Florida. Budget-focused update for guest or half baths.
+meta_description: "Small Bathroom Remodel Palm Bay — A small bathroom remodel Palm Bay homeowners choose targets guest baths, half... Compare local contractors."
 h1: Small Bathroom Remodel in Palm Bay, Florida
 primary_keyword: small bathroom remodel palm bay
 type: service

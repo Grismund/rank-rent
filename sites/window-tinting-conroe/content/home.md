@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Conroe | Conroe Tint Works
-meta_description: Connect with window tinting pros in Conroe, Texas. Free quotes from local contractors.
+meta_description: "Window Tinting Conroe, Texas — automotive window tinting, residential window tinting, commercial window tinting. Compare local contractors."
 h1: Window Tinting in Conroe, Texas
 primary_keyword: window tinting conroe
 type: home

@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel FAQ Goodyear | Goodyear Bath Remodel Co.
-meta_description: Frequently asked questions about bathroom remodel in Goodyear, Arizona.
+meta_description: "Bathroom Remodel FAQ for Goodyear, Arizona — answers on cost, installation, water resistance. Call today. Get free quotes today."
 h1: Bathroom Remodel FAQ — Goodyear, Arizona
 primary_keyword: bathroom remodel faq
 type: faq

@@ -1,6 +1,6 @@
 ---
 title: Junk Removal vs. Dumpster Rental Port St. Lucie
-meta_description: Junk Removal vs. Renting a Dumpster — a guide for Port St. Lucie, Florida homeowners.
+meta_description: "Junk Removal vs Dumpster Rental Port St. Lucie — covers what you need to know, side-by-side comparison, what this means for your Get started with a free quote."
 h1: Junk Removal vs. Renting a Dumpster — Port St. Lucie, Florida
 primary_keyword: junk removal vs dumpster rental port st. lucie
 type: guide

@@ -1,6 +1,6 @@
 ---
 title: How Long to Build a Pool? | PSL Pool Builders
-meta_description: How Long Does It Take to Build a Pool? — a guide for Port St. Lucie, Florida homeowners.
+meta_description: "How Long to Build a Pool — covers quick summary, key differences, how this affects your decision. Compare local contractors."
 h1: How Long Does It Take to Build a Pool? — Port St. Lucie, Florida
 primary_keyword: how long to build a pool
 type: guide

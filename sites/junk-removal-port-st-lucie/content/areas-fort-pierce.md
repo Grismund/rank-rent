@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Fort Pierce | Port St. Lucie Junk Haulers
-meta_description: Junk Removal services in Fort Pierce, Florida. Serving Fort Pierce and surrounding areas.
+meta_description: "Junk Removal Fort Pierce — Residential garbage (green carts) collected twice weekly;. Call today. Request a free estimate."
 h1: Junk Removal in Fort Pierce, Florida
 primary_keyword: junk removal fort pierce
 type: town

@@ -1,6 +1,6 @@
 ---
 title: How Long Does an Epoxy Floor Last? | FMFC
-meta_description: How Long Does an Epoxy Floor Last? — a guide for Fort Myers, Florida homeowners.
+meta_description: "How Long Does Epoxy Garage Floor Last — covers quick summary, key differences, how this affects your decision. Request a free estimate."
 h1: How Long Does an Epoxy Floor Last? — Fort Myers, Florida
 primary_keyword: how long does epoxy garage floor last
 type: guide

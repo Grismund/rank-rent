@@ -1,6 +1,6 @@
 ---
 title: "Epoxy Flooring Seguin Texas | Comal Epoxy Floors"
-meta_description: "Epoxy flooring in Seguin, TX. Residential garage and commercial floor coatings in Guadalupe County. Free quotes from local pros."
+meta_description: "Epoxy Flooring Seguin — Guadalupe County seat; population 41,048 (2025 est.), 39.3%. Call today. Compare local contractors."
 h1: "Epoxy Flooring in Seguin, Texas"
 primary_keyword: "epoxy flooring seguin"
 type: town

@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Spring Texas | Conroe Bath Remodeling
-meta_description: Bathroom Remodel services in Spring, Texas. Serving Spring and surrounding areas.
+meta_description: "Bathroom Remodel Spring — unincorporated, straddling Harris and Montgomery counties. Call today. Request a free estimate."
 h1: Bathroom Remodel in Spring, Texas
 primary_keyword: bathroom remodel spring
 type: town

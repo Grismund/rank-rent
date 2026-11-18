@@ -1,6 +1,6 @@
 ---
 title: "Epoxy Floor Coating New Braunfels | Comal Epoxy Floors"
-meta_description: "Epoxy floor coating services in New Braunfels, TX. Protect and transform your concrete floors. Free quotes from local coating contractors."
+meta_description: "Epoxy Floor Coating New Braunfels — Maybe it is a garage. Serving New Braunfels and surrounding areas. Get started with a free quote."
 h1: "Epoxy Floor Coating in New Braunfels, Texas"
 primary_keyword: "epoxy floor coating new braunfels"
 type: service

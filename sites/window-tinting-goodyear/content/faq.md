@@ -1,6 +1,6 @@
 ---
 title: Window Tinting FAQ Goodyear | West Valley Window Tinting
-meta_description: Frequently asked questions about window tinting in Goodyear, Arizona.
+meta_description: "Window Tinting FAQ for Goodyear, Arizona — answers on lifespan, installation. Serving Goodyear. Request a free estimate."
 h1: Window Tinting FAQ — Goodyear, Arizona
 primary_keyword: window tinting faq
 type: faq

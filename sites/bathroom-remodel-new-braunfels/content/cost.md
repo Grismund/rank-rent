@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Cost New Braunfels | NBBW
-meta_description: How much does bathroom remodel cost in New Braunfels? Price ranges, factors, and free estimates.
+meta_description: "Bathroom Remodel Cost New Braunfels: most projects run $3,000 to $6,000. See what affects your price. Request a free estimate."
 h1: How Much Does a Bathroom Remodel Cost in New Braunfels?
 primary_keyword: bathroom remodel cost new braunfels
 type: cost_guide

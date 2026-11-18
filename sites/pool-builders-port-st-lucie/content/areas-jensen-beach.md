@@ -1,6 +1,6 @@
 ---
 title: Pool Builders Jensen Beach FL | PSL Pool Builders
-meta_description: Pool Builders services in Jensen Beach, Florida. Serving Jensen Beach and surrounding areas.
+meta_description: "Pool Builders Jensen Beach — Jensen Beach is an unincorporated census-designated place. Call today. Compare local contractors."
 h1: Pool Builders in Jensen Beach, Florida
 primary_keyword: pool builders jensen beach
 type: town

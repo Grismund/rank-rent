@@ -1,6 +1,6 @@
 ---
 title: Deck and Patio Cleaning Conroe | Conroe Pressure Washing
-meta_description: Deck and Patio Cleaning services in Conroe, Texas. Wood deck, composite, and patio surface washing.
+meta_description: "Deck Cleaning Conroe — Conroe Pressure Washing connects homeowners with independent local contractors... Get started with a free quote."
 h1: Deck and Patio Cleaning in Conroe, Texas
 primary_keyword: deck cleaning conroe
 type: service

@@ -1,6 +1,6 @@
 ---
 title: Furniture Removal Port St. Lucie | PSL Junk Haulers
-meta_description: Furniture Removal services in Port St. Lucie, Florida. Pickup and disposal of old couches, mattresses, dressers.
+meta_description: "Furniture Removal Port St. Lucie — Looking for furniture removal Port St. Lucie residents trust? Port St. Lucie... Request a free estimate."
 h1: Furniture Removal in Port St. Lucie, Florida
 primary_keyword: furniture removal port st. lucie
 type: service

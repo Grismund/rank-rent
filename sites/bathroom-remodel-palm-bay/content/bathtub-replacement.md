@@ -1,6 +1,6 @@
 ---
 title: Bathtub Replacement Palm Bay | Palm Bay Bath Renovations
-meta_description: Bathtub Replacement services in Palm Bay, Florida. Swap old tub for new soaking or walk-in tub.
+meta_description: "Bathtub Replacement Palm Bay — A professional bathtub replacement Palm Bay homeowners choose starts with... Get started with a free quote."
 h1: Bathtub Replacement in Palm Bay, Florida
 primary_keyword: bathtub replacement palm bay
 type: service

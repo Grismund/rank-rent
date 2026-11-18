@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Cost Palm Bay | Palm Bay Bath Renovations
-meta_description: How much does bathroom remodel cost in Palm Bay? Price ranges, factors, and free estimates.
+meta_description: "Bathroom Remodel Cost Palm Bay: most projects run $3,000 to $6,000. See what affects your price. Request a free estimate."
 h1: How Much Does a Bathroom Remodel Cost in Palm Bay?
 primary_keyword: bathroom remodel cost palm bay
 type: cost_guide

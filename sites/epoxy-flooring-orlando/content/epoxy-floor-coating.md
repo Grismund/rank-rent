@@ -1,6 +1,6 @@
 ---
 title: Epoxy Floor Coating Orlando | Orlando Epoxy Works
-meta_description: Epoxy Floor Coating services in Orlando, Florida. General-purpose epoxy coating for concrete surfaces.
+meta_description: "Epoxy Floor Coating Orlando — A garage, a workshop behind the house, a retail space with a neglected slab,... Get free quotes today."
 h1: Epoxy Floor Coating in Orlando, Florida
 primary_keyword: epoxy floor coating orlando
 type: service

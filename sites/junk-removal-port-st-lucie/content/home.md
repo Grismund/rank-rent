@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Port St. Lucie | Port St. Lucie Junk Haulers
-meta_description: Connect with junk removal pros in Port St. Lucie, Florida. Free quotes from local contractors.
+meta_description: "Junk Removal Port St. Lucie, Florida — residential junk removal, furniture removal, appliance hauling. Request a free estimate."
 h1: Junk Removal in Port St. Lucie, Florida
 primary_keyword: junk removal port st. lucie
 type: home

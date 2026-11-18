@@ -1,6 +1,6 @@
 ---
 title: Junk Removal FAQ Georgetown | Georgetown Junk Removal
-meta_description: Frequently asked questions about junk removal in Georgetown, Texas.
+meta_description: "Junk Removal FAQ for Georgetown, Texas — answers on cost, removal. Serving Georgetown and surrounding areas. Get free quotes today."
 h1: Junk Removal FAQ — Georgetown, Texas
 primary_keyword: junk removal faq
 type: faq

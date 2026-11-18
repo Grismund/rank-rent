@@ -1,6 +1,6 @@
 ---
 title: Soft Washing vs. Pressure Washing | Conroe Pressure Washing
-meta_description: Soft Washing vs. Pressure Washing — a guide for Conroe, Texas homeowners.
+meta_description: "Soft Wash vs Pressure Wash — covers what you need to know, side-by-side comparison, what this means for your project. Compare local contractors."
 h1: Soft Washing vs. Pressure Washing — Conroe, Texas
 primary_keyword: soft wash vs pressure wash
 type: guide

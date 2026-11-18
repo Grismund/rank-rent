@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Spring Texas | Conroe Tint Works
-meta_description: Window Tinting services in Spring, Texas. Serving Spring and surrounding areas.
+meta_description: "Window Tinting Spring — Population approximately 70,058; unincorporated CDP. Serving Conroe and surrounding areas. Get free quotes today."
 h1: Window Tinting in Spring, Texas
 primary_keyword: window tinting spring
 type: town

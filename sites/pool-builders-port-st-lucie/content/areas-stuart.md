@@ -1,6 +1,6 @@
 ---
 title: Pool Builders Stuart Florida | PSL Pool Builders
-meta_description: Pool Builders services in Stuart, Florida. Serving Stuart and surrounding areas.
+meta_description: "Pool Builders Stuart — Population 19,451 (2025 est.) in Martin County; downtown. Call today. Get started with a free quote."
 h1: Pool Builders in Stuart, Florida
 primary_keyword: pool builders stuart
 type: town

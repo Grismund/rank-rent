@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Taylor Texas | Georgetown Junk Removal
-meta_description: Junk Removal services in Taylor, Texas. Serving Taylor and surrounding areas.
+meta_description: "Junk Removal Taylor — Waste Connections holds an exclusive franchise for solid. Call today. Get started with a free quote."
 h1: Junk Removal in Taylor, Texas
 primary_keyword: junk removal taylor
 type: town

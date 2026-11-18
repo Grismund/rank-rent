@@ -1,6 +1,6 @@
 ---
 title: Bathtub Replacement Goodyear | Goodyear Bath Remodel Co.
-meta_description: Bathtub Replacement services in Goodyear, Arizona. Swap old tub for new soaking or walk-in tub.
+meta_description: "Bathtub Replacement Goodyear — Bathtub replacement Goodyear homeowners choose gives you a fresh tub without... Get started with a free quote."
 h1: Bathtub Replacement in Goodyear, Arizona
 primary_keyword: bathtub replacement goodyear
 type: service

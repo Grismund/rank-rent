@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Cost Calculator | Conroe
-meta_description: Free bathroom remodel cost calculator for Conroe, Texas. Get an instant estimate for your project.
+meta_description: "Free Bathroom Remodel Cost Calculator Conroe — This bathroom remodel cost calculator Conroe homeowners use gives you a price... Request a free estimate."
 h1: Bathroom Remodel Cost Calculator — Conroe, Texas
 primary_keyword: bathroom remodel cost calculator conroe
 type: tool

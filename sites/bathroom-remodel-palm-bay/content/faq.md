@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel FAQ Palm Bay | Palm Bay Bath Renovations
-meta_description: Frequently asked questions about bathroom remodel in Palm Bay, Florida.
+meta_description: "Bathroom Remodel FAQ for Palm Bay, Florida — answers on installation, finish options. Call today. Get free quotes today."
 h1: Bathroom Remodel FAQ — Palm Bay, Florida
 primary_keyword: bathroom remodel faq
 type: faq

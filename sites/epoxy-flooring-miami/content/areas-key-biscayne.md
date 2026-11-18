@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Key Biscayne Florida | Miami Garage Floor Co.
-meta_description: Epoxy Flooring services in Key Biscayne, Florida. Serving Key Biscayne and surrounding areas.
+meta_description: "Epoxy Flooring Key Biscayne — Village of 14,809 residents on a barrier island south. Serving Miami. Get free quotes today."
 h1: Epoxy Flooring in Key Biscayne, Florida
 primary_keyword: epoxy flooring key biscayne
 type: town

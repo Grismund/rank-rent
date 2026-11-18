@@ -1,6 +1,6 @@
 ---
 title: What Junk Haulers Won't Take | Georgetown Junk Removal
-meta_description: What Junk Removal Companies Won't Take — a guide for Georgetown, Texas homeowners.
+meta_description: "What Junk Removal Won't Take — covers overview, restricted materials and where to bring them, practical takeaways. Get free quotes today."
 h1: What Junk Removal Companies Won't Take — Georgetown, Texas
 primary_keyword: what junk removal won't take
 type: guide

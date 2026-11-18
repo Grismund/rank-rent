@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Kissimmee Florida | Orlando Epoxy Works
-meta_description: Epoxy Flooring services in Kissimmee, Florida. Serving Kissimmee and surrounding areas.
+meta_description: "Epoxy Flooring Kissimmee — Population 85,591 (2025 est.) in Osceola County; 22 miles. Call today. Compare local contractors."
 h1: Epoxy Flooring in Kissimmee, Florida
 primary_keyword: epoxy flooring kissimmee
 type: town

@@ -1,6 +1,6 @@
 ---
 title: "Garage Floor Epoxy New Braunfels | Comal Epoxy Floors"
-meta_description: "Garage floor epoxy coating in New Braunfels, TX. Durable, chemical-resistant finishes from local contractors. Get a free estimate today."
+meta_description: "Garage Floor Epoxy New Braunfels — Looking for garage floor epoxy in New Braunfels? Good instinct. Request a free estimate."
 h1: "Garage Floor Epoxy in New Braunfels, Texas"
 primary_keyword: "garage floor epoxy new braunfels"
 type: service

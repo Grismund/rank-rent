@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Satellite Beach Florida | Palm Bay Bath Renovations
-meta_description: Bathroom Remodel services in Satellite Beach, Florida. Serving Satellite Beach and surrounding areas.
+meta_description: "Bathroom Remodel Satellite Beach — barrier island city adjacent to Patrick Space Force Base. Call today. Get free quotes today."
 h1: Bathroom Remodel in Satellite Beach, Florida
 primary_keyword: bathroom remodel satellite beach
 type: town

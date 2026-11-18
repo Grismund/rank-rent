@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Cost San Antonio | Alamo City Epoxy
-meta_description: How much does epoxy flooring cost in San Antonio? Price ranges, factors, and free estimates.
+meta_description: "Epoxy Flooring Cost San Antonio: most projects run . See what affects your price. Call today. Compare local contractors."
 h1: How Much Does Epoxy Flooring Cost in San Antonio?
 primary_keyword: epoxy flooring cost san antonio
 type: cost_guide

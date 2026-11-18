@@ -1,6 +1,6 @@
 ---
 title: How Long Does an Epoxy Floor Last? | Alamo City Epoxy
-meta_description: How Long Does an Epoxy Floor Last? — a guide for San Antonio, Texas homeowners.
+meta_description: "How Long Does Epoxy Garage Floor Last — covers what you need to know, side-by-side comparison, what this means for your project. Request a free estimate."
 h1: How Long Does an Epoxy Floor Last? — San Antonio, Texas
 primary_keyword: how long does epoxy garage floor last
 type: guide

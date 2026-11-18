@@ -1,6 +1,6 @@
 ---
 title: Tub-to-Shower Conversion Palm Bay | Palm Bay Bath Renovations
-meta_description: Tub-to-Shower Conversion services in Palm Bay, Florida. Remove bathtub and install walk-in shower.
+meta_description: "Tub to Shower Conversion Palm Bay — A tub to shower conversion Palm Bay homeowners request removes the bathtub... Get started with a free quote."
 h1: Tub-to-Shower Conversion in Palm Bay, Florida
 primary_keyword: tub to shower conversion palm bay
 type: service

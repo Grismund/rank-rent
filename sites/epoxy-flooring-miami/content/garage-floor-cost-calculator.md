@@ -1,6 +1,6 @@
 ---
 title: Garage Floor Cost Calculator Miami | Miami Garage Floor Co.
-meta_description: Free garage floor cost calculator for Miami, Florida. Get an instant estimate for your project.
+meta_description: "Free Garage Floor Cost Calculator Miami — Use this free garage floor cost calculator Miami homeowners trust to estimate... Get started with a free quote."
 h1: Garage Floor Cost Calculator — Miami, Florida
 primary_keyword: garage floor cost calculator miami
 type: tool

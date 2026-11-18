@@ -1,6 +1,6 @@
 ---
 title: "Epoxy Flooring Schertz Texas | Comal Epoxy Floors"
-meta_description: "Epoxy flooring in Schertz, TX. Garage floor coatings for military families and homeowners. Free estimates from local contractors."
+meta_description: "Epoxy Flooring Schertz — Straddles Guadalupe, Comal, and Bexar counties; population. Call today. Compare local contractors."
 h1: "Epoxy Flooring in Schertz, Texas"
 primary_keyword: "epoxy flooring schertz"
 type: town

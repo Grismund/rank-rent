@@ -1,6 +1,6 @@
 ---
 title: Kitchen Remodel Cost Calculator Goodyear | Goodyear Kitchen Remodeling
-meta_description: Free kitchen remodel cost calculator for Goodyear, Arizona. Get an instant estimate for your project.
+meta_description: "Free Kitchen Remodel Cost Calculator Goodyear — Use this free kitchen remodel cost calculator to get a ballpark estimate for... Request a free estimate."
 h1: Kitchen Remodel Cost Calculator — Goodyear, Arizona
 primary_keyword: kitchen remodel cost calculator goodyear
 type: tool

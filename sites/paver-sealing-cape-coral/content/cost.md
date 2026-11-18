@@ -1,6 +1,6 @@
 ---
 title: Paver Sealing Cost Cape Coral | Cape Coral Paver Sealing
-meta_description: How much does paver sealing cost in Cape Coral? Price ranges, factors, and free estimates.
+meta_description: "Paver Sealing Cost Cape Coral: most projects run . See what affects your price. Serving Cape Coral. Get free quotes today."
 h1: How Much Does Paver Sealing Cost in Cape Coral?
 primary_keyword: paver sealing cost cape coral
 type: cost_guide

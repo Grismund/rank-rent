@@ -1,6 +1,6 @@
 ---
 title: How Long Does a Bathroom Remodel Take? | Palm Bay Bath Renovations
-meta_description: How Long Does a Bathroom Remodel Take? — a guide for Palm Bay, Florida homeowners.
+meta_description: "How Long Does a Bathroom Remodel Take — covers quick summary, key differences, how this affects your decision. Request a free estimate."
 h1: How Long Does a Bathroom Remodel Take? — Palm Bay, Florida
 primary_keyword: how long does a bathroom remodel take
 type: guide

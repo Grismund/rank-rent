@@ -1,6 +1,6 @@
 ---
 title: Automotive Window Tinting Conroe | Conroe Tint Works
-meta_description: Automotive Window Tinting services in Conroe, Texas. Tint film for cars, trucks, and SUVs.
+meta_description: "Car Window Tinting Conroe — If you need car window tinting Conroe drivers count on, you are addressing a... Compare local contractors."
 h1: Automotive Window Tinting in Conroe, Texas
 primary_keyword: car window tinting conroe
 type: service

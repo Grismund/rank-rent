@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Avondale Arizona | West Valley Window Tinting
-meta_description: Window Tinting services in Avondale, Arizona. Serving Avondale and surrounding areas.
+meta_description: "Window Tinting Avondale — grew 13.1% since 2020 census, adding 11,667 residents. Call today. Get started with a free quote."
 h1: Window Tinting in Avondale, Arizona
 primary_keyword: window tinting avondale
 type: town

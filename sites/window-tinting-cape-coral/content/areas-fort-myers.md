@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Fort Myers FL | Cape Coral Window Tinting
-meta_description: Window Tinting services in Fort Myers, Florida. Serving Fort Myers and surrounding areas.
+meta_description: "Window Tinting Fort Myers — Population 95,051 (2024 ACS) — Census Bureau. Serving Cape Coral and surrounding areas. Get free quotes today."
 h1: Window Tinting in Fort Myers, Florida
 primary_keyword: window tinting fort myers
 type: town

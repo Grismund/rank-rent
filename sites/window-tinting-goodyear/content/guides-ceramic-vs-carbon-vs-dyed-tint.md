@@ -1,6 +1,6 @@
 ---
 title: Ceramic vs Carbon Tint Guide | West Valley Tinting
-meta_description: Ceramic vs. Carbon vs. Dyed Tint — a guide for Goodyear, Arizona homeowners.
+meta_description: "Ceramic vs Carbon Tint — covers quick summary, key differences, how this affects your decision. Get started with a free quote."
 h1: Ceramic vs. Carbon vs. Dyed Tint — Goodyear, Arizona
 primary_keyword: ceramic vs carbon tint
 type: guide

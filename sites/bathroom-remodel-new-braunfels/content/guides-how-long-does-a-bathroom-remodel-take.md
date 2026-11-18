@@ -1,6 +1,6 @@
 ---
 title: How Long Does a Bathroom Remodel Take? | NBBW
-meta_description: How Long Does a Bathroom Remodel Take? — a guide for New Braunfels, Texas homeowners.
+meta_description: "How Long Does a Bathroom Remodel Take — covers quick summary, key differences, how this affects your decision. Request a free estimate."
 h1: How Long Does a Bathroom Remodel Take? — New Braunfels, Texas
 primary_keyword: how long does a bathroom remodel take
 type: guide

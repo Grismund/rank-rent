@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Cost Miami | Miami Garage Floor Co.
-meta_description: How much does epoxy flooring cost in Miami? Price ranges, factors, and free estimates.
+meta_description: "Epoxy Flooring Cost Miami: most projects run . See what affects your price. Serving Miami and surrounding areas. Request a free estimate."
 h1: How Much Does Epoxy Flooring Cost in Miami?
 primary_keyword: epoxy flooring cost miami
 type: cost_guide

@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Tolleson Arizona | Goodyear Bath Co.
-meta_description: Bathroom Remodel services in Tolleson, Arizona. Serving Tolleson and surrounding areas.
+meta_description: "Bathroom Remodel Tolleson — Median construction year for Tolleson homes. Serving Goodyear and surrounding areas. Compare local contractors."
 h1: Bathroom Remodel in Tolleson, Arizona
 primary_keyword: bathroom remodel tolleson
 type: town

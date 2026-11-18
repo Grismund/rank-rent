@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Avondale Arizona | Goodyear Bath Co.
-meta_description: Bathroom Remodel services in Avondale, Arizona. Serving Avondale and surrounding areas.
+meta_description: "Bathroom Remodel Avondale — Avondale water hardness averages 20-22 GPG (357-379 ppm),. Call today. Get free quotes today."
 h1: Bathroom Remodel in Avondale, Arizona
 primary_keyword: bathroom remodel avondale
 type: town

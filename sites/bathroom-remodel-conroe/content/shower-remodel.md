@@ -1,6 +1,6 @@
 ---
 title: Shower Remodel Conroe | Conroe Bath Remodeling
-meta_description: Shower Remodel services in Conroe, Texas. Shower replacement, tiling, glass enclosure upgrade.
+meta_description: "Shower Remodel Conroe — A professional shower remodel Conroe homeowners can count on starts here. Request a free estimate."
 h1: Shower Remodel in Conroe, Texas
 primary_keyword: shower remodel conroe
 type: service

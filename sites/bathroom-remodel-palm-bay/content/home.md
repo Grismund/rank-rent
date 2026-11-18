@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Palm Bay | Palm Bay Bath Renovations
-meta_description: Connect with bathroom remodel pros in Palm Bay, Florida. Free quotes from local contractors.
+meta_description: "Bathroom Remodel Palm Bay, Florida — full bathroom remodel, shower remodel, bathtub replacement. Get started with a free quote."
 h1: Bathroom Remodel in Palm Bay, Florida
 primary_keyword: bathroom remodel palm bay
 type: home

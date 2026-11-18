@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Willis Texas | Conroe Bath Remodeling
-meta_description: Bathroom Remodel services in Willis, Texas. Serving Willis and surrounding areas.
+meta_description: "Bathroom Remodel Willis — located 10 miles north of Conroe in Montgomery County. Conroe area. Compare local contractors."
 h1: Bathroom Remodel in Willis, Texas
 primary_keyword: bathroom remodel willis
 type: town

@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring San Antonio | Alamo City Epoxy
-meta_description: Connect with epoxy flooring pros in San Antonio, Texas. Free quotes from local contractors.
+meta_description: "Epoxy Flooring San Antonio, Texas — garage floor epoxy, commercial epoxy flooring, epoxy floor coating. Get free quotes today."
 h1: Epoxy Flooring in San Antonio, Texas
 primary_keyword: epoxy flooring san antonio
 type: home

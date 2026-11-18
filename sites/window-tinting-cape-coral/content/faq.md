@@ -1,6 +1,6 @@
 ---
 title: Window Tinting FAQ Cape Coral | Cape Coral Window Tinting
-meta_description: Frequently asked questions about window tinting in Cape Coral, Florida.
+meta_description: "Window Tinting FAQ for Cape Coral, Florida — answers on lifespan, installation. Cape Coral area. Request a free estimate."
 h1: Window Tinting FAQ — Cape Coral, Florida
 primary_keyword: window tinting faq
 type: faq

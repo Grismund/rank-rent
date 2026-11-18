@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Coral Gables Florida | Miami Garage Floor Co.
-meta_description: Epoxy Flooring services in Coral Gables, Florida. Serving Coral Gables and surrounding areas.
+meta_description: "Epoxy Flooring Coral Gables — Planned city of 49,248 residents southwest of downtown Miami. Call today. Compare local contractors."
 h1: Epoxy Flooring in Coral Gables, Florida
 primary_keyword: epoxy flooring coral gables
 type: town

@@ -1,6 +1,6 @@
 ---
 title: Paver Sealing Lehigh Acres FL | CC Paver Sealing
-meta_description: Paver Sealing services in Lehigh Acres, Florida. Serving Lehigh Acres and surrounding areas.
+meta_description: "Paver Sealing Lehigh Acres — unincorporated Lee County community approximately 20. Cape Coral area. Get free quotes today."
 h1: Paver Sealing in Lehigh Acres, Florida
 primary_keyword: paver sealing lehigh acres
 type: town

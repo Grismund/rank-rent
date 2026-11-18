@@ -1,6 +1,6 @@
 ---
 title: Appliance Hauling Port St. Lucie | PSL Junk Haulers
-meta_description: Appliance Hauling services in Port St. Lucie, Florida. Removal of refrigerators, washers, dryers, water heaters.
+meta_description: "Appliance Removal Port St. Lucie — Need appliance removal Port St. Lucie homeowners can depend on? Port St. Lucie... Compare local contractors."
 h1: Appliance Hauling in Port St. Lucie, Florida
 primary_keyword: appliance removal port st. lucie
 type: service

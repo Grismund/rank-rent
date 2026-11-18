@@ -1,6 +1,6 @@
 ---
 title: "How Long Does Epoxy Floor Last | Comal Epoxy Floors"
-meta_description: "How long does an epoxy garage floor last? Lifespan factors, maintenance tips, and when to recoat. A guide for New Braunfels homeowners."
+meta_description: "How Long Does Epoxy Garage Floor Last — covers overview, key differences, what this means for your project. Request a free estimate."
 h1: "How Long Does an Epoxy Floor Last? — New Braunfels, Texas"
 primary_keyword: "how long does epoxy garage floor last"
 type: guide

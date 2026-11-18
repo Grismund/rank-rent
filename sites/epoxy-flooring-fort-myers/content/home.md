@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Fort Myers | Fort Myers Floor Coatings
-meta_description: Connect with epoxy flooring pros in Fort Myers, Florida. Free quotes from local contractors.
+meta_description: "Epoxy Flooring Fort Myers, Florida — garage floor epoxy, commercial epoxy flooring, epoxy floor coating. Get started with a free quote."
 h1: Epoxy Flooring in Fort Myers, Florida
 primary_keyword: epoxy flooring fort myers
 type: home

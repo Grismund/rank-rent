@@ -1,6 +1,6 @@
 ---
 title: Metallic Epoxy Flooring Fort Myers | FMFC
-meta_description: Metallic Epoxy Flooring services in Fort Myers, Florida. Decorative metallic-finish epoxy for high-end interiors.
+meta_description: "Metallic Epoxy Flooring Fort Myers — Most epoxy floors are meant to disappear into the room. Call today. Compare local contractors."
 h1: Metallic Epoxy Flooring in Fort Myers, Florida
 primary_keyword: metallic epoxy flooring fort myers
 type: service

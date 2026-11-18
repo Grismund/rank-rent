@@ -1,6 +1,6 @@
 ---
 title: "How Often to Pressure Wash Your House? | Conroe PW"
-meta_description: How often should you pressure wash your house? A guide for Conroe, Texas homeowners.
+meta_description: "How Often Pressure Wash House Texas — covers what you need to know, side-by-side comparison, what this means for your project. Get started with a free quote."
 h1: How Often Should You Pressure Wash Your House? — Conroe, Texas
 primary_keyword: how often pressure wash house texas
 type: guide

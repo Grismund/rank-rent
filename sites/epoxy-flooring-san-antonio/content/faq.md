@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring FAQ San Antonio | Alamo City Epoxy
-meta_description: Frequently asked questions about epoxy flooring in San Antonio, Texas.
+meta_description: "Epoxy Flooring FAQ for San Antonio, Texas — answers on lifespan, installation, cost. Call today. Get started with a free quote."
 h1: Epoxy Flooring FAQ — San Antonio, Texas
 primary_keyword: epoxy flooring faq
 type: faq

@@ -1,6 +1,6 @@
 ---
 title: Residential Window Tinting Cape Coral | Cape Coral Window Tinting
-meta_description: Residential Window Tinting services in Cape Coral, Florida. Heat- and UV-blocking film for house windows.
+meta_description: "Home Window Tinting Cape Coral — If you need home window tinting Cape Coral homeowners rely on, Cape Coral... Request a free estimate."
 h1: Residential Window Tinting in Cape Coral, Florida
 primary_keyword: home window tinting cape coral
 type: service

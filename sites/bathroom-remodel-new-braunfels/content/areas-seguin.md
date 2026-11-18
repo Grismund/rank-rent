@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Seguin Texas | New Braunfels Bath Works
-meta_description: Bathroom Remodel services in Seguin, Texas. Serving Seguin and surrounding areas.
+meta_description: "Bathroom Remodel Seguin — Seguin is the Guadalupe County seat, founded in 1838. New Braunfels area. Request a free estimate."
 h1: Bathroom Remodel in Seguin, Texas
 primary_keyword: bathroom remodel seguin
 type: town

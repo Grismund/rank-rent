@@ -1,6 +1,6 @@
 ---
 title: Construction Debris Removal | Georgetown Junk Removal
-meta_description: Construction Debris Removal services in Georgetown, Texas. Post-renovation or remodel waste hauling.
+meta_description: "Construction Debris Removal Georgetown — Kitchen remodels, bathroom gut-jobs, deck replacements, and room additions all... Compare local contractors."
 h1: Construction Debris Removal in Georgetown, Texas
 primary_keyword: construction debris removal georgetown
 type: service

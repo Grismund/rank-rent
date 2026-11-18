@@ -1,6 +1,6 @@
 ---
 title: Shower Remodel Palm Bay | Palm Bay Bath Renovations
-meta_description: Shower Remodel services in Palm Bay, Florida. Shower replacement, tiling, glass enclosure upgrade.
+meta_description: "Shower Remodel Palm Bay — Looking for a professional shower remodel Palm Bay homeowners can rely on? Palm... Get started with a free quote."
 h1: Shower Remodel in Palm Bay, Florida
 primary_keyword: shower remodel palm bay
 type: service

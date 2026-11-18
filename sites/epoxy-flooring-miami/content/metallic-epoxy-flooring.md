@@ -1,6 +1,6 @@
 ---
 title: Metallic Epoxy Flooring Miami | Miami Garage Floor Co.
-meta_description: Metallic Epoxy Flooring services in Miami, Florida. Decorative metallic-finish epoxy for high-end interiors.
+meta_description: "Metallic Epoxy Flooring Miami — Miami Garage Floor Co. connects property owners with contractors who install... Compare local contractors."
 h1: Metallic Epoxy Flooring in Miami, Florida
 primary_keyword: metallic epoxy flooring miami
 type: service

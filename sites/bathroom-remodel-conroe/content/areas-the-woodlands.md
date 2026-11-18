@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel The Woodlands | Conroe Bath Pros
-meta_description: Bathroom Remodel services in The Woodlands, Texas. Serving The Woodlands and surrounding areas.
+meta_description: "Bathroom Remodel the Woodlands — located in unincorporated Montgomery County, 10 miles south. Compare local contractors."
 h1: Bathroom Remodel in The Woodlands, Texas
 primary_keyword: bathroom remodel the woodlands
 type: town

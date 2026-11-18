@@ -1,6 +1,6 @@
 ---
 title: Tub-to-Shower Conversion Costs | New Braunfels Bath Works
-meta_description: Tub-to-Shower Conversion Costs — a guide for New Braunfels, Texas homeowners.
+meta_description: "Tub to Shower Conversion Cost New Braunfels — covers quick summary, key differences, how this affects your decision. Request a free estimate."
 h1: Tub-to-Shower Conversion Costs — New Braunfels, Texas
 primary_keyword: tub to shower conversion cost new braunfels
 type: guide

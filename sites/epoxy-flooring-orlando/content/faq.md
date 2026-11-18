@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring FAQ Orlando | Orlando Epoxy Works
-meta_description: Frequently asked questions about epoxy flooring in Orlando, Florida.
+meta_description: "Epoxy Flooring FAQ for Orlando, Florida — answers on lifespan, DIY vs pro, curing time. Call today. Get started with a free quote."
 h1: Epoxy Flooring FAQ — Orlando, Florida
 primary_keyword: epoxy flooring faq
 type: faq

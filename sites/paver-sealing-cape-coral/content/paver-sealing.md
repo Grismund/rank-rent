@@ -1,6 +1,6 @@
 ---
 title: Paver Sealing Services Cape Coral | CCPS
-meta_description: Paver Sealing services in Cape Coral, Florida. Protective sealant application on brick and concrete pavers.
+meta_description: "Paver Sealing Services Cape Coral — Cape Coral Paver Sealing connects homeowners with independent local contractors... Get free quotes today."
 h1: Paver Sealing in Cape Coral, Florida
 primary_keyword: paver sealing services cape coral
 type: service

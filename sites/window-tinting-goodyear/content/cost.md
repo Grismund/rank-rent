@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Cost Goodyear | West Valley Window Tinting
-meta_description: How much does window tinting cost in Goodyear? Price ranges, factors, and free estimates.
+meta_description: "Window Tinting Cost Goodyear: most projects run . See what affects your price. Goodyear area. Compare local contractors."
 h1: How Much Does Window Tinting Cost in Goodyear?
 primary_keyword: window tinting cost goodyear
 type: cost_guide

@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Cost Conroe | Conroe Tint Works
-meta_description: How much does window tinting cost in Conroe? Price ranges, factors, and free estimates.
+meta_description: "Window Tinting Cost Conroe: most projects run $150 to $400. See what affects your price. Call today. Compare local contractors."
 h1: How Much Does Window Tinting Cost in Conroe?
 primary_keyword: window tinting cost conroe
 type: cost_guide

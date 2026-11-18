@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Bonita Springs Florida | Cape Coral Window Tinting
-meta_description: Window Tinting services in Bonita Springs, Florida. Serving Bonita Springs and surrounding areas.
+meta_description: "Window Tinting Bonita Springs — Population 57,112 (2024) — Census Bureau QuickFacts. Call today. Compare local contractors."
 h1: Window Tinting in Bonita Springs, Florida
 primary_keyword: window tinting bonita springs
 type: town

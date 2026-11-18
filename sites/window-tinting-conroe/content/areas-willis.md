@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Willis Texas | Conroe Tint Works
-meta_description: Window Tinting services in Willis, Texas. Serving Willis and surrounding areas.
+meta_description: "Window Tinting Willis — Population approximately 7,009; small Montgomery County. Serving Conroe. Request a free estimate."
 h1: Window Tinting in Willis, Texas
 primary_keyword: window tinting willis
 type: town

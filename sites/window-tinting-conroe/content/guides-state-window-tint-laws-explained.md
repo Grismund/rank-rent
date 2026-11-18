@@ -1,6 +1,6 @@
 ---
 title: State Window Tint Laws Explained | Conroe Tint Works
-meta_description: State Window Tint Laws Explained — a guide for Conroe, Texas homeowners.
+meta_description: "Texas Window Tint Laws — covers what you need to know, side-by-side comparison, what this means for your project. Get started with a free quote."
 h1: State Window Tint Laws Explained — Conroe, Texas
 primary_keyword: texas window tint laws
 type: guide

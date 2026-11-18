@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Cost Goodyear | Goodyear Bath Remodel Co.
-meta_description: How much does bathroom remodel cost in Goodyear? Price ranges, factors, and free estimates.
+meta_description: "Bathroom Remodel Cost Goodyear: most projects run . See what affects your price. Call today. Get started with a free quote."
 h1: How Much Does a Bathroom Remodel Cost in Goodyear?
 primary_keyword: bathroom remodel cost goodyear
 type: cost_guide

@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel Canyon Lake TX | NBBW
-meta_description: Bathroom Remodel services in Canyon Lake, Texas. Serving Canyon Lake and surrounding areas.
+meta_description: "Bathroom Remodel Canyon Lake — Canyon Lake is an unincorporated CDP in Comal County. Call today. Get started with a free quote."
 h1: Bathroom Remodel in Canyon Lake, Texas
 primary_keyword: bathroom remodel canyon lake
 type: town

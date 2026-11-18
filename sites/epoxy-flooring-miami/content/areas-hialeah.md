@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Hialeah Florida | Miami Garage Floor Co.
-meta_description: Epoxy Flooring services in Hialeah, Florida. Serving Hialeah and surrounding areas.
+meta_description: "Epoxy Flooring Hialeah — City of 223,109 residents northwest of downtown Miami —. Serving Miami. Request a free estimate."
 h1: Epoxy Flooring in Hialeah, Florida
 primary_keyword: epoxy flooring hialeah
 type: town

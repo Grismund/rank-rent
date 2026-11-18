@@ -1,6 +1,6 @@
 ---
 title: Shower Remodel New Braunfels | New Braunfels Bath Works
-meta_description: Shower Remodel services in New Braunfels, Texas. Shower replacement, tiling, glass enclosure upgrade.
+meta_description: "Shower Remodel New Braunfels — A professional shower remodel New Braunfels homeowners depend on starts with a... Request a free estimate."
 h1: Shower Remodel in New Braunfels, Texas
 primary_keyword: shower remodel new braunfels
 type: service

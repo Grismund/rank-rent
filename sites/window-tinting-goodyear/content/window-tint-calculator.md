@@ -1,6 +1,6 @@
 ---
 title: Window Tint Calculator Goodyear | West Valley Window Tinting
-meta_description: Free window tint calculator for Goodyear, Arizona. Get an instant estimate for your project.
+meta_description: "Free Window Tint Calculator Goodyear — This window tint calculator Goodyear drivers use gives you a price range for... Get started with a free quote."
 h1: Window Tint Calculator — Goodyear, Arizona
 primary_keyword: window tint calculator goodyear
 type: tool

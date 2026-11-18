@@ -1,6 +1,6 @@
 ---
 title: Epoxy Floor Coating Fort Myers | Fort Myers Floor Coatings
-meta_description: Epoxy Floor Coating services in Fort Myers, Florida. General-purpose epoxy coating for concrete surfaces.
+meta_description: "Epoxy Floor Coating Fort Myers — Maybe it is a garage. Local Fort Myers, Florida contractors ready to help. Get free quotes today."
 h1: Epoxy Floor Coating in Fort Myers, Florida
 primary_keyword: epoxy floor coating fort myers
 type: service

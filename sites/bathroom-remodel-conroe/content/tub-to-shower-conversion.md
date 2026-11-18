@@ -1,6 +1,6 @@
 ---
 title: Tub-to-Shower Conversion Conroe | Conroe Bath Remodeling
-meta_description: Tub-to-Shower Conversion services in Conroe, Texas. Remove bathtub and install walk-in shower.
+meta_description: "Tub to Shower Conversion Conroe — A tub to shower conversion Conroe homeowners request most often removes an... Get started with a free quote."
 h1: Tub-to-Shower Conversion in Conroe, Texas
 primary_keyword: tub to shower conversion conroe
 type: service

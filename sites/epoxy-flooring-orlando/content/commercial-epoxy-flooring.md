@@ -1,6 +1,6 @@
 ---
 title: Commercial Epoxy Flooring Orlando | Orlando Epoxy Works
-meta_description: Commercial Epoxy Flooring services in Orlando, Florida. Epoxy systems for warehouses, shops, and showrooms.
+meta_description: "Commercial Epoxy Flooring Orlando — A business floor works differently than a garage floor. Get started with a free quote."
 h1: Commercial Epoxy Flooring in Orlando, Florida
 primary_keyword: commercial epoxy flooring orlando
 type: service

@@ -1,6 +1,6 @@
 ---
 title: Bathroom Remodel West Melbourne Florida | Palm Bay Bath Renovations
-meta_description: Bathroom Remodel services in West Melbourne, Florida. Serving West Melbourne and surrounding areas.
+meta_description: "Bathroom Remodel West Melbourne — highest percentage population growth of any Brevard County. Compare local contractors."
 h1: Bathroom Remodel in West Melbourne, Florida
 primary_keyword: bathroom remodel west melbourne
 type: town

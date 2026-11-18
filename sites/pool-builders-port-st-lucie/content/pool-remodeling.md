@@ -1,6 +1,6 @@
 ---
 title: Pool Remodeling Port St. Lucie | PSL Pool Builders
-meta_description: Pool Remodeling services in Port St. Lucie, Florida. Resurface, retile, or redesign an existing pool.
+meta_description: "Pool Remodeling Port St. Lucie — Port St. Lucie Pool Builders connects homeowners with local contractors for... Get started with a free quote."
 h1: Pool Remodeling in Port St. Lucie, Florida
 primary_keyword: pool remodeling port st. lucie
 type: service

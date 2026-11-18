@@ -1,6 +1,6 @@
 ---
 title: "Commercial Epoxy Flooring New Braunfels | Comal Epoxy Floors"
-meta_description: "Commercial epoxy flooring in New Braunfels, TX. Warehouse, showroom, and industrial floor coatings. Request a free quote from local contractors."
+meta_description: "Commercial Epoxy Flooring New Braunfels — A business floor has a harder job than a garage floor. Compare local contractors."
 h1: "Commercial Epoxy Flooring in New Braunfels, Texas"
 primary_keyword: "commercial epoxy flooring new braunfels"
 type: service

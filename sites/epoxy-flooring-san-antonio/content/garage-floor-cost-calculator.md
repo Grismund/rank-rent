@@ -1,6 +1,6 @@
 ---
 title: Garage Floor Cost Calculator San Antonio | Alamo City Epoxy
-meta_description: Free garage floor cost calculator for San Antonio, Texas. Get an instant estimate for your project.
+meta_description: "Free Garage Floor Cost Calculator San Antonio — Use this garage floor cost calculator San Antonio homeowners trust to get a... Get free quotes today."
 h1: Garage Floor Cost Calculator — San Antonio, Texas
 primary_keyword: garage floor cost calculator san antonio
 type: tool

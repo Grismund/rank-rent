@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Cost Orlando | Orlando Epoxy Works
-meta_description: How much does epoxy flooring cost in Orlando? Price ranges, factors, and free estimates.
+meta_description: "Epoxy Flooring Cost Orlando: most projects run . See what affects your price. Call today. Get started with a free quote."
 h1: How Much Does Epoxy Flooring Cost in Orlando?
 primary_keyword: epoxy flooring cost orlando
 type: cost_guide

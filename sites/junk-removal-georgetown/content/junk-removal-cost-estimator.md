@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Cost Estimator | Georgetown Junk Removal
-meta_description: Free junk removal cost estimator for Georgetown, Texas. Get an instant estimate for your project.
+meta_description: "Free Junk Removal Cost Estimator Georgetown — Use this junk removal cost estimator Georgetown homeowners rely on to get a... Get free quotes today."
 h1: Junk Removal Cost Estimator — Georgetown, Texas
 primary_keyword: junk removal cost estimator georgetown
 type: tool

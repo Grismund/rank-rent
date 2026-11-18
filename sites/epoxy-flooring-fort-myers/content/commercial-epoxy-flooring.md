@@ -1,6 +1,6 @@
 ---
 title: Commercial Epoxy Flooring Fort Myers | FMFC
-meta_description: Commercial Epoxy Flooring services in Fort Myers, Florida. Epoxy systems for warehouses, shops, and showrooms.
+meta_description: "Commercial Epoxy Flooring Fort Myers — Need commercial epoxy flooring in Fort Myers? A business floor works harder... Request a free estimate."
 h1: Commercial Epoxy Flooring in Fort Myers, Florida
 primary_keyword: commercial epoxy flooring fort myers
 type: service

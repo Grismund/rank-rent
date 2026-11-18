@@ -1,6 +1,6 @@
 ---
 title: Paver Sealing Pine Island Center | CCPS
-meta_description: Paver Sealing services in Pine Island Center, Florida. Serving Pine Island and surrounding areas.
+meta_description: "Paver Sealing Pine Island Center — Pine Island Center has a population of 1,834 and sits. Call today. Request a free estimate."
 h1: Paver Sealing in Pine Island Center, Florida
 primary_keyword: paver sealing pine island center
 type: town

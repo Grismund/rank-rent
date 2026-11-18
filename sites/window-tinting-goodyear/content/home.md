@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Goodyear | West Valley Window Tinting
-meta_description: Connect with window tinting pros in Goodyear, Arizona. Free quotes from local contractors.
+meta_description: "Window Tinting Goodyear, Arizona — automotive window tinting, residential window tinting, commercial window tinting. Compare local contractors."
 h1: Window Tinting in Goodyear, Arizona
 primary_keyword: window tinting goodyear
 type: home

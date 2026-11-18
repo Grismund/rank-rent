@@ -1,6 +1,6 @@
 ---
 title: Paver Sealing Bonita Springs FL | CC Paver Sealing
-meta_description: Paver Sealing services in Bonita Springs, Florida. Serving Bonita Springs and surrounding areas.
+meta_description: "Paver Sealing Bonita Springs — city in Lee County approximately 30 minutes south of Cape. Call today. Compare local contractors."
 h1: Paver Sealing in Bonita Springs, Florida
 primary_keyword: paver sealing bonita springs
 type: town

@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring FAQ Fort Myers | Fort Myers Floor Coatings
-meta_description: Frequently asked questions about epoxy flooring in Fort Myers, Florida.
+meta_description: "Epoxy Flooring FAQ for Fort Myers, Florida — answers on lifespan, DIY vs pro, curing time. Get started with a free quote."
 h1: Epoxy Flooring FAQ — Fort Myers, Florida
 primary_keyword: epoxy flooring faq
 type: faq

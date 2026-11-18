@@ -1,6 +1,6 @@
 ---
 title: Epoxy vs. Polyaspartic Garage Floors | Alamo City Epoxy
-meta_description: Epoxy vs. Polyaspartic Garage Floors — a guide for San Antonio, Texas homeowners.
+meta_description: "Epoxy vs Polyaspartic San Antonio — covers what you need to know, side-by-side comparison, what this means for your project. Get started with a free quote."
 h1: Epoxy vs. Polyaspartic Garage Floors — San Antonio, Texas
 primary_keyword: epoxy vs polyaspartic san antonio
 type: guide

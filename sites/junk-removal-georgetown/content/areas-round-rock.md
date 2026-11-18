@@ -1,6 +1,6 @@
 ---
 title: Junk Removal Round Rock Texas | Georgetown Junk Removal
-meta_description: Junk Removal services in Round Rock, Texas. Serving Round Rock and surrounding areas.
+meta_description: "Junk Removal Round Rock — Round Rock's population has reached 141,282 (2025 est.),. Call today. Get started with a free quote."
 h1: Junk Removal in Round Rock, Texas
 primary_keyword: junk removal round rock
 type: town

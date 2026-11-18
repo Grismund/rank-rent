@@ -1,6 +1,6 @@
 ---
 title: Commercial Epoxy Flooring Miami | Miami Garage Floor Co.
-meta_description: Commercial Epoxy Flooring services in Miami, Florida. Epoxy systems for warehouses, shops, and showrooms.
+meta_description: "Commercial Epoxy Flooring Miami — Miami Garage Floor Co. connects business owners with contractors who install... Request a free estimate."
 h1: Commercial Epoxy Flooring in Miami, Florida
 primary_keyword: commercial epoxy flooring miami
 type: service

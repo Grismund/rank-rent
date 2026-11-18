@@ -1,6 +1,6 @@
 ---
 title: Small Bathroom Remodel New Braunfels | NBBW
-meta_description: Small Bathroom Remodel services in New Braunfels, Texas. Budget-focused update for guest or half baths.
+meta_description: "Small Bathroom Remodel New Braunfels — A small bathroom remodel New Braunfels homeowners undertake is the most... Get free quotes today."
 h1: Small Bathroom Remodel in New Braunfels, Texas
 primary_keyword: small bathroom remodel new braunfels
 type: service

@@ -1,6 +1,6 @@
 ---
 title: House Washing Conroe | Conroe Pressure Washing
-meta_description: House Washing services in Conroe, Texas. Exterior siding, brick, and stucco cleaning.
+meta_description: "House Washing Conroe — Conroe Pressure Washing connects homeowners with independent local contractors... Compare local contractors."
 h1: House Washing in Conroe, Texas
 primary_keyword: house washing conroe
 type: service

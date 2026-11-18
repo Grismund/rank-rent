@@ -1,6 +1,6 @@
 ---
 title: "Epoxy Flooring Canyon Lake Texas | Comal Epoxy Floors"
-meta_description: "Epoxy flooring in Canyon Lake, TX. Protect your lakeside garage from moisture and wear. We offer free estimates from our qualified contractors."
+meta_description: "Epoxy Flooring Canyon Lake — Unincorporated CDP in Comal County; population 33,883; 85%. Call today. Compare local contractors."
 h1: "Epoxy Flooring in Canyon Lake, Texas"
 primary_keyword: "epoxy flooring canyon lake"
 type: town

@@ -1,6 +1,6 @@
 ---
 title: Paver Sealing Fort Myers Florida | Cape Coral Paver Sealing
-meta_description: Paver Sealing services in Fort Myers, Florida. Serving Fort Myers and surrounding areas.
+meta_description: "Paver Sealing Fort Myers — Lee County seat located across the Caloosahatchee River. Cape Coral area. Get free quotes today."
 h1: Paver Sealing in Fort Myers, Florida
 primary_keyword: paver sealing fort myers
 type: town

@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Helotes Texas | Alamo City Epoxy
-meta_description: Epoxy Flooring services in Helotes, Texas. Serving Helotes and surrounding areas.
+meta_description: "Epoxy Flooring Helotes — Helotes population 10,387 (2025 est.), approximately 20. San Antonio area. Request a free estimate."
 h1: Epoxy Flooring in Helotes, Texas
 primary_keyword: epoxy flooring helotes
 type: town

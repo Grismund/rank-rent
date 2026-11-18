@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Altamonte Springs FL | Orlando Epoxy Works
-meta_description: Epoxy Flooring services in Altamonte Springs, Florida. Serving Altamonte Springs and surrounding areas.
+meta_description: "Epoxy Flooring Altamonte Springs — Population 48,000 (2025 est.) in Seminole County; 8 miles. Compare local contractors."
 h1: Epoxy Flooring in Altamonte Springs, Florida
 primary_keyword: epoxy flooring altamonte springs
 type: town

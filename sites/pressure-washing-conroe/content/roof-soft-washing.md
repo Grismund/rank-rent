@@ -1,6 +1,6 @@
 ---
 title: Roof Soft Washing Conroe | Conroe Pressure Washing
-meta_description: Roof Soft Washing services in Conroe, Texas. Low-pressure chemical wash for shingle and tile roofs.
+meta_description: "Roof Soft Washing Conroe — Conroe Pressure Washing connects homeowners with independent local contractors... Get free quotes today."
 h1: Roof Soft Washing in Conroe, Texas
 primary_keyword: roof soft washing conroe
 type: service

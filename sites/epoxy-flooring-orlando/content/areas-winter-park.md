@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Winter Park Florida | Orlando Epoxy Works
-meta_description: Epoxy Flooring services in Winter Park, Florida. Serving Winter Park and surrounding areas.
+meta_description: "Epoxy Flooring Winter Park — Population 30,688 (2025 est.) in Orange County; 5 miles. Call today. Get free quotes today."
 h1: Epoxy Flooring in Winter Park, Florida
 primary_keyword: epoxy flooring winter park
 type: town

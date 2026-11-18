@@ -1,6 +1,6 @@
 ---
 title: Epoxy Flooring Live Oak Texas | Alamo City Epoxy
-meta_description: Epoxy Flooring services in Live Oak, Texas. Serving Live Oak and surrounding areas.
+meta_description: "Epoxy Flooring Live Oak — Live Oak population 16,426 (2025 est.), incorporated city. Call today. Compare local contractors."
 h1: Epoxy Flooring in Live Oak, Texas
 primary_keyword: epoxy flooring live oak
 type: town

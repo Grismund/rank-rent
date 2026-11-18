@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Tolleson Arizona | West Valley Window Tinting
-meta_description: Window Tinting services in Tolleson, Arizona. Serving Tolleson and surrounding areas.
+meta_description: "Window Tinting Tolleson — small West Valley city in Maricopa County. Serving Goodyear and surrounding areas. Get started with a free quote."
 h1: Window Tinting in Tolleson, Arizona
 primary_keyword: window tinting tolleson
 type: town

@@ -1,6 +1,6 @@
 ---
 title: Window Tinting The Woodlands Texas | Conroe Tint Works
-meta_description: Window Tinting services in The Woodlands, Texas. Serving The Woodlands and surrounding areas.
+meta_description: "Window Tinting the Woodlands — master-planned township in Montgomery County with nine. Call today. Request a free estimate."
 h1: Window Tinting in The Woodlands, Texas
 primary_keyword: window tinting the woodlands
 type: town

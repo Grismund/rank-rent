@@ -1,6 +1,6 @@
 ---
 title: 'How Often Should Pavers Be Sealed? | CCPS'
-meta_description: How often should pavers be sealed in Cape Coral, Florida? A guide to resealing frequency.
+meta_description: "How Often Seal Pavers Florida — covers overview, how they compare, practical takeaways. Call today. Get started with a free quote."
 h1: How Often Should Pavers Be Sealed? — Cape Coral, Florida
 primary_keyword: how often seal pavers florida
 type: guide

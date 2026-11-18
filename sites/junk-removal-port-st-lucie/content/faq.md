@@ -1,6 +1,6 @@
 ---
 title: Junk Removal FAQ Port St. Lucie | PSL Haulers
-meta_description: Frequently asked questions about junk removal in Port St. Lucie, Florida.
+meta_description: "Junk Removal FAQ for Port St. Lucie, Florida — answers on . Serving Port St. Lucie and surrounding areas. Get free quotes today."
 h1: Junk Removal FAQ — Port St. Lucie, Florida
 primary_keyword: junk removal faq
 type: faq

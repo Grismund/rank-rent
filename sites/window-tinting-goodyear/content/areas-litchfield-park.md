@@ -1,6 +1,6 @@
 ---
 title: Window Tinting Litchfield Park | West Valley Tinting
-meta_description: Window Tinting services in Litchfield Park, Arizona. Serving Litchfield Park and surrounding areas.
+meta_description: "Window Tinting Litchfield Park — small, affluent community in western Maricopa County. Call today. Get started with a free quote."
 h1: Window Tinting in Litchfield Park, Arizona
 primary_keyword: window tinting litchfield park
 type: town

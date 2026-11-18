@@ -1,6 +1,6 @@
 ---
 title: Epoxy vs. Polyaspartic Garage Floors | FMFC
-meta_description: Epoxy vs. Polyaspartic Garage Floors — a guide for Fort Myers, Florida homeowners.
+meta_description: "Epoxy vs Polyaspartic Fort Myers — covers quick summary, key differences, how this affects your decision. Compare local contractors."
 h1: Epoxy vs. Polyaspartic Garage Floors — Fort Myers, Florida
 primary_keyword: epoxy vs polyaspartic fort myers
 type: guide

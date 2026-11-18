@@ -1,6 +1,6 @@
 ---
 title: Window Tint Calculator Conroe | Conroe Tint Works
-meta_description: Free window tint calculator for Conroe, Texas. Get an instant estimate for your project.
+meta_description: "Free Window Tint Calculator Conroe — Use this window tint calculator Conroe vehicle owners rely on to get a ballpark... Get started with a free quote."
 h1: Window Tint Calculator — Conroe, Texas
 primary_keyword: window tint calculator conroe
 type: tool

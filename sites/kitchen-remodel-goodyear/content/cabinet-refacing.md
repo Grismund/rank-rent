@@ -1,6 +1,6 @@
 ---
 title: Cabinet Refacing Goodyear | Goodyear Kitchen Remodeling
-meta_description: Cabinet Refacing services in Goodyear, Arizona. Update cabinet doors and hardware without full replacement.
+meta_description: "Cabinet Refacing Goodyear — Cabinet refacing in Goodyear is the practical middle ground between living with... Get free quotes today."
 h1: Cabinet Refacing in Goodyear, Arizona
 primary_keyword: cabinet refacing goodyear
 type: service

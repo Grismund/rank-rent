@@ -1,6 +1,6 @@
 ---
 title: Residential Junk Removal | Georgetown Junk Removal
-meta_description: Residential Junk Removal services in Georgetown, Texas. Whole-home cleanout of unwanted household items.
+meta_description: "Residential Junk Removal Georgetown — When closets overflow, the garage disappears under boxes, or an entire house... Get free quotes today."
 h1: Residential Junk Removal in Georgetown, Texas
 primary_keyword: residential junk removal georgetown
 type: service
