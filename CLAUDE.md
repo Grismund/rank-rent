@@ -69,7 +69,7 @@ Each SKILL.md should specify:
 
 ## Workflow
 
-> **Current status:** Phase 3 substantially complete. 18 candidates approved at Gate 1 across 8 niches. Niche packs (8), niche briefs, local facts, keywords (18 site.yaml files), and renters (540 buyers in `buyers.csv`) all done. Enrichment pipeline active: GBP contact enrichment and website scraping for emails/owner names. Pipeline reordered: domains/phones moved to end of Phase 4 (after SEO audit, before Gate 2).
+> **Current status:** Phase 4 complete. All 18 sites pass content audit and full SEO audit. `rr-domains` and `rr-phone` skills built and ready for Gate 2 — both are purchase-gated (present costs, wait for operator approval). `data/sites.csv` initialized with 18 rows. Next: operator runs `rr-domains` and `rr-phone` to register domains and provision tracking numbers, then Gate 2 → Phase 5 deploy.
 
 ### Pipeline overview
 
@@ -106,7 +106,7 @@ Each SKILL.md should specify:
 | 1 | `rr-smoke-test` | DONE | `docs/connectivity-report.md` |
 | 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-viability`, `rr-shortlist` | DONE | `candidates.csv`, validation data, teardowns, viability reports, shortlist memo |
 | 3 | `rr-niche-pack`, `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` | DONE | Niche packs (8), briefs, local facts, 18 site.yaml page plans, 540 buyers in `buyers.csv` |
-| 4 | `rr-site-build`, `rr-content`, `rr-seo-audit`, `rr-domains`, `rr-phone` | SPECCED — see `docs/phase-4-build-plan.md` | `template/`, sites, content, audit reports, registered domains |
+| 4 | `rr-site-build`, `rr-content`, `rr-seo-audit`, `rr-domains`, `rr-phone` | DONE | `template/`, sites, content, audit reports, `data/sites.csv`, registered domains (pending Gate 2) |
 | 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` | NOT BUILT | Live sites, backlinks, review reports, pitch materials |
 
 ### Gates
@@ -126,7 +126,7 @@ shortlisted → ◆ GATE 1 → packed → briefed → content_ready → audited 
 
 ## Data model
 
-- **CSV** files in `data/` are the source of truth for candidates, sites, buyers, and links. Currently `candidates.csv`, `counties.csv`, `cities.csv`, and `buyers.csv` exist; `sites.csv` and `links.csv` are defined for Phase 4+.
+- **CSV** files in `data/` are the source of truth for candidates, sites, buyers, and links. Currently `candidates.csv`, `counties.csv`, `cities.csv`, `buyers.csv`, and `sites.csv` exist; `links.csv` is defined for Phase 5.
 - **`counties.csv`** holds 109 high-growth US counties (8%+ population growth since 2020) used by `scripts/county-scan.mjs` for county-level volume scanning. Columns: `county, state, pop_2026, pop_2020, growth_pct`.
 - **`cities.csv`** holds 59 high-growth US cities used by `scripts/city-scan.mjs` for city-level volume scanning. Columns: `city, state, pop_2026, pop_2020, growth_pct`.
 - **YAML** (`niches/<niche>/pack.yaml`) holds per-niche content packs: sub-services, page outlines with heading structures, guide topics, and local variable definitions with research questions. One pack per niche, shared across all cities.
@@ -181,6 +181,8 @@ Operational scripts in `scripts/`:
 | `enrich-websites.mjs` | Website scraping enrichment (emails, owner names) |
 | `rescore-candidates.mjs` | Re-scores candidates after data changes |
 | `verify-data.mjs` | Data integrity verification |
+| `domains.mjs` | Domain availability check and registration via Cloudflare |
+| `phone.mjs` | Phone number search and provisioning via Twilio |
 
 ## API integrations
 
