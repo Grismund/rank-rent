@@ -52,6 +52,22 @@ These are not binding quotes. Actual pricing depends on your slab's condition, w
 
 Answers to the most frequent pricing questions appear below. For a deeper look at what drives cost, see the full [cost guide](/cost/).
 
+### How accurate is this garage floor cost calculator?
+
+The calculator produces ballpark estimates based on installed pricing from San Antonio-area contractors. Your actual cost may differ depending on slab condition, moisture mitigation needs and the specific finish you choose. Use the estimate as a starting point, then request a free in-person quote for exact numbers.
+
+### Does the estimate include concrete preparation?
+
+Yes. The ranges factor in standard surface preparation such as diamond grinding and crack filling. If your slab requires extensive moisture mitigation or removal of a previous coating, the actual cost may run higher than the estimate shown.
+
+### What is the cheapest epoxy option for my garage?
+
+A solid-color epoxy coating is typically the least expensive professional option, starting around $3 per square foot installed. On a standard two-car garage of about 450 square feet, that puts the low end near $1,650. The [cost guide](/cost/) breaks down per-square-foot rates for all finish types.
+
+### Why does metallic epoxy cost more than flake?
+
+Metallic epoxy uses specialty pigment powders that are more expensive than vinyl flake chips, and the installation requires hands-on pattern manipulation that adds labor time. The result is a one-of-a-kind floor, but it costs roughly $5 to $12 per square foot compared to $4 to $7 for a flake system.
+
 ## Get a Real Estimate from a Local Pro
 
 A calculator gets you in the right neighborhood. An on-site inspection gets you the actual number. Call [PHONE] or fill out the form below to request a free estimate from a San Antonio garage floor contractor. The contractor will inspect the slab, run moisture tests and walk you through finish options before quoting a price.

@@ -35,7 +35,7 @@ town_facts: []
 schema: FAQPage
 ---
 
-This page answers the most common questions homeowners ask before starting a **kitchen remodel** in the Goodyear area. For detailed pricing, see the [cost guide](/cost/). For timeline breakdowns by project scope, see the [timeline guide](/guides/how-long-does-a-kitchen-remodel-take/).
+This page answers the most common questions homeowners ask before starting a **kitchen remodel** in the Goodyear area. Call [PHONE] to talk through your project with a local contractor. For detailed pricing, see the [cost guide](/cost/). For timeline breakdowns by project scope, see the [timeline guide](/guides/how-long-does-a-kitchen-remodel-take/).
 
 ## Common Kitchen Remodel Questions
 
