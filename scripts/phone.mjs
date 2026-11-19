@@ -24,6 +24,7 @@ import {
   buildVoicemailTwiml,
 } from '../lib/phone.js'
 import { readSitesCsv, writeSitesCsv, updateSiteRow } from '../lib/sites-csv.js'
+import { parseWaveAssignments as _parseWaveAssignments, getTargetSlugs } from '../lib/wave-assignments.js'
 
 const ROOT = resolve(dirname(new URL(import.meta.url).pathname), '..')
 const sleep = (ms) => new Promise(r => setTimeout(r, ms))
@@ -60,55 +61,25 @@ if (!TWILIO_SID || !TWILIO_TOKEN) {
 
 const twilioAuth = 'Basic ' + Buffer.from(`${TWILIO_SID}:${TWILIO_TOKEN}`).toString('base64')
 
-// ── Parse wave assignments from ASSIGNMENTS.md ──────────────────────
-
-function parseWaveAssignments() {
-  const assignPath = resolve(ROOT, 'sites', 'ASSIGNMENTS.md')
-  const text = readFileSync(assignPath, 'utf-8')
-  const lines = text.split('\n')
-  const waveMap = new Map()
-
-  let inTable = false
-  let headerSkipped = false
-
-  for (const line of lines) {
-    if (line.startsWith('## Assignments')) { inTable = true; continue }
-    if (inTable && line.startsWith('## ')) break
-    if (!inTable) continue
-    if (line.startsWith('| Site dir')) { headerSkipped = false; continue }
-    if (line.startsWith('|---')) { headerSkipped = true; continue }
-    if (!headerSkipped) continue
-
-    const cells = line.split('|').map(c => c.trim()).filter(c => c)
-    if (cells.length >= 10) {
-      waveMap.set(cells[0], parseInt(cells[9], 10))
-    }
-  }
-  return waveMap
-}
-
 // ── Discover target sites ───────────────────────────────────────────
 
 function getTargetSites() {
   const sitesDir = resolve(ROOT, 'sites')
-  const dirs = readdirSync(sitesDir, { withFileTypes: true })
+  const assignText = readFileSync(resolve(ROOT, 'sites', 'ASSIGNMENTS.md'), 'utf-8')
+  const waveMap = _parseWaveAssignments(assignText)
+
+  const allSlugs = readdirSync(sitesDir, { withFileTypes: true })
     .filter(d => d.isDirectory() && existsSync(resolve(sitesDir, d.name, 'site.yaml')))
     .map(d => d.name)
     .sort()
 
-  const waveMap = parseWaveAssignments()
-  const sites = []
+  const targetSlugs = getTargetSlugs({ slugArg, waveNum, allSlugs, waveMap })
 
-  for (const slug of dirs) {
+  return targetSlugs.map(slug => {
     const yamlPath = resolve(sitesDir, slug, 'site.yaml')
     const config = loadYaml(readFileSync(yamlPath, 'utf-8'))
-
-    if (slugArg && slug !== slugArg) continue
-    if (waveNum !== null && waveMap.get(slug) !== waveNum) continue
-
-    sites.push({ slug, config, yamlPath, wave: waveMap.get(slug) })
-  }
-  return sites
+    return { slug, config, yamlPath, wave: waveMap.get(slug) }
+  })
 }
 
 // ── Twilio API ──────────────────────────────────────────────────────

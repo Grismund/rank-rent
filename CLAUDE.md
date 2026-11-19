@@ -25,7 +25,7 @@ rank-rent/
     sites.csv                       domain, registrar, renewal, number, status, client
     buyers.csv                      renters per niche and area
     links.csv                       backlink targets and status
-  lib/                              shared business logic (scoring, candidates, trends, renters, etc.)
+  lib/                              shared business logic (scoring, candidates, trends, renters, deploy, indexing, wave-assignments, etc.)
   scripts/                          operational scripts (dashboard, validation, enrichment, etc.)
   tests/                            vitest unit tests (1:1 with lib/, 20 test files)
   index.html                        generated research dashboard (repo root)
@@ -69,7 +69,7 @@ Each SKILL.md should specify:
 
 ## Workflow
 
-> **Current status:** Phase 4 complete. All 18 sites pass content audit and full SEO audit. `rr-domains` and `rr-phone` skills built and ready for Gate 2 — both are purchase-gated (present costs, wait for operator approval). `data/sites.csv` initialized with 18 rows. Next: operator runs `rr-domains` and `rr-phone` to register domains and provision tracking numbers, then Gate 2 → Phase 5 deploy.
+> **Current status:** Phase 5 partial. `rr-deploy` and `rr-index` built. All 18 sites pass content audit and full SEO audit. `rr-domains` and `rr-phone` are purchase-gated (present costs, wait for operator approval). `data/sites.csv` initialized with 18 rows, `data/links.csv` initialized (header-only, populated by `rr-links`). Next: operator runs `rr-domains` and `rr-phone` to register domains and provision tracking numbers, then Gate 2 → `rr-deploy` → `rr-index`. Remaining Phase 5 skills: `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route`.
 
 ### Pipeline overview
 
@@ -107,7 +107,7 @@ Each SKILL.md should specify:
 | 2 | `rr-volume-scan`, `rr-validate`, `rr-teardown`, `rr-viability`, `rr-shortlist` | DONE | `candidates.csv`, validation data, teardowns, viability reports, shortlist memo |
 | 3 | `rr-niche-pack`, `rr-niche-brief`, `rr-local-facts`, `rr-keywords`, `rr-renters` | DONE | Niche packs (8), briefs, local facts, 18 site.yaml page plans, 540 buyers in `buyers.csv` |
 | 4 | `rr-site-build`, `rr-content`, `rr-seo-audit`, `rr-domains`, `rr-phone` | DONE | `template/`, sites, content, audit reports, `data/sites.csv`, registered domains (pending Gate 2) |
-| 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` | NOT BUILT | Live sites, backlinks, review reports, pitch materials |
+| 5 | `rr-deploy`, `rr-index`, `rr-links`, `rr-weekly-review`, `rr-pitch-prep`, `rr-route` | PARTIAL — `rr-deploy` and `rr-index` built | Live sites, backlinks, review reports, pitch materials |
 
 ### Gates
 
@@ -126,7 +126,7 @@ shortlisted → ◆ GATE 1 → packed → briefed → content_ready → audited 
 
 ## Data model
 
-- **CSV** files in `data/` are the source of truth for candidates, sites, buyers, and links. Currently `candidates.csv`, `counties.csv`, `cities.csv`, `buyers.csv`, and `sites.csv` exist; `links.csv` is defined for Phase 5.
+- **CSV** files in `data/` are the source of truth for candidates, sites, buyers, and links. Currently `candidates.csv`, `counties.csv`, `cities.csv`, `buyers.csv`, `sites.csv`, and `links.csv` exist. `links.csv` is header-only (populated by `rr-links`). Columns: `site_slug,target_url,type,status,date,page_linked_to,anchor_text,notes`.
 - **`counties.csv`** holds 109 high-growth US counties (8%+ population growth since 2020) used by `scripts/county-scan.mjs` for county-level volume scanning. Columns: `county, state, pop_2026, pop_2020, growth_pct`.
 - **`cities.csv`** holds 59 high-growth US cities used by `scripts/city-scan.mjs` for city-level volume scanning. Columns: `city, state, pop_2026, pop_2020, growth_pct`.
 - **YAML** (`niches/<niche>/pack.yaml`) holds per-niche content packs: sub-services, page outlines with heading structures, guide topics, and local variable definitions with research questions. One pack per niche, shared across all cities.
@@ -183,6 +183,8 @@ Operational scripts in `scripts/`:
 | `verify-data.mjs` | Data integrity verification |
 | `domains.mjs` | Domain availability check and registration via Cloudflare |
 | `phone.mjs` | Phone number search and provisioning via Twilio |
+| `deploy.mjs` | Build and deploy sites to Cloudflare Pages |
+| `index-site.mjs` | Submit sites to GSC, Bing Webmaster, and IndexNow |
 
 ## API integrations
 
