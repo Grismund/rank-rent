@@ -71,4 +71,4 @@ For plain protection in laundry rooms, utility areas and covered patios, standar
 
 ## Get Epoxy Flooring in Schertz
 
-Comal Epoxy Floors serves Schertz from New Braunfels, 14 miles down I-35. Request a free estimate and we will match you with a local contractor who understands I-35 corridor clay and will test, prep and coat your slab the right way, whether it is a straightforward garage floor or a metallic finish for a workshop conversion. The [home page](/) has more on the service area; the [cost calculator](/floor-coating-cost-calculator/) gives a quick estimate.
+Comal Epoxy Floors serves Schertz from New Braunfels, 14 miles down I-35. Call [PHONE] or request a free estimate and we will match you with a local contractor who understands I-35 corridor clay and will test, prep and coat your slab the right way, whether it is a straightforward garage floor or a metallic finish for a workshop conversion. The [home page](/) has more on the service area; the [cost calculator](/floor-coating-cost-calculator/) gives a quick estimate.

@@ -14,7 +14,9 @@ sections:
   - h2: Side-by-Side Comparison
   - h2: What This Means for Your Project
   - h2: Talk to a Local Installer
-sources: []
+sources:
+  - "Niche brief: $200–$600 pricing and service specifications"
+  - "Pricing: $50 to $150 per vehicle; $150 to $250 per vehicle; $200 to $400 per vehicle (larger trucks and SUVs: $300 to $600)"
 faqs: []
 town_facts: []
 ---

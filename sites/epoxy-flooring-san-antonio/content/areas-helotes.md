@@ -76,4 +76,4 @@ The [epoxy vs. polyaspartic guide](/guides/epoxy-vs-polyaspartic-garage-floors/)
 
 ## Get Epoxy Flooring in Helotes
 
-Alamo City Epoxy reaches Helotes from San Antonio via Bandera Road or Loop 1604 West in about 20 minutes. Call [PHONE] or use the form below to request a free estimate. The contractor will assess your slab, test moisture levels and walk you through the finish options that fit your space and budget. For a quick price range, check the [garage floor cost calculator](/floor-coating-cost-calculator/).
+Alamo City Epoxy reaches Helotes from San Antonio via Bandera Road or Loop 1604 West in about 20 minutes. Call [PHONE] or use the form below to request a free estimate. The contractor will assess your slab, test moisture levels and walk you through the finish options that fit your space and budget. For a quick price range, check the [garage floor cost calculator](/garage-floor-cost-calculator/).

@@ -69,4 +69,4 @@ General-purpose [epoxy floor coating](/epoxy-floor-coating/) covers everything i
 
 ## Get Epoxy Flooring in Seguin
 
-Comal Epoxy Floors serves Seguin from New Braunfels, 15 miles west on I-10. New garage in one of the subdivisions, or a plant floor that has to pass inspection, request a free estimate and we will match you with a local contractor. They will check the slab, test for moisture and spec a system that can live on black gumbo. The [home page](/) has more on the full service area, and the [cost calculator](/floor-coating-cost-calculator/) will give you a quick ballpark.
+Comal Epoxy Floors serves Seguin from New Braunfels, 15 miles west on I-10. New garage in one of the subdivisions, or a plant floor that has to pass inspection, Call [PHONE] or request a free estimate and we will match you with a local contractor. They will check the slab, test for moisture and spec a system that can live on black gumbo. The [home page](/) has more on the full service area, and the [cost calculator](/floor-coating-cost-calculator/) will give you a quick ballpark.

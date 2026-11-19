@@ -14,7 +14,7 @@ sections:
       - "Climate Challenges and Concrete Conditions"
       - "Common Applications in Canyon Lake"
   - h2: "Canyon Lake's Epoxy Flooring Options"
-  - h2: "Local Things to Consider"
+  - h2: "What to Know Before Coating in Canyon Lake"
   - h2: "Get Epoxy Flooring in Canyon Lake"
 sources: []
 faqs: []
@@ -59,7 +59,7 @@ Standard [epoxy floor coating](/epoxy-floor-coating/) handles the rest of the ho
 
 The [cost guide](/cost/) lays out system types and price ranges. If your slab tests high for moisture, talk to the installer about a moisture-tolerant primer. It adds to the bill up front and saves you from redoing the floor later.
 
-## Local Things to Consider
+## What to Know Before Coating in Canyon Lake
 
 **Permits:** Canyon Lake is unincorporated, so there is no city and no city building department. Comal County only permits septic systems, floodplain development and Fire Marshal review for commercial buildings. Residential floor coating needs nothing. County Engineer's Office: 830-608-2090. [Comal County Permits](https://www.comalcounty.gov/286/Permits)
 
@@ -71,4 +71,4 @@ The [cost guide](/cost/) lays out system types and price ranges. If your slab te
 
 ## Get Epoxy Flooring in Canyon Lake
 
-Comal Epoxy Floors serves Canyon Lake from New Braunfels, 16 miles down the road. Request a free estimate and we will connect you with an independent contractor who knows Hill Country limestone and lake-side moisture. Boat-bay garage or a weekend house you want sealed before the next trip, they will test the slab and recommend a system that fits. The [home page](/) covers the full service area; the [cost calculator](/floor-coating-cost-calculator/) gives an instant ballpark.
+Comal Epoxy Floors serves Canyon Lake from New Braunfels, 16 miles down the road. Call [PHONE] or request a free estimate and we will connect you with an independent contractor who knows Hill Country limestone and lake-side moisture. Boat-bay garage or a weekend house you want sealed before the next trip, they will test the slab and recommend a system that fits. The [home page](/) covers the full service area; the [cost calculator](/floor-coating-cost-calculator/) gives an instant ballpark.

@@ -14,7 +14,9 @@ sections:
   - h2: How They Compare
   - h2: Practical Takeaways
   - h2: Get Expert Advice
-sources: []
+sources:
+  - "Niche brief: $300–$500 pricing and service specifications"
+  - "Pricing: $150 to $250,; $300 to $400; $450 to $700"
 faqs: []
 town_facts: []
 figures:

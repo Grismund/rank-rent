@@ -14,7 +14,9 @@ sections:
   - h2: How We Calculate These Ranges
   - h2: Cost Estimator FAQ
   - h2: Get an Accurate Quote
-sources: []
+sources:
+  - "Niche brief: $6,000–$15,000 avg job value"
+  - "Pricing: $100 to $500"
 town_facts: []
 schema:
   - WebApplication

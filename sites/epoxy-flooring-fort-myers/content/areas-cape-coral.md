@@ -75,4 +75,4 @@ Commercial spaces along Del Prado Boulevard, Pine Island Road, and the Cape Harb
 
 ## Get Epoxy Flooring in Cape Coral
 
-Fort Myers Floor Coatings serves Cape Coral from Fort Myers, directly across the Caloosahatchee. Request a free estimate and we will connect you with an independent local contractor who will inspect the slab, run a moisture test, and quote the right system for your floor and your water table. The [home page](/) covers the full service area; the [cost calculator](/garage-floor-cost-calculator/) gives a quick ballpark.
+Fort Myers Floor Coatings serves Cape Coral from Fort Myers, directly across the Caloosahatchee. Call [PHONE] or request a free estimate and we will connect you with an independent local contractor who will inspect the slab, run a moisture test, and quote the right system for your floor and your water table. The [home page](/) covers the full service area; the [cost calculator](/garage-floor-cost-calculator/) gives a quick ballpark.

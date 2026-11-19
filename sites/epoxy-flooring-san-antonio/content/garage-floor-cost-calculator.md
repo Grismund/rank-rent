@@ -14,7 +14,8 @@ sections:
   - h2: Where Our Estimates Come From
   - h2: Common Questions About Epoxy Costs
   - h2: Get a Real Estimate from a Local Pro
-sources: []
+sources:
+  - "Niche brief: $1,600–$3,500 avg job value"
 faqs:
   - question: "How accurate is this garage floor cost calculator?"
     answer: "The calculator produces ballpark estimates based on installed pricing from San Antonio-area contractors. Your actual cost may differ depending on slab condition, moisture mitigation needs and the specific finish you choose. Use the estimate as a starting point, then request a free in-person quote for exact numbers."

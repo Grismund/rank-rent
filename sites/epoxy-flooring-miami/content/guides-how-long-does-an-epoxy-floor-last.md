@@ -14,7 +14,9 @@ sections:
   - h2: Key Differences
   - h2: How This Affects Your Decision
   - h2: Get a Professional Opinion
-sources: []
+sources:
+  - "Niche brief: $1,600–$3,500 pricing and service specifications"
+  - "Pricing: $200 to $500; $1,600 to $3,500"
 faqs: []
 town_facts: []
 ---

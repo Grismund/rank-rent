@@ -56,7 +56,7 @@ A topcoat seals the decorative layer and provides the final wear surface. Option
 
 ## How Much Does Epoxy Floor Coating Cost?
 
-Pricing depends on the size of the space, the slab condition and the finish. Solid-color coatings start around $3 per square foot. Flake finishes run $4 to $7. Metallic systems range from $5 to $12. The [cost guide](/cost/) has a full breakdown, and the [calculator](/floor-coating-cost-calculator/) gives you a quick estimate based on your garage dimensions.
+Pricing depends on the size of the space, the slab condition and the finish. Solid-color coatings start around $3 per square foot. Flake finishes run $4 to $7. Metallic systems range from $5 to $12. The [cost guide](/cost/) has a full breakdown, and the [calculator](/garage-floor-cost-calculator/) gives you a quick estimate based on your garage dimensions.
 
 ## Request Epoxy Floor Coating Service
 

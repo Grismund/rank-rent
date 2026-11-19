@@ -14,7 +14,8 @@ sections:
   - h2: Restricted Materials and Where to Bring Them
   - h2: Practical Takeaways
   - h2: Get Expert Advice
-sources: []
+sources:
+  - "Niche brief: $300–$500 pricing and service specifications"
 faqs: []
 town_facts: []
 ---

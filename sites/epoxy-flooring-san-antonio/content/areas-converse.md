@@ -76,4 +76,4 @@ The [cost guide](/cost/) breaks down each option by square footage.
 
 ## Get Epoxy Flooring in Converse
 
-Alamo City Epoxy reaches Converse from San Antonio in about 15 minutes via I-35 or Loop 1604. Call [PHONE] or fill out the form below for a free estimate from a local contractor who will inspect your slab, test for moisture and quote a price before work begins. The [garage floor cost calculator](/floor-coating-cost-calculator/) gives you a quick ballpark while you are still deciding.
+Alamo City Epoxy reaches Converse from San Antonio in about 15 minutes via I-35 or Loop 1604. Call [PHONE] or fill out the form below for a free estimate from a local contractor who will inspect your slab, test for moisture and quote a price before work begins. The [garage floor cost calculator](/garage-floor-cost-calculator/) gives you a quick ballpark while you are still deciding.

@@ -78,4 +78,4 @@ The [epoxy vs. polyaspartic guide](/guides/epoxy-vs-polyaspartic-garage-floors/)
 
 ## Get Epoxy Flooring in Schertz
 
-Alamo City Epoxy covers Schertz from San Antonio, reaching the Bexar County neighborhoods in under 20 minutes via Loop 1604. Call [PHONE] or use the form below for a free estimate. The contractor will inspect your slab, run moisture tests and quote the job before any work begins. For pricing details, check the [cost guide](/cost/) or run a quick number through the [garage floor cost calculator](/floor-coating-cost-calculator/).
+Alamo City Epoxy covers Schertz from San Antonio, reaching the Bexar County neighborhoods in under 20 minutes via Loop 1604. Call [PHONE] or use the form below for a free estimate. The contractor will inspect your slab, run moisture tests and quote the job before any work begins. For pricing details, check the [cost guide](/cost/) or run a quick number through the [garage floor cost calculator](/garage-floor-cost-calculator/).

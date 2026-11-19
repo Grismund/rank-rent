@@ -60,7 +60,7 @@ Alamo City Epoxy connects you with contractors who specialize in every major coa
 - **[Epoxy Floor Coating](/epoxy-floor-coating/)** — general-purpose coatings for patios, utility rooms and workshop floors
 - **[Metallic Epoxy Flooring](/metallic-epoxy-flooring/)** — premium decorative finishes with swirl patterns and visual depth
 
-Not sure which system fits your project? The [cost guide](/cost/) breaks down pricing by finish type, and the [garage floor cost calculator](/floor-coating-cost-calculator/) gives you a ballpark number in seconds.
+Not sure which system fits your project? The [cost guide](/cost/) breaks down pricing by finish type, and the [garage floor cost calculator](/garage-floor-cost-calculator/) gives you a ballpark number in seconds.
 
 ## Service Areas Near San Antonio
 

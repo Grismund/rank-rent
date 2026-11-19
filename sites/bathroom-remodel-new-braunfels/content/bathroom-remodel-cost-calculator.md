@@ -14,7 +14,9 @@ sections:
   - h2: Where Our Estimates Come From
   - h2: Common Questions About Remodel Costs
   - h2: Get a Real Estimate from a Local Pro
-sources: []
+sources:
+  - "Niche brief: $6,000–$15,000 avg job value"
+  - "Pricing: $3,000 to $6,000,; $10,000 to $15,000"
 faqs: []
 town_facts: []
 schema:

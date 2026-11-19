@@ -73,4 +73,4 @@ Retail and commercial spaces along the Coconut Point corridor and US 41 use [com
 
 ## Get Epoxy Flooring in Estero
 
-Fort Myers Floor Coatings serves Estero from Fort Myers, about 15 miles north on US 41. Request a free estimate and we will connect you with an independent local contractor who will inspect the slab, test for moisture, and recommend the right system. The [home page](/) covers the rest of our service area; the [cost calculator](/garage-floor-cost-calculator/) gives a quick ballpark.
+Fort Myers Floor Coatings serves Estero from Fort Myers, about 15 miles north on US 41. Call [PHONE] or request a free estimate and we will connect you with an independent local contractor who will inspect the slab, test for moisture, and recommend the right system. The [home page](/) covers the rest of our service area; the [cost calculator](/garage-floor-cost-calculator/) gives a quick ballpark.

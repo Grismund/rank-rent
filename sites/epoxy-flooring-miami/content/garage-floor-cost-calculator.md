@@ -14,7 +14,9 @@ sections:
   - h2: How We Calculate These Ranges
   - h2: Cost Estimator FAQ
   - h2: Get an Accurate Quote
-sources: []
+sources:
+  - "Niche brief: $1,600–$3,500 avg job value"
+  - "Pricing: $3 to $7 per square foot installed; $5 to $12; $1 to $2 per square foot — is included in the professional estimate rather than treated as an unexpected add-on"
 faqs: []
 town_facts: []
 schema:

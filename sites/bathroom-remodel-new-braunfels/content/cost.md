@@ -18,7 +18,9 @@ sections:
   - h2: Why Bathroom Remodel Prices Vary
   - h2: Cost Breakdown by Component
   - h2: Request a Cost Estimate
-sources: []
+sources:
+  - "Niche brief: $6,000–$15,000 avg job value"
+  - "Pricing: $3,000 to $6,000; $10,000 to $15,000; $6,000 to $10,000"
 faqs: []
 town_facts: []
 figures:

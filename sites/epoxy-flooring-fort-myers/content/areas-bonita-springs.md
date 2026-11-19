@@ -75,4 +75,4 @@ Commercial applications along US 41 and in the new Imperial Crossing development
 
 ## Get Epoxy Flooring in Bonita Springs
 
-Fort Myers Floor Coatings serves Bonita Springs from Fort Myers, about 25 miles north. Request a free estimate and we will connect you with an independent local contractor who will inspect the slab, run a moisture test, and recommend the right system for the conditions. The [home page](/) covers the rest of our service area; the [cost calculator](/garage-floor-cost-calculator/) gives a quick ballpark.
+Fort Myers Floor Coatings serves Bonita Springs from Fort Myers, about 25 miles north. Call [PHONE] or request a free estimate and we will connect you with an independent local contractor who will inspect the slab, run a moisture test, and recommend the right system for the conditions. The [home page](/) covers the rest of our service area; the [cost calculator](/garage-floor-cost-calculator/) gives a quick ballpark.

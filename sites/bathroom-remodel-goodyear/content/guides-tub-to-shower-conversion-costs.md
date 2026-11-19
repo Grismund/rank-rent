@@ -14,7 +14,9 @@ sections:
   - h2: Side-by-Side Comparison
   - h2: What This Means for Your Project
   - h2: Talk to a Local Contractor
-sources: []
+sources:
+  - "Niche brief: $6,000–$15,000 pricing and service specifications"
+  - "Pricing: $2,500 to $7,000; $100 to $500; $500 to $1,500"
 faqs: []
 town_facts: []
 ---

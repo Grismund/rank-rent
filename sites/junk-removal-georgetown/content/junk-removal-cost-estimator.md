@@ -14,7 +14,9 @@ sections:
   - h2: How We Calculate These Ranges
   - h2: Cost Estimator FAQ
   - h2: Get an Accurate Quote
-sources: []
+sources:
+  - "Niche brief: $300–$500 avg job value"
+  - "Pricing: $100 to $150; $150 to $250; $250 to $400"
 faqs:
   - question: How accurate is this junk removal cost estimator?
     answer: The estimator provides a ballpark range based on typical Georgetown-area hauler pricing. Your actual quote depends on the specific items, weight, access conditions, and the hauler you select. Use it as a starting point and call for a free on-site or phone estimate.

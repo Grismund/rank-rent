@@ -18,7 +18,9 @@ sections:
   - h2: Why Window Tinting Prices Vary
   - h2: Film Types and Cost Differences
   - h2: Request a Cost Estimate
-sources: []
+sources:
+  - "Niche brief: $200–$600 avg job value"
+  - "Pricing: $150 to $400; $150 to $350; $200 to $500"
 faqs: []
 town_facts: []
 figures:

@@ -18,7 +18,9 @@ sections:
   - h2: Factors That Influence Epoxy Flooring Cost
   - h2: 'Epoxy or Polyaspartic: Which Costs More?'
   - h2: Get a Free Estimate
-sources: []
+sources:
+  - "Niche brief: $1,600–$3,500 avg job value"
+  - "Pricing: $0.30 to $1.00 per square foot at wholesale; $3 to $7 per square foot; $4 to $7 per square foot"
 faqs: []
 town_facts: []
 figures:

@@ -71,4 +71,4 @@ Commercial epoxy is less common in Lehigh Acres than in Fort Myers proper, but r
 
 ## Get Epoxy Flooring in Lehigh Acres
 
-Fort Myers Floor Coatings serves Lehigh Acres from Fort Myers, 15 miles west on SR 82. Request a free estimate and we will connect you with an independent local contractor who will inspect the slab, run a moisture test, and quote the right system for your floor. The [home page](/) covers the rest of our service area; the [cost calculator](/garage-floor-cost-calculator/) gives a quick ballpark.
+Fort Myers Floor Coatings serves Lehigh Acres from Fort Myers, 15 miles west on SR 82. Call [PHONE] or request a free estimate and we will connect you with an independent local contractor who will inspect the slab, run a moisture test, and quote the right system for your floor. The [home page](/) covers the rest of our service area; the [cost calculator](/garage-floor-cost-calculator/) gives a quick ballpark.

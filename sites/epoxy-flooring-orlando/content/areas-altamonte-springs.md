@@ -78,4 +78,4 @@ The commercial corridor along SR 436 and the Altamonte Mall area use [commercial
 
 ## Request a Quote in Altamonte Springs
 
-Orlando Epoxy Works serves Altamonte Springs from our Orlando contractor network. Request a free estimate and we will connect you with an independent local contractor who will evaluate the concrete, test for moisture, and recommend the right system for your slab and conditions. The [home page](/) covers the full service area; the [cost calculator](/garage-floor-cost-calculator/) gives a quick ballpark.
+Orlando Epoxy Works serves Altamonte Springs from our Orlando contractor network. Call [PHONE] or request a free estimate and we will connect you with an independent local contractor who will evaluate the concrete, test for moisture, and recommend the right system for your slab and conditions. The [home page](/) covers the full service area; the [cost calculator](/garage-floor-cost-calculator/) gives a quick ballpark.

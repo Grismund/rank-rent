@@ -71,4 +71,4 @@ Homeowners who want more than a utility finish go to [metallic epoxy flooring](/
 
 ## Get Epoxy Flooring in San Marcos
 
-Comal Epoxy Floors serves San Marcos from New Braunfels, 18 miles down I-35. Request a free estimate and we will connect you with an independent local contractor who will check your slab, figure out which side of the escarpment it is on, and quote the right system. The [home page](/) covers the rest of our service area; the [cost calculator](/floor-coating-cost-calculator/) gives a quick ballpark.
+Comal Epoxy Floors serves San Marcos from New Braunfels, 18 miles down I-35. Call [PHONE] or request a free estimate and we will connect you with an independent local contractor who will check your slab, figure out which side of the escarpment it is on, and quote the right system. The [home page](/) covers the rest of our service area; the [cost calculator](/floor-coating-cost-calculator/) gives a quick ballpark.

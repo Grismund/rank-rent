@@ -14,7 +14,9 @@ sections:
   - h2: Where Our Estimates Come From
   - h2: Common Questions About Tinting Costs
   - h2: Get a Real Estimate from a Local Installer
-sources: []
+sources:
+  - "Niche brief: $200–$600 avg job value"
+  - "Pricing: $50 to $150; $150 to $250; $200 to $400"
 faqs: []
 town_facts: []
 schema:

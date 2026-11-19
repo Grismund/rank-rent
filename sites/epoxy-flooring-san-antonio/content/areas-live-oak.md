@@ -76,4 +76,4 @@ Full pricing details are in the [cost guide](/cost/).
 
 ## Get Epoxy Flooring in Live Oak
 
-Alamo City Epoxy reaches Live Oak from San Antonio in under 15 minutes via I-35 or Loop 1604. Call [PHONE] or fill out the form below for a free estimate. Every quote includes a slab inspection and moisture testing so you know the condition of your concrete before you commit. For a quick price check, run your garage dimensions through the [cost calculator](/floor-coating-cost-calculator/).
+Alamo City Epoxy reaches Live Oak from San Antonio in under 15 minutes via I-35 or Loop 1604. Call [PHONE] or fill out the form below for a free estimate. Every quote includes a slab inspection and moisture testing so you know the condition of your concrete before you commit. For a quick price check, run your garage dimensions through the [cost calculator](/garage-floor-cost-calculator/).

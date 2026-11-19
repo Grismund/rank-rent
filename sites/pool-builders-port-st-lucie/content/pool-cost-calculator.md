@@ -14,7 +14,9 @@ sections:
   - h2: How We Calculate These Ranges
   - h2: Cost Estimator FAQ
   - h2: Get an Accurate Quote
-sources: []
+sources:
+  - "Niche brief: $25,000–$65,000 avg job value"
+  - "Pricing: $35,000 to $65,000; $25,000 to $55,000; $25,000 to $45,000"
 faqs:
   - question: How accurate is this pool cost calculator?
     answer: The calculator provides a ballpark range based on Treasure Coast contractor pricing for the pool type and features you select. Actual quotes will vary based on yard conditions, water table depth, access, and the specific contractor. Use it as a starting point, then request a free on-site estimate for a real number.

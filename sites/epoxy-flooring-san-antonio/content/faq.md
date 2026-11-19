@@ -53,7 +53,7 @@ The fall-through-spring window, roughly October to April, gives you lower humidi
 
 ### How much does epoxy flooring cost in San Antonio?
 
-Residential garage floor projects typically fall between $1,600 and $3,500 installed. Solid-color and flake coatings run $3 to $7 per square foot. Metallic finishes jump to $5 to $12 per square foot. The [cost guide](/cost/) breaks down pricing by finish type and garage size, and the [calculator](/floor-coating-cost-calculator/) gives an instant ballpark.
+Residential garage floor projects typically fall between $1,600 and $3,500 installed. Solid-color and flake coatings run $3 to $7 per square foot. Metallic finishes jump to $5 to $12 per square foot. The [cost guide](/cost/) breaks down pricing by finish type and garage size, and the [calculator](/garage-floor-cost-calculator/) gives an instant ballpark.
 
 ### Can you apply epoxy over cracked concrete?
 

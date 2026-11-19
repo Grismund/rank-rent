@@ -60,7 +60,7 @@ A clear topcoat seals everything in. Standard epoxy topcoats need 24 to 72 hours
 
 Residential garage floor epoxy in San Antonio typically runs between $1,600 and $3,500 installed, depending on the size of the garage, the condition of the concrete and the finish you select. A standard two-car garage in a Stone Oak or Alamo Ranch subdivision lands in the middle of that range. Three-car bays and metallic finishes push toward the top.
 
-The [cost guide](/cost/) breaks down pricing by finish type and square footage, and the [garage floor cost calculator](/floor-coating-cost-calculator/) produces a quick ballpark for your specific project.
+The [cost guide](/cost/) breaks down pricing by finish type and square footage, and the [garage floor cost calculator](/garage-floor-cost-calculator/) produces a quick ballpark for your specific project.
 
 ## Request Garage Floor Epoxy Service
 

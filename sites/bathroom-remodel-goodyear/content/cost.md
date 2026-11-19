@@ -18,7 +18,9 @@ sections:
   - h2: Factors That Influence Bathroom Remodel Cost
   - h2: Bathroom Remodel Cost by Category
   - h2: Get a Free Estimate
-sources: []
+sources:
+  - "Niche brief: $6,000–$15,000 avg job value"
+  - "Pricing: $3,000 to $6,000; $6,000 to $10,000; $10,000 to $15,000"
 faqs: []
 town_facts: []
 figures:

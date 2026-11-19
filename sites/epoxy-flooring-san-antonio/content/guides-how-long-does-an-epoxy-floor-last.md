@@ -14,7 +14,9 @@ sections:
   - h2: Side-by-Side Comparison
   - h2: What This Means for Your Project
   - h2: Talk to a Local Contractor
-sources: []
+sources:
+  - "Niche brief: $1,600–$3,500 pricing and service specifications"
+  - "Pricing: $1 to $2 per square foot to the cost of a professional installation"
 faqs: []
 town_facts: []
 figures:
