@@ -1,19 +1,19 @@
-slug,niche,area,domain,registrar,renewal_date,tracking_number,forwarding_target,launch_date,first_impression,first_call,monthly_calls,client,price,start_date,payment_status,status
-epoxy-flooring-fort-myers,epoxy-flooring,Fort Myers,,,,,,,,,,,,,,audited
-epoxy-flooring-orlando,epoxy-flooring,Orlando,,,,,,,,,,,,,,audited
-epoxy-flooring-miami,epoxy-flooring,Miami,,,,,,,,,,,,,,audited
-epoxy-flooring-san-antonio,epoxy-flooring,San Antonio,,,,,,,,,,,,,,audited
-epoxy-flooring-new-braunfels,epoxy-flooring,New Braunfels,,,,,,,,,,,,,,audited
-bathroom-remodel-conroe,bathroom-remodel,Conroe,,,,,,,,,,,,,,audited
-bathroom-remodel-palm-bay,bathroom-remodel,Palm Bay,,,,,,,,,,,,,,audited
-bathroom-remodel-new-braunfels,bathroom-remodel,New Braunfels,,,,,,,,,,,,,,audited
-bathroom-remodel-goodyear,bathroom-remodel,Goodyear,,,,,,,,,,,,,,audited
-window-tinting-goodyear,window-tinting,Goodyear,,,,,,,,,,,,,,audited
-window-tinting-cape-coral,window-tinting,Cape Coral,,,,,,,,,,,,,,audited
-window-tinting-conroe,window-tinting,Conroe,,,,,,,,,,,,,,audited
-junk-removal-port-st-lucie,junk-removal,Port St. Lucie,,,,,,,,,,,,,,audited
-junk-removal-georgetown,junk-removal,Georgetown,,,,,,,,,,,,,,audited
-kitchen-remodel-goodyear,kitchen-remodel,Goodyear,,,,,,,,,,,,,,audited
-pool-builders-port-st-lucie,pool-builders,Port St. Lucie,,,,,,,,,,,,,,audited
-paver-sealing-cape-coral,paver-sealing,Cape Coral,,,,,,,,,,,,,,audited
-pressure-washing-conroe,pressure-washing,Conroe,,,,,,,,,,,,,,audited
+slug,niche,area,domain,registrar,renewal_date,tracking_number,tracking_number_sid,forwarding_target,launch_date,first_impression,first_call,monthly_calls,client,price,start_date,payment_status,status
+epoxy-flooring-fort-myers,epoxy-flooring,Fort Myers,,,,,,,,,,,,,,,audited
+epoxy-flooring-orlando,epoxy-flooring,Orlando,,,,,,,,,,,,,,,audited
+epoxy-flooring-miami,epoxy-flooring,Miami,,,,,,,,,,,,,,,audited
+epoxy-flooring-san-antonio,epoxy-flooring,San Antonio,,,,,,,,,,,,,,,audited
+epoxy-flooring-new-braunfels,epoxy-flooring,New Braunfels,,,,,,,,,,,,,,,audited
+bathroom-remodel-conroe,bathroom-remodel,Conroe,,,,,,,,,,,,,,,audited
+bathroom-remodel-palm-bay,bathroom-remodel,Palm Bay,,,,,,,,,,,,,,,audited
+bathroom-remodel-new-braunfels,bathroom-remodel,New Braunfels,,,,,,,,,,,,,,,audited
+bathroom-remodel-goodyear,bathroom-remodel,Goodyear,,,,,,,,,,,,,,,audited
+window-tinting-goodyear,window-tinting,Goodyear,,,,,,,,,,,,,,,audited
+window-tinting-cape-coral,window-tinting,Cape Coral,,,,,,,,,,,,,,,audited
+window-tinting-conroe,window-tinting,Conroe,,,,,,,,,,,,,,,audited
+junk-removal-port-st-lucie,junk-removal,Port St. Lucie,,,,,,,,,,,,,,,audited
+junk-removal-georgetown,junk-removal,Georgetown,,,,,,,,,,,,,,,audited
+kitchen-remodel-goodyear,kitchen-remodel,Goodyear,,,,,,,,,,,,,,,audited
+pool-builders-port-st-lucie,pool-builders,Port St. Lucie,,,,,,,,,,,,,,,audited
+paver-sealing-cape-coral,paver-sealing,Cape Coral,,,,,,,,,,,,,,,audited
+pressure-washing-conroe,pressure-washing,Conroe,,,,,,,,,,,,,,,audited

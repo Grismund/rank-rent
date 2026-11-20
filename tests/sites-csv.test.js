@@ -10,6 +10,7 @@ describe('SITES_CSV_COLUMNS', () => {
     expect(SITES_CSV_COLUMNS).toContain('registrar')
     expect(SITES_CSV_COLUMNS).toContain('renewal_date')
     expect(SITES_CSV_COLUMNS).toContain('tracking_number')
+    expect(SITES_CSV_COLUMNS).toContain('tracking_number_sid')
     expect(SITES_CSV_COLUMNS).toContain('forwarding_target')
     expect(SITES_CSV_COLUMNS).toContain('launch_date')
     expect(SITES_CSV_COLUMNS).toContain('status')
@@ -18,7 +19,7 @@ describe('SITES_CSV_COLUMNS', () => {
 
 describe('readSitesCsv', () => {
   it('parses CSV string into array of row objects', () => {
-    const csv = 'slug,niche,area,domain,registrar,renewal_date,tracking_number,forwarding_target,launch_date,first_impression,first_call,monthly_calls,client,price,start_date,payment_status,status\nepoxy-flooring-fort-myers,epoxy-flooring,Fort Myers,,,,,,,,,,,,,,audited'
+    const csv = 'slug,niche,area,domain,registrar,renewal_date,tracking_number,tracking_number_sid,forwarding_target,launch_date,first_impression,first_call,monthly_calls,client,price,start_date,payment_status,status\nepoxy-flooring-fort-myers,epoxy-flooring,Fort Myers,,,,,,,,,,,,,,,audited'
     const rows = readSitesCsv(csv)
     expect(rows).toHaveLength(1)
     expect(rows[0].slug).toBe('epoxy-flooring-fort-myers')
@@ -40,13 +41,13 @@ describe('readSitesCsv', () => {
   })
 
   it('handles quoted fields with commas', () => {
-    const csv = 'slug,niche,area,domain,registrar,renewal_date,tracking_number,forwarding_target,launch_date,first_impression,first_call,monthly_calls,client,price,start_date,payment_status,status\ntest-site,niche,"Fort Myers, FL",,,,,,,,,,,,,,audited'
+    const csv = 'slug,niche,area,domain,registrar,renewal_date,tracking_number,tracking_number_sid,forwarding_target,launch_date,first_impression,first_call,monthly_calls,client,price,start_date,payment_status,status\ntest-site,niche,"Fort Myers, FL",,,,,,,,,,,,,,,audited'
     const rows = readSitesCsv(csv)
     expect(rows[0].area).toBe('Fort Myers, FL')
   })
 
   it('parses multiple rows', () => {
-    const csv = 'slug,niche,area,domain,registrar,renewal_date,tracking_number,forwarding_target,launch_date,first_impression,first_call,monthly_calls,client,price,start_date,payment_status,status\nsite-a,n1,A1,,,,,,,,,,,,,,audited\nsite-b,n2,A2,,,,,,,,,,,,,,audited'
+    const csv = 'slug,niche,area,domain,registrar,renewal_date,tracking_number,tracking_number_sid,forwarding_target,launch_date,first_impression,first_call,monthly_calls,client,price,start_date,payment_status,status\nsite-a,n1,A1,,,,,,,,,,,,,,,audited\nsite-b,n2,A2,,,,,,,,,,,,,,,audited'
     const rows = readSitesCsv(csv)
     expect(rows).toHaveLength(2)
     expect(rows[0].slug).toBe('site-a')
@@ -64,6 +65,7 @@ describe('writeSitesCsv', () => {
       registrar: '',
       renewal_date: '',
       tracking_number: '',
+      tracking_number_sid: '',
       forwarding_target: '',
       launch_date: '',
       first_impression: '',
@@ -88,9 +90,9 @@ describe('writeSitesCsv', () => {
       niche: 'niche',
       area: 'Fort Myers, FL',
       domain: '', registrar: '', renewal_date: '', tracking_number: '',
-      forwarding_target: '', launch_date: '', first_impression: '',
-      first_call: '', monthly_calls: '', client: '', price: '',
-      start_date: '', payment_status: '', status: 'audited',
+      tracking_number_sid: '', forwarding_target: '', launch_date: '',
+      first_impression: '', first_call: '', monthly_calls: '', client: '',
+      price: '', start_date: '', payment_status: '', status: 'audited',
     }]
     const csv = writeSitesCsv(rows)
     expect(csv).toContain('"Fort Myers, FL"')
@@ -100,10 +102,10 @@ describe('writeSitesCsv', () => {
     const rows = [{
       slug: 'site-a', niche: 'n1', area: 'A1', domain: 'example.com',
       registrar: 'cloudflare', renewal_date: '2027-11-19',
-      tracking_number: '+12395550123', forwarding_target: '',
-      launch_date: '', first_impression: '', first_call: '',
-      monthly_calls: '', client: '', price: '', start_date: '',
-      payment_status: '', status: 'purchased',
+      tracking_number: '+12395550123', tracking_number_sid: '',
+      forwarding_target: '', launch_date: '', first_impression: '',
+      first_call: '', monthly_calls: '', client: '', price: '',
+      start_date: '', payment_status: '', status: 'purchased',
     }]
     const csv = writeSitesCsv(rows)
     const parsed = readSitesCsv(csv)

@@ -376,6 +376,7 @@ if (existsSync(sitesCsvPath)) {
   for (const p of provisioned) {
     rows = updateSiteRow(rows, p.slug, {
       tracking_number: p.phoneNumber,
+      tracking_number_sid: p.sid,
     })
   }
   writeFileSync(sitesCsvPath, writeSitesCsv(rows), 'utf-8')

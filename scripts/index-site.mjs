@@ -12,11 +12,11 @@
 
 import { readFileSync, existsSync, readdirSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
-import { createSign } from 'node:crypto'
 import { load as loadYaml } from 'js-yaml'
 import { parseEnv } from '../lib/dataforseo-client.js'
 import { readSitesCsv } from '../lib/sites-csv.js'
 import { parseWaveAssignments, getTargetSlugs } from '../lib/wave-assignments.js'
+import { getGoogleAccessToken } from '../lib/google-auth.js'
 import {
   buildSitemapUrl,
   buildIndexNowPayload,
@@ -59,47 +59,6 @@ const CF_ACCOUNT = env.CLOUDFLARE_ACCOUNT_ID
 const BING_API_KEY = env.BING_WEBMASTER_API_KEY
 const GOOGLE_CREDS_PATH = env.GOOGLE_APPLICATION_CREDENTIALS || process.env.GOOGLE_APPLICATION_CREDENTIALS
 const GOOGLE_PROJECT = env.GOOGLE_CLOUD_PROJECT || process.env.GOOGLE_CLOUD_PROJECT
-
-// ── Google Auth helper ──────────────────────────────────────────────
-
-async function getGoogleAccessToken(credentialsPath, scopes) {
-  const creds = JSON.parse(readFileSync(credentialsPath, 'utf-8'))
-
-  const header = Buffer.from(JSON.stringify({ alg: 'RS256', typ: 'JWT' })).toString('base64url')
-  const now = Math.floor(Date.now() / 1000)
-  const claimSet = {
-    iss: creds.client_email,
-    scope: scopes.join(' '),
-    aud: 'https://oauth2.googleapis.com/token',
-    iat: now,
-    exp: now + 3600,
-  }
-  const payload = Buffer.from(JSON.stringify(claimSet)).toString('base64url')
-
-  const signInput = `${header}.${payload}`
-  const sign = createSign('RSA-SHA256')
-  sign.update(signInput)
-  const signature = sign.sign(creds.private_key, 'base64url')
-
-  const jwt = `${signInput}.${signature}`
-
-  const resp = await fetch('https://oauth2.googleapis.com/token', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams({
-      grant_type: 'urn:ietf:params:oauth:grant-type:jwt-bearer',
-      assertion: jwt,
-    }),
-  })
-
-  if (!resp.ok) {
-    const text = await resp.text()
-    throw new Error(`Google token exchange failed: ${resp.status} ${text}`)
-  }
-
-  const data = await resp.json()
-  return data.access_token
-}
 
 // ── Cloudflare DNS helper ───────────────────────────────────────────
 
